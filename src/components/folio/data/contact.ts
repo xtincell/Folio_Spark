@@ -1,0 +1,15 @@
+export const CONTACT = {
+  email: 'xtincell@gmail.com',
+  whatsappDisplay: '+237 694 17 17 99',
+  whatsappLink: 'https://wa.me/237694171799',
+  linkedinDisplay: '/in/dmalexandre',
+  linkedinLink: 'https://linkedin.com/in/dmalexandre/',
+  instagram: 'https://instagram.com/xtincell',
+  twitter: 'https://x.com/xtincell',
+  facebook: 'https://facebook.com/xtincell',
+  behance: 'https://behance.net/xtincell',
+  handle: '@xtincell',
+  footerName: 'XTINCELL — ALEXANDRE DJENGUE',
+  footerMeta: 'Brand Architect & Storytelling Consultant · © 2026',
+  footerTagline: 'Built with systems, not just art.',
+} as const;
