@@ -39,6 +39,11 @@
 .brand img { height: 22px; width: auto; }
 .nav { display: flex; gap: 28px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-3); }
 .nav a:hover { color: var(--ink); }
+.nav a[aria-current="page"] { color: var(--accent); }
+@media (max-width: 760px) {
+  .topbar { flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px 20px; }
+  .nav { flex-wrap: wrap; gap: 14px; font-size: 10px; }
+}
 
 .page {
   max-width: 1100px;
@@ -89,7 +94,10 @@
 }
 .sectionHead {
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.20em; text-transform: uppercase; color: var(--ink-3);
-  position: sticky; top: 100px; align-self: start;
+  align-self: start;
+}
+@media (min-width: 900px) {
+  .sectionHead { position: sticky; top: 100px; }
 }
 .sectionHead :global(.num) { display: block; color: var(--accent); margin-bottom: 6px; font-size: 10px; }
 .sectionHead :global(.title) {
@@ -105,14 +113,18 @@
 
 .pillars { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; }
 .pillars li {
-  display: grid; grid-template-columns: 28px 1fr; gap: 16px;
+  display: grid; grid-template-columns: minmax(80px, max-content) 1fr; gap: 16px;
   padding: 18px 0; border-bottom: 1px solid var(--line);
   align-items: baseline;
 }
+@media (min-width: 720px) {
+  .pillars li { grid-template-columns: 120px 1fr; }
+}
 .pillars li:last-child { border-bottom: 0; }
 .pillars :global(.k) { font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; color: var(--accent); }
-.pillars :global(.t) { font-family: var(--serif); font-size: 22px; letter-spacing: -0.01em; }
-.pillars :global(.d) { color: var(--ink-2); font-size: 14px; margin-top: 4px; grid-column: 2; }
+.pillars li > span:nth-child(2) { display: flex; flex-direction: column; gap: 4px; }
+.pillars :global(.t) { font-family: var(--serif); font-size: 22px; letter-spacing: -0.01em; line-height: 1.2; }
+.pillars :global(.d) { color: var(--ink-2); font-size: 14px; line-height: 1.55; }
 
 .tl { list-style: none; padding: 0; margin: 0; }
 .tl li {

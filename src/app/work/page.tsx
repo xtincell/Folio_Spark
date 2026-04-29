@@ -3,6 +3,8 @@ import Image from 'next/image';
 import styles from '@/styles/work.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { PRACTICES } from '@/components/folio/data/practices';
+import { AgencyChain } from '@/components/folio/AgencyChain';
+import { ProofEmbed } from '@/components/folio/ProofEmbed';
 
 const HAT_IDS = ['strategy', 'art', 'execution'] as const;
 type HatId = (typeof HAT_IDS)[number];
@@ -82,7 +84,7 @@ function splitProjName(name: string): { head: string; em?: string } {
 export const metadata = {
   title: 'Folio — Trois casquettes · Xtincell',
   description:
-    "Le folio complet d'Alexandre « Xtincell » Djengue : Stratégie, Direction Créative & Artistique, Exécution. 13 projets, 17 ans, 12+ marques.",
+    "Le folio complet d'Alexandre « Xtincell » Djengue : Stratégie, Direction Créative & Artistique, Exécution. 20 projets, 15 ans, 25+ marques.",
 };
 
 export default function FolioWorkPage() {
@@ -95,18 +97,17 @@ export default function FolioWorkPage() {
         </Link>
         <nav className={styles.nav}>
           <Link href="/">Accueil</Link>
+          <Link href="/work" aria-current="page">Folio</Link>
+          <Link href="/galerie">Galerie</Link>
           <Link href="/cv">CV</Link>
-          <a href="#strategy">Stratégie</a>
-          <a href="#art">Direction</a>
-          <a href="#execution">Exécution</a>
-          <a href={`mailto:${CONTACT.email}`}>Contact</a>
+          <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
         </nav>
       </header>
 
       <section className={styles.folioHero}>
         <div className={styles.folioEyebrow}>
-          FOLIO <span className="sep">·</span> 13 PROJETS <span className="sep">·</span> 17 ANS{' '}
-          <span className="sep">·</span> 12+ MARQUES
+          FOLIO <span className="sep">·</span> 20 PROJETS <span className="sep">·</span> 15 ANS{' '}
+          <span className="sep">·</span> 25+ MARQUES
         </div>
         <h1>
           Trois <em>casquettes</em>,
@@ -171,12 +172,23 @@ export default function FolioWorkPage() {
                       ) : null}
                     </h3>
                     <p className={styles.projRole}>{p.role}</p>
+                    {p.chain && p.chain.length > 1 && <AgencyChain chain={p.chain} />}
                     <p className={styles.projBody}>{p.body}</p>
                     <div className={styles.projTags}>
                       {p.tags.map((t) => (
                         <span key={t}>{t}</span>
                       ))}
                     </div>
+                    {p.proofs && p.proofs.length > 0 && (
+                      <div className={styles.projProofs}>
+                        <div className={styles.proofsLabel}>Preuves vidéo</div>
+                        <div className={styles.proofsGrid}>
+                          {p.proofs.map((pr, i) => (
+                            <ProofEmbed key={`${pr.url}-${i}`} pr={pr} />
+                          ))}
+                        </div>
+                      </div>
+                    )}
                   </article>
                 );
               })}
@@ -196,8 +208,16 @@ export default function FolioWorkPage() {
           logo, on devrait se parler.
         </p>
         <div className={styles.footRow}>
-          <a className={styles.btn} href={`mailto:${CONTACT.email}`}>
-            Écrire — {CONTACT.email}
+          <a
+            className={styles.btn}
+            href={CONTACT.whatsappLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            WhatsApp — {CONTACT.whatsappDisplay}
+          </a>
+          <a className={`${styles.btn} ${styles.btnGhost}`} href={`mailto:${CONTACT.email}`}>
+            Email — {CONTACT.email}
           </a>
           <Link className={`${styles.btn} ${styles.btnGhost}`} href="/cv">
             Lire le CV →

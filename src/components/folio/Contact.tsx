@@ -26,14 +26,19 @@ export function Contact() {
         </p>
 
         <div className={styles.contactGrid}>
-          <a className={`${styles.contactCard} ${styles.contactMain}`} href={`mailto:${CONTACT.email}`}>
-            <div className={styles.ccLabel}>Écrire</div>
-            <div className={styles.ccValue}>{CONTACT.email}</div>
+          <a
+            className={`${styles.contactCard} ${styles.contactMain}`}
+            href={CONTACT.whatsappLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={styles.ccLabel}>WhatsApp — réponse rapide</div>
+            <div className={styles.ccValue}>{CONTACT.whatsappDisplay}</div>
             <div className={styles.ccArrow}>→</div>
           </a>
-          <a className={styles.contactCard} href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
-            <div className={styles.ccLabel}>WhatsApp</div>
-            <div className={styles.ccValue}>{CONTACT.whatsappDisplay}</div>
+          <a className={styles.contactCard} href={`mailto:${CONTACT.email}`}>
+            <div className={styles.ccLabel}>Email</div>
+            <div className={styles.ccValue}>{CONTACT.email}</div>
           </a>
           <a className={styles.contactCard} href={CONTACT.linkedinLink} target="_blank" rel="noreferrer">
             <div className={styles.ccLabel}>LinkedIn</div>

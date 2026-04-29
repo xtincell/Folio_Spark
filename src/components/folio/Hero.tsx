@@ -13,19 +13,36 @@ export function Hero() {
       </div>
 
       <div className={styles.heroGrid}>
-        <div className={styles.heroMeta}>
-          <span className="dot" /> Disponible · MATANGA Agency · 2026
-        </div>
-
-        <div>
-          <div className={styles.heroEyebrow}>
-            <span>Brand Architect</span>
-            <span className="sep">/</span>
-            <span>Storytelling Consultant</span>
-            <span className="sep">/</span>
-            <span>Toolsmith</span>
+        <header className={styles.heroMasthead}>
+          <div className={styles.mastRule}>
+            <span>Vol. 15</span>
+            <span className={styles.mastStatus}>
+              <span className="dot" aria-hidden="true" />
+              Disponible · Mandat 2026
+            </span>
+            <span>Folio · Édition 2026</span>
           </div>
 
+          <div className={styles.mastKicker}>
+            <span>—</span>
+            <em>Alexandre Djengue</em>
+            <span>—</span>
+          </div>
+
+          <div className={styles.mastTitle}>
+            {'XTINCELL'.split('').map((c, i) => (
+              <span key={i}>{c}</span>
+            ))}
+          </div>
+
+          <div className={styles.mastRule}>
+            <span>Brand Architect</span>
+            <span>Storytelling Consultant</span>
+            <span>Toolsmith</span>
+          </div>
+        </header>
+
+        <div>
           <h1 className={styles.heroTitle}>
             <span className="line">Je ne crée pas</span>
             <span className="line"><em>de l&apos;</em>art<em>.</em></span>
@@ -60,11 +77,24 @@ export function Hero() {
               alt="Alexandre Djengue — portrait"
               priority
             />
+
+            <div className={`${styles.portraitMacaron} ${styles.macaronPrimary}`}>
+              <span className={styles.macaronEyebrow}>Rôle principal</span>
+              <span className={styles.macaronTitle}>CEO</span>
+              <span className={styles.macaronOrg}>UPgraders</span>
+            </div>
+
+            <div className={`${styles.portraitMacaron} ${styles.macaronSecondary}`}>
+              <span className={styles.macaronEyebrow}>Mandat actif</span>
+              <span className={styles.macaronTitle}>DC&amp;A</span>
+              <span className={styles.macaronOrg}>MATANGA Agency</span>
+            </div>
+
             <div className={styles.portraitTag}>
               <div className={styles.tagRow}><span>NOM</span><span>Djengue, Alexandre</span></div>
               <div className={styles.tagRow}><span>ALIAS</span><span>Xtincell</span></div>
               <div className={styles.tagRow}><span>BASE</span><span>YDE → ABJ</span></div>
-              <div className={styles.tagRow}><span>VER</span><span>17.0</span></div>
+              <div className={styles.tagRow}><span>VER</span><span>15.0 — 2026</span></div>
             </div>
           </div>
           <div className={styles.portraitCaption}>

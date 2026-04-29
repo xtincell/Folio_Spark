@@ -23,8 +23,9 @@ export function Nav() {
       </a>
       <div className={styles.navLinks}>
         <a href="#manifeste">Manifeste</a>
-        <a href="#travaux">Travaux</a>
+        <a href="#methode">Méthode</a>
         <Link href="/work">Folio ↗</Link>
+        <Link href="/galerie">Galerie ↗</Link>
         <Link href="/cv">CV ↗</Link>
         <a href="#contact" className={styles.navCta}>Contact →</a>
       </div>

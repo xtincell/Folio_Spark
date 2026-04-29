@@ -15,26 +15,53 @@ type TLEntry = {
 
 const PARCOURS: TLEntry[] = [
   {
-    when: '2022 — auj.',
-    org: 'UPgraders · Fondateur',
-    rolePrefix: 'Brand Architect & ',
-    roleEm: 'storytelling consultant',
+    when: '2025 — auj.',
+    org: 'MATANGA Agency · Douala',
+    rolePrefix: 'Directeur ',
+    roleEm: 'Créatif & Artistique',
+    desc:
+      "Responsable de la narration et de la cohérence des opérations clients. Coordination de l'équipe créative sur la production.",
+    tags: ['Creative direction', 'Brand narrative', 'Agency'],
+  },
+  {
+    when: '2017 — auj.',
+    org: 'UPgraders · Co-fondateur',
+    rolePrefix: 'Creative Group Head — ',
+    roleEm: 'CEO depuis 2023',
     desc:
       "Studio créatif IA-first. Pipelines calibrés par marque, prompts-systèmes versionnés, console unique brief → arbitrage → livrable. Conseil + production pour marques premium d'Afrique centrale.",
     tags: ['Strategy', 'AI workflows', 'Brand systems'],
   },
   {
-    when: '2019 — 2022',
-    org: 'MOTION19 · Cofondateur · Douala',
-    rolePrefix: 'Chef de projet · ',
-    roleEm: 'Directeur marketing',
+    when: '2023 — auj.',
+    org: 'Friends Photography Studio · Douala',
+    rolePrefix: 'Responsable ',
+    roleEm: "du développement d'activité",
     desc:
-      "Marque créée de A à Z sur 30 mois. Architecture du système de vente (Shopify × Quanta Hive), construction d'équipe (7 personnes), programme communautaire et RP local.",
+      "Pilotage commercial et créatif du studio : direction artistique, partenariats, prises de vue corporate et événementielles.",
+    tags: ['Photo', 'Studio', 'Business dev'],
+  },
+  {
+    when: '2021 — 2023',
+    org: 'Motion19',
+    rolePrefix: 'Brand Manager — ',
+    roleEm: 'architecture branding',
+    desc:
+      "Identification des besoins branding / comm / marketing, recrutement de l'équipe digitale (designer, community manager, social media, webdev), management de la production de contenu, suivi performance, respect planning et budget.",
     tags: ['Brand build', 'Go-to-market', 'E-commerce'],
   },
   {
+    when: '2019 — 2021',
+    org: 'Bimstr · Bimstr Agency',
+    rolePrefix: 'Directeur artistique assistant & ',
+    roleEm: 'graphiste',
+    desc:
+      "Photographe événementiel, designer (visuels d'agence + identités clients : logo, charte, web), motion designer (vidéos pub, lyrics videos). Clients notables : IFC, Cible RH, SABC, Chococam (Tartina).",
+    tags: ['DA', 'Photo', 'Motion'],
+  },
+  {
     when: '2016 — 2022',
-    org: 'Universal Music Africa',
+    org: 'Universal Music Africa · freelance',
     rolePrefix: 'Direction artistique & ',
     roleEm: "image d'artistes",
     desc:
@@ -43,7 +70,7 @@ const PARCOURS: TLEntry[] = [
   },
   {
     when: '2014 — 2020',
-    org: 'Chococam (Tiger Brands)',
+    org: 'Chococam (Tiger Brands) · freelance',
     rolePrefix: 'Production & ',
     roleEm: 'image de marque',
     roleSuffix: ' — multi-références',
@@ -61,22 +88,30 @@ const PARCOURS: TLEntry[] = [
     tags: ['Photo', 'Telco', 'Agency'],
   },
   {
-    when: '2010 — 2014',
-    org: 'STUDIO44 · KEMCARE · Bimstr · Omenkart',
-    rolePrefix: 'Direction artistique ',
-    roleEm: 'en agence',
-    roleSuffix: ' & freelance',
+    when: '2018',
+    org: 'Studio Graphique 44 · Will & Brothers',
+    rolePrefix: 'Creative Business Consultant + ',
+    roleEm: 'Business Developer',
     desc:
-      'Stratégie + identité pour marques de soin, lifestyle, marques blanches. Premières années opérationnelles avant la consolidation des trois pratiques.',
-    tags: ['DA', 'Identity', 'Freelance'],
+      "Implémentation Studio44 (identité graphique, plan comptable, templates juridiques). Chez W&B : prospection, visuels de communication, contenus vidéo.",
+    tags: ['Identity', 'Consulting', 'BD'],
   },
   {
-    when: '2008',
-    org: 'Diplôme',
-    rolePrefix: 'Ingénieur ',
-    roleEm: 'télécommunications',
+    when: '2011 — 2016',
+    org: 'Freelance · Graphiste / Webdesigner',
+    rolePrefix: 'Activité ',
+    roleEm: 'principale',
     desc:
-      "Formation initiale qui informe encore aujourd'hui ma manière de modéliser une marque comme un système d'information.",
+      "Approche associant culture, diversité et standards internationaux, dans des délais serrés. Cinq ans pour consolider les trois pratiques avant l'agence.",
+    tags: ['DA', 'Web', 'Freelance'],
+  },
+  {
+    when: '2008 — 2013',
+    org: 'Iftic-Sup · Yaoundé',
+    rolePrefix: 'Ingénieur des Travaux — ',
+    roleEm: 'télécommunications & réseaux',
+    desc:
+      "Formation initiale qui informe encore aujourd'hui ma manière de modéliser une marque comme un système d'information. Bac D — Sciences (Collège Saint-Michel, 2008).",
   },
 ];
 
@@ -87,27 +122,27 @@ const SKILLS: SkillBlock[] = [
   {
     title: 'Stratégie & Marque',
     rows: [
-      { label: 'Brand systems', meta: '15+ ans' },
+      { label: 'Brand systems', meta: '15 ans' },
       { label: 'Méthode ADVE/RTIS', meta: 'propriétaire' },
-      { label: 'Go-to-market FMCG / DTC', meta: '—' },
-      { label: 'Storytelling éditorial', meta: '—' },
+      { label: 'Go-to-market FMCG / DTC', meta: '12 ans' },
+      { label: 'Storytelling éditorial', meta: '8 ans' },
     ],
   },
   {
     title: 'Direction artistique',
     rows: [
-      { label: 'Direction photo & vidéo', meta: '17 ans' },
-      { label: 'Identités visuelles', meta: '—' },
-      { label: "Direction d'image (musique)", meta: '—' },
-      { label: 'Scenography & events', meta: '—' },
+      { label: 'Direction photo & vidéo', meta: '15 ans' },
+      { label: 'Identités visuelles', meta: '15 ans' },
+      { label: "Direction d'image (musique)", meta: '9 ans' },
+      { label: 'Scenography & events', meta: '6 ans' },
     ],
   },
   {
     title: 'Exécution',
     rows: [
       { label: 'Photographie', meta: 'natif' },
-      { label: 'Vidéo / motion', meta: '—' },
-      { label: 'Suite Adobe + Figma', meta: '—' },
+      { label: 'Vidéo / motion', meta: '12 ans' },
+      { label: 'Suite Adobe + Figma', meta: 'quotidien' },
       { label: "Direction d'équipe créa", meta: '7+ pers' },
     ],
   },
@@ -116,8 +151,8 @@ const SKILLS: SkillBlock[] = [
     rows: [
       { label: 'Pipelines IA gouvernés', meta: 'UPgraders' },
       { label: 'Shopify · Quanta Hive', meta: 'opérationnel' },
-      { label: 'Prompts-systèmes versionnés', meta: '—' },
-      { label: 'Notion · Linear · Git', meta: '—' },
+      { label: 'Prompts-systèmes versionnés', meta: 'signature' },
+      { label: 'Notion · Linear · Git', meta: 'quotidien' },
     ],
   },
 ];
@@ -127,14 +162,18 @@ const CLIENTS = [
   'Chococam · Tiger Brands',
   'Orange (via McCann)',
   'CIMENCAM',
+  'IFC',
+  'SABC',
+  'Cible RH',
   'Her Media · Maison Moët',
   'Sellkako',
-  'Will&Brothers',
+  'Will & Brothers',
   'KOF Festival',
-  'MOTION19',
+  'Motion19',
   'KEMCARE',
-  'STUDIO44',
+  'Studio Graphique 44',
   'Bimstr',
+  'Organiz Agency',
   'Omenkart',
 ];
 
@@ -155,14 +194,16 @@ export default function FolioCVPage() {
         <nav className={styles.nav}>
           <Link href="/">Accueil</Link>
           <Link href="/work">Folio</Link>
-          <a href={`mailto:${CONTACT.email}`}>Contact</a>
+          <Link href="/galerie">Galerie</Link>
+          <Link href="/cv" aria-current="page">CV</Link>
+          <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
         </nav>
       </header>
 
       <main className={styles.page}>
         <section className={styles.cvHead}>
           <div>
-            <div className={styles.cvEyebrow}>Curriculum Vitae · v17.0 · 2026</div>
+            <div className={styles.cvEyebrow}>Curriculum Vitae · v15.0 · 2026 · 15 ans de pratique</div>
             <h1 className={styles.cvName}>
               Alexandre <em>Djengue</em>
             </h1>
@@ -170,15 +211,19 @@ export default function FolioCVPage() {
           </div>
           <dl className={styles.cvMeta}>
             <dt>Né</dt>
-            <dd>1985 · Cameroun</dd>
+            <dd>1991 · Cameroun</dd>
             <dt>Base</dt>
             <dd>Yaoundé → Abidjan</dd>
+            <dt>WhatsApp</dt>
+            <dd>
+              <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
+                {CONTACT.whatsappDisplay}
+              </a>
+            </dd>
             <dt>Email</dt>
             <dd>
               <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
             </dd>
-            <dt>Tél</dt>
-            <dd>{CONTACT.whatsappDisplay}</dd>
             <dt>LinkedIn</dt>
             <dd>{CONTACT.linkedinDisplay}</dd>
             <dt>IG / Web</dt>
@@ -194,8 +239,8 @@ export default function FolioCVPage() {
           </div>
           <div className={styles.sectionBody}>
             <p className={styles.lede}>
-              17 ans en marketing &amp; design. Ingénieur télécom de formation, directeur artistique
-              de pratique. Je travaille les marques comme des{' '}
+              15 ans en marketing &amp; design. Ingénieur télécom de formation, directeur
+              artistique de pratique. Je travaille les marques comme des{' '}
               <em>systèmes d&apos;exploitation</em> : ADN, signaux, flux, conversion.
             </p>
             <ul className={styles.pillars}>
@@ -317,14 +362,20 @@ export default function FolioCVPage() {
               <li>
                 <span className="k">FR</span>
                 <span>
-                  <span className="t">Français — natif</span>
+                  <span className="t">Français — natif / bilingue</span>
                 </span>
               </li>
               <li>
                 <span className="k">EN</span>
                 <span>
-                  <span className="t">Anglais — professionnel</span>
-                  <span className="d">Mission, brief, rédaction.</span>
+                  <span className="t">Anglais — intermédiaire pro</span>
+                  <span className="d">Brief, mission, rédaction courante.</span>
+                </span>
+              </li>
+              <li>
+                <span className="k">JA</span>
+                <span>
+                  <span className="t">Japonais — notions élémentaires</span>
                 </span>
               </li>
               <li>
@@ -332,7 +383,7 @@ export default function FolioCVPage() {
                 <span>
                   <span className="t">Yaoundé · Douala · Abidjan</span>
                   <span className="d">
-                    Disponible mobilité Afrique de l&apos;Ouest et centrale, remote France/Europe.
+                    Disponible mobilité Afrique de l&apos;Ouest et centrale, remote France / Europe.
                   </span>
                 </span>
               </li>
@@ -343,8 +394,13 @@ export default function FolioCVPage() {
         <footer className={styles.cvFoot}>
           <Image src="/logo-spark-white.png" alt="Xtincell" width={28} height={28} />
           <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
-          <a className="cta" href={`mailto:${CONTACT.email}`}>
-            Écrire — {CONTACT.email} →
+          <a
+            className="cta"
+            href={CONTACT.whatsappLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            WhatsApp — {CONTACT.whatsappDisplay} →
           </a>
         </footer>
 

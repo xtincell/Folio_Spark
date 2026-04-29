@@ -37,7 +37,11 @@
 .brand img { height: 22px; width: auto; }
 .nav { display: flex; gap: 28px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-3); }
 .nav a:hover { color: var(--ink); }
-@media (max-width: 720px) { .nav a:not(:first-child):not(:last-child) { display: none; } }
+.nav a[aria-current="page"] { color: var(--accent); }
+@media (max-width: 760px) {
+  .topbar { flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px 20px; }
+  .nav { flex-wrap: wrap; gap: 14px; font-size: 10px; }
+}
 
 .folioHero {
   padding: 140px 40px 100px;
@@ -148,10 +152,27 @@
   color: var(--ink-2); font-size: 14px; line-height: 1.55;
   margin: 4px 0 0; max-width: 540px;
 }
-.projTags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 18px; }
+.projTags { display: flex; flex-wrap: wrap; gap: 6px; padding-top: 18px; }
 .projTags span {
   font-family: var(--mono); font-size: 10px; letter-spacing: 0.10em;
   color: var(--ink-3); padding: 4px 9px; border: 1px solid var(--line-2); border-radius: 99px;
+}
+
+.projProofs {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px dashed var(--line-2);
+}
+.proofsLabel {
+  font-family: var(--mono);
+  font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.proofsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
 }
 
 .bwDivider { margin: 0; padding: 60px 0 0; max-width: 100%; border-bottom: 1px solid var(--line); }

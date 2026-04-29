@@ -4,11 +4,13 @@
   "private": true,
   "description": "Xtincell Folio — Alexandre Djengue · Brand Architect & Storytelling Consultant",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 1009",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 1009",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sync-galleries": "node scripts/sync-galleries.mjs",
+    "sync-galleries:dry": "node scripts/sync-galleries.mjs --dry --verbose"
   },
   "dependencies": {
     "next": "15.5.14",

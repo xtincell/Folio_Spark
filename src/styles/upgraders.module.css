@@ -56,6 +56,20 @@
 }
 .topnavBrand b { color: var(--coral); font-weight: 600; }
 
+.topnavLinks {
+  display: flex; gap: 22px;
+  font-family: var(--mono);
+  font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--ink-2);
+}
+.topnavLinks a { color: var(--ink-2); transition: color .2s ease; }
+.topnavLinks a:hover { color: var(--ink); }
+@media (max-width: 820px) {
+  .topnavRow { flex-wrap: wrap; gap: 12px; }
+  .topnavBrand { display: none; }
+  .topnavLinks { gap: 14px; font-size: 10px; flex-wrap: wrap; }
+}
+
 .hero {
   position: relative;
   min-height: 80vh;

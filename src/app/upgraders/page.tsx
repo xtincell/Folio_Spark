@@ -220,6 +220,12 @@ export default function UpgradersPage() {
               <span className="arrow">←</span>
               <span>Folio Xtincell</span>
             </Link>
+            <div className={styles.topnavLinks}>
+              <Link href="/work">Folio</Link>
+              <Link href="/galerie">Galerie</Link>
+              <Link href="/cv">CV</Link>
+              <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
+            </div>
             <div className={styles.topnavBrand}>
               UPgraders <b>·</b> page dédiée
             </div>
@@ -501,8 +507,21 @@ export default function UpgradersPage() {
             </div>
             <div className={styles.footerCtaBlock}>
               <span className={styles.footerCtaLabel}>Démarrer un projet</span>
-              <a className={styles.footerCta} href={`mailto:${CONTACT.email}`}>
-                <span>Écrire à Alexandre</span>
+              <a
+                className={styles.footerCta}
+                href={CONTACT.whatsappLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>WhatsApp — {CONTACT.whatsappDisplay}</span>
+                <span aria-hidden="true">→</span>
+              </a>
+              <a
+                className={styles.footerCta}
+                href={`mailto:${CONTACT.email}`}
+                style={{ marginTop: '10px', opacity: 0.85 }}
+              >
+                <span>Email — {CONTACT.email}</span>
                 <span aria-hidden="true">→</span>
               </a>
               <span
