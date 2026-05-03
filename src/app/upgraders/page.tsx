@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '@/styles/upgraders.module.css';
-import { CONTACT } from '@/components/folio/data/contact';
 import { Terminal } from './Terminal';
+import { SiteNav } from '@/components/folio/upgraders/SiteNav';
+import { SiteFooter } from '@/components/folio/upgraders/SiteFooter';
+import { BlogCard } from '@/components/folio/upgraders/BlogCard';
+import { getBlogIndex } from '@/lib/wordpress';
 
 type AdveLetter = { code: string; name: string; desc: string };
 
@@ -210,28 +213,12 @@ const TIMELINE: TimelineRow[] = [
   },
 ];
 
-export default function UpgradersPage() {
+export default async function UpgradersPage() {
+  const { posts: latestPosts } = await getBlogIndex({ perPage: 3 });
+
   return (
     <div className={styles.folioRoot}>
-      <nav className={styles.topnav}>
-        <div className={styles.container}>
-          <div className={styles.topnavRow}>
-            <Link className={styles.topnavBack} href="/">
-              <span className="arrow">←</span>
-              <span>Folio Xtincell</span>
-            </Link>
-            <div className={styles.topnavLinks}>
-              <Link href="/work">Folio</Link>
-              <Link href="/galerie">Galerie</Link>
-              <Link href="/cv">CV</Link>
-              <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
-            </div>
-            <div className={styles.topnavBrand}>
-              UPgraders <b>·</b> page dédiée
-            </div>
-          </div>
-        </div>
-      </nav>
+      <SiteNav active="home" />
 
       {/* HERO */}
       <section className={styles.hero}>
@@ -494,56 +481,100 @@ export default function UpgradersPage() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className={styles.footer}>
+      {/* SERVICES TEASER */}
+      <section className={`${styles.sec} ${styles.advertis}`}>
         <div className={styles.container}>
-          <div className={styles.footerGrid}>
+          <div className={styles.teaserHead}>
             <div>
-              <div className={styles.footerMark}>
-                <b>UP</b>
-                <em>graders</em>
+              <div className={styles.secHead}>
+                <span className={styles.secNum}>06</span>
+                <span>Travailler avec nous</span>
               </div>
-              <p className={styles.footerClaim}>La passion pour propulseur.</p>
+              <h2 className={styles.secTitle}>
+                Trois <em>portes</em> d&apos;entrée.
+              </h2>
             </div>
-            <div className={styles.footerCtaBlock}>
-              <span className={styles.footerCtaLabel}>Démarrer un projet</span>
-              <a
-                className={styles.footerCta}
-                href={CONTACT.whatsappLink}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span>WhatsApp — {CONTACT.whatsappDisplay}</span>
-                <span aria-hidden="true">→</span>
-              </a>
-              <a
-                className={styles.footerCta}
-                href={`mailto:${CONTACT.email}`}
-                style={{ marginTop: '10px', opacity: 0.85 }}
-              >
-                <span>Email — {CONTACT.email}</span>
-                <span aria-hidden="true">→</span>
-              </a>
-              <span
-                className={styles.footerCtaLabel}
-                style={{ marginTop: '12px' }}
-              >
-                Partager
-              </span>
-              <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-                <span className={styles.footerHashtag}>#ToTheNextLevel</span>
-                <span className={styles.footerHashtag}>#UPyourBrand</span>
-              </div>
-            </div>
+            <Link href="/upgraders/services" className={styles.teaserLink}>
+              <span>Voir tous les services</span>
+              <span aria-hidden>→</span>
+            </Link>
           </div>
-          <div className={styles.footerBot}>
-            <span>
-              © 2026 UPgraders · IP <b>ADVE/RTIS</b>
-            </span>
-            <span>Cabinet de conseil &amp; stratégie · Douala</span>
+
+          <div className={styles.services}>
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceNum}>01</div>
+              <h3 className={styles.serviceTitle}>
+                Audit <em>ADVE</em>
+              </h3>
+              <div className={styles.serviceTag}>2 à 4 semaines</div>
+              <p className={styles.serviceDesc}>
+                Trois ateliers pour extraire l&apos;ADN. Livrable structuré qui sert de boussole pour
+                18 mois minimum.
+              </p>
+              <div className={styles.servicePrice}>
+                <b>Porte d&apos;entrée standard</b>
+              </div>
+            </div>
+            <div className={`${styles.serviceCard} ${styles.featured}`}>
+              <div className={styles.serviceNum}>02</div>
+              <h3 className={styles.serviceTitle}>
+                Mandat <em>RTIS</em>
+              </h3>
+              <div className={styles.serviceTag}>6 à 24 mois</div>
+              <p className={styles.serviceDesc}>
+                Le cycle complet : ADVE en entrée, propulseur RTIS en exécution. Roadmap dynamique,
+                cellule sur mesure.
+              </p>
+              <div className={styles.servicePrice}>
+                <b>Marques cultes — formule reine</b>
+              </div>
+            </div>
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceNum}>03</div>
+              <h3 className={styles.serviceTitle}>
+                Marque <em>blanche</em>
+              </h3>
+              <div className={styles.serviceTag}>Agences relais &amp; studios</div>
+              <p className={styles.serviceDesc}>
+                Vous portez la relation client, nous portons la méthode. Sous-traitance stratégique.
+              </p>
+              <div className={styles.servicePrice}>
+                <b>B2B partenaires</b>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
+      </section>
+
+      {/* BLOG TEASER */}
+      {latestPosts.length > 0 ? (
+        <section className={styles.sec}>
+          <div className={styles.container}>
+            <div className={styles.teaserHead}>
+              <div>
+                <div className={styles.secHead}>
+                  <span className={styles.secNum}>07</span>
+                  <span>Notes de cabinet</span>
+                </div>
+                <h2 className={styles.secTitle}>
+                  Le <em>blog</em>.
+                </h2>
+              </div>
+              <Link href="/upgraders/blog" className={styles.teaserLink}>
+                <span>Tous les articles</span>
+                <span aria-hidden>→</span>
+              </Link>
+            </div>
+            <div className={styles.blogGrid}>
+              {latestPosts.map((p) => (
+                <BlogCard key={p.id} post={p} />
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      <SiteFooter />
     </div>
   );
 }
