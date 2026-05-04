@@ -10,7 +10,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "sync-galleries": "node scripts/sync-galleries.mjs",
-    "sync-galleries:dry": "node scripts/sync-galleries.mjs --dry --verbose"
+    "sync-galleries:dry": "node scripts/sync-galleries.mjs --dry --verbose",
+    "export-pdf": "node scripts/export-pdf.mjs"
   },
   "dependencies": {
     "next": "15.5.14",
@@ -21,6 +22,7 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "puppeteer": "^24.42.0",
     "typescript": "^5.8.0"
   }
 }
