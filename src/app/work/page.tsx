@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from '@/styles/work.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { PRACTICES } from '@/components/folio/data/practices';
 import { AgencyChain } from '@/components/folio/AgencyChain';
 import { ProofEmbed } from '@/components/folio/ProofEmbed';
+import { SparkMark } from '@/components/folio/icons/SparkMark';
 
 const HAT_IDS = ['strategy', 'art', 'execution'] as const;
 type HatId = (typeof HAT_IDS)[number];
@@ -92,7 +92,7 @@ export default function FolioWorkPage() {
     <div className={styles.folioRoot}>
       <header className={styles.topbar}>
         <Link href="/" className={styles.brand}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
+          <SparkMark size={22} mono animated={false} />
           <span>XTINCELL — FOLIO</span>
         </Link>
         <nav className={styles.nav}>
@@ -100,6 +100,7 @@ export default function FolioWorkPage() {
           <Link href="/work" aria-current="page">Folio</Link>
           <Link href="/galerie">Galerie</Link>
           <Link href="/cv">CV</Link>
+          <a href="/folio.pdf" download="Folio-Spark-Xtincell-2026.pdf">PDF ↓</a>
           <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
         </nav>
       </header>
@@ -108,6 +109,21 @@ export default function FolioWorkPage() {
         <div className={styles.folioEyebrow}>
           FOLIO <span className="sep">·</span> 20 PROJETS <span className="sep">·</span> 15 ANS{' '}
           <span className="sep">·</span> 25+ MARQUES
+          {' '}
+          <a
+            href="/folio.pdf"
+            download="Folio-Spark-Xtincell-2026.pdf"
+            style={{
+              marginLeft: 14,
+              padding: '6px 12px',
+              border: '1px solid currentColor',
+              borderRadius: 99,
+              fontSize: 11,
+              letterSpacing: '0.18em',
+            }}
+          >
+            FOLIO PDF ↓
+          </a>
         </div>
         <h1>
           Trois <em>casquettes</em>,
@@ -179,6 +195,30 @@ export default function FolioWorkPage() {
                         <span key={t}>{t}</span>
                       ))}
                     </div>
+                    {p.images && p.images.length > 0 && (
+                      <div className={styles.projImages}>
+                        <div className={styles.imagesLabel}>Visuels campagne</div>
+                        <div className={styles.imagesGrid}>
+                          {p.images.map((src) => (
+                            <a
+                              key={src}
+                              href={src}
+                              target="_blank"
+                              rel="noreferrer"
+                              className={styles.imageThumb}
+                            >
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img
+                                src={src}
+                                alt={`Visuel ${p.name}`}
+                                loading="lazy"
+                                decoding="async"
+                              />
+                            </a>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                     {p.proofs && p.proofs.length > 0 && (
                       <div className={styles.projProofs}>
                         <div className={styles.proofsLabel}>Preuves vidéo</div>
@@ -214,7 +254,15 @@ export default function FolioWorkPage() {
             target="_blank"
             rel="noreferrer"
           >
-            WhatsApp — {CONTACT.whatsappDisplay}
+            WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay}
+          </a>
+          <a
+            className={`${styles.btn} ${styles.btnGhost}`}
+            href={CONTACT.whatsappSecondaryLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay}
           </a>
           <a className={`${styles.btn} ${styles.btnGhost}`} href={`mailto:${CONTACT.email}`}>
             Email — {CONTACT.email}
@@ -255,7 +303,7 @@ export default function FolioWorkPage() {
         </div>
 
         <div className={styles.footBottom}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={28} height={28} />
+          <SparkMark size={28} animated />
           <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
           <div className="meta">Built with systems, not just art.</div>
         </div>

@@ -513,7 +513,17 @@ export default function UpgradersPage() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>WhatsApp — {CONTACT.whatsappDisplay}</span>
+                <span>WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay}</span>
+                <span aria-hidden="true">→</span>
+              </a>
+              <a
+                className={styles.footerCta}
+                href={CONTACT.whatsappSecondaryLink}
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginTop: '10px' }}
+              >
+                <span>WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay}</span>
                 <span aria-hidden="true">→</span>
               </a>
               <a

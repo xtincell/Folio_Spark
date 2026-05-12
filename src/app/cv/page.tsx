@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from '@/styles/cv.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
+import { SparkMark } from '@/components/folio/icons/SparkMark';
 
 type TLEntry = {
   when: string;
@@ -186,9 +186,12 @@ export const metadata = {
 export default function FolioCVPage() {
   return (
     <div className={styles.folioRoot}>
+      <div className={styles.backdrop} aria-hidden="true">
+        <SparkMark outline animated={false} ariaHidden />
+      </div>
       <header className={styles.topbar}>
         <Link href="/" className={styles.brand}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
+          <SparkMark size={22} mono animated={false} />
           <span>XTINCELL — CV</span>
         </Link>
         <nav className={styles.nav}>
@@ -196,6 +199,7 @@ export default function FolioCVPage() {
           <Link href="/work">Folio</Link>
           <Link href="/galerie">Galerie</Link>
           <Link href="/cv" aria-current="page">CV</Link>
+          <a href="/cv.pdf" download="Alexandre-Djengue-CV.pdf">PDF ↓</a>
           <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
         </nav>
       </header>
@@ -203,7 +207,19 @@ export default function FolioCVPage() {
       <main className={styles.page}>
         <section className={styles.cvHead}>
           <div>
-            <div className={styles.cvEyebrow}>Curriculum Vitae · v15.0 · 2026 · 15 ans de pratique</div>
+            <div className={styles.cvEyebrow}>
+              <span className={styles.cvEyebrowText}>
+                Curriculum Vitae · v15.0 · 2026 · 15 ans de pratique
+              </span>
+              <a
+                className={styles.pdfBtn}
+                href="/cv.pdf"
+                download="Alexandre-Djengue-CV.pdf"
+                data-print-hide="true"
+              >
+                Télécharger PDF ↓
+              </a>
+            </div>
             <h1 className={styles.cvName}>
               Alexandre <em>Djengue</em>
             </h1>
@@ -214,10 +230,16 @@ export default function FolioCVPage() {
             <dd>1991 · Cameroun</dd>
             <dt>Base</dt>
             <dd>Yaoundé → Abidjan</dd>
-            <dt>WhatsApp</dt>
+            <dt>WhatsApp {CONTACT.whatsappLabel}</dt>
             <dd>
               <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
                 {CONTACT.whatsappDisplay}
+              </a>
+            </dd>
+            <dt>WhatsApp {CONTACT.whatsappSecondaryLabel}</dt>
+            <dd>
+              <a href={CONTACT.whatsappSecondaryLink} target="_blank" rel="noreferrer">
+                {CONTACT.whatsappSecondaryDisplay}
               </a>
             </dd>
             <dt>Email</dt>
@@ -392,7 +414,7 @@ export default function FolioCVPage() {
         </section>
 
         <footer className={styles.cvFoot}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={28} height={28} />
+          <SparkMark size={28} animated />
           <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
           <a
             className="cta"
@@ -400,7 +422,15 @@ export default function FolioCVPage() {
             target="_blank"
             rel="noreferrer"
           >
-            WhatsApp — {CONTACT.whatsappDisplay} →
+            WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay} →
+          </a>
+          <a
+            className="cta"
+            href={CONTACT.whatsappSecondaryLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay} →
           </a>
         </footer>
 

@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import styles from '@/styles/home.module.css';
+import { SparkMark } from './icons/SparkMark';
 
 type FlameMarkProps = {
   size?: number;
@@ -8,15 +7,5 @@ type FlameMarkProps = {
 };
 
 export function FlameMark({ size = 64, animated = true, white = false }: FlameMarkProps) {
-  return (
-    <Image
-      src={white ? '/logo-spark-white.png' : '/logo-spark.png'}
-      width={size}
-      height={size}
-      alt="Xtincell"
-      className={animated ? styles.flameAnim : ''}
-      style={{ display: 'inline-block', objectFit: 'contain' }}
-      priority={false}
-    />
-  );
+  return <SparkMark size={size} animated={animated} mono={white} />;
 }

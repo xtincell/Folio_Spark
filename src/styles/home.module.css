@@ -1594,10 +1594,57 @@
   .footMetaR { text-align: left; }
 }
 
+/* ============ SPARK LOGO (SVG inline) ============ */
+.sparkLogo {
+  color: oklch(0.99 0 0);
+  display: inline-block;
+  vertical-align: middle;
+}
+.sparkInk { fill: currentColor; }
+.sparkInkStroke {
+  stroke: currentColor;
+  stroke-width: 20px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+.sparkInkOutline { fill: none; }
+.sparkAccent {
+  fill: var(--spark-accent, #f05a28);
+  transition: filter 0.35s ease;
+}
+.sparkLogoMono { --spark-accent: currentColor; }
+.sparkOutlined .sparkInk,
+.sparkOutlined .sparkInkOutline {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 8;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.sparkOutlined .sparkAccent {
+  fill: none;
+  stroke: var(--spark-accent, currentColor);
+  stroke-width: 8;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.sparkOutlined .sparkInkStroke {
+  vector-effect: non-scaling-stroke;
+}
+.sparkAccentAnim {
+  animation: folioFlameFlicker 3s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.sparkLogo:hover .sparkAccent {
+  filter: drop-shadow(0 0 10px oklch(0.78 0.14 35 / 0.85));
+}
+
 /* ============ FLAME ANIM ============ */
 .flameAnim { animation: folioFlameFlicker 3s ease-in-out infinite; }
 @keyframes folioFlameFlicker {
-  0%, 100% { transform: scale(1) rotate(0deg); }
-  25% { transform: scale(1.04) rotate(-1deg); }
-  60% { transform: scale(0.98) rotate(0.5deg); }
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+  25% { transform: scale(1.06) rotate(-1deg); opacity: 0.92; }
+  60% { transform: scale(0.97) rotate(0.5deg); opacity: 1; }
 }

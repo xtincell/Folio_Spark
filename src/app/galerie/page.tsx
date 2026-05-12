@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from '@/styles/galerie.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
 import { YOUTUBE_VIDEOS, SOCIAL_PROFILES } from '@/components/folio/data/social-feed';
+import { SparkMark } from '@/components/folio/icons/SparkMark';
 
 export const metadata = {
   title: 'Galerie — Photographie · Xtincell',
@@ -20,7 +20,7 @@ export default function GaleriePage() {
     <div className={styles.folioRoot}>
       <header className={styles.topbar}>
         <Link href="/" className={styles.brand}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
+          <SparkMark size={22} mono animated={false} />
           <span>XTINCELL — GALERIE</span>
         </Link>
         <nav className={styles.nav}>
@@ -221,7 +221,15 @@ export default function GaleriePage() {
             target="_blank"
             rel="noreferrer"
           >
-            WhatsApp — {CONTACT.whatsappDisplay}
+            WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay}
+          </a>
+          <a
+            className={`${styles.btn} ${styles.btnGhost}`}
+            href={CONTACT.whatsappSecondaryLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay}
           </a>
           <a className={`${styles.btn} ${styles.btnGhost}`} href={`mailto:${CONTACT.email}`}>
             Email — {CONTACT.email}
