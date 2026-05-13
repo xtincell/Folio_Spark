@@ -101,6 +101,7 @@ export default function FolioWorkPage() {
           <Link href="/galerie">Galerie</Link>
           <Link href="/cv">CV</Link>
           <a href="/folio.pdf" download="Folio-Spark-Xtincell-2026.pdf">PDF ↓</a>
+          <a href="/folio.pptx" download="Folio-Spark-Xtincell-2026.pptx">PPTX ↓</a>
           <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
         </nav>
       </header>

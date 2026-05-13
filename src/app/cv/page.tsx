@@ -200,6 +200,7 @@ export default function FolioCVPage() {
           <Link href="/galerie">Galerie</Link>
           <Link href="/cv" aria-current="page">CV</Link>
           <a href="/cv.pdf" download="Alexandre-Djengue-CV.pdf">PDF ↓</a>
+          <a href="/cv.pptx" download="Alexandre-Djengue-CV.pptx">PPTX ↓</a>
           <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
         </nav>
       </header>
