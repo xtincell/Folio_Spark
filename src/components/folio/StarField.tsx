@@ -22,7 +22,13 @@ export function StarField({ density = 80 }: { density?: number }) {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
+    const prefersReduced =
+      typeof window.matchMedia === 'function' &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     let raf = 0;
+    let running = false;
+    let onScreen = false;
     let w = 0;
     let h = 0;
     let stars: Star[] = [];
@@ -45,6 +51,18 @@ export function StarField({ density = 80 }: { density?: number }) {
         phase: Math.random() * Math.PI * 2,
         drift: (Math.random() - 0.5) * 0.04,
       }));
+      // When motion is suppressed we still paint one crisp static frame.
+      if (prefersReduced) drawStatic();
+    };
+
+    const drawStatic = () => {
+      ctx.clearRect(0, 0, w, h);
+      for (const s of stars) {
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fillStyle = `oklch(0.95 0.012 70 / ${s.a.toFixed(3)})`;
+        ctx.fill();
+      }
     };
 
     const loop = (t: number) => {
@@ -63,11 +81,40 @@ export function StarField({ density = 80 }: { density?: number }) {
       raf = requestAnimationFrame(loop);
     };
 
-    resize();
-    raf = requestAnimationFrame(loop);
-    window.addEventListener('resize', resize);
-    return () => {
+    const start = () => {
+      if (running || prefersReduced || document.hidden || !onScreen) return;
+      running = true;
+      raf = requestAnimationFrame(loop);
+    };
+    const stop = () => {
+      running = false;
       cancelAnimationFrame(raf);
+    };
+
+    resize();
+
+    // Pause the RAF whenever the hero scrolls out of view (saves battery / CPU).
+    const io = new IntersectionObserver(
+      (entries) => {
+        onScreen = entries[0]?.isIntersecting ?? false;
+        if (onScreen) start();
+        else stop();
+      },
+      { threshold: 0 },
+    );
+    io.observe(canvas);
+
+    const onVisibility = () => {
+      if (document.hidden) stop();
+      else start();
+    };
+    document.addEventListener('visibilitychange', onVisibility);
+    window.addEventListener('resize', resize);
+
+    return () => {
+      stop();
+      io.disconnect();
+      document.removeEventListener('visibilitychange', onVisibility);
       window.removeEventListener('resize', resize);
     };
   }, [density]);

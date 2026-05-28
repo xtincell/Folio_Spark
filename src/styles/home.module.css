@@ -58,6 +58,7 @@
   display: inline-flex; align-items: center; gap: 10px;
   font-family: var(--mono);
   font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+  position: relative; z-index: 2;
 }
 .navBrandMeta { color: var(--ink-3); }
 .navLinks { display: flex; align-items: center; gap: 28px; }
@@ -77,9 +78,56 @@
   transition: background .2s, color .2s !important;
 }
 .navCta:hover { background: var(--accent); color: var(--bg) !important; }
+
+/* Mobile menu toggle — hidden on desktop */
+.navToggle {
+  display: none;
+  align-items: center; gap: 10px;
+  position: relative; z-index: 2;
+  background: transparent; border: 0;
+  padding: 6px 2px; cursor: pointer;
+  font-family: var(--mono);
+  font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--ink);
+}
+.navToggleBars { position: relative; width: 22px; height: 12px; display: inline-block; }
+.navToggleBars i {
+  position: absolute; left: 0;
+  width: 100%; height: 1.5px;
+  background: var(--ink);
+  transition: transform .28s cubic-bezier(.2,.7,.2,1), top .28s cubic-bezier(.2,.7,.2,1);
+}
+.navToggleBars i:nth-child(1) { top: 2px; }
+.navToggleBars i:nth-child(2) { top: 8px; }
+.navToggleBarsOpen i:nth-child(1) { top: 5px; transform: rotate(45deg); }
+.navToggleBarsOpen i:nth-child(2) { top: 5px; transform: rotate(-45deg); }
+
 @media (max-width: 820px) {
-  .navLinks a:not(.navCta) { display: none; }
   .navBrandMeta { display: none; }
+  .navToggle { display: inline-flex; }
+  .navLinks {
+    position: fixed; top: 0; right: 0; left: 0;
+    z-index: 1;
+    flex-direction: column; align-items: stretch; gap: 0;
+    padding: 84px 24px 28px;
+    background: oklch(0.10 0.005 30 / 0.97);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--line-2);
+    transform: translateY(-100%);
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transition: transform .32s cubic-bezier(.2,.7,.2,1), opacity .28s ease, visibility .32s;
+  }
+  .navLinksOpen { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; }
+  .navLinks a {
+    display: block; width: 100%;
+    padding: 17px 2px; font-size: 13px;
+    border-bottom: 1px solid var(--line);
+  }
+  .navCta {
+    margin-top: 18px; text-align: center;
+    padding: 14px 18px !important;
+    border-radius: 999px;
+  }
 }
 
 /* ============ HERO ============ */
@@ -567,6 +615,7 @@
   .methodBody { grid-template-columns: 0.9fr 1.1fr; }
 }
 .methodList { display: flex; flex-direction: column; }
+.methodTabGroup { display: flex; flex-direction: column; }
 .methodGroupLabel {
   font-family: var(--mono);
   font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase;

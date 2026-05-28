@@ -139,6 +139,7 @@ export default function ServicesPage() {
     <div className={styles.folioRoot}>
       <SiteNav active="services" />
 
+      <main id="contenu">
       <section className={styles.pageHero}>
         <div className={styles.container}>
           <div className={styles.pageHeroEyebrow}>Services</div>
@@ -252,6 +253,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      </main>
       <SiteFooter />
     </div>
   );

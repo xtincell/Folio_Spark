@@ -55,6 +55,7 @@ export default async function BlogPostPage({
     <div className={styles.folioRoot}>
       <SiteNav active="blog" />
 
+      <main id="contenu">
       <article className={styles.pageHero}>
         <div className={styles.container}>
           <Link
@@ -131,6 +132,7 @@ export default async function BlogPostPage({
         </section>
       ) : null}
 
+      </main>
       <SiteFooter />
     </div>
   );

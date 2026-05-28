@@ -43,6 +43,7 @@ export default async function BlogIndexPage({
     <div className={styles.folioRoot}>
       <SiteNav active="blog" />
 
+      <main id="contenu">
       <section className={styles.pageHero}>
         <div className={styles.container}>
           <div className={styles.pageHeroEyebrow}>Notes de cabinet</div>
@@ -119,6 +120,7 @@ export default async function BlogIndexPage({
         </div>
       </section>
 
+      </main>
       <SiteFooter />
     </div>
   );

@@ -220,6 +220,7 @@ export default async function UpgradersPage() {
     <div className={styles.folioRoot}>
       <SiteNav active="home" />
 
+      <main id="contenu">
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.container}>
@@ -574,6 +575,7 @@ export default async function UpgradersPage() {
         </section>
       ) : null}
 
+      </main>
       <SiteFooter />
     </div>
   );

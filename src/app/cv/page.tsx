@@ -200,7 +200,7 @@ export default function FolioCVPage() {
         </nav>
       </header>
 
-      <main className={styles.page}>
+      <main id="contenu" className={styles.page}>
         <section className={styles.cvHead}>
           <div>
             <div className={styles.cvEyebrow}>Curriculum Vitae · v15.0 · 2026 · 15 ans de pratique</div>

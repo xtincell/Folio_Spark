@@ -104,6 +104,7 @@ export default function FolioWorkPage() {
         </nav>
       </header>
 
+      <main id="contenu">
       <section className={styles.folioHero}>
         <div className={styles.folioEyebrow}>
           FOLIO <span className="sep">·</span> 20 PROJETS <span className="sep">·</span> 15 ANS{' '}
@@ -260,6 +261,7 @@ export default function FolioWorkPage() {
           <div className="meta">Built with systems, not just art.</div>
         </div>
       </section>
+      </main>
     </div>
   );
 }

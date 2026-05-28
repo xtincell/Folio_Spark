@@ -2,10 +2,24 @@
    All design tokens (--bg, --ink, --accent, --serif, --grotesk, --mono, …)
    live inside the per-page CSS modules under .folioRoot. */
 
+:root {
+  /* Dark native controls (scrollbars, form widgets, autofill) */
+  color-scheme: dark;
+  /* Global keyboard-focus ring — modules may override --folio-focus inside .folioRoot */
+  --folio-focus: oklch(0.82 0.15 70);
+  /* Fixed-header offset for in-page anchor jumps */
+  --folio-anchor-offset: 88px;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--folio-anchor-offset);
 }
 
 html,
@@ -34,4 +48,60 @@ video,
 canvas {
   display: block;
   max-width: 100%;
+}
+
+/* ============ KEYBOARD FOCUS ============ */
+/* Zero-specificity (:where) so module rules can still override safely.
+   Visible only for keyboard users; mouse/touch focus stays clean. */
+:where(a, button, input, textarea, select, summary, [tabindex], [role="tab"], [role="button"]):focus-visible {
+  outline: 2px solid var(--folio-focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+:where(a, button, input, textarea, select, summary, [tabindex]):focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ============ SKIP LINK ============ */
+.skip-link {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 1000;
+  transform: translateY(calc(-100% - 24px));
+  transition: transform 0.22s ease;
+  background: var(--folio-focus);
+  color: #0a0a0a;
+  font-family: ui-monospace, 'JetBrains Mono', Menlo, monospace;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 13px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* ============ REDUCED MOTION ============ */
+/* Respect OS-level motion preference: neutralise the marquee, starfield drift,
+   pulses, flicker, float and all reveal/hover transitions site-wide. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.001ms !important;
+    transition-delay: 0ms !important;
+  }
 }

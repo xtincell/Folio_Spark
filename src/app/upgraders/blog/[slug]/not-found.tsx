@@ -7,6 +7,7 @@ export default function NotFound() {
   return (
     <div className={styles.folioRoot}>
       <SiteNav active="blog" />
+      <main id="contenu">
       <section className={styles.pageHero}>
         <div className={styles.container}>
           <div className={styles.pageHeroEyebrow}>404 · article</div>
@@ -24,6 +25,7 @@ export default function NotFound() {
           </div>
         </div>
       </section>
+      </main>
       <SiteFooter />
     </div>
   );

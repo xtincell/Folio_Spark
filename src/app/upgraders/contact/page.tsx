@@ -16,6 +16,7 @@ export default function ContactPage() {
     <div className={styles.folioRoot}>
       <SiteNav active="contact" />
 
+      <main id="contenu">
       <section className={styles.pageHero}>
         <div className={styles.container}>
           <div className={styles.pageHeroEyebrow}>Contact</div>
@@ -89,6 +90,7 @@ export default function ContactPage() {
         </div>
       </section>
 
+      </main>
       <SiteFooter />
     </div>
   );

@@ -32,6 +32,7 @@ export default function GaleriePage() {
         </nav>
       </header>
 
+      <main id="contenu">
       <section className={styles.head}>
         <div className={styles.eyebrow}>
           GALERIE <span className="sep">·</span> {GALLERIES.length} COLLECTIONS
@@ -236,6 +237,7 @@ export default function GaleriePage() {
           </a>
         </div>
       </section>
+      </main>
     </div>
   );
 }

@@ -36,7 +36,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="fr"
       className={`${instrumentSerif.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <a href="#contenu" className="skip-link">
+          Aller au contenu
+        </a>
+        {children}
+      </body>
     </html>
   );
 }

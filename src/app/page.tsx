@@ -15,18 +15,20 @@ export default function FolioPage() {
   return (
     <div className={styles.folioRoot}>
       <Nav />
-      <Hero />
-      <EditoPic n={1} />
-      <Manifesto />
-      <EditoPic n={2} />
-      <HatsIntro />
-      <Method />
-      <Upgraders />
-      <Practices />
-      <EditoPic n={3} />
-      <Stats />
-      <System />
-      <Contact />
+      <main id="contenu">
+        <Hero />
+        <EditoPic n={1} />
+        <Manifesto />
+        <EditoPic n={2} />
+        <HatsIntro />
+        <Method />
+        <Upgraders />
+        <Practices />
+        <EditoPic n={3} />
+        <Stats />
+        <System />
+        <Contact />
+      </main>
     </div>
   );
 }
