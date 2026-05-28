@@ -84,6 +84,14 @@
 }
 .cvMeta dt { color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.18em; font-size: 10px; align-self: center; }
 .cvMeta dd { margin: 0; color: var(--ink); }
+.cvMeta dd a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--accent);
+  transition: color .2s ease;
+}
+.cvMeta dd a:hover { color: var(--accent); }
 
 .section {
   padding: 80px 0 0;

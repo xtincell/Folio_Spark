@@ -20,6 +20,12 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--folio-anchor-offset);
+  /* Proper letterfit + standard ligatures everywhere; kept off "calt" so mono
+     labels never pick up coding ligatures. */
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga", "clig";
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 html,
@@ -48,6 +54,19 @@ video,
 canvas {
   display: block;
   max-width: 100%;
+}
+
+/* ============ TYPOGRAPHY DEFAULTS ============ */
+/* Avoid orphans/ragged runs in running copy and headings app-wide.
+   Modules that already set these inherit identical behaviour. */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
 }
 
 /* ============ KEYBOARD FOCUS ============ */

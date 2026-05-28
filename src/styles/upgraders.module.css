@@ -891,6 +891,7 @@
   font-size: 17px;
   line-height: 1.75;
   color: var(--ink);
+  hanging-punctuation: first allow-end last;
 }
 .postBody h2 {
   font-family: var(--display);
