@@ -138,3 +138,16 @@ body::after {
     transition-delay: 0ms !important;
   }
 }
+
+/* ============ PRINT ============ */
+/* Keep printed pages (notably /cv) clean: no film grain, no animated canvas
+   backgrounds, no floating skip link. */
+@media print {
+  body::after {
+    display: none !important;
+  }
+  canvas,
+  .skip-link {
+    display: none !important;
+  }
+}
