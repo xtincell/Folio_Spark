@@ -158,6 +158,14 @@
   mix-blend-mode: screen;
   pointer-events: none;
 }
+/* Edge vignette — pulls focus to the masthead, deepens the starfield corners */
+.hero::after {
+  content: '';
+  position: absolute; inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(125% 115% at 50% 38%, transparent 56%, oklch(0.05 0.004 30 / 0.55) 100%);
+}
 .heroGrid {
   position: relative; z-index: 1;
   flex: 1;
@@ -345,6 +353,10 @@
   padding: 14px;
   background: oklch(0.10 0.005 30 / 0.7);
   backdrop-filter: blur(8px);
+  box-shadow:
+    0 48px 100px -55px oklch(0.02 0 0 / 0.92),
+    0 12px 30px -16px oklch(0.02 0 0 / 0.7),
+    inset 0 1px 0 0 oklch(1 0 0 / 0.05);
 }
 .portraitFrame::before {
   content: '';
