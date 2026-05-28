@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/home.module.css';
@@ -31,7 +32,7 @@ export function Hero() {
 
           <div className={styles.mastTitle}>
             {'XTINCELL'.split('').map((c, i) => (
-              <span key={i}>{c}</span>
+              <span key={i} style={{ '--ci': i } as CSSProperties}>{c}</span>
             ))}
           </div>
 
