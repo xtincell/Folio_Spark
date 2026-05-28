@@ -24,10 +24,39 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.com';
+const SITE_TITLE = 'Xtincell — Alexandre Djengue · Brand Architect';
+const SITE_DESC =
+  "Portfolio d'Alexandre « Xtincell » Djengue : Brand Architect, Storytelling Consultant, Toolsmith. Méthode ADVE/RTIS, OS LaFusée, agence UPgraders.";
+
 export const metadata: Metadata = {
-  title: 'Xtincell — Alexandre Djengue · Brand Architect',
-  description:
-    "Portfolio d'Alexandre « Xtincell » Djengue : Brand Architect, Storytelling Consultant, Toolsmith. Méthode ADVE/RTIS, OS LaFusée, agence UPgraders.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESC,
+  applicationName: 'Xtincell Folio',
+  authors: [{ name: 'Alexandre Djengue' }],
+  creator: 'Alexandre « Xtincell » Djengue',
+  icons: {
+    icon: '/logo-spark.png',
+    shortcut: '/logo-spark.png',
+    apple: '/logo-spark-white.png',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'fr_FR',
+    url: SITE_URL,
+    siteName: 'Xtincell · Alexandre Djengue',
+    title: SITE_TITLE,
+    description: SITE_DESC,
+    images: [{ url: '/logo-banner.png', alt: 'Xtincell — Alexandre Djengue' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: SITE_TITLE,
+    description: SITE_DESC,
+    creator: '@xtincell',
+    images: ['/logo-banner.png'],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

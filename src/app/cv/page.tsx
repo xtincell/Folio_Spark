@@ -180,7 +180,7 @@ const CLIENTS = [
 export const metadata = {
   title: 'CV — Alexandre Djengue · Xtincell',
   description:
-    "Curriculum Vitae éditorial d'Alexandre « Xtincell » Djengue : 17 ans en marketing & design, méthode ADVE/RTIS, fondateur UPgraders.",
+    "Curriculum Vitae éditorial d'Alexandre « Xtincell » Djengue : 15 ans en marketing & design, méthode ADVE/RTIS, fondateur UPgraders.",
 };
 
 export default function FolioCVPage() {
