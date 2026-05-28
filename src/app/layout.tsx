@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Instrument_Serif, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import '@/styles/globals.css';
+import { CommandPalette } from '@/components/folio/CommandPalette';
 
 const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Aller au contenu
         </a>
         {children}
+        <CommandPalette />
       </body>
     </html>
   );
