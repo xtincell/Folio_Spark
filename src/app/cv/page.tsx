@@ -1,7 +1,7 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import styles from '@/styles/cv.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
+import { FolioTopbar } from '@/components/folio/FolioTopbar';
 
 type TLEntry = {
   when: string;
@@ -186,19 +186,7 @@ export const metadata = {
 export default function FolioCVPage() {
   return (
     <div className={styles.folioRoot}>
-      <header className={styles.topbar}>
-        <Link href="/" className={styles.brand}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
-          <span>XTINCELL — CV</span>
-        </Link>
-        <nav className={styles.nav}>
-          <Link href="/">Accueil</Link>
-          <Link href="/work">Folio</Link>
-          <Link href="/galerie">Galerie</Link>
-          <Link href="/cv" aria-current="page">CV</Link>
-          <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
-        </nav>
-      </header>
+      <FolioTopbar label="CV" active="cv" />
 
       <main id="contenu" className={styles.page}>
         <section className={styles.cvHead}>

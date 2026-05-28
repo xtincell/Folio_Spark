@@ -5,6 +5,7 @@ import { CONTACT } from '@/components/folio/data/contact';
 import { PRACTICES } from '@/components/folio/data/practices';
 import { AgencyChain } from '@/components/folio/AgencyChain';
 import { ProofEmbed } from '@/components/folio/ProofEmbed';
+import { FolioTopbar } from '@/components/folio/FolioTopbar';
 
 const HAT_IDS = ['strategy', 'art', 'execution'] as const;
 type HatId = (typeof HAT_IDS)[number];
@@ -90,19 +91,7 @@ export const metadata = {
 export default function FolioWorkPage() {
   return (
     <div className={styles.folioRoot}>
-      <header className={styles.topbar}>
-        <Link href="/" className={styles.brand}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
-          <span>XTINCELL — FOLIO</span>
-        </Link>
-        <nav className={styles.nav}>
-          <Link href="/">Accueil</Link>
-          <Link href="/work" aria-current="page">Folio</Link>
-          <Link href="/galerie">Galerie</Link>
-          <Link href="/cv">CV</Link>
-          <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
-        </nav>
-      </header>
+      <FolioTopbar label="FOLIO" active="folio" />
 
       <main id="contenu">
       <section className={styles.folioHero}>

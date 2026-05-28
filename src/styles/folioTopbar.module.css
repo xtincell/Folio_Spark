@@ -1,0 +1,62 @@
+/* Shared topbar for the folio pages (cv / work / galerie).
+   Relies on the design tokens (--ink, --accent, --line, --mono …) cascading
+   from the page's .folioRoot ancestor. */
+.topbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 22px 40px;
+  border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 50;
+  background: oklch(0.10 0.005 30 / 0.82);
+  backdrop-filter: blur(12px);
+}
+.brand {
+  display: inline-flex; align-items: center; gap: 12px;
+  font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--ink); text-decoration: none;
+  position: relative; z-index: 2;
+}
+.brand img { height: 22px; width: auto; }
+
+.nav {
+  display: flex; gap: 28px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+}
+.nav a { color: var(--ink-2); text-decoration: none; transition: color .2s; }
+.nav a:hover { color: var(--ink); }
+.nav a[aria-current="page"] { color: var(--accent); }
+
+.toggle {
+  display: none;
+  align-items: center; gap: 10px;
+  position: relative; z-index: 2;
+  background: transparent; border: 0; padding: 6px 2px; cursor: pointer;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--ink);
+}
+.bars { position: relative; width: 22px; height: 12px; display: inline-block; }
+.bars i {
+  position: absolute; left: 0; width: 100%; height: 1.5px; background: var(--ink);
+  transition: transform .28s cubic-bezier(.2,.7,.2,1), top .28s cubic-bezier(.2,.7,.2,1);
+}
+.bars i:nth-child(1) { top: 2px; }
+.bars i:nth-child(2) { top: 8px; }
+.barsOpen i:nth-child(1) { top: 5px; transform: rotate(45deg); }
+.barsOpen i:nth-child(2) { top: 5px; transform: rotate(-45deg); }
+
+@media (max-width: 760px) {
+  .topbar { padding: 16px 20px; }
+  .toggle { display: inline-flex; }
+  .nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1;
+    flex-direction: column; align-items: stretch; gap: 0;
+    padding: 72px 20px 24px;
+    background: oklch(0.10 0.005 30 / 0.97);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--line-2);
+    transform: translateY(-100%); opacity: 0; visibility: hidden; pointer-events: none;
+    transition: transform .32s cubic-bezier(.2,.7,.2,1), opacity .28s ease, visibility .32s;
+  }
+  .navOpen { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; }
+  .nav a { padding: 16px 2px; font-size: 13px; border-bottom: 1px solid var(--line); }
+  .nav a:last-child { border-bottom: 0; }
+}

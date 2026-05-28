@@ -1,7 +1,6 @@
-import Link from 'next/link';
-import Image from 'next/image';
 import styles from '@/styles/galerie.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
+import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
 import { YOUTUBE_VIDEOS, SOCIAL_PROFILES } from '@/components/folio/data/social-feed';
 
@@ -18,19 +17,7 @@ const CATEGORIES = Array.from(
 export default function GaleriePage() {
   return (
     <div className={styles.folioRoot}>
-      <header className={styles.topbar}>
-        <Link href="/" className={styles.brand}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
-          <span>XTINCELL — GALERIE</span>
-        </Link>
-        <nav className={styles.nav}>
-          <Link href="/">Accueil</Link>
-          <Link href="/work">Folio</Link>
-          <Link href="/galerie" aria-current="page">Galerie</Link>
-          <Link href="/cv">CV</Link>
-          <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">Contact</a>
-        </nav>
-      </header>
+      <FolioTopbar label="GALERIE" active="galerie" />
 
       <main id="contenu">
       <section className={styles.head}>
