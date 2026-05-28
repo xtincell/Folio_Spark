@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     siteName: 'Xtincell · Alexandre Djengue',
     title: SITE_TITLE,
     description: SITE_DESC,
-    images: [{ url: '/logo-banner.png', alt: 'Xtincell — Alexandre Djengue' }],
+    images: [{ url: '/portrait.jpg', width: 610, height: 762, alt: 'Alexandre Djengue — Xtincell' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: SITE_TITLE,
     description: SITE_DESC,
     creator: '@xtincell',
-    images: ['/logo-banner.png'],
+    images: ['/portrait.jpg'],
   },
 };
 
