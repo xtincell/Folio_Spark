@@ -10,6 +10,7 @@ import { Practices } from '@/components/folio/Practices';
 import { Stats } from '@/components/folio/Stats';
 import { System } from '@/components/folio/System';
 import { Contact } from '@/components/folio/Contact';
+import { Reveal } from '@/components/folio/Reveal';
 
 export default function FolioPage() {
   return (
@@ -18,16 +19,16 @@ export default function FolioPage() {
       <main id="contenu">
         <Hero />
         <EditoPic n={1} />
-        <Manifesto />
+        <Reveal><Manifesto /></Reveal>
         <EditoPic n={2} />
-        <HatsIntro />
-        <Method />
-        <Upgraders />
-        <Practices />
+        <Reveal><HatsIntro /></Reveal>
+        <Reveal><Method /></Reveal>
+        <Reveal><Upgraders /></Reveal>
+        <Reveal><Practices /></Reveal>
         <EditoPic n={3} />
-        <Stats />
-        <System />
-        <Contact />
+        <Reveal><Stats /></Reveal>
+        <Reveal><System /></Reveal>
+        <Reveal><Contact /></Reveal>
       </main>
     </div>
   );

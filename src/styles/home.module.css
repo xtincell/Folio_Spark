@@ -39,10 +39,6 @@
 
 .folioRoot ::selection { background: var(--accent); color: oklch(0.10 0.005 30); }
 
-/* ============ REVEAL ============ */
-.revealInit { opacity: 0; transform: translateY(20px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
-.revealIn { opacity: 1; transform: translateY(0); }
-
 /* ============ HERO LOAD ORCHESTRATION ============ */
 /* CSS-only staggered reveal on first paint. Reduced-motion users snap to the
    final state instantly (global rule zeroes duration + delay). */
