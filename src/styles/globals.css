@@ -184,4 +184,11 @@ body::after {
   .skip-link {
     display: none !important;
   }
+  /* Force any scroll-reveal content visible — an unscrolled section must never
+     print blank (critical for /cv). Also neutralise the page-enter transform. */
+  [data-reveal],
+  .page-enter {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
