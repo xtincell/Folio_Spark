@@ -1,9 +1,9 @@
-import type { CSSProperties } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/home.module.css';
 import { StarField } from './StarField';
 import { Marquee } from './Marquee';
+import { MastTitle } from './MastTitle';
 
 export function Hero() {
   return (
@@ -30,11 +30,7 @@ export function Hero() {
             <span>—</span>
           </div>
 
-          <div className={styles.mastTitle}>
-            {'XTINCELL'.split('').map((c, i) => (
-              <span key={i} style={{ '--ci': i } as CSSProperties}>{c}</span>
-            ))}
-          </div>
+          <MastTitle />
 
           <div className={styles.mastRule}>
             <span>Brand Architect</span>

@@ -191,6 +191,9 @@
   background: radial-gradient(60% 50% at 50% 110%, oklch(0.65 0.22 calc(var(--accent-hue) - 15) / 0.28), transparent 70%);
   mix-blend-mode: screen;
   pointer-events: none;
+  /* counter-moves to the cursor (vars set by MastTitle) for parallax depth */
+  translate: var(--pgx, 0) var(--pgy, 0);
+  transition: translate .5s var(--ease-out-expo, ease-out);
 }
 /* Edge vignette — pulls focus to the masthead, deepens the starfield corners */
 .hero::after {

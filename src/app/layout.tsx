@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Instrument_Serif, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import '@/styles/globals.css';
 import { CommandPalette } from '@/components/folio/CommandPalette';
+import { PageTransition } from '@/components/folio/PageTransition';
 
 const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
@@ -70,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#contenu" className="skip-link">
           Aller au contenu
         </a>
-        {children}
+        <PageTransition>{children}</PageTransition>
         <CommandPalette />
       </body>
     </html>

@@ -121,6 +121,19 @@ body::after {
   outline-offset: 2px;
 }
 
+/* ============ PAGE TRANSITION ============ */
+/* Replays on every client navigation — PageTransition keys the wrapper on pathname.
+   Pure CSS animation (runs without JS); the reduced-motion rule below collapses it
+   to an instant cut, and `both` fill guarantees the end state (opaque, untransformed)
+   so content can never get stuck hidden. */
+.page-enter {
+  animation: pageEnter 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes pageEnter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
 /* ============ REDUCED MOTION ============ */
 /* Respect OS-level motion preference: neutralise the marquee, starfield drift,
    pulses, flicker, float and all reveal/hover transitions site-wide. */
