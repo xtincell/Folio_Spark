@@ -3,8 +3,11 @@
 import { useRef, useState, type KeyboardEvent } from 'react';
 import styles from '@/styles/home.module.css';
 import { STEPS } from './data/method';
+import { useT, useLang, pick } from '@/lib/i18n';
 
 export function Method() {
+  const t = useT();
+  const { lang } = useLang();
   const [active, setActive] = useState(0);
   const btnRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const total = STEPS.length;
@@ -58,8 +61,8 @@ export function Method() {
       onKeyDown={(e) => onKeyDown(e, realIdx)}
     >
       <span className={styles.stepCode}>{s.code}</span>
-      <span className={styles.stepName}>{s.name}</span>
-      <span className={styles.stepSub}>{s.sub}</span>
+      <span className={styles.stepName}>{pick(s.name, lang)}</span>
+      <span className={styles.stepSub}>{pick(s.sub, lang)}</span>
     </button>
   );
 
@@ -67,18 +70,18 @@ export function Method() {
     <section id="methode" className={styles.method}>
       <div className={styles.sectionHead}>
         <span className={styles.sectionNum}>02</span>
-        <span className={styles.sectionLabel}>Méthode</span>
+        <span className={styles.sectionLabel}>{t.method.label}</span>
       </div>
 
       <h2 className={styles.methodTitle}>
         <span>ADVE</span><span className="slash">/</span><span>RTIS</span>
-        <span className={styles.methodSub}>— socle + propulseur. IP UPgraders.</span>
+        <span className={styles.methodSub}>{t.method.sub}</span>
       </h2>
 
       <div className={styles.methodBody}>
         <div className={styles.methodList}>
           <div className={styles.methodGroupLabel} id="method-group-socle">
-            SOCLE · ADVE — l&apos;identité
+            {t.method.groupSocle}
           </div>
           <div
             role="tablist"
@@ -90,7 +93,7 @@ export function Method() {
           </div>
 
           <div className={styles.methodGroupLabelPropulseur} id="method-group-propulseur">
-            PROPULSEUR · RTIS — l&apos;action
+            {t.method.groupPropulseur}
           </div>
           <div
             role="tablist"
@@ -113,9 +116,9 @@ export function Method() {
             {String(active + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
           </div>
           <div className={styles.detailGlyph}>{current.code}</div>
-          <div className={styles.detailName}>{current.name}</div>
-          <p className={styles.detailBody}>{current.body}</p>
-          <div className={styles.detailTag}>{current.sub}</div>
+          <div className={styles.detailName}>{pick(current.name, lang)}</div>
+          <p className={styles.detailBody}>{pick(current.body, lang)}</p>
+          <div className={styles.detailTag}>{pick(current.sub, lang)}</div>
         </div>
       </div>
     </section>

@@ -108,6 +108,7 @@
   transition: background .2s, color .2s !important;
 }
 .navCta:hover { background: var(--accent); color: var(--bg) !important; }
+.navLang { margin-left: 4px; }
 
 /* Mobile menu toggle — hidden on desktop */
 .navToggle {

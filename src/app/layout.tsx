@@ -3,6 +3,8 @@ import { Instrument_Serif, Space_Grotesk, JetBrains_Mono } from 'next/font/googl
 import '@/styles/globals.css';
 import { CommandPalette } from '@/components/folio/CommandPalette';
 import { PageTransition } from '@/components/folio/PageTransition';
+import { LanguageProvider } from '@/lib/i18n';
+import { SkipLink } from '@/components/folio/SkipLink';
 
 const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
@@ -68,11 +70,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${instrumentSerif.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
     >
       <body>
-        <a href="#contenu" className="skip-link">
-          Aller au contenu
-        </a>
-        <PageTransition>{children}</PageTransition>
-        <CommandPalette />
+        <LanguageProvider>
+          <SkipLink />
+          <PageTransition>{children}</PageTransition>
+          <CommandPalette />
+        </LanguageProvider>
       </body>
     </html>
   );

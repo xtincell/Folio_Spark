@@ -1,5 +1,8 @@
+'use client';
+
 import styles from '@/styles/home.module.css';
 import type { Proof } from './data/practices';
+import { useT, useLang, pick } from '@/lib/i18n';
 
 function buildEmbed(url: string): { src: string; aspect: string } | null {
   // YouTube
@@ -31,7 +34,10 @@ function buildEmbed(url: string): { src: string; aspect: string } | null {
 }
 
 export function ProofEmbed({ pr }: { pr: Proof }) {
+  const t = useT();
+  const { lang } = useLang();
   const embed = buildEmbed(pr.url);
+  const label = pick(pr.label, lang);
 
   if (!embed) {
     return (
@@ -42,7 +48,7 @@ export function ProofEmbed({ pr }: { pr: Proof }) {
         rel="noopener noreferrer"
       >
         <span className={styles.proofHost}>{pr.host}</span>
-        <span className={styles.proofLabel}>{pr.label}</span>
+        <span className={styles.proofLabel}>{label}</span>
         <span className={styles.proofArrow} aria-hidden="true">↗</span>
       </a>
     );
@@ -52,21 +58,21 @@ export function ProofEmbed({ pr }: { pr: Proof }) {
     <figure className={styles.proofEmbed} style={{ aspectRatio: embed.aspect }}>
       <iframe
         src={embed.src}
-        title={pr.label}
+        title={label}
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       />
       <figcaption className={styles.proofCap}>
         <span className={styles.proofHost}>{pr.host}</span>
-        <span className={styles.proofLabel}>{pr.label}</span>
+        <span className={styles.proofLabel}>{label}</span>
         <a
           className={styles.proofOpen}
           href={pr.url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ouvrir ↗
+          {t.proof.open} ↗
         </a>
       </figcaption>
     </figure>

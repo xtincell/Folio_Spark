@@ -1,5 +1,8 @@
+'use client';
+
 import styles from '@/styles/home.module.css';
 import { CONTACT } from './data/contact';
+import { useT } from '@/lib/i18n';
 
 const Icons = {
   Instagram: () => (
@@ -34,10 +37,11 @@ const LINKS = [
 ];
 
 export function SocialRow() {
+  const t = useT();
   return (
     <div className={styles.contactSocial}>
       <div className={styles.csLabel}>
-        Social <span style={{ color: 'var(--accent)' }}>—</span> @xtincell partout
+        {t.social.label} <span style={{ color: 'var(--accent)' }}>—</span> {t.social.everywhere}
       </div>
       {LINKS.map(({ name, href, I }) => (
         <a key={name} className={styles.csLink} href={href} target="_blank" rel="noreferrer">

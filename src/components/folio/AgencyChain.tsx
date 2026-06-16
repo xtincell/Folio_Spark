@@ -1,12 +1,16 @@
+'use client';
+
 import { Fragment } from 'react';
 import styles from '@/styles/home.module.css';
 import { AgencyTooltip } from './AgencyTooltip';
+import { useT } from '@/lib/i18n';
 
 export function AgencyChain({ chain }: { chain: string[] }) {
+  const t = useT();
   if (!chain || chain.length === 0) return null;
   const last = chain.length - 1;
   return (
-    <div className={styles.projChain} aria-label="Chaîne de collaboration">
+    <div className={styles.projChain} aria-label={t.agency.chainAria}>
       {chain.map((node, i) => {
         const cls = [
           styles.chainNode,

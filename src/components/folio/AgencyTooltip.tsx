@@ -4,6 +4,7 @@ import { useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import styles from '@/styles/home.module.css';
 import { AGENCY_INFO } from './data/agencies';
+import { useT, useLang, pick } from '@/lib/i18n';
 
 type AgencyTooltipProps = {
   name: string;
@@ -11,6 +12,8 @@ type AgencyTooltipProps = {
 };
 
 export function AgencyTooltip({ name, children }: AgencyTooltipProps) {
+  const t = useT();
+  const { lang } = useLang();
   const info = AGENCY_INFO[name];
   const [open, setOpen] = useState(false);
   if (!info) return <>{children}</>;
@@ -30,15 +33,15 @@ export function AgencyTooltip({ name, children }: AgencyTooltipProps) {
       {children}
       {open && (
         <span className={styles.agencyTip} role="tooltip">
-          <span className={styles.agencyTipKind}>{info.kind}</span>
+          <span className={styles.agencyTipKind}>{pick(info.kind, lang)}</span>
           <span className={styles.agencyTipName}>{name}</span>
           <span
             className={styles.agencyTipDesc}
-            dangerouslySetInnerHTML={{ __html: info.desc }}
+            dangerouslySetInnerHTML={{ __html: pick(info.desc, lang) }}
           />
           {info.link && (
             <Link className={styles.agencyTipLink} href={info.link}>
-              Découvrir →
+              {t.agency.discover}
             </Link>
           )}
         </span>

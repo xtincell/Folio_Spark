@@ -1,9 +1,15 @@
+'use client';
+
 import styles from '@/styles/home.module.css';
 import type { Practice as PracticeType } from './data/practices';
 import { ProjectCard } from './ProjectCard';
+import { useT, useLang, pick } from '@/lib/i18n';
 
 export function Practice({ practice }: { practice: PracticeType }) {
-  const words = practice.title.split(' ');
+  const t = useT();
+  const { lang } = useLang();
+  const title = pick(practice.title, lang);
+  const words = title.split(' ');
   const lastIdx = words.length - 1;
   return (
     <section className={styles.practice}>
@@ -17,11 +23,11 @@ export function Practice({ practice }: { practice: PracticeType }) {
             </span>
           ))}
         </h3>
-        <div className={styles.practiceSub}>{practice.sub}</div>
-        <p className={styles.practiceIntent}>{practice.intent}</p>
+        <div className={styles.practiceSub}>{pick(practice.sub, lang)}</div>
+        <p className={styles.practiceIntent}>{pick(practice.intent, lang)}</p>
         <div className={styles.practiceCount}>
           <span className={styles.countV}>{String(practice.projects.length).padStart(2, '0')}</span>
-          <span className={styles.countL}>projets référencés</span>
+          <span className={styles.countL}>{t.practices.projectsCounted}</span>
         </div>
       </header>
 

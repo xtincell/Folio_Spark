@@ -1,33 +1,57 @@
+'use client';
+
 import Link from 'next/link';
 import styles from '@/styles/home.module.css';
+import { useT, useLang, pick, type Bi } from '@/lib/i18n';
 
-const HATS = [
-  { num: '01', name: 'Brand Architect', sub: 'Stratégie + systèmes de marque', href: '/work#strategy' },
-  { num: '02', name: 'Direction Artistique', sub: 'Image, scenography, identité visuelle', href: '/work#art' },
-  { num: '03', name: 'Exécution', sub: 'Photo, vidéo, livrables — hands on', href: '/work#execution' },
+const HATS: { num: string; name: Bi; sub: Bi; href: string }[] = [
+  {
+    num: '01',
+    name: { fr: 'Brand Architect', en: 'Brand Architect' },
+    sub: { fr: 'Stratégie + systèmes de marque', en: 'Strategy + brand systems' },
+    href: '/work#strategy',
+  },
+  {
+    num: '02',
+    name: { fr: 'Direction Artistique', en: 'Art Direction' },
+    sub: {
+      fr: 'Image, scenography, identité visuelle',
+      en: 'Image, scenography, visual identity',
+    },
+    href: '/work#art',
+  },
+  {
+    num: '03',
+    name: { fr: 'Exécution', en: 'Execution' },
+    sub: { fr: 'Photo, vidéo, livrables — hands on', en: 'Photo, video, deliverables — hands on' },
+    href: '/work#execution',
+  },
 ];
 
 export function HatsIntro() {
+  const t = useT();
+  const { lang } = useLang();
   return (
     <section id="casquettes" className={styles.hatsIntro}>
       <div>
-        <span className={styles.hatsEyebrow}>§ 02 — Trois casquettes, un système</span>
-        <h2 className={styles.hatsTitle}>Je porte trois <em>casquettes</em> selon le brief.</h2>
-        <p className={styles.hatsLede}>
-          Chacune est un métier complet, pas un add-on. Mais elles partagent
-          la même matière première : un point de vue de système sur la marque.
-        </p>
+        <span className={styles.hatsEyebrow}>{t.hats.eyebrow}</span>
+        <h2 className={styles.hatsTitle}>
+          {t.hats.title1}
+          <em>{t.hats.titleEm}</em>
+          {t.hats.title2}
+        </h2>
+        <p className={styles.hatsLede}>{t.hats.lede}</p>
         <Link href="/work" className={`${styles.btn} ${styles.btnGhost}`}>
-          <span>Folio complet</span> <span>→</span>
+          <span>{t.hats.cta}</span> <span>→</span>
         </Link>
       </div>
-      <nav className={styles.hatsList} aria-label="Trois pratiques">
+      <nav className={styles.hatsList} aria-label={t.hats.ariaList}>
         {HATS.map((h) => (
           <Link key={h.num} href={h.href} className={styles.hatRow}>
             <span className={styles.hatNum}>{h.num}</span>
-            <h3 className={styles.hatName}>{h.name}</h3>
+            <h3 className={styles.hatName}>{pick(h.name, lang)}</h3>
             <span className={styles.hatArrow}>↗</span>
-            <span className={styles.hatSub}>{h.sub}</span>
+            <span className={styles.hatSub}>{pick(h.sub, lang)}</span>
           </Link>
         ))}
       </nav>

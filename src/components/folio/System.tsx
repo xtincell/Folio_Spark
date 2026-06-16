@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '@/styles/home.module.css';
+import { useT } from '@/lib/i18n';
 
 const LINES = [
   'init :: lafusee.boot',
@@ -19,10 +20,11 @@ const LINES = [
 ];
 
 export function System() {
+  const t = useT();
   const [tick, setTick] = useState(0);
 
   useEffect(() => {
-    const id = setInterval(() => setTick((t) => t + 1), 1600);
+    const id = setInterval(() => setTick((tk) => tk + 1), 1600);
     return () => clearInterval(id);
   }, []);
 
@@ -33,26 +35,20 @@ export function System() {
     <section id="systeme" className={styles.system}>
       <div className={styles.sectionHead}>
         <span className={styles.sectionNum}>04</span>
-        <span className={styles.sectionLabel}>LaFusée · OS UPgraders</span>
+        <span className={styles.sectionLabel}>{t.system.label}</span>
       </div>
 
       <div className={styles.systemGrid}>
         <div className={styles.systemCopy}>
-          <h2>L&apos;IA n&apos;est pas l&apos;artiste.<br /><em>Elle est le studio.</em></h2>
-          <p>
-            <b>LaFusée</b> — l&apos;OS interne d&apos;UPgraders pour la gestion de l&apos;industrie créative.
-            Il automatise la méthode <b>ADVE/RTIS</b> : extraction d&apos;ADN, audit de risque,
-            cartographie d&apos;innovations, roadmap dynamique. Ce qui prenait deux semaines
-            tient en deux jours — sans concession sur la direction.
-          </p>
+          <h2>{t.system.title1}<br /><em>{t.system.titleEm}</em></h2>
+          <p dangerouslySetInnerHTML={{ __html: t.system.body }} />
           <ul className={styles.systemList}>
-            <li><span>01</span>Pipelines calibrés par marque, pas génériques.</li>
-            <li><span>02</span>Socle ADVE versionné, propulseur RTIS ré-exécutable.</li>
-            <li><span>03</span>Console unique : brief → arbitrage → livrable.</li>
-            <li><span>04</span>L&apos;humain garde la décision. La passion reste le propulseur.</li>
+            {t.system.list.map((item, i) => (
+              <li key={i}><span>{String(i + 1).padStart(2, '0')}</span>{item}</li>
+            ))}
           </ul>
           <Link href="/upgraders" className={styles.systemCta}>
-            <span>Voir UPgraders en détail</span>
+            <span>{t.system.cta}</span>
             <span aria-hidden="true">→</span>
           </Link>
         </div>

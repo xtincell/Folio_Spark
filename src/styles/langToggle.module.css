@@ -1,0 +1,50 @@
+/* FR / EN language switch — a compact two-segment pill.
+   Tokens (--accent, --ink, --ink-3) are inherited from the surrounding
+   .folioRoot / topbar scope so it adapts to every page surface. */
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid color-mix(in oklch, currentColor 22%, transparent);
+  border-radius: 999px;
+  background: color-mix(in oklch, currentColor 6%, transparent);
+  font-family: var(--folio-mono, ui-monospace, monospace);
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.seg {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--ink-3, currentColor);
+  font: inherit;
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  padding: 5px 9px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.18s ease, background 0.18s ease;
+}
+
+.seg:hover {
+  color: var(--ink, currentColor);
+}
+
+.segActive {
+  color: var(--bg, #0a0a0a);
+  background: var(--accent, currentColor);
+}
+
+.segActive:hover {
+  color: var(--bg, #0a0a0a);
+}
+
+.sep {
+  width: 1px;
+  height: 12px;
+  background: color-mix(in oklch, currentColor 20%, transparent);
+}

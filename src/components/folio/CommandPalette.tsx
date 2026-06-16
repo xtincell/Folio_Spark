@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import { useRouter } from 'next/navigation';
 import styles from '@/styles/commandPalette.module.css';
 import { CONTACT } from './data/contact';
+import { useT, useLang } from '@/lib/i18n';
 
 type Cmd = {
   id: string;
@@ -15,10 +16,13 @@ type Cmd = {
 
 export function CommandPalette() {
   const router = useRouter();
+  const t = useT();
+  const { lang, toggle } = useLang();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [activeIdx, setActiveIdx] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
+  const p = t.palette;
 
   const commands = useMemo<Cmd[]>(() => {
     const go = (href: string) => () => {
@@ -30,29 +34,40 @@ export function CommandPalette() {
       window.open(href, '_blank', 'noopener,noreferrer');
     };
     return [
-      { id: 'home', group: 'Naviguer', label: 'Accueil', hint: '/', run: go('/') },
-      { id: 'work', group: 'Naviguer', label: 'Folio', hint: '/work', run: go('/work') },
-      { id: 'galerie', group: 'Naviguer', label: 'Galerie', hint: '/galerie', run: go('/galerie') },
-      { id: 'cv', group: 'Naviguer', label: 'CV', hint: '/cv', run: go('/cv') },
-      { id: 'upg', group: 'Naviguer', label: 'UPgraders', hint: '/upgraders', run: go('/upgraders') },
-      { id: 'blog', group: 'Naviguer', label: 'Blog UPgraders', hint: '/upgraders/blog', run: go('/upgraders/blog') },
-      { id: 'manifeste', group: 'Sections', label: 'Manifeste', run: go('/#manifeste') },
-      { id: 'methode', group: 'Sections', label: 'Méthode ADVE/RTIS', run: go('/#methode') },
-      { id: 'contact', group: 'Sections', label: 'Contact', run: go('/#contact') },
-      { id: 'wa', group: 'Contact', label: 'WhatsApp', hint: CONTACT.whatsappDisplay, run: ext(CONTACT.whatsappLink) },
-      { id: 'mail', group: 'Contact', label: 'Email', hint: CONTACT.email, run: ext(`mailto:${CONTACT.email}`) },
+      { id: 'home', group: p.groupNav, label: p.home, hint: '/', run: go('/') },
+      { id: 'work', group: p.groupNav, label: p.folio, hint: '/work', run: go('/work') },
+      { id: 'galerie', group: p.groupNav, label: p.gallery, hint: '/galerie', run: go('/galerie') },
+      { id: 'design', group: p.groupNav, label: p.design, hint: '/design', run: go('/design') },
+      { id: 'cv', group: p.groupNav, label: p.cv, hint: '/cv', run: go('/cv') },
+      { id: 'upg', group: p.groupNav, label: p.upgraders, hint: '/upgraders', run: go('/upgraders') },
+      { id: 'blog', group: p.groupNav, label: p.blog, hint: '/upgraders/blog', run: go('/upgraders/blog') },
+      { id: 'manifeste', group: p.groupSections, label: p.manifesto, run: go('/#manifeste') },
+      { id: 'methode', group: p.groupSections, label: p.method, run: go('/#methode') },
+      { id: 'contact', group: p.groupSections, label: p.contact, run: go('/#contact') },
+      { id: 'wa', group: p.groupContact, label: p.whatsapp, hint: CONTACT.whatsappDisplay, run: ext(CONTACT.whatsappLink) },
+      { id: 'mail', group: p.groupContact, label: p.email, hint: CONTACT.email, run: ext(`mailto:${CONTACT.email}`) },
       {
         id: 'copy',
-        group: 'Contact',
-        label: "Copier l'email",
+        group: p.groupContact,
+        label: p.copyEmail,
         run: () => {
           void navigator.clipboard?.writeText(CONTACT.email);
           setOpen(false);
         },
       },
-      { id: 'linkedin', group: 'Contact', label: 'LinkedIn', hint: CONTACT.linkedinDisplay, run: ext(CONTACT.linkedinLink) },
+      { id: 'linkedin', group: p.groupContact, label: p.linkedin, hint: CONTACT.linkedinDisplay, run: ext(CONTACT.linkedinLink) },
+      {
+        id: 'lang',
+        group: p.groupLang,
+        label: p.switchLang,
+        hint: lang === 'fr' ? 'FR → EN' : 'EN → FR',
+        run: () => {
+          toggle();
+          setOpen(false);
+        },
+      },
     ];
-  }, [router]);
+  }, [router, p, lang, toggle]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -114,10 +129,10 @@ export function CommandPalette() {
         type="button"
         className={styles.trigger}
         onClick={() => setOpen(true)}
-        aria-label="Ouvrir la palette de commandes"
+        aria-label={p.ariaOpen}
         aria-haspopup="dialog"
       >
-        <span>Commandes</span>
+        <span>{p.trigger}</span>
         <kbd>⌘K</kbd>
       </button>
 
@@ -127,7 +142,7 @@ export function CommandPalette() {
             className={styles.palette}
             role="dialog"
             aria-modal="true"
-            aria-label="Palette de commandes"
+            aria-label={p.ariaDialog}
             onClick={(e) => e.stopPropagation()}
           >
             <div className={styles.inputRow}>
@@ -137,11 +152,11 @@ export function CommandPalette() {
               <input
                 ref={inputRef}
                 className={styles.input}
-                placeholder="Naviguer, contacter…"
+                placeholder={p.placeholder}
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyDown={onInputKey}
-                aria-label="Rechercher une commande"
+                aria-label={p.ariaSearch}
                 role="combobox"
                 aria-expanded="true"
                 aria-controls="cp-list"
@@ -150,8 +165,8 @@ export function CommandPalette() {
               <kbd className={styles.kbd}>ESC</kbd>
             </div>
 
-            <ul id="cp-list" className={styles.list} role="listbox" aria-label="Commandes">
-              {filtered.length === 0 && <li className={styles.empty}>Aucune commande</li>}
+            <ul id="cp-list" className={styles.list} role="listbox" aria-label={p.ariaDialog}>
+              {filtered.length === 0 && <li className={styles.empty}>{p.empty}</li>}
               {filtered.map((c, i) => (
                 <li
                   key={c.id}
@@ -169,8 +184,8 @@ export function CommandPalette() {
             </ul>
 
             <div className={styles.footer}>
-              <span><kbd>↑↓</kbd>naviguer</span>
-              <span><kbd>↵</kbd>ouvrir</span>
+              <span><kbd>↑↓</kbd>{p.navigate}</span>
+              <span><kbd>↵</kbd>{p.open}</span>
               <span className={styles.footerBrand}>BRAND OS · XTINCELL</span>
             </div>
           </div>

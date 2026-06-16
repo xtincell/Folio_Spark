@@ -4,8 +4,11 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '@/styles/home.module.css';
 import { FlameMark } from './FlameMark';
+import { LangToggle } from './LangToggle';
+import { useT } from '@/lib/i18n';
 
 export function Nav() {
+  const t = useT();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -47,10 +50,10 @@ export function Nav() {
         className={styles.navToggle}
         aria-expanded={open}
         aria-controls="nav-menu"
-        aria-label={open ? 'Fermer le menu' : 'Ouvrir le menu'}
+        aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
         onClick={() => setOpen((v) => !v)}
       >
-        <span aria-hidden="true">{open ? 'Fermer' : 'Menu'}</span>
+        <span aria-hidden="true">{open ? t.nav.close : t.nav.menu}</span>
         <span className={`${styles.navToggleBars} ${open ? styles.navToggleBarsOpen : ''}`} aria-hidden="true">
           <i /><i />
         </span>
@@ -60,12 +63,13 @@ export function Nav() {
         id="nav-menu"
         className={`${styles.navLinks} ${open ? styles.navLinksOpen : ''}`}
       >
-        <a href="#manifeste" onClick={close}>Manifeste</a>
-        <a href="#methode" onClick={close}>Méthode</a>
-        <Link href="/work" onClick={close}>Folio ↗</Link>
-        <Link href="/galerie" onClick={close}>Galerie ↗</Link>
-        <Link href="/cv" onClick={close}>CV ↗</Link>
-        <a href="#contact" className={styles.navCta} onClick={close}>Contact →</a>
+        <a href="#manifeste" onClick={close}>{t.nav.manifesto}</a>
+        <a href="#methode" onClick={close}>{t.nav.method}</a>
+        <Link href="/work" onClick={close}>{t.nav.folio} ↗</Link>
+        <Link href="/galerie" onClick={close}>{t.nav.gallery} ↗</Link>
+        <Link href="/cv" onClick={close}>{t.nav.cv} ↗</Link>
+        <a href="#contact" className={styles.navCta} onClick={close}>{t.nav.contact} →</a>
+        <LangToggle className={styles.navLang} />
       </div>
     </nav>
   );

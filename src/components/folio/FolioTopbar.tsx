@@ -5,18 +5,26 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from '@/styles/folioTopbar.module.css';
 import { CONTACT } from './data/contact';
+import { LangToggle } from './LangToggle';
+import { useT } from '@/lib/i18n';
 
-type Active = 'accueil' | 'folio' | 'galerie' | 'cv';
+type Active = 'accueil' | 'folio' | 'galerie' | 'cv' | 'design';
 
-const LINKS: { key: Active; href: string; label: string }[] = [
-  { key: 'accueil', href: '/', label: 'Accueil' },
-  { key: 'folio', href: '/work', label: 'Folio' },
-  { key: 'galerie', href: '/galerie', label: 'Galerie' },
-  { key: 'cv', href: '/cv', label: 'CV' },
-];
-
-export function FolioTopbar({ label, active }: { label: string; active: Active }) {
+export function FolioTopbar({ label, active }: { label?: string; active: Active }) {
+  const t = useT();
   const [open, setOpen] = useState(false);
+
+  const links: { key: Active; href: string; label: string }[] = [
+    { key: 'accueil', href: '/', label: t.nav.home },
+    { key: 'folio', href: '/work', label: t.nav.folio },
+    { key: 'galerie', href: '/galerie', label: t.nav.gallery },
+    { key: 'design', href: '/design', label: t.nav.design },
+    { key: 'cv', href: '/cv', label: t.nav.cv },
+  ];
+
+  // Brand suffix: an explicit label wins, otherwise derive from the active page.
+  const activeLabel =
+    label ?? (links.find((l) => l.key === active)?.label ?? '').toUpperCase();
 
   useEffect(() => {
     if (!open) return;
@@ -40,7 +48,7 @@ export function FolioTopbar({ label, active }: { label: string; active: Active }
     <header className={styles.topbar}>
       <Link href="/" className={styles.brand} onClick={close}>
         <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
-        <span>XTINCELL — {label}</span>
+        <span>XTINCELL — {activeLabel}</span>
       </Link>
 
       <button
@@ -48,10 +56,10 @@ export function FolioTopbar({ label, active }: { label: string; active: Active }
         className={styles.toggle}
         aria-expanded={open}
         aria-controls="folio-topnav"
-        aria-label={open ? 'Fermer le menu' : 'Ouvrir le menu'}
+        aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
         onClick={() => setOpen((v) => !v)}
       >
-        <span aria-hidden="true">{open ? 'Fermer' : 'Menu'}</span>
+        <span aria-hidden="true">{open ? t.nav.close : t.nav.menu}</span>
         <span className={`${styles.bars} ${open ? styles.barsOpen : ''}`} aria-hidden="true">
           <i /><i />
         </span>
@@ -60,9 +68,9 @@ export function FolioTopbar({ label, active }: { label: string; active: Active }
       <nav
         id="folio-topnav"
         className={`${styles.nav} ${open ? styles.navOpen : ''}`}
-        aria-label="Navigation principale"
+        aria-label={t.topbar.principal}
       >
-        {LINKS.map((l) => (
+        {links.map((l) => (
           <Link
             key={l.key}
             href={l.href}
@@ -73,8 +81,9 @@ export function FolioTopbar({ label, active }: { label: string; active: Active }
           </Link>
         ))}
         <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer" onClick={close}>
-          Contact
+          {t.nav.contact}
         </a>
+        <LangToggle />
       </nav>
     </header>
   );
