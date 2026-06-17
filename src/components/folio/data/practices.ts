@@ -16,6 +16,7 @@ export type Project = {
   body: Bi;
   tags: string[];
   proofs?: Proof[];
+  images?: string[];
 };
 
 export type Practice = {
@@ -54,6 +55,14 @@ export const PRACTICES: Practice[] = [
           en: 'Project built end-to-end by Upgraders over 30 months. Architecture of the sales system (Shopify × Quanta Hive), team build (7 people), launch of the “Aventurier” community programme (#feelfreetocreate). Positioning: leader in audiovisual gear in Central Africa.',
         },
         tags: ['Brand build', 'Go-to-market', 'E-commerce', 'Community'],
+        images: [
+          '/work/historique/07-motion19-historique/07-motion19-historique-01.jpg',
+          '/work/historique/07-motion19-historique/07-motion19-historique-02.jpg',
+          '/work/historique/07-motion19-historique/07-motion19-historique-03.jpg',
+          '/work/historique/07-motion19-historique/07-motion19-historique-04.jpg',
+          '/work/historique/07-motion19-historique/07-motion19-historique-05.jpg',
+          '/work/historique/07-motion19-historique/07-motion19-historique-06.jpg',
+        ],
       },
       {
         name: 'SHAKAZZ',
@@ -87,6 +96,13 @@ export const PRACTICES: Practice[] = [
           en: 'A 100% Cameroonian haircare brand for kinky hair — “Preserve our HAIRITAGE”. Product positioning, go-to-market, identity — operated via Her Media.',
         },
         tags: ['Lancement', 'DNA', 'FMCG'],
+        images: [
+          '/work/tier23/kemcare-haircare/kemcare-haircare-01.jpg',
+          '/work/tier23/kemcare-haircare/kemcare-haircare-02.jpg',
+          '/work/tier23/kemcare-haircare/kemcare-haircare-03.jpg',
+          '/work/tier23/kemcare-haircare/kemcare-haircare-04.jpg',
+          '/work/tier23/kemcare-haircare/kemcare-haircare-05.jpg',
+        ],
       },
       {
         name: 'UPGRADERS',
@@ -98,6 +114,14 @@ export const PRACTICES: Practice[] = [
           en: 'See the dedicated block above. My lab-agency — digital marketing, AI, internal OS. Signature: #ToTheNextLevel · #UPyourBrand.',
         },
         tags: ['Studio', 'OS interne', 'IA'],
+        images: [
+          '/work/historique/01-upgraders-agency/01-upgraders-agency-01.jpg',
+          '/work/historique/01-upgraders-agency/01-upgraders-agency-02.jpg',
+          '/work/historique/01-upgraders-agency/01-upgraders-agency-03.jpg',
+          '/work/historique/01-upgraders-agency/01-upgraders-agency-04.jpg',
+          '/work/historique/01-upgraders-agency/01-upgraders-agency-05.jpg',
+          '/work/historique/01-upgraders-agency/01-upgraders-agency-06.jpg',
+        ],
       },
     ],
   },
@@ -124,6 +148,16 @@ export const PRACTICES: Practice[] = [
           en: 'Creative & art direction for major FMCG and institutional accounts: Friesland Campina (Bonnet Rouge, Peak, Omela), Ecobank CAR, Cadyst Group (Cadyst Grain / Panzani, LaPasta — First, Foodies, Gold —, Delys & Barka). Global vision, production oversight, cross-brand coherence.',
         },
         tags: ['Friesland Campina', 'Ecobank RCA', 'Cadyst', 'LaPasta', 'Delys & Barka'],
+        images: [
+          '/work/peak/peak-02.jpg',
+          '/work/bonnet-rouge/bonnet-rouge-01.jpg',
+          '/work/omela/omela-01.jpg',
+          '/work/panzani/panzani-01.png',
+          '/work/peak/peak-03.jpg',
+          '/work/bonnet-rouge/bonnet-rouge-03.jpg',
+          '/work/omela/omela-03.jpg',
+          '/work/peak/peak-05.jpg',
+        ],
       },
       {
         name: 'RETLAW × HoHaaa Music',
@@ -153,6 +187,14 @@ export const PRACTICES: Practice[] = [
           en: 'Commissioned via Imperial — the talent agency led by Esther Naah — for the UMA Cameroon roster: Locko, Mimie, Charlotte Dipanda, Singuila, Cysoul. Art direction and portraiture: standardising an iconography exportable beyond Cameroon.',
         },
         tags: ['Locko', 'Mimie', 'Charlotte Dipanda', 'Singuila', 'Cysoul'],
+        images: [
+          '/work/tier23/locko-uma/locko-uma-01.jpg',
+          '/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-01.jpg',
+          '/work/historique/16-music-covers/16-music-covers-01.jpg',
+          '/work/historique/16-music-covers/16-music-covers-02.jpg',
+          '/work/historique/16-music-covers/16-music-covers-03.jpg',
+          '/work/historique/16-music-covers/16-music-covers-04.jpg',
+        ],
       },
       {
         name: 'KOF — K-mer Otaku Festival',
@@ -164,6 +206,14 @@ export const PRACTICES: Practice[] = [
           en: 'Pop-culture festival (manga, cosplay, gaming, comics) — Yaoundé. Photography for the 1st edition, then art direction from the 2nd. 3rd edition: National Museum + 6th District Hall, 5,000 tickets, partners Infinix, Zebra Comics.',
         },
         tags: ['Festival', 'Identité visuelle', 'Pop culture'],
+        images: [
+          '/work/historique/05-kof-da-historique/05-kof-da-historique-01.jpg',
+          '/work/historique/05-kof-da-historique/05-kof-da-historique-02.jpg',
+          '/work/historique/05-kof-da-historique/05-kof-da-historique-03.jpg',
+          '/work/historique/05-kof-da-historique/05-kof-da-historique-04.jpg',
+          '/work/historique/05-kof-da-historique/05-kof-da-historique-05.jpg',
+          '/work/historique/06-kof-photographie/06-kof-photographie-01.jpg',
+        ],
       },
       {
         name: 'BIMSTR AGENCY',
@@ -175,6 +225,40 @@ export const PRACTICES: Practice[] = [
           en: 'Directing event and photographic production for public figures. First contact with Chococam.',
         },
         tags: ['Événementiel', 'Portraits VIP', 'Agence'],
+      },
+      {
+        name: 'TOP — Brasseries du Cameroun (SABC)',
+        chain: ['Top', 'Boissons du Cameroun (SABC)'],
+        meta: { fr: '2020 — 2022 · Douala', en: '2020 — 2022 · Douala' },
+        role: {
+          fr: 'Direction Artistique & Production',
+          en: 'Art Direction & Production',
+        },
+        body: {
+          fr: "Période de la « bataille des limonades » au Cameroun (Top vs Bubble Up vs Spécial limonade) — lancement Top Bitter Lemon (oct. 2020), activations marque, contenus social et événementiel. Travail sur l'écosystème SABC à un moment-clé pour la franchise Top.",
+          en: 'The era of Cameroon’s “lemonade war” (Top vs Bubble Up vs Spécial limonade) — launch of Top Bitter Lemon (Oct. 2020), brand activations, social and event content. Work across the SABC ecosystem at a pivotal moment for the Top franchise.',
+        },
+        tags: ['FMCG', 'Boisson', 'Top Bitter Lemon', 'Activation', 'Social'],
+        proofs: [
+          {
+            label: { fr: 'SABC · Boissons du Cameroun', en: 'SABC · Boissons du Cameroun' },
+            host: 'Facebook',
+            url: 'https://www.facebook.com/boissonsducameroun/',
+          },
+          {
+            label: { fr: 'SABC · YouTube', en: 'SABC · YouTube' },
+            host: 'YouTube',
+            url: 'https://www.youtube.com/@BoissonsduCameroun',
+          },
+        ],
+        images: [
+          '/work/top-brasseries/top-brasseries-01.jpg',
+          '/work/top-brasseries/top-brasseries-02.jpg',
+          '/work/top-brasseries/top-brasseries-03.jpg',
+          '/work/top-brasseries/top-brasseries-04.webp',
+          '/work/top-brasseries/top-brasseries-05.jpg',
+          '/work/top-brasseries/top-brasseries-06.jpg',
+        ],
       },
     ],
   },
@@ -201,6 +285,11 @@ export const PRACTICES: Practice[] = [
           en: 'Video advertising campaign for the Akwa Palace hotel (Douala). Image direction, shooting, editing, multi-format deliverables — production Friends Studio × Upgraders.',
         },
         tags: ['Vidéo', 'Hospitality', 'Advertising'],
+        images: [
+          '/work/tier23/akwa-palace-2025/akwa-palace-2025-03.jpg',
+          '/work/tier23/akwa-palace-2025/akwa-palace-2025-01.jpg',
+          '/work/tier23/akwa-palace-2025/akwa-palace-2025-02.jpg',
+        ],
       },
       {
         name: 'OCEANIS KRIBI · The Villa',
@@ -230,6 +319,14 @@ export const PRACTICES: Practice[] = [
           en: 'Bespoke jewellery — visual content production for the brand. Product image direction, shooting, social-media variations. Friends Studio × Upgraders.',
         },
         tags: ['Joaillerie', 'Produit', 'Luxe'],
+        images: [
+          '/work/tier23/maison-gimane-2024/maison-gimane-2024-01.jpg',
+          '/work/tier23/maison-gimane-2024/maison-gimane-2024-02.jpg',
+          '/work/tier23/maison-gimane-2024/maison-gimane-2024-03.jpg',
+          '/work/tier23/maison-gimane-2024/maison-gimane-2024-04.jpg',
+          '/work/tier23/maison-gimane-2024/maison-gimane-2024-05.jpg',
+          '/work/tier23/maison-gimane-2024/maison-gimane-2024-06.jpg',
+        ],
         proofs: [
           {
             label: { fr: 'Maison Gimane — reel 01', en: 'Maison Gimane — reel 01' },
@@ -253,6 +350,14 @@ export const PRACTICES: Practice[] = [
           en: 'Coverage of the March 8 parade (Benny), vox-pop interviews, 2 pilot episodes & fun-day reportage (Big Gum), Mother’s Day (Tartina, Matinal), Chococam health capsules, May 1 (Tiger Brand), Valentine’s Day & product shoot (Mambo).',
         },
         tags: ['Benny', 'Big Gum', 'Tartina', 'Matinal', 'Mambo', 'Tiger Brand'],
+        images: [
+          '/work/chococam/chococam-01.webp',
+          '/work/chococam/chococam-02.webp',
+          '/work/chococam/chococam-03.webp',
+          '/work/chococam/chococam-04.webp',
+          '/work/chococam/chococam-05.jpg',
+          '/work/chococam/chococam-06.webp',
+        ],
         proofs: [
           {
             label: { fr: 'Tartina · Fête des Mères', en: 'Tartina · Mother’s Day' },
@@ -308,6 +413,14 @@ export const PRACTICES: Practice[] = [
           en: 'Art direction and execution of the Pink October campaign content for the Port Autonome de Kribi — operated via Her Media.',
         },
         tags: ['Institutionnel', 'Octobre Rose', 'Campagne'],
+        images: [
+          '/work/tier23/port-autonome-kribi/port-autonome-kribi-01.jpg',
+          '/work/tier23/port-autonome-kribi/port-autonome-kribi-02.jpg',
+          '/work/tier23/port-autonome-kribi/port-autonome-kribi-03.jpg',
+          '/work/tier23/port-autonome-kribi/port-autonome-kribi-04.jpg',
+          '/work/tier23/port-autonome-kribi/port-autonome-kribi-05.jpg',
+          '/work/tier23/port-autonome-kribi/port-autonome-kribi-07.jpg',
+        ],
       },
       {
         name: 'MAISON MOËT & CHANDON',
@@ -330,6 +443,13 @@ export const PRACTICES: Practice[] = [
           en: 'White-label collaboration with Diane Audrey Ngako’s pan-African agency (Douala · Abidjan · Cotonou). Diaspoassur capsules, Douala Digital Show, Ambitieuse event.',
         },
         tags: ['Diaspoassur', 'DDS', 'Ambitieuse'],
+        images: [
+          '/work/tier23/omenkart-clients/omenkart-clients-01.jpg',
+          '/work/tier23/omenkart-clients/omenkart-clients-02.jpg',
+          '/work/tier23/omenkart-clients/omenkart-clients-03.jpg',
+          '/work/tier23/omenkart-clients/omenkart-clients-04.jpg',
+          '/work/tier23/omenkart-clients/omenkart-clients-05.jpg',
+        ],
       },
       {
         name: 'SELLKAKO · WILL&BROTHERS',

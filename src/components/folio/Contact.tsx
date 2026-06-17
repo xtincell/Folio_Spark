@@ -32,8 +32,18 @@ export function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className={styles.ccLabel}>{t.contact.whatsapp}</div>
+            <div className={styles.ccLabel}>{t.contact.whatsapp} · {CONTACT.whatsappLabel}</div>
             <div className={styles.ccValue}>{CONTACT.whatsappDisplay}</div>
+            <div className={styles.ccArrow}>→</div>
+          </a>
+          <a
+            className={styles.contactCard}
+            href={CONTACT.whatsappSecondaryLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={styles.ccLabel}>{t.contact.whatsapp} · {CONTACT.whatsappSecondaryLabel}</div>
+            <div className={styles.ccValue}>{CONTACT.whatsappSecondaryDisplay}</div>
             <div className={styles.ccArrow}>→</div>
           </a>
           <a className={styles.contactCard} href={`mailto:${CONTACT.email}`}>

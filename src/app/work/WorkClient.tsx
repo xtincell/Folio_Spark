@@ -99,6 +99,15 @@ export function WorkClient() {
           </h1>
           <p>{t.work.lede}</p>
 
+          <div className={styles.folioDownloads}>
+            <a className={styles.pdfBtn} href="/folio.pdf" download="Folio-Spark-Xtincell-2026.pdf">
+              Folio · PDF ↓
+            </a>
+            <a className={styles.pdfBtn} href="/folio.pptx" download="Folio-Spark-Xtincell-2026.pptx">
+              Folio · PPTX ↓
+            </a>
+          </div>
+
           <nav className={styles.toc} aria-label={t.work.toc}>
             {HAT_IDS.map((id) => {
               const m = HAT_META[id];
@@ -159,6 +168,27 @@ export function WorkClient() {
                           <span key={tag}>{tag}</span>
                         ))}
                       </div>
+                      {proj.images && proj.images.length > 0 && (
+                        <div className={styles.projImages}>
+                          <div className={styles.imagesLabel}>
+                            {pick({ fr: 'Visuels campagne', en: 'Campaign visuals' }, lang)}
+                          </div>
+                          <div className={styles.imagesGrid}>
+                            {proj.images.map((src) => (
+                              <a
+                                key={src}
+                                href={src}
+                                target="_blank"
+                                rel="noreferrer"
+                                className={styles.imageThumb}
+                              >
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img src={src} alt={`Visuel ${proj.name}`} loading="lazy" decoding="async" />
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                       {proj.proofs && proj.proofs.length > 0 && (
                         <div className={styles.projProofs}>
                           <div className={styles.proofsLabel}>{t.proof.label}</div>
@@ -190,7 +220,15 @@ export function WorkClient() {
               target="_blank"
               rel="noreferrer"
             >
-              WhatsApp — {CONTACT.whatsappDisplay}
+              WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay}
+            </a>
+            <a
+              className={`${styles.btn} ${styles.btnGhost}`}
+              href={CONTACT.whatsappSecondaryLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay}
             </a>
             <a className={`${styles.btn} ${styles.btnGhost}`} href={`mailto:${CONTACT.email}`}>
               Email — {CONTACT.email}

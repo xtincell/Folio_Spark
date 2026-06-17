@@ -244,7 +244,15 @@ export function GalerieClient() {
               target="_blank"
               rel="noreferrer"
             >
-              WhatsApp — {CONTACT.whatsappDisplay}
+              WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay}
+            </a>
+            <a
+              className={`${styles.btn} ${styles.btnGhost}`}
+              href={CONTACT.whatsappSecondaryLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay}
             </a>
             <a className={`${styles.btn} ${styles.btnGhost}`} href={`mailto:${CONTACT.email}`}>
               Email — {CONTACT.email}

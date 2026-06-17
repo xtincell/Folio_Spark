@@ -216,6 +216,14 @@ export function CvClient() {
         <section className={styles.cvHead}>
           <div>
             <div className={styles.cvEyebrow}>{t.cv.eyebrow}</div>
+            <div className={styles.cvDownloads} data-print-hide="true">
+              <a className={styles.pdfBtn} href="/cv.pdf" download="Alexandre-Djengue-CV.pdf">
+                CV · PDF ↓
+              </a>
+              <a className={styles.pdfBtn} href="/cv.pptx" download="Alexandre-Djengue-CV.pptx">
+                CV · PPTX ↓
+              </a>
+            </div>
             <h1 className={styles.cvName}>
               Alexandre <em>Djengue</em>
             </h1>
@@ -226,10 +234,16 @@ export function CvClient() {
             <dd>{t.cv.bornV}</dd>
             <dt>{t.cv.base}</dt>
             <dd>{t.cv.baseV}</dd>
-            <dt>WhatsApp</dt>
+            <dt>WhatsApp {CONTACT.whatsappLabel}</dt>
             <dd>
               <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
                 {CONTACT.whatsappDisplay}
+              </a>
+            </dd>
+            <dt>WhatsApp {CONTACT.whatsappSecondaryLabel}</dt>
+            <dd>
+              <a href={CONTACT.whatsappSecondaryLink} target="_blank" rel="noreferrer">
+                {CONTACT.whatsappSecondaryDisplay}
               </a>
             </dd>
             <dt>Email</dt>
@@ -392,7 +406,10 @@ export function CvClient() {
           <Image src="/logo-spark-white.png" alt="Xtincell" width={28} height={28} />
           <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
           <a className="cta" href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
-            WhatsApp — {CONTACT.whatsappDisplay} →
+            WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay} →
+          </a>
+          <a className="cta" href={CONTACT.whatsappSecondaryLink} target="_blank" rel="noreferrer">
+            WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay} →
           </a>
         </footer>
 
