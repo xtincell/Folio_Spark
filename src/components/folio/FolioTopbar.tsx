@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from '@/styles/folioTopbar.module.css';
 import { CONTACT } from './data/contact';
+import { FlameMark } from './FlameMark';
 import { LangToggle } from './LangToggle';
 import { useT } from '@/lib/i18n';
 
@@ -47,7 +47,7 @@ export function FolioTopbar({ label, active }: { label?: string; active: Active 
   return (
     <header className={styles.topbar}>
       <Link href="/" className={styles.brand} onClick={close}>
-        <Image src="/logo-spark-white.png" alt="Xtincell" width={22} height={22} />
+        <FlameMark size={22} white animated={false} />
         <span>XTINCELL — {activeLabel}</span>
       </Link>
 

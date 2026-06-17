@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
+import { FlameMark } from '@/components/folio/FlameMark';
 import styles from '@/styles/work.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { PRACTICES } from '@/components/folio/data/practices';
@@ -269,7 +269,7 @@ export function WorkClient() {
           </div>
 
           <div className={styles.footBottom}>
-            <Image src="/logo-spark-white.png" alt="Xtincell" width={28} height={28} />
+            <FlameMark size={28} white />
             <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
             <div className="meta">Built with systems, not just art.</div>
           </div>

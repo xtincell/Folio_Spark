@@ -1,9 +1,10 @@
 'use client';
 
-import Image from 'next/image';
 import styles from '@/styles/cv.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
+import { FlameMark } from '@/components/folio/FlameMark';
+import { SparkMark } from '@/components/folio/icons/SparkMark';
 import { useT, useLang, pick, type Bi } from '@/lib/i18n';
 
 type TLEntry = {
@@ -210,6 +211,9 @@ export function CvClient() {
 
   return (
     <div className={styles.folioRoot}>
+      <div className={styles.backdrop} aria-hidden="true">
+        <SparkMark outline animated={false} ariaHidden />
+      </div>
       <FolioTopbar active="cv" />
 
       <main id="contenu" className={styles.page}>
@@ -403,7 +407,7 @@ export function CvClient() {
         </section>
 
         <footer className={styles.cvFoot}>
-          <Image src="/logo-spark-white.png" alt="Xtincell" width={28} height={28} />
+          <FlameMark size={28} white />
           <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
           <a className="cta" href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
             WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay} →

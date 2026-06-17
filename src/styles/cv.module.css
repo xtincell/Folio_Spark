@@ -45,7 +45,36 @@
   .nav { flex-wrap: wrap; gap: 14px; font-size: 10px; }
 }
 
+.backdrop {
+  position: fixed;
+  top: 50%;
+  right: -8vw;
+  transform: translateY(-50%);
+  z-index: 0;
+  pointer-events: none;
+  height: 130vh;
+  width: auto;
+  opacity: 0.05;
+  color: var(--ink);
+  --spark-accent: var(--accent);
+}
+.backdrop svg {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+@media (max-width: 768px) {
+  .backdrop {
+    right: -25vw;
+    height: 90vh;
+    opacity: 0.07;
+  }
+}
+.cvEyebrowText { display: inline-block; }
+
 .page {
+  position: relative;
+  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
   padding: 80px 40px 120px;
@@ -211,7 +240,7 @@
 .sbtn:hover { border-color: var(--accent); color: var(--ink); background: oklch(0.70 0.20 38 / 0.14); }
 @media print {
   .folioRoot { background: white; color: black; font-size: 11pt; }
-  .topbar, .cvFoot :global(.cta), .socialRow, .cvDownloads { display: none; }
+  .topbar, .cvFoot :global(.cta), .socialRow, .cvDownloads, .backdrop { display: none; }
   .folioRoot { --ink: #000; --ink-2: #333; --ink-3: #666; --line: #ccc; --line-2: #aaa; --bg: white; }
   .page { padding: 30px 30px; }
   .sectionHead { position: static; }

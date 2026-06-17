@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 1009
+    },
+    {
+      "name": "folio-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev", "-p", "3009"],
+      "port": 3009
     }
   ]
 }
