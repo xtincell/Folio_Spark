@@ -301,7 +301,7 @@
     "mockupIdea": "Mockup magazine-spread / kiosque présentant la couverture GQ « The Popcorn Man Cometh » comme éditorial imprimé."
   },
   {
-    "folder": "Perso", "source": "Perso", "slug": "perso-sketchbook", "kind": "collection",
+    "folder": "Perso", "source": "Perso", "slug": "perso-sketchbook", "kind": "collection", "hidden": true,
     "name_fr": "Perso — Carnet d'art personnel", "name_en": "Perso — Personal Art Sketchbook",
     "client_fr": "Projet personnel", "client_en": "Personal project", "year": "2026", "hat": "art", "medium": ["illustration", "photography"],
     "context_fr": "Carnet d'art personnel mixte : portraits fantastiques « selfie au miroir » (personnage Medusa/locs « Sun & Moka » et son chat), affiche « Ad Astra Per Aspera » et natures mortes beauté (mains au henné, bagues or).",

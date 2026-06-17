@@ -20,6 +20,8 @@ export async function generateMetadata({
   return {
     title: `${c.name.fr} — ${c.client.fr} · Xtincell`,
     description: c.context.fr,
+    // Unlisted cases stay reachable by direct link but are kept out of search.
+    ...(c.hidden ? { robots: { index: false, follow: false } } : {}),
     openGraph: {
       title: `${c.name.fr} — ${c.client.fr}`,
       description: c.context.fr,
