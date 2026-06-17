@@ -12,11 +12,13 @@ import { useLang, pick } from '@/lib/i18n';
  */
 export function CaseStudyCTAGrid() {
   const { lang } = useLang();
-  if (CASE_STUDIES.length === 0) return null;
+  // Unlisted cases (e.g. personal sketchbook) are hidden from the portfolio grid.
+  const cases = CASE_STUDIES.filter((c) => !c.hidden);
+  if (cases.length === 0) return null;
 
   return (
     <div className={styles.ctaGrid}>
-      {CASE_STUDIES.map((c) => (
+      {cases.map((c, i) => (
         <Link key={c.slug} href={`/work/${c.slug}`} className={styles.ctaCard}>
           <div className={styles.ctaThumb}>
             <Image
@@ -24,6 +26,8 @@ export function CaseStudyCTAGrid() {
               alt={pick(c.name, lang)}
               fill
               sizes="(max-width: 760px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              quality={60}
+              loading={i < 6 ? 'eager' : 'lazy'}
               className={styles.ctaImg}
             />
             <span className={styles.ctaCode}>{HAT_CODE[c.hat]}</span>

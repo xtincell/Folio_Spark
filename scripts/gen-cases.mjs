@@ -79,10 +79,12 @@ async function main() {
       .map((src, i) => `    { src: ${J(src)}${i === 0 ? ", span: 'full' as const" : ''} },`)
       .join('\n');
 
+    const hiddenLine = s.hidden ? `\n    hidden: true,` : '';
+
     entries.push(
       `  {
     slug: ${J(s.slug)},
-    kind: ${J(s.kind)},
+    kind: ${J(s.kind)},${hiddenLine}
     name: ${bi(s.name_fr, s.name_en)},
     client: ${bi(s.client_fr, s.client_en)},
     year: ${J(s.year)},
@@ -120,7 +122,7 @@ ${galleryTs}
     `export type CaseProof = { label: Bi; host: string; url: string };\n\n` +
     `export type CaseImage = { src: string; alt?: Bi; span?: 'full' | 'half' };\n\n` +
     `export type HeroMockupSpec = {\n  type: string;\n  dimensions: string;\n  prompt: string;\n  references: string[];\n};\n\n` +
-    `export type CaseStudy = {\n  slug: string;\n  kind: 'case' | 'collection';\n  name: Bi;\n  client: Bi;\n  year: string;\n  hat: CaseHat;\n  tags: string[];\n  hero: string;\n  context: Bi;\n  role?: Bi;\n  process?: Bi;\n  result?: Bi;\n  gallery: CaseImage[];\n  proofs?: CaseProof[];\n  heroMockup?: HeroMockupSpec;\n};\n\n` +
+    `export type CaseStudy = {\n  slug: string;\n  kind: 'case' | 'collection';\n  hidden?: boolean;\n  name: Bi;\n  client: Bi;\n  year: string;\n  hat: CaseHat;\n  tags: string[];\n  hero: string;\n  context: Bi;\n  role?: Bi;\n  process?: Bi;\n  result?: Bi;\n  gallery: CaseImage[];\n  proofs?: CaseProof[];\n  heroMockup?: HeroMockupSpec;\n};\n\n` +
     `export const HAT_LABEL: Record<CaseHat, Bi> = {\n  strategy: { fr: 'Stratégie', en: 'Strategy' },\n  art: { fr: 'Direction Artistique', en: 'Art Direction' },\n  execution: { fr: 'Exécution', en: 'Execution' },\n};\n\n` +
     `export const HAT_CODE: Record<CaseHat, string> = {\n  strategy: 'P · 01',\n  art: 'P · 02',\n  execution: 'P · 03',\n};\n\n` +
     `export const CASE_STUDIES: CaseStudy[] = [\n${entries.join('\n')}\n];\n\n` +

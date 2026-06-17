@@ -19,6 +19,7 @@ export type HeroMockupSpec = {
 export type CaseStudy = {
   slug: string;
   kind: 'case' | 'collection';
+  hidden?: boolean;
   name: Bi;
   client: Bi;
   year: string;
@@ -737,6 +738,7 @@ export const CASE_STUDIES: CaseStudy[] = [
   {
     slug: "perso-sketchbook",
     kind: "collection",
+    hidden: true,
     name: { fr: "Perso — Carnet d'art personnel", en: "Perso — Personal Art Sketchbook" },
     client: { fr: "Projet personnel", en: "Personal project" },
     year: "2026",
