@@ -8,6 +8,7 @@ import { PRACTICES } from '@/components/folio/data/practices';
 import { AgencyChain } from '@/components/folio/AgencyChain';
 import { ProofEmbed } from '@/components/folio/ProofEmbed';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
+import { CaseStudyCTAGrid } from '@/components/folio/CaseStudyCTAGrid';
 import { useT, useLang, pick, type Bi } from '@/lib/i18n';
 
 const HAT_IDS = ['strategy', 'art', 'execution'] as const;
@@ -121,6 +122,24 @@ export function WorkClient() {
               );
             })}
           </nav>
+        </section>
+
+        <section className={styles.casesSection} id="cases">
+          <div className={styles.casesHead}>
+            <div className={styles.casesEyebrow}>
+              {pick({ fr: 'Études de cas', en: 'Case studies' }, lang)}
+            </div>
+            <p className={styles.casesLede}>
+              {pick(
+                {
+                  fr: 'Plongées projet par projet — cliquez une illustration pour ouvrir le study case.',
+                  en: 'Project-by-project deep dives — click an illustration to open the case study.',
+                },
+                lang,
+              )}
+            </p>
+          </div>
+          <CaseStudyCTAGrid />
         </section>
 
         {PRACTICES.map((practice) => {

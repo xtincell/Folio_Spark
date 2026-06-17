@@ -1,0 +1,432 @@
+[
+  {
+    "slug": "friesland-campina",
+    "hero": "/work/cases/friesland-campina/hero.webp",
+    "gallery": [
+      "/work/cases/friesland-campina/01.webp",
+      "/work/cases/friesland-campina/02.webp",
+      "/work/cases/friesland-campina/03.webp",
+      "/work/cases/friesland-campina/04.webp",
+      "/work/cases/friesland-campina/05.webp",
+      "/work/cases/friesland-campina/06.webp",
+      "/work/cases/friesland-campina/07.webp",
+      "/work/cases/friesland-campina/08.webp"
+    ]
+  },
+  {
+    "slug": "ecobank",
+    "hero": "/work/cases/ecobank/hero.webp",
+    "gallery": [
+      "/work/cases/ecobank/01.webp",
+      "/work/cases/ecobank/02.webp",
+      "/work/cases/ecobank/03.webp"
+    ]
+  },
+  {
+    "slug": "nsia",
+    "hero": "/work/cases/nsia/hero.webp",
+    "gallery": [
+      "/work/cases/nsia/01.webp",
+      "/work/cases/nsia/02.webp",
+      "/work/cases/nsia/03.webp",
+      "/work/cases/nsia/04.webp"
+    ]
+  },
+  {
+    "slug": "la-vache-qui-rit",
+    "hero": "/work/cases/la-vache-qui-rit/hero.webp",
+    "gallery": [
+      "/work/cases/la-vache-qui-rit/01.webp",
+      "/work/cases/la-vache-qui-rit/02.webp"
+    ]
+  },
+  {
+    "slug": "lapasta",
+    "hero": "/work/cases/lapasta/hero.webp",
+    "gallery": [
+      "/work/cases/lapasta/01.webp",
+      "/work/cases/lapasta/02.webp",
+      "/work/cases/lapasta/03.webp",
+      "/work/cases/lapasta/04.webp",
+      "/work/cases/lapasta/05.webp"
+    ]
+  },
+  {
+    "slug": "cadyst-grain",
+    "hero": "/work/cases/cadyst-grain/hero.webp",
+    "gallery": [
+      "/work/cases/cadyst-grain/01.webp"
+    ]
+  },
+  {
+    "slug": "cap-esterias",
+    "hero": "/work/cases/cap-esterias/hero.webp",
+    "gallery": [
+      "/work/cases/cap-esterias/01.webp",
+      "/work/cases/cap-esterias/02.webp",
+      "/work/cases/cap-esterias/03.webp",
+      "/work/cases/cap-esterias/04.webp"
+    ]
+  },
+  {
+    "slug": "goodlocs",
+    "hero": "/work/cases/goodlocs/hero.webp",
+    "gallery": [
+      "/work/cases/goodlocs/01.webp",
+      "/work/cases/goodlocs/02.webp",
+      "/work/cases/goodlocs/03.webp",
+      "/work/cases/goodlocs/04.webp",
+      "/work/cases/goodlocs/05.webp"
+    ]
+  },
+  {
+    "slug": "robuste",
+    "hero": "/work/cases/robuste/hero.webp",
+    "gallery": [
+      "/work/cases/robuste/01.webp"
+    ]
+  },
+  {
+    "slug": "cosmo-boba",
+    "hero": "/work/cases/cosmo-boba/hero.webp",
+    "gallery": [
+      "/work/cases/cosmo-boba/01.webp",
+      "/work/cases/cosmo-boba/02.webp",
+      "/work/cases/cosmo-boba/03.webp",
+      "/work/cases/cosmo-boba/04.webp",
+      "/work/cases/cosmo-boba/05.webp",
+      "/work/cases/cosmo-boba/06.webp"
+    ]
+  },
+  {
+    "slug": "brasseries-du-cameroun",
+    "hero": "/work/cases/brasseries-du-cameroun/hero.webp",
+    "gallery": [
+      "/work/cases/brasseries-du-cameroun/01.webp",
+      "/work/cases/brasseries-du-cameroun/02.webp",
+      "/work/cases/brasseries-du-cameroun/03.webp"
+    ]
+  },
+  {
+    "slug": "banahealth",
+    "hero": "/work/cases/banahealth/hero.webp",
+    "gallery": [
+      "/work/cases/banahealth/01.webp",
+      "/work/cases/banahealth/02.webp"
+    ]
+  },
+  {
+    "slug": "bams-btp",
+    "hero": "/work/cases/bams-btp/hero.webp",
+    "gallery": [
+      "/work/cases/bams-btp/01.webp",
+      "/work/cases/bams-btp/02.webp",
+      "/work/cases/bams-btp/03.webp",
+      "/work/cases/bams-btp/04.webp",
+      "/work/cases/bams-btp/05.webp",
+      "/work/cases/bams-btp/06.webp"
+    ]
+  },
+  {
+    "slug": "amigo",
+    "hero": "/work/cases/amigo/hero.webp",
+    "gallery": [
+      "/work/cases/amigo/01.webp",
+      "/work/cases/amigo/02.webp",
+      "/work/cases/amigo/03.webp",
+      "/work/cases/amigo/04.webp",
+      "/work/cases/amigo/05.webp",
+      "/work/cases/amigo/06.webp"
+    ]
+  },
+  {
+    "slug": "tradex",
+    "hero": "/work/cases/tradex/hero.webp",
+    "gallery": [
+      "/work/cases/tradex/01.webp",
+      "/work/cases/tradex/02.webp",
+      "/work/cases/tradex/03.webp",
+      "/work/cases/tradex/04.webp"
+    ]
+  },
+  {
+    "slug": "spawt",
+    "hero": "/work/cases/spawt/hero.webp",
+    "gallery": [
+      "/work/cases/spawt/01.webp",
+      "/work/cases/spawt/02.webp",
+      "/work/cases/spawt/03.webp",
+      "/work/cases/spawt/04.webp",
+      "/work/cases/spawt/05.webp",
+      "/work/cases/spawt/06.webp",
+      "/work/cases/spawt/07.webp"
+    ]
+  },
+  {
+    "slug": "delys",
+    "hero": "/work/cases/delys/hero.webp",
+    "gallery": [
+      "/work/cases/delys/01.webp"
+    ]
+  },
+  {
+    "slug": "enseigne",
+    "hero": "/work/cases/enseigne/hero.webp",
+    "gallery": [
+      "/work/cases/enseigne/01.webp",
+      "/work/cases/enseigne/02.webp"
+    ]
+  },
+  {
+    "slug": "cover-musical",
+    "hero": "/work/cases/cover-musical/hero.webp",
+    "gallery": [
+      "/work/cases/cover-musical/01.webp"
+    ]
+  },
+  {
+    "slug": "musina-festival",
+    "hero": "/work/cases/musina-festival/hero.webp",
+    "gallery": [
+      "/work/cases/musina-festival/01.webp",
+      "/work/cases/musina-festival/02.webp",
+      "/work/cases/musina-festival/03.webp",
+      "/work/cases/musina-festival/04.webp",
+      "/work/cases/musina-festival/05.webp"
+    ]
+  },
+  {
+    "slug": "friendsfood",
+    "hero": "/work/cases/friendsfood/hero.webp",
+    "gallery": [
+      "/work/cases/friendsfood/01.webp"
+    ]
+  },
+  {
+    "slug": "upgraders-case",
+    "hero": "/work/cases/upgraders-case/hero.webp",
+    "gallery": [
+      "/work/cases/upgraders-case/01.webp",
+      "/work/cases/upgraders-case/02.webp",
+      "/work/cases/upgraders-case/03.webp",
+      "/work/cases/upgraders-case/04.webp",
+      "/work/cases/upgraders-case/05.webp",
+      "/work/cases/upgraders-case/06.webp",
+      "/work/cases/upgraders-case/07.webp"
+    ]
+  },
+  {
+    "slug": "xtincell-brand",
+    "hero": "/work/cases/xtincell-brand/hero.webp",
+    "gallery": [
+      "/work/cases/xtincell-brand/01.webp",
+      "/work/cases/xtincell-brand/02.webp",
+      "/work/cases/xtincell-brand/03.webp",
+      "/work/cases/xtincell-brand/04.webp",
+      "/work/cases/xtincell-brand/05.webp"
+    ]
+  },
+  {
+    "slug": "motion19-store",
+    "hero": "/work/cases/motion19-store/hero.webp",
+    "gallery": [
+      "/work/cases/motion19-store/01.webp",
+      "/work/cases/motion19-store/02.webp",
+      "/work/cases/motion19-store/03.webp",
+      "/work/cases/motion19-store/04.webp",
+      "/work/cases/motion19-store/05.webp",
+      "/work/cases/motion19-store/06.webp",
+      "/work/cases/motion19-store/07.webp"
+    ]
+  },
+  {
+    "slug": "friends-studio",
+    "hero": "/work/cases/friends-studio/hero.webp",
+    "gallery": [
+      "/work/cases/friends-studio/01.webp",
+      "/work/cases/friends-studio/02.webp",
+      "/work/cases/friends-studio/03.webp",
+      "/work/cases/friends-studio/04.webp",
+      "/work/cases/friends-studio/05.webp",
+      "/work/cases/friends-studio/06.webp"
+    ]
+  },
+  {
+    "slug": "matanga-agency",
+    "hero": "/work/cases/matanga-agency/hero.webp",
+    "gallery": [
+      "/work/cases/matanga-agency/01.webp",
+      "/work/cases/matanga-agency/02.webp",
+      "/work/cases/matanga-agency/03.webp",
+      "/work/cases/matanga-agency/04.webp",
+      "/work/cases/matanga-agency/05.webp",
+      "/work/cases/matanga-agency/06.webp"
+    ]
+  },
+  {
+    "slug": "kof-festival",
+    "hero": "/work/cases/kof-festival/hero.webp",
+    "gallery": [
+      "/work/cases/kof-festival/01.webp",
+      "/work/cases/kof-festival/02.webp",
+      "/work/cases/kof-festival/03.webp",
+      "/work/cases/kof-festival/04.webp",
+      "/work/cases/kof-festival/05.webp",
+      "/work/cases/kof-festival/06.webp",
+      "/work/cases/kof-festival/07.webp"
+    ]
+  },
+  {
+    "slug": "tcg-bonnet-rouge",
+    "hero": "/work/cases/tcg-bonnet-rouge/hero.webp",
+    "gallery": [
+      "/work/cases/tcg-bonnet-rouge/01.webp",
+      "/work/cases/tcg-bonnet-rouge/02.webp",
+      "/work/cases/tcg-bonnet-rouge/03.webp",
+      "/work/cases/tcg-bonnet-rouge/04.webp",
+      "/work/cases/tcg-bonnet-rouge/05.webp",
+      "/work/cases/tcg-bonnet-rouge/06.webp",
+      "/work/cases/tcg-bonnet-rouge/07.webp"
+    ]
+  },
+  {
+    "slug": "charadesign",
+    "hero": "/work/cases/charadesign/hero.webp",
+    "gallery": [
+      "/work/cases/charadesign/01.webp",
+      "/work/cases/charadesign/02.webp",
+      "/work/cases/charadesign/03.webp",
+      "/work/cases/charadesign/04.webp",
+      "/work/cases/charadesign/05.webp",
+      "/work/cases/charadesign/06.webp",
+      "/work/cases/charadesign/07.webp",
+      "/work/cases/charadesign/08.webp",
+      "/work/cases/charadesign/09.webp",
+      "/work/cases/charadesign/10.webp"
+    ]
+  },
+  {
+    "slug": "popcorn-man",
+    "hero": "/work/cases/popcorn-man/hero.webp",
+    "gallery": [
+      "/work/cases/popcorn-man/01.webp",
+      "/work/cases/popcorn-man/02.webp",
+      "/work/cases/popcorn-man/03.webp",
+      "/work/cases/popcorn-man/04.webp",
+      "/work/cases/popcorn-man/05.webp",
+      "/work/cases/popcorn-man/06.webp",
+      "/work/cases/popcorn-man/07.webp",
+      "/work/cases/popcorn-man/08.webp",
+      "/work/cases/popcorn-man/09.webp",
+      "/work/cases/popcorn-man/10.webp"
+    ]
+  },
+  {
+    "slug": "perso-sketchbook",
+    "hero": "/work/cases/perso-sketchbook/hero.webp",
+    "gallery": [
+      "/work/cases/perso-sketchbook/01.webp",
+      "/work/cases/perso-sketchbook/02.webp",
+      "/work/cases/perso-sketchbook/03.webp",
+      "/work/cases/perso-sketchbook/04.webp",
+      "/work/cases/perso-sketchbook/05.webp",
+      "/work/cases/perso-sketchbook/06.webp",
+      "/work/cases/perso-sketchbook/07.webp",
+      "/work/cases/perso-sketchbook/08.webp",
+      "/work/cases/perso-sketchbook/09.webp",
+      "/work/cases/perso-sketchbook/10.webp"
+    ]
+  },
+  {
+    "slug": "stylisme",
+    "hero": "/work/cases/stylisme/hero.webp",
+    "gallery": [
+      "/work/cases/stylisme/01.webp",
+      "/work/cases/stylisme/02.webp",
+      "/work/cases/stylisme/03.webp",
+      "/work/cases/stylisme/04.webp",
+      "/work/cases/stylisme/05.webp",
+      "/work/cases/stylisme/06.webp",
+      "/work/cases/stylisme/07.webp",
+      "/work/cases/stylisme/08.webp",
+      "/work/cases/stylisme/09.webp",
+      "/work/cases/stylisme/10.webp"
+    ]
+  },
+  {
+    "slug": "hero-shot",
+    "hero": "/work/cases/hero-shot/hero.webp",
+    "gallery": [
+      "/work/cases/hero-shot/01.webp",
+      "/work/cases/hero-shot/02.webp",
+      "/work/cases/hero-shot/03.webp",
+      "/work/cases/hero-shot/04.webp",
+      "/work/cases/hero-shot/05.webp",
+      "/work/cases/hero-shot/06.webp",
+      "/work/cases/hero-shot/07.webp",
+      "/work/cases/hero-shot/08.webp",
+      "/work/cases/hero-shot/09.webp",
+      "/work/cases/hero-shot/10.webp"
+    ]
+  },
+  {
+    "slug": "frutas",
+    "hero": "/work/cases/frutas/hero.webp",
+    "gallery": [
+      "/work/cases/frutas/01.webp",
+      "/work/cases/frutas/02.webp",
+      "/work/cases/frutas/03.webp",
+      "/work/cases/frutas/04.webp",
+      "/work/cases/frutas/05.webp",
+      "/work/cases/frutas/06.webp"
+    ]
+  },
+  {
+    "slug": "robuste-packaging",
+    "hero": "/work/cases/robuste-packaging/hero.webp",
+    "gallery": [
+      "/work/cases/robuste-packaging/01.webp",
+      "/work/cases/robuste-packaging/02.webp",
+      "/work/cases/robuste-packaging/03.webp",
+      "/work/cases/robuste-packaging/04.webp",
+      "/work/cases/robuste-packaging/05.webp",
+      "/work/cases/robuste-packaging/06.webp"
+    ]
+  },
+  {
+    "slug": "hogwarts-short-story",
+    "hero": "/work/cases/hogwarts-short-story/hero.webp",
+    "gallery": [
+      "/work/cases/hogwarts-short-story/01.webp"
+    ]
+  },
+  {
+    "slug": "villa-corso",
+    "hero": "/work/cases/villa-corso/hero.webp",
+    "gallery": [
+      "/work/cases/villa-corso/01.webp",
+      "/work/cases/villa-corso/02.webp",
+      "/work/cases/villa-corso/03.webp",
+      "/work/cases/villa-corso/04.webp",
+      "/work/cases/villa-corso/05.webp",
+      "/work/cases/villa-corso/06.webp",
+      "/work/cases/villa-corso/07.webp"
+    ]
+  },
+  {
+    "slug": "florida",
+    "hero": "/work/cases/florida/hero.webp",
+    "gallery": [
+      "/work/cases/florida/01.webp",
+      "/work/cases/florida/02.webp",
+      "/work/cases/florida/03.webp"
+    ]
+  },
+  {
+    "slug": "faire-part",
+    "hero": "/work/cases/faire-part/hero.webp",
+    "gallery": [
+      "/work/cases/faire-part/01.webp"
+    ]
+  }
+]

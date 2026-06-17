@@ -171,6 +171,27 @@
 }
 .pdfBtn:hover { background: var(--accent); color: var(--bg); }
 
+.casesSection {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: clamp(40px, 7vw, 88px) clamp(20px, 5vw, 56px) clamp(28px, 5vw, 56px);
+}
+.casesHead { margin-bottom: 28px; }
+.casesEyebrow {
+  font-family: var(--mono);
+  font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.casesLede {
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.6vw, 30px);
+  line-height: 1.2;
+  color: var(--ink-2);
+  max-width: 640px;
+  margin: 0;
+}
+
 .projImages {
   margin-top: 18px;
   padding-top: 18px;

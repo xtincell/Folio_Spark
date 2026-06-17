@@ -1,0 +1,393 @@
+[
+  {
+    "folder": "Friesland Campina", "source": "Friesland Campina", "slug": "friesland-campina", "kind": "case",
+    "name_fr": "Peak & Bonnet Rouge — Campagnes saisonnières", "name_en": "Peak & Bonnet Rouge — Seasonal Campaigns",
+    "client_fr": "FrieslandCampina (Peak, Bonnet Rouge)", "client_en": "FrieslandCampina (Peak, Bonnet Rouge)",
+    "year": "2025–2026", "hat": "art", "medium": ["KV-OOH", "branding", "social"],
+    "context_fr": "Direction artistique des campagnes saisonnières (Ramadan, Noël, performance sportive, JML) pour les laits évaporés et en poudre Peak et Bonnet Rouge en Afrique centrale/ouest. Key visuals 4×3 et posters promo.",
+    "context_en": "Art direction of seasonal campaigns (Ramadan, Christmas, sports performance, JML) for Peak and Bonnet Rouge evaporated and powdered milk across Central/West Africa. 4×3 key visuals and promo posters.",
+    "heroFile": "RAMADAN EXPORT1 VALIDE KV26 PEAK GREEN EN CLEANED.png",
+    "files": ["RAMADAN EXPORT1 VALIDE KV26 PEAK GREEN EN CLEANED.png", "Bonnet Rouge JML 2026 prop 2.png", "Artboard 2 gold perform.png", "Artboard 3 EVAP perform.png", "Artboard 4 a chacun bonnet rouge JML.png", "BR XMAS 25 v002.png", "CI BR Ramadan Kareem Poster Promo.png", "TETE DE GONDOLE BRC RK III.png"],
+    "mockupIdea": "Billboard 4×3 en rue urbaine africaine pour montrer le KV Ramadan Peak Green à l'échelle OOH."
+  },
+  {
+    "folder": "Ecobank", "source": "Ecobank", "slug": "ecobank", "kind": "case",
+    "name_fr": "Ecobank — 40 ans & ellever", "name_en": "Ecobank — 40 Years & ellever",
+    "client_fr": "Ecobank", "client_en": "Ecobank", "year": "2026", "hat": "art", "medium": ["social", "KV-OOH", "branding"],
+    "context_fr": "Visuels de campagne pour la banque panafricaine Ecobank autour de son 40e anniversaire, de l'offre banque des particuliers et du programme femmes « ellever ».",
+    "context_en": "Campaign visuals for pan-African bank Ecobank around its 40th anniversary, its retail-banking proposition and the 'ellever' women's banking program.",
+    "heroFile": "ecobank-27 mars-II.png",
+    "files": ["ecobank-27 mars-II.png", "20 Jan.png", "ecobank-27 mars-Récupéré II.png"],
+    "mockupIdea": "Mockup mobile/social (feed Instagram) + poster vitrine d'agence."
+  },
+  {
+    "folder": "NSIA", "source": "NSIA", "slug": "nsia", "kind": "case",
+    "name_fr": "NSIA Tontines — Campagne assurance", "name_en": "NSIA Tontines — Insurance Campaign",
+    "client_fr": "NSIA Assurances", "client_en": "NSIA Assurances", "year": "2026", "hat": "art", "medium": ["KV-OOH", "photography"],
+    "context_fr": "Campagne OOH 4×3 (version anglaise) pour le produit d'épargne-assurance « NSIA Tontines », profils aspirationnels d'entrepreneurs avec CTA WhatsApp.",
+    "context_en": "4×3 OOH campaign (English) for the 'NSIA Tontines' savings-insurance product, aspirational entrepreneur profiles with a WhatsApp CTA.",
+    "heroFile": "NSIA Tontine CEO anglais 4X3.png",
+    "files": ["NSIA Tontine CEO anglais 4X3.png", "NSIA Tontine Chantier anglais 4X3.png", "NSIA Tontine Chaise vert4X3.png", "NSIA Tontine Anglais 4X3.png"],
+    "mockupIdea": "Billboard 4×3 sur avenue urbaine pour le KV CEO aspirationnel."
+  },
+  {
+    "folder": "La VACHE QUI RIT", "source": "La VACHE QUI RIT", "slug": "la-vache-qui-rit", "kind": "case",
+    "name_fr": "La Vache qui rit — Merch « For Good »", "name_en": "The Laughing Cow — 'For Good' Merch",
+    "client_fr": "La Vache qui rit (Bel)", "client_en": "The Laughing Cow (Bel)", "year": "2026", "hat": "execution", "medium": ["branding", "packaging"],
+    "context_fr": "Merchandising textile (t-shirts) pour la plateforme « For Good » de La Vache qui rit, mascotte vache stylisée et signature « Ensemble, partageons encore plus ».",
+    "context_en": "Apparel merch (t-shirts) for The Laughing Cow's 'For Good' platform, stylized cow mascot and line 'Ensemble, partageons encore plus'.",
+    "heroFile": "mockuip shirt v4.png",
+    "files": ["mockuip shirt v4.png", "mockuptshirt.png"],
+    "mockupIdea": "Mockup apparel du tee rouge sur cintre/modèle, recto-verso, fond studio."
+  },
+  {
+    "folder": "laPasta", "source": "laPasta", "slug": "lapasta", "kind": "case",
+    "name_fr": "La Pasta — Saisons & Mighty", "name_en": "La Pasta — Seasons & Mighty",
+    "client_fr": "La Pasta (Panzani Cameroun)", "client_en": "La Pasta (Panzani Cameroon)", "year": "2025–2026", "hat": "art", "medium": ["KV-OOH", "social", "branding", "packaging"],
+    "context_fr": "Key visuals saisonniers (Noël, Ramadan) pour les pâtes La Pasta et création de la sous-marque de sauces « Mighty by La Pasta » (logo et gamme d'étiquettes).",
+    "context_en": "Seasonal key visuals (Christmas, Ramadan) for La Pasta pasta and creation of the 'Mighty by La Pasta' sauce sub-brand (logo and label range).",
+    "heroFile": "pasta v2 de exclam.png",
+    "files": ["pasta v2 de exclam.png", "Concepts.png", "flattext pastafirst xmas.png", "magnific_logo-la-pasta-mighty-soig_2973256510.png", "magnific_logo-la-pasta-mighty-soig_2963973532(1).png", "magnific_photorealistic-premium-fm_2966039302.png"],
+    "mockupIdea": "Tête de gondole festive + packshot, et un render étiquette-sur-bouteille pour les sauces Mighty."
+  },
+  {
+    "folder": "Cadyst Grain", "source": "Cadyst Grain", "slug": "cadyst-grain", "kind": "case",
+    "name_fr": "Cadyst Grain — Mascotte « Maître Tondo »", "name_en": "Cadyst Grain — 'Maître Tondo' Mascot",
+    "client_fr": "Cadyst Grain (Groupe Cadyst)", "client_en": "Cadyst Grain (Cadyst Group)", "year": "2025", "hat": "art", "medium": ["illustration", "branding"],
+    "context_fr": "Character design d'une mascotte de marque (artisan boulanger) pour la farine Cadyst Grain : planche de turnaround avec études d'expressions, vues et poses de mains.",
+    "context_en": "Brand mascot character design (an artisan baker) for Cadyst Grain flour: a turnaround sheet with expression studies, views and hand poses.",
+    "heroFile": "freepik__prompt-text1-the-following-data-are-text-reference__87684.png",
+    "files": ["freepik__prompt-text1-the-following-data-are-text-reference__87684.png"],
+    "mockupIdea": "Poster model-sheet du personnage, ou mascotte sortie de la planche placée sur un packshot de farine."
+  },
+  {
+    "folder": "Cap Esterias", "source": "Cap Esterias", "slug": "cap-esterias", "kind": "case",
+    "name_fr": "Cap Esterias Rosé — Élégance de l'instant", "name_en": "Cap Esterias Rosé — Elegance of the Moment",
+    "client_fr": "Cap Esterias (rosé pétillant)", "client_en": "Cap Esterias (sparkling rosé)", "year": "2026", "hat": "art", "medium": ["photography", "social", "KV-OOH"],
+    "context_fr": "Campagne lifestyle premium pour le rosé pétillant Cap Esterias : trois femmes élégantes trinquant en bord de mer au coucher du soleil, signature « Vivez l'élégance de l'instant ».",
+    "context_en": "Premium lifestyle campaign for Cap Esterias sparkling rosé: three elegant women toasting on an oceanfront terrace at sunset, line 'Vivez l'élégance de l'instant'.",
+    "heroFile": "Gemini_Generated_Image_iqr8giqr8giqr8gi.png",
+    "files": ["Gemini_Generated_Image_iqr8giqr8giqr8gi.png", "Gemini_Generated_Image_eh4ppveh4ppveh4p.png", "Gemini_Generated_Image_hq1x1yhq1x1yhq1x.png", "Gemini_Generated_Image_ifpiieifpiieifpi.png"],
+    "mockupIdea": "Double-page magazine glossy ou packshot bouteille+verre sur terrasse au coucher du soleil."
+  },
+  {
+    "folder": "Goodlocs", "source": "Goodlocs", "slug": "goodlocs", "kind": "case",
+    "name_fr": "Goodlocs — Soin des locs « ife »", "name_en": "Goodlocs — 'ife' Loc Care",
+    "client_fr": "Goodlocs", "client_en": "Goodlocs", "year": "2025", "hat": "art", "medium": ["packaging", "photography", "social", "branding"],
+    "context_fr": "Branding et visuels produit pour la marque de soins capillaires (locs) Goodlocs et sa ligne « ife », du packshot de gamme aux promos social noir & or.",
+    "context_en": "Branding and product visuals for hair-care (loc) brand Goodlocs and its 'ife' line, from full-range packshot to black-and-gold social promos.",
+    "heroFile": "Full Cllection Floating.png",
+    "files": ["Full Cllection Floating.png", "good locs ife v4.png", "web flyer goodlocs.png", "Gemini_Generated_Image_3zi6ad3zi6ad3zi6.png", "Gemini_Generated_Image_97ts497ts497ts49.png"],
+    "mockupIdea": "Packshot studio « produits flottants » de la gamme complète, fond gris doux, ombre de palme subtile."
+  },
+  {
+    "folder": "Robuste", "source": "Robuste", "slug": "robuste", "kind": "case",
+    "name_fr": "Robuste — Aliments pour bétail", "name_en": "Robuste — Livestock Feed",
+    "client_fr": "Robuste (Cadyst Farming)", "client_en": "Robuste (Cadyst Farming)", "year": "2025", "hat": "art", "medium": ["KV-OOH", "packaging", "photography"],
+    "context_fr": "Board de concept de campagne pour la marque d'aliments pour bétail Robuste « La Croissance Assurée » : billboard, photographie de ferme et sacs (porc, volaille, lapin).",
+    "context_en": "Campaign concept board for livestock-feed brand Robuste ('La Croissance Assurée'): billboard, farm photography and feed sacks (pork, poultry, rabbit).",
+    "heroFile": "Gemini_Generated_Image_1an6sb1an6sb1an6.png",
+    "files": ["Gemini_Generated_Image_1an6sb1an6sb1an6.png"],
+    "mockupIdea": "Billboard en milieu rural, ou packshot héros des sacs d'aliments dans une grange."
+  },
+  {
+    "folder": "Cosmo Boba", "source": "Cosmo Boba", "slug": "cosmo-boba", "kind": "case",
+    "name_fr": "Cosmos Boba — Bubble tea", "name_en": "Cosmos Boba — Bubble Tea",
+    "client_fr": "Cosmos Boba", "client_en": "Cosmos Boba", "year": "2025", "hat": "art", "medium": ["branding", "packaging", "social"],
+    "context_fr": "Identité et visuels produit pour la marque de bubble tea Cosmos Boba à univers cosmique : logo manuscrit, packaging et flyers social autour de la boisson en cup ronde.",
+    "context_en": "Identity and product visuals for cosmic-themed bubble-tea brand Cosmos Boba: hand-script logo, packaging and social flyers around the round-cup drink.",
+    "heroFile": "freepik__prompt-text1-the-following-data-are-text-reference__70075.png",
+    "files": ["freepik__prompt-text1-the-following-data-are-text-reference__70075.png", "freepik__prompt-text1-the-following-data-are-text-reference__70077.png", "freepik__prompt-text1-the-following-data-are-text-reference__70078.png", "freepik__prompt-text1-the-following-data-are-text-reference__24531.png", "freepik__text1-flyer-produit-avec-une-boisson-bubble-tea-da__4304.png", "freepik__text1-photographie-mode-professionnelle-en-studio-__70076.png"],
+    "mockupIdea": "Packshot de la cup ronde avec sticker de marque sur fond cosmique sombre."
+  },
+  {
+    "folder": "BRASSERIES DU CAMEROUN", "source": "BRASSERIES DU CAMEROUN", "slug": "brasseries-du-cameroun", "kind": "case",
+    "name_fr": "Brasseries du Cameroun — XXL & Top", "name_en": "Brasseries du Cameroun — XXL & Top",
+    "client_fr": "Les Brasseries du Cameroun", "client_en": "Les Brasseries du Cameroun", "year": "2024–2025", "hat": "art", "medium": ["social", "KV-OOH"],
+    "context_fr": "Contenus social media pour la brasserie nationale, sur les marques XXL Energy et Top (soda), incluant posts d'engagement et concept de faux magazine « top MAG ».",
+    "context_en": "Social-media content for the national brewery on the XXL Energy and Top brands, including engagement posts and a faux-magazine 'top MAG' concept.",
+    "heroFile": "XXL niveau de froid facebook v4.png",
+    "files": ["XXL niveau de froid facebook v4.png", "Capture d'écran 2024-07-08 010059.png", "top fraicheur saison twitter v4.png"],
+    "mockupIdea": "Mockup mobile/social (feed Facebook) du post XXL, couverture top MAG en device secondaire."
+  },
+  {
+    "folder": "Banahealth", "source": "Banahealth", "slug": "banahealth", "kind": "case",
+    "name_fr": "BanaHealth — Facilitation médicale", "name_en": "BanaHealth — Medical Facilitation",
+    "client_fr": "BanaHealth", "client_en": "BanaHealth", "year": "2025", "hat": "execution", "medium": ["social", "branding"],
+    "context_fr": "Visuels social media pour BanaHealth, service de facilitation médicale (voyage de soins) sur l'axe Afrique–Afrique du Sud : posts saisonniers Noël et Nouvel An.",
+    "context_en": "Social-media visuals for BanaHealth, a medical-facilitation (care-travel) service operating Africa–South Africa: seasonal Christmas and New Year posts.",
+    "heroFile": "Plan de travail 1 copie (2).png",
+    "files": ["Plan de travail 1 copie (2).png", "Plan de travail 1 (3).png"],
+    "mockupIdea": "Mockup mobile/story Instagram du post « Your 2026 story starts now »."
+  },
+  {
+    "folder": "BAMS&BTP", "source": "BAMS&BTP", "slug": "bams-btp", "kind": "case",
+    "name_fr": "BAMS & BTP — Identité corporate", "name_en": "BAMS & BTP — Corporate Identity",
+    "client_fr": "BAMS & BTP", "client_en": "BAMS & BTP", "year": "2025", "hat": "art", "medium": ["branding", "packaging"],
+    "context_fr": "Identité de marque et déclinaisons (cartes de visite, pin's émaillé) pour BAMS & BTP, entreprise centrafricaine (Bangui) de menuiserie, métal, construction et intrants agricoles, logo en chaîne de montagnes multicolore.",
+    "context_en": "Brand identity and applications (business cards, enamel pin) for BAMS & BTP, a Central African (Bangui) firm in carpentry, metalwork, construction and agri-inputs, with a multicolor mountain-range logo.",
+    "heroFile": "freepik__enamel-pins__26295.png",
+    "files": ["freepik__enamel-pins__26295.png", "freepik__prompt-text1-text2-the-following-data-are-text-ref__26282.png", "freepik__prompt-carte-de-visiteentte-a274a9dc7d2a44d1bd8487__26288.png", "freepik__prompt-text1-text2-the-following-data-are-text-ref__26291.png", "freepik__prompt-text1-text2-the-following-data-are-text-ref__26300.png", "freepik__prompt-text3-text2-text1-the-following-data-are-te__26285.png"],
+    "mockupIdea": "Flat-lay papeterie (cartes sur bois) + logo en pin's émaillé sur jean pour une identité tactile."
+  },
+  {
+    "folder": "Amigo", "source": "Amigo", "slug": "amigo", "kind": "case",
+    "name_fr": "Amigo — Boulangerie & beignets", "name_en": "Amigo — Bakery & Beignets",
+    "client_fr": "Amigo (Cadyst Grain / Groupe Cadyst)", "client_en": "Amigo (Cadyst Grain / Cadyst Group)", "year": "2025", "hat": "art", "medium": ["social", "KV-OOH", "illustration"],
+    "context_fr": "Campagne social et key visual mascotte pour Amigo, gamme de farines/boulangerie du Groupe Cadyst : posts d'engagement, post Assomption en farine, scène de mascottes devant la boutique de Noël.",
+    "context_en": "Social campaign and mascot key visual for Amigo, the Cadyst Group bakery/flour line: engagement posts, an Assumption post drawn in spilled flour, a mascot scene outside the festive storefront.",
+    "heroFile": "replicate-prediction-j5wb5a57n1rme0ctx8q98v24ar.png",
+    "files": ["replicate-prediction-j5wb5a57n1rme0ctx8q98v24ar.png", "Grain New II.png", "amigo grain.png", "Grain New Layout amigo.png", "Gemini_Generated_Image_dhwktsdhwktsdhwk.png", "amigo logo original.png"],
+    "mockupIdea": "Mockup vitrine/OOH plaçant la scène de mascottes peluche devant la boulangerie, packshot sac de farine en appui."
+  },
+  {
+    "folder": "Tradex", "source": "Tradex/Tradex", "slug": "tradex", "kind": "case",
+    "name_fr": "Tradex 2T — « Moto no di fail »", "name_en": "Tradex 2T — 'Moto no di fail'",
+    "client_fr": "Tradex", "client_en": "Tradex", "year": "2025", "hat": "art", "medium": ["KV-OOH", "photography"],
+    "context_fr": "Key visual publicitaire pour l'huile moteur 2 temps Tradex « 2T JASO FC », ciblant les conducteurs de moto-taxi avec un motard souriant et la signature pidgin « Moto no di fail ».",
+    "context_en": "Advertising key visual for Tradex '2T JASO FC' two-stroke engine oil, targeting moto-taxi riders with a smiling rider and the pidgin line 'Moto no di fail'.",
+    "heroFile": "Tradex propal II.png",
+    "files": ["Tradex propal II.png", "2T JASO FC.png", "moto no di fail.png", "moto.png"],
+    "mockupIdea": "Billboard 4×3 dans une rue à moto-taxis pour le KV motard dans son habitat OOH réel."
+  },
+  {
+    "folder": "Spawt", "source": "Spawt", "slug": "spawt", "kind": "case",
+    "name_fr": "Spawt — La carte du bon goût", "name_en": "Spawt — The Tastemap",
+    "client_fr": "Spawt", "client_en": "Spawt", "year": "2026", "hat": "art", "medium": ["branding", "social", "photography"],
+    "context_fr": "Branding et campagne social pour Spawt, app de découverte food (« où manger ») à mascotte chat calico tricolore : logo, key visuals « scoutisme culinaire » et grilles de contenu mêlant food photo et UI.",
+    "context_en": "Branding and social campaign for Spawt, a food-discovery app ('where to eat') with a tricolor calico-cat mascot: logo, 'culinary scouting' key visuals and content grids mixing food photo and UI.",
+    "heroFile": "Gemini_Generated_Image_2utw142utw142utw.png",
+    "files": ["Gemini_Generated_Image_2utw142utw142utw.png", "Fichier 19@2x-spawt-png.png", "board-social-1.png", "board-social-2.png", "Gemini_Generated_Image_vszyyavszyyavszy (1).png", "Fichier 21@2x-spawt-png.png", "Fichier 22@2x-spawt-png.png"],
+    "mockupIdea": "Mockup mobile de l'UI Spawt entouré du KV burger « LA TRAQUE », présenté comme un produit de découverte food."
+  },
+  {
+    "folder": "Delys ", "source": "Delys ", "slug": "delys", "kind": "case",
+    "name_fr": "Delys — Saint-Valentin", "name_en": "Delys — Valentine's Day",
+    "client_fr": "Delys", "client_en": "Delys", "year": "2026", "hat": "art", "medium": ["social", "KV-OOH", "photography"],
+    "context_fr": "Visuel publicitaire Saint-Valentin pour la marque de snacks Delys : dîner romantique aux chandelles d'un couple, panier de produits Delys et doodles manuscrits « AMOUR / FOREVER ».",
+    "context_en": "Valentine's Day advertising visual for snack brand Delys: a couple's candlelit romantic dinner, a basket of Delys products and hand-drawn 'AMOUR / FOREVER' doodles.",
+    "heroFile": "replicate-prediction-64dw7wrzt1rmt0cw8wgak34z98.png",
+    "files": ["replicate-prediction-64dw7wrzt1rmt0cw8wgak34z98.png"],
+    "mockupIdea": "Mockup social/poster du KV chandelles en feed mobile ou poster saisonnier en point de vente."
+  },
+  {
+    "folder": "Enseigne", "source": "Enseigne", "slug": "enseigne", "kind": "case",
+    "name_fr": "Cadyst Farming — Enseigne", "name_en": "Cadyst Farming — Signage",
+    "client_fr": "Cadyst Farming", "client_en": "Cadyst Farming", "year": "2025", "hat": "execution", "medium": ["branding", "KV-OOH"],
+    "context_fr": "Conception et mise en situation de l'enseigne pour Cadyst Farming (production/distribution de maïs, Douala) : logo coq bleu décliné en enseigne lumineuse de toit et plaque métal.",
+    "context_en": "Signage design and environmental mockups for Cadyst Farming (corn production/distribution, Douala): a blue rooster crest as a backlit rooftop sign and a brushed-metal plaque.",
+    "heroFile": "Gemini_Generated_Image_5okk955okk955okk.png",
+    "files": ["Gemini_Generated_Image_5okk955okk955okk.png", "Gemini_Generated_Image_d6wl4sd6wl4sd6wl.png"],
+    "mockupIdea": "Mockup architectural de l'enseigne lumineuse en lettres-boîtier sur la façade d'usine au crépuscule."
+  },
+  {
+    "folder": "Cover Musical", "source": "Cover Musical", "slug": "cover-musical", "kind": "case",
+    "name_fr": "AGIP — « Kwatta Vibes » (pochette)", "name_en": "AGIP — 'Kwatta Vibes' Cover",
+    "client_fr": "AGIP (artiste)", "client_en": "AGIP (artist)", "year": "2025", "hat": "art", "medium": ["illustration", "branding"],
+    "context_fr": "Pochette de mixtape « Kwatta Vibes » pour l'artiste AGIP : portrait golden-hour en quartier populaire, titre au pinceau jaune et tracklist 9 titres, texture grunge.",
+    "context_en": "Mixtape cover 'Kwatta Vibes' for artist AGIP: a golden-hour portrait in a shantytown setting, a yellow brush-stroke title and a 9-track listing, grunge texture.",
+    "heroFile": "freepik_advanced-design-level-art_2856900414.png",
+    "files": ["freepik_advanced-design-level-art_2856900414.png"],
+    "mockupIdea": "Mockup pochette vinyle / cover streaming (artwork sur app musique et sur sleeve vinyle)."
+  },
+  {
+    "folder": "Musina festival", "source": "Musina festival", "slug": "musina-festival", "kind": "case",
+    "name_fr": "Musina 9 — Festival", "name_en": "Musina 9 — Festival",
+    "client_fr": "Festival Musina", "client_en": "Musina Festival", "year": "2026", "hat": "art", "medium": ["event", "illustration", "KV-OOH"],
+    "context_fr": "Identité et affiche du festival Musina 9 (février 2026, thème « L'ancestralité dans la modernité ») : illustration or-sur-bleu nuit d'un pirogueur traversant un banc de poissons en spirale.",
+    "context_en": "Identity and poster for the Musina 9 festival (February 2026, theme 'Ancestrality in modernity'): a gold-on-midnight-blue engraving of a canoeist crossing a spiraling shoal of fish.",
+    "heroFile": "Gemini_Generated_Image_63uzgt63uzgt63uz (1).png",
+    "files": ["Gemini_Generated_Image_63uzgt63uzgt63uz (1).png", "Calque modernité.png", "Gemini_Generated_Image_mlzdwrmlzdwrmlzd.png", "Gemini_Generated_Image_f8ys0df8ys0df8ys.png", "Gemini_Generated_Image_fj0xarfj0xarfj0x.png"],
+    "mockupIdea": "Affiche festival collée sur mur urbain, ou flyer événement en plein écran mobile."
+  },
+  {
+    "folder": "Friendsfood", "source": "Friendsfood", "slug": "friendsfood", "kind": "case",
+    "name_fr": "FriendsFood 225 — Friends Afterwork", "name_en": "FriendsFood 225 — Friends Afterwork",
+    "client_fr": "FriendsFood 225", "client_en": "FriendsFood 225", "year": "2025", "hat": "execution", "medium": ["social", "event", "photography"],
+    "context_fr": "Flyer promo social pour l'événement « Friends Afterwork » (Cocody, Abidjan) : photographie de grillades et bière pression, offres promo et signature « FRIENDS AFTERWORK ».",
+    "context_en": "Social promo flyer for the 'Friends Afterwork' event (Cocody, Abidjan): grilled-food and draft-beer photography, promo offers and the 'FRIENDS AFTERWORK' headline.",
+    "heroFile": "FF225 Afterwork v3.png",
+    "files": ["FF225 Afterwork v3.png"],
+    "mockupIdea": "Mockup mobile/story du flyer afterwork, ou flyer A5 imprimé sur table de bar."
+  },
+  {
+    "folder": "UPgraders", "source": "UPgraders", "slug": "upgraders-case", "kind": "case",
+    "name_fr": "UPgraders — Identité d'agence", "name_en": "UPgraders — Agency Identity",
+    "client_fr": "UPgraders (venture)", "client_en": "UPgraders (venture)", "year": "2025", "hat": "strategy", "medium": ["branding"],
+    "context_fr": "Identité visuelle de l'agence UPgraders, métaphore de la propulsion (fusée), signature « La passion pour propulseur » : système de logo complet (icône, monogramme, lockups) et couverture projet.",
+    "context_en": "Brand identity for the UPgraders agency, built on a rocket-propulsion metaphor and the line 'La passion pour propulseur': full logo system (icon, monogram, lockups) and a project-coverage recap.",
+    "heroFile": "upgraders-logo-full.png",
+    "files": ["upgraders-logo-full.png", "upgraders-lockup-horizontal.png", "upgraders-lockup-vertical.png", "upgraders-wordmark.png", "upgraders-monogram.png", "upgraders-icon.png", "Gemini_Generated_Image_yn7l33yn7l33yn7l.png"],
+    "mockupIdea": "Board d'identité / papeterie montrant le système de logo et les lockups sur collatéraux d'agence."
+  },
+  {
+    "folder": "Xtincell", "source": "Xtincell", "slug": "xtincell-brand", "kind": "case",
+    "name_fr": "Xtincell — Marque personnelle", "name_en": "Xtincell — Personal Brand",
+    "client_fr": "Xtincell (Alexandre Djengue)", "client_en": "Xtincell (Alexandre Djengue)", "year": "2024–2025", "hat": "strategy", "medium": ["branding"],
+    "context_fr": "Identité personnelle d'Alexandre « Xtincell » Djengue, directeur de création / brand strategist : logo flamme « Spark » sur fond cosmique, bannière Behance et CV-portfolio une page.",
+    "context_en": "Personal identity of Alexandre 'Xtincell' Djengue, creative director / brand strategist: 'Spark' flame logo on a cosmic background, Behance banner and a one-page CV-portfolio.",
+    "heroFile": "Spark Logo Update text.png",
+    "files": ["Spark Logo Update text.png", "Behance xtincell spark logo banner.png", "spark full Xtincell trs.png", "CV ALEXANDRE 2024 en bref.png", "CV Alexandre 2024.png"],
+    "mockupIdea": "Mockup logo-reveal de la flamme Spark sur fond cosmique sombre, + device header de profil Behance."
+  },
+  {
+    "folder": "motion19", "source": "motion19", "slug": "motion19-store", "kind": "case",
+    "name_fr": "MOTION19 — Boutique audiovisuelle", "name_en": "MOTION19 — Audiovisual Store",
+    "client_fr": "MOTION19 (venture)", "client_en": "MOTION19 (venture)", "year": "2025", "hat": "art", "medium": ["social", "photography", "branding"],
+    "context_fr": "Système de contenu retail pour MOTION19, boutique de matériel audiovisuel (caméras, drones, kits) au Cameroun : posts produit e-commerce, grilles Black Friday et key visuals de lancement (DJI Mini 5, Sony A7 IV).",
+    "context_en": "Retail content system for MOTION19, an audiovisual-gear store (cameras, drones, kits) in Cameroon: e-commerce product posts, Black Friday grids and launch key visuals (DJI Mini 5, Sony A7 IV).",
+    "heroFile": "M19 product a 7 IV.png",
+    "files": ["M19 product a 7 IV.png", "dji mini 5.png", "Canon 1.png", "Nikon.png", "kit de depart.png", "M19 50mm 1,8.png", "Banner.png"],
+    "mockupIdea": "Packshot premium produit unique (Sony A7 IV sur dégradé sombre, reflet), + mockup mobile du feed e-commerce."
+  },
+  {
+    "folder": "Friends Studio", "source": "Friends Studio", "slug": "friends-studio", "kind": "case",
+    "name_fr": "Friends Studio — Studio photo premium", "name_en": "Friends Studio — Premium Photo Studio",
+    "client_fr": "Friends Studio (venture)", "client_en": "Friends Studio (venture)", "year": "2026", "hat": "art", "medium": ["social", "photography", "branding"],
+    "context_fr": "Communication marketing pour Friends Studio, studio photo premium à louer à Bonamoussadi (Douala) : flyers copy-driven, concept « facture du stress », promos et stories de présentation de l'espace.",
+    "context_en": "Marketing comms for Friends Studio, a premium rental photo studio in Bonamoussadi (Douala): copy-driven flyers, a 'cost-of-stress receipt' concept, promos and space-reveal stories.",
+    "heroFile": "freepik_a-photorealistic-cinemati_2859281664.png",
+    "files": ["freepik_a-photorealistic-cinemati_2859281664.png", "freepik_le-visuel-11-un-fond-text_2859076239.png", "Promo theffstudio janvier v2.png", "Vertical.png", "freepik_cree-un-flyer-vertical-st_2875266049.png", "freepik_a-photorealistic-detailed_2859086568.png"],
+    "mockupIdea": "Mockup mobile/story de la pub studio premium, + photo intérieure de l'espace réservé."
+  },
+  {
+    "folder": "Matanga", "source": "Matanga", "slug": "matanga-agency", "kind": "case",
+    "name_fr": "Matanga Agency — Casting & marque", "name_en": "Matanga Agency — Casting & Brand",
+    "client_fr": "Matanga Agency (venture)", "client_en": "Matanga Agency (venture)", "year": "2026", "hat": "art", "medium": ["social", "branding", "illustration"],
+    "context_fr": "Campagne d'appel à casting et contenu de marque pour Matanga Agency (« We Love Brands ») : key visuals de casting (talents 30-50 ans), logo triple-pic et contenu mascotte 3D.",
+    "context_en": "Casting-call campaign and brand content for Matanga Agency ('We Love Brands'): casting key visuals (talents 30-50), a triple-peak logo and 3D mascot content.",
+    "heroFile": "casting matanga 3 group.png",
+    "files": ["casting matanga 3 group.png", "casting matanga 2presi.png", "casting matanga 3.png", "magnific_logo-matanga-agency-en-co_2898216924.png", "magnific_west-africa-logo-matanga-_2898444863.png", "magnific_concept-du-post-le-travai_2897447072.png"],
+    "mockupIdea": "Mockup mobile/social du KV appel à casting en feed Instagram, board logo agence en appui."
+  },
+  {
+    "folder": "KOF", "source": "KOF", "slug": "kof-festival", "kind": "case",
+    "name_fr": "KOF — Kamer Otaku Festival", "name_en": "KOF — Kamer Otaku Festival",
+    "client_fr": "Kamer Otaku Festival (venture)", "client_en": "Kamer Otaku Festival (venture)", "year": "2025", "hat": "art", "medium": ["event", "branding", "KV-OOH", "photography"],
+    "context_fr": "Branding et campagne du Kamer Otaku Festival (KOF), convention pop-culture/anime camerounaise (5e anniversaire, Yaoundé) : logo torii, KV cinématographique « Miss & Master », rendus d'ambiance, tenues équipe et mockups de pass.",
+    "context_en": "Branding and campaign for the Kamer Otaku Festival (KOF), a Cameroonian anime/pop-culture convention (5th anniversary, Yaoundé): torii logo, cinematic 'Miss & Master' KV, atmosphere renders, crew uniforms and ticket-pass mockups.",
+    "heroFile": "Miss Master ODC.png",
+    "files": ["Miss Master ODC.png", "KOF Spark.png", "magnific_photo-de-lespace-central-_2891955933.png", "magnific_all-wearing-red-and-black_2976035308.png", "magnific_mockup-3d-des-pass-sur-fo_2891922446.png", "KOF25 - Badges - Pass KOF.png", "Kof bleach.png"],
+    "mockupIdea": "Affiche key-art du KV cinématographique « Miss & Master », + mockup 3D de pass pour les quatre tiers."
+  },
+  {
+    "folder": "TCG Bonnet Rouge", "source": "TCG Bonnet Rouge", "slug": "tcg-bonnet-rouge", "kind": "case",
+    "name_fr": "Bonnet Rouge — « Puissance Lactée » (TCG)", "name_en": "Bonnet Rouge — 'Puissance Lactée' Card Game",
+    "client_fr": "Bonnet Rouge (FrieslandCampina)", "client_en": "Bonnet Rouge (FrieslandCampina)", "year": "2025", "hat": "art", "medium": ["packaging", "illustration", "branding"],
+    "context_fr": "Jeu de cartes de marque « Puissance Lactée » comme merchandising pour le lait Bonnet Rouge : deck illustré à bordures pagne rouge mettant en scène des scènes de vie camerounaises et la boîte de lait, plus boîte produit et règles.",
+    "context_en": "Branded card game 'Puissance Lactée' as merch for Bonnet Rouge milk: an illustrated deck with red African-pattern borders depicting Cameroonian everyday scenes featuring the milk tin, plus product box and rules.",
+    "heroFile": "magnific_presente-mon-jeu-de-carte_e8ZSF1PdqL.png",
+    "files": ["magnific_presente-mon-jeu-de-carte_e8ZSF1PdqL.png", "Fichier 1cardBR.png", "Cards BR/Regles.png", "Cards BR/Fichier 10grainfix3.png", "Cards BR/Fichier 11grainfix3.png", "Cards BR/Fichier 12grainfix3.png", "basilic.png"],
+    "mockupIdea": "Mockup produit photoréaliste de la boîte imprimée avec cartes en éventail et livret de règles sur table en bois."
+  },
+  {
+    "folder": "Charadesign", "source": "Charadesign", "slug": "charadesign", "kind": "collection",
+    "name_fr": "Charadesign — Personnages afro-fantastiques", "name_en": "Charadesign — Afro-Fantasy Characters",
+    "client_fr": "Projet personnel", "client_en": "Personal project", "year": "2025", "hat": "art", "medium": ["illustration"],
+    "context_fr": "Bibliothèque de character design afro-fantasy / afrofuturiste : héros et héroïnes à locs, tresses et cornes de bélier mêlant streetwear, regalia tribale et motifs cosmiques, en planches modèles et splash arts.",
+    "context_en": "Afro-fantasy / Afrofuturist character-design library: heroes and heroines with locs, braids and ram horns blending streetwear, tribal regalia and cosmic motifs, as model sheets and splash arts.",
+    "heroFile": "African_Character_Illustration_In_a_character_design_style_a_man_with_dark_9yQBXqAT.png",
+    "files": ["African_Character_Illustration_In_a_character_design_style_a_man_with_dark_9yQBXqAT.png", "African_Character_Illustration_A_person_with_dark_dreadlocks_and_ram_horns_wears_FLLzJnIg.png", "African_Character_Illustration_In_a_gothic_illustration_style_a_man_with_ram_pEPH-sLV.png", "Gemini_Generated_Image_31lz731lz731lz73.png", "ChatGPT Image 3 oct. 2025, 10_03_42.png", "Gemini_Generated_Image_8b6nbx8b6nbx8b6n.png", "Gemini_Generated_Image_9ceexw9ceexw9cee.png", "Gemini_Generated_Image_cukbb6cukbb6cukb.png", "Gemini_Generated_Image_d0qld5d0qld5d0ql.png", "Gemini_Generated_Image_e2tjmze2tjmze2tj.png"],
+    "mockupIdea": "Layout mur de planches modèles / poster présentant le casting comme une lineup de design cohérente."
+  },
+  {
+    "folder": "Histoire illustré PopCornMan", "source": "Histoire illustré PopCornMan", "slug": "popcorn-man", "kind": "collection",
+    "name_fr": "The Popcorn Man — Série éditoriale", "name_en": "The Popcorn Man — Editorial Series",
+    "client_fr": "Projet personnel", "client_en": "Personal project", "year": "2025", "hat": "art", "medium": ["illustration", "photography"],
+    "context_fr": "Série conceptuelle « The Popcorn Man » : un homme en costume entièrement fait de popcorn, en fausse campagne presse de film culte A24, avec couvertures magazine factices Empire et GQ.",
+    "context_en": "Conceptual 'The Popcorn Man' series: a man in a suit made entirely of popcorn, staged as a faux A24 cult-film press campaign with mock Empire and GQ covers.",
+    "heroFile": "Gemini_Generated_Image_vpo286vpo286vpo2.png",
+    "files": ["Gemini_Generated_Image_vpo286vpo286vpo2.png", "Gemini_Generated_Image_drc1rydrc1rydrc1.png", "Gemini_Generated_Image_iae3mwiae3mwiae3.png", "Gemini_Generated_Image_uobffauobffauobf.png", "Gemini_Generated_Image_38j4rv38j4rv38j4.png", "Gemini_Generated_Image_6oegp26oegp26oeg.png", "Gemini_Generated_Image_91a8f391a8f391a8.png", "Gemini_Generated_Image_f34b4sf34b4sf34b.png", "Gemini_Generated_Image_mdxob7mdxob7mdxo.png", "Gemini_Generated_Image_z5xcqbz5xcqbz5xc.png"],
+    "mockupIdea": "Mockup magazine-spread / kiosque présentant la couverture GQ « The Popcorn Man Cometh » comme éditorial imprimé."
+  },
+  {
+    "folder": "Perso", "source": "Perso", "slug": "perso-sketchbook", "kind": "collection",
+    "name_fr": "Perso — Carnet d'art personnel", "name_en": "Perso — Personal Art Sketchbook",
+    "client_fr": "Projet personnel", "client_en": "Personal project", "year": "2026", "hat": "art", "medium": ["illustration", "photography"],
+    "context_fr": "Carnet d'art personnel mixte : portraits fantastiques « selfie au miroir » (personnage Medusa/locs « Sun & Moka » et son chat), affiche « Ad Astra Per Aspera » et natures mortes beauté (mains au henné, bagues or).",
+    "context_en": "Mixed personal-art sketchbook: fantasy 'mirror selfie' portraits (a Medusa/locs 'Sun & Moka' character and her cat), an 'Ad Astra Per Aspera' poster and beauty still-lifes (henna hands, gold rings).",
+    "heroFile": "replicate-prediction-z62a4630j9rmt0cwazbt3zmr00.png",
+    "files": ["replicate-prediction-z62a4630j9rmt0cwazbt3zmr00.png", "replicate-prediction-qm6rxvfnn5rmt0cwaz8rwkreg0.png", "poster1.png", "Gemini_Generated_Image_5w5ivj5w5ivj5w5i.png", "Gemini_Generated_Image_8yyl3q8yyl3q8yyl.png", "Gemini_Generated_Image_c885thc885thc885.png", "Gemini_Generated_Image_vyh9wovyh9wovyh9.png", "replicate-prediction-q4bcabqz85rmw0cwavqsvm263c.png", "replicate-prediction-r5vsvxyjfdrmt0cwayysdyag7m.png", "replicate-prediction-rzfaerc6g5rmt0cvk8havdn1a0.png"],
+    "mockupIdea": "Mockup art-print / mur de galerie présentant l'illustration miroir « Sun & Moka » en poster encadré."
+  },
+  {
+    "folder": "STYLISME", "source": "STYLISME", "slug": "stylisme", "kind": "collection",
+    "name_fr": "Stylisme — Mode africaine", "name_en": "Stylisme — African Fashion",
+    "client_fr": "Projet personnel", "client_en": "Personal project", "year": "2026", "hat": "art", "medium": ["photography", "illustration"],
+    "context_fr": "Série de stylisme mode africaine haut de gamme : couvertures éditoriales femme (faux ESSENCE / TOC Magazine, couture noire transparente, locs à pointes orange) et street-style homme en robes/kimono avant-gardistes.",
+    "context_en": "High-fashion African styling series: women's editorial covers (faux ESSENCE / TOC Magazine, sheer black couture, orange-tipped locs) and avant-garde men's street-style in flowing robes/kimono layers.",
+    "heroFile": "Gemini_Generated_Image_c2un9nc2un9nc2un.png",
+    "files": ["Gemini_Generated_Image_c2un9nc2un9nc2un.png", "Gemini_Generated_Image_gb01egb01egb01eg.png", "magnific_une-silhouette-africaine-_43bzy5o9Aa.png", "magnific_une-silhouette-africaine-_5xd7JswKxe.png", "Gemini_Generated_Image_eulvx9eulvx9eulv.png", "Gemini_Generated_Image_im7ql4im7ql4im7q.png", "Gemini_Generated_Image_nksja1nksja1nksj.png", "magnific_une-silhouette-africaine-_J9QG6nEOq4.png", "magnific_une-silhouette-africaine-_UyCZ4D9wny.png", "magnific_une-silhouette-africaine-_l7v9mcKgv9.png"],
+    "mockupIdea": "Mockup couverture/spread magazine mode glossy présentant les looks éditoriaux en kiosque."
+  },
+  {
+    "folder": "hero shot", "source": "hero shot", "slug": "hero-shot", "kind": "collection",
+    "name_fr": "Hero Shot — Portraits éditoriaux cinématiques", "name_en": "Hero Shot — Cinematic Editorial Portraits",
+    "client_fr": "Projet personnel", "client_en": "Personal project", "year": "2026", "hat": "art", "medium": ["photography", "illustration"],
+    "context_fr": "Série de portraits « cover-star » cinématiques à thème royal afro : fausses couvertures Vanity Fair / GQ, trônes-serpents, penthouses brutalistes et couchers de soleil de savane, palette terre/or.",
+    "context_en": "Cinematic 'cover-star' portrait series with a regal Afro theme: faux Vanity Fair / GQ covers, serpent thrones, brutalist penthouses and savanna sunsets, in an earth-and-gold palette.",
+    "heroFile": "Gemini_Generated_Image_gt3w64gt3w64gt3w.png",
+    "files": ["Gemini_Generated_Image_gt3w64gt3w64gt3w.png", "Gemini_Generated_Image_5usox95usox95uso.png", "Gemini_Generated_Image_8m5qjr8m5qjr8m5q.png", "Gemini_Generated_Image_4mg6hr4mg6hr4mg6.png", "Gemini_Generated_Image_co72qrco72qrco72.png", "Gemini_Generated_Image_hhe6byhhe6byhhe6.png", "Gemini_Generated_Image_qbhz93qbhz93qbhz.png", "Gemini_Generated_Image_tuymzotuymzotuym.png", "Gemini_Generated_Image_xdx88cxdx88cxdx8.png", "Gemini_Generated_Image_zgfayszgfayszgfa.png"],
+    "mockupIdea": "Mockup couverture magazine présentant le portrait trône-savane en cover GQ de kiosque."
+  },
+  {
+    "folder": "frutas", "source": "frutas", "slug": "frutas", "kind": "case",
+    "name_fr": "Frutas — Jus de fruits", "name_en": "Frutas — Fruit Juice",
+    "client_fr": "Frutas", "client_en": "Frutas", "year": "2025", "hat": "art", "medium": ["photography", "social", "KV-OOH"],
+    "context_fr": "Campagne lifestyle pour le jus de fruits en brique Frutas (cocktail de fruits, orange) : jeunes Africains joyeux en rooftop au coucher du soleil et en bureau, palette vert vif et fruits.",
+    "context_en": "Lifestyle campaign for Frutas boxed fruit juice (fruit cocktail, orange): joyful young Africans on a golden-hour rooftop and at the office, vibrant green-and-fruit palette.",
+    "heroFile": "magnific_a-cinematic-wide-shot-43-_2977216612.png",
+    "files": ["magnific_a-cinematic-wide-shot-43-_2977216612.png", "magnific_a-cinematic-medium-shot-4_2977248131.png", "magnific_a-cinematic-mediumwide-sh_2977286920.png", "magnific_a-cinematic-wide-shot-43-_2977264240.png", "magnific_a-cinematic-wide-shot-43-_2977265913.png", "magnific_a-cinematic-wide-shot-43-_2977292866.png"],
+    "mockupIdea": "Packshot de la brique de jus tenue en main dans la scène rooftop au coucher du soleil, ou billboard 4×3 lifestyle."
+  },
+  {
+    "folder": "packaging", "source": "packaging", "slug": "robuste-packaging", "kind": "case",
+    "name_fr": "Robuste — Packaging aliments", "name_en": "Robuste — Feed Packaging",
+    "client_fr": "Robuste (Cadyst Farming)", "client_en": "Robuste (Cadyst Farming)", "year": "2026", "hat": "execution", "medium": ["packaging", "branding"],
+    "context_fr": "Design de packaging pour les aliments pour bétail « Robuste » (Cadyst Farming) : sacs tissés 50 kg (lapin, volaille, bétail, porc) en jaune/noir à pictos animaux, étiquettes plates et mockups 3D photoréalistes en grange.",
+    "context_en": "Packaging design for 'Robuste' livestock feed (Cadyst Farming): 50 kg woven sacks (rabbit, poultry, cattle, pork) in yellow/black with animal pictograms, flat labels and photoreal 3D barn mockups.",
+    "heroFile": "replicate-prediction-q5t5cc5wydrmy0cwac18x8cx78.png",
+    "files": ["replicate-prediction-q5t5cc5wydrmy0cwac18x8cx78.png", "Fichier 1robust.png", "Gemini_Generated_Image_n68j5en68j5en68j.png", "volaille.png", "Calque 1.png", "replicate-prediction-epps4tsawhrmr0cvvhm99vcgpr.png"],
+    "mockupIdea": "Packshot produit-en-rayon des sacs d'aliments alignés sur bois de grange."
+  },
+  {
+    "folder": "Hogwarts short story", "source": "Hogwarts short story", "slug": "hogwarts-short-story", "kind": "collection",
+    "name_fr": "Hogwarts — Récit court illustré", "name_en": "Hogwarts — Illustrated Short Story",
+    "client_fr": "Projet personnel", "client_en": "Personal project", "year": "2025", "hat": "art", "medium": ["illustration", "photography"],
+    "context_fr": "Composition narrative de réalisme magique : un homme nouant sa cravate à une fenêtre tandis que son reflet (médaillé, chouette livrant un parchemin) fusionne la magie avec un entretien d'embauche « Banque mondiale ».",
+    "context_en": "Magical-realism narrative composition: a man knotting his tie at a window while his reflection (medal-wearing, an owl delivering a scroll) merges magic with a 'World Bank' job interview.",
+    "heroFile": "replicate-prediction-mv64aq3bznrmc0cv0bhrxpk79g.png",
+    "files": ["replicate-prediction-mv64aq3bznrmc0cv0bhrxpk79g.png"],
+    "mockupIdea": "Mockup print narratif encadré, ou traitement couverture de nouvelle pour l'image unique."
+  },
+  {
+    "folder": "Corso", "source": "Corso", "slug": "villa-corso", "kind": "case",
+    "name_fr": "Villa Corso — Élevage Cane Corso", "name_en": "Villa Corso — Cane Corso Kennel",
+    "client_fr": "Villa Corso", "client_en": "Villa Corso", "year": "2025", "hat": "art", "medium": ["branding", "packaging"],
+    "context_fr": "Identité de marque pour « Villa Corso » (« Team Real Life »), élevage de chiens Cane Corso : logo blason (tête de Cane Corso, monogramme VC) décliné sur polo brodé, médaillon laiton et papeterie, palette or/noir/crème.",
+    "context_en": "Brand identity for 'Villa Corso' ('Team Real Life'), a Cane Corso dog kennel: a crest logo (Cane Corso head, VC monogram) on an embroidered polo, a brass medallion and stationery, gold/black/cream palette.",
+    "heroFile": "magnific_a-round-brushed-brass-med_2968130296.png",
+    "files": ["magnific_a-round-brushed-brass-med_2968130296.png", "magnific_le-nom-de-lelevage-de-can_2967916510.png", "magnific_a-shortsleeve-offwhite-po_2968096547.png", "magnific_a-premium-blank-stationer_2968098743.png", "magnific_le-nom-de-mon-elevage-est_2967765611 (1).png", "magnific_a-shortsleeve-offwhite-po_2968149610.png", "Fichier 1@2x.png"],
+    "mockupIdea": "Mockup merch tactile (médaillon laiton / polo brodé) présentant le blason en branding d'élevage premium."
+  },
+  {
+    "folder": "Florida", "source": "Florida", "slug": "florida", "kind": "case",
+    "name_fr": "Florida — Vin pétillant", "name_en": "Florida — Sparkling Wine",
+    "client_fr": "Florida (SoFaVinC)", "client_en": "Florida (SoFaVinC)", "year": "2025", "hat": "art", "medium": ["KV-OOH", "social", "branding"],
+    "context_fr": "Campagne / key visual pour le vin pétillant Florida (SoFaVinC) : une main brandissant la bouteille hors d'une fosse de ballons or/noir/jaune avec confettis, signatures « La fête accueille un nouvel invité » et « New Look ».",
+    "context_en": "Campaign / key visual for Florida sparkling wine (SoFaVinC): a hand raising the bottle out of a pit of gold/black/yellow balloons with confetti, lines 'La fête accueille un nouvel invité' and 'New Look'.",
+    "heroFile": "Florida.png",
+    "files": ["Florida.png", "florida prop 1.png", "florida prop 2.png"],
+    "mockupIdea": "Packshot bouteille festif surgissant des confettis/ballons, ou billboard 4×3 festif de lancement."
+  },
+  {
+    "folder": "Faire Part", "source": "Faire Part", "slug": "faire-part", "kind": "case",
+    "name_fr": "Faire-part — Suite mémorielle", "name_en": "Faire-Part — Memorial Suite",
+    "client_fr": "Commande privée", "client_en": "Private commission", "year": "2025", "hat": "execution", "medium": ["branding"],
+    "context_fr": "Suite d'imprimés mémoriels (« In Loving Memory of Dr Ikito M.A ») en mockup : livrets programme, cartes de remerciement, roll-up et portrait encadré, or/crème, signature « L'Éternel est merveilleux ».",
+    "context_en": "Memorial print suite ('In Loving Memory of Dr Ikito M.A') as a mockup: program booklets, thank-you cards, a roll-up banner and a framed portrait, gold/cream, line 'L'Éternel est merveilleux'.",
+    "heroFile": "demo.png",
+    "files": ["demo.png"],
+    "mockupIdea": "Flat-lay de la suite imprimée (livret, cartes, portrait encadré) comme ensemble mémoriel cohérent."
+  }
+]
