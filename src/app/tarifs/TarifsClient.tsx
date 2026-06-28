@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import styles from '@/styles/tarifs.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
@@ -49,14 +50,18 @@ const COPY = {
   h1a: { fr: 'Vous ne payez pas des heures.', en: "You're not paying for hours." },
   h1b: { fr: 'Vous achetez une trajectoire.', en: 'You buy a trajectory.' },
   lede: {
-    fr: "Brand Architect, directeur artistique, builder. Je transforme une marque en système qui se reproduit — du positionnement au pixel livré. Voici exactement ce que ça coûte, en euro et en FCFA, sans devis-surprise.",
-    en: 'Brand Architect, art director, builder. I turn a brand into a system that reproduces itself — from positioning to the delivered pixel. Here is exactly what it costs, in euro and in FCFA, with no surprise quote.',
+    fr: "Conseil en marque d’abord — puis la production qui va avec : design, photo, vidéo, dev. Brand Architect formé ingénieur, je tiens la chaîne complète, du positionnement au pixel livré. Voici exactement ce que ça coûte, en euro et en FCFA, sans devis-surprise.",
+    en: 'Brand consulting first — then the production to match: design, photo, video, dev. A Brand Architect trained as an engineer, I hold the whole chain, from positioning to the delivered pixel. Here is exactly what it costs, in euro and in FCFA, with no surprise quote.',
   },
   signature: { fr: 'De la poussière à l’étoile.', en: 'From dust to the star.' },
   remote: { fr: 'Remote · Afrique · Europe', en: 'Remote · Africa · Europe' },
   fact1: { fr: 'Devis ferme sous 48 h', en: 'Firm quote within 48 h' },
-  fact2: { fr: 'Acompte 50 % · solde à la livraison', en: '50% deposit · balance on delivery' },
+  fact2: { fr: 'Paiement en plusieurs fois possible', en: 'Installment payment available' },
   fact3: { fr: 'Facturation € ou FCFA', en: 'Billing in € or FCFA' },
+  dualMarket: {
+    fr: 'Une grille pensée pour deux réalités : une porte d’entrée accessible pour les marques qui démarrent en Afrique, et des forfaits à la hauteur des standards internationaux. Le bon prix pour le bon moment de votre marque.',
+    en: 'A grid built for two realities: an accessible entry door for brands starting out in Africa, and packages that meet international standards. The right price for the right moment of your brand.',
+  },
   curEur: { fr: 'Euro', en: 'Euro' },
   curFcfa: { fr: 'FCFA', en: 'FCFA' },
   curHint: { fr: 'Afficher les prix en', en: 'Show prices in' },
@@ -103,11 +108,35 @@ type Tier = {
   includes: Bi[];
   conditions: Bi;
   featured?: boolean;
+  img?: string;
+};
+
+/* Accessible entry offer — the « sweet spot » door for young brands / the
+   African market. Sits below L'Étincelle so the local market has a real first
+   step, while the premium tiers keep the ceiling high. */
+const ENTRY: Tier = {
+  glyph: '✦',
+  name: 'Le Premier Pas',
+  tagline: { fr: 'La marque qui commence', en: 'The brand that begins' },
+  eur: 590,
+  from: true,
+  unit: { fr: 'forfait', en: 'flat' },
+  best: { fr: 'Solo, artiste, jeune marque · un premier visage pro', en: 'Solo, artist, young brand · a first pro face' },
+  img: '/work/cases/friendsfood/hero.webp',
+  includes: [
+    { fr: 'Atelier express de cadrage (45 min, en visio).', en: 'Express scoping workshop (45 min, on call).' },
+    { fr: 'Logo + palette + 2 typographies.', en: 'Logo + palette + 2 typefaces.' },
+    { fr: '1 livrable au choix : carte de visite, post-clé ou bannière.', en: '1 deliverable of your choice: business card, key post or banner.' },
+    { fr: 'Fichiers prêts à l’emploi (web + impression).', en: 'Ready-to-use files (web + print).' },
+    { fr: '1 aller-retour de révision.', en: '1 round of revisions.' },
+  ],
+  conditions: { fr: 'Délai ~1 semaine · payable en 2×.', en: '~1 week turnaround · payable in 2×.' },
 };
 
 const ONE_SHOTS: Tier[] = [
   {
     glyph: '♠',
+    img: '/work/cases/xtincell-brand/hero.webp',
     name: 'L’Étincelle',
     tagline: { fr: 'Le premier signal', en: 'The first signal' },
     eur: 1500,
@@ -125,6 +154,7 @@ const ONE_SHOTS: Tier[] = [
   },
   {
     glyph: '♥',
+    img: '/work/cases/brasseries-du-cameroun/hero.webp',
     name: 'La Trajectoire',
     tagline: { fr: 'La marque qui décolle', en: 'The brand that takes off' },
     eur: 4500,
@@ -144,6 +174,7 @@ const ONE_SHOTS: Tier[] = [
   },
   {
     glyph: '♦',
+    img: '/work/cases/ecobank/hero.webp',
     name: 'La Constellation',
     tagline: { fr: 'L’écosystème complet', en: 'The full ecosystem' },
     eur: 9000,
@@ -162,44 +193,134 @@ const ONE_SHOTS: Tier[] = [
   },
 ];
 
+/* ----------------------------------------------------------- conseil ----- */
+/* The headline. Productized consulting built on the proprietary ADVE/RTIS
+   method + the LaFusée OS — the activity Alexandre wants front and centre. */
+const CONSULTING: Tier[] = [
+  {
+    glyph: '✶',
+    img: '/work/cases/matanga-agency/hero.webp',
+    name: 'Le Diagnostic',
+    tagline: { fr: 'Audit de marque ADVE/RTIS', en: 'ADVE/RTIS brand audit' },
+    eur: 600,
+    from: true,
+    unit: { fr: 'forfait', en: 'flat' },
+    best: { fr: 'Comprendre où en est la marque — et quoi faire ensuite', en: 'Understand where the brand stands — and what to do next' },
+    includes: [
+      { fr: 'Atelier d’immersion (ADN, marché, ambition).', en: 'Immersion workshop (DNA, market, ambition).' },
+      { fr: 'Passage au crible du socle ADVE : Authenticité, Distinction, Valeur, Engagement.', en: 'A sweep through the ADVE foundation: Authenticity, Distinction, Value, Engagement.' },
+      { fr: 'Lecture du risque + paysage concurrentiel (propulseur RTIS).', en: 'Risk read + competitive landscape (RTIS propellant).' },
+      { fr: 'Rapport d’audit + plan d’action priorisé.', en: 'Audit report + prioritised action plan.' },
+      { fr: '1 h de restitution en visio.', en: '1-hour debrief on call.' },
+    ],
+    conditions: { fr: 'Délai ~1 semaine · idéal avant tout chantier.', en: '~1 week · ideal before any project.' },
+  },
+  {
+    glyph: '✦',
+    img: '/work/cases/brasseries-du-cameroun/hero.webp',
+    name: 'La Plateforme',
+    tagline: { fr: 'Le système de marque complet', en: 'The full brand system' },
+    eur: 3000,
+    from: false,
+    unit: { fr: 'forfait', en: 'flat' },
+    best: { fr: 'Donner à la marque un cap, une voix et une feuille de route', en: 'Give the brand a heading, a voice and a roadmap' },
+    includes: [
+      { fr: 'Tout Le Diagnostic, déroulé en profondeur.', en: 'Everything in Le Diagnostic, taken deep.' },
+      { fr: 'Plateforme de marque : positionnement, ADN, promesse, territoire d’expression.', en: 'Brand platform: positioning, DNA, promise, territory of expression.' },
+      { fr: 'Méthode ADVE/RTIS déroulée de bout en bout.', en: 'The ADVE/RTIS method run end to end.' },
+      { fr: 'Architecture de marque (gamme, sous-marques, naming).', en: 'Brand architecture (range, sub-brands, naming).' },
+      { fr: 'Roadmap dynamique 12 mois, pilotée via l’OS LaFusée.', en: '12-month dynamic roadmap, steered through the LaFusée OS.' },
+    ],
+    conditions: { fr: 'Délai 2 à 4 semaines · payable en 3×.', en: '2–4 week turnaround · payable in 3×.' },
+    featured: true,
+  },
+  {
+    glyph: '★',
+    img: '/work/cases/upgraders-case/hero.webp',
+    name: 'Le Sparring',
+    tagline: { fr: 'Votre cerveau de marque, au mois', en: 'Your brand brain, monthly' },
+    eur: 900,
+    from: true,
+    unit: { fr: '/ mois', en: '/ month' },
+    best: { fr: 'Fondateur ou équipe qui veut un stratège sous la main', en: 'A founder or team that wants a strategist on tap' },
+    includes: [
+      { fr: '2 sessions de sparring stratégique / mois.', en: '2 strategic sparring sessions / month.' },
+      { fr: 'Arbitrages créatifs + relecture des décisions de marque.', en: 'Creative arbitration + review of brand decisions.' },
+      { fr: 'Mise à jour continue de la roadmap dynamique.', en: 'Continuous update of the dynamic roadmap.' },
+      { fr: 'Accès direct WhatsApp, réponse sous 24 h.', en: 'Direct WhatsApp access, reply within 24 h.' },
+    ],
+    conditions: { fr: 'Engagement 3 mois min · sans production incluse.', en: '3-month minimum · production not included.' },
+  },
+];
+
 /* --------------------------------------------------------- à la carte ---- */
-type Carte = { glyph: string; name: Bi; eur: number; desc: Bi };
+type Carte = { glyph: string; name: Bi; eur: number; desc: Bi; img: string; livrable: Bi };
 const CARTE: Carte[] = [
   {
     glyph: '♠',
     name: { fr: 'Branding & identité', en: 'Branding & identity' },
     eur: 1200,
-    desc: { fr: 'Logo, système visuel, charte, naming.', en: 'Logo, visual system, guidelines, naming.' },
+    img: '/work/cases/robuste-packaging/hero.webp',
+    desc: {
+      fr: 'Je construis le visage de la marque : naming, logo, palette, typographies et règles d’usage. Pas un joli logo isolé — un système cohérent qui tient sur un packaging comme sur un écran.',
+      en: 'I build the brand’s face: naming, logo, palette, typefaces and usage rules. Not a pretty standalone logo — a coherent system that holds on a package as on a screen.',
+    },
+    livrable: { fr: 'Logo + mini-charte + fichiers sources', en: 'Logo + mini guidelines + source files' },
   },
   {
     glyph: '♥',
     name: { fr: 'Direction artistique', en: 'Art direction' },
     eur: 900,
-    desc: { fr: 'Concept, casting, image d’une campagne.', en: 'Concept, casting, image of a campaign.' },
+    img: '/work/cases/friesland-campina/hero.webp',
+    desc: {
+      fr: 'Le concept et le regard d’une campagne : intention, références, casting, lumière, mise en scène. Je donne une direction claire à l’image pour qu’elle raconte la bonne histoire.',
+      en: 'The concept and the eye of a campaign: intent, references, casting, light, staging. I give the image a clear direction so it tells the right story.',
+    },
+    livrable: { fr: 'Concept + moodboard + key visual', en: 'Concept + moodboard + key visual' },
   },
   {
     glyph: '♦',
     name: { fr: 'Photographie', en: 'Photography' },
     eur: 600,
-    desc: { fr: 'Studio, produit, portrait, événement — la journée.', en: 'Studio, product, portrait, event — per day.' },
+    img: '/work/cases/cap-esterias/01.webp',
+    desc: {
+      fr: 'Studio, produit, portrait d’artiste ou couverture d’événement. Prise de vue + sélection + retouche professionnelle. L’image au service de la marque, pas juste une belle photo.',
+      en: 'Studio, product, artist portrait or event coverage. Shoot + selection + professional retouching. Image at the service of the brand, not just a pretty photo.',
+    },
+    livrable: { fr: 'La journée · images retouchées livrées', en: 'Per day · retouched images delivered' },
   },
   {
     glyph: '♣',
     name: { fr: 'Web & tech', en: 'Web & tech' },
     eur: 1000,
-    desc: { fr: 'Site, landing ou web-app clé en main.', en: 'Site, landing or web-app, turnkey.' },
+    img: '/work/cases/motion19-store/hero.webp',
+    desc: {
+      fr: 'Site vitrine, landing de campagne ou web-app sur-mesure, conçus et codés. L’avantage de l’ingénieur derrière l’image : ça ne ressemble pas seulement bien, ça fonctionne et ça convertit.',
+      en: 'Showcase site, campaign landing or bespoke web-app, designed and coded. The engineer-behind-the-image edge: it doesn’t just look good, it works and it converts.',
+    },
+    livrable: { fr: 'Site livré, déployé et responsive', en: 'Site shipped, deployed and responsive' },
   },
   {
     glyph: '✦',
     name: { fr: 'Motion & vidéo', en: 'Motion & video' },
     eur: 800,
-    desc: { fr: 'Clip, capsule sociale, film de marque.', en: 'Music video, social capsule, brand film.' },
+    img: '/work/cases/cover-musical/hero.webp',
+    desc: {
+      fr: 'Clip, capsule réseaux, film de marque ou habillage animé. Du storyboard au montage final, une vidéo qui se regarde jusqu’au bout et qui sert le message.',
+      en: 'Music video, social capsule, brand film or animated branding. From storyboard to final cut, a video that’s watched to the end and serves the message.',
+    },
+    livrable: { fr: 'Vidéo montée + formats réseaux', en: 'Edited video + social formats' },
   },
   {
     glyph: '★',
     name: { fr: 'Conseil & stratégie', en: 'Consulting & strategy' },
     eur: 500,
-    desc: { fr: 'Atelier, audit de marque, plan d’action.', en: 'Workshop, brand audit, action plan.' },
+    img: '/work/cases/matanga-agency/hero.webp',
+    desc: {
+      fr: 'Atelier, audit de marque ou plan d’action via la méthode ADVE/RTIS. On clarifie le positionnement, on repère les angles morts, on repart avec une feuille de route concrète.',
+      en: 'Workshop, brand audit or action plan via the ADVE/RTIS method. We clarify the positioning, spot the blind spots, and leave with a concrete roadmap.',
+    },
+    livrable: { fr: 'Atelier + restitution écrite', en: 'Workshop + written deliverable' },
   },
 ];
 
@@ -292,8 +413,8 @@ const FAQ: { q: Bi; a: Bi }[] = [
   {
     q: { fr: 'Comment se passe le paiement ?', en: 'How does payment work?' },
     a: {
-      fr: 'Acompte de 50 % pour réserver le créneau et lancer, solde à la livraison. Pour les retainers, facturation mensuelle en début de mois. Tout est cadré par un devis signé avant de commencer.',
-      en: '50% deposit to book the slot and kick off, balance on delivery. For retainers, monthly billing at the start of the month. Everything is framed by a signed quote before we begin.',
+      fr: 'Un acompte réserve le créneau et lance le projet, le solde se règle à la livraison. Sur les forfaits one-shot, le paiement peut s’étaler jusqu’à 3× sans frais (ex : 40 % pour lancer, puis 2 versements aux jalons). Pour les retainers, facturation mensuelle en début de mois. Tout est cadré par un devis signé avant de commencer.',
+      en: 'A deposit books the slot and kicks off the project, the balance is due on delivery. On one-shot packages, payment can be spread up to 3× with no fees (e.g. 40% to launch, then 2 payments at milestones). For retainers, monthly billing at the start of the month. Everything is framed by a signed quote before we begin.',
     },
   },
   {
@@ -319,12 +440,69 @@ const FAQ: { q: Bi; a: Bi }[] = [
   },
 ];
 
+/* --------------------------------------------------------- payment ------- */
+type PayStep = { k: string; t: Bi; d: Bi };
+const PAY_STEPS: PayStep[] = [
+  {
+    k: '40%',
+    t: { fr: 'Pour lancer', en: 'To launch' },
+    d: {
+      fr: 'Un acompte réserve le créneau et démarre l’atelier de cadrage. Devis signé, on est partis.',
+      en: 'A deposit books the slot and starts the scoping workshop. Quote signed, we’re off.',
+    },
+  },
+  {
+    k: '30%',
+    t: { fr: 'Au jalon', en: 'At the milestone' },
+    d: {
+      fr: 'À mi-parcours, quand la direction est validée et que la production bat son plein.',
+      en: 'Mid-way, once the direction is validated and production is in full swing.',
+    },
+  },
+  {
+    k: '30%',
+    t: { fr: 'À la livraison', en: 'On delivery' },
+    d: {
+      fr: 'Le solde à la remise des fichiers finaux. Tout est clair, rien n’est caché.',
+      en: 'The balance on handover of the final files. All clear, nothing hidden.',
+    },
+  },
+];
+
+type PayMethod = { name: string; d: Bi };
+const PAY_METHODS: PayMethod[] = [
+  { name: 'Mobile Money', d: { fr: 'MTN MoMo · Orange Money · Wave', en: 'MTN MoMo · Orange Money · Wave' } },
+  { name: 'Virement', d: { fr: 'Banque locale (FCFA) ou SEPA (€)', en: 'Local bank (FCFA) or SEPA (€)' } },
+  { name: 'Wise / PayPal', d: { fr: 'Pour les paiements internationaux', en: 'For international payments' } },
+  { name: 'Espèces', d: { fr: 'En main propre, Yaoundé · Douala · Abidjan', en: 'In person, Yaoundé · Douala · Abidjan' } },
+];
+
+const PAY_COPY = {
+  lede: {
+    fr: 'Un budget ne devrait jamais bloquer une bonne marque. Le paiement s’adapte à votre trésorerie — sans frais cachés, sans surprise.',
+    en: 'A budget should never block a good brand. Payment adapts to your cash flow — no hidden fees, no surprises.',
+  },
+  installTitle: { fr: 'Paiement en plusieurs fois', en: 'Pay in installments' },
+  installBody: {
+    fr: 'Sur tous les forfaits one-shot, l’étalement va jusqu’à 3× sans frais — réparti sur les jalons du projet. Sur les gros périmètres (Constellation), on cale un échéancier dédié ensemble. L’idée : que vous puissiez vous offrir le bon niveau, maintenant.',
+    en: 'On every one-shot package, spreading goes up to 3× with no fees — split across the project milestones. On larger scopes (Constellation), we set a dedicated schedule together. The idea: that you can afford the right level, now.',
+  },
+  methodsTitle: { fr: 'Moyens de paiement', en: 'Payment methods' },
+  conditionsLink: { fr: 'Lire les conditions complètes', en: 'Read the full terms' },
+  curNote: {
+    fr: 'Facturation en euro ou en FCFA, au choix. Parité fixe affichée : 1 € = 655,957 FCFA.',
+    en: 'Billing in euro or FCFA, your choice. Fixed peg shown: €1 = 655.957 FCFA.',
+  },
+} satisfies Record<string, Bi>;
+
 const SECTIONS = {
-  why: { num: '§ 00', a: { fr: 'Le principe', en: 'The principle' }, b: { fr: 'comment je price', en: 'how I price' } },
-  oneShot: { num: '§ 01', a: { fr: 'One-shots', en: 'One-shots' }, b: { fr: 'un projet, un prix ferme', en: 'one project, one firm price' } },
-  carte: { num: '§ 02', a: { fr: 'À la carte', en: 'À la carte' }, b: { fr: 'ace of a few things', en: 'ace of a few things' } },
-  retainer: { num: '§ 03', a: { fr: 'Retainers', en: 'Retainers' }, b: { fr: 'm’avoir dans l’équipe', en: 'have me on the team' } },
-  faq: { num: '§ 04', a: { fr: 'FAQ', en: 'FAQ' }, b: { fr: 'les questions qui comptent', en: 'the questions that matter' } },
+  why: { num: '§ 00', a: { fr: 'Le principe', en: 'The principle' }, b: { fr: 'comment je travaille', en: 'how I work' } },
+  conseil: { num: '§ 01', a: { fr: 'Conseil & stratégie', en: 'Consulting & strategy' }, b: { fr: 'le cœur du métier', en: 'the heart of the craft' } },
+  oneShot: { num: '§ 02', a: { fr: 'Forfaits intégrés', en: 'Integrated packages' }, b: { fr: 'de la stratégie au pixel', en: 'from strategy to pixel' } },
+  carte: { num: '§ 03', a: { fr: 'Studio à la carte', en: 'Studio à la carte' }, b: { fr: 'design · photo · vidéo · dev', en: 'design · photo · video · dev' } },
+  retainer: { num: '§ 04', a: { fr: 'En continu', en: 'Ongoing' }, b: { fr: 'm’avoir dans l’équipe', en: 'have me on the team' } },
+  payment: { num: '§ 05', a: { fr: 'Paiement', en: 'Payment' }, b: { fr: 'souple, en plusieurs fois', en: 'flexible, in installments' } },
+  faq: { num: '§ 06', a: { fr: 'FAQ', en: 'FAQ' }, b: { fr: 'les questions qui comptent', en: 'the questions that matter' } },
 } satisfies Record<string, { num: string; a: Bi; b: Bi }>;
 
 export function TarifsClient() {
@@ -361,6 +539,12 @@ export function TarifsClient() {
   const TierCard = ({ tier }: { tier: Tier }) => (
     <article className={`${styles.tier} ${tier.featured ? styles.tierFeatured : ''}`}>
       {tier.featured && <span className={styles.tierFlag}>{fr ? 'Recommandé' : 'Recommended'}</span>}
+      {tier.img && (
+        <div className={styles.tierImg} aria-hidden="true">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={tier.img} alt="" loading="lazy" />
+        </div>
+      )}
       <div className={styles.tierHead}>
         <span className={styles.tierGlyph} aria-hidden="true">{tier.glyph}</span>
         <div>
@@ -462,13 +646,57 @@ export function TarifsClient() {
           </div>
         </Reveal>
 
-        {/* ======================= §01 — ONE-SHOTS ===================== */}
+        {/* ======================= §01 — CONSEIL ====================== */}
         <Reveal as="section" className={styles.section}>
-          <SectionHead s={SECTIONS.oneShot} tr={tr} />
+          <SectionHead s={SECTIONS.conseil} tr={tr} />
           <p className={styles.sectionLede}>
             {fr
-              ? 'Trois portées, un prix ferme chacune. La plupart des marques décollent avec La Trajectoire.'
-              : 'Three reaches, one firm price each. Most brands take off with La Trajectoire.'}
+              ? 'Mon activité principale : penser la marque avant de la produire. Trois offres bâties sur ma méthode ADVE/RTIS et l’OS LaFusée — du diagnostic ponctuel au stratège embarqué.'
+              : 'My main activity: thinking the brand before producing it. Three offers built on my ADVE/RTIS method and the LaFusée OS — from a one-off diagnosis to an embedded strategist.'}
+          </p>
+          <div className={styles.tierGrid}>
+            {CONSULTING.map((t) => (
+              <TierCard tier={t} key={t.name} />
+            ))}
+          </div>
+        </Reveal>
+
+        {/* ======================= §02 — FORFAITS INTÉGRÉS ============= */}
+        <Reveal as="section" className={styles.section}>
+          <SectionHead s={SECTIONS.oneShot} tr={tr} />
+          <p className={styles.sectionLede}>{tr(COPY.dualMarket)}</p>
+
+          {/* Accessible entry — the sweet-spot door for young / local brands. */}
+          <article className={styles.entryBand}>
+            <div className={styles.entryImg} aria-hidden="true">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={ENTRY.img} alt="" loading="lazy" />
+            </div>
+            <div className={styles.entryBody}>
+              <span className={styles.entryFlag}>{fr ? 'Porte d’entrée' : 'Entry door'}</span>
+              <h3 className={styles.entryName}>
+                <span aria-hidden="true">{ENTRY.glyph}</span> {ENTRY.name}
+              </h3>
+              <p className={styles.entryTagline}>{tr(ENTRY.tagline)} — {tr(ENTRY.best)}</p>
+              <ul className={styles.entryList}>
+                {ENTRY.includes.map((it) => (
+                  <li key={tr(it)}>{tr(it)}</li>
+                ))}
+              </ul>
+            </div>
+            <div className={styles.entrySide}>
+              <Price eur={ENTRY.eur} from={ENTRY.from} unit={ENTRY.unit} />
+              <p className={styles.entryConditions}>{tr(ENTRY.conditions)}</p>
+              <a className={styles.entryCta} href={waFor(ENTRY.name)} target="_blank" rel="noreferrer">
+                {fr ? 'Commencer ici' : 'Start here'} →
+              </a>
+            </div>
+          </article>
+
+          <p className={styles.tierGroupLabel}>
+            {fr
+              ? 'Et quand la marque est prête à passer à l’échelle — stratégie + exécution, un seul prix :'
+              : 'And when the brand is ready to scale — strategy + execution, one price:'}
           </p>
           <div className={styles.tierGrid}>
             {ONE_SHOTS.map((t) => (
@@ -497,21 +725,28 @@ export function TarifsClient() {
           <SectionHead s={SECTIONS.carte} tr={tr} />
           <p className={styles.sectionLede}>
             {fr
-              ? 'Besoin d’un seul métier ? Prenez-le à la carte. Chaque prix est un point de départ — les forfaits restent la meilleure affaire.'
-              : 'Need a single craft? Take it à la carte. Each price is a starting point — the packages stay the better deal.'}
+              ? 'Besoin d’un seul métier ? Prenez-le à la carte. Je tiens la direction ; la production s’appuie au besoin sur La Guilde, le réseau UPgraders (photo, illustration, dev). Chaque prix est un point de départ.'
+              : 'Need a single craft? Take it à la carte. I hold the direction; production leans, when needed, on La Guilde — the UPgraders network (photo, illustration, dev). Each price is a starting point.'}
           </p>
           <div className={styles.carteGrid}>
             {CARTE.map((c) => (
               <article className={styles.carteItem} key={tr(c.name)}>
-                <span className={styles.carteGlyph} aria-hidden="true">{c.glyph}</span>
+                <div className={styles.carteImg} aria-hidden="true">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={c.img} alt="" loading="lazy" />
+                  <span className={styles.carteGlyph}>{c.glyph}</span>
+                </div>
                 <div className={styles.carteBody}>
                   <h3>{tr(c.name)}</h3>
                   <p>{tr(c.desc)}</p>
-                </div>
-                <div className={styles.cartePrice}>
-                  <span className={styles.carteFrom}>{fr ? 'dès' : 'from'}</span>
-                  <span>{cur === 'eur' ? eurStr(c.eur) : fcfaStr(c.eur)}</span>
-                  <small>{cur === 'eur' ? fcfaStr(c.eur) : eurStr(c.eur)}</small>
+                  <p className={styles.carteLivrable}>
+                    <span>{fr ? 'Livrable' : 'Deliverable'}</span> {tr(c.livrable)}
+                  </p>
+                  <div className={styles.cartePrice}>
+                    <span className={styles.carteFrom}>{fr ? 'dès' : 'from'}</span>
+                    <span className={styles.cartePriceBig}>{cur === 'eur' ? eurStr(c.eur) : fcfaStr(c.eur)}</span>
+                    <small>{cur === 'eur' ? fcfaStr(c.eur) : eurStr(c.eur)}</small>
+                  </div>
                 </div>
               </article>
             ))}
@@ -530,6 +765,46 @@ export function TarifsClient() {
             {RETAINERS.map((t) => (
               <TierCard tier={t} key={t.name} />
             ))}
+          </div>
+        </Reveal>
+
+        {/* ======================= §05 — PAIEMENT ===================== */}
+        <Reveal as="section" className={styles.section}>
+          <SectionHead s={SECTIONS.payment} tr={tr} />
+          <p className={styles.sectionLede}>{tr(PAY_COPY.lede)}</p>
+
+          <div className={styles.payGrid}>
+            <div className={styles.payInstall}>
+              <h3 className={styles.payTitle}>{tr(PAY_COPY.installTitle)}</h3>
+              <p className={styles.payBody}>{tr(PAY_COPY.installBody)}</p>
+              <ol className={styles.paySteps}>
+                {PAY_STEPS.map((s) => (
+                  <li key={s.k} className={styles.payStep}>
+                    <span className={styles.payStepK}>{s.k}</span>
+                    <span className={styles.payStepBody}>
+                      <span className={styles.payStepT}>{tr(s.t)}</span>
+                      <span className={styles.payStepD}>{tr(s.d)}</span>
+                    </span>
+                  </li>
+                ))}
+              </ol>
+              <p className={styles.payNote}>{tr(PAY_COPY.curNote)}</p>
+            </div>
+
+            <aside className={styles.payMethods}>
+              <h3 className={styles.payTitle}>{tr(PAY_COPY.methodsTitle)}</h3>
+              <ul className={styles.payMethodList}>
+                {PAY_METHODS.map((m) => (
+                  <li key={m.name}>
+                    <span className={styles.payMethodName}>{m.name}</span>
+                    <span className={styles.payMethodD}>{tr(m.d)}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/conditions" className={styles.payConditionsLink}>
+                {tr(PAY_COPY.conditionsLink)} →
+              </Link>
+            </aside>
           </div>
         </Reveal>
 
@@ -577,6 +852,9 @@ export function TarifsClient() {
             <div className={styles.finalSign}>
               <span className={styles.finalSignName}>{CONTACT.footerName}</span>
               <span className={styles.finalSignTag}>« {tr(COPY.signature)} »</span>
+              <Link href="/conditions" className={styles.finalConditions}>
+                {fr ? 'Conditions & modalités' : 'Terms & conditions'}
+              </Link>
             </div>
           </div>
         </section>
