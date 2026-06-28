@@ -23,6 +23,7 @@ const OUT_DIR = path.join(ROOT, 'source');
 
 const DEFAULT_TARGETS = [
   { path: '/cv', file: 'xtincell-cv.pdf', title: 'CV' },
+  { path: '/tech', file: 'xtincell-tech.pdf', title: 'Tech Folio' },
   { path: '/', file: 'xtincell-folio.pdf', title: 'Folio' },
 ];
 
@@ -85,10 +86,17 @@ async function startServer(port) {
   return proc;
 }
 
+// Raster scale for embedded images. Default 2 (crisp); override with PDF_SCALE=1
+// for image-heavy pages (e.g. /tech) to keep the downloadable file small — text
+// stays vector either way.
+const SCALE = Number(process.env.PDF_SCALE) || 2;
+
 async function renderPdf(browser, url, outFile, title) {
   const page = await browser.newPage();
-  await page.setViewport({ width: 1280, height: 1800, deviceScaleFactor: 2 });
-  await page.emulateMediaType('screen');
+  await page.setViewport({ width: 1280, height: 1800, deviceScaleFactor: SCALE });
+  // Default to the screen design; pass PDF_MEDIA=print for image-heavy pages
+  // (e.g. /tech) so their @media print rules apply and the file stays lean.
+  await page.emulateMediaType(process.env.PDF_MEDIA === 'print' ? 'print' : 'screen');
   console.log(`  → loading ${url}`);
   await page.goto(url, { waitUntil: 'networkidle0', timeout: 90000 });
   // Give in-view animations / lazy content a beat to settle

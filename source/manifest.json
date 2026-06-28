@@ -1,10 +1,15 @@
 {
-  "generatedAt": "2026-05-04T08:59:24.565Z",
+  "generatedAt": "2026-06-28T15:31:10.379Z",
   "pages": [
     {
       "path": "/cv",
       "file": "xtincell-cv.pdf",
       "title": "CV"
+    },
+    {
+      "path": "/tech",
+      "file": "xtincell-tech.pdf",
+      "title": "Tech Folio"
     },
     {
       "path": "/",
