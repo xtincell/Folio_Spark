@@ -38,6 +38,7 @@ export function CommandPalette() {
       { id: 'work', group: p.groupNav, label: p.folio, hint: '/work', run: go('/work') },
       { id: 'galerie', group: p.groupNav, label: p.gallery, hint: '/galerie', run: go('/galerie') },
       { id: 'design', group: p.groupNav, label: p.design, hint: '/design', run: go('/design') },
+      { id: 'tech', group: p.groupNav, label: p.tech, hint: '/tech', run: go('/tech') },
       { id: 'cv', group: p.groupNav, label: p.cv, hint: '/cv', run: go('/cv') },
       { id: 'upg', group: p.groupNav, label: p.upgraders, hint: '/upgraders', run: go('/upgraders') },
       { id: 'blog', group: p.groupNav, label: p.blog, hint: '/upgraders/blog', run: go('/upgraders/blog') },

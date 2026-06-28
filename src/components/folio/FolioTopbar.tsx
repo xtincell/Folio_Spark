@@ -8,7 +8,7 @@ import { FlameMark } from './FlameMark';
 import { LangToggle } from './LangToggle';
 import { useT } from '@/lib/i18n';
 
-type Active = 'accueil' | 'folio' | 'galerie' | 'cv' | 'design';
+type Active = 'accueil' | 'folio' | 'galerie' | 'cv' | 'design' | 'tech';
 
 export function FolioTopbar({ label, active }: { label?: string; active: Active }) {
   const t = useT();
@@ -19,6 +19,7 @@ export function FolioTopbar({ label, active }: { label?: string; active: Active 
     { key: 'folio', href: '/work', label: t.nav.folio },
     { key: 'galerie', href: '/galerie', label: t.nav.gallery },
     { key: 'design', href: '/design', label: t.nav.design },
+    { key: 'tech', href: '/tech', label: t.nav.tech },
     { key: 'cv', href: '/cv', label: t.nav.cv },
   ];
 

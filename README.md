@@ -36,6 +36,7 @@ npm run lint              # next lint
 | --- | --- |
 | `/` | Folio principal — masthead éditorial, manifeste, méthode ADVE/RTIS, trois casquettes, UPgraders teaser, Travaux, LaFusée, contact |
 | `/cv` | CV éditorial v15.0 — 60 secondes, print-ready |
+| `/tech` | Folio tech — approche d'ingénieur, process idée → expérience, réalisations (BanaHealth, Motion19, Spawt, Shakazz, LaFusée, MATANGA…), stack & tarifs |
 | `/work` | Folio approfondi en 3 pratiques : Stratégie · Direction Créative & Artistique · Exécution. Avec chaînes de filiation (AgencyChain) et preuves vidéo embed |
 | `/galerie` | Galerie photo — 18 collections Pixieset + 8 dernières vidéos YouTube + cards Instagram/Facebook |
 | `/upgraders` | Page dédiée à l'agence UPgraders (méthode, OS LaFusée, La Guilde, terminal interactif) |
@@ -50,6 +51,7 @@ src/
     layout.tsx              # root layout (fonts + globals)
     page.tsx                # /
     cv/page.tsx             # /cv
+    tech/page.tsx           # /tech (+ TechClient.tsx 'use client' island)
     work/page.tsx           # /work
     galerie/page.tsx        # /galerie
     upgraders/
