@@ -104,6 +104,23 @@
   margin: 0;
   text-wrap: pretty;
 }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 22px; }
+.pdfBtn {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+  padding: 7px 13px; border: 1px solid var(--accent); border-radius: 99px;
+  color: var(--accent); text-decoration: none;
+  transition: background 180ms ease, color 180ms ease;
+}
+.pdfBtn:hover { background: var(--accent); color: var(--bg); }
+.ghostBtn {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+  padding: 7px 13px; border: 1px solid var(--line-2); border-radius: 99px;
+  color: var(--ink-2); text-decoration: none;
+  transition: border-color 180ms ease, color 180ms ease;
+}
+.ghostBtn:hover { border-color: var(--ink); color: var(--ink); }
 .meta {
   display: grid; grid-template-columns: max-content 1fr; column-gap: 18px; row-gap: 6px;
   font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em;
@@ -196,6 +213,29 @@
   transition: border-color .25s ease, transform .25s ease;
 }
 .project:hover { border-color: var(--accent); transform: translateY(-2px); }
+.thumb {
+  position: relative;
+  margin: -22px -22px 4px;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: oklch(0.14 0.005 30);
+  border-bottom: 1px solid var(--line-2);
+}
+.thumb img {
+  width: 100%; height: 100%; object-fit: cover; object-position: top center;
+  display: block;
+  filter: saturate(1.02);
+  transition: transform 400ms ease;
+}
+.project:hover .thumb img { transform: scale(1.03); }
+.thumb[data-placeholder='true'] {
+  display: flex; align-items: center; justify-content: center;
+  background:
+    radial-gradient(circle at 30% 30%, oklch(0.70 0.20 38 / 0.10), transparent 60%),
+    repeating-linear-gradient(45deg, oklch(0.96 0.012 70 / 0.04) 0 1px, transparent 1px 11px);
+}
+.thumb[data-placeholder='true'] span { font-size: 40px; color: var(--ink-3); line-height: 1; }
+.thumb .badge { position: absolute; top: 10px; right: 10px; background: oklch(0.10 0.005 30 / 0.78); backdrop-filter: blur(4px); }
 .projectTop { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .projectName { font-family: var(--serif); font-size: 26px; line-height: 1.05; letter-spacing: -0.01em; margin: 0; }
 .badge {
@@ -278,7 +318,8 @@
 
 @media print {
   .folioRoot { background: white; color: black; font-size: 11pt; }
-  .topbar, .foot :global(.cta), .socialRow, .backdrop { display: none; }
+  .topbar, .foot :global(.cta), .socialRow, .backdrop, .actions, .thumb { display: none; }
+  .project { break-inside: avoid; padding-top: 22px; }
   .folioRoot { --ink: #000; --ink-2: #333; --ink-3: #666; --line: #ccc; --line-2: #aaa; --bg: white; }
   .page { padding: 30px 30px; }
   .sectionHead { position: static; }

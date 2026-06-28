@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import styles from '@/styles/tech.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
@@ -126,6 +127,9 @@ type Build = {
   stack: string[];
   href?: string;
   linkLabel: Bi;
+  thumb?: string;
+  /** Single glyph used when no screenshot exists (internal tools). */
+  glyph?: string;
 };
 
 const BUILDS: Build[] = [
@@ -141,6 +145,7 @@ const BUILDS: Build[] = [
     stack: ['Web', 'Design', 'DA', 'Healthcare'],
     href: 'https://banahealth.care',
     linkLabel: { fr: 'banahealth.care', en: 'banahealth.care' },
+    thumb: '/tech/banahealth.jpg',
   },
   {
     name: 'Motion19',
@@ -154,6 +159,7 @@ const BUILDS: Build[] = [
     stack: ['E-commerce', 'Branding', 'Consulting'],
     href: 'https://motion19.com',
     linkLabel: { fr: 'motion19.com', en: 'motion19.com' },
+    thumb: '/tech/motion19.jpg',
   },
   {
     name: 'Spawt',
@@ -167,6 +173,7 @@ const BUILDS: Build[] = [
     stack: ['Mobile', 'Android', 'Product', 'Landing'],
     href: 'https://spawt-meute-quiz.pages.dev',
     linkLabel: { fr: 'spawt-meute-quiz.pages.dev', en: 'spawt-meute-quiz.pages.dev' },
+    thumb: '/tech/spawt.jpg',
   },
   {
     name: 'Shakazz',
@@ -180,6 +187,7 @@ const BUILDS: Build[] = [
     stack: ['Web app', 'Platform', 'Supervision'],
     href: 'https://shakazz-web-app.vercel.app',
     linkLabel: { fr: 'shakazz-web-app.vercel.app', en: 'shakazz-web-app.vercel.app' },
+    thumb: '/tech/shakazz.jpg',
   },
   {
     name: 'LaFusée',
@@ -193,6 +201,7 @@ const BUILDS: Build[] = [
     stack: ['SaaS', 'Product', 'Automation'],
     href: 'https://lafusee-app.vercel.app',
     linkLabel: { fr: 'lafusee-app.vercel.app', en: 'lafusee-app.vercel.app' },
+    thumb: '/tech/lafusee.jpg',
   },
   {
     name: 'MATANGA',
@@ -205,6 +214,7 @@ const BUILDS: Build[] = [
     },
     stack: ['Internal tool', 'Project mgmt', 'Agency'],
     linkLabel: { fr: 'Outil interne', en: 'Internal tool' },
+    glyph: '◑',
   },
   {
     name: { fr: 'Outils digitaux', en: 'Digital tools' },
@@ -217,6 +227,7 @@ const BUILDS: Build[] = [
     },
     stack: ['Tooling', 'Automation', 'Micro-apps'],
     linkLabel: { fr: 'Sur demande', en: 'On request' },
+    glyph: '⋯',
   },
 ];
 
@@ -284,6 +295,14 @@ export function TechClient() {
           <div>
             <div className={styles.eyebrow}>
               {tr(T.eyebrowA)} · <b>{tr(T.eyebrowB)}</b> · 2026
+            </div>
+            <div className={styles.actions} data-print-hide="true">
+              <a className={styles.pdfBtn} href="/tech.pdf" download="Alexandre-Djengue-Tech.pdf">
+                {lang === 'fr' ? 'Folio tech · PDF' : 'Tech folio · PDF'} ↓
+              </a>
+              <Link className={styles.ghostBtn} href="/cv">
+                {lang === 'fr' ? 'Voir le CV éditorial' : 'See the editorial résumé'} →
+              </Link>
             </div>
             <h1 className={styles.name}>
               Alexandre <em>Djengue</em>
@@ -369,11 +388,19 @@ export function TechClient() {
             <div className={styles.projects}>
               {BUILDS.map((b) => (
                 <article className={styles.project} key={tr(b.name)}>
-                  <div className={styles.projectTop}>
-                    <h3 className={styles.projectName}>{tr(b.name)}</h3>
+                  <div className={styles.thumb} data-placeholder={b.thumb ? undefined : 'true'}>
+                    {b.thumb ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={b.thumb} alt={`${tr(b.name)} — aperçu`} loading="lazy" />
+                    ) : (
+                      <span aria-hidden="true">{b.glyph ?? '◆'}</span>
+                    )}
                     <span className={styles.badge} data-tone={b.tone}>
                       {tr(b.status)}
                     </span>
+                  </div>
+                  <div className={styles.projectTop}>
+                    <h3 className={styles.projectName}>{tr(b.name)}</h3>
                   </div>
                   <span className={styles.projectRole}>{tr(b.role)}</span>
                   <p className={styles.projectDesc}>{tr(b.desc)}</p>

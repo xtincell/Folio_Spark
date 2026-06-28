@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import styles from '@/styles/cv.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
@@ -227,6 +228,9 @@ export function CvClient() {
               <a className={styles.pdfBtn} href="/cv.pptx" download="Alexandre-Djengue-CV.pptx">
                 CV · PPTX ↓
               </a>
+              <Link className={styles.pdfBtn} href="/tech">
+                {lang === 'fr' ? 'Folio tech' : 'Tech folio'} →
+              </Link>
             </div>
             <h1 className={styles.cvName}>
               Alexandre <em>Djengue</em>
