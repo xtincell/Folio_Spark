@@ -9,12 +9,19 @@ import { Upgraders } from '@/components/folio/Upgraders';
 import { Practices } from '@/components/folio/Practices';
 import { Stats } from '@/components/folio/Stats';
 import { System } from '@/components/folio/System';
+import { Press } from '@/components/folio/Press';
 import { Contact } from '@/components/folio/Contact';
 import { Reveal } from '@/components/folio/Reveal';
+import { PersonJsonLd } from '@/components/folio/PersonJsonLd';
+
+export const metadata = {
+  alternates: { canonical: '/' },
+};
 
 export default function FolioPage() {
   return (
     <div className={styles.folioRoot}>
+      <PersonJsonLd />
       <Nav />
       <main id="contenu">
         <Hero />
@@ -28,6 +35,7 @@ export default function FolioPage() {
         <EditoPic n={3} />
         <Reveal><Stats /></Reveal>
         <Reveal><System /></Reveal>
+        <Reveal><Press /></Reveal>
         <Reveal><Contact /></Reveal>
       </main>
     </div>

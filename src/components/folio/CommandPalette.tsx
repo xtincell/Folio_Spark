@@ -45,6 +45,7 @@ export function CommandPalette() {
       { id: 'blog', group: p.groupNav, label: p.blog, hint: '/upgraders/blog', run: go('/upgraders/blog') },
       { id: 'manifeste', group: p.groupSections, label: p.manifesto, run: go('/#manifeste') },
       { id: 'methode', group: p.groupSections, label: p.method, run: go('/#methode') },
+      { id: 'presse', group: p.groupSections, label: p.press, run: go('/#presse') },
       { id: 'contact', group: p.groupSections, label: p.contact, run: go('/#contact') },
       { id: 'wa', group: p.groupContact, label: p.whatsapp, hint: CONTACT.whatsappDisplay, run: ext(CONTACT.whatsappLink) },
       { id: 'mail', group: p.groupContact, label: p.email, hint: CONTACT.email, run: ext(`mailto:${CONTACT.email}`) },
