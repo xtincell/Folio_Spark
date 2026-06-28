@@ -68,6 +68,7 @@ export function Nav() {
         <Link href="/work" onClick={close}>{t.nav.folio} ↗</Link>
         <Link href="/galerie" onClick={close}>{t.nav.gallery} ↗</Link>
         <Link href="/cv" onClick={close}>{t.nav.cv} ↗</Link>
+        <Link href="/tarifs" className={styles.navPricing} onClick={close}>{t.nav.tarifs} ↗</Link>
         <a href="#contact" className={styles.navCta} onClick={close}>{t.nav.contact} →</a>
         <LangToggle className={styles.navLang} />
       </div>
