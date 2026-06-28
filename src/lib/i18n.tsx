@@ -224,6 +224,18 @@ const fr = {
       statusValue: 'Open to opportunities',
     },
 
+    press: {
+      num: '05',
+      label: 'Revue de presse',
+      title1: 'Ce qu’ils ',
+      titleEm: 'disent de moi',
+      lede: 'Portraits, interviews et présences média qui parlent du travail — la trace publique d’une pratique, recensée au fil du web.',
+      read: 'Lire',
+      visit: 'Visiter',
+      listen: 'Écouter',
+      ariaList: 'Articles et médias qui parlent de Xtincell',
+    },
+
     social: { label: 'Social', everywhere: '@xtincell partout' },
 
     proof: { label: 'Preuves vidéo', open: 'Ouvrir' },
@@ -251,6 +263,7 @@ const fr = {
       blog: 'Blog UPgraders',
       manifesto: 'Manifeste',
       method: 'Méthode ADVE/RTIS',
+      press: 'Revue de presse',
       contact: 'Contact',
       whatsapp: 'WhatsApp',
       email: 'Email',
@@ -489,6 +502,18 @@ const en: Dict = {
       statusValue: 'Open to opportunities',
     },
 
+    press: {
+      num: '05',
+      label: 'Press',
+      title1: 'What they ',
+      titleEm: 'say about me',
+      lede: 'Features, interviews and media presence about the work — the public trace of a practice, gathered across the web.',
+      read: 'Read',
+      visit: 'Visit',
+      listen: 'Listen',
+      ariaList: 'Articles and media that talk about Xtincell',
+    },
+
     social: { label: 'Social', everywhere: '@xtincell everywhere' },
 
     proof: { label: 'Video proof', open: 'Open' },
@@ -516,6 +541,7 @@ const en: Dict = {
       blog: 'UPgraders Blog',
       manifesto: 'Manifesto',
       method: 'ADVE/RTIS Method',
+      press: 'Press',
       contact: 'Contact',
       whatsapp: 'WhatsApp',
       email: 'Email',

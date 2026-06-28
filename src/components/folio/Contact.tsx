@@ -16,7 +16,7 @@ export function Contact() {
       </div>
       <div className={styles.contactInner}>
         <div className={styles.sectionHead}>
-          <span className={styles.sectionNum}>05</span>
+          <span className={styles.sectionNum}>06</span>
           <span className={styles.sectionLabel}>{t.contact.label}</span>
         </div>
 
