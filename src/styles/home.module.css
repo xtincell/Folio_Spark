@@ -100,6 +100,15 @@
   position: relative;
 }
 .navLinks a:hover { color: var(--ink); }
+/* Pricing — the money page. Subtly accented in the nav so the eye lands on it. */
+.navPricing { color: var(--accent) !important; }
+.navPricing::after {
+  content: '';
+  position: absolute; left: 0; right: 100%; bottom: -5px;
+  height: 1px; background: var(--accent);
+  transition: right .28s var(--ease-out-expo);
+}
+.navPricing:hover::after { right: 0; }
 .navCta {
   color: var(--accent) !important;
   border: 1px solid var(--accent);
