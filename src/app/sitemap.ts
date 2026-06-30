@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/design', priority: 0.7, freq: 'monthly' },
     { path: '/cv', priority: 0.8, freq: 'monthly' },
     { path: '/tarifs', priority: 0.7, freq: 'monthly' },
+    { path: '/conditions', priority: 0.3, freq: 'yearly' },
     { path: '/upgraders', priority: 0.7, freq: 'monthly' },
     { path: '/upgraders/services', priority: 0.6, freq: 'monthly' },
     { path: '/upgraders/blog', priority: 0.6, freq: 'weekly' },
