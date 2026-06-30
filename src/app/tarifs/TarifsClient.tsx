@@ -7,6 +7,8 @@ import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { FlameMark } from '@/components/folio/FlameMark';
 import { SparkMark } from '@/components/folio/icons/SparkMark';
+import { HandcraftedMark } from '@/components/folio/icons/HandcraftedMark';
+import { getCase } from '@/components/folio/data/cases';
 import { StarField } from '@/components/folio/StarField';
 import { HeroAtmosphere } from '@/components/folio/HeroAtmosphere';
 import { Reveal } from '@/components/folio/Reveal';
@@ -458,7 +460,18 @@ type OfferCase = {
   result: Bi;
   img?: string; // /tarifs/cases/<slug>.webp — falls back to a placeholder tile
   href?: string; // optional deep link (e.g. /work/<slug>)
-  placeholder?: boolean;
+  dummy?: boolean; // illustrative example (AI offers — real AI cases don't exist yet)
+};
+
+/* The AI offers are mass-produced via LaFusée: fast and cheap, but with clear
+   trade-offs vs the human-crafted tiers — stated up front, no surprises. */
+const AI_NOTE: Bi = {
+  fr: 'Fichiers finaux livrés (non éditables) · révisions limitées · passage en accompagnement régulier = frais de conversion (traçage & vectorisation des éléments pour faciliter les déclinaisons).',
+  en: 'Final files delivered (non-editable) · limited revisions · moving to an ongoing engagement = a conversion fee (tracing & vectorising the assets so variations become easy).',
+};
+const HUMAN_NOTE: Bi = {
+  fr: 'Fait main · sources éditables incluses · révisions incluses · droits cédés.',
+  en: 'Hand-crafted · editable sources included · revisions included · rights assigned.',
 };
 
 type GPOffer = {
@@ -475,13 +488,9 @@ type GPOffer = {
   cases: OfferCase[];
 };
 
-/* Helper: a labelled placeholder case awaiting its dossier. */
-const ph = (brand: string, theme: Bi): OfferCase => ({
-  brand,
-  theme,
-  result: { fr: 'Résultat à compléter — dossier en attente.', en: 'Result TBC — dossier pending.' },
-  placeholder: true,
-});
+/* Helper: an illustrative (fictional) example for an AI offer. Clearly tagged
+   « Exemple » in the UI — these are not real clients. */
+const ex = (brand: string, theme: Bi, result: Bi): OfferCase => ({ brand, theme, result, dummy: true });
 
 const GRAND_PUBLIC: GPOffer[] = [
   {
@@ -503,9 +512,9 @@ const GRAND_PUBLIC: GPOffer[] = [
     conditions: { fr: 'Livré sous 72 h · 100 % à la commande.', en: 'Delivered within 72 h · paid upfront.' },
     img: '/tarifs/conseil-diagnostic.webp',
     cases: [
-      ph('Shakazz', { fr: 'Plateforme crypto', en: 'Crypto platform' }),
-      ph('MOTION19', { fr: 'Distribution audiovisuelle', en: 'AV distribution' }),
-      ph('Studio44', { fr: 'Studio créatif', en: 'Creative studio' }),
+      ex('Café Orbit', { fr: 'Coffee shop', en: 'Coffee shop' }, { fr: 'Audit livré en 72 h · 3 priorités claires.', en: 'Audit in 72 h · 3 clear priorities.' }),
+      ex('Lumi Skincare', { fr: 'Cosmétique DTC', en: 'DTC skincare' }, { fr: 'Positionnement reclarifié en une lecture.', en: 'Positioning reclarified in one read.' }),
+      ex('Bolt Run', { fr: 'App livraison', en: 'Delivery app' }, { fr: 'Angles morts repérés avant le lancement.', en: 'Blind spots caught before launch.' }),
     ],
   },
   {
@@ -527,9 +536,9 @@ const GRAND_PUBLIC: GPOffer[] = [
     conditions: { fr: 'Livré sous 48 h · 1 aller-retour.', en: 'Delivered within 48 h · 1 revision.' },
     img: '/tarifs/studio-branding.webp',
     cases: [
-      ph('KOF Festival', { fr: 'Festival pop-culture', en: 'Pop-culture festival' }),
-      ph('Friends Food', { fr: 'Restauration', en: 'Food & beverage' }),
-      ph('Locko', { fr: 'Artiste musique (UMA)', en: 'Music artist (UMA)' }),
+      ex('Maison Kweli', { fr: 'Mode', en: 'Fashion' }, { fr: 'Logo + 10 posts livrés en 48 h.', en: 'Logo + 10 posts in 48 h.' }),
+      ex('Verda Juice', { fr: 'Boisson', en: 'Beverage' }, { fr: 'Série de visuels prête à publier.', en: 'Visual series ready to post.' }),
+      ex('Studio Lumen', { fr: 'Photo', en: 'Photo' }, { fr: 'Key visual express pour une promo.', en: 'Express key visual for a promo.' }),
     ],
   },
   {
@@ -551,9 +560,17 @@ const GRAND_PUBLIC: GPOffer[] = [
     conditions: { fr: 'Livré sous 5 jours · payable en 2×.', en: 'Delivered within 5 days · payable in 2×.' },
     img: '/tarifs/etincelle.webp',
     cases: [
-      ph('Cosmo Boba', { fr: 'Lancement F&B', en: 'F&B launch' }),
-      ph('Spawt', { fr: 'App / produit', en: 'App / product' }),
-      ph('GoodLocs', { fr: 'DTC / e-commerce', en: 'DTC / e-commerce' }),
+      // The one real AI project so far — links to the folio. The rest are
+      // illustrative until their dossiers are created.
+      {
+        brand: 'Cosmo Boba',
+        theme: { fr: 'Lancement F&B · IA', en: 'F&B launch · AI' },
+        result: { fr: 'Marque & présence en ligne, conçues via LaFusée.', en: 'Brand & online presence, built via LaFusée.' },
+        img: '/work/cases/cosmo-boba/hero.webp',
+        href: '/work/cosmo-boba',
+      },
+      ex('Nova Yoga', { fr: 'Bien-être', en: 'Wellness' }, { fr: 'Marque + landing en ligne en 5 j.', en: 'Brand + landing live in 5 days.' }),
+      ex('Pulse FM', { fr: 'Média', en: 'Media' }, { fr: 'Lancement complet, prêt le jour J.', en: 'Full launch, ready on day one.' }),
     ],
   },
   {
@@ -575,14 +592,23 @@ const GRAND_PUBLIC: GPOffer[] = [
     conditions: { fr: 'Sans engagement · résiliable au mois.', en: 'No commitment · cancel monthly.' },
     img: '/tarifs/retainer-copilote.webp',
     cases: [
-      ph('Cap Estérias', { fr: 'Hôtellerie / lifestyle', en: 'Hospitality / lifestyle' }),
-      ph('LaPasta', { fr: 'FMCG / food', en: 'FMCG / food' }),
-      ph('Akwa Palace', { fr: 'Hôtellerie', en: 'Hospitality' }),
+      ex('Green Cart', { fr: 'E-commerce', en: 'E-commerce' }, { fr: '12 visuels/mois · réseaux toujours vivants.', en: '12 visuals/mo · channels always alive.' }),
+      ex('Zen Spa', { fr: 'Bien-être', en: 'Wellness' }, { fr: 'Contenu mensuel cohérent, zéro charge.', en: 'Coherent monthly content, zero hassle.' }),
+      ex('Tilt Gaming', { fr: 'Gaming', en: 'Gaming' }, { fr: 'Flux régulier, supervisé.', en: 'Steady supervised flow.' }),
     ],
   },
 ];
 
 const gpFor = (section: GPOffer['section']) => GRAND_PUBLIC.find((g) => g.section === section);
+
+/* Real, human-crafted proof per univers — existing folio cases re-linked to the
+   offer family they best illustrate. These are the high-value, non-AI works. */
+const HUMAN_CASES: Record<GPOffer['section'], string[]> = {
+  conseil: ['ecobank', 'nsia', 'brasseries-du-cameroun'],
+  oneShot: ['motion19-store', 'robuste', 'banahealth'],
+  carte: ['friesland-campina', 'cap-esterias', 'cover-musical'],
+  retainer: ['matanga-agency', 'lapasta', 'tradex'],
+};
 
 /* --------------------------------------------------------- payment ------- */
 type PayStep = { k: string; t: Bi; d: Bi };
@@ -694,6 +720,10 @@ export function TarifsClient() {
         <div>
           <h3 className={styles.tierName}>{tier.name}</h3>
           <p className={styles.tierTagline}>{tr(tier.tagline)}</p>
+          <span className={styles.craftBadge}>
+            <HandcraftedMark size={11} />
+            {fr ? 'Fait main' : 'Hand-crafted'}
+          </span>
         </div>
       </div>
       <Price eur={tier.eur} from={tier.from} unit={tier.unit} />
@@ -733,8 +763,8 @@ export function TarifsClient() {
                 ) : (
                   <span className={styles.gpCaseInitial}>{c.brand.charAt(0)}</span>
                 )}
-                {c.placeholder && (
-                  <span className={styles.gpCaseTag}>{fr ? 'Dossier à venir' : 'Case coming'}</span>
+                {c.dummy && (
+                  <span className={styles.gpCaseTag}>{fr ? 'Exemple' : 'Example'}</span>
                 )}
               </span>
               <span className={styles.gpCaseBrand}>{c.brand}</span>
@@ -777,6 +807,7 @@ export function TarifsClient() {
               <li key={tr(it)}>{tr(it)}</li>
             ))}
           </ul>
+          <p className={styles.gpNote}>{tr(AI_NOTE)}</p>
           <CaseTiles cases={gp.cases} />
         </div>
         <div className={styles.gpSide}>
@@ -787,6 +818,35 @@ export function TarifsClient() {
           </a>
         </div>
       </article>
+    );
+  };
+
+  /* Human-crafted proof — real folio cases, re-linked to the univers they best
+     illustrate. The high-value counterweight to the AI examples above. */
+  const CraftedStrip = ({ section }: { section: GPOffer['section'] }) => {
+    const cases = HUMAN_CASES[section]
+      .map((slug) => ({ slug, c: getCase(slug) }))
+      .filter((x): x is { slug: string; c: NonNullable<ReturnType<typeof getCase>> } => Boolean(x.c));
+    if (!cases.length) return null;
+    return (
+      <div className={styles.crafted}>
+        <span className={styles.craftedLabel}>
+          <HandcraftedMark size={13} />
+          {fr ? 'Réalisations · fait main' : 'Real work · hand-crafted'}
+        </span>
+        <div className={styles.craftedGrid}>
+          {cases.map(({ slug, c }) => (
+            <Link key={slug} href={`/work/${slug}`} className={styles.craftedCase}>
+              <span className={styles.craftedThumb}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={c.hero} alt="" loading="lazy" />
+              </span>
+              <span className={styles.craftedName}>{pick(c.name, lang)}</span>
+              <span className={styles.craftedClient}>{pick(c.client, lang)}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
     );
   };
 
@@ -860,6 +920,24 @@ export function TarifsClient() {
               </div>
             ))}
           </div>
+
+          {/* Two modes legend — sets expectations before the offers. */}
+          <div className={styles.modeLegend}>
+            <div className={styles.modeCard}>
+              <span className={styles.modeHead}>
+                <HandcraftedMark size={15} />
+                {fr ? 'Fait main' : 'Hand-crafted'}
+              </span>
+              <p>{tr(HUMAN_NOTE)}</p>
+            </div>
+            <div className={`${styles.modeCard} ${styles.modeAi}`}>
+              <span className={styles.modeHead}>
+                <span aria-hidden="true">⚡</span>
+                {fr ? 'Propulsé par l’IA' : 'AI-powered'}
+              </span>
+              <p>{tr(AI_NOTE)}</p>
+            </div>
+          </div>
         </Reveal>
 
         {/* ======================= §01 — CONSEIL ====================== */}
@@ -879,6 +957,7 @@ export function TarifsClient() {
               <TierCard tier={t} key={t.name} />
             ))}
           </div>
+          <CraftedStrip section="conseil" />
         </Reveal>
 
         {/* ======================= §02 — FORFAITS INTÉGRÉS ============= */}
@@ -900,6 +979,10 @@ export function TarifsClient() {
                 <span aria-hidden="true">{ENTRY.glyph}</span> {ENTRY.name}
               </h3>
               <p className={styles.entryTagline}>{tr(ENTRY.tagline)} — {tr(ENTRY.best)}</p>
+              <span className={styles.craftBadge}>
+                <HandcraftedMark size={11} />
+                {fr ? 'Fait main' : 'Hand-crafted'}
+              </span>
               <ul className={styles.entryList}>
                 {ENTRY.includes.map((it) => (
                   <li key={tr(it)}>{tr(it)}</li>
@@ -925,6 +1008,7 @@ export function TarifsClient() {
               <TierCard tier={t} key={t.name} />
             ))}
           </div>
+          <CraftedStrip section="oneShot" />
         </Reveal>
 
         {/* ======================= proof image strip ================== */}
@@ -977,6 +1061,7 @@ export function TarifsClient() {
               </article>
             ))}
           </div>
+          <CraftedStrip section="carte" />
         </Reveal>
 
         {/* ======================= §03 — RETAINERS ==================== */}
@@ -996,6 +1081,7 @@ export function TarifsClient() {
               <TierCard tier={t} key={t.name} />
             ))}
           </div>
+          <CraftedStrip section="retainer" />
         </Reveal>
 
         {/* ======================= §05 — PAIEMENT ===================== */}
