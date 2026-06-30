@@ -122,7 +122,7 @@ const ENTRY: Tier = {
   from: true,
   unit: { fr: 'forfait', en: 'flat' },
   best: { fr: 'Solo, artiste, jeune marque · un premier visage pro', en: 'Solo, artist, young brand · a first pro face' },
-  img: '/work/cases/friendsfood/hero.webp',
+  img: '/tarifs/premier-pas.webp',
   includes: [
     { fr: 'Atelier express de cadrage (45 min, en visio).', en: 'Express scoping workshop (45 min, on call).' },
     { fr: 'Logo + palette + 2 typographies.', en: 'Logo + palette + 2 typefaces.' },
@@ -136,7 +136,7 @@ const ENTRY: Tier = {
 const ONE_SHOTS: Tier[] = [
   {
     glyph: '♠',
-    img: '/work/cases/xtincell-brand/hero.webp',
+    img: '/tarifs/etincelle.webp',
     name: 'L’Étincelle',
     tagline: { fr: 'Le premier signal', en: 'The first signal' },
     eur: 1500,
@@ -154,7 +154,7 @@ const ONE_SHOTS: Tier[] = [
   },
   {
     glyph: '♥',
-    img: '/work/cases/brasseries-du-cameroun/hero.webp',
+    img: '/tarifs/trajectoire.webp',
     name: 'La Trajectoire',
     tagline: { fr: 'La marque qui décolle', en: 'The brand that takes off' },
     eur: 4500,
@@ -174,7 +174,7 @@ const ONE_SHOTS: Tier[] = [
   },
   {
     glyph: '♦',
-    img: '/work/cases/ecobank/hero.webp',
+    img: '/tarifs/constellation.webp',
     name: 'La Constellation',
     tagline: { fr: 'L’écosystème complet', en: 'The full ecosystem' },
     eur: 9000,
@@ -199,7 +199,7 @@ const ONE_SHOTS: Tier[] = [
 const CONSULTING: Tier[] = [
   {
     glyph: '✶',
-    img: '/work/cases/matanga-agency/hero.webp',
+    img: '/tarifs/conseil-diagnostic.webp',
     name: 'Le Diagnostic',
     tagline: { fr: 'Audit de marque ADVE/RTIS', en: 'ADVE/RTIS brand audit' },
     eur: 600,
@@ -217,7 +217,7 @@ const CONSULTING: Tier[] = [
   },
   {
     glyph: '✦',
-    img: '/work/cases/brasseries-du-cameroun/hero.webp',
+    img: '/tarifs/conseil-plateforme.webp',
     name: 'La Plateforme',
     tagline: { fr: 'Le système de marque complet', en: 'The full brand system' },
     eur: 3000,
@@ -236,7 +236,7 @@ const CONSULTING: Tier[] = [
   },
   {
     glyph: '★',
-    img: '/work/cases/upgraders-case/hero.webp',
+    img: '/tarifs/conseil-sparring.webp',
     name: 'Le Sparring',
     tagline: { fr: 'Votre cerveau de marque, au mois', en: 'Your brand brain, monthly' },
     eur: 900,
@@ -260,7 +260,7 @@ const CARTE: Carte[] = [
     glyph: '♠',
     name: { fr: 'Branding & identité', en: 'Branding & identity' },
     eur: 1200,
-    img: '/work/cases/robuste-packaging/hero.webp',
+    img: '/tarifs/studio-branding.webp',
     desc: {
       fr: 'Je construis le visage de la marque : naming, logo, palette, typographies et règles d’usage. Pas un joli logo isolé — un système cohérent qui tient sur un packaging comme sur un écran.',
       en: 'I build the brand’s face: naming, logo, palette, typefaces and usage rules. Not a pretty standalone logo — a coherent system that holds on a package as on a screen.',
@@ -271,7 +271,7 @@ const CARTE: Carte[] = [
     glyph: '♥',
     name: { fr: 'Direction artistique', en: 'Art direction' },
     eur: 900,
-    img: '/work/cases/friesland-campina/hero.webp',
+    img: '/tarifs/studio-da.webp',
     desc: {
       fr: 'Le concept et le regard d’une campagne : intention, références, casting, lumière, mise en scène. Je donne une direction claire à l’image pour qu’elle raconte la bonne histoire.',
       en: 'The concept and the eye of a campaign: intent, references, casting, light, staging. I give the image a clear direction so it tells the right story.',
@@ -282,7 +282,7 @@ const CARTE: Carte[] = [
     glyph: '♦',
     name: { fr: 'Photographie', en: 'Photography' },
     eur: 600,
-    img: '/work/cases/cap-esterias/01.webp',
+    img: '/tarifs/studio-photo.webp',
     desc: {
       fr: 'Studio, produit, portrait d’artiste ou couverture d’événement. Prise de vue + sélection + retouche professionnelle. L’image au service de la marque, pas juste une belle photo.',
       en: 'Studio, product, artist portrait or event coverage. Shoot + selection + professional retouching. Image at the service of the brand, not just a pretty photo.',
@@ -293,7 +293,7 @@ const CARTE: Carte[] = [
     glyph: '♣',
     name: { fr: 'Web & tech', en: 'Web & tech' },
     eur: 1000,
-    img: '/work/cases/motion19-store/hero.webp',
+    img: '/tarifs/studio-web.webp',
     desc: {
       fr: 'Site vitrine, landing de campagne ou web-app sur-mesure, conçus et codés. L’avantage de l’ingénieur derrière l’image : ça ne ressemble pas seulement bien, ça fonctionne et ça convertit.',
       en: 'Showcase site, campaign landing or bespoke web-app, designed and coded. The engineer-behind-the-image edge: it doesn’t just look good, it works and it converts.',
@@ -304,7 +304,7 @@ const CARTE: Carte[] = [
     glyph: '✦',
     name: { fr: 'Motion & vidéo', en: 'Motion & video' },
     eur: 800,
-    img: '/work/cases/cover-musical/hero.webp',
+    img: '/tarifs/studio-motion.webp',
     desc: {
       fr: 'Clip, capsule réseaux, film de marque ou habillage animé. Du storyboard au montage final, une vidéo qui se regarde jusqu’au bout et qui sert le message.',
       en: 'Music video, social capsule, brand film or animated branding. From storyboard to final cut, a video that’s watched to the end and serves the message.',
@@ -315,7 +315,7 @@ const CARTE: Carte[] = [
     glyph: '★',
     name: { fr: 'Conseil & stratégie', en: 'Consulting & strategy' },
     eur: 500,
-    img: '/work/cases/matanga-agency/hero.webp',
+    img: '/tarifs/studio-conseil.webp',
     desc: {
       fr: 'Atelier, audit de marque ou plan d’action via la méthode ADVE/RTIS. On clarifie le positionnement, on repère les angles morts, on repart avec une feuille de route concrète.',
       en: 'Workshop, brand audit or action plan via the ADVE/RTIS method. We clarify the positioning, spot the blind spots, and leave with a concrete roadmap.',
@@ -328,6 +328,7 @@ const CARTE: Carte[] = [
 const RETAINERS: Tier[] = [
   {
     glyph: '♣',
+    img: '/tarifs/retainer-copilote.webp',
     name: 'Copilote',
     tagline: { fr: 'Direction créative à temps partiel', en: 'Part-time creative direction' },
     eur: 1200,
@@ -344,6 +345,7 @@ const RETAINERS: Tier[] = [
   },
   {
     glyph: '♥',
+    img: '/tarifs/retainer-commandant.webp',
     name: 'Commandant de bord',
     tagline: { fr: 'Directeur créatif fractionné', en: 'Fractional creative director' },
     eur: 2800,
@@ -362,6 +364,7 @@ const RETAINERS: Tier[] = [
   },
   {
     glyph: '♦',
+    img: '/tarifs/retainer-apollo.webp',
     name: 'Mission Apollo',
     tagline: { fr: 'Partenaire stratégique', en: 'Strategic partner' },
     eur: 5000,
@@ -758,8 +761,8 @@ export function TarifsClient() {
           <SectionHead s={SECTIONS.retainer} tr={tr} />
           <p className={styles.sectionLede}>
             {fr
-              ? 'Pour les marques qui avancent en continu : un directeur créatif dans l’équipe, sans le coût d’un CDI.'
-              : 'For brands moving continuously: a creative director on the team, without the cost of a full hire.'}
+              ? 'Pour les marques qui avancent en continu : un directeur créatif dans l’équipe, sans le coût d’un CDI. Production incluse. Plus léger ? Le Sparring (§01) reste l’option mensuelle la plus accessible, conseil seul.'
+              : 'For brands moving continuously: a creative director on the team, without the cost of a full hire. Production included. Lighter? Le Sparring (§01) stays the most accessible monthly option, advice only.'}
           </p>
           <div className={styles.tierGrid}>
             {RETAINERS.map((t) => (
