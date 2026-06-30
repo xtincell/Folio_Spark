@@ -7,6 +7,8 @@ import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { FlameMark } from '@/components/folio/FlameMark';
 import { SparkMark } from '@/components/folio/icons/SparkMark';
+import { HandcraftedMark } from '@/components/folio/icons/HandcraftedMark';
+import { getCase } from '@/components/folio/data/cases';
 import { StarField } from '@/components/folio/StarField';
 import { HeroAtmosphere } from '@/components/folio/HeroAtmosphere';
 import { Reveal } from '@/components/folio/Reveal';
@@ -444,6 +446,170 @@ const FAQ: { q: Bi; a: Bi }[] = [
   },
 ];
 
+/* ----------------------------------------------- grand public · IA ------- */
+/* One mass-market, AI-powered offer per univers. Price is EXTREMELY aggressive
+   because LaFusée (the in-house AI OS) does the heavy lifting — Alexandre keeps
+   the direction. Each carries ≥3 case-study slots: people buy a result.
+
+   ⚠ PRIX & ÉTUDES DE CAS = PLACEHOLDERS. Tune the numbers; replace each
+   `OfferCase` (set `placeholder:false`, add `img` + real `result`) once the
+   project dossiers arrive. See the chat brief for exactly what to provide. */
+type OfferCase = {
+  brand: string;
+  theme: Bi;
+  result: Bi;
+  img?: string; // /tarifs/cases/<slug>.webp — falls back to a placeholder tile
+  href?: string; // optional deep link (e.g. /work/<slug>)
+  dummy?: boolean; // illustrative example (AI offers — real AI cases don't exist yet)
+};
+
+/* The AI offers are mass-produced via LaFusée: fast and cheap, but with clear
+   trade-offs vs the human-crafted tiers — stated up front, no surprises. */
+const AI_NOTE: Bi = {
+  fr: 'Fichiers finaux livrés (non éditables) · révisions limitées · passage en accompagnement régulier = frais de conversion (traçage & vectorisation des éléments pour faciliter les déclinaisons).',
+  en: 'Final files delivered (non-editable) · limited revisions · moving to an ongoing engagement = a conversion fee (tracing & vectorising the assets so variations become easy).',
+};
+const HUMAN_NOTE: Bi = {
+  fr: 'Fait main · sources éditables incluses · révisions incluses · droits cédés.',
+  en: 'Hand-crafted · editable sources included · revisions included · rights assigned.',
+};
+
+type GPOffer = {
+  section: 'conseil' | 'oneShot' | 'carte' | 'retainer';
+  glyph: string;
+  name: string;
+  tagline: Bi;
+  eur: number;
+  unit: Bi;
+  pitch: Bi; // the AI "why it's this cheap" line
+  includes: Bi[];
+  conditions: Bi;
+  img: string;
+  cases: OfferCase[];
+};
+
+/* Helper: an illustrative (fictional) example for an AI offer. Clearly tagged
+   « Exemple » in the UI — these are not real clients. */
+const ex = (brand: string, theme: Bi, result: Bi): OfferCase => ({ brand, theme, result, dummy: true });
+
+const GRAND_PUBLIC: GPOffer[] = [
+  {
+    section: 'conseil',
+    glyph: '⚡',
+    name: 'Le Flash',
+    tagline: { fr: 'Audit de marque express, propulsé par l’IA', en: 'Express brand audit, AI-powered' },
+    eur: 49,
+    unit: { fr: 'forfait', en: 'flat' },
+    pitch: {
+      fr: 'LaFusée passe votre marque au crible ADVE/RTIS en quelques heures ; je valide et tranche. Le prix d’un déjeuner, la lecture d’un stratège.',
+      en: 'LaFusée runs your brand through ADVE/RTIS in hours; I validate and decide. The price of a lunch, the read of a strategist.',
+    },
+    includes: [
+      { fr: 'Scan IA du socle ADVE (forces, angles morts).', en: 'AI scan of the ADVE foundation (strengths, blind spots).' },
+      { fr: 'Top 3 des actions prioritaires.', en: 'Top 3 priority moves.' },
+      { fr: 'Rapport PDF + 15 min de débrief vocal.', en: 'PDF report + 15-min voice debrief.' },
+    ],
+    conditions: { fr: 'Livré sous 72 h · 100 % à la commande.', en: 'Delivered within 72 h · paid upfront.' },
+    img: '/tarifs/conseil-diagnostic.webp',
+    cases: [
+      ex('Café Orbit', { fr: 'Coffee shop', en: 'Coffee shop' }, { fr: 'Audit livré en 72 h · 3 priorités claires.', en: 'Audit in 72 h · 3 clear priorities.' }),
+      ex('Lumi Skincare', { fr: 'Cosmétique DTC', en: 'DTC skincare' }, { fr: 'Positionnement reclarifié en une lecture.', en: 'Positioning reclarified in one read.' }),
+      ex('Bolt Run', { fr: 'App livraison', en: 'Delivery app' }, { fr: 'Angles morts repérés avant le lancement.', en: 'Blind spots caught before launch.' }),
+    ],
+  },
+  {
+    section: 'carte',
+    glyph: '⚡',
+    name: 'Le Kit',
+    tagline: { fr: 'Un pack de contenu pro, propulsé par l’IA', en: 'A pro content pack, AI-powered' },
+    eur: 99,
+    unit: { fr: 'forfait', en: 'flat' },
+    pitch: {
+      fr: 'Logo, visuel ou série de posts générés via mes pipelines LaFusée, puis retouchés à la main. La qualité agence, sans le délai ni l’addition.',
+      en: 'Logo, key visual or a post series generated through my LaFusée pipelines, then hand-finished. Agency quality, without the wait or the bill.',
+    },
+    includes: [
+      { fr: 'Au choix : 1 logo · 1 key visual · ou 10 posts réseaux.', en: 'Choose: 1 logo · 1 key visual · or 10 social posts.' },
+      { fr: 'Génération IA dirigée + retouche humaine.', en: 'Directed AI generation + human retouch.' },
+      { fr: 'Fichiers web + impression, prêts à publier.', en: 'Web + print files, ready to publish.' },
+    ],
+    conditions: { fr: 'Livré sous 48 h · 1 aller-retour.', en: 'Delivered within 48 h · 1 revision.' },
+    img: '/tarifs/studio-branding.webp',
+    cases: [
+      ex('Maison Kweli', { fr: 'Mode', en: 'Fashion' }, { fr: 'Logo + 10 posts livrés en 48 h.', en: 'Logo + 10 posts in 48 h.' }),
+      ex('Verda Juice', { fr: 'Boisson', en: 'Beverage' }, { fr: 'Série de visuels prête à publier.', en: 'Visual series ready to post.' }),
+      ex('Studio Lumen', { fr: 'Photo', en: 'Photo' }, { fr: 'Key visual express pour une promo.', en: 'Express key visual for a promo.' }),
+    ],
+  },
+  {
+    section: 'oneShot',
+    glyph: '⚡',
+    name: 'Décollage Express',
+    tagline: { fr: 'Le pack lancement complet, propulsé par l’IA', en: 'The full launch pack, AI-powered' },
+    eur: 199,
+    unit: { fr: 'forfait', en: 'flat' },
+    pitch: {
+      fr: 'Tout pour exister demain : logo, page d’atterrissage et premiers contenus, assemblés via LaFusée en quelques jours. La vitesse de l’IA, l’œil d’un DA.',
+      en: 'Everything to exist tomorrow: logo, landing page and first content, assembled via LaFusée in days. AI speed, an art director’s eye.',
+    },
+    includes: [
+      { fr: 'Logo + mini-charte.', en: 'Logo + mini guidelines.' },
+      { fr: 'Landing 1 page, livrée en ligne.', en: 'One-page landing, shipped live.' },
+      { fr: '10 posts de lancement (réseaux).', en: '10 launch posts (social).' },
+    ],
+    conditions: { fr: 'Livré sous 5 jours · payable en 2×.', en: 'Delivered within 5 days · payable in 2×.' },
+    img: '/tarifs/etincelle.webp',
+    cases: [
+      // The one real AI project so far — links to the folio. The rest are
+      // illustrative until their dossiers are created.
+      {
+        brand: 'Cosmo Boba',
+        theme: { fr: 'Lancement F&B · IA', en: 'F&B launch · AI' },
+        result: { fr: 'Marque & présence en ligne, conçues via LaFusée.', en: 'Brand & online presence, built via LaFusée.' },
+        img: '/work/cases/cosmo-boba/hero.webp',
+        href: '/work/cosmo-boba',
+      },
+      ex('Nova Yoga', { fr: 'Bien-être', en: 'Wellness' }, { fr: 'Marque + landing en ligne en 5 j.', en: 'Brand + landing live in 5 days.' }),
+      ex('Pulse FM', { fr: 'Média', en: 'Media' }, { fr: 'Lancement complet, prêt le jour J.', en: 'Full launch, ready on day one.' }),
+    ],
+  },
+  {
+    section: 'retainer',
+    glyph: '⚡',
+    name: 'Pilote Auto',
+    tagline: { fr: 'Votre contenu en pilote automatique, propulsé par l’IA', en: 'Your content on autopilot, AI-powered' },
+    eur: 79,
+    unit: { fr: '/ mois', en: '/ month' },
+    pitch: {
+      fr: 'Un flux régulier de visuels générés via LaFusée et supervisés par moi. Vos réseaux restent vivants et cohérents, pour le prix d’un outil.',
+      en: 'A steady flow of visuals generated via LaFusée and supervised by me. Your channels stay alive and coherent, for the price of a tool.',
+    },
+    includes: [
+      { fr: '12 visuels / mois, calés sur votre charte.', en: '12 visuals / month, on-brand.' },
+      { fr: 'Calendrier éditorial simple.', en: 'A simple content calendar.' },
+      { fr: 'Supervision humaine de chaque sortie.', en: 'Human supervision on every output.' },
+    ],
+    conditions: { fr: 'Sans engagement · résiliable au mois.', en: 'No commitment · cancel monthly.' },
+    img: '/tarifs/retainer-copilote.webp',
+    cases: [
+      ex('Green Cart', { fr: 'E-commerce', en: 'E-commerce' }, { fr: '12 visuels/mois · réseaux toujours vivants.', en: '12 visuals/mo · channels always alive.' }),
+      ex('Zen Spa', { fr: 'Bien-être', en: 'Wellness' }, { fr: 'Contenu mensuel cohérent, zéro charge.', en: 'Coherent monthly content, zero hassle.' }),
+      ex('Tilt Gaming', { fr: 'Gaming', en: 'Gaming' }, { fr: 'Flux régulier, supervisé.', en: 'Steady supervised flow.' }),
+    ],
+  },
+];
+
+const gpFor = (section: GPOffer['section']) => GRAND_PUBLIC.find((g) => g.section === section);
+
+/* Real, human-crafted proof per univers — existing folio cases re-linked to the
+   offer family they best illustrate. These are the high-value, non-AI works. */
+const HUMAN_CASES: Record<GPOffer['section'], string[]> = {
+  conseil: ['ecobank', 'nsia', 'brasseries-du-cameroun'],
+  oneShot: ['motion19-store', 'robuste', 'banahealth'],
+  carte: ['friesland-campina', 'cap-esterias', 'cover-musical'],
+  retainer: ['matanga-agency', 'lapasta', 'tradex'],
+};
+
 /* --------------------------------------------------------- payment ------- */
 type PayStep = { k: string; t: Bi; d: Bi };
 const PAY_STEPS: PayStep[] = [
@@ -554,6 +720,10 @@ export function TarifsClient() {
         <div>
           <h3 className={styles.tierName}>{tier.name}</h3>
           <p className={styles.tierTagline}>{tr(tier.tagline)}</p>
+          <span className={styles.craftBadge}>
+            <HandcraftedMark size={11} />
+            {fr ? 'Fait main' : 'Hand-crafted'}
+          </span>
         </div>
       </div>
       <Price eur={tier.eur} from={tier.from} unit={tier.unit} />
@@ -577,6 +747,108 @@ export function TarifsClient() {
       </a>
     </article>
   );
+
+  /* Result tiles — proof, not pitch. Real dossiers replace the placeholders. */
+  const CaseTiles = ({ cases }: { cases: OfferCase[] }) => (
+    <div className={styles.gpCases}>
+      <span className={styles.gpCasesLabel}>{fr ? 'Résultats' : 'Results'}</span>
+      <div className={styles.gpCasesGrid}>
+        {cases.map((c, i) => {
+          const inner = (
+            <>
+              <span className={styles.gpCaseThumb} aria-hidden="true">
+                {c.img ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={c.img} alt="" loading="lazy" />
+                ) : (
+                  <span className={styles.gpCaseInitial}>{c.brand.charAt(0)}</span>
+                )}
+                {c.dummy && (
+                  <span className={styles.gpCaseTag}>{fr ? 'Exemple' : 'Example'}</span>
+                )}
+              </span>
+              <span className={styles.gpCaseBrand}>{c.brand}</span>
+              <span className={styles.gpCaseTheme}>{tr(c.theme)}</span>
+              <span className={styles.gpCaseResult}>{tr(c.result)}</span>
+            </>
+          );
+          return c.href ? (
+            <a key={`${c.brand}-${i}`} className={styles.gpCase} href={c.href}>
+              {inner}
+            </a>
+          ) : (
+            <div key={`${c.brand}-${i}`} className={styles.gpCase}>
+              {inner}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+
+  /* Mass-market, AI-powered offer band — the accessible door atop a univers. */
+  const GPBand = ({ gp }: { gp: GPOffer | undefined }) => {
+    if (!gp) return null;
+    return (
+      <article className={styles.gpBand}>
+        <div className={styles.gpImg} aria-hidden="true">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={gp.img} alt="" loading="lazy" />
+        </div>
+        <div className={styles.gpBody}>
+          <span className={styles.gpFlag}>{fr ? 'Grand public · propulsé par l’IA' : 'Mass-market · AI-powered'}</span>
+          <h3 className={styles.gpName}>
+            <span aria-hidden="true">{gp.glyph}</span> {gp.name}
+          </h3>
+          <p className={styles.gpTagline}>{tr(gp.tagline)}</p>
+          <p className={styles.gpPitch}>{tr(gp.pitch)}</p>
+          <ul className={styles.gpList}>
+            {gp.includes.map((it) => (
+              <li key={tr(it)}>{tr(it)}</li>
+            ))}
+          </ul>
+          <p className={styles.gpNote}>{tr(AI_NOTE)}</p>
+          <CaseTiles cases={gp.cases} />
+        </div>
+        <div className={styles.gpSide}>
+          <Price eur={gp.eur} from unit={gp.unit} />
+          <p className={styles.gpConditions}>{tr(gp.conditions)}</p>
+          <a className={styles.gpCta} href={waFor(gp.name)} target="_blank" rel="noreferrer">
+            {fr ? 'Je teste' : 'Try it'} →
+          </a>
+        </div>
+      </article>
+    );
+  };
+
+  /* Human-crafted proof — real folio cases, re-linked to the univers they best
+     illustrate. The high-value counterweight to the AI examples above. */
+  const CraftedStrip = ({ section }: { section: GPOffer['section'] }) => {
+    const cases = HUMAN_CASES[section]
+      .map((slug) => ({ slug, c: getCase(slug) }))
+      .filter((x): x is { slug: string; c: NonNullable<ReturnType<typeof getCase>> } => Boolean(x.c));
+    if (!cases.length) return null;
+    return (
+      <div className={styles.crafted}>
+        <span className={styles.craftedLabel}>
+          <HandcraftedMark size={13} />
+          {fr ? 'Réalisations · fait main' : 'Real work · hand-crafted'}
+        </span>
+        <div className={styles.craftedGrid}>
+          {cases.map(({ slug, c }) => (
+            <Link key={slug} href={`/work/${slug}`} className={styles.craftedCase}>
+              <span className={styles.craftedThumb}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={c.hero} alt="" loading="lazy" />
+              </span>
+              <span className={styles.craftedName}>{pick(c.name, lang)}</span>
+              <span className={styles.craftedClient}>{pick(c.client, lang)}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div className={styles.folioRoot}>
@@ -648,6 +920,24 @@ export function TarifsClient() {
               </div>
             ))}
           </div>
+
+          {/* Two modes legend — sets expectations before the offers. */}
+          <div className={styles.modeLegend}>
+            <div className={styles.modeCard}>
+              <span className={styles.modeHead}>
+                <HandcraftedMark size={15} />
+                {fr ? 'Fait main' : 'Hand-crafted'}
+              </span>
+              <p>{tr(HUMAN_NOTE)}</p>
+            </div>
+            <div className={`${styles.modeCard} ${styles.modeAi}`}>
+              <span className={styles.modeHead}>
+                <span aria-hidden="true">⚡</span>
+                {fr ? 'Propulsé par l’IA' : 'AI-powered'}
+              </span>
+              <p>{tr(AI_NOTE)}</p>
+            </div>
+          </div>
         </Reveal>
 
         {/* ======================= §01 — CONSEIL ====================== */}
@@ -658,17 +948,24 @@ export function TarifsClient() {
               ? 'Mon activité principale : penser la marque avant de la produire. Trois offres bâties sur ma méthode ADVE/RTIS et l’OS LaFusée — du diagnostic ponctuel au stratège embarqué.'
               : 'My main activity: thinking the brand before producing it. Three offers built on my ADVE/RTIS method and the LaFusée OS — from a one-off diagnosis to an embedded strategist.'}
           </p>
+          <GPBand gp={gpFor('conseil')} />
+          <p className={styles.tierGroupLabel}>
+            {fr ? 'Et pour un accompagnement de fond :' : 'And for deeper support:'}
+          </p>
           <div className={styles.tierGrid}>
             {CONSULTING.map((t) => (
               <TierCard tier={t} key={t.name} />
             ))}
           </div>
+          <CraftedStrip section="conseil" />
         </Reveal>
 
         {/* ======================= §02 — FORFAITS INTÉGRÉS ============= */}
         <Reveal as="section" className={styles.section}>
           <SectionHead s={SECTIONS.oneShot} tr={tr} />
           <p className={styles.sectionLede}>{tr(COPY.dualMarket)}</p>
+
+          <GPBand gp={gpFor('oneShot')} />
 
           {/* Accessible entry — the sweet-spot door for young / local brands. */}
           <article className={styles.entryBand}>
@@ -682,6 +979,10 @@ export function TarifsClient() {
                 <span aria-hidden="true">{ENTRY.glyph}</span> {ENTRY.name}
               </h3>
               <p className={styles.entryTagline}>{tr(ENTRY.tagline)} — {tr(ENTRY.best)}</p>
+              <span className={styles.craftBadge}>
+                <HandcraftedMark size={11} />
+                {fr ? 'Fait main' : 'Hand-crafted'}
+              </span>
               <ul className={styles.entryList}>
                 {ENTRY.includes.map((it) => (
                   <li key={tr(it)}>{tr(it)}</li>
@@ -707,6 +1008,7 @@ export function TarifsClient() {
               <TierCard tier={t} key={t.name} />
             ))}
           </div>
+          <CraftedStrip section="oneShot" />
         </Reveal>
 
         {/* ======================= proof image strip ================== */}
@@ -732,6 +1034,10 @@ export function TarifsClient() {
               ? 'Besoin d’un seul métier ? Prenez-le à la carte. Je tiens la direction ; la production s’appuie au besoin sur La Guilde, le réseau UPgraders (photo, illustration, dev). Chaque prix est un point de départ.'
               : 'Need a single craft? Take it à la carte. I hold the direction; production leans, when needed, on La Guilde — the UPgraders network (photo, illustration, dev). Each price is a starting point.'}
           </p>
+          <GPBand gp={gpFor('carte')} />
+          <p className={styles.tierGroupLabel}>
+            {fr ? 'Ou le métier à la main, sur-mesure :' : 'Or the craft by hand, bespoke:'}
+          </p>
           <div className={styles.carteGrid}>
             {CARTE.map((c) => (
               <article className={styles.carteItem} key={tr(c.name)}>
@@ -755,6 +1061,7 @@ export function TarifsClient() {
               </article>
             ))}
           </div>
+          <CraftedStrip section="carte" />
         </Reveal>
 
         {/* ======================= §03 — RETAINERS ==================== */}
@@ -765,11 +1072,16 @@ export function TarifsClient() {
               ? 'Pour les marques qui avancent en continu : un directeur créatif dans l’équipe, sans le coût d’un CDI. Production incluse. Plus léger ? Le Sparring (§01) reste l’option mensuelle la plus accessible, conseil seul.'
               : 'For brands moving continuously: a creative director on the team, without the cost of a full hire. Production included. Lighter? Le Sparring (§01) stays the most accessible monthly option, advice only.'}
           </p>
+          <GPBand gp={gpFor('retainer')} />
+          <p className={styles.tierGroupLabel}>
+            {fr ? 'Ou un vrai directeur créatif embarqué :' : 'Or a real creative director embedded:'}
+          </p>
           <div className={styles.tierGrid}>
             {RETAINERS.map((t) => (
               <TierCard tier={t} key={t.name} />
             ))}
           </div>
+          <CraftedStrip section="retainer" />
         </Reveal>
 
         {/* ======================= §05 — PAIEMENT ===================== */}
