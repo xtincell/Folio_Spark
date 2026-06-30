@@ -8,6 +8,7 @@ import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { FlameMark } from '@/components/folio/FlameMark';
 import { SparkMark } from '@/components/folio/icons/SparkMark';
 import { StarField } from '@/components/folio/StarField';
+import { HeroAtmosphere } from '@/components/folio/HeroAtmosphere';
 import { Reveal } from '@/components/folio/Reveal';
 import { SocialRow } from '@/components/folio/SocialRow';
 import { useLang, pick, type Bi } from '@/lib/i18n';
@@ -588,7 +589,7 @@ export function TarifsClient() {
         {/* ============================ HERO ============================ */}
         <section className={styles.hero}>
           <div className={styles.heroBg} aria-hidden="true">
-            <StarField density={50} />
+            <HeroAtmosphere className={styles.atmoCanvas} density={1} />
           </div>
           <div className={styles.heroInner}>
             <div className={styles.kicker}>{tr(COPY.kicker)}</div>
