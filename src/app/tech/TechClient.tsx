@@ -134,6 +134,20 @@ type Build = {
 
 const BUILDS: Build[] = [
   {
+    name: 'Galahad',
+    tone: 'live',
+    status: { fr: 'En ligne · 2026', en: 'Live · 2026' },
+    role: { fr: 'Framework multi-agent IA · Architecture & dev', en: 'Multi-agent AI framework · Architecture & build' },
+    desc: {
+      fr: "Framework multi-agent IA self-hosted et agnostique, déployable sur n'importe quel VPS. Quatre agents — chef d'orchestre, gardien, voyageur et bras armé dev — partagent une mémoire commune et délèguent le code via un bridge Claude. Livré clé en main avec Docker-compose + install.sh, gateway Telegram pour l'interaction humaine.",
+      en: 'Self-hosted, provider-agnostic multi-agent AI framework, deployable on any VPS. Four agents — orchestrator, guardian, scout and dev enforcer — share a common memory and delegate code through a Claude bridge. Ships turnkey with Docker-compose + install.sh and a Telegram gateway for human interaction.',
+    },
+    stack: ['AI Agents', 'Multi-agent', 'Self-hosted', 'Docker', 'Framework'],
+    href: 'https://galahad.powerupgraders.com',
+    linkLabel: { fr: 'galahad.powerupgraders.com', en: 'galahad.powerupgraders.com' },
+    glyph: '⬡',
+  },
+  {
     name: 'BanaHealth',
     tone: 'live',
     status: { fr: 'En ligne', en: 'Live' },
