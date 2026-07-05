@@ -1977,27 +1977,24 @@
 
 /* ============ HERO — TENUE EN HAUTEUR (fin de fichier : doit gagner) ======
    La maquette magazine était pensée en vertical : sur desktop on borne les
-   tailles par la hauteur du viewport (min(vw, vh)) pour que masthead + titre
-   + portrait + CTA tiennent dans le premier écran, marquee à la flottaison. */
+   tailles par la hauteur du viewport pour que la couverture (masthead, titre,
+   CTA, portrait) tienne dans le premier écran. Le bloc portrait est réduit
+   D'UN SEUL TENANT (largeur dérivée de la hauteur) : photo, macarons, tag et
+   débords conservent exactement leurs proportions et ancrages d'origine. */
 @media (min-width: 981px) {
-  .hero { padding-top: clamp(84px, 9vh, 140px); padding-bottom: 0; }
+  .hero { padding-top: clamp(84px, 9vh, 140px); padding-bottom: clamp(20px, 2.5vh, 48px); }
   .heroMasthead { margin-top: 0; }
-  .mastKicker { margin: min(18px, 1.4vh) 0 min(6px, 0.6vh); }
+  .mastKicker { margin: clamp(10px, 1.6vh, 18px) 0 clamp(4px, 0.7vh, 6px); }
   .mastTitle { font-size: clamp(64px, min(18vw, 16vh), 280px); }
-  .heroGrid { gap: min(80px, 4vh); }
-  .heroTitle { font-size: clamp(40px, min(9vw, 7.5vh), 132px); margin-bottom: min(36px, 2.2vh); }
-  .heroSub { margin-bottom: min(36px, 2.2vh); }
-  .portraitFrame { width: fit-content; margin-left: auto; }
-  .portraitFrame img:first-child {
-    width: auto;
-    max-width: 100%;
-    max-height: min(42vh, 762px);
-    object-fit: cover;
-  }
-  .heroScroll { margin-top: min(32px, 1.5vh); }
-  .heroMarquee { margin-top: min(20px, 1.2vh); }
-}
-/* Mobile : le portrait ne doit pas manger deux écrans */
-@media (max-width: 540px) {
-  .portraitFrame img:first-child { width: 100%; height: auto; max-height: 60vh; object-fit: cover; }
+  .heroGrid { gap: clamp(28px, 4.5vh, 80px); }
+  .heroTitle { font-size: clamp(40px, min(9vw, 7.5vh), 132px); margin-bottom: clamp(16px, 2.4vh, 36px); }
+  .heroSub { margin-bottom: clamp(16px, 2.4vh, 36px); }
+  .heroPortrait { width: min(100%, calc(46vh * 0.8)); margin-left: auto; }
+  /* L'attribut height de next/image fige la hauteur : on le neutralise pour
+     laisser l'aspect-ratio 4/5 du cadre piloter. */
+  .portraitFrame img { height: auto; }
+  .portraitMacaron { width: clamp(84px, min(11vw, 12.5vh), 138px); }
+  .portraitMacaron .macaronTitle { font-size: clamp(15px, min(2.4vw, 2.9vh), 32px); }
+  .heroScroll { margin-top: clamp(14px, 1.8vh, 32px); }
+  .heroMarquee { margin-top: clamp(10px, 1.4vh, 20px); }
 }
