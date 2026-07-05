@@ -405,8 +405,8 @@ const FAQ: { q: Bi; a: Bi }[] = [
   {
     q: { fr: 'Le remote, ça marche vraiment ?', en: 'Does remote really work?' },
     a: {
-      fr: 'Oui — c’est mon mode par défaut. Basé entre Yaoundé, Douala et Abidjan, je travaille avec des marques en Afrique et en Europe. Process écrit, jalons clairs, visios de pilotage : la distance ne change rien à la qualité.',
-      en: 'Yes — it’s my default mode. Based between Yaoundé, Douala and Abidjan, I work with brands across Africa and Europe. Written process, clear milestones, steering calls: distance changes nothing about quality.',
+      fr: 'Oui — c’est mon mode par défaut. Basé entre Douala et Yaoundé, mobile à Abidjan et dans toute l’Afrique francophone, je travaille avec des marques en Afrique et en Europe. Process écrit, jalons clairs, visios de pilotage : la distance ne change rien à la qualité.',
+      en: 'Yes — it’s my default mode. Based between Douala and Yaoundé, mobile in Abidjan and across French-speaking Africa, I work with brands across Africa and Europe. Written process, clear milestones, steering calls: distance changes nothing about quality.',
     },
   },
   {

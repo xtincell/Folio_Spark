@@ -8,6 +8,8 @@ import { ProofEmbed } from '@/components/folio/ProofEmbed';
 import { CONTACT } from '@/components/folio/data/contact';
 import { type CaseStudy, type CaseHat, HAT_CODE, HAT_LABEL } from '@/components/folio/data/cases';
 import { useLang, useT, pick, type Bi } from '@/lib/i18n';
+import { agencyForCase } from '@/components/folio/agencyCredit';
+import { AgencyMacaron } from '@/components/folio/AgencyMacaron';
 
 /** Projection légère d'une case, calculée côté serveur pour prev/next/liés. */
 export type CaseLite = {
@@ -63,6 +65,9 @@ export function CaseStudyClient({
             className={styles.heroImg}
           />
           <div className={styles.heroVignette} aria-hidden="true" />
+          {agencyForCase(c.slug) && (
+            <AgencyMacaron agency={agencyForCase(c.slug)!} lang={lang} corner="tl" />
+          )}
           <div className={styles.heroMast}>
             <div className={styles.heroCode}>
               {HAT_CODE[c.hat]} — {pick(HAT_LABEL[c.hat], lang)}

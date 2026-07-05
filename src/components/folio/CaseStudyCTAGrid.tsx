@@ -6,6 +6,8 @@ import Image from 'next/image';
 import styles from '@/styles/caseStudy.module.css';
 import { CASE_STUDIES, HAT_CODE, HAT_LABEL, type CaseHat } from '@/components/folio/data/cases';
 import { useLang, pick } from '@/lib/i18n';
+import { agencyForCase } from './agencyCredit';
+import { AgencyMacaron } from './AgencyMacaron';
 
 type HatFilter = 'all' | CaseHat;
 type SortMode = 'edito' | 'recent';
@@ -120,6 +122,9 @@ export function CaseStudyCTAGrid() {
                 className={styles.ctaImg}
               />
               <span className={styles.ctaCode}>{HAT_CODE[c.hat]}</span>
+              {agencyForCase(c.slug) && (
+                <AgencyMacaron agency={agencyForCase(c.slug)!} lang={lang} corner="tr" />
+              )}
             </div>
             <div className={styles.ctaMeta}>
               <h3 className={styles.ctaName}>{pick(c.name, lang)}</h3>
