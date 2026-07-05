@@ -43,6 +43,21 @@ npm run lint              # next lint
 
 ---
 
+## Langues (FR / EN)
+
+Politique assumée : **le français est la langue indexée** (SSR, crawlers, `<html lang="fr">`).
+L'anglais est une **vue client** de confort, activée par le toggle FR/EN (contexte `src/lib/i18n.tsx`,
+persistée en localStorage + cookie `folio-lang`) — pas de routes `/en`, pas de hreflang.
+
+- Folio perso (`/`, `/work`, `/cv`, `/tech`, `/galerie`, `/tarifs`, `/conditions`) : bilingue via `useT()`/`Bi`.
+- Sous-site agence (`/upgraders`, `/services`, `/contact` + chrome nav/footer/cards blog) : bilingue via `Bi`.
+- **Blog UPgraders : éditorial FR-only** (articles WordPress/fallback en français) ; seul le chrome des cards est traduit.
+- `/design` : page 100 % anglaise par design (folio design EN), servie avec `lang="en"` sur son root.
+
+Si un jour l'EN doit être indexé : passer à des routes `/en/*` + `alternates.languages` (voir AUDIT-2026-07.md, Phase 3).
+
+---
+
 ## Structure
 
 ```

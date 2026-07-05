@@ -5,7 +5,8 @@ import { notFound } from 'next/navigation';
 import styles from '@/styles/upgraders.module.css';
 import { SiteNav } from '@/components/folio/upgraders/SiteNav';
 import { SiteFooter } from '@/components/folio/upgraders/SiteFooter';
-import { BlogCard, formatDate } from '@/components/folio/upgraders/BlogCard';
+import { BlogCard } from '@/components/folio/upgraders/BlogCard';
+import { formatDate } from '@/components/folio/upgraders/format';
 import { getPost, getRelatedPosts, getAllPostSlugs } from '@/lib/wordpress';
 
 type RouteParams = { slug: string };

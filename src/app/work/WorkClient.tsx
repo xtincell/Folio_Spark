@@ -202,7 +202,12 @@ export function WorkClient() {
                                 className={styles.imageThumb}
                               >
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img src={src} alt={`Visuel ${proj.name}`} loading="lazy" decoding="async" />
+                                <img
+                                  src={src}
+                                  alt={`${lang === 'en' ? 'Visual' : 'Visuel'} ${proj.name}`}
+                                  loading="lazy"
+                                  decoding="async"
+                                />
                               </a>
                             ))}
                           </div>
