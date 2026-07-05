@@ -1,33 +1,78 @@
-/* Small agency-credit pill overlaid on a campaign visual.
-   Non-interactive (safe inside <a>/<Link> cards); parent must be position:relative. */
+/* Agency-credit badge overlaid on a campaign visual.
+   Two tiers: .macaron (full pill, on covers/heroes) and .sticker (mini, on
+   dense/small visuals — thumbnails, gallery shots).
+   Non-interactive (safe inside <a>/<Link>); parent must be position:relative. */
 
-.macaron {
+.badge {
   position: absolute;
-  top: 10px;
-  left: 10px;
   z-index: 3;
   display: inline-flex;
   align-items: center;
+  max-width: calc(100% - 16px);
+  font-family: var(--folio-mono), 'JetBrains Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+  color: oklch(0.96 0.012 70);
+  background: oklch(0.1 0.005 30 / 0.72);
+  backdrop-filter: blur(6px);
+  border: 1px solid oklch(0.7 0.2 38 / 0.5);
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+/* Full pill */
+.macaron {
   gap: 6px;
-  max-width: calc(100% - 20px);
   padding: 5px 10px 5px 8px;
   border-radius: 999px;
-  background: oklch(0.1 0.005 30 / 0.72);
-  border: 1px solid oklch(0.7 0.2 38 / 0.5);
-  backdrop-filter: blur(6px);
-  box-shadow: 0 6px 18px -8px oklch(0 0 0 / 0.7);
-  font-family: var(--folio-mono), 'JetBrains Mono', ui-monospace, monospace;
   font-size: 9px;
   line-height: 1;
   letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: oklch(0.96 0.012 70);
-  pointer-events: none;
+  box-shadow: 0 6px 18px -8px oklch(0 0 0 / 0.7);
 }
 
+/* Mini sticker */
+.sticker {
+  gap: 4px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-size: 7px;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  box-shadow: 0 4px 12px -6px oklch(0 0 0 / 0.7);
+}
+
+/* Corners */
+.tl {
+  top: 10px;
+  left: 10px;
+}
 .tr {
-  left: auto;
+  top: 10px;
   right: 10px;
+}
+.bl {
+  bottom: 10px;
+  left: 10px;
+}
+.br {
+  bottom: 10px;
+  right: 10px;
+}
+.sticker.tl,
+.sticker.tr {
+  top: 8px;
+}
+.sticker.bl,
+.sticker.br {
+  bottom: 8px;
+}
+.sticker.tl,
+.sticker.bl {
+  left: 8px;
+}
+.sticker.tr,
+.sticker.br {
+  right: 8px;
 }
 
 .dot {
@@ -38,15 +83,19 @@
   background: oklch(0.7 0.2 38);
   box-shadow: 0 0 8px oklch(0.7 0.2 38 / 0.8);
 }
+.sticker .dot {
+  width: 4px;
+  height: 4px;
+  box-shadow: none;
+}
 
 .name {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .macaron {
+  .badge {
     animation: macaronIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 }

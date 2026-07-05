@@ -212,7 +212,7 @@ export function WorkClient() {
                                   decoding="async"
                                   />
                                   {projAgency && (
-                                    <AgencyMacaron agency={projAgency} lang={lang} corner="tl" />
+                                    <AgencyMacaron agency={projAgency} lang={lang} variant="sticker" corner="bl" />
                                   )}
                               </a>
                             ))}

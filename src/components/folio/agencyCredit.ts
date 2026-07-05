@@ -15,14 +15,24 @@ import { AGENCY_INFO } from './data/agencies';
 
 const INTERNAL = new Set(['UPgraders', 'Upgraders', 'Friends Studio']);
 
-// Curated with Alexandre — cases produced through the MATANGA employer agency.
+// Curated case → external-agency credits (case data has no agency field).
+// Derived from client names + the MATANGA/Imperial portfolios; cases not listed
+// are personal / venture / direct work (no external agency → no macaron).
 export const CASE_AGENCY: Record<string, string> = {
+  // MATANGA (employer agency — FMCG / Cadyst / FrieslandCampina / Ecobank)
   tradex: 'MATANGA Agency',
   'friesland-campina': 'MATANGA Agency',
   ecobank: 'MATANGA Agency',
   'cadyst-grain': 'MATANGA Agency',
   lapasta: 'MATANGA Agency',
   delys: 'MATANGA Agency',
+  amigo: 'MATANGA Agency', // Amigo — Cadyst Grain
+  'tcg-bonnet-rouge': 'MATANGA Agency', // Bonnet Rouge — FrieslandCampina
+  enseigne: 'MATANGA Agency', // Cadyst Farming — à confirmer
+  robuste: 'MATANGA Agency', // Robuste (Cadyst Farming) — à confirmer
+  'robuste-packaging': 'MATANGA Agency', // Robuste (Cadyst Farming) — à confirmer
+  // Imperial (talent agency — artist covers / UMA lineage)
+  'cover-musical': 'Imperial (agence de talents)',
 };
 
 /** Resolve a chain node to its canonical AGENCY_INFO key (tolerates "… Agency"). */
