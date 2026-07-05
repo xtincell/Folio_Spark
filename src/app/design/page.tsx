@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { pageMeta } from '@/lib/page-meta';
 import styles from '@/styles/design.module.css';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { CONTACT } from '@/components/folio/data/contact';
@@ -6,11 +7,12 @@ import { PRACTICES } from '@/components/folio/data/practices';
 import { STEPS } from '@/components/folio/data/method';
 import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
 
-export const metadata = {
+export const metadata = pageMeta({
+  path: '/design',
   title: 'Design Folio — Art Direction & Visual Systems · Xtincell',
   description:
     'The English design folio of Alexandre “Xtincell” Djengue — Brand Architect & Art Director. Brand identity, art direction, photography, motion and design systems for premium brands and artists.',
-};
+});
 
 const DISCIPLINES = [
   {

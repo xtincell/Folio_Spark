@@ -9,9 +9,11 @@ import { useT, useLang, pick } from '@/lib/i18n';
 type ProjectCardProps = {
   p: Project;
   accent: string;
+  /** Vitrine landing : pas d'embeds vidéo (ils vivent sur /work). */
+  compact?: boolean;
 };
 
-export function ProjectCard({ p, accent }: ProjectCardProps) {
+export function ProjectCard({ p, accent, compact = false }: ProjectCardProps) {
   const t = useT();
   const { lang } = useLang();
   return (
@@ -30,7 +32,7 @@ export function ProjectCard({ p, accent }: ProjectCardProps) {
           </span>
         ))}
       </div>
-      {p.proofs && p.proofs.length > 0 && (
+      {!compact && p.proofs && p.proofs.length > 0 && (
         <div className={styles.projProofs}>
           <div className={styles.proofsLabel} style={{ color: accent }}>
             <span className={styles.proofsDot} style={{ background: accent }} />

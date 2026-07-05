@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: 'Blog — UPgraders · Méthode ADVE/RTIS, marques cultes, conseil créatif',
   description:
     "Notes de cabinet UPgraders : méthode ADVE/RTIS, OS LaFusée, construction de cultes de marque en Afrique de l'Ouest et Centrale.",
+  alternates: { canonical: '/upgraders/blog' },
 };
 
 const PER_PAGE = 9;

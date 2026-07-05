@@ -10,7 +10,7 @@ import { useT } from '@/lib/i18n';
 export function Contact() {
   const t = useT();
   return (
-    <section id="contact" className={styles.contact}>
+    <footer id="contact" className={styles.contact}>
       <div className={styles.contactBg}>
         <StarField density={60} />
       </div>
@@ -73,6 +73,6 @@ export function Contact() {
           <div className={styles.footMetaR}>{CONTACT.footerTagline}</div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

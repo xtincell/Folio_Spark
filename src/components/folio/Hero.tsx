@@ -113,12 +113,12 @@ export function Hero() {
         </div>
       </div>
 
-      <Marquee />
-
       <a href="#manifeste" className={styles.heroScroll}>
         <span>{t.hero.scroll}</span>
         <span className={styles.scrollLine} />
       </a>
+
+      <Marquee />
     </section>
   );
 }

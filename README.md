@@ -45,8 +45,15 @@ npm run lint              # next lint
 
 ## Déploiement — Coolify (prod)
 
-La prod tourne sur **Coolify**, pas sur Vercel (le projet Vercel `folio-spark` est un reliquat :
-préversions de PR uniquement — à déconnecter dans le dashboard Vercel si inutile).
+**Prod : https://xtincell.powerupgraders.com** (alias : folio.powerupgraders.com) — app Coolify
+« Xtincell », branche `main`, auto-deploy au push. `NEXT_PUBLIC_SITE_URL` est définie côté Coolify
+(build-time). Le projet Vercel `folio-spark` est un reliquat : préversions de PR uniquement —
+à déconnecter dans le dashboard Vercel si inutile.
+
+**Liens agence** : les CTA « UPgraders » du folio pointent vers le site officiel
+**https://powerupgraders.com**. Les pages internes `/upgraders/*` restent en ligne (archive,
+non mises en avant) ; leur contenu est consolidé dans `docs/upgraders-content-export.md`
+pour portage sur le site officiel.
 
 Deux modes de build possibles côté Coolify :
 

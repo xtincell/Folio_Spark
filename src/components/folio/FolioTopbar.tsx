@@ -80,6 +80,11 @@ export function FolioTopbar({ label, active }: { label?: string; active: Active 
             {...(l.key === active ? { 'aria-current': 'page' as const } : {})}
           >
             {l.label}
+            {l.key === 'design' ? (
+              <sup className={styles.linkEn} aria-label="in English">
+                EN
+              </sup>
+            ) : null}
           </Link>
         ))}
         <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer" onClick={close}>

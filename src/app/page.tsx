@@ -31,7 +31,7 @@ export default function FolioPage() {
         <Reveal><HatsIntro /></Reveal>
         <Reveal><Method /></Reveal>
         <Reveal><Upgraders /></Reveal>
-        <Reveal><Practices /></Reveal>
+        <Reveal><Practices featuredOnly /></Reveal>
         <EditoPic n={3} />
         <Reveal><Stats /></Reveal>
         <Reveal><System /></Reveal>

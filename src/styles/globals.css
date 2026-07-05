@@ -38,6 +38,13 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* Les backdrops décoratifs `position: fixed` (cv/tech/tarifs) dépassent du
+   viewport à droite et gonflaient scrollWidth (pan fantôme possible sur
+   mobile). `clip` tranche sans créer de scroll container — sticky intact. */
+html {
+  overflow-x: clip;
+}
+
 body {
   min-height: 100vh;
   overflow-x: hidden;

@@ -3,11 +3,13 @@
    Tokens mirror /tech and / so the page is part of the same system. */
 
 .folioRoot {
+  /* Les backdrops SVG décoratifs dépassent à droite : clip sans créer de scroll container. */
+  overflow-x: clip;
   --bg: oklch(0.10 0.005 30);
   --bg-2: oklch(0.13 0.008 30);
   --ink: oklch(0.96 0.012 70);
   --ink-2: oklch(0.78 0.012 70);
-  --ink-3: oklch(0.58 0.012 70);
+  --ink-3: oklch(0.64 0.012 70);
   --line: oklch(0.96 0.012 70 / 0.10);
   --line-2: oklch(0.96 0.012 70 / 0.18);
 

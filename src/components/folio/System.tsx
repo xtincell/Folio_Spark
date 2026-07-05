@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import styles from '@/styles/home.module.css';
 import { useT } from '@/lib/i18n';
 
@@ -47,10 +46,15 @@ export function System() {
               <li key={i}><span>{String(i + 1).padStart(2, '0')}</span>{item}</li>
             ))}
           </ul>
-          <Link href="/upgraders" className={styles.systemCta}>
+          <a
+            href="https://powerupgraders.com"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.systemCta}
+          >
             <span>{t.system.cta}</span>
-            <span aria-hidden="true">→</span>
-          </Link>
+            <span aria-hidden="true">↗</span>
+          </a>
         </div>
 
         <div className={styles.terminal}>

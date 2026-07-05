@@ -52,8 +52,26 @@ export default async function BlogPostPage({
   const related = await getRelatedPosts(slug, 3);
   const cat = post.categories[0];
 
+  const blogJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt || post.publishedAt,
+    inLanguage: 'fr',
+    author: post.author ? { '@type': 'Person', name: post.author.name } : undefined,
+    publisher: { '@type': 'Organization', name: 'UPgraders' },
+    image: post.cover?.src,
+    mainEntityOfPage: `/upgraders/blog/${post.slug}`,
+  };
+
   return (
     <div className={styles.folioRoot}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+      />
       <SiteNav active="blog" />
 
       <main id="contenu">

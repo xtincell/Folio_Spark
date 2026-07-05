@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Services — UPgraders · Audit ADVE, accompagnement long, marque blanche',
   description:
     "Trois portes d'entrée chez UPgraders : audit ADVE, accompagnement RTIS long terme, marque blanche pour agences relais. Tarifs indicatifs et processus.",
+  alternates: { canonical: '/upgraders/services' },
 };
 
 export default function ServicesPage() {

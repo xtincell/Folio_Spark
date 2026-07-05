@@ -24,6 +24,9 @@
   padding: 1px 5px; color: oklch(0.70 0.20 38);
 }
 @media print { .trigger { display: none; } }
+/* Sur mobile/tactile le raccourci clavier n'a pas de sens et le bouton
+   flottant chevauche les CTA du hero — on le retire. */
+@media (max-width: 760px) { .trigger { display: none; } }
 
 .overlay {
   position: fixed; inset: 0; z-index: 10000;
@@ -58,10 +61,10 @@
   font-family: var(--folio-grotesk, system-ui, sans-serif);
   font-size: 16px;
 }
-.input::placeholder { color: oklch(0.58 0.012 70); }
+.input::placeholder { color: oklch(0.64 0.012 70); }
 .kbd {
   font-family: var(--folio-mono, monospace); font-size: 10px; letter-spacing: 0.1em;
-  color: oklch(0.58 0.012 70);
+  color: oklch(0.64 0.012 70);
   border: 1px solid oklch(0.96 0.012 70 / 0.18); border-radius: 4px; padding: 2px 6px;
 }
 
@@ -74,13 +77,13 @@
 .itemActive { background: oklch(0.70 0.20 38 / 0.14); color: oklch(0.96 0.012 70); }
 .itemGroup {
   font-family: var(--folio-mono, monospace); font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase;
-  color: oklch(0.58 0.012 70);
+  color: oklch(0.64 0.012 70);
   min-width: 64px;
 }
 .itemActive .itemGroup { color: oklch(0.70 0.20 38); }
 .itemLabel { font-family: var(--folio-grotesk, system-ui, sans-serif); font-size: 14px; flex: 1; }
-.itemHint { font-family: var(--folio-mono, monospace); font-size: 11px; color: oklch(0.58 0.012 70); }
-.empty { padding: 24px 12px; text-align: center; color: oklch(0.58 0.012 70); font-family: var(--folio-grotesk, system-ui); font-size: 14px; }
+.itemHint { font-family: var(--folio-mono, monospace); font-size: 11px; color: oklch(0.64 0.012 70); }
+.empty { padding: 24px 12px; text-align: center; color: oklch(0.64 0.012 70); font-family: var(--folio-grotesk, system-ui); font-size: 14px; }
 
 .footer {
   display: flex; gap: 18px; align-items: center;

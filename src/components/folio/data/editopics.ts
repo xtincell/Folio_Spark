@@ -10,31 +10,31 @@ export type EditoPicData = {
 
 export const EDITOPICS: EditoPicData[] = [
   {
-    src: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1600&q=80&auto=format&fit=crop',
+    src: '/work/cases/tradex/hero.webp',
     cap: { fr: '§ Image — échantillon 01', en: '§ Image — sample 01' },
     quote: {
       fr: "Une marque, c'est d'abord une <em>circuiterie</em> — puis une histoire qui passe dedans.",
       en: 'A brand is first a piece of <em>circuitry</em> — then a story that runs through it.',
     },
-    attrib: { fr: 'Photo · Unsplash (libre)', en: 'Photo · Unsplash (free)' },
+    attrib: { fr: 'Campagne · Tradex 2T — image de marque', en: 'Campaign · Tradex 2T — brand imagery' },
   },
   {
-    src: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1600&q=80&auto=format&fit=crop',
+    src: '/work/cases/musina-festival/hero.webp',
     cap: { fr: '§ Image — atelier', en: '§ Image — workshop' },
     quote: {
       fr: "Tradition × futur. Local × global. Artisanat × IA. Les marques fortes habitent les <em>tensions</em>.",
       en: 'Tradition × future. Local × global. Craft × AI. Strong brands live in the <em>tensions</em>.',
     },
-    attrib: { fr: 'Photo · Unsplash (libre)', en: 'Photo · Unsplash (free)' },
+    attrib: { fr: 'Campagne · Musina Festival — DA & image', en: 'Campaign · Musina Festival — AD & image' },
     flip: true,
   },
   {
-    src: 'https://images.unsplash.com/photo-1517022812141-23620dba5c23?w=1600&q=80&auto=format&fit=crop',
+    src: '/work/cases/friesland-campina/hero.webp',
     cap: { fr: '§ Image — exécution', en: '§ Image — execution' },
     quote: {
       fr: "Là où d'autres voient des <em>couleurs</em>, je vois des flux. Là où ils voient du design, je vois un système d'exploitation.",
       en: 'Where others see <em>colours</em>, I see flows. Where they see design, I see an operating system.',
     },
-    attrib: { fr: 'Photo · Unsplash (libre)', en: 'Photo · Unsplash (free)' },
+    attrib: { fr: 'Campagne · Peak & Bonnet Rouge (FrieslandCampina)', en: 'Campaign · Peak & Bonnet Rouge (FrieslandCampina)' },
   },
 ];

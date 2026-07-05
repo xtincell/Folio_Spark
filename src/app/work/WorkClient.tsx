@@ -102,10 +102,10 @@ export function WorkClient() {
 
           <div className={styles.folioDownloads}>
             <a className={styles.pdfBtn} href="/folio.pdf" download="Folio-Spark-Xtincell-2026.pdf">
-              Folio · PDF ↓
+              Folio · PDF ↓ <small>13 Mo</small>
             </a>
             <a className={styles.pdfBtn} href="/folio.pptx" download="Folio-Spark-Xtincell-2026.pptx">
-              Folio · PPTX ↓
+              Folio · PPTX ↓ <small>27 Mo</small>
             </a>
           </div>
 

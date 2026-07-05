@@ -6,10 +6,30 @@ import styles from '@/styles/caseStudy.module.css';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { ProofEmbed } from '@/components/folio/ProofEmbed';
 import { CONTACT } from '@/components/folio/data/contact';
-import { type CaseStudy, HAT_CODE, HAT_LABEL } from '@/components/folio/data/cases';
-import { useLang, useT, pick } from '@/lib/i18n';
+import { type CaseStudy, type CaseHat, HAT_CODE, HAT_LABEL } from '@/components/folio/data/cases';
+import { useLang, useT, pick, type Bi } from '@/lib/i18n';
 
-export function CaseStudyClient({ caseStudy: c }: { caseStudy: CaseStudy }) {
+/** Projection légère d'une case, calculée côté serveur pour prev/next/liés. */
+export type CaseLite = {
+  slug: string;
+  name: Bi;
+  client: Bi;
+  year: string;
+  hero: string;
+  hat: CaseHat;
+};
+
+export function CaseStudyClient({
+  caseStudy: c,
+  prev,
+  next,
+  related = [],
+}: {
+  caseStudy: CaseStudy;
+  prev?: CaseLite;
+  next?: CaseLite;
+  related?: CaseLite[];
+}) {
   const { lang } = useLang();
   const t = useT();
   const L = (fr: string, en: string) => (lang === 'en' ? en : fr);
@@ -141,6 +161,61 @@ export function CaseStudyClient({ caseStudy: c }: { caseStudy: CaseStudy }) {
               ))}
             </div>
           </section>
+        )}
+
+        {/* ── CAS LIÉS ─────────────────────────────────────────── */}
+        {related.length > 0 && (
+          <section className={styles.related}>
+            <div className={styles.galleryLabel}>
+              {L('À voir aussi — même client ou même pratique', 'See also — same client or practice')}
+            </div>
+            <div className={styles.ctaGrid}>
+              {related.map((r) => (
+                <Link key={r.slug} href={`/work/${r.slug}`} className={styles.ctaCard}>
+                  <div className={styles.ctaThumb}>
+                    <Image
+                      src={r.hero}
+                      alt={pick(r.name, lang)}
+                      fill
+                      sizes="(max-width: 760px) 100vw, 33vw"
+                      quality={60}
+                      loading="lazy"
+                      className={styles.ctaImg}
+                    />
+                    <span className={styles.ctaCode}>{HAT_CODE[r.hat]}</span>
+                  </div>
+                  <div className={styles.ctaMeta}>
+                    <h3 className={styles.ctaName}>{pick(r.name, lang)}</h3>
+                    <p className={styles.ctaClient}>
+                      {pick(r.client, lang)} · {r.year}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── PREV / NEXT ──────────────────────────────────────── */}
+        {(prev || next) && (
+          <nav className={styles.pnRow} aria-label={L('Autres études de cas', 'Other case studies')}>
+            {prev ? (
+              <Link href={`/work/${prev.slug}`} className={styles.pnLink} rel="prev">
+                <span className={styles.pnDir} aria-hidden="true">← {L('Précédente', 'Previous')}</span>
+                <span className={styles.pnName}>{pick(prev.name, lang)}</span>
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next ? (
+              <Link href={`/work/${next.slug}`} className={`${styles.pnLink} ${styles.pnNext}`} rel="next">
+                <span className={styles.pnDir} aria-hidden="true">{L('Suivante', 'Next')} →</span>
+                <span className={styles.pnName}>{pick(next.name, lang)}</span>
+              </Link>
+            ) : (
+              <span />
+            )}
+          </nav>
         )}
 
         {/* ── FOOT ─────────────────────────────────────────────── */}
