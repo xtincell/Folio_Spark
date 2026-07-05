@@ -43,6 +43,45 @@ npm run lint              # next lint
 
 ---
 
+## Déploiement — Coolify (prod)
+
+La prod tourne sur **Coolify**, pas sur Vercel (le projet Vercel `folio-spark` est un reliquat :
+préversions de PR uniquement — à déconnecter dans le dashboard Vercel si inutile).
+
+Deux modes de build possibles côté Coolify :
+
+| Build Pack | Comportement |
+| --- | --- |
+| **Dockerfile** (recommandé) | Image multi-stage `node:22-alpine`, build avec `NEXT_OUTPUT_STANDALONE=1`, runtime non-root minimal (`node server.js`), `EXPOSE 1009`, `HEALTHCHECK` sur `/api/health`. |
+| Nixpacks (statu quo) | `npm run build` + `npm run start` (port 1009). Le flag standalone étant opt-in, rien ne change. |
+
+Réglages Coolify (mode Dockerfile) :
+- **Port exposé** : `1009`
+- **Healthcheck** : `GET /api/health` (route dédiée, réponse `{"status":"ok"}`)
+- **Variables** :
+  - `NEXT_PUBLIC_SITE_URL` — URL canonique publique (défaut `https://xtincell.com`) ; **build-arg** car inliné au build (metadata, sitemap, JSON-LD)
+  - `WORDPRESS_API_URL` / `WORDPRESS_FILTER_*` / `WORDPRESS_REVALIDATE` — optionnels, cf. `.env.example`
+
+Test local du conteneur : `docker build -t folio-spark . && docker run -p 1009:1009 folio-spark`
+(ou sans Docker : `NEXT_OUTPUT_STANDALONE=1 npm run build && node .next/standalone/server.js`).
+
+---
+
+## Langues (FR / EN)
+
+Politique assumée : **le français est la langue indexée** (SSR, crawlers, `<html lang="fr">`).
+L'anglais est une **vue client** de confort, activée par le toggle FR/EN (contexte `src/lib/i18n.tsx`,
+persistée en localStorage + cookie `folio-lang`) — pas de routes `/en`, pas de hreflang.
+
+- Folio perso (`/`, `/work`, `/cv`, `/tech`, `/galerie`, `/tarifs`, `/conditions`) : bilingue via `useT()`/`Bi`.
+- Sous-site agence (`/upgraders`, `/services`, `/contact` + chrome nav/footer/cards blog) : bilingue via `Bi`.
+- **Blog UPgraders : éditorial FR-only** (articles WordPress/fallback en français) ; seul le chrome des cards est traduit.
+- `/design` : page 100 % anglaise par design (folio design EN), servie avec `lang="en"` sur son root.
+
+Si un jour l'EN doit être indexé : passer à des routes `/en/*` + `alternates.languages` (voir AUDIT-2026-07.md, Phase 3).
+
+---
+
 ## Structure
 
 ```

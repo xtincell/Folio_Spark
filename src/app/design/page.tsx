@@ -59,7 +59,9 @@ export default function DesignFolioPage() {
   const visuals = GALLERIES.slice(0, 8);
 
   return (
-    <div className={styles.designRoot}>
+    // Page rédigée en anglais : lang="en" pour les lecteurs d'écran et le SEO,
+    // le reste du site restant lang="fr".
+    <div className={styles.designRoot} lang="en">
       <FolioTopbar active="design" />
 
       <main id="contenu">

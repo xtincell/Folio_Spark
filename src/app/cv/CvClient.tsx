@@ -203,7 +203,7 @@ const CLIENTS = [
   'Studio Graphique 44',
   'Bimstr',
   'Organiz Agency',
-  'Omenkart',
+  'OmenKart',
 ];
 
 export function CvClient() {

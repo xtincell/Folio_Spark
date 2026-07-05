@@ -608,13 +608,13 @@ export const CASE_STUDIES: CaseStudy[] = [
   {
     slug: "matanga-agency",
     kind: "case",
-    name: { fr: "Matanga Agency — Casting & marque", en: "Matanga Agency — Casting & Brand" },
-    client: { fr: "Matanga Agency (venture)", en: "Matanga Agency (venture)" },
+    name: { fr: "MATANGA Agency — Casting & marque", en: "MATANGA Agency — Casting & Brand" },
+    client: { fr: "MATANGA Agency (venture)", en: "MATANGA Agency (venture)" },
     year: "2026",
     hat: "art",
     tags: ["social","branding","illustration"],
     hero: "/work/cases/matanga-agency/hero.webp",
-    context: { fr: "Campagne d'appel à casting et contenu de marque pour Matanga Agency (« We Love Brands ») : key visuals de casting (talents 30-50 ans), logo triple-pic et contenu mascotte 3D.", en: "Casting-call campaign and brand content for Matanga Agency ('We Love Brands'): casting key visuals (talents 30-50), a triple-peak logo and 3D mascot content." },
+    context: { fr: "Campagne d'appel à casting et contenu de marque pour MATANGA Agency (« We Love Brands ») : key visuals de casting (talents 30-50 ans), logo triple-pic et contenu mascotte 3D.", en: "Casting-call campaign and brand content for MATANGA Agency ('We Love Brands'): casting key visuals (talents 30-50), a triple-peak logo and 3D mascot content." },
     gallery: [
     { src: "/work/cases/matanga-agency/02.webp", span: 'full' as const },
     { src: "/work/cases/matanga-agency/03.webp" },
@@ -625,7 +625,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroMockup: {
       type: "Mockup mobile / social",
       dimensions: "1242×2208",
-      prompt: "Crée un mockup mockup mobile / social photoréaliste, cadrage portrait 1242×2208, pour le projet « Matanga Agency — Casting & marque » (Matanga Agency (venture)). Mockup mobile/social du KV appel à casting en feed Instagram, board logo agence en appui. Reprends fidèlement le visuel de la marque depuis l'image de référence jointe (couleurs, typographie, composition). Lumière naturelle premium, contraste maîtrisé, rendu commercial haut de gamme, profondeur de champ réaliste, aucun texte inventé. Sortie nette haute résolution 1242×2208.",
+      prompt: "Crée un mockup mockup mobile / social photoréaliste, cadrage portrait 1242×2208, pour le projet « MATANGA Agency — Casting & marque » (MATANGA Agency (venture)). Mockup mobile/social du KV appel à casting en feed Instagram, board logo agence en appui. Reprends fidèlement le visuel de la marque depuis l'image de référence jointe (couleurs, typographie, composition). Lumière naturelle premium, contraste maîtrisé, rendu commercial haut de gamme, profondeur de champ réaliste, aucun texte inventé. Sortie nette haute résolution 1242×2208.",
       references: ["casting matanga 3 group.png","casting matanga 2presi.png","casting matanga 3.png"],
     },
   },

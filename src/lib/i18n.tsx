@@ -179,7 +179,7 @@ const fr = {
       label: 'Travaux — trois pratiques',
       title1: 'Stratégie. Direction. ',
       titleEm: 'Exécution',
-      lede: "Profil T-shaped : je couvre la chaîne complète, du positionnement jusqu'au pixel livré. Voici comment 19 ans de pratique se répartissent.",
+      lede: "Profil T-shaped : je couvre la chaîne complète, du positionnement jusqu'au pixel livré. Voici comment 15 ans de pratique se répartissent.",
       legendTitle: 'Lecture des fiches — chaîne de collaboration',
       legendChain: 'Chaque fiche montre la',
       legendChainBold: 'chaîne de filiation',
@@ -187,15 +187,15 @@ const fr = {
       chainRelay: 'Agence relais',
       chainSelf: "Cellule d'exécution",
       legendBody:
-        "<b>Upgraders</b> — mon agence-laboratoire (voir bloc dédié). <b>MATANGA Agency</b> — agence marketing où je suis Directeur Créatif depuis 2025. <b>Friends Studio</b> — cellule de production en binôme avec Stéphane Nounamo. <b>Imperial</b> — agence de talents (artistes), dirigée par Esther Naah, qui me missionnait pour UMA. <b>Her Media</b>, <b>OmenKart</b>, <b>Bimstr</b> — agences relais (souvent en marque blanche). On distingue donc : <i>agences-clients</i>, <i>agences de talents</i>, <i>cellules de production</i>, <i>agences-employeur</i>.",
+        "<b>UPgraders</b> — mon agence-laboratoire (voir bloc dédié). <b>MATANGA Agency</b> — agence marketing où je suis Directeur Créatif & Artistique depuis 2025. <b>Friends Studio</b> — cellule de production en binôme avec Stéphane Nounamo. <b>Imperial</b> — agence de talents (artistes), dirigée par Esther Naah, qui me missionnait pour UMA. <b>Her Media</b>, <b>OmenKart</b>, <b>Bimstr</b> — agences relais (souvent en marque blanche). On distingue donc : <i>agences-clients</i>, <i>agences de talents</i>, <i>cellules de production</i>, <i>agences-employeur</i>.",
       projectsCounted: 'projets référencés',
     },
 
     stats: [
-      { v: '13', l: 'Projets référencés' },
+      { v: '21', l: 'Projets référencés' },
       { v: '3', l: 'Pratiques · Stratégie · DA · Exécution' },
-      { v: '12+', l: 'Marques & artistes accompagnés' },
-      { v: '17+', l: 'Années dans la création' },
+      { v: '25+', l: 'Marques & artistes accompagnés' },
+      { v: '15', l: 'Années dans la création' },
     ],
 
     system: {
@@ -220,8 +220,8 @@ const fr = {
       whatsapp: 'WhatsApp — réponse rapide',
       email: 'Email',
       linkedin: 'LinkedIn',
-      status: 'Status',
-      statusValue: 'Open to opportunities',
+      status: 'Statut',
+      statusValue: 'Disponible pour missions',
     },
 
     press: {
@@ -288,7 +288,7 @@ const fr = {
     topbar: { back: 'Folio Xtincell', principal: 'Navigation principale' },
 
     work: {
-      eyebrow: 'FOLIO · 20 PROJETS · 15 ANS · 25+ MARQUES',
+      eyebrow: 'FOLIO · 21 PROJETS · 15 ANS · 25+ MARQUES',
       h1a: 'Trois ',
       h1em: 'casquettes',
       h1b: ', un même système.',
@@ -347,7 +347,7 @@ const fr = {
       founder: 'UPgraders',
       founderD:
         "Studio créatif basé sur l'IA souveraine — pipelines calibrés, gouvernés, sous décision humaine.",
-      founderK: 'FONDATEUR',
+      founderK: 'CO-FONDATEUR · CEO',
       sectorsK: 'SECTEURS',
       s2num: '§ 02',
       s2a: 'Parcours',
@@ -457,7 +457,7 @@ const en: Dict = {
       label: 'Work — three practices',
       title1: 'Strategy. Direction. ',
       titleEm: 'Execution',
-      lede: 'T-shaped profile: I cover the full chain, from positioning to the delivered pixel. Here is how 19 years of practice break down.',
+      lede: 'T-shaped profile: I cover the full chain, from positioning to the delivered pixel. Here is how 15 years of practice break down.',
       legendTitle: 'Reading the cards — collaboration chain',
       legendChain: 'Each card shows the',
       legendChainBold: 'chain of attribution',
@@ -465,15 +465,15 @@ const en: Dict = {
       chainRelay: 'Relay agency',
       chainSelf: 'Execution cell',
       legendBody:
-        "<b>Upgraders</b> — my lab-agency (see dedicated block). <b>MATANGA Agency</b> — the marketing agency where I have been Creative Director since 2025. <b>Friends Studio</b> — production cell co-run with Stéphane Nounamo. <b>Imperial</b> — talent agency (artists), led by Esther Naah, which commissioned me for UMA. <b>Her Media</b>, <b>OmenKart</b>, <b>Bimstr</b> — relay agencies (often white-label). So we distinguish: <i>client agencies</i>, <i>talent agencies</i>, <i>production cells</i>, <i>employer agencies</i>.",
+        "<b>UPgraders</b> — my lab-agency (see dedicated block). <b>MATANGA Agency</b> — the marketing agency where I have been Creative & Art Director since 2025. <b>Friends Studio</b> — production cell co-run with Stéphane Nounamo. <b>Imperial</b> — talent agency (artists), led by Esther Naah, which commissioned me for UMA. <b>Her Media</b>, <b>OmenKart</b>, <b>Bimstr</b> — relay agencies (often white-label). So we distinguish: <i>client agencies</i>, <i>talent agencies</i>, <i>production cells</i>, <i>employer agencies</i>.",
       projectsCounted: 'referenced projects',
     },
 
     stats: [
-      { v: '13', l: 'Referenced projects' },
+      { v: '21', l: 'Referenced projects' },
       { v: '3', l: 'Practices · Strategy · AD · Execution' },
-      { v: '12+', l: 'Brands & artists supported' },
-      { v: '17+', l: 'Years in the craft' },
+      { v: '25+', l: 'Brands & artists supported' },
+      { v: '15', l: 'Years in the craft' },
     ],
 
     system: {
@@ -566,7 +566,7 @@ const en: Dict = {
     topbar: { back: 'Xtincell Folio', principal: 'Main navigation' },
 
     work: {
-      eyebrow: 'FOLIO · 20 PROJECTS · 15 YEARS · 25+ BRANDS',
+      eyebrow: 'FOLIO · 21 PROJECTS · 15 YEARS · 25+ BRANDS',
       h1a: 'Three ',
       h1em: 'hats',
       h1b: ', one and the same system.',
@@ -625,7 +625,7 @@ const en: Dict = {
       founder: 'UPgraders',
       founderD:
         'Creative studio built on sovereign AI — calibrated, governed pipelines, under human decision.',
-      founderK: 'FOUNDER',
+      founderK: 'CO-FOUNDER · CEO',
       sectorsK: 'SECTORS',
       s2num: '§ 02',
       s2a: 'Career',

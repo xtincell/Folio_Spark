@@ -33,8 +33,8 @@ const HAT_META: Record<HatId, HatMeta> = {
     titleEm: { fr: 'Stratégie', en: 'Strategy' },
     titleTail: '.',
     tagline: {
-      fr: "Architecturer la marque comme un système d'exploitation : ADN, signaux, flux, conversion. Quatre dossiers où la stratégie a précédé l'image.",
-      en: 'Architecting the brand like an operating system: DNA, signals, flows, conversion. Four cases where strategy preceded the image.',
+      fr: "Architecturer la marque comme un système d'exploitation : ADN, signaux, flux, conversion. Cinq dossiers où la stratégie a précédé l'image.",
+      en: 'Architecting the brand like an operating system: DNA, signals, flows, conversion. Five cases where strategy preceded the image.',
     },
     tocSub: { fr: 'Brand systems · go-to-market', en: 'Brand systems · go-to-market' },
     tocName: { fr: 'La Stratégie', en: 'The Strategy' },
@@ -202,7 +202,12 @@ export function WorkClient() {
                                 className={styles.imageThumb}
                               >
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img src={src} alt={`Visuel ${proj.name}`} loading="lazy" decoding="async" />
+                                <img
+                                  src={src}
+                                  alt={`${lang === 'en' ? 'Visual' : 'Visuel'} ${proj.name}`}
+                                  loading="lazy"
+                                  decoding="async"
+                                />
                               </a>
                             ))}
                           </div>

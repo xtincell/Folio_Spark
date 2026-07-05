@@ -405,7 +405,11 @@ export function TechClient() {
                   <div className={styles.thumb} data-placeholder={b.thumb ? undefined : 'true'}>
                     {b.thumb ? (
                       // eslint-disable-next-line @next/next/no-img-element
-                      <img src={b.thumb} alt={`${tr(b.name)} — aperçu`} loading="lazy" />
+                      <img
+                        src={b.thumb}
+                        alt={`${tr(b.name)} — ${lang === 'en' ? 'preview' : 'aperçu'}`}
+                        loading="lazy"
+                      />
                     ) : (
                       <span aria-hidden="true">{b.glyph ?? '◆'}</span>
                     )}

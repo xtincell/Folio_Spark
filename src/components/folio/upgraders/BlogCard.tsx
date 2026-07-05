@@ -1,23 +1,14 @@
+'use client';
+
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import styles from '@/styles/upgraders.module.css';
 import type { BlogPost } from '@/lib/wordpress';
-
-const FR_DATE = new Intl.DateTimeFormat('fr-FR', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
-
-export function formatDate(iso: string): string {
-  try {
-    return FR_DATE.format(new Date(iso));
-  } catch {
-    return iso;
-  }
-}
+import { formatDate } from './format';
+import { useLang } from '@/lib/i18n';
 
 export function BlogCard({ post }: { post: BlogPost }) {
+  const { lang } = useLang();
   const cat = post.categories[0];
   return (
     <Link href={`/upgraders/blog/${post.slug}`} className={styles.blogCard}>
@@ -33,13 +24,13 @@ export function BlogCard({ post }: { post: BlogPost }) {
       <div className={styles.blogCardBody}>
         <div className={styles.blogCardMeta}>
           {cat ? <span className={styles.blogCardCat}>{cat.name}</span> : null}
-          <span>{formatDate(post.publishedAt)}</span>
+          <span>{formatDate(post.publishedAt, lang)}</span>
           <span>{post.readingMinutes} min</span>
         </div>
         <h3 className={styles.blogCardTitle}>{post.title}</h3>
         <p className={styles.blogCardExcerpt}>{post.excerpt}</p>
         <span className={styles.blogCardCta}>
-          Lire l&apos;article <span aria-hidden>→</span>
+          {lang === 'en' ? 'Read the article' : 'Lire l’article'} <span aria-hidden>→</span>
         </span>
       </div>
     </Link>

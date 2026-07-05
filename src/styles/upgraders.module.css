@@ -413,6 +413,16 @@
   transition: background .3s ease;
 }
 .reseauCard:hover { background: rgba(255,255,255,0.025); }
+.reseauPortrait {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 18%;
+  border-radius: 4px;
+  border: 1px solid var(--line-2);
+  margin-bottom: 18px;
+}
 .reseauRole {
   font-family: var(--mono);
   font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase;

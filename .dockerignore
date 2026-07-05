@@ -1,0 +1,15 @@
+# Contexte Docker minimal — le build n'a besoin que du code + public/.
+.git
+node_modules
+.next
+.env*
+!.env.example
+
+# Masters & docs hors runtime
+source/
+MOCKUPS-HERO.md
+AUDIT-2026-07.md
+
+# Artefacts locaux
+*.log
+.DS_Store

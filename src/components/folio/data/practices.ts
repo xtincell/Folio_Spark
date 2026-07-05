@@ -44,15 +44,15 @@ export const PRACTICES: Practice[] = [
     projects: [
       {
         name: 'MOTION19',
-        chain: ['MOTION19', 'Upgraders'],
+        chain: ['MOTION19', 'UPgraders'],
         meta: { fr: '2019 — 2022 · Douala', en: '2019 — 2022 · Douala' },
         role: {
           fr: 'Chef de projet · Directeur marketing',
           en: 'Project lead · Marketing director',
         },
         body: {
-          fr: "Projet créé de A à Z par Upgraders sur 30 mois. Architecture du système de vente (Shopify × Quanta Hive), construction de l'équipe (7 personnes), lancement du programme communautaire « Aventurier » (#feelfreetocreate). Positionnement : leader du matériel audiovisuel en Afrique Centrale.",
-          en: 'Project built end-to-end by Upgraders over 30 months. Architecture of the sales system (Shopify × Quanta Hive), team build (7 people), launch of the “Aventurier” community programme (#feelfreetocreate). Positioning: leader in audiovisual gear in Central Africa.',
+          fr: "Projet créé de A à Z par UPgraders sur 30 mois. Architecture du système de vente (Shopify × Quanta Hive), construction de l'équipe (7 personnes), lancement du programme communautaire « Aventurier » (#feelfreetocreate). Positionnement : leader du matériel audiovisuel en Afrique Centrale.",
+          en: 'Project built end-to-end by UPgraders over 30 months. Architecture of the sales system (Shopify × Quanta Hive), team build (7 people), launch of the “Aventurier” community programme (#feelfreetocreate). Positioning: leader in audiovisual gear in Central Africa.',
         },
         tags: ['Brand build', 'Go-to-market', 'E-commerce', 'Community'],
         images: [
@@ -66,7 +66,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'SHAKAZZ',
-        chain: ['Shakazz', 'Upgraders'],
+        chain: ['Shakazz', 'UPgraders'],
         meta: { fr: 'Lancement de marque · crypto', en: 'Brand launch · crypto' },
         role: { fr: 'Stratégie de marque · DA', en: 'Brand strategy · art direction' },
         body: {
@@ -77,7 +77,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'STUDIO44',
-        chain: ['Studio44', 'Upgraders'],
+        chain: ['Studio44', 'UPgraders'],
         meta: { fr: '2024', en: '2024' },
         role: { fr: 'Lancement structuré', en: 'Structured launch' },
         body: {
@@ -106,9 +106,9 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'UPGRADERS',
-        chain: ['Upgraders'],
-        meta: { fr: '2020 — présent', en: '2020 — present' },
-        role: { fr: 'Fondateur · CEO', en: 'Founder · CEO' },
+        chain: ['UPgraders'],
+        meta: { fr: '2017 — présent', en: '2017 — present' },
+        role: { fr: 'Co-fondateur · CEO', en: 'Co-founder · CEO' },
         body: {
           fr: "Voir le bloc dédié ci-dessus. Mon agence-laboratoire — marketing digital, IA, OS interne. Signature : #ToTheNextLevel · #UPyourBrand.",
           en: 'See the dedicated block above. My lab-agency — digital marketing, AI, internal OS. Signature: #ToTheNextLevel · #UPyourBrand.',
@@ -144,10 +144,10 @@ export const PRACTICES: Practice[] = [
         meta: { fr: 'janvier 2025 — présent', en: 'January 2025 — present' },
         role: { fr: 'Directeur Créatif & Artistique', en: 'Creative & Art Director' },
         body: {
-          fr: "DC&A grands comptes FMCG et institutionnels : Friesland Campina (Bonnet Rouge, Peak, Omela), Ecobank RCA, Cadyst Group (Cadyst Grain / Panzani, LaPasta — First, Foodies, Gold —, Delys & Barka). Vision globale, pilotage des productions, cohérence inter-marques.",
-          en: 'Creative & art direction for major FMCG and institutional accounts: Friesland Campina (Bonnet Rouge, Peak, Omela), Ecobank CAR, Cadyst Group (Cadyst Grain / Panzani, LaPasta — First, Foodies, Gold —, Delys & Barka). Global vision, production oversight, cross-brand coherence.',
+          fr: "DC&A grands comptes FMCG et institutionnels : FrieslandCampina (Bonnet Rouge, Peak, Omela), Ecobank RCA, Cadyst Group (Cadyst Grain / Panzani, La Pasta — First, Foodies, Gold —, Delys & Barka). Vision globale, pilotage des productions, cohérence inter-marques.",
+          en: 'Creative & art direction for major FMCG and institutional accounts: FrieslandCampina (Bonnet Rouge, Peak, Omela), Ecobank CAR, Cadyst Group (Cadyst Grain / Panzani, La Pasta — First, Foodies, Gold —, Delys & Barka). Global vision, production oversight, cross-brand coherence.',
         },
-        tags: ['Friesland Campina', 'Ecobank RCA', 'Cadyst', 'LaPasta', 'Delys & Barka'],
+        tags: ['FrieslandCampina', 'Ecobank RCA', 'Cadyst', 'La Pasta', 'Delys & Barka'],
         images: [
           '/work/peak/peak-02.jpg',
           '/work/bonnet-rouge/bonnet-rouge-01.jpg',
@@ -161,12 +161,12 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'RETLAW × HoHaaa Music',
-        chain: ['HoHaaa Music', 'Friends Studio', 'Upgraders'],
+        chain: ['HoHaaa Music', 'Friends Studio', 'UPgraders'],
         meta: { fr: 'Clip artiste', en: 'Artist music video' },
         role: { fr: 'Réalisation · Direction', en: 'Directing · Direction' },
         body: {
-          fr: "Réalisation du clip de l'artiste Retlaw pour le label HoHaaa Music — production Friends Studio × Upgraders. Direction artistique, mise en scène, image.",
-          en: 'Directing the music video for artist Retlaw for the HoHaaa Music label — production Friends Studio × Upgraders. Art direction, staging, image.',
+          fr: "Réalisation du clip de l'artiste Retlaw pour le label HoHaaa Music — production Friends Studio × UPgraders. Direction artistique, mise en scène, image.",
+          en: 'Directing the music video for artist Retlaw for the HoHaaa Music label — production Friends Studio × UPgraders. Art direction, staging, image.',
         },
         tags: ['Music video', 'Réalisation', 'Label'],
         proofs: [
@@ -180,7 +180,7 @@ export const PRACTICES: Practice[] = [
       {
         name: 'UNIVERSAL MUSIC AFRICA',
         chain: ['UMA', 'Imperial (agence de talents)', 'Esther Naah'],
-        meta: { fr: '2018 — 2022', en: '2018 — 2022' },
+        meta: { fr: '2016 — 2022', en: '2016 — 2022' },
         role: { fr: 'Photographe principal & DA', en: 'Lead photographer & art director' },
         body: {
           fr: "Mission via Imperial — agence de talents dirigée par Esther Naah — pour le catalogue UMA Cameroun : Locko, Mimie, Charlotte Dipanda, Singuila, Cysoul. Direction artistique et portrait : standardiser une iconographie exportable hors du Cameroun.",
@@ -197,8 +197,8 @@ export const PRACTICES: Practice[] = [
         ],
       },
       {
-        name: 'KOF — K-mer Otaku Festival',
-        chain: ['KOF', 'Upgraders'],
+        name: 'KOF — Kamer Otaku Festival',
+        chain: ['KOF', 'UPgraders'],
         meta: { fr: '1ʳᵉ → 3ᵉ édition (août 2024)', en: '1st → 3rd edition (Aug. 2024)' },
         role: { fr: 'Directeur Artistique (depuis la 2ᵉ)', en: 'Art Director (since the 2nd)' },
         body: {
@@ -277,12 +277,12 @@ export const PRACTICES: Practice[] = [
     projects: [
       {
         name: 'AKWA PALACE',
-        chain: ['Akwa Palace', 'Friends Studio', 'Upgraders'],
+        chain: ['Akwa Palace', 'Friends Studio', 'UPgraders'],
         meta: { fr: '2025', en: '2025' },
         role: { fr: 'Réalisation video advertising', en: 'Video advertising direction' },
         body: {
-          fr: "Campagne vidéo publicitaire pour l'hôtel Akwa Palace (Douala). Direction d'image, captation, montage, livrables multi-formats — production Friends Studio × Upgraders.",
-          en: 'Video advertising campaign for the Akwa Palace hotel (Douala). Image direction, shooting, editing, multi-format deliverables — production Friends Studio × Upgraders.',
+          fr: "Campagne vidéo publicitaire pour l'hôtel Akwa Palace (Douala). Direction d'image, captation, montage, livrables multi-formats — production Friends Studio × UPgraders.",
+          en: 'Video advertising campaign for the Akwa Palace hotel (Douala). Image direction, shooting, editing, multi-format deliverables — production Friends Studio × UPgraders.',
         },
         tags: ['Vidéo', 'Hospitality', 'Advertising'],
         images: [
@@ -293,7 +293,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'OCEANIS KRIBI · The Villa',
-        chain: ['Oceanis Kribi', 'Friends Studio', 'Upgraders'],
+        chain: ['Oceanis Kribi', 'Friends Studio', 'UPgraders'],
         meta: { fr: '2024', en: '2024' },
         role: { fr: 'Production vidéo & image', en: 'Video & image production' },
         body: {
@@ -311,12 +311,12 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'MAISON GIMANE',
-        chain: ['Maison Gimane', 'Friends Studio', 'Upgraders'],
+        chain: ['Maison Gimane', 'Friends Studio', 'UPgraders'],
         meta: { fr: '2024', en: '2024' },
         role: { fr: 'Production photo & vidéo', en: 'Photo & video production' },
         body: {
-          fr: "Joaillerie sur mesure — production de contenus visuels pour la marque. Direction d'image produit, captation, déclinaisons social media. Friends Studio × Upgraders.",
-          en: 'Bespoke jewellery — visual content production for the brand. Product image direction, shooting, social-media variations. Friends Studio × Upgraders.',
+          fr: "Joaillerie sur mesure — production de contenus visuels pour la marque. Direction d'image produit, captation, déclinaisons social media. Friends Studio × UPgraders.",
+          en: 'Bespoke jewellery — visual content production for the brand. Product image direction, shooting, social-media variations. Friends Studio × UPgraders.',
         },
         tags: ['Joaillerie', 'Produit', 'Luxe'],
         images: [
@@ -342,7 +342,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'CHOCOCAM',
-        chain: ['Chococam', 'Upgraders'],
+        chain: ['Chococam', 'UPgraders'],
         meta: { fr: 'multi-projets', en: 'multi-project' },
         role: { fr: 'Photo · Vidéo · Reportage', en: 'Photo · Video · Reportage' },
         body: {
@@ -383,18 +383,18 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'ORANGE Cameroun',
-        chain: ['Orange Cameroun', 'Publicis / McCann', 'Friends Studio', 'Upgraders'],
+        chain: ['Orange Cameroun', 'Publicis / McCann', 'Friends Studio', 'UPgraders'],
         meta: { fr: 'Marque blanche', en: 'White-label' },
         role: { fr: 'Photographie événementielle', en: 'Event photography' },
         body: {
-          fr: "En binôme avec Stéphane Nounamo (Friends Studio × Upgraders), via Publicis puis McCann. Couverture Orange Excellence (bourses des 30 meilleurs bacheliers), ANAFOOT (académie de foot des jeunes talents), première Indomptable, concert Mimie.",
-          en: 'In a duo with Stéphane Nounamo (Friends Studio × Upgraders), via Publicis then McCann. Coverage of Orange Excellence (scholarships for the top 30 graduates), ANAFOOT (youth football academy), the first Indomptable, Mimie concert.',
+          fr: "En binôme avec Stéphane Nounamo (Friends Studio × UPgraders), via Publicis puis McCann. Couverture Orange Excellence (bourses des 30 meilleurs bacheliers), ANAFOOT (académie de foot des jeunes talents), première Indomptable, concert Mimie.",
+          en: 'In a duo with Stéphane Nounamo (Friends Studio × UPgraders), via Publicis then McCann. Coverage of Orange Excellence (scholarships for the top 30 graduates), ANAFOOT (youth football academy), the first Indomptable, Mimie concert.',
         },
         tags: ['Orange Excellence', 'ANAFOOT', 'Concerts', 'Cinéma'],
       },
       {
         name: 'CIMENCAM',
-        chain: ['Cimencam', 'OmenKart', 'Friends Studio', 'Upgraders'],
+        chain: ['Cimencam', 'OmenKart', 'Friends Studio', 'UPgraders'],
         meta: { fr: '2023 — 2024', en: '2023 — 2024' },
         role: { fr: 'Vidéo corporate', en: 'Corporate video' },
         body: {
