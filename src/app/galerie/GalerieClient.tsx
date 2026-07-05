@@ -1,11 +1,12 @@
 'use client';
 
+import { useMemo, useState } from 'react';
 import styles from '@/styles/galerie.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
 import { YOUTUBE_VIDEOS, SOCIAL_PROFILES } from '@/components/folio/data/social-feed';
-import { useT, useLang, type Lang } from '@/lib/i18n';
+import { useT, useLang, pick, type Lang } from '@/lib/i18n';
 
 // Map the auto-synced French category strings to English equivalents.
 const CATEGORY_EN: Record<string, string> = {
@@ -54,9 +55,15 @@ function localizeDate(date: string | undefined, lang: Lang): string | undefined 
 export function GalerieClient() {
   const t = useT();
   const { lang } = useLang();
+  const [activeCat, setActiveCat] = useState<string>('all');
 
   const categories = Array.from(
     new Set(GALLERIES.map((g) => g.category).filter(Boolean) as string[]),
+  );
+
+  const shown = useMemo(
+    () => (activeCat === 'all' ? GALLERIES : GALLERIES.filter((g) => g.category === activeCat)),
+    [activeCat],
   );
 
   return (
@@ -76,14 +83,36 @@ export function GalerieClient() {
           <p className={styles.lede}>{t.gallery.lede}</p>
         </section>
 
-        <div className={styles.filters}>
+        <div
+          className={styles.filters}
+          role="group"
+          aria-label={pick({ fr: 'Filtrer par catégorie', en: 'Filter by category' }, lang)}
+        >
+          <button
+            type="button"
+            aria-pressed={activeCat === 'all'}
+            onClick={() => setActiveCat('all')}
+          >
+            {pick({ fr: 'Toutes', en: 'All' }, lang)}{' '}
+            <span className={styles.filterCount}>{GALLERIES.length}</span>
+          </button>
           {categories.map((c) => (
-            <span key={c}>{localizeCategory(c, lang)}</span>
+            <button
+              key={c}
+              type="button"
+              aria-pressed={activeCat === c}
+              onClick={() => setActiveCat(c)}
+            >
+              {localizeCategory(c, lang)}{' '}
+              <span className={styles.filterCount}>
+                {GALLERIES.filter((g) => g.category === c).length}
+              </span>
+            </button>
           ))}
         </div>
 
         <section className={styles.grid}>
-          {GALLERIES.map((g) => (
+          {shown.map((g) => (
             <a
               key={g.slug}
               className={styles.card}

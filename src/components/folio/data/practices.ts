@@ -17,6 +17,8 @@ export type Project = {
   tags: string[];
   proofs?: Proof[];
   images?: string[];
+  /** Projet « signature » mis en vitrine sur la landing (le folio complet vit sur /work). */
+  featured?: boolean;
 };
 
 export type Practice = {
@@ -44,6 +46,7 @@ export const PRACTICES: Practice[] = [
     projects: [
       {
         name: 'MOTION19',
+        featured: true,
         chain: ['MOTION19', 'UPgraders'],
         meta: { fr: '2019 — 2022 · Douala', en: '2019 — 2022 · Douala' },
         role: {
@@ -88,6 +91,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'KEMCARE',
+        featured: true,
         chain: ['Kemcare', 'Her Media'],
         meta: { fr: 'depuis 2021 · Douala', en: 'since 2021 · Douala' },
         role: { fr: 'Stratégie de marque & lancement', en: 'Brand strategy & launch' },
@@ -140,6 +144,7 @@ export const PRACTICES: Practice[] = [
     projects: [
       {
         name: 'MATANGA AGENCY',
+        featured: true,
         chain: ['MATANGA Agency'],
         meta: { fr: 'janvier 2025 — présent', en: 'January 2025 — present' },
         role: { fr: 'Directeur Créatif & Artistique', en: 'Creative & Art Director' },
@@ -179,6 +184,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'UNIVERSAL MUSIC AFRICA',
+        featured: true,
         chain: ['UMA', 'Imperial (agence de talents)', 'Esther Naah'],
         meta: { fr: '2016 — 2022', en: '2016 — 2022' },
         role: { fr: 'Photographe principal & DA', en: 'Lead photographer & art director' },
@@ -342,6 +348,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'CHOCOCAM',
+        featured: true,
         chain: ['Chococam', 'UPgraders'],
         meta: { fr: 'multi-projets', en: 'multi-project' },
         role: { fr: 'Photo · Vidéo · Reportage', en: 'Photo · Video · Reportage' },
@@ -383,6 +390,7 @@ export const PRACTICES: Practice[] = [
       },
       {
         name: 'ORANGE Cameroun',
+        featured: true,
         chain: ['Orange Cameroun', 'Publicis / McCann', 'Friends Studio', 'UPgraders'],
         meta: { fr: 'Marque blanche', en: 'White-label' },
         role: { fr: 'Photographie événementielle', en: 'Event photography' },

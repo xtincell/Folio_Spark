@@ -83,9 +83,23 @@
   font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--ink-3);
 }
-.filters span {
+.filters button {
   padding: 6px 12px; border: 1px solid var(--line-2); border-radius: 99px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+  transition: color .2s, border-color .2s, background .2s;
 }
+.filters button:hover { color: var(--ink); border-color: var(--ink-3); }
+.filters button[aria-pressed='true'] {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft, oklch(0.7 0.2 38 / 0.14));
+}
+.filterCount { font-size: 9px; opacity: 0.75; }
 
 /* ===== Grid ===== */
 .grid {

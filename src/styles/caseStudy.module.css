@@ -287,6 +287,61 @@
 .btnGhost { background: transparent; color: var(--ink); border: 1px solid var(--line-2); }
 
 /* ── CTA GRID (inséré dans /work) ─────────────────────── */
+/* Contrôles de la grille : filtres pratique + tri */
+.gridControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin-bottom: 14px;
+}
+.filterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filterChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  background: transparent;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  color: var(--ink-2);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.filterChip:hover {
+  color: var(--ink);
+  border-color: var(--ink-3);
+}
+.filterChip[aria-pressed='true'] {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft, oklch(0.7 0.2 38 / 0.14));
+}
+.filterCount {
+  font-size: 9px;
+  color: var(--ink-3);
+}
+.filterChip[aria-pressed='true'] .filterCount {
+  color: var(--accent);
+}
+.gridStatus {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0 0 18px;
+}
+
 .ctaGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -331,6 +386,55 @@
   font-size: 11px; letter-spacing: 0.06em;
   color: var(--ink-3);
   margin: 0;
+}
+
+/* ── CAS LIÉS + PREV/NEXT ─────────────────────────────── */
+.related {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 48px clamp(24px, 6vw, 56px) 8px;
+}
+.pnRow {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 40px clamp(24px, 6vw, 56px) 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.pnLink {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px 22px;
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  transition: border-color 0.2s, background 0.2s;
+}
+.pnLink:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft, oklch(0.7 0.2 38 / 0.14));
+}
+.pnNext {
+  text-align: right;
+  align-items: flex-end;
+}
+.pnDir {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.pnLink:hover .pnDir { color: var(--accent); }
+.pnName {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.15;
+}
+@media (max-width: 640px) {
+  .pnRow { grid-template-columns: 1fr; }
+  .pnNext { text-align: left; align-items: flex-start; }
 }
 
 @media (prefers-reduced-motion: reduce) {

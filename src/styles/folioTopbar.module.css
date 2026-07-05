@@ -25,6 +25,15 @@
 .nav a:hover { color: var(--ink); }
 .nav a[aria-current="page"] { color: var(--accent); }
 
+/* Badge « EN » sur le lien Design (page anglaise) */
+.linkEn {
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 7px;
+  letter-spacing: 0.12em;
+  color: var(--accent, oklch(0.7 0.2 38));
+  margin-left: 2px;
+}
+
 .toggle {
   display: none;
   align-items: center; gap: 10px;

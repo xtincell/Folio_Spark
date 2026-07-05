@@ -1,5 +1,7 @@
 /* ============ XTINCELL FOLIO — TECH (builder & technical folio) ============ */
 .folioRoot {
+  /* Les backdrops SVG décoratifs dépassent à droite : clip sans créer de scroll container. */
+  overflow-x: clip;
   --bg: oklch(0.10 0.005 30);
   --paper: oklch(0.96 0.012 70);
   --ink: oklch(0.96 0.012 70);

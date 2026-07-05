@@ -38,7 +38,10 @@ export function Nav() {
   const close = () => setOpen(false);
 
   return (
-    <nav className={`${styles.nav} ${scrolled ? styles.navScrolled : ''}`}>
+    <nav
+      className={`${styles.nav} ${scrolled ? styles.navScrolled : ''}`}
+      aria-label={t.nav.ariaMain}
+    >
       <a href="#top" className={styles.navBrand} onClick={close}>
         <FlameMark size={28} animated={false} />
         <span>XTINCELL</span>
@@ -67,6 +70,10 @@ export function Nav() {
         <a href="#methode" onClick={close}>{t.nav.method}</a>
         <Link href="/work" onClick={close}>{t.nav.folio} ↗</Link>
         <Link href="/galerie" onClick={close}>{t.nav.gallery} ↗</Link>
+        <Link href="/design" onClick={close}>
+          {t.nav.design} <sup className={styles.navEn} aria-label="in English">EN</sup> ↗
+        </Link>
+        <Link href="/tech" onClick={close}>{t.nav.tech} ↗</Link>
         <Link href="/cv" onClick={close}>{t.nav.cv} ↗</Link>
         <Link href="/tarifs" className={styles.navPricing} onClick={close}>{t.nav.tarifs} ↗</Link>
         <a href="#contact" className={styles.navCta} onClick={close}>{t.nav.contact} →</a>

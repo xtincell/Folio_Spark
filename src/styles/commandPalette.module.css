@@ -24,6 +24,9 @@
   padding: 1px 5px; color: oklch(0.70 0.20 38);
 }
 @media print { .trigger { display: none; } }
+/* Sur mobile/tactile le raccourci clavier n'a pas de sens et le bouton
+   flottant chevauche les CTA du hero — on le retire. */
+@media (max-width: 760px) { .trigger { display: none; } }
 
 .overlay {
   position: fixed; inset: 0; z-index: 10000;

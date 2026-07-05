@@ -1,12 +1,21 @@
 'use client';
 
+import Link from 'next/link';
 import styles from '@/styles/home.module.css';
 import { PRACTICES } from './data/practices';
 import { Practice } from './Practice';
-import { useT } from '@/lib/i18n';
+import { useT, useLang, pick } from '@/lib/i18n';
 
-export function Practices() {
+/**
+ * Section Travaux. En mode `featuredOnly` (landing), seuls les projets
+ * « signature » sont rendus, sans preuves embarquées — le folio complet
+ * (21 projets, visuels, embeds) vit sur /work.
+ */
+export function Practices({ featuredOnly = false }: { featuredOnly?: boolean }) {
   const t = useT();
+  const { lang } = useLang();
+  const total = PRACTICES.reduce((n, p) => n + p.projects.length, 0);
+
   return (
     <section id="travaux" className={styles.cases}>
       <div className={styles.sectionHead}>
@@ -37,8 +46,25 @@ export function Practices() {
       </div>
 
       <div className={styles.practiceList}>
-        {PRACTICES.map((p) => <Practice practice={p} key={p.code} />)}
+        {PRACTICES.map((p) => (
+          <Practice practice={p} featuredOnly={featuredOnly} key={p.code} />
+        ))}
       </div>
+
+      {featuredOnly && (
+        <div className={styles.casesAllCta}>
+          <Link href="/work" className={`${styles.btn} ${styles.btnPrimary}`}>
+            <span>
+              {pick({ fr: 'Folio complet — ', en: 'Full folio — ' }, lang)}
+              {total}
+              {pick({ fr: ' projets', en: ' projects' }, lang)}
+            </span>
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+              <path d="M3 8h10m-4-4 4 4-4 4" stroke="currentColor" strokeWidth="1.5" fill="none" />
+            </svg>
+          </Link>
+        </div>
+      )}
     </section>
   );
 }

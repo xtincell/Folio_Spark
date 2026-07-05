@@ -114,6 +114,7 @@ const fr = {
       closeMenu: 'Fermer le menu',
       home: 'Accueil',
       design: 'Design',
+      ariaMain: 'Navigation principale',
     },
 
     hero: {
@@ -392,6 +393,7 @@ const en: Dict = {
       closeMenu: 'Close menu',
       home: 'Home',
       design: 'Design',
+      ariaMain: 'Main navigation',
     },
 
     hero: {
