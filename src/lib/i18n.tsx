@@ -215,14 +215,14 @@ const fr = {
 
     contact: {
       label: 'Disponibilité',
-      title1: 'Direction :',
-      titleEm: 'Abidjan',
-      lede: "Je quitte le Cameroun pour porter cette vision systémique à la capitale créative de l'Afrique francophone. Prêt pour les ADICOM, prêt pour les briefs qui font peur.",
+      title1: 'En orbite,',
+      titleEm: 'disponible',
+      lede: "Basé entre Douala et Yaoundé, je me déplace à Abidjan et dans toute l'Afrique francophone pour des missions de conseil — IA, process, production. Sur site quand il faut, remote au-delà.",
       whatsapp: 'WhatsApp — réponse rapide',
       email: 'Email',
       linkedin: 'LinkedIn',
       status: 'Statut',
-      statusValue: 'Disponible pour missions',
+      statusValue: 'Disponible pour missions de conseil',
     },
 
     press: {
@@ -331,7 +331,7 @@ const fr = {
       born: 'Né',
       bornV: '1991 · Cameroun',
       base: 'Base',
-      baseV: 'Yaoundé → Abidjan',
+      baseV: 'Yaoundé · Douala · Abidjan',
       igweb: 'IG / Web',
       igwebV: '@xtincell · partout',
       s1num: '§ 01',
@@ -494,14 +494,14 @@ const en: Dict = {
 
     contact: {
       label: 'Availability',
-      title1: 'Heading:',
-      titleEm: 'Abidjan',
-      lede: "I'm leaving Cameroon to carry this systemic vision to the creative capital of French-speaking Africa. Ready for the ADICOM, ready for the briefs that scare people.",
+      title1: 'In orbit,',
+      titleEm: 'available',
+      lede: "Based between Douala and Yaoundé, I travel to Abidjan and across French-speaking Africa for consulting engagements — AI, process, production. On-site when needed, remote beyond.",
       whatsapp: 'WhatsApp — fast reply',
       email: 'Email',
       linkedin: 'LinkedIn',
       status: 'Status',
-      statusValue: 'Open to opportunities',
+      statusValue: 'Available for consulting',
     },
 
     press: {
@@ -610,7 +610,7 @@ const en: Dict = {
       born: 'Born',
       bornV: '1991 · Cameroon',
       base: 'Base',
-      baseV: 'Yaoundé → Abidjan',
+      baseV: 'Yaoundé · Douala · Abidjan',
       igweb: 'IG / Web',
       igwebV: '@xtincell · everywhere',
       s1num: '§ 01',

@@ -103,7 +103,7 @@ export function Hero() {
             <div className={styles.portraitTag}>
               <div className={styles.tagRow}><span>{t.hero.tagName}</span><span>Djengue, Alexandre</span></div>
               <div className={styles.tagRow}><span>{t.hero.tagAlias}</span><span>Xtincell</span></div>
-              <div className={styles.tagRow}><span>{t.hero.tagBase}</span><span>YDE → ABJ</span></div>
+              <div className={styles.tagRow}><span>{t.hero.tagBase}</span><span>YDE · DLA · ABJ</span></div>
               <div className={styles.tagRow}><span>{t.hero.tagVer}</span><span>15.0 — 2026</span></div>
             </div>
           </div>
