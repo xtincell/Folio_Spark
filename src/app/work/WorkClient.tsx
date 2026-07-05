@@ -6,6 +6,8 @@ import styles from '@/styles/work.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { PRACTICES } from '@/components/folio/data/practices';
 import { AgencyChain } from '@/components/folio/AgencyChain';
+import { AgencyMacaron } from '@/components/folio/AgencyMacaron';
+import { externalAgencyFromChain } from '@/components/folio/agencyCredit';
 import { ProofEmbed } from '@/components/folio/ProofEmbed';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { CaseStudyCTAGrid } from '@/components/folio/CaseStudyCTAGrid';
@@ -164,6 +166,7 @@ export function WorkClient() {
                 {practice.projects.map((proj) => {
                   const split = splitProjName(proj.name);
                   const org = proj.chain[0] ?? proj.name;
+                  const projAgency = externalAgencyFromChain(proj.chain);
                   return (
                     <article className={styles.proj} key={proj.name}>
                       <div className={styles.projMeta}>
@@ -207,7 +210,10 @@ export function WorkClient() {
                                   alt={`${lang === 'en' ? 'Visual' : 'Visuel'} ${proj.name}`}
                                   loading="lazy"
                                   decoding="async"
-                                />
+                                  />
+                                  {projAgency && (
+                                    <AgencyMacaron agency={projAgency} lang={lang} corner="tl" />
+                                  )}
                               </a>
                             ))}
                           </div>

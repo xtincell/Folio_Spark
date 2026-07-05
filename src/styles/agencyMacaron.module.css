@@ -1,0 +1,63 @@
+/* Small agency-credit pill overlaid on a campaign visual.
+   Non-interactive (safe inside <a>/<Link> cards); parent must be position:relative. */
+
+.macaron {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: calc(100% - 20px);
+  padding: 5px 10px 5px 8px;
+  border-radius: 999px;
+  background: oklch(0.1 0.005 30 / 0.72);
+  border: 1px solid oklch(0.7 0.2 38 / 0.5);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 6px 18px -8px oklch(0 0 0 / 0.7);
+  font-family: var(--folio-mono), 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 9px;
+  line-height: 1;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: oklch(0.96 0.012 70);
+  pointer-events: none;
+}
+
+.tr {
+  left: auto;
+  right: 10px;
+}
+
+.dot {
+  flex: none;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: oklch(0.7 0.2 38);
+  box-shadow: 0 0 8px oklch(0.7 0.2 38 / 0.8);
+}
+
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .macaron {
+    animation: macaronIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+
+@keyframes macaronIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

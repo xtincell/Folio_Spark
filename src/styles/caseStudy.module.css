@@ -66,7 +66,7 @@
 .heroImg {
   object-fit: cover;
   z-index: 0;
-  filter: saturate(0.98) contrast(1.03);
+  filter: contrast(1.03);
   animation: caseHeroZoom 16s ease-out both;
 }
 @keyframes caseHeroZoom {
@@ -244,7 +244,7 @@
   height: auto;
   display: block;
   transition: transform 320ms ease, filter 320ms ease;
-  filter: saturate(0.97) contrast(1.02);
+  filter: contrast(1.02);
 }
 .shot:hover .shotImg { transform: scale(1.02); filter: saturate(1.06) contrast(1.04); }
 
@@ -359,7 +359,7 @@
 .ctaImg {
   object-fit: cover;
   transition: transform 360ms ease, filter 360ms ease;
-  filter: saturate(0.95) contrast(1.02);
+  filter: contrast(1.02);
 }
 .ctaCard:hover .ctaImg { transform: scale(1.05); filter: saturate(1.08) contrast(1.05); }
 .ctaCode {

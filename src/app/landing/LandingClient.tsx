@@ -6,6 +6,8 @@ import { StarField } from '@/components/folio/StarField';
 import { Reveal } from '@/components/folio/Reveal';
 import { CONTACT } from '@/components/folio/data/contact';
 import styles from '@/styles/landing.module.css';
+import { agencyForCase } from '@/components/folio/agencyCredit';
+import { AgencyMacaron } from '@/components/folio/AgencyMacaron';
 
 const WA_HREF = `${CONTACT.whatsappLink}?text=${encodeURIComponent(
   'Bonjour Alexandre, je viens de votre landing — parlons de ma marque.',
@@ -339,6 +341,9 @@ export function LandingClient() {
             <Link key={c.slug} href={`/work/${c.slug}`} className={styles.proofCard}>
               <span className={styles.proofFig}>
                 <img src={c.img} alt={c.name} loading="lazy" className={styles.proofImg} />
+                {agencyForCase(c.slug) && (
+                  <AgencyMacaron agency={agencyForCase(c.slug)!} lang="fr" corner="tr" />
+                )}
                 <span aria-hidden="true" className={styles.proofScrim} />
                 <span className={styles.proofTag}>{c.tag}</span>
                 <span className={styles.proofCaption}>
