@@ -1,5 +1,24 @@
 import type { Metadata } from 'next';
 import { TarifsClient } from './TarifsClient';
+import { SITE_URL } from '@/lib/page-meta';
+
+const SERVICE_JSONLD = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Conseil en marque, direction artistique & production',
+  provider: { '@id': `${SITE_URL}/#person` },
+  areaServed: ['Cameroun', "Côte d'Ivoire", 'Afrique de l’Ouest & Centrale', 'Europe (remote)'],
+  url: `${SITE_URL}/tarifs`,
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Offres Xtincell',
+    itemListElement: [
+      { '@type': 'Offer', name: 'Audit de marque express (Le Flash)' },
+      { '@type': 'Offer', name: 'Forfaits one-shot — identité, campagne, image' },
+      { '@type': 'Offer', name: 'Accompagnements retainer — stratège embarqué' },
+    ],
+  },
+};
 
 export const metadata: Metadata = {
   title: 'Tarifs — Alexandre « Xtincell » Djengue · Brand Architect',
@@ -16,5 +35,13 @@ export const metadata: Metadata = {
 };
 
 export default function TarifsPage() {
-  return <TarifsClient />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(SERVICE_JSONLD) }}
+      />
+      <TarifsClient />
+    </>
+  );
 }

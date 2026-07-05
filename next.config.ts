@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
   ...(process.env.NEXT_OUTPUT_STANDALONE ? { output: 'standalone' as const } : {}),
   images: {
     remotePatterns: [
-      { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: 'images.pixieset.com' },
+      { protocol: 'https', hostname: 'i.ytimg.com' },
     ],
   },
 };

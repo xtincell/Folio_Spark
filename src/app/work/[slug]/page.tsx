@@ -30,11 +30,13 @@ export async function generateMetadata({
   return {
     title: `${c.name.fr} — ${c.client.fr} · Xtincell`,
     description: c.context.fr,
+    alternates: { canonical: `/work/${c.slug}` },
     // Unlisted cases stay reachable by direct link but are kept out of search.
     ...(c.hidden ? { robots: { index: false, follow: false } } : {}),
     openGraph: {
       title: `${c.name.fr} — ${c.client.fr}`,
       description: c.context.fr,
+      url: `/work/${c.slug}`,
       images: [{ url: c.hero }],
     },
   };
@@ -62,5 +64,23 @@ export default async function CaseStudyPage({
   );
   const related = [...sameClient, ...sameHat].slice(0, 3).map(lite);
 
-  return <CaseStudyClient caseStudy={c} prev={prev} next={next} related={related} />;
+  const breadcrumb = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: '/' },
+      { '@type': 'ListItem', position: 2, name: 'Folio', item: '/work' },
+      { '@type': 'ListItem', position: 3, name: c.name.fr, item: `/work/${c.slug}` },
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+      <CaseStudyClient caseStudy={c} prev={prev} next={next} related={related} />
+    </>
+  );
 }

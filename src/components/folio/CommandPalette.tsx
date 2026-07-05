@@ -41,8 +41,7 @@ export function CommandPalette() {
       { id: 'tech', group: p.groupNav, label: p.tech, hint: '/tech', run: go('/tech') },
       { id: 'cv', group: p.groupNav, label: p.cv, hint: '/cv', run: go('/cv') },
       { id: 'pricing', group: p.groupNav, label: p.pricing, hint: '/tarifs', run: go('/tarifs') },
-      { id: 'upg', group: p.groupNav, label: p.upgraders, hint: '/upgraders', run: go('/upgraders') },
-      { id: 'blog', group: p.groupNav, label: p.blog, hint: '/upgraders/blog', run: go('/upgraders/blog') },
+      { id: 'upg', group: p.groupNav, label: p.upgraders, hint: 'powerupgraders.com ↗', run: ext('https://powerupgraders.com') },
       { id: 'manifeste', group: p.groupSections, label: p.manifesto, run: go('/#manifeste') },
       { id: 'methode', group: p.groupSections, label: p.method, run: go('/#methode') },
       { id: 'presse', group: p.groupSections, label: p.press, run: go('/#presse') },
@@ -94,9 +93,11 @@ export function CommandPalette() {
     return () => window.removeEventListener('keydown', onKey);
   }, []);
 
-  // On open: reset, focus, lock body scroll
+  // On open: reset, focus, lock body scroll — et restaurer le focus au trigger
+  // à la fermeture (exigence dialog modal).
   useEffect(() => {
     if (!open) return;
+    const previouslyFocused = document.activeElement as HTMLElement | null;
     setQuery('');
     setActiveIdx(0);
     const t = setTimeout(() => inputRef.current?.focus(), 20);
@@ -105,6 +106,7 @@ export function CommandPalette() {
     return () => {
       clearTimeout(t);
       document.body.style.overflow = prevOverflow;
+      previouslyFocused?.focus?.();
     };
   }, [open]);
 
@@ -123,6 +125,9 @@ export function CommandPalette() {
     } else if (e.key === 'Enter') {
       e.preventDefault();
       filtered[activeIdx]?.run();
+    } else if (e.key === 'Tab') {
+      // Dialog modal à champ unique : Tab reste dans la palette.
+      e.preventDefault();
     }
   };
 
@@ -163,6 +168,7 @@ export function CommandPalette() {
                 role="combobox"
                 aria-expanded="true"
                 aria-controls="cp-list"
+                aria-activedescendant={filtered.length > 0 ? `cp-opt-${activeIdx}` : undefined}
                 autoComplete="off"
               />
               <kbd className={styles.kbd}>ESC</kbd>
@@ -173,6 +179,7 @@ export function CommandPalette() {
               {filtered.map((c, i) => (
                 <li
                   key={c.id}
+                  id={`cp-opt-${i}`}
                   role="option"
                   aria-selected={i === activeIdx}
                   className={`${styles.item} ${i === activeIdx ? styles.itemActive : ''}`}

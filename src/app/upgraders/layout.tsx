@@ -3,7 +3,7 @@ import { Fraunces, Inter } from 'next/font/google';
 
 const fraunces = Fraunces({
   subsets: ['latin'],
-  weight: ['200', '300', '400', '600', '700', '800'],
+  weight: ['300', '400', '600'],
   style: ['normal', 'italic'],
   variable: '--folio-fraunces',
   display: 'swap',
@@ -11,7 +11,7 @@ const fraunces = Fraunces({
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['400', '500', '600'],
   variable: '--folio-grotesk',
   display: 'swap',
 });

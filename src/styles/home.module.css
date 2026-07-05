@@ -6,7 +6,7 @@
   --bg-2: oklch(0.13 0.008 30);
   --ink: oklch(0.96 0.012 70);
   --ink-2: oklch(0.78 0.012 70);
-  --ink-3: oklch(0.58 0.012 70);
+  --ink-3: oklch(0.64 0.012 70);
   --line: oklch(0.96 0.012 70 / 0.10);
   --line-2: oklch(0.96 0.012 70 / 0.18);
 
@@ -1187,6 +1187,16 @@
 .agencyTipWrap:focus .chainNode {
   border-color: var(--ink);
 }
+.agencyTipBtn {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+}
+.agencyTipBtn:focus-visible {
+  outline: 2px solid var(--folio-focus, oklch(0.82 0.15 70));
+  outline-offset: 3px;
+  border-radius: 2px;
+}
 .agencyTip {
   position: absolute;
   left: 50%;
@@ -1963,4 +1973,31 @@
 }
 .nfActions {
   display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;
+}
+
+/* ============ HERO — TENUE EN HAUTEUR (fin de fichier : doit gagner) ======
+   La maquette magazine était pensée en vertical : sur desktop on borne les
+   tailles par la hauteur du viewport (min(vw, vh)) pour que masthead + titre
+   + portrait + CTA tiennent dans le premier écran, marquee à la flottaison. */
+@media (min-width: 981px) {
+  .hero { padding-top: clamp(84px, 9vh, 140px); padding-bottom: 0; }
+  .heroMasthead { margin-top: 0; }
+  .mastKicker { margin: min(18px, 1.4vh) 0 min(6px, 0.6vh); }
+  .mastTitle { font-size: clamp(64px, min(18vw, 16vh), 280px); }
+  .heroGrid { gap: min(80px, 4vh); }
+  .heroTitle { font-size: clamp(40px, min(9vw, 7.5vh), 132px); margin-bottom: min(36px, 2.2vh); }
+  .heroSub { margin-bottom: min(36px, 2.2vh); }
+  .portraitFrame { width: fit-content; margin-left: auto; }
+  .portraitFrame img:first-child {
+    width: auto;
+    max-width: 100%;
+    max-height: min(42vh, 762px);
+    object-fit: cover;
+  }
+  .heroScroll { margin-top: min(32px, 1.5vh); }
+  .heroMarquee { margin-top: min(20px, 1.2vh); }
+}
+/* Mobile : le portrait ne doit pas manger deux écrans */
+@media (max-width: 540px) {
+  .portraitFrame img:first-child { width: 100%; height: auto; max-height: 60vh; object-fit: cover; }
 }

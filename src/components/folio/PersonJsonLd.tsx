@@ -10,7 +10,7 @@ import { SOCIAL_PROFILES } from './data/social-feed';
  * (`subjectOf`) and every owned profile (`sameAs`). Rendering from the same
  * data files that drive the UI keeps the schema in sync with the page.
  */
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.powerupgraders.com';
 
 export function PersonJsonLd() {
   const person = {

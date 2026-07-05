@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from '@/styles/home.module.css';
 import { UPGRADERS_PILLARS } from './data/pillars';
 import { useT, useLang, pick } from '@/lib/i18n';
@@ -24,10 +23,10 @@ export function Upgraders() {
                 className={styles.upgLogoImg}
               />
             </div>
-            <p className={styles.upgTagline}>
+            <h2 className={styles.upgTagline}>
               <em>{t.upgraders.tagline1}</em>
               {t.upgraders.tagline2}
-            </p>
+            </h2>
             <p
               className={styles.upgClaim}
               dangerouslySetInnerHTML={{ __html: t.upgraders.claim }}
@@ -36,10 +35,15 @@ export function Upgraders() {
               className={styles.upgLede}
               dangerouslySetInnerHTML={{ __html: t.upgraders.lede }}
             />
-            <Link href="/upgraders" className={styles.upgCta}>
+            <a
+              href="https://powerupgraders.com"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.upgCta}
+            >
               <span>{t.upgraders.cta}</span>
-              <span aria-hidden="true">→</span>
-            </Link>
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
 
           <div>
@@ -61,7 +65,7 @@ export function Upgraders() {
             <div className={styles.upgFooter}>
               <span><b>#ToTheNextLevel</b></span>
               <span><b>#UPyourBrand</b></span>
-              <span>powerupgraders.com</span>
+              <a href="https://powerupgraders.com" target="_blank" rel="noreferrer">powerupgraders.com</a>
             </div>
           </div>
         </div>

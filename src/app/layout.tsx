@@ -5,6 +5,7 @@ import { CommandPalette } from '@/components/folio/CommandPalette';
 import { PageTransition } from '@/components/folio/PageTransition';
 import { LanguageProvider } from '@/lib/i18n';
 import { SkipLink } from '@/components/folio/SkipLink';
+import { SiteJsonLd } from '@/components/folio/SiteJsonLd';
 
 const instrumentSerif = Instrument_Serif({
   subsets: ['latin'],
@@ -28,7 +29,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.powerupgraders.com';
 const SITE_TITLE = 'Xtincell — Alexandre Djengue · Brand Architect';
 const SITE_DESC =
   "Portfolio d'Alexandre « Xtincell » Djengue : Brand Architect, Storytelling Consultant, Toolsmith. Méthode ADVE/RTIS, OS LaFusée, agence UPgraders.";
@@ -41,9 +42,14 @@ export const metadata: Metadata = {
   authors: [{ name: 'Alexandre Djengue' }],
   creator: 'Alexandre « Xtincell » Djengue',
   icons: {
-    icon: '/logo-spark.png',
-    shortcut: '/logo-spark.png',
-    apple: '/logo-spark-white.png',
+    // Symbole seul sur carré sombre — lisible en onglet clair comme sombre.
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    shortcut: '/favicon-96.png',
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     type: 'website',
@@ -70,6 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${instrumentSerif.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
     >
       <body>
+        <SiteJsonLd />
         <LanguageProvider>
           <SkipLink />
           <PageTransition>{children}</PageTransition>

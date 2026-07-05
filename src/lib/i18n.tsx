@@ -173,7 +173,7 @@ const fr = {
       tagline2: ' pour propulseur.',
       claim: "Conciergerie de l'industrie créative — <b>Afrique de l'Ouest &amp; Centrale</b>.",
       lede: "UPgraders n'est pas une agence comme les autres : c'est un cabinet de <b>conseil &amp; stratégie</b> qui orchestre un réseau de freelances et d'agences partenaires (production, photo, illustration, dev). On apporte la vision et le système ; le réseau apporte les mains.",
-      cta: 'Page dédiée UPgraders',
+      cta: 'Visiter le site UPgraders',
     },
 
     practices: {
@@ -210,7 +210,7 @@ const fr = {
         'Console unique : brief → arbitrage → livrable.',
         "L'humain garde la décision. La passion reste le propulseur.",
       ],
-      cta: 'Voir UPgraders en détail',
+      cta: 'UPgraders — le site officiel',
     },
 
     contact: {
@@ -452,7 +452,7 @@ const en: Dict = {
       tagline2: ' as the propellant.',
       claim: "Creative-industry concierge — <b>West &amp; Central Africa</b>.",
       lede: "UPgraders isn't an agency like the others: it's a <b>consulting &amp; strategy</b> firm that orchestrates a network of freelancers and partner agencies (production, photo, illustration, dev). We bring the vision and the system; the network brings the hands.",
-      cta: 'Dedicated UPgraders page',
+      cta: 'Visit the UPgraders site',
     },
 
     practices: {
@@ -489,7 +489,7 @@ const en: Dict = {
         'One console: brief → arbitration → deliverable.',
         'The human keeps the decision. Passion stays the propellant.',
       ],
-      cta: 'See UPgraders in detail',
+      cta: 'UPgraders — official site',
     },
 
     contact: {

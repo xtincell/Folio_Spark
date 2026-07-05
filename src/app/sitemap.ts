@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { CASE_STUDIES } from '@/components/folio/data/cases';
-import { FALLBACK_POSTS } from '@/components/folio/upgraders/data/posts';
+import { getBlogIndex } from '@/lib/wordpress';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.powerupgraders.com';
 
 /**
  * Site-wide sitemap. Static folio routes + the dynamic work cases and
@@ -10,7 +10,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.com';
  * Hidden/unlisted cases (e.g. the personal sketchbook) are excluded — they
  * carry `robots: noindex` on their own pages and shouldn't be advertised here.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const url = (path: string) => `${SITE_URL}${path}`;
 
   const staticRoutes: Array<{ path: string; priority: number; freq: MetadataRoute.Sitemap[number]['changeFrequency'] }> = [
@@ -40,7 +40,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const blogEntries: MetadataRoute.Sitemap = FALLBACK_POSTS.map((p) => ({
+  // Posts réellement servis (WordPress si configuré, sinon fallback local).
+  const { posts } = await getBlogIndex({ perPage: 100 });
+  const blogEntries: MetadataRoute.Sitemap = posts.map((p) => ({
     url: url(`/upgraders/blog/${p.slug}`),
     lastModified: p.updatedAt || p.publishedAt || undefined,
     changeFrequency: 'monthly',
