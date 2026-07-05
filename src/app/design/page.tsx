@@ -91,7 +91,7 @@ export default function DesignFolioPage() {
               <span><b>15+ yrs</b> in the craft</span>
               <span><b>25+ brands</b> &amp; artists</span>
               <span><b>3 practices</b> — strategy · direction · execution</span>
-              <span><b>Yaoundé → Abidjan</b></span>
+              <span><b>Yaoundé · Douala · Abidjan</b></span>
             </div>
             <div className={styles.heroCta}>
               <a href="#work" className={styles.btn}>Selected work</a>
