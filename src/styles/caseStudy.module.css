@@ -232,6 +232,7 @@
   .galleryGrid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
 }
 .shot {
+  position: relative;
   margin: 0;
   overflow: hidden;
   border-radius: 8px;

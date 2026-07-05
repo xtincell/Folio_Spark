@@ -150,6 +150,9 @@ export function CaseStudyClient({
                     sizes="(max-width: 760px) 100vw, (max-width: 1200px) 50vw, 760px"
                     className={styles.shotImg}
                   />
+                  {agencyForCase(c.slug) && (
+                    <AgencyMacaron agency={agencyForCase(c.slug)!} lang={lang} variant="sticker" corner="bl" />
+                  )}
                 </figure>
               ))}
             </div>
