@@ -440,8 +440,8 @@ const FAQ: { q: Bi; a: Bi }[] = [
   {
     q: { fr: 'Qui êtes-vous, au juste ?', en: 'Who are you, exactly?' },
     a: {
-      fr: 'Alexandre « Xtincell » Djengue — ingénieur télécom de formation, directeur artistique de pratique, fondateur d’UPgraders. 15 ans, Universal Music Africa, Chococam, Orange (via McCann). Ace of a few things : je tiens la stratégie, l’image et le code.',
-      en: 'Alexandre “Xtincell” Djengue — telecom engineer by training, art director by practice, founder of UPgraders. 15 years, Universal Music Africa, Chococam, Orange (via McCann). Ace of a few things: I hold strategy, image and code.',
+      fr: 'Alexandre « Xtincell » Djengue — ingénieur télécom de formation, directeur artistique de pratique, co-fondateur & CEO d’UPgraders. 15 ans, Universal Music Africa, Chococam, Orange (via McCann). Ace of a few things : je tiens la stratégie, l’image et le code.',
+      en: 'Alexandre “Xtincell” Djengue — telecom engineer by training, art director by practice, co-founder & CEO of UPgraders. 15 years, Universal Music Africa, Chococam, Orange (via McCann). Ace of a few things: I hold strategy, image and code.',
     },
   },
 ];
@@ -563,7 +563,7 @@ const GRAND_PUBLIC: GPOffer[] = [
       // The one real AI project so far — links to the folio. The rest are
       // illustrative until their dossiers are created.
       {
-        brand: 'Cosmo Boba',
+        brand: 'Cosmos Boba',
         theme: { fr: 'Lancement F&B · IA', en: 'F&B launch · AI' },
         result: { fr: 'Marque & présence en ligne, conçues via LaFusée.', en: 'Brand & online presence, built via LaFusée.' },
         img: '/work/cases/cosmo-boba/hero.webp',

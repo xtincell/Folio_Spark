@@ -76,8 +76,8 @@ export const UPGRADERS_PILLARS: UpgPillar[] = [
     nameEm: 'Guilde',
     name: 'La Guilde',
     desc: {
-      fr: "Le réseau UPgraders : freelances et agences partenaires. Stephane Nounamo (photographe), Annick (illustratrice), Paulhan (photographe), Xtincell (photo/vidéo/design), Friends Studio (production)… convocation à la mission.",
-      en: 'The UPgraders network: freelancers and partner agencies. Stephane Nounamo (photographer), Annick (illustrator), Paulhan (photographer), Xtincell (photo/video/design), Friends Studio (production)… summoned per mission.',
+      fr: "Le réseau UPgraders : freelances et agences partenaires. Stéphane Nounamo (photographe), Annick (illustratrice), Paulhan (photographe), Xtincell (photo/vidéo/design), Friends Studio (production)… convocation à la mission.",
+      en: 'The UPgraders network: freelancers and partner agencies. Stéphane Nounamo (photographer), Annick (illustrator), Paulhan (photographer), Xtincell (photo/video/design), Friends Studio (production)… summoned per mission.',
     },
   },
   {

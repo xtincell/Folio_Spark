@@ -94,19 +94,19 @@ type DirectionCard = {
 
 const DIRECTION: DirectionCard[] = [
   {
-    role: 'CEO actuel',
+    role: 'Co-fondateur · CEO',
     roleColor: 'coral',
     name: 'Alexandre « Xtincell » Djengue',
     tag: 'Stratège · Photographe · Vidéaste · Designer',
     desc:
-      "Direction générale et créative. Pilote la méthode ADVE/RTIS, l'OS LaFusée, et la Guilde. Opère aussi en mission — l'image, le motion, la DA quand le brief le demande.",
+      "Co-fondateur (2017), CEO depuis 2023. Direction générale et créative : pilote la méthode ADVE/RTIS, l'OS LaFusée, et la Guilde. Opère aussi en mission — l'image, le motion, la DA quand le brief le demande.",
   },
   {
     role: 'Co-fondatrice',
     name: 'Ingrid Nya Ngatchou',
     tag: 'Former CEO',
     desc:
-      'Co-fondatrice (2017) et ancienne CEO. Architecte des premières années : positionnement, structuration, premières grandes missions. Éminence stratégique.',
+      "Co-fondatrice (2017) et ancienne CEO — m'a passé le relais en 2023. Architecte des premières années : positionnement, structuration, premières grandes missions. Éminence stratégique.",
   },
   {
     role: 'Co-fondateur',
@@ -168,7 +168,7 @@ const TIMELINE: TimelineRow[] = [
     year: '2017',
     eventBold: "Fondation d'UPgraders",
     eventAfter:
-      ' par Ingrid Nya Ngatchou et Jean-Philippe Veigne. Cabinet de conseil & stratégie créative à Douala.',
+      ' par Ingrid Nya Ngatchou, Jean-Philippe Veigne et Alexandre « Xtincell » Djengue. Cabinet de conseil & stratégie créative à Douala.',
   },
   {
     year: '2019',
@@ -190,9 +190,10 @@ const TIMELINE: TimelineRow[] = [
   },
   {
     year: '2023',
-    eventBefore: 'Consolidation du ',
-    eventBold: 'binôme Friends Studio',
-    eventAfter: ' avec Stéphane Nounamo. Comptes Orange, Cimencam, Chococam.',
+    eventBefore: 'Ingrid passe le relais : ',
+    eventBold: 'Alexandre devient CEO',
+    eventAfter:
+      '. Consolidation du binôme Friends Studio avec Stéphane Nounamo — comptes Orange, Cimencam, Chococam.',
   },
   {
     year: '2024',
@@ -202,9 +203,10 @@ const TIMELINE: TimelineRow[] = [
   },
   {
     year: '2025',
-    eventBold: 'Alexandre « Xtincell » Djengue',
+    eventBold: 'MATANGA Agency',
+    eventBefore: 'Directeur Créatif & Artistique chez ',
     eventAfter:
-      ' prend le relais comme CEO. Ingrid et Jean-Philippe restent en éminences. En parallèle : Directeur Créatif chez MATANGA Agency.',
+      ", en parallèle de la direction d'UPgraders. Ingrid et Jean-Philippe restent en éminences.",
   },
   {
     year: '2026',

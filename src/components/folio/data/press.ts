@@ -57,7 +57,7 @@ export const PRESS: PressItem[] = [
     },
   },
   {
-    outlet: 'Creapreneur',
+    outlet: 'Créapreneur',
     title: {
       fr: 'Créapreneur — le podcast de l’entrepreneuriat créatif en Afrique francophone',
       en: 'Creapreneur — the podcast on creative entrepreneurship in French-speaking Africa',

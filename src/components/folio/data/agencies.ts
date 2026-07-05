@@ -9,8 +9,8 @@ export type AgencyEntry = {
 const upgradersEntry: AgencyEntry = {
   kind: { fr: 'Mon agence', en: 'My agency' },
   desc: {
-    fr: "Cabinet de conseil &amp; stratégie créative fondé en 2017. Je suis CEO depuis le passage de relais d'Ingrid Nya Ngatchou et Jean-Philippe Veigne (co-fondateurs &amp; former CEOs).",
-    en: 'Creative consulting &amp; strategy firm founded in 2017. I have been CEO since the handover from Ingrid Nya Ngatchou and Jean-Philippe Veigne (co-founders &amp; former CEOs).',
+    fr: "Cabinet de conseil &amp; stratégie créative que j'ai co-fondé en 2017 avec Ingrid Nya Ngatchou et Jean-Philippe Veigne. CEO depuis 2023, au passage de relais d'Ingrid.",
+    en: 'Creative consulting &amp; strategy firm I co-founded in 2017 with Ingrid Nya Ngatchou and Jean-Philippe Veigne. CEO since 2023, when Ingrid handed over the reins.',
   },
   link: '/upgraders',
 };
@@ -37,8 +37,8 @@ export const AGENCY_INFO: Record<string, AgencyEntry> = {
   'MATANGA Agency': {
     kind: { fr: 'Agence-employeur', en: 'Employer agency' },
     desc: {
-      fr: "Agence marketing où je suis Directeur Créatif &amp; Artistique depuis janvier 2025. Portefeuille : Friesland Campina, Ecobank RCA, Cadyst Group, LaPasta, Delys&Barka.",
-      en: 'Marketing agency where I have been Creative &amp; Art Director since January 2025. Portfolio: Friesland Campina, Ecobank CAR, Cadyst Group, LaPasta, Delys&Barka.',
+      fr: "Agence marketing où je suis Directeur Créatif &amp; Artistique depuis janvier 2025. Portefeuille : FrieslandCampina, Ecobank RCA, Cadyst Group, La Pasta, Delys &amp; Barka.",
+      en: 'Marketing agency where I have been Creative &amp; Art Director since January 2025. Portfolio: FrieslandCampina, Ecobank CAR, Cadyst Group, La Pasta, Delys &amp; Barka.',
     },
   },
   'Imperial': imperialEntry,
@@ -53,7 +53,7 @@ export const AGENCY_INFO: Record<string, AgencyEntry> = {
   'Her Media': {
     kind: { fr: 'Agence relais', en: 'Relay agency' },
     desc: {
-      fr: "Agence-relais qui me sous-traitait des prestations — souvent en marque blanche — pour ses clients (Moet, Port de Kribi, Kemcare…).",
+      fr: "Agence-relais qui me sous-traitait des prestations — souvent en marque blanche — pour ses clients (Moët, Port de Kribi, Kemcare…).",
       en: 'Relay agency that subcontracted work to me — often white-label — for its clients (Moët, Port of Kribi, Kemcare…).',
     },
   },
@@ -111,8 +111,8 @@ export const AGENCY_INFO: Record<string, AgencyEntry> = {
   'KOF': {
     kind: { fr: 'Festival', en: 'Festival' },
     desc: {
-      fr: "K-mer Otaku Festival — festival pop culture / mangas. Direction artistique depuis la 2ᵉ édition.",
-      en: 'K-mer Otaku Festival — pop-culture / manga festival. Art direction since the 2nd edition.',
+      fr: "Kamer Otaku Festival — festival pop culture / mangas. Direction artistique depuis la 2ᵉ édition.",
+      en: 'Kamer Otaku Festival — pop-culture / manga festival. Art direction since the 2nd edition.',
     },
   },
   'Akwa Palace': {

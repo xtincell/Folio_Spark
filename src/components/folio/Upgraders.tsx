@@ -61,7 +61,7 @@ export function Upgraders() {
             <div className={styles.upgFooter}>
               <span><b>#ToTheNextLevel</b></span>
               <span><b>#UPyourBrand</b></span>
-              <span>upgraders.io</span>
+              <span>powerupgraders.com</span>
             </div>
           </div>
         </div>
