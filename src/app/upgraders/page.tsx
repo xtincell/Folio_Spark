@@ -90,6 +90,9 @@ type DirectionCard = {
   name: string;
   tag: string;
   desc: string;
+  /** Portrait 4:5 — photo réelle, ou placeholder monogramme à remplacer. */
+  img?: string;
+  imgAlt?: string;
 };
 
 const DIRECTION: DirectionCard[] = [
@@ -100,6 +103,8 @@ const DIRECTION: DirectionCard[] = [
     tag: 'Stratège · Photographe · Vidéaste · Designer',
     desc:
       "Co-fondateur (2017), CEO depuis 2023. Direction générale et créative : pilote la méthode ADVE/RTIS, l'OS LaFusée, et la Guilde. Opère aussi en mission — l'image, le motion, la DA quand le brief le demande.",
+    img: '/portrait.jpg',
+    imgAlt: 'Alexandre « Xtincell » Djengue — portrait',
   },
   {
     role: 'Co-fondatrice',
@@ -107,6 +112,8 @@ const DIRECTION: DirectionCard[] = [
     tag: 'Former CEO',
     desc:
       "Co-fondatrice (2017) et ancienne CEO — m'a passé le relais en 2023. Architecte des premières années : positionnement, structuration, premières grandes missions. Éminence stratégique.",
+    img: '/upgraders/direction/ingrid-nya-ngatchou.svg',
+    imgAlt: 'Ingrid Nya Ngatchou — portrait à venir',
   },
   {
     role: 'Co-fondateur',
@@ -114,6 +121,8 @@ const DIRECTION: DirectionCard[] = [
     tag: 'Former CEO',
     desc:
       "Co-fondateur (2017) et ancien CEO. Pilier des opérations historiques. Reste une référence dans la gouvernance et la trajectoire long terme de l'agence.",
+    img: '/upgraders/direction/jean-philippe-veigne.svg',
+    imgAlt: 'Jean-Philippe Veigne — portrait à venir',
   },
 ];
 
@@ -414,6 +423,18 @@ export default async function UpgradersPage() {
           <div className={styles.reseauGrid}>
             {DIRECTION.map((c) => (
               <div className={styles.reseauCard} key={c.name}>
+                {c.img ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    className={styles.reseauPortrait}
+                    src={c.img}
+                    alt={c.imgAlt ?? c.name}
+                    width={640}
+                    height={800}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : null}
                 <div
                   className={styles.reseauRole}
                   style={c.roleColor === 'coral' ? { color: 'var(--coral)' } : undefined}
