@@ -28,9 +28,13 @@ export const CASE_AGENCY: Record<string, string> = {
   delys: 'MATANGA Agency',
   amigo: 'MATANGA Agency', // Amigo — Cadyst Grain
   'tcg-bonnet-rouge': 'MATANGA Agency', // Bonnet Rouge — FrieslandCampina
-  enseigne: 'MATANGA Agency', // Cadyst Farming — à confirmer
-  robuste: 'MATANGA Agency', // Robuste (Cadyst Farming) — à confirmer
-  'robuste-packaging': 'MATANGA Agency', // Robuste (Cadyst Farming) — à confirmer
+  enseigne: 'MATANGA Agency', // Cadyst Farming
+  robuste: 'MATANGA Agency', // Robuste (Cadyst Farming)
+  'robuste-packaging': 'MATANGA Agency', // Robuste (Cadyst Farming)
+  nsia: 'MATANGA Agency', // NSIA Assurances
+  'la-vache-qui-rit': 'MATANGA Agency', // La Vache qui rit (Bel)
+  // Bimstr (relay agency)
+  'brasseries-du-cameroun': 'Bimstr', // Top — Brasseries du Cameroun
   // Imperial (talent agency — artist covers / UMA lineage)
   'cover-musical': 'Imperial (agence de talents)',
 };

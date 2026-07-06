@@ -358,7 +358,7 @@
   background: var(--bg-2);
 }
 .ctaImg {
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 360ms ease, filter 360ms ease;
   filter: contrast(1.02);
 }
