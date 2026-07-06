@@ -233,6 +233,27 @@
   opacity: 1;
   transform: none;
 }
+/* « bento invisible » : voile qui assombrit le monde derrière le texte,
+   fondu radial — l'écran d'un bento, sans la boîte. */
+.mode3d .panelInner {
+  position: relative;
+}
+.mode3d .panelInner::before {
+  content: '';
+  position: absolute;
+  inset: -48px -56px;
+  z-index: -1;
+  pointer-events: none;
+  backdrop-filter: brightness(0.62) saturate(0.85) blur(9px);
+  -webkit-backdrop-filter: brightness(0.62) saturate(0.85) blur(9px);
+  -webkit-mask-image: radial-gradient(closest-side, #000 52%, transparent 98%);
+  mask-image: radial-gradient(closest-side, #000 52%, transparent 98%);
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .mode3d .panelInner::before {
+    background: radial-gradient(closest-side, oklch(0.05 0.004 30 / 0.6), transparent 96%);
+  }
+}
 .panel a,
 .panel button {
   pointer-events: auto;

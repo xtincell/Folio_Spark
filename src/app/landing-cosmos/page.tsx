@@ -10,9 +10,9 @@ import { LandingCosmosClient } from './LandingCosmosClient';
 export const metadata: Metadata = {
   ...pageMeta({
     path: '/landing-cosmos',
-    title: 'Xtincell — Brand Architect · Landing Cosmos',
+    title: 'Xtincell — Le Signal · Landing',
     description:
-      "Variante cosmique de la landing d'Alexandre « Xtincell » Djengue — un univers de particules qui s'assemble au scroll, de la poussière à l'étoile.",
+      "Le marché est un vacarme ; votre marque sera un signal. L'expérience 3D d'Alexandre « Xtincell » Djengue, ingénieur télécom devenu directeur artistique.",
   }),
   robots: { index: false, follow: false },
 };
