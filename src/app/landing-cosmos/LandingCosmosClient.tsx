@@ -8,15 +8,15 @@ import { CONTACT } from '@/components/folio/data/contact';
 import styles from '@/styles/landingCosmos.module.css';
 
 /**
- * LE SIGNAL — « le marché est un vacarme ; votre marque sera un signal ».
- * Parti pris : l'ingénieur télécom devenu directeur artistique. Un monde 3D
- * continu traversé au scroll — bruit, onde, chaîne d'émission, protocole,
- * antenne. Les panneaux HTML (SSR, accessibles) s'affichent à l'arrivée de
- * la caméra. Sans WebGL / reduced-motion : mode « flat » empilé.
+ * LE VOYAGE — « De la poussière à l'étoile ».
+ * La page est un monde 3D continu (VoyageEngine) : la caméra suit un rail
+ * spline au scroll à travers cinq chapitres ; les panneaux HTML (rendus
+ * serveur, accessibles) s'affichent à l'arrivée de la caméra sur chaque lieu.
+ * Sans WebGL / reduced-motion : mode « flat » — les mêmes panneaux empilés.
  */
 
 const WA_HREF = `${CONTACT.whatsappLink}?text=${encodeURIComponent(
-  'Bonjour Alexandre — je capte votre signal. Parlons de ma marque.',
+  'Bonjour Alexandre — je viens de votre landing cosmos. Parlons de ma marque.',
 )}`;
 
 const SCROLL_VH = 760; // longueur du voyage
@@ -32,13 +32,13 @@ const LETTERS: [string, number][] = [
   ['L', 0.35],
 ];
 
-const CHAIN = [
-  { n: '01', title: "L'Émetteur", sub: 'Stratégie — le message avant le méga' },
-  { n: '02', title: 'Le Modulateur', sub: 'Direction artistique — la forme qui porte loin' },
-  { n: '03', title: "L'Antenne", sub: 'Exécution — photo, vidéo, diffusion' },
+const HATS = [
+  { n: '01', title: 'Brand Architect', sub: 'Stratégie + systèmes de marque' },
+  { n: '02', title: 'Direction Artistique', sub: 'Image, scénographie, identité' },
+  { n: '03', title: 'Exécution', sub: 'Photo, vidéo, livrables — hands on' },
 ];
 
-const RAIL = ['Bruit', 'Signal', 'Chaîne', 'Protocole', 'Émission'];
+const RAIL = ['Poussière', 'Manifeste', 'Trajectoire', 'Constellation', 'Allumage'];
 
 type Mode = 'boot' | '3d' | 'flat';
 
@@ -109,10 +109,12 @@ export function LandingCosmosClient() {
     (async () => {
       try {
         const mod = await import('@/components/folio/three/VoyageEngine');
+        const spark = await mod.loadSparkPoints();
         if (cancelled) return;
         const canvas = canvasRef.current;
         if (!canvas) throw new Error('no canvas');
-        const handle = mod.createVoyage({
+        const handle = mod.createVoyage(
+          {
             canvas,
             getScroll: () => {
               const max = document.documentElement.scrollHeight - window.innerHeight;
@@ -128,7 +130,9 @@ export function LandingCosmosClient() {
                 finishLoader();
               }
             },
-        });
+          },
+          spark,
+        );
         if (!handle) throw new Error('engine unavailable');
         chaptersRef.current = handle.chapters.slice();
         dispose = handle.dispose;
@@ -267,11 +271,11 @@ export function LandingCosmosClient() {
       <header className={styles.ours}>
         <span className={styles.oursItem}>
           <img src="/logos/spark-mark.svg" alt="" style={{ height: 16, width: 'auto' }} />
-          <span className={styles.oursLong}>Fréquence&nbsp;·&nbsp;</span>99.9 DLA
+          <span className={styles.oursLong}>Transmission&nbsp;·&nbsp;</span>Vol. 15
         </span>
         <span className={`${styles.oursItem} ${styles.oursLive}`}>
           <span className={styles.liveDot} />
-          En direct
+          Disponible
         </span>
         <span className={styles.oursItem}>{clock} — DLA</span>
       </header>
@@ -294,7 +298,7 @@ export function LandingCosmosClient() {
       )}
 
       {/* ════ CH 1 · LA POUSSIÈRE ════ */}
-      <section className={panelCls(0)} aria-label="Le bruit">
+      <section className={panelCls(0)} aria-label="La poussière">
         {flat && (
           <div aria-hidden="true" className={styles.flatStars}>
             <StarField density={90} />
@@ -322,63 +326,61 @@ export function LandingCosmosClient() {
             <span>Toolsmith</span>
           </div>
           <p className={styles.tagline}>
-            Le marché est un vacarme.<br />
-            Votre marque sera <span className={styles.em}>un signal.</span>
+            De la poussière <span className={styles.em}>à l&apos;étoile.</span>
           </p>
           <div className={styles.ctaRow}>
             <a href={WA_HREF} target="_blank" rel="noreferrer" className={styles.ctaPrimary} data-magnet>
               <WhatsAppIcon size={17} />
-              Ouvrir le canal — WhatsApp
+              WhatsApp — réponse rapide
             </a>
             <Link href="/" className={styles.ctaGhost} data-magnet>
-              Visiter la station →
+              Entrer dans le folio →
             </Link>
           </div>
           <div className={styles.scrollCue} aria-hidden="true">
-            Scroll pour accorder
+            Scroll pour décoller
             <span className={styles.scrollLine} />
           </div>
         </div>
       </section>
 
       {/* ════ CH 2 · MANIFESTE ════ */}
-      <section className={panelCls(1)} aria-label="Le signal">
+      <section className={panelCls(1)} aria-label="Manifeste">
         <div className={`${styles.panelInner} ${styles.panelLeft}`}>
-          <div className={styles.kicker}>— Le signal · 01</div>
+          <div className={styles.kicker}>— Manifeste · 01</div>
           <p className={styles.mLine}>
-            Le bruit <span className={styles.emMuted}>se crie.</span>
+            Je ne crée pas <span className={styles.emMuted}>de l&apos;art.</span>
           </p>
           <p className={styles.mLine}>
-            Le signal <span className={styles.em}>se construit.</span>
+            Je systémise <span className={styles.em}>le succès.</span>
           </p>
           <p className={styles.sub}>
-            Ingénieur télécom devenu directeur artistique — je ne vends pas des images, je règle des
-            fréquences : ADN clair, message modulé, diffusion qui convertit. Votre marque devient
-            audible. Puis inévitable.
+            Directeur artistique formé en télécommunications. Quinze ans à transformer des marques
+            d&apos;Afrique francophone en systèmes qui convertissent.
           </p>
           <div className={styles.stats}>
             <span>
-              <b>15 ans</b> d&apos;émission
+              <b>15 ans</b> de création
             </span>
             <span>
-              <b>25+</b> marques accordées
+              <b>25+</b> marques
             </span>
             <span>
-              <b>3</b> villes-relais — DLA · YDE · ABJ
+              <b>21</b> projets publiés
             </span>
           </div>
         </div>
       </section>
 
       {/* ════ CH 3 · TRAJECTOIRE ════ */}
-      <section className={panelCls(2)} aria-label="La chaîne">
+      <section className={panelCls(2)} aria-label="Trajectoire">
         <div className={`${styles.panelInner} ${styles.panelLeft}`}>
-          <div className={styles.kicker}>— La chaîne d&apos;émission · 02</div>
-          {CHAIN.map((h, i) => (
+          <div className={styles.kicker}>— Trois casquettes, une trajectoire · 02</div>
+          {HATS.map((h, i) => (
             <Link
               key={h.n}
               href="/#casquettes"
-              className={`${styles.hatRow} ${i === CHAIN.length - 1 ? styles.hatRowLast : ''}`}
+              className={`${styles.hatRow} ${i === HATS.length - 1 ? styles.hatRowLast : ''}`}
             >
               <span className={styles.hatNum}>{h.n}</span>
               <span className={styles.hatTitle}>{h.title}</span>
@@ -387,36 +389,36 @@ export function LandingCosmosClient() {
             </Link>
           ))}
           <Link href="/" className={styles.textLink} style={{ justifyContent: 'flex-start', paddingLeft: 0 }}>
-            Toute la grille des programmes →
+            Le travail complet vit dans le folio →
           </Link>
         </div>
       </section>
 
       {/* ════ CH 4 · CONSTELLATION ════ */}
-      <section className={panelCls(3)} aria-label="Le protocole">
+      <section className={panelCls(3)} aria-label="Constellation">
         <div className={`${styles.panelInner} ${styles.panelBottom}`}>
-          <div className={styles.kicker}>— Protocole propriétaire · UPgraders · 03</div>
+          <div className={styles.kicker}>— La méthode · IP UPgraders · 03</div>
           <div className={styles.methodWord}>
             ADVE<span className={styles.em}>/</span>RTIS
           </div>
           <p className={styles.sub} style={{ margin: '12px auto 0', textAlign: 'center' }}>
-            Huit lettres pour encoder une marque : quatre fixent l&apos;identité, quatre déclenchent
-            l&apos;action. Vous venez de traverser sa constellation — au sens télécom du terme.
+            Un socle qui fixe l&apos;identité, un propulseur qui déclenche l&apos;action. Vous venez de
+            traverser l&apos;étincelle.
           </p>
         </div>
       </section>
 
       {/* ════ CH 5 · ALLUMAGE ════ */}
-      <section className={panelCls(4)} aria-label="L’émission">
+      <section className={panelCls(4)} aria-label="Allumage">
         {flat && <div aria-hidden="true" className={styles.flatEmbers} />}
         <div className={styles.panelInner} style={{ textAlign: 'center' }}>
           <img src="/logos/spark-mark.svg" alt="" className={styles.mark} />
           <h2 className={styles.igniteTitle}>
-            Votre fréquence <span className={styles.em}>est libre.</span>
+            On allume <span className={styles.em}>votre marque</span> ?
           </h2>
           <p className={styles.sub} style={{ margin: '0 auto 28px', maxWidth: '48ch' }}>
-            Deux lignes sur votre projet — devis ferme sous 48 h, en euro ou en FCFA. En studio à
-            Douala · Yaoundé, en liaison avec Abidjan et toute l&apos;Afrique francophone.
+            Deux lignes sur votre projet — devis ferme sous 48 h, en euro ou en FCFA. Basé Douala ·
+            Yaoundé, mobile à Abidjan et dans toute l&apos;Afrique francophone pour le conseil.
           </p>
           <div className={styles.ctaCol}>
             <a
@@ -427,18 +429,18 @@ export function LandingCosmosClient() {
               data-magnet
               style={{ letterSpacing: '0.14em' }}
             >
-              Ouvrir le canal · {CONTACT.whatsappDisplay}
+              WhatsApp {CONTACT.whatsappDisplay}
             </a>
             <a href={`mailto:${CONTACT.email}`} className={styles.ctaGhost} data-magnet>
               {CONTACT.email}
             </a>
             <Link href="/" className={styles.textLink}>
-              Visiter la station complète →
+              Visiter le site complet →
             </Link>
           </div>
           <div className={styles.foot}>
-            <span className={styles.footLine}>XTINCELL · ALEXANDRE DJENGUE · ÉMISSION CONTINUE · © 2026</span>
-            <span className={styles.footTag}>— Fin de transmission. Ne quittez pas l&apos;écoute.</span>
+            <span className={styles.footLine}>XTINCELL · ALEXANDRE DJENGUE · © 2026</span>
+            <span className={styles.footTag}>« De la poussière à l&apos;étoile. »</span>
           </div>
         </div>
       </section>
@@ -472,7 +474,7 @@ export function LandingCosmosClient() {
         <div className={`${styles.loader} ${mode !== 'boot' ? styles.loaderOut : ''}`} aria-hidden="true">
           <img src="/logos/spark-mark.svg" alt="" className={styles.loaderMark} />
           <div className={styles.loaderPct}>{pct}%</div>
-          <div className={styles.loaderLabel}>{pct < 100 ? 'Recherche du signal…' : 'Canal trouvé — 99.9 DLA'}</div>
+          <div className={styles.loaderLabel}>Transmission en cours — DLA</div>
           <div className={styles.loaderBar}>
             <span style={{ width: `${pct}%` }} />
           </div>
