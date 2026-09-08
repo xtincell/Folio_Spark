@@ -114,6 +114,7 @@ const fr = {
       closeMenu: 'Fermer le menu',
       home: 'Accueil',
       design: 'Design',
+      hiring: 'Recrutement',
       ariaMain: 'Navigation principale',
     },
 
@@ -393,6 +394,7 @@ const en: Dict = {
       closeMenu: 'Close menu',
       home: 'Home',
       design: 'Design',
+      hiring: 'Hiring',
       ariaMain: 'Main navigation',
     },
 

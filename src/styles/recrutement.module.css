@@ -1,0 +1,191 @@
+/* ============ XTINCELL FOLIO — RECRUTEMENT ============ */
+.folioRoot {
+  overflow-x: clip;
+  --bg: oklch(0.10 0.005 30);
+  --bg-2: oklch(0.14 0.010 40);
+  --ink: oklch(0.96 0.012 70);
+  --ink-2: oklch(0.78 0.012 70);
+  --ink-3: oklch(0.64 0.012 70);
+  --line: oklch(0.96 0.012 70 / 0.14);
+  --line-2: oklch(0.96 0.012 70 / 0.24);
+  --accent: oklch(0.70 0.20 38);
+  --gold: oklch(0.80 0.15 85);
+  --serif: var(--folio-serif), 'Instrument Serif', Georgia, serif;
+  --grotesk: var(--folio-grotesk), 'Space Grotesk', system-ui, sans-serif;
+  --mono: var(--folio-mono), 'JetBrains Mono', ui-monospace, monospace;
+
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--grotesk);
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+.folioRoot * { box-sizing: border-box; }
+.folioRoot ::selection { background: var(--accent); color: var(--bg); }
+
+.shell { width: min(1180px, calc(100vw - 48px)); margin-inline: auto; }
+
+/* ---------- hero ---------- */
+.hero { padding: clamp(56px, 9vw, 104px) 0 clamp(40px, 6vw, 72px); }
+.eyebrow {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--gold); margin: 0 0 20px;
+}
+.heroTitle {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(2.6rem, 6.2vw, 4.4rem); line-height: 1.02;
+  letter-spacing: -.015em; margin: 0; text-wrap: balance;
+}
+.heroTitle em { font-style: italic; color: var(--accent); }
+.heroLede {
+  max-width: 62ch; margin: 26px 0 0; font-size: 1.05rem; color: var(--ink-2);
+}
+.heroLede b { color: var(--ink); font-weight: 500; }
+
+.facts {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px; margin-top: 46px; padding-top: 30px; border-top: 1px solid var(--line);
+}
+.factN {
+  font-family: var(--serif); font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+  line-height: 1; color: var(--gold);
+}
+.factL {
+  margin-top: 8px; font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); line-height: 1.5;
+}
+
+.ctaRow { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 40px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 22px; border: 1px solid var(--line-2);
+  font-family: var(--mono); font-size: 11px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--ink); text-decoration: none;
+  transition: background .18s ease, border-color .18s ease, color .18s ease;
+}
+.btn:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.btnPrimary { background: var(--accent); border-color: var(--accent); color: oklch(0.14 0.02 38); }
+.btnPrimary:hover { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+
+/* ---------- sections ---------- */
+.section { padding: clamp(48px, 7vw, 84px) 0; border-top: 1px solid var(--line); }
+.secNum {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--accent); margin: 0 0 14px;
+}
+.secTitle {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(1.8rem, 3.8vw, 2.6rem); line-height: 1.1; margin: 0;
+  letter-spacing: -.01em; text-wrap: balance;
+}
+.secLede { max-width: 64ch; margin: 16px 0 0; color: var(--ink-2); }
+
+/* ---------- cadrer / concevoir / produire ---------- */
+.triptych {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px; margin-top: 40px;
+}
+.step { border: 1px solid var(--line); padding: 28px 24px 30px; }
+.stepOn { background: var(--bg-2); border-color: var(--line-2); }
+.stepK {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .18em;
+  color: var(--accent); text-transform: uppercase;
+}
+.stepOn .stepK { color: var(--gold); }
+.stepT {
+  font-family: var(--serif); font-size: 1.75rem; line-height: 1.1;
+  margin: 10px 0 18px; font-weight: 400;
+}
+.step ul { margin: 0; padding-left: 18px; color: var(--ink-2); font-size: .92rem; }
+.step li { margin-bottom: 9px; }
+
+/* ---------- preuves marché ---------- */
+.proofs { list-style: none; padding: 0; margin: 34px 0 0; border-top: 1px solid var(--line); }
+.proofs li {
+  display: grid; grid-template-columns: 1.4rem 1fr; gap: 16px;
+  padding: 16px 0; border-bottom: 1px solid var(--line);
+}
+.proofs li::before {
+  content: ""; width: 7px; height: 7px; margin-top: 9px; border-radius: 50%;
+  background: var(--accent);
+}
+.proofs b { color: var(--ink); font-weight: 500; }
+.proofs span { color: var(--ink-2); font-size: .95rem; }
+
+/* ---------- compétences ---------- */
+.skills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 40px; }
+.skill { border: 1px solid var(--line); padding: 26px 24px; display: flex; gap: 18px; }
+.skillN {
+  flex: 0 0 auto; width: 34px; height: 34px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--accent);
+  color: oklch(0.14 0.02 38); font-family: var(--mono); font-size: 12px; font-weight: 500;
+}
+.skillT { font-family: var(--serif); font-size: 1.3rem; margin: 0 0 8px; font-weight: 400; }
+.skillD { margin: 0; color: var(--ink-2); font-size: .92rem; }
+
+/* ---------- campagnes ---------- */
+.camps { margin-top: 42px; border-top: 1px solid var(--line); }
+.camp {
+  display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  gap: 8px 40px; padding: 26px 0; border-bottom: 1px solid var(--line);
+}
+.campBrand { font-family: var(--serif); font-size: 1.3rem; line-height: 1.2; margin: 0; }
+.campMeta {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3); margin: 8px 0 0;
+}
+.campScope { margin: 0 0 14px; color: var(--accent); font-size: .95rem; }
+.acts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.act dt {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px;
+}
+.act dd { margin: 0; font-size: .88rem; color: var(--ink-2); line-height: 1.55; }
+
+/* ---------- pratiques ---------- */
+.mix { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin-top: 40px; }
+.mixCard { border: 1px solid var(--line); padding: 26px 22px; }
+.mixCard:first-child { background: var(--bg-2); border-color: var(--line-2); }
+.mixPct { font-family: var(--serif); font-size: 2.4rem; line-height: 1; color: var(--gold); }
+.mixT { font-family: var(--serif); font-size: 1.15rem; margin: 12px 0 10px; font-weight: 400; }
+.mixD { margin: 0; font-size: .88rem; color: var(--ink-2); }
+
+/* ---------- parcours ---------- */
+.path { margin-top: 40px; border-top: 1px solid var(--line); }
+.pathRow {
+  display: grid; grid-template-columns: 9rem minmax(0, 15rem) minmax(0, 1fr);
+  gap: 6px 32px; padding: 20px 0; border-bottom: 1px solid var(--line); align-items: baseline;
+}
+.pathWhen { font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: .06em; }
+.pathOrg { font-family: var(--serif); font-size: 1.18rem; margin: 0; font-weight: 400; }
+.pathRole { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); margin: 5px 0 0; letter-spacing: .06em; }
+.pathDesc { margin: 0; color: var(--ink-2); font-size: .92rem; }
+
+/* ---------- contact ---------- */
+.contact { padding: clamp(56px, 8vw, 96px) 0 clamp(64px, 9vw, 110px); border-top: 1px solid var(--line); }
+.contactGrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin-top: 40px; }
+.cLabel { font-family: var(--mono); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+.cValue { margin: 8px 0 0; font-size: .98rem; word-break: break-word; }
+.cValue a { text-decoration: none; border-bottom: 1px solid var(--line-2); }
+.cValue a:hover { border-color: var(--accent); color: var(--accent); }
+
+.foot {
+  margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--line);
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-3);
+  display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+}
+
+@media (max-width: 960px) {
+  .triptych, .skills, .mix, .contactGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .camp, .pathRow { grid-template-columns: 1fr; }
+  .acts { grid-template-columns: 1fr; gap: 14px; }
+}
+@media (max-width: 600px) {
+  .triptych, .skills, .mix, .contactGrid, .facts { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .folioRoot * { transition: none !important; animation: none !important; }
+}

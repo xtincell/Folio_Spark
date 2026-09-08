@@ -8,7 +8,7 @@ import { FlameMark } from './FlameMark';
 import { LangToggle } from './LangToggle';
 import { useT } from '@/lib/i18n';
 
-type Active = 'accueil' | 'folio' | 'galerie' | 'cv' | 'design' | 'tech' | 'tarifs';
+type Active = 'accueil' | 'folio' | 'galerie' | 'cv' | 'design' | 'tech' | 'tarifs' | 'recrutement';
 
 export function FolioTopbar({ label, active }: { label?: string; active: Active }) {
   const t = useT();
@@ -22,6 +22,7 @@ export function FolioTopbar({ label, active }: { label?: string; active: Active 
     { key: 'tech', href: '/tech', label: t.nav.tech },
     { key: 'cv', href: '/cv', label: t.nav.cv },
     { key: 'tarifs', href: '/tarifs', label: t.nav.tarifs },
+    { key: 'recrutement', href: '/recrutement', label: t.nav.hiring },
   ];
 
   // Brand suffix: an explicit label wins, otherwise derive from the active page.
