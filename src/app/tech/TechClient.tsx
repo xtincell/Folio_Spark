@@ -134,6 +134,20 @@ type Build = {
 
 const BUILDS: Build[] = [
   {
+    name: 'La Barre / Shinkiro',
+    tone: 'wip',
+    status: { fr: 'Refonte UX/UI · 2026', en: 'UX/UI redesign · 2026' },
+    role: { fr: 'Conception produit · UX/UI · Développement assisté par IA', en: 'Product conception · UX/UI · AI-assisted development' },
+    desc: {
+      fr: 'Le poste de travail du directeur de la création. Revue par pièce, contexte du brief, versions et retours client. Une brique métier de Shinkiro, le programme qui articule ADVE, outils et exécution. Les échanges automatiques entre produits restent à construire.',
+      en: 'The creative director’s workspace. Asset review, brief context, versions and client feedback. A professional tool within Shinkiro, connecting ADVE, tools and execution. Automated exchanges between products remain to be built.',
+    },
+    stack: ['Product design', 'UX/UI', 'JavaScript', 'CSS', 'Local-first'],
+    href: '/work/la-barre',
+    linkLabel: { fr: 'Lire le cas La Barre', en: 'Read the La Barre case study' },
+    thumb: '/work/cases/la-barre/bureau.png',
+  },
+  {
     name: 'Galahad',
     tone: 'live',
     status: { fr: 'En ligne · 2026', en: 'Live · 2026' },

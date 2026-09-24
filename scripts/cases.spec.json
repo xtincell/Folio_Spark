@@ -1,5 +1,57 @@
 [
   {
+    "slug": "la-barre",
+    "kind": "case",
+    "folder": "la-barre",
+    "source": "application-demo",
+    "name_fr": "La Barre — concevoir le poste de travail du DC",
+    "name_en": "La Barre — designing the creative director’s workspace",
+    "client_fr": "UPgraders / Shinkiro",
+    "client_en": "UPgraders / Shinkiro",
+    "year": "2026",
+    "hat": "strategy",
+    "medium": [
+      "UX/UI",
+      "Product design",
+      "Creative operations"
+    ],
+    "capture": true,
+    "context_fr": "La Barre traduit la pratique du directeur de la création en un outil de travail : brief, pistes, versions, retours et livraison. Le retour terrain à l’origine de la refonte : un principe jugé pertinent, mais une interface qui demande trop d’effort pour atteindre la décision.",
+    "context_en": "La Barre turns creative direction into a working tool: briefs, concepts, versions, feedback and delivery. Feedback behind the redesign pointed to a relevant concept, but an interface that required too much effort to reach a decision.",
+    "role_fr": "Conception produit, direction UX/UI et développement assisté par IA. Formalisation des gestes métier et du rôle de La Barre au sein du programme Shinkiro, porté par UPgraders.",
+    "role_en": "Product conception, UX/UI direction and AI-assisted development. Defining professional workflows and La Barre’s role within Shinkiro, the UPgraders programme.",
+    "process_fr": "Audit du parcours et du code, puis séparation de deux activités : examiner une création et traiter les engagements. Le Bureau réunit la pièce, sa version, son responsable et le brief. Les retours client restent individuels, avec les seuls livrables concernés. Recherche de projets, états vides, clavier et mise en page mobile complètent le parcours.",
+    "process_en": "A review of the interface and code separated two activities: examining creative work and managing commitments. The workspace brings together the asset, version, owner and brief. Client feedback stays individual, showing only affected deliverables. Project search, empty states, keyboard access and mobile layouts complete the flow.",
+    "result_fr": "Une refonte implémentée, avec une revue par pièce et une navigation projet simplifiée. Shinkiro documente le passage du cadrage ADVE au jugement créatif, puis à l’exécution. Les échanges automatiques avec Radar et Argos restent à construire. Les captures utilisent des données fictives ; aucun gain de productivité n’est revendiqué sans étude d’usage.",
+    "result_en": "An implemented redesign with asset-by-asset review and simpler project navigation. Shinkiro documents the path from ADVE framing to creative judgement and execution. Automated exchanges with Radar and Argos remain to be built. Screenshots use fictional data; no productivity gain is claimed without a user study.",
+    "proofs": [
+      {
+        "label": {
+          "fr": "Explorer La Barre",
+          "en": "Explore La Barre"
+        },
+        "host": "La Barre",
+        "url": "https://labarre.powerupgraders.com/"
+      },
+      {
+        "label": {
+          "fr": "Le code du produit",
+          "en": "Product source code"
+        },
+        "host": "GitHub",
+        "url": "https://github.com/xtincell/la-barre"
+      },
+      {
+        "label": {
+          "fr": "Le programme Shinkiro",
+          "en": "The Shinkiro programme"
+        },
+        "host": "GitHub",
+        "url": "https://github.com/xtincell/shinkiro"
+      }
+    ]
+  },
+  {
     "folder": "Friesland Campina", "source": "Friesland Campina", "slug": "friesland-campina", "kind": "case",
     "name_fr": "Peak & Bonnet Rouge — Campagnes saisonnières", "name_en": "Peak & Bonnet Rouge — Seasonal Campaigns",
     "client_fr": "FrieslandCampina (Peak, Bonnet Rouge)", "client_en": "FrieslandCampina (Peak, Bonnet Rouge)",
