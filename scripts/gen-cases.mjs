@@ -69,7 +69,7 @@ async function main() {
       console.warn(`⚠ pas de manifeste/hero pour ${s.slug} — ignoré`);
       continue;
     }
-    const mt = mockupType(s.mockupIdea, s.medium || []);
+    const mt = mockupType(s.mockupIdea || "", s.medium || []);
     const prompt = buildPrompt(s, mt);
     // galerie = tout sauf 01.webp (doublon du hero)
     const gallery = (m.gallery || []).filter((g) => !/\/01\.(webp|jpg)$/.test(g));
@@ -91,20 +91,22 @@ async function main() {
     hat: ${J(s.hat)},
     tags: ${J(s.medium || [])},
     hero: ${J(m.hero)},
-    context: ${bi(s.context_fr, s.context_en)},
+    context: ${bi(s.context_fr, s.context_en)},${['role', 'process', 'result'].filter(k => s[k + '_fr']).map(k => `
+    ${k}: ${bi(s[k + '_fr'], s[k + '_en'])},`).join('')}${s.proofs ? `
+    proofs: ${J(s.proofs)},` : ''}
     gallery: [
 ${galleryTs}
     ],
-    heroMockup: {
+    ${s.capture ? '' : `heroMockup: {
       type: ${J(mt.type)},
       dimensions: ${J(mt.dimensions)},
       prompt: ${J(prompt)},
       references: ${J(refs)},
-    },
+    },`}
   },`
     );
 
-    mdBlocks.push(
+    if (!s.capture) mdBlocks.push(
       `### ${s.name_fr} — \`${s.slug}\`\n` +
         `- **Client** : ${s.client_fr} · **Année** : ${s.year} · **Casquette** : ${s.hat}\n` +
         `- **Type de mockup** : ${mt.type} — **Dimensions** : \`${mt.dimensions}\` (${mt.orient})\n` +
@@ -128,7 +130,7 @@ ${galleryTs}
     `export const CASE_STUDIES: CaseStudy[] = [\n${entries.join('\n')}\n];\n\n` +
     `export const getCase = (slug: string): CaseStudy | undefined =>\n  CASE_STUDIES.find((c) => c.slug === slug);\n`;
 
-  await fs.writeFile(OUT_TS, ts);
+  await fs.writeFile(OUT_TS, ts.replace(/^ +$/gm, ''));
   console.log(`✓ ${path.relative(ROOT, OUT_TS)} — ${entries.length} cases`);
 
   const md =

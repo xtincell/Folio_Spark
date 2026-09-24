@@ -49,6 +49,25 @@ export const HAT_CODE: Record<CaseHat, string> = {
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
+    slug: "la-barre",
+    kind: "case",
+    name: { fr: "La Barre — concevoir le poste de travail du DC", en: "La Barre — designing the creative director’s workspace" },
+    client: { fr: "UPgraders / Shinkiro", en: "UPgraders / Shinkiro" },
+    year: "2026",
+    hat: "strategy",
+    tags: ["UX/UI","Product design","Creative operations"],
+    hero: "/work/cases/la-barre/bureau.png",
+    context: { fr: "La Barre traduit la pratique du directeur de la création en un outil de travail : brief, pistes, versions, retours et livraison. Le retour terrain à l’origine de la refonte : un principe jugé pertinent, mais une interface qui demande trop d’effort pour atteindre la décision.", en: "La Barre turns creative direction into a working tool: briefs, concepts, versions, feedback and delivery. Feedback behind the redesign pointed to a relevant concept, but an interface that required too much effort to reach a decision." },
+    role: { fr: "Conception produit, direction UX/UI et développement assisté par IA. Formalisation des gestes métier et du rôle de La Barre au sein du programme Shinkiro, porté par UPgraders.", en: "Product conception, UX/UI direction and AI-assisted development. Defining professional workflows and La Barre’s role within Shinkiro, the UPgraders programme." },
+    process: { fr: "Audit du parcours et du code, puis séparation de deux activités : examiner une création et traiter les engagements. Le Bureau réunit la pièce, sa version, son responsable et le brief. Les retours client restent individuels, avec les seuls livrables concernés. Recherche de projets, états vides, clavier et mise en page mobile complètent le parcours.", en: "A review of the interface and code separated two activities: examining creative work and managing commitments. The workspace brings together the asset, version, owner and brief. Client feedback stays individual, showing only affected deliverables. Project search, empty states, keyboard access and mobile layouts complete the flow." },
+    result: { fr: "Une refonte implémentée, avec une revue par pièce et une navigation projet simplifiée. Shinkiro documente le passage du cadrage ADVE au jugement créatif, puis à l’exécution. Les échanges automatiques avec Radar et Argos restent à construire. Les captures utilisent des données fictives ; aucun gain de productivité n’est revendiqué sans étude d’usage.", en: "An implemented redesign with asset-by-asset review and simpler project navigation. Shinkiro documents the path from ADVE framing to creative judgement and execution. Automated exchanges with Radar and Argos remain to be built. Screenshots use fictional data; no productivity gain is claimed without a user study." },
+    proofs: [{"label":{"fr":"Explorer La Barre","en":"Explore La Barre"},"host":"La Barre","url":"https://labarre.powerupgraders.com/"},{"label":{"fr":"Le code du produit","en":"Product source code"},"host":"GitHub","url":"https://github.com/xtincell/la-barre"},{"label":{"fr":"Le programme Shinkiro","en":"The Shinkiro programme"},"host":"GitHub","url":"https://github.com/xtincell/shinkiro"}],
+    gallery: [
+    { src: "/work/cases/la-barre/projets.png", span: 'full' as const },
+    ],
+    
+  },
+  {
     slug: "friesland-campina",
     kind: "case",
     name: { fr: "Peak & Bonnet Rouge — Campagnes saisonnières", en: "Peak & Bonnet Rouge — Seasonal Campaigns" },
@@ -608,13 +627,13 @@ export const CASE_STUDIES: CaseStudy[] = [
   {
     slug: "matanga-agency",
     kind: "case",
-    name: { fr: "MATANGA Agency — Casting & marque", en: "MATANGA Agency — Casting & Brand" },
-    client: { fr: "MATANGA Agency (venture)", en: "MATANGA Agency (venture)" },
+    name: { fr: "Matanga Agency — Casting & marque", en: "Matanga Agency — Casting & Brand" },
+    client: { fr: "Matanga Agency (venture)", en: "Matanga Agency (venture)" },
     year: "2026",
     hat: "art",
     tags: ["social","branding","illustration"],
     hero: "/work/cases/matanga-agency/hero.webp",
-    context: { fr: "Campagne d'appel à casting et contenu de marque pour MATANGA Agency (« We Love Brands ») : key visuals de casting (talents 30-50 ans), logo triple-pic et contenu mascotte 3D.", en: "Casting-call campaign and brand content for MATANGA Agency ('We Love Brands'): casting key visuals (talents 30-50), a triple-peak logo and 3D mascot content." },
+    context: { fr: "Campagne d'appel à casting et contenu de marque pour Matanga Agency (« We Love Brands ») : key visuals de casting (talents 30-50 ans), logo triple-pic et contenu mascotte 3D.", en: "Casting-call campaign and brand content for Matanga Agency ('We Love Brands'): casting key visuals (talents 30-50), a triple-peak logo and 3D mascot content." },
     gallery: [
     { src: "/work/cases/matanga-agency/02.webp", span: 'full' as const },
     { src: "/work/cases/matanga-agency/03.webp" },
@@ -625,7 +644,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroMockup: {
       type: "Mockup mobile / social",
       dimensions: "1242×2208",
-      prompt: "Crée un mockup mockup mobile / social photoréaliste, cadrage portrait 1242×2208, pour le projet « MATANGA Agency — Casting & marque » (MATANGA Agency (venture)). Mockup mobile/social du KV appel à casting en feed Instagram, board logo agence en appui. Reprends fidèlement le visuel de la marque depuis l'image de référence jointe (couleurs, typographie, composition). Lumière naturelle premium, contraste maîtrisé, rendu commercial haut de gamme, profondeur de champ réaliste, aucun texte inventé. Sortie nette haute résolution 1242×2208.",
+      prompt: "Crée un mockup mockup mobile / social photoréaliste, cadrage portrait 1242×2208, pour le projet « Matanga Agency — Casting & marque » (Matanga Agency (venture)). Mockup mobile/social du KV appel à casting en feed Instagram, board logo agence en appui. Reprends fidèlement le visuel de la marque depuis l'image de référence jointe (couleurs, typographie, composition). Lumière naturelle premium, contraste maîtrisé, rendu commercial haut de gamme, profondeur de champ réaliste, aucun texte inventé. Sortie nette haute résolution 1242×2208.",
       references: ["casting matanga 3 group.png","casting matanga 2presi.png","casting matanga 3.png"],
     },
   },

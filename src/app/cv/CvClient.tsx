@@ -36,10 +36,10 @@ const PARCOURS: TLEntry[] = [
     rolePrefix: { fr: 'Creative Group Head — ', en: 'Creative Group Head — ' },
     roleEm: { fr: 'CEO depuis 2023', en: 'CEO since 2023' },
     desc: {
-      fr: "Studio créatif IA-first. Pipelines calibrés par marque, prompts-systèmes versionnés, console unique brief → arbitrage → livrable. Conseil + production pour marques premium d'Afrique centrale.",
-      en: 'AI-first creative studio. Pipelines calibrated per brand, versioned system prompts, a single brief → arbitration → deliverable console. Consulting + production for premium Central-African brands.',
+      fr: "Direction du programme Shinkiro, qui articule méthode ADVE, outils métier et exécution. Conception de La Barre : poste de travail du directeur de la création, revue par pièce, décisions versionnées et suivi des retours. Conseil et production pour les marques d’Afrique centrale.",
+      en: 'Leading Shinkiro, connecting the ADVE method, professional tools and execution. Conceiving La Barre: a creative director’s workspace for asset review, versioned decisions and feedback tracking. Consulting and production for Central-African brands.',
     },
-    tags: ['Strategy', 'AI workflows', 'Brand systems'],
+    tags: ['Strategy', 'Product design', 'Shinkiro'],
   },
   {
     when: '2023 — …',
@@ -178,6 +178,7 @@ const SKILLS: SkillBlock[] = [
   {
     title: { fr: 'Tech & IA', en: 'Tech & AI' },
     rows: [
+      { label: { fr: 'Conception UX/UI métier', en: 'Professional UX/UI design' }, meta: { fr: 'La Barre', en: 'La Barre' } },
       { label: { fr: 'Pipelines IA gouvernés', en: 'Governed AI pipelines' }, meta: { fr: 'UPgraders', en: 'UPgraders' } },
       { label: { fr: 'Shopify · Quanta Hive', en: 'Shopify · Quanta Hive' }, meta: { fr: 'opérationnel', en: 'operational' } },
       { label: { fr: 'Prompts-systèmes versionnés', en: 'Versioned system prompts' }, meta: { fr: 'signature', en: 'signature' } },
@@ -297,6 +298,17 @@ export function CvClient() {
               </li>
             </ul>
           </div>
+        </section>
+
+        <section className={styles.productCase} aria-labelledby="la-barre-cv">
+          <div>
+            <p>{lang === 'fr' ? 'Réalisation produit / 2026' : 'Product work / 2026'}</p>
+            <h2 id="la-barre-cv">{lang === 'fr' ? 'La Barre, au sein de Shinkiro.' : 'La Barre, within Shinkiro.'}</h2>
+            <p>{lang === 'fr'
+              ? 'Concevoir l’outil de son métier : relier brief, création et décision dans un même espace de travail. Conception produit, direction UX/UI et développement assisté par IA.'
+              : 'Designing the tool of my own profession: connecting briefs, creative work and decisions in one workspace. Product conception, UX/UI direction and AI-assisted development.'}</p>
+          </div>
+          <Link href="/work/la-barre">{lang === 'fr' ? 'Voir le cas La Barre' : 'View the La Barre case study'} ↗</Link>
         </section>
 
         <section className={styles.section}>
