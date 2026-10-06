@@ -1,302 +1,205 @@
 'use client';
-
-import { useMemo, useState } from 'react';
-import styles from '@/styles/galerie.module.css';
-import { CONTACT } from '@/components/folio/data/contact';
-import { FolioTopbar } from '@/components/folio/FolioTopbar';
+import { useState } from 'react';
+import { LOCAL_GALLERY_COVERS } from '@/lib/gallery-assets';
 import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
-import { YOUTUBE_VIDEOS, SOCIAL_PROFILES } from '@/components/folio/data/social-feed';
-import { useT, useLang, pick, type Lang } from '@/lib/i18n';
-
-// Map the auto-synced French category strings to English equivalents.
+import {
+  YOUTUBE_VIDEOS,
+  SOCIAL_PROFILES,
+} from '@/components/folio/data/social-feed';
+import { useLang } from '@/lib/i18n';
+import {
+  StudioShell,
+  Arrow,
+  Spark,
+  SectionHeading,
+} from '@/components/studio/Studio';
+import s from '@/styles/studio.module.css';
 const CATEGORY_EN: Record<string, string> = {
-  'Événement': 'Event',
+  Événement: 'Event',
   'Festival · Pop culture': 'Festival · Pop culture',
-  'Corporate': 'Corporate',
-  'Mariage': 'Wedding',
+  Corporate: 'Corporate',
+  Mariage: 'Wedding',
   'Portrait · Musique': 'Portrait · Music',
-  'Portrait': 'Portrait',
-  'Reportage': 'Reportage',
+  Portrait: 'Portrait',
+  Reportage: 'Documentary',
 };
-
-// Localise French month abbreviations inside auto-synced dates.
-const MONTHS_EN: Record<string, string> = {
-  'janv.': 'Jan',
-  'févr.': 'Feb',
-  'mars': 'Mar',
-  'avr.': 'Apr',
-  'mai': 'May',
-  'juin': 'Jun',
-  'juil.': 'Jul',
-  'août': 'Aug',
-  'sept.': 'Sep',
-  'oct.': 'Oct',
-  'nov.': 'Nov',
-  'déc.': 'Dec',
-};
-
-function localizeCategory(cat: string | undefined, lang: Lang): string | undefined {
-  if (!cat) return cat;
-  return lang === 'en' ? CATEGORY_EN[cat] ?? cat : cat;
-}
-
-function localizeDate(date: string | undefined, lang: Lang): string | undefined {
-  if (!date || lang !== 'en') return date;
-  // "6 sept. 2025" → "Sep 6, 2025"
-  const m = date.match(/^(\d{1,2})\s+([^\s]+)\s+(\d{4})$/);
-  if (m) {
-    const [, day, mon, year] = m;
-    const en = MONTHS_EN[mon ?? ''];
-    if (en) return `${en} ${day}, ${year}`;
-  }
-  return date;
-}
-
-export function GalerieClient() {
-  const t = useT();
+function RemoteImage({
+  src,
+  alt,
+  position,
+}: {
+  src: string;
+  alt: string;
+  position?: string;
+}) {
+  const [failed, setFailed] = useState(false);
   const { lang } = useLang();
-  const [activeCat, setActiveCat] = useState<string>('all');
-
+  return failed ? (
+    <div className={s.galleryUnavailable}>
+      <Spark />
+      <span>{alt}</span>
+      <small>
+        {lang === 'fr'
+          ? 'Voir la collection sur sa plateforme ↗'
+          : 'View the collection on its platform ↗'}
+      </small>
+    </div>
+  ) : (
+    <img
+      src={src}
+      alt={alt}
+      loading="lazy"
+      decoding="async"
+      style={{ objectPosition: position }}
+      onError={() => setFailed(true)}
+    />
+  );
+}
+export function GalerieClient() {
+  const { lang } = useLang();
+  const L = (fr: string, en: string) => (lang === 'fr' ? fr : en);
+  const [category, setCategory] = useState('all');
   const categories = Array.from(
-    new Set(GALLERIES.map((g) => g.category).filter(Boolean) as string[]),
-  );
-
-  const shown = useMemo(
-    () => (activeCat === 'all' ? GALLERIES : GALLERIES.filter((g) => g.category === activeCat)),
-    [activeCat],
-  );
-
+    new Set(GALLERIES.map((g) => g.category).filter(Boolean))
+  ) as string[];
+  const selectedCollections = [...GALLERIES].sort((a, b) => Number(!!LOCAL_GALLERY_COVERS[b.slug]) - Number(!!LOCAL_GALLERY_COVERS[a.slug]));
+  const shown = category === 'all' ? selectedCollections : selectedCollections.filter(g => g.category === category);
   return (
-    <div className={styles.folioRoot}>
-      <FolioTopbar active="galerie" />
-
-      <main id="contenu">
-        <section className={styles.head}>
-          <div className={styles.eyebrow}>
-            {t.nav.gallery.toUpperCase()} <span className="sep">·</span> {GALLERIES.length}{' '}
-            {t.gallery.collections}
-            <span className="sep">·</span> {t.gallery.hosted}
-          </div>
-          <h1 className={styles.title}>
-            {t.gallery.h1a}<em>{t.gallery.h1em}</em>.
-          </h1>
-          <p className={styles.lede}>{t.gallery.lede}</p>
-        </section>
-
-        <div
-          className={styles.filters}
-          role="group"
-          aria-label={pick({ fr: 'Filtrer par catégorie', en: 'Filter by category' }, lang)}
-        >
-          <button
-            type="button"
-            aria-pressed={activeCat === 'all'}
-            onClick={() => setActiveCat('all')}
+    <StudioShell>
+      <header className={s.pageHead}>
+        <span className={s.eyebrow}>
+          {L('Photographie / Collections', 'Photography / Collections')} —{' '}
+          {GALLERIES.length}
+        </span>
+        <h1>
+          {L('L’œil.', 'The eye.')}
+          <br />
+          <em>{L('Et ce qui reste.', 'And what stays.')}</em>
+        </h1>
+        <div className={s.pageIntro}>
+          <p>
+            {L(
+              'Un regard sur les gens, les lieux, les moments. Portraits, mariages, festivals et reportages : les collections complètes vous attendent sur Pixieset.',
+              'An eye for people, places, moments. Portraits, weddings, festivals and documentary work: explore the complete collections on Pixieset.'
+            )}
+          </p>
+          <a
+            className={s.pillLink}
+            href="https://xtincell.pixieset.com"
+            target="_blank"
+            rel="noreferrer"
           >
-            {pick({ fr: 'Toutes', en: 'All' }, lang)}{' '}
-            <span className={styles.filterCount}>{GALLERIES.length}</span>
-          </button>
-          {categories.map((c) => (
+            Pixieset
+            <Arrow diagonal />
+          </a>
+        </div>
+      </header>
+      <div className={s.filterBar}>
+        <div
+          className={s.filters}
+          role="group"
+          aria-label={L('Filtrer les collections', 'Filter collections')}
+        >
+          {['all', ...categories].map((cat) => (
             <button
-              key={c}
               type="button"
-              aria-pressed={activeCat === c}
-              onClick={() => setActiveCat(c)}
+              key={cat}
+              aria-pressed={category === cat}
+              onClick={() => setCategory(cat)}
             >
-              {localizeCategory(c, lang)}{' '}
-              <span className={styles.filterCount}>
-                {GALLERIES.filter((g) => g.category === c).length}
-              </span>
+              {cat === 'all'
+                ? L('Tout voir', 'View all')
+                : lang === 'en'
+                  ? CATEGORY_EN[cat] || cat
+                  : cat}
             </button>
           ))}
         </div>
-
-        <section className={styles.grid}>
+      </div>
+      <div className={s.results}>
+        <span role="status" aria-live="polite">
+          {shown.length} {L('collections', 'collections')}
+        </span>
+        <span>PIXIESET ↗</span>
+      </div>
+      <section
+        className={s.workContent}
+        aria-label={L('Collections photographiques', 'Photography collections')}
+      >
+        <div className={s.galleryGrid}>
           {shown.map((g) => (
             <a
+              className={s.galleryCard}
               key={g.slug}
-              className={styles.card}
               href={galleryUrl(g)}
               target="_blank"
-              rel="noopener noreferrer"
-              aria-label={t.gallery.openGallery(g.title)}
+              rel="noreferrer"
+              aria-label={`${g.title} — Pixieset (${L('nouvel onglet', 'new tab')})`}
             >
-              <div
-                className={styles.cover}
-                style={{
-                  backgroundImage: `url(${g.cover})`,
-                  backgroundPosition: g.bgPosition ?? '50% 50%',
-                }}
-              />
-              <div className={styles.coverOverlay} />
-              <span className={styles.arrow} aria-hidden="true">↗</span>
-              <span className={styles.sourcePatch}>via Pixieset</span>
-              {g.locked ? (
-                <span className={styles.lockBadge}>
-                  <svg
-                    width="10"
-                    height="10"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    aria-hidden="true"
-                  >
-                    <rect x="3" y="7" width="10" height="7" rx="1" />
-                    <path d="M5 7V5a3 3 0 016 0v2" />
-                  </svg>
-                  {t.gallery.private}
-                </span>
-              ) : null}
-              <div className={styles.meta}>
-                {g.category ? (
-                  <span className={styles.cat}>{localizeCategory(g.category, lang)}</span>
-                ) : null}
-                <h3 className={styles.cardTitle}>{g.title}</h3>
-                {g.date ? <span className={styles.date}>{localizeDate(g.date, lang)}</span> : null}
+              <div className={s.galleryImage}>
+                <RemoteImage
+                  src={LOCAL_GALLERY_COVERS[g.slug] || g.cover}
+                  alt={g.title}
+                  position={g.bgPosition}
+                />
+                {g.locked && (
+                  <span>{L('Collection privée', 'Private collection')} ◇</span>
+                )}
               </div>
+              <h2>{g.title} ↗</h2>
+              <p>
+                {lang === 'en'
+                  ? CATEGORY_EN[g.category || ''] || g.category
+                  : g.category}
+              </p>
             </a>
           ))}
-        </section>
-
-        {/* ============ "Also on" — multi-platform ============ */}
-        <section className={styles.altHead}>
-          <div className={styles.eyebrow}>
-            {t.gallery.altEyebrow}
-            <span className="sep">·</span> {YOUTUBE_VIDEOS.length} {t.gallery.videos}
-          </div>
-          <h2 className={styles.altTitle}>
-            {t.gallery.altTitleA}<em>{t.gallery.altTitleEm}</em>.
-          </h2>
-          <p className={styles.lede}>{t.gallery.altLede}</p>
-        </section>
-
-        <section className={styles.ytGrid}>
+        </div>
+      </section>
+      <section className={s.section}>
+        <SectionHeading
+          number="02"
+          title={L('L’image en mouvement.', 'The moving image.')}
+        >
+          <p>
+            {L(
+              'Films, capsules et récits visuels. À retrouver sur les plateformes d’origine.',
+              'Films, short stories and visual narratives. Watch on their original platforms.'
+            )}
+          </p>
+        </SectionHeading>
+        <div className={s.mediaGrid}>
           {YOUTUBE_VIDEOS.map((v) => (
             <a
               key={v.id}
-              className={styles.ytCard}
               href={v.watchUrl}
               target="_blank"
-              rel="noopener noreferrer"
-              aria-label={t.gallery.watch(v.title)}
+              rel="noreferrer"
+              className={s.mediaCard}
             >
-              <div className={styles.ytCover} style={{ backgroundImage: `url(${v.thumb})` }}>
-                <span className={styles.ytPlay} aria-hidden="true">
-                  <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
-                    <circle cx="22" cy="22" r="22" fill="oklch(0.05 0 0 / 0.6)" />
-                    <path d="M18 14l12 8-12 8V14z" fill="currentColor" />
-                  </svg>
-                </span>
-                <span className={styles.coverOverlay} />
+              <div>
+                <RemoteImage src={v.thumb} alt={v.title} />
+                <span aria-hidden="true">▶</span>
               </div>
-              <span className={styles.sourcePatch}>via YouTube</span>
-              <div className={styles.ytMeta}>
-                <h3 className={styles.ytTitle}>{v.title}</h3>
-                {v.date ? <span className={styles.date}>{localizeDate(v.date, lang)}</span> : null}
-              </div>
+              <h3>{v.title} ↗</h3>
             </a>
           ))}
-        </section>
-
-        <section className={styles.profileRow}>
+        </div>
+        <div className={s.sectionEnd}>
+          <span>
+            {L('Les images continuent ici.', 'The stories continue here.')}
+          </span>
           <a
-            className={styles.profileCard}
-            href={SOCIAL_PROFILES.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className={styles.profileIcon} aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" width="22" height="22">
-                <rect x="3" y="3" width="18" height="18" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-              </svg>
-            </div>
-            <div>
-              <div className={styles.profileLabel}>Instagram</div>
-              <div className={styles.profileHandle}>@xtincell</div>
-            </div>
-            <span className={styles.sourcePatch}>via Instagram</span>
-            <span className={styles.profileArrow} aria-hidden="true">↗</span>
-          </a>
-
-          <a
-            className={styles.profileCard}
-            href={SOCIAL_PROFILES.facebook}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className={styles.profileIcon} aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-                <path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1V10.5H7.5v3h2.8V21h3.2Z" />
-              </svg>
-            </div>
-            <div>
-              <div className={styles.profileLabel}>Facebook</div>
-              <div className={styles.profileHandle}>/xtincell</div>
-            </div>
-            <span className={styles.sourcePatch}>via Facebook</span>
-            <span className={styles.profileArrow} aria-hidden="true">↗</span>
-          </a>
-
-          <a
-            className={styles.profileCard}
             href={SOCIAL_PROFILES.youtube}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
+            className={s.pillLink}
           >
-            <div className={styles.profileIcon} aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-                <path d="M21.6 7.2a2.5 2.5 0 0 0-1.7-1.8C18.4 5 12 5 12 5s-6.4 0-7.9.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.7 1.8c1.5.4 7.9.4 7.9.4s6.4 0 7.9-.4a2.5 2.5 0 0 0 1.7-1.8c.3-1.6.4-3.2.4-4.8 0-1.6-.1-3.2-.4-4.8ZM10 15V9l5 3-5 3Z" />
-              </svg>
-            </div>
-            <div>
-              <div className={styles.profileLabel}>{t.gallery.ytFull}</div>
-              <div className={styles.profileHandle}>@x-tincell</div>
-            </div>
-            <span className={styles.sourcePatch}>via YouTube</span>
-            <span className={styles.profileArrow} aria-hidden="true">↗</span>
+            YouTube
+            <Arrow diagonal />
           </a>
-        </section>
-
-        <section className={styles.foot}>
-          <h2>
-            {t.gallery.footTitleA}<em>{t.gallery.footTitleEm}</em>
-            {t.gallery.footTitleB}
-          </h2>
-          <p>{t.gallery.footLede}</p>
-          <div className={styles.footRow}>
-            <a
-              className={styles.btn}
-              href={CONTACT.whatsappLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay}
-            </a>
-            <a
-              className={`${styles.btn} ${styles.btnGhost}`}
-              href={CONTACT.whatsappSecondaryLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay}
-            </a>
-            <a className={`${styles.btn} ${styles.btnGhost}`} href={`mailto:${CONTACT.email}`}>
-              Email — {CONTACT.email}
-            </a>
-            <a
-              className={`${styles.btn} ${styles.btnGhost}`}
-              href="https://xtincell.pixieset.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t.gallery.indexCta}
-            </a>
-          </div>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </StudioShell>
   );
 }

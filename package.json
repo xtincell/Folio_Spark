@@ -11,9 +11,13 @@
     "typecheck": "tsc --noEmit",
     "sync-galleries": "node scripts/sync-galleries.mjs",
     "sync-galleries:dry": "node scripts/sync-galleries.mjs --dry --verbose",
-    "export-pdf": "node scripts/export-pdf.mjs"
+    "export-pdf": "node scripts/export-pdf.mjs",
+    "render:showreel": "node scripts/build-showreel.mjs",
+    "check:studio": "node scripts/check-studio.mjs",
+    "check:interactions": "node scripts/check-studio-interactions.mjs"
   },
   "dependencies": {
+    "motion": "^14.0.0",
     "next": "15.5.14",
     "react": "19.1.0",
     "react-dom": "19.1.0",

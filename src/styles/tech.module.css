@@ -326,3 +326,22 @@
   .sectionHead { position: static; }
   .project:hover { transform: none; }
 }
+
+/* Same editorial architecture as the CV, with more space for product evidence. */
+.page { max-width: 1440px; padding: 64px 4vw 90px; }
+.head { gap: 5vw; padding-bottom: 48px; align-items: end; }
+.name { font-size: clamp(54px, 6.4vw, 104px); line-height: .98; margin-bottom: 20px; }
+.pdfBtn,.ghostBtn { min-height: 44px; padding: 11px 16px; font-size: 10px; letter-spacing: .07em; }
+.meta { background: var(--bg-2); border: 1px solid var(--line); padding: 24px; gap: 11px 20px; }
+.section { padding-top: 66px; gap: 5vw; }
+.sectionBody { max-width: none; }
+.sectionHead :global(.title) { font-size: clamp(30px, 3vw, 42px); line-height: 1.05; }
+.projects { gap: 26px; }
+.project { padding: 24px; background: var(--bg-2); border-color: var(--line); }
+.thumb { margin: -24px -24px 5px; aspect-ratio: 16 / 10; }
+.projectName { font-size: 32px; font-weight: 400; }
+.projectDesc { font-size: 14px; line-height: 1.75; }
+.projectLink { margin-top: auto; min-height: 44px; display: inline-flex; align-items: center; }
+@media(min-width:950px) { .head { grid-template-columns: 1.25fr 1fr; } .section { grid-template-columns: minmax(180px,.4fr) 1.6fr; } }
+@media(max-width:760px) { .page { padding: 40px 5vw 55px; } .name { font-size: 15vw; } .section { padding-top: 44px; } .meta { padding: 20px; } .sectionHead :global(.title) { font-size: 32px; } }
+@media print { .page { padding: 0; } .meta,.project { background: none; } }

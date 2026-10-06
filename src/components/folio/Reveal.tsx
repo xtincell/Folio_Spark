@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type CSSProperties, type ElementType, type
 
 type RevealProps = {
   children: ReactNode;
+  id?: string;
   as?: ElementType;
   className?: string;
   /** Stagger offset in ms applied to the transition. */
@@ -18,7 +19,7 @@ type RevealProps = {
  *  - reduced-motion or a missing IntersectionObserver short-circuits to shown=true;
  *  - one-shot (disconnects after first reveal).
  */
-export function Reveal({ children, as: Tag = 'div', className, delay = 0 }: RevealProps) {
+export function Reveal({ children, as: Tag = 'div', className, delay = 0, id }: RevealProps) {
   const ref = useRef<HTMLElement | null>(null);
   const [shown, setShown] = useState(false);
 
@@ -56,6 +57,7 @@ export function Reveal({ children, as: Tag = 'div', className, delay = 0 }: Reve
   return (
     <Element
       ref={ref}
+      id={id}
       className={className}
       data-reveal={shown ? 'in' : 'out'}
       style={delay ? ({ '--reveal-delay': `${delay}ms` } as CSSProperties) : undefined}

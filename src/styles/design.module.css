@@ -384,3 +384,24 @@
   .disciplines { grid-template-columns: 1fr; }
   .visualGrid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* English companion to the same Xtincell identity, now with actual project images. */
+.hero { padding: 64px 0 55px; }
+.heroTitle { font-size: clamp(54px, 6.8vw, 104px); }
+.wrap { max-width: 1440px; padding-inline: 4vw; }
+.section { padding-block: 62px; }
+.work { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 40px 28px; }
+.designProject { display: block; border: 0; padding: 0; background: none; }
+.designProjectImage { aspect-ratio: 1.3; position: relative; overflow: hidden; background: #222; }
+.designProjectImage img { object-fit: cover; transition: transform .65s ease; }
+.designProject:hover img { transform: scale(1.025); }
+.designProject h3 { font: 400 28px var(--serif); margin: 17px 0 8px; }
+.designProject p { color: var(--ink-3); font: 11px var(--mono); margin: 0; line-height: 1.7; }
+.designProject small { color: var(--accent); margin-top: 10px; display: block; font: 10px var(--mono); }
+.designProject:focus-visible { outline-offset: 6px; }
+@media(max-width:760px) { .wrap { padding-inline: 5vw; } .hero { padding-block: 40px; } .heroTitle { font-size: 14vw; } .section { padding-block: 42px; } .work { gap: 28px 16px; } .designProject h3 { font-size: 22px; } }
+@media(max-width:430px) { .work { grid-template-columns: 1fr; } }
+
+/* Explicit link/button contrast; root anchor inheritance must not erase button ink. */
+.designRoot a.btn:not(.btnGhost) { color: #101010; }
+.designRoot .sectionLede a { text-decoration: underline; text-underline-offset: 4px; }

@@ -1168,3 +1168,8 @@
   margin: 0;
 }
 
+
+/* Readable CTA ink across the inherited agency palette. */
+.folioRoot a.footerCta { color: #121210; }
+.folioRoot a.footerCta span { color: inherit; }
+.serviceTag { color: #b4ada2; }

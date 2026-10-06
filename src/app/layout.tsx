@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Instrument_Serif, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
+import localFont from 'next/font/local';
 import '@/styles/globals.css';
 import { CommandPalette } from '@/components/folio/CommandPalette';
 import { PageTransition } from '@/components/folio/PageTransition';
@@ -7,26 +7,26 @@ import { LanguageProvider } from '@/lib/i18n';
 import { SkipLink } from '@/components/folio/SkipLink';
 import { SiteJsonLd } from '@/components/folio/SiteJsonLd';
 
-const instrumentSerif = Instrument_Serif({
-  subsets: ['latin'],
-  weight: '400',
-  style: ['normal', 'italic'],
-  variable: '--folio-serif',
-  display: 'swap',
+const instrumentSerif = localFont({
+  src: [
+    { path: '../../public/fonts/instrument-serif-latin-400-normal.woff2', weight: '400', style: 'normal' },
+    { path: '../../public/fonts/instrument-serif-latin-400-italic.woff2', weight: '400', style: 'italic' },
+  ], variable: '--folio-serif', display: 'swap',
 });
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
-  variable: '--folio-grotesk',
-  display: 'swap',
+const spaceGrotesk = localFont({
+  src: [
+    { path: '../../public/fonts/space-grotesk-latin-300-normal.woff2', weight: '300' },
+    { path: '../../public/fonts/space-grotesk-latin-400-normal.woff2', weight: '400' },
+    { path: '../../public/fonts/space-grotesk-latin-500-normal.woff2', weight: '500' },
+    { path: '../../public/fonts/space-grotesk-latin-600-normal.woff2', weight: '600' },
+    { path: '../../public/fonts/space-grotesk-latin-700-normal.woff2', weight: '700' },
+  ], variable: '--folio-grotesk', display: 'swap',
 });
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  variable: '--folio-mono',
-  display: 'swap',
+const jetbrainsMono = localFont({
+  src: [
+    { path: '../../public/fonts/jetbrains-mono-latin-400-normal.woff2', weight: '400' },
+    { path: '../../public/fonts/jetbrains-mono-latin-500-normal.woff2', weight: '500' },
+  ], variable: '--folio-mono', display: 'swap',
 });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.powerupgraders.com';

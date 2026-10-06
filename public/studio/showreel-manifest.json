@@ -1,0 +1,317 @@
+{
+  "version": 2,
+  "title": "Xtincell — L’ingénieur derrière l’image",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 48,
+  "audio": false,
+  "renderer": "Deterministic Canvas 2D composition / Chromium / FFmpeg H.264",
+  "generatedPresentations": [
+    "/studio/peak-billboard.webp",
+    "/studio/robuste-packaging.webp"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "title": "Ignition",
+      "motion": "Authentic spark, masked wordmark, resolving brand grid"
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "title": "Vision",
+      "motion": "Staggered kinetic typography and sliding artwork windows"
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "title": "Peak",
+      "motion": "Anchored campaign, opposing detail planes, environmental reveal"
+    },
+    {
+      "start": 14,
+      "end": 20,
+      "title": "Packaging",
+      "motion": "Three opposing shutters, Goodlocs to Robuste material match cut"
+    },
+    {
+      "start": 20,
+      "end": 26,
+      "title": "Direction artistique",
+      "motion": "Hero portrait splits into editorial triptych; protected faces"
+    },
+    {
+      "start": 26,
+      "end": 32,
+      "title": "Photographie",
+      "motion": "Continuous tilted contact strip; eight existing photographs"
+    },
+    {
+      "start": 32,
+      "end": 36,
+      "title": "Toolsmith",
+      "motion": "Sequential vector nodes, progressive links, workflow diagram"
+    },
+    {
+      "start": 36,
+      "end": 43,
+      "title": "Index",
+      "motion": "39 artwork planes assemble in depth, then converge into spark"
+    },
+    {
+      "start": 43,
+      "end": 48,
+      "title": "Signature",
+      "motion": "Wordmark, portrait and typography resolve into opening mark"
+    }
+  ],
+  "projects": [
+    {
+      "project": "la-barre",
+      "source": "/studio/la-barre.svg"
+    },
+    {
+      "project": "friesland-campina",
+      "source": "/work/cases/friesland-campina/hero.webp"
+    },
+    {
+      "project": "ecobank",
+      "source": "/work/cases/ecobank/hero.webp"
+    },
+    {
+      "project": "nsia",
+      "source": "/work/cases/nsia/hero.webp"
+    },
+    {
+      "project": "la-vache-qui-rit",
+      "source": "/work/cases/la-vache-qui-rit/hero.webp"
+    },
+    {
+      "project": "lapasta",
+      "source": "/work/cases/lapasta/hero.webp"
+    },
+    {
+      "project": "cadyst-grain",
+      "source": "/work/cases/cadyst-grain/hero.webp"
+    },
+    {
+      "project": "cap-esterias",
+      "source": "/work/cases/cap-esterias/hero.webp"
+    },
+    {
+      "project": "goodlocs",
+      "source": "/work/cases/goodlocs/hero.webp"
+    },
+    {
+      "project": "robuste",
+      "source": "/work/cases/robuste/hero.webp"
+    },
+    {
+      "project": "cosmo-boba",
+      "source": "/work/cases/cosmo-boba/hero.webp"
+    },
+    {
+      "project": "brasseries-du-cameroun",
+      "source": "/work/cases/brasseries-du-cameroun/hero.webp"
+    },
+    {
+      "project": "banahealth",
+      "source": "/work/cases/banahealth/hero.webp"
+    },
+    {
+      "project": "bams-btp",
+      "source": "/work/cases/bams-btp/hero.webp"
+    },
+    {
+      "project": "amigo",
+      "source": "/work/cases/amigo/hero.webp"
+    },
+    {
+      "project": "tradex",
+      "source": "/work/cases/tradex/hero.webp"
+    },
+    {
+      "project": "spawt",
+      "source": "/work/cases/spawt/hero.webp"
+    },
+    {
+      "project": "delys",
+      "source": "/work/cases/delys/hero.webp"
+    },
+    {
+      "project": "enseigne",
+      "source": "/work/cases/enseigne/hero.webp"
+    },
+    {
+      "project": "cover-musical",
+      "source": "/work/cases/cover-musical/hero.webp"
+    },
+    {
+      "project": "musina-festival",
+      "source": "/work/cases/musina-festival/hero.webp"
+    },
+    {
+      "project": "friendsfood",
+      "source": "/work/cases/friendsfood/hero.webp"
+    },
+    {
+      "project": "upgraders-case",
+      "source": "/work/cases/upgraders-case/hero.webp"
+    },
+    {
+      "project": "xtincell-brand",
+      "source": "/work/cases/xtincell-brand/hero.webp"
+    },
+    {
+      "project": "motion19-store",
+      "source": "/work/cases/motion19-store/hero.webp"
+    },
+    {
+      "project": "friends-studio",
+      "source": "/work/cases/friends-studio/hero.webp"
+    },
+    {
+      "project": "matanga-agency",
+      "source": "/work/cases/matanga-agency/hero.webp"
+    },
+    {
+      "project": "kof-festival",
+      "source": "/work/cases/kof-festival/hero.webp"
+    },
+    {
+      "project": "tcg-bonnet-rouge",
+      "source": "/work/cases/tcg-bonnet-rouge/hero.webp"
+    },
+    {
+      "project": "charadesign",
+      "source": "/work/cases/charadesign/hero.webp"
+    },
+    {
+      "project": "popcorn-man",
+      "source": "/work/cases/popcorn-man/hero.webp"
+    },
+    {
+      "project": "stylisme",
+      "source": "/work/cases/stylisme/hero.webp"
+    },
+    {
+      "project": "hero-shot",
+      "source": "/work/cases/hero-shot/hero.webp"
+    },
+    {
+      "project": "frutas",
+      "source": "/work/cases/frutas/hero.webp"
+    },
+    {
+      "project": "robuste-packaging",
+      "source": "/work/cases/robuste-packaging/hero.webp"
+    },
+    {
+      "project": "hogwarts-short-story",
+      "source": "/work/cases/hogwarts-short-story/hero.webp"
+    },
+    {
+      "project": "villa-corso",
+      "source": "/work/cases/villa-corso/hero.webp"
+    },
+    {
+      "project": "florida",
+      "source": "/work/cases/florida/hero.webp"
+    },
+    {
+      "project": "faire-part",
+      "source": "/work/cases/faire-part/hero.webp"
+    }
+  ],
+  "photos": [
+    {
+      "project": "01-kof-festival-2024",
+      "source": "/work/galerie-pixieset/01-kof-festival-2024.jpg"
+    },
+    {
+      "project": "02-shevolution-2025",
+      "source": "/work/galerie-pixieset/02-shevolution-2025.jpg"
+    },
+    {
+      "project": "03-lydol-portrait",
+      "source": "/work/galerie-pixieset/03-lydol-portrait.jpg"
+    },
+    {
+      "project": "04-h3riq-portrait",
+      "source": "/work/galerie-pixieset/04-h3riq-portrait.jpg"
+    },
+    {
+      "project": "05-afrobit-evenement",
+      "source": "/work/galerie-pixieset/05-afrobit-evenement.jpg"
+    },
+    {
+      "project": "06-ammco-corporate",
+      "source": "/work/galerie-pixieset/06-ammco-corporate.jpg"
+    },
+    {
+      "project": "07-roadtrip-nord",
+      "source": "/work/galerie-pixieset/07-roadtrip-nord.jpg"
+    },
+    {
+      "project": "08-mounpoubeyi-portrait",
+      "source": "/work/galerie-pixieset/08-mounpoubeyi-portrait.jpg"
+    }
+  ],
+  "sources": [
+    "/studio/la-barre.svg",
+    "/work/cases/friesland-campina/hero.webp",
+    "/work/cases/ecobank/hero.webp",
+    "/work/cases/nsia/hero.webp",
+    "/work/cases/la-vache-qui-rit/hero.webp",
+    "/work/cases/lapasta/hero.webp",
+    "/work/cases/cadyst-grain/hero.webp",
+    "/work/cases/cap-esterias/hero.webp",
+    "/work/cases/goodlocs/hero.webp",
+    "/work/cases/robuste/hero.webp",
+    "/work/cases/cosmo-boba/hero.webp",
+    "/work/cases/brasseries-du-cameroun/hero.webp",
+    "/work/cases/banahealth/hero.webp",
+    "/work/cases/bams-btp/hero.webp",
+    "/work/cases/amigo/hero.webp",
+    "/work/cases/tradex/hero.webp",
+    "/work/cases/spawt/hero.webp",
+    "/work/cases/delys/hero.webp",
+    "/work/cases/enseigne/hero.webp",
+    "/work/cases/cover-musical/hero.webp",
+    "/work/cases/musina-festival/hero.webp",
+    "/work/cases/friendsfood/hero.webp",
+    "/work/cases/upgraders-case/hero.webp",
+    "/work/cases/xtincell-brand/hero.webp",
+    "/work/cases/motion19-store/hero.webp",
+    "/work/cases/friends-studio/hero.webp",
+    "/work/cases/matanga-agency/hero.webp",
+    "/work/cases/kof-festival/hero.webp",
+    "/work/cases/tcg-bonnet-rouge/hero.webp",
+    "/work/cases/charadesign/hero.webp",
+    "/work/cases/popcorn-man/hero.webp",
+    "/work/cases/stylisme/hero.webp",
+    "/work/cases/hero-shot/hero.webp",
+    "/work/cases/frutas/hero.webp",
+    "/work/cases/robuste-packaging/hero.webp",
+    "/work/cases/hogwarts-short-story/hero.webp",
+    "/work/cases/villa-corso/hero.webp",
+    "/work/cases/florida/hero.webp",
+    "/work/cases/faire-part/hero.webp",
+    "/work/galerie-pixieset/01-kof-festival-2024.jpg",
+    "/work/galerie-pixieset/02-shevolution-2025.jpg",
+    "/work/galerie-pixieset/03-lydol-portrait.jpg",
+    "/work/galerie-pixieset/04-h3riq-portrait.jpg",
+    "/work/galerie-pixieset/05-afrobit-evenement.jpg",
+    "/work/galerie-pixieset/06-ammco-corporate.jpg",
+    "/work/galerie-pixieset/07-roadtrip-nord.jpg",
+    "/work/galerie-pixieset/08-mounpoubeyi-portrait.jpg",
+    "/logos/spark-mark.svg",
+    "/portrait-p2.jpg",
+    "/studio/peak-billboard.webp",
+    "/studio/robuste-packaging.webp",
+    "/work/cases/goodlocs/01.webp",
+    "/work/cases/goodlocs/02.webp"
+  ]
+}

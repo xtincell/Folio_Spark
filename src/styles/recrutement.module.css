@@ -189,3 +189,14 @@
 @media (prefers-reduced-motion: reduce) {
   .folioRoot * { transition: none !important; animation: none !important; }
 }
+
+/* Recruitment is an editorial dossier, with direct navigation to evidence and contact. */
+.shell { width: min(1280px, calc(100vw - 8vw)); }
+.hero { padding-block: 62px 50px; }
+.heroTitle { font-size: clamp(48px, 6.3vw, 96px); line-height: 1; }
+.heroLede { max-width: 66ch; line-height: 1.75; }
+.section { padding-block: 58px; }
+.secTitle { font-size: clamp(34px, 3.7vw, 56px); }
+.step { background: var(--bg-2); border-color: var(--line); }
+.btn { min-height: 46px; letter-spacing: .08em; }
+@media(max-width:760px) { .shell { width: calc(100vw - 10vw); } .hero { padding-block: 40px; } .heroTitle { font-size: 13vw; } .section { padding-block: 40px; } }

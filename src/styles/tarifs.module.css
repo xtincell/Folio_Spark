@@ -744,3 +744,12 @@ a.gpCase:hover { border-color: var(--line-2); transform: translateY(-2px); }
   .kicker, .h1, .lede, .heroControls, .heroFacts, .heroSign,
   .dot, .faqItem p { animation: none !important; }
 }
+
+/* Quicker paths through a rich offer catalogue; the fixed section index handles navigation. */
+.hero { min-height: auto; padding-block: 65px 55px; }
+.h1 { font-size: clamp(54px, 7vw, 106px); }
+.section { padding-block: 58px; }
+.sectionLede { max-width: 66ch; line-height: 1.75; }
+.heroControls { gap: 20px; }
+.heroCta,.curBtn { min-height: 44px; }
+@media(max-width:760px) { .hero { padding-block: 40px; } .section { padding-block: 38px; } .h1 { font-size: 14vw; } }

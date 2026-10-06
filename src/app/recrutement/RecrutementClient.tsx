@@ -1,5 +1,9 @@
 'use client';
 
+import { PageIndex } from '@/components/studio/PageIndex';
+import { StudioFooter } from '@/components/studio/Studio';
+import pageStudio from '@/styles/studioPages.module.css';
+
 import styles from '@/styles/recrutement.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
@@ -148,11 +152,13 @@ const PARCOURS = [
 
 export function RecrutementClient() {
   return (
-    <div className={styles.folioRoot}>
+    <div className={`${styles.folioRoot} ${pageStudio.root}`}>
       <FolioTopbar active="recrutement" label="RECRUTEMENT" />
+      <PageIndex items={[{ id: 'profil', fr: 'Profil', en: 'Profile' }, { id: 'campagnes', fr: 'Campagnes', en: 'Campaigns' }, { id: 'competences', fr: 'Compétences', en: 'Skills' }, { id: 'parcours', fr: 'Parcours', en: 'Experience' }, { id: 'coordonnees', fr: 'Coordonnées', en: 'Contact' }]} />
+      <main id="contenu">
 
       {/* ══ HERO ══ */}
-      <section className={styles.hero}>
+      <section className={styles.hero} id="profil">
         <div className={styles.shell}>
           <p className={styles.eyebrow}>Candidature · CDI · Temps plein · Afrique francophone</p>
           <h1 className={styles.heroTitle}>
@@ -259,7 +265,7 @@ export function RecrutementClient() {
       </section>
 
       {/* ══ LE RÔLE ══ */}
-      <section className={styles.section}>
+      <section className={styles.section} id="methode">
         <div className={styles.shell}>
           <p className={styles.secNum}>§ 02 — Le rôle tenu</p>
           <h2 className={styles.secTitle}>Cadrer · Concevoir · Produire.</h2>
@@ -304,7 +310,7 @@ export function RecrutementClient() {
       </section>
 
       {/* ══ COMPÉTENCES ══ */}
-      <section className={styles.section}>
+      <section className={styles.section} id="competences">
         <div className={styles.shell}>
           <p className={styles.secNum}>§ 03 — Les compétences du poste</p>
           <h2 className={styles.secTitle}>Quatre compétences de direction.</h2>
@@ -341,7 +347,7 @@ export function RecrutementClient() {
       </section>
 
       {/* ══ RÉPARTITION ══ */}
-      <section className={styles.section}>
+      <section className={styles.section} id="lecture">
         <div className={styles.shell}>
           <p className={styles.secNum}>§ 04 — Lecture du folio</p>
           <h2 className={styles.secTitle}>Ce que ce dossier montre, et dans quelle proportion.</h2>
@@ -411,7 +417,7 @@ export function RecrutementClient() {
       </section>
 
       {/* ══ PARCOURS ══ */}
-      <section className={styles.section}>
+      <section className={styles.section} id="parcours">
         <div className={styles.shell}>
           <p className={styles.secNum}>§ 06 — Parcours</p>
           <h2 className={styles.secTitle}>Une trajectoire construite par responsabilités.</h2>
@@ -432,7 +438,7 @@ export function RecrutementClient() {
       </section>
 
       {/* ══ CONTACT ══ */}
-      <section className={styles.contact}>
+      <section className={styles.contact} id="coordonnees">
         <div className={styles.shell}>
           <p className={styles.secNum}>§ 07 — Prendre contact</p>
           <h2 className={styles.secTitle}>Vous recrutez un directeur artistique&nbsp;?</h2>
@@ -482,6 +488,8 @@ export function RecrutementClient() {
           </div>
         </div>
       </section>
+      </main>
+      <StudioFooter />
     </div>
   );
 }

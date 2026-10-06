@@ -1,9 +1,15 @@
+import { PageIndex } from '@/components/studio/PageIndex';
+import { StudioFooter } from '@/components/studio/Studio';
+import pageStudio from '@/styles/studioPages.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
+import { LOCAL_GALLERY_COVERS } from '@/lib/gallery-assets';
+import { CASE_STUDIES } from '@/components/folio/data/cases';
+import { agencyForCase } from '@/components/folio/agencyCredit';
 import { pageMeta } from '@/lib/page-meta';
 import styles from '@/styles/design.module.css';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { CONTACT } from '@/components/folio/data/contact';
-import { PRACTICES } from '@/components/folio/data/practices';
 import { STEPS } from '@/components/folio/data/method';
 import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
 
@@ -52,23 +58,19 @@ const ENGLISH_CATEGORY: Record<string, string> = {
 };
 
 export default function DesignFolioPage() {
-  const art = PRACTICES.find((p) => p.code === 'P·02');
-  const execution = PRACTICES.find((p) => p.code === 'P·03');
-  const cases = [
-    ...(art?.projects ?? []),
-    ...(execution?.projects.slice(0, 5) ?? []),
-  ];
-  const visuals = GALLERIES.slice(0, 8);
+  const cases = CASE_STUDIES.filter(p => !p.hidden && ['friesland-campina', 'goodlocs', 'hero-shot', 'robuste-packaging', 'lapasta', 'villa-corso', 'frutas', 'cosmo-boba'].includes(p.slug));
+  const visuals = GALLERIES.filter(g => LOCAL_GALLERY_COVERS[g.slug]).slice(0, 8);
 
   return (
     // Page rédigée en anglais : lang="en" pour les lecteurs d'écran et le SEO,
     // le reste du site restant lang="fr".
-    <div className={styles.designRoot} lang="en">
+    <div className={`${styles.designRoot} ${pageStudio.root}`} lang="en">
       <FolioTopbar active="design" />
+      <PageIndex english items={[{ id: 'disciplines', fr: 'Disciplines', en: 'Disciplines' }, { id: 'work', fr: 'Selected work', en: 'Selected work' }, { id: 'visuals', fr: 'Visual index', en: 'Visual index' }, { id: 'approach', fr: 'Approach', en: 'Approach' }]} />
 
       <main id="contenu">
         {/* HERO */}
-        <section className={styles.hero}>
+        <section className={styles.hero} id="profile">
           <div className={styles.heroBg} />
           <div className={`${styles.wrap} ${styles.heroInner}`}>
             <div className={styles.eyebrow}>
@@ -103,7 +105,7 @@ export default function DesignFolioPage() {
         </section>
 
         {/* DISCIPLINES */}
-        <section className={styles.section}>
+        <section className={styles.section} id="disciplines">
           <div className={styles.wrap}>
             <div className={styles.sectionHead}>
               <span className="num">01</span>
@@ -144,34 +146,17 @@ export default function DesignFolioPage() {
               <Link href="/work" style={{ color: 'var(--accent)' }}>work page</Link>.
             </p>
             <div className={styles.work}>
-              {cases.map((p, i) => {
-                const org = p.chain[0] ?? p.name;
-                return (
-                  <article
-                    className={`${styles.caseCard} ${i === 0 ? styles.caseWide : ''}`}
-                    key={p.name}
-                  >
-                    <div className={styles.caseTop}>
-                      <span className="org">{org}</span>
-                      <span>{p.meta.en}</span>
-                    </div>
-                    <h3 className={styles.caseName}>{p.name}</h3>
-                    <div className={styles.caseRole}>{p.role.en}</div>
-                    <p className={styles.caseBody}>{p.body.en}</p>
-                    <div className={styles.caseTags}>
-                      {p.tags.map((tag) => (
-                        <span className={styles.caseTag} key={tag}>{tag}</span>
-                      ))}
-                    </div>
-                  </article>
-                );
-              })}
+              {cases.map(p => <Link className={styles.designProject} href={`/work/${p.slug}`} key={p.slug}>
+                <div className={styles.designProjectImage}><Image src={p.hero} alt={p.name.en} fill sizes="(max-width:430px) 100vw, 50vw" /></div>
+                <h3>{p.name.en}</h3><p>{p.tags.join(' · ')} / {p.year}</p>
+                {agencyForCase(p.slug) && <small>With {agencyForCase(p.slug)}</small>}
+              </Link>)}
             </div>
           </div>
         </section>
 
         {/* VISUAL INDEX */}
-        <section className={styles.section}>
+        <section className={styles.section} id="visuals">
           <div className={styles.wrap}>
             <div className={styles.sectionHead}>
               <span className="num">03</span>
@@ -197,7 +182,7 @@ export default function DesignFolioPage() {
                   <div
                     className={styles.tileCover}
                     style={{
-                      backgroundImage: `url(${g.cover})`,
+                      backgroundImage: `url(${LOCAL_GALLERY_COVERS[g.slug] || g.cover})`,
                       backgroundPosition: g.bgPosition ?? '50% 50%',
                     }}
                   />
@@ -218,7 +203,7 @@ export default function DesignFolioPage() {
         </section>
 
         {/* APPROACH */}
-        <section className={styles.section}>
+        <section className={styles.section} id="approach">
           <div className={styles.wrap}>
             <div className={styles.sectionHead}>
               <span className="num">04</span>
@@ -247,7 +232,7 @@ export default function DesignFolioPage() {
         </section>
 
         {/* CTA */}
-        <section className={`${styles.wrap} ${styles.cta}`}>
+        <section className={`${styles.wrap} ${styles.cta}`} id="project">
           <h2 className={styles.ctaTitle}>
             Let’s build a <em>system</em>.
           </h2>
@@ -275,6 +260,7 @@ export default function DesignFolioPage() {
           </div>
         </section>
       </main>
+      <StudioFooter />
     </div>
   );
 }

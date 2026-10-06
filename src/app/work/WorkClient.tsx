@@ -1,310 +1,214 @@
 'use client';
-
-import Link from 'next/link';
-import { FlameMark } from '@/components/folio/FlameMark';
-import styles from '@/styles/work.module.css';
-import { CONTACT } from '@/components/folio/data/contact';
+import { useMemo, useState } from 'react';
+import Image from 'next/image';
+import { motion, useReducedMotion } from 'motion/react';
+import {
+  CASE_STUDIES,
+  HAT_LABEL,
+  type CaseHat,
+} from '@/components/folio/data/cases';
 import { PRACTICES } from '@/components/folio/data/practices';
-import { AgencyChain } from '@/components/folio/AgencyChain';
-import { AgencyMacaron } from '@/components/folio/AgencyMacaron';
-import { externalAgencyFromChain } from '@/components/folio/agencyCredit';
-import { ProofEmbed } from '@/components/folio/ProofEmbed';
-import { FolioTopbar } from '@/components/folio/FolioTopbar';
-import { CaseStudyCTAGrid } from '@/components/folio/CaseStudyCTAGrid';
-import { useT, useLang, pick, type Bi } from '@/lib/i18n';
-
-const HAT_IDS = ['strategy', 'art', 'execution'] as const;
-type HatId = (typeof HAT_IDS)[number];
-
-type HatMeta = {
-  code: string;
-  num: Bi;
-  titleHead: Bi;
-  titleEm: Bi;
-  titleTail?: string;
-  tagline: Bi;
-  tocSub: Bi;
-  tocName: Bi;
-};
-
-const HAT_META: Record<HatId, HatMeta> = {
-  strategy: {
-    code: 'P · 01',
-    num: { fr: 'P · 01 — Pratique première', en: 'P · 01 — First practice' },
-    titleHead: { fr: 'La ', en: 'The ' },
-    titleEm: { fr: 'Stratégie', en: 'Strategy' },
-    titleTail: '.',
-    tagline: {
-      fr: "Architecturer la marque comme un système d'exploitation : ADN, signaux, flux, conversion. Cinq dossiers où la stratégie a précédé l'image.",
-      en: 'Architecting the brand like an operating system: DNA, signals, flows, conversion. Five cases where strategy preceded the image.',
-    },
-    tocSub: { fr: 'Brand systems · go-to-market', en: 'Brand systems · go-to-market' },
-    tocName: { fr: 'La Stratégie', en: 'The Strategy' },
-  },
-  art: {
-    code: 'P · 02',
-    num: { fr: 'P · 02 — Pratique seconde', en: 'P · 02 — Second practice' },
-    titleHead: { fr: 'Direction ', en: 'Creative ' },
-    titleEm: { fr: 'Créative & Artistique', en: '& Art Direction' },
-    titleTail: '.',
-    tagline: {
-      fr: "Donner un visage, une scène, une atmosphère. La direction artistique au service d'artistes, de marques et d'événements premium.",
-      en: 'Giving a face, a stage, an atmosphere. Art direction in the service of premium artists, brands and events.',
-    },
-    tocSub: { fr: 'Image, scenography, identité', en: 'Image, scenography, identity' },
-    tocName: { fr: 'Direction Créative & Artistique', en: 'Creative & Art Direction' },
-  },
-  execution: {
-    code: 'P · 03',
-    num: { fr: 'P · 03 — Pratique troisième', en: 'P · 03 — Third practice' },
-    titleHead: { fr: "L'", en: 'The ' },
-    titleEm: { fr: 'Exécution', en: 'Execution' },
-    titleTail: '.',
-    tagline: {
-      fr: "Tenir l'objectif, livrer. Photographie, vidéo, production : la partie où la stratégie devient image — et l'image, livrable.",
-      en: 'Hold the lens, deliver. Photography, video, production: the part where strategy becomes image — and image becomes a deliverable.',
-    },
-    tocSub: { fr: 'Photo · vidéo · livrables', en: 'Photo · video · deliverables' },
-    tocName: { fr: "L'Exécution", en: 'The Execution' },
-  },
-};
-
-const CODE_TO_ID: Record<string, HatId> = {
-  'P·01': 'strategy',
-  'P·02': 'art',
-  'P·03': 'execution',
-};
-
-// Split a project name on the first " — " into head + em (if present)
-function splitProjName(name: string): { head: string; em?: string } {
-  const m = name.match(/^(.*?)\s+—\s+(.+)$/);
-  if (m) {
-    const head = m[1] ?? name;
-    const em = m[2];
-    return em ? { head, em } : { head: name };
-  }
-  return { head: name };
-}
+import { useLang, pick } from '@/lib/i18n';
+import { StudioShell, ProjectCard } from '@/components/studio/Studio';
+import s from '@/styles/studio.module.css';
 
 export function WorkClient() {
-  const t = useT();
   const { lang } = useLang();
+  const L = (fr: string, en: string) => (lang === 'fr' ? fr : en);
+  const [filter, setFilter] = useState<CaseHat | 'all'>('all');
+  const [query, setQuery] = useState('');
+  const reduce = useReducedMotion();
+  const projects = CASE_STUDIES.filter((p) => !p.hidden);
+  const shown = useMemo(
+    () =>
+      projects.filter(
+        (p) =>
+          (filter === 'all' || p.hat === filter) &&
+          `${pick(p.name, lang)} ${pick(p.client, lang)} ${p.tags.join(' ')}`
+            .toLocaleLowerCase(lang)
+            .includes(query.toLocaleLowerCase(lang).trim())
+      ),
+    [projects, filter, query, lang]
+  );
   return (
-    <div className={styles.folioRoot}>
-      <FolioTopbar active="folio" />
-
-      <main id="contenu">
-        <section className={styles.folioHero}>
-          <div className={styles.folioEyebrow}>{t.work.eyebrow}</div>
-          <h1>
-            {t.work.h1a}<em>{t.work.h1em}</em>
-            {t.work.h1b}
-          </h1>
-          <p>{t.work.lede}</p>
-
-          <div className={styles.folioDownloads}>
-            <a className={styles.pdfBtn} href="/folio.pdf" download="Folio-Spark-Xtincell-2026.pdf">
-              Folio · PDF ↓ <small>13 Mo</small>
+    <StudioShell>
+      <header className={s.pageHead}>
+        <span className={s.eyebrow}>
+          {L('Folio / Index des projets', 'Portfolio / Project index')} —{' '}
+          {projects.length} {L('dossiers', 'projects')}
+        </span>
+        <h1>
+          {L('L’idée.', 'The idea.')}
+          <br />
+          <em>{L('Et ce qu’on en fait.', 'And what we make of it.')}</em>
+        </h1>
+        <div className={s.pageIntro}>
+          <p>
+            {L(
+              'Stratégie, direction artistique, production. Explorez les projets par pratique, par marque ou au fil des images.',
+              'Strategy, art direction, production. Explore the work by discipline, by brand, or simply through the images.'
+            )}
+          </p>
+          <div className={s.downloads}>
+            <a href="/folio.pdf" download>
+              Folio PDF ↓
             </a>
-            <a className={styles.pdfBtn} href="/folio.pptx" download="Folio-Spark-Xtincell-2026.pptx">
-              Folio · PPTX ↓ <small>27 Mo</small>
+            <a href="/folio.pptx" download>
+              Folio PPTX ↓
             </a>
           </div>
-
-          <nav className={styles.toc} aria-label={t.work.toc}>
-            {HAT_IDS.map((id) => {
-              const m = HAT_META[id];
-              return (
-                <a key={id} href={`#${id}`}>
-                  <span className="num">{m.code}</span>
-                  <span className="name">{pick(m.tocName, lang)}</span>
-                  <span className="sub">{pick(m.tocSub, lang)}</span>
-                  <span className="arrow">↓</span>
-                </a>
-              );
-            })}
-          </nav>
-        </section>
-
-        <section className={styles.casesSection} id="cases">
-          <div className={styles.casesHead}>
-            <div className={styles.casesEyebrow}>
-              {pick({ fr: 'Études de cas', en: 'Case studies' }, lang)}
-            </div>
-            <p className={styles.casesLede}>
-              {pick(
-                {
-                  fr: 'Plongées projet par projet — cliquez une illustration pour ouvrir le study case.',
-                  en: 'Project-by-project deep dives — click an illustration to open the case study.',
-                },
-                lang,
+        </div>
+      </header>
+      <div className={s.filterBar}>
+        <div
+          className={s.filters}
+          role="group"
+          aria-label={L('Filtrer les projets', 'Filter projects')}
+        >
+          {(['all', 'strategy', 'art', 'execution'] as const).map((key) => (
+            <button
+              type="button"
+              key={key}
+              aria-pressed={filter === key}
+              onClick={() => setFilter(key)}
+            >
+              {key === 'all'
+                ? L('Tout voir', 'All work')
+                : pick(HAT_LABEL[key], lang)}
+              <sup>
+                {key === 'all'
+                  ? projects.length
+                  : projects.filter((p) => p.hat === key).length}
+              </sup>
+            </button>
+          ))}
+        </div>
+        <label className={s.search}>
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <circle cx="10" cy="10" r="6.5" stroke="currentColor" />
+            <path d="m15 15 6 6" stroke="currentColor" />
+          </svg>
+          <input
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={L('Rechercher un projet', 'Search projects')}
+            aria-label={L('Rechercher un projet', 'Search projects')}
+          />
+        </label>
+      </div>
+      <div className={s.results}>
+        <span role="status" aria-live="polite">
+          {shown.length} {L('projets à explorer', 'projects to explore')}
+        </span>
+        <span>2017 — 2026</span>
+      </div>
+      <section
+        className={s.workContent}
+        aria-label={L('Les projets', 'Projects')}
+      >
+        <h2 className={s.srOnly}>{L('Les projets', 'Projects')}</h2>
+        <motion.div
+          key={`${filter}-${query}-${lang}`}
+          initial={false}
+          animate={reduce ? undefined : { opacity: [0.6, 1], y: [8, 0] }}
+          transition={{ duration: 0.3 }}
+          className={s.projectGrid}
+        >
+          {shown.map((p, i) => (
+            <ProjectCard key={p.slug} project={p} index={i} />
+          ))}
+        </motion.div>
+        {!shown.length && (
+          <div className={s.empty}>
+            <p>
+              {L(
+                'Aucun projet ne correspond à cette recherche.',
+                'No projects match your search.'
               )}
             </p>
+            <button
+              className={s.pillLink}
+              onClick={() => {
+                setQuery('');
+                setFilter('all');
+              }}
+              type="button"
+            >
+              {L('Voir tous les projets', 'Show all projects')}
+            </button>
           </div>
-          <CaseStudyCTAGrid />
-        </section>
-
-        {PRACTICES.map((practice) => {
-          const id = CODE_TO_ID[practice.code];
-          if (!id) return null;
-          const meta = HAT_META[id];
-          return (
-            <section key={id} id={id} className={styles.hat}>
-              <div className={styles.hatHead}>
-                <div>
-                  <div className={styles.hatNum}>{pick(meta.num, lang)}</div>
-                  <h2 className={styles.hatH2}>
-                    {pick(meta.titleHead, lang)}
-                    <em>{pick(meta.titleEm, lang)}</em>
-                    {meta.titleTail}
-                  </h2>
-                </div>
-                <p className={styles.hatTagline}>{pick(meta.tagline, lang)}</p>
-              </div>
-
-              <div className={styles.projGrid}>
-                {practice.projects.map((proj) => {
-                  const split = splitProjName(proj.name);
-                  const org = proj.chain[0] ?? proj.name;
-                  const projAgency = externalAgencyFromChain(proj.chain);
-                  return (
-                    <article className={styles.proj} key={proj.name}>
-                      <div className={styles.projMeta}>
-                        <span className="org">{org}</span>
-                        <span>{pick(proj.meta, lang)}</span>
-                      </div>
-                      <h3 className={styles.projName}>
-                        {split.head}
-                        {split.em ? (
-                          <>
-                            {' '}
-                            <em>— {split.em}</em>
-                          </>
-                        ) : null}
-                      </h3>
-                      <p className={styles.projRole}>{pick(proj.role, lang)}</p>
-                      {proj.chain && proj.chain.length > 1 && <AgencyChain chain={proj.chain} />}
-                      <p className={styles.projBody}>{pick(proj.body, lang)}</p>
-                      <div className={styles.projTags}>
-                        {proj.tags.map((tag) => (
-                          <span key={tag}>{tag}</span>
-                        ))}
-                      </div>
-                      {proj.images && proj.images.length > 0 && (
-                        <div className={styles.projImages}>
-                          <div className={styles.imagesLabel}>
-                            {pick({ fr: 'Visuels campagne', en: 'Campaign visuals' }, lang)}
-                          </div>
-                          <div className={styles.imagesGrid}>
-                            {proj.images.map((src) => (
-                              <a
-                                key={src}
-                                href={src}
-                                target="_blank"
-                                rel="noreferrer"
-                                className={styles.imageThumb}
-                              >
-                                {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img
-                                  src={src}
-                                  alt={`${lang === 'en' ? 'Visual' : 'Visuel'} ${proj.name}`}
-                                  loading="lazy"
-                                  decoding="async"
-                                  />
-                                  {projAgency && (
-                                    <AgencyMacaron agency={projAgency} lang={lang} variant="sticker" corner="bl" />
-                                  )}
-                              </a>
-                            ))}
-                          </div>
+        )}
+        <details className={s.archive}>
+          <summary>
+            {L(
+              'Carnet de références — parcours & collaborations',
+              'Reference notebook — background & collaborations'
+            )}
+          </summary>
+          <div className={s.archiveBody}>
+            {PRACTICES.map((practice) => (
+              <section className={s.archivePractice} key={practice.code}>
+                <h2>{pick(practice.title, lang)}</h2>
+                {practice.projects.map((project) => (
+                  <article className={s.archiveProject} key={project.name}>
+                    <div>
+                      <h3>{project.name}</h3>
+                      <small>{pick(project.meta, lang)}</small>
+                      <small>{project.chain.join(' → ')}</small>
+                    </div>
+                    <div>
+                      <p>
+                        <strong>{pick(project.role, lang)}</strong>
+                        <br />
+                        {pick(project.body, lang)}
+                      </p>
+                      {project.images && (
+                        <div className={s.archiveImages}>
+                          {project.images.map((src, i) => (
+                            <a
+                              key={src}
+                              href={src}
+                              target="_blank"
+                              rel="noreferrer"
+                              aria-label={`${project.name} — ${L('ouvrir le visuel', 'open image')} ${i + 1}`}
+                            >
+                              <Image
+                                src={src}
+                                width={480}
+                                height={340}
+                                alt={`${project.name} — ${i + 1}`}
+                                loading="lazy"
+                                sizes="(max-width: 760px) 40vw, 20vw"
+                              />
+                            </a>
+                          ))}
                         </div>
                       )}
-                      {proj.proofs && proj.proofs.length > 0 && (
-                        <div className={styles.projProofs}>
-                          <div className={styles.proofsLabel}>{t.proof.label}</div>
-                          <div className={styles.proofsGrid}>
-                            {proj.proofs.map((pr, i) => (
-                              <ProofEmbed key={`${pr.url}-${i}`} pr={pr} />
-                            ))}
-                          </div>
-                        </div>
-                      )}
-                    </article>
-                  );
-                })}
-              </div>
-            </section>
-          );
-        })}
-
-        <section className={styles.foot}>
-          <h2>
-            {t.work.footTitleA}<em>{t.work.footTitleEm}</em>
-            {t.work.footTitleB}
-          </h2>
-          <p>{t.work.footLede}</p>
-          <div className={styles.footRow}>
-            <a
-              className={styles.btn}
-              href={CONTACT.whatsappLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay}
-            </a>
-            <a
-              className={`${styles.btn} ${styles.btnGhost}`}
-              href={CONTACT.whatsappSecondaryLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay}
-            </a>
-            <a className={`${styles.btn} ${styles.btnGhost}`} href={`mailto:${CONTACT.email}`}>
-              Email — {CONTACT.email}
-            </a>
-            <Link className={`${styles.btn} ${styles.btnGhost}`} href="/cv">
-              {t.work.cvCta}
-            </Link>
+                      {project.proofs?.map((proof) => (
+                        <a
+                          key={proof.url}
+                          href={proof.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {pick(proof.label, lang)} ↗
+                        </a>
+                      ))}
+                    </div>
+                  </article>
+                ))}
+              </section>
+            ))}
           </div>
-
-          <div className={styles.socialRow}>
-            <span className={styles.socialLabel}>{t.social.everywhere}</span>
-            <a className={styles.sbtn} href={CONTACT.instagram} target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" width="16" height="16">
-                <rect x="3" y="3" width="18" height="18" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-              </svg>
-              <span>Instagram</span>
-            </a>
-            <a className={styles.sbtn} href={CONTACT.twitter} target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
-                <path d="M17.6 3h3.2l-7 8 8.2 10h-6.4l-5-6.4L4.8 21H1.6l7.5-8.5L1.2 3h6.6l4.5 5.9L17.6 3Zm-1.1 16h1.8L7.6 5H5.7l10.8 14Z" />
-              </svg>
-              <span>X</span>
-            </a>
-            <a className={styles.sbtn} href={CONTACT.facebook} target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
-                <path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1V10.5H7.5v3h2.8V21h3.2Z" />
-              </svg>
-              <span>Facebook</span>
-            </a>
-            <a className={styles.sbtn} href={CONTACT.behance} target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
-                <path d="M2 5h6.4c1.4 0 2.5.3 3.2.9.7.6 1 1.5 1 2.5 0 .7-.2 1.3-.5 1.7-.3.5-.8.8-1.4 1.1.8.2 1.5.6 1.9 1.2.4.6.7 1.3.7 2.2 0 1.3-.5 2.4-1.4 3.1-.9.7-2.1 1.1-3.7 1.1H2V5Zm2.5 5.6h3.2c.7 0 1.2-.1 1.6-.4.3-.3.5-.7.5-1.2 0-.6-.2-1-.5-1.2-.3-.3-.9-.4-1.6-.4H4.5v3.2Zm0 6.1h3.6c.7 0 1.3-.1 1.7-.4.4-.3.6-.8.6-1.4 0-.6-.2-1.1-.6-1.4-.4-.3-1-.5-1.7-.5H4.5v3.7ZM18.3 17c.5 0 .9-.1 1.2-.4.3-.2.6-.6.7-1h2.3c-.2 1-.7 1.8-1.5 2.4-.8.6-1.7.9-2.8.9-1.4 0-2.5-.5-3.4-1.4-.9-.9-1.3-2.1-1.3-3.5 0-1.5.4-2.6 1.3-3.5.9-.9 2-1.4 3.4-1.4 1.4 0 2.5.5 3.3 1.4.8.9 1.2 2.1 1.2 3.6v.6h-6.6c.1.7.3 1.2.7 1.6.4.4.9.7 1.5.7Zm1.6-4.7c-.4-.4-.9-.6-1.5-.6-.6 0-1.1.2-1.4.6-.4.4-.6.9-.7 1.5h4.2c-.1-.6-.3-1.1-.6-1.5ZM15 6.5h5.4v1.7H15V6.5Z" />
-              </svg>
-              <span>Behance</span>
-            </a>
-          </div>
-
-          <div className={styles.footBottom}>
-            <FlameMark size={28} white />
-            <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
-            <div className="meta">Built with systems, not just art.</div>
-          </div>
-        </section>
-      </main>
-    </div>
+        </details>
+      </section>
+    </StudioShell>
   );
 }

@@ -1,5 +1,9 @@
 'use client';
 
+import { PageIndex } from '@/components/studio/PageIndex';
+import { StudioFooter } from '@/components/studio/Studio';
+import pageStudio from '@/styles/studioPages.module.css';
+
 import Link from 'next/link';
 import styles from '@/styles/tech.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
@@ -145,7 +149,7 @@ const BUILDS: Build[] = [
     stack: ['Product design', 'UX/UI', 'JavaScript', 'CSS', 'Local-first'],
     href: '/work/la-barre',
     linkLabel: { fr: 'Lire le cas La Barre', en: 'Read the La Barre case study' },
-    thumb: '/work/cases/la-barre/bureau.png',
+    thumb: '/studio/la-barre.svg',
   },
   {
     name: 'Galahad',
@@ -312,14 +316,15 @@ export function TechClient() {
   const tr = (v: BiOrStr): string => pick(v, lang);
 
   return (
-    <div className={styles.folioRoot}>
+    <div className={`${styles.folioRoot} ${pageStudio.root}`}>
       <div className={styles.backdrop} aria-hidden="true">
         <SparkMark outline animated={false} ariaHidden />
       </div>
       <FolioTopbar active="tech" />
+      <PageIndex items={[{ id: 'projets', fr: 'Produits livrés', en: 'Products' }, { id: 'processus', fr: 'Processus', en: 'Process' }, { id: 'stack', fr: 'Stack', en: 'Stack' }, { id: 'offre', fr: 'Accompagnement', en: 'Collaboration' }]} />
 
       <main id="contenu" className={styles.page}>
-        <section className={styles.head}>
+        <section className={styles.head} id="profil">
           <div>
             <div className={styles.eyebrow}>
               {tr(T.eyebrowA)} · <b>{tr(T.eyebrowB)}</b> · 2026
@@ -362,7 +367,7 @@ export function TechClient() {
         </section>
 
         {/* § 01 — Approach */}
-        <section className={styles.section}>
+        <section className={styles.section} id="approche">
           <div className={styles.sectionHead}>
             <span className="num">{S.approach.num}</span>
             {tr(S.approach.a)}
@@ -385,7 +390,7 @@ export function TechClient() {
         </section>
 
         {/* § 02 — Process */}
-        <section className={styles.section}>
+        <section className={styles.section} id="processus">
           <div className={styles.sectionHead}>
             <span className="num">{S.process.num}</span>
             {tr(S.process.a)}
@@ -406,7 +411,7 @@ export function TechClient() {
         </section>
 
         {/* § 03 — Builds */}
-        <section className={styles.section}>
+        <section className={styles.section} id="projets">
           <div className={styles.sectionHead}>
             <span className="num">{S.builds.num}</span>
             {tr(S.builds.a)}
@@ -455,7 +460,7 @@ export function TechClient() {
         </section>
 
         {/* § 04 — Stack */}
-        <section className={styles.section}>
+        <section className={styles.section} id="stack">
           <div className={styles.sectionHead}>
             <span className="num">{S.stack.num}</span>
             {tr(S.stack.a)}
@@ -481,7 +486,7 @@ export function TechClient() {
         </section>
 
         {/* § 05 — Engagement / pricing */}
-        <section className={styles.section}>
+        <section className={styles.section} id="offre">
           <div className={styles.sectionHead}>
             <span className="num">{S.pricing.num}</span>
             {tr(S.pricing.a)}
@@ -514,13 +519,7 @@ export function TechClient() {
           </div>
         </section>
 
-        <footer className={styles.foot}>
-          <FlameMark size={28} white />
-          <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
-          <a className="cta" href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
-            {lang === 'fr' ? 'Discuter d’un projet' : 'Talk about a project'} — {CONTACT.whatsappDisplay} →
-          </a>
-        </footer>
+
 
         <div className={styles.socialRow}>
           <span className={styles.slLabel}>
@@ -548,6 +547,7 @@ export function TechClient() {
           </a>
         </div>
       </main>
+      <StudioFooter />
     </div>
   );
 }

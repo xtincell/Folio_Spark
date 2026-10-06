@@ -1,5 +1,9 @@
 'use client';
 
+import { PageIndex } from '@/components/studio/PageIndex';
+import { StudioFooter } from '@/components/studio/Studio';
+import pageStudio from '@/styles/studioPages.module.css';
+
 import { useState } from 'react';
 import Link from 'next/link';
 import styles from '@/styles/tarifs.module.css';
@@ -851,15 +855,16 @@ export function TarifsClient() {
   };
 
   return (
-    <div className={styles.folioRoot}>
+    <div className={`${styles.folioRoot} ${pageStudio.root}`}>
       <div className={styles.backdrop} aria-hidden="true">
         <SparkMark outline animated={false} ariaHidden />
       </div>
       <FolioTopbar active="tarifs" />
+      <PageIndex items={[{ id: 'conseil', fr: 'Conseil', en: 'Consulting' }, { id: 'forfaits', fr: 'Forfaits', en: 'Packages' }, { id: 'studio', fr: 'Studio', en: 'Studio' }, { id: 'continu', fr: 'En continu', en: 'Ongoing' }, { id: 'paiement', fr: 'Paiement', en: 'Payment' }, { id: 'faq', fr: 'FAQ', en: 'FAQ' }]} />
 
       <main id="contenu" className={styles.page}>
         {/* ============================ HERO ============================ */}
-        <section className={styles.hero}>
+        <section className={styles.hero} id="offres">
           <div className={styles.heroBg} aria-hidden="true">
             <HeroAtmosphere className={styles.atmoCanvas} density={1} />
           </div>
@@ -909,7 +914,7 @@ export function TarifsClient() {
         </section>
 
         {/* ======================= §00 — PRINCIPLE ===================== */}
-        <Reveal as="section" className={styles.section}>
+        <Reveal as="section" className={styles.section} id="principe">
           <SectionHead s={SECTIONS.why} tr={tr} />
           <div className={styles.principleGrid}>
             {PRINCIPLES.map((p) => (
@@ -941,7 +946,7 @@ export function TarifsClient() {
         </Reveal>
 
         {/* ======================= §01 — CONSEIL ====================== */}
-        <Reveal as="section" className={styles.section}>
+        <Reveal as="section" className={styles.section} id="conseil">
           <SectionHead s={SECTIONS.conseil} tr={tr} />
           <p className={styles.sectionLede}>
             {fr
@@ -961,7 +966,7 @@ export function TarifsClient() {
         </Reveal>
 
         {/* ======================= §02 — FORFAITS INTÉGRÉS ============= */}
-        <Reveal as="section" className={styles.section}>
+        <Reveal as="section" className={styles.section} id="forfaits">
           <SectionHead s={SECTIONS.oneShot} tr={tr} />
           <p className={styles.sectionLede}>{tr(COPY.dualMarket)}</p>
 
@@ -1027,7 +1032,7 @@ export function TarifsClient() {
         </Reveal>
 
         {/* ======================= §02 — À LA CARTE =================== */}
-        <Reveal as="section" className={styles.section}>
+        <Reveal as="section" className={styles.section} id="studio">
           <SectionHead s={SECTIONS.carte} tr={tr} />
           <p className={styles.sectionLede}>
             {fr
@@ -1065,7 +1070,7 @@ export function TarifsClient() {
         </Reveal>
 
         {/* ======================= §03 — RETAINERS ==================== */}
-        <Reveal as="section" className={styles.section}>
+        <Reveal as="section" className={styles.section} id="continu">
           <SectionHead s={SECTIONS.retainer} tr={tr} />
           <p className={styles.sectionLede}>
             {fr
@@ -1085,7 +1090,7 @@ export function TarifsClient() {
         </Reveal>
 
         {/* ======================= §05 — PAIEMENT ===================== */}
-        <Reveal as="section" className={styles.section}>
+        <Reveal as="section" className={styles.section} id="paiement">
           <SectionHead s={SECTIONS.payment} tr={tr} />
           <p className={styles.sectionLede}>{tr(PAY_COPY.lede)}</p>
 
@@ -1125,7 +1130,7 @@ export function TarifsClient() {
         </Reveal>
 
         {/* ============================ FAQ =========================== */}
-        <Reveal as="section" className={styles.section}>
+        <Reveal as="section" className={styles.section} id="faq">
           <SectionHead s={SECTIONS.faq} tr={tr} />
           <div className={styles.faqList}>
             {FAQ.map((f, i) => (
@@ -1175,6 +1180,7 @@ export function TarifsClient() {
           </div>
         </section>
       </main>
+      <StudioFooter />
     </div>
   );
 }

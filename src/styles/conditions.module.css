@@ -84,3 +84,5 @@
   transition: transform .25s var(--ease-out-expo), filter .25s;
 }
 .legalCta:hover { transform: translateY(-2px); filter: brightness(1.08); }
+
+.backLink { text-decoration: underline; text-underline-offset: 4px; }

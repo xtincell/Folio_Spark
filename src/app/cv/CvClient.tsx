@@ -1,5 +1,9 @@
 'use client';
 
+import { PageIndex } from '@/components/studio/PageIndex';
+import { StudioFooter } from '@/components/studio/Studio';
+import pageStudio from '@/styles/studioPages.module.css';
+
 import Link from 'next/link';
 import styles from '@/styles/cv.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
@@ -212,14 +216,15 @@ export function CvClient() {
   const { lang } = useLang();
 
   return (
-    <div className={styles.folioRoot}>
+    <div className={`${styles.folioRoot} ${pageStudio.root}`}>
       <div className={styles.backdrop} aria-hidden="true">
         <SparkMark outline animated={false} ariaHidden />
       </div>
       <FolioTopbar active="cv" />
+      <PageIndex items={[{ id: 'profil', fr: 'Profil', en: 'Profile' }, { id: 'parcours', fr: 'Parcours', en: 'Experience' }, { id: 'competences', fr: 'Compétences', en: 'Skills' }, { id: 'references', fr: 'Références', en: 'References' }, { id: 'langues', fr: 'Langues', en: 'Languages' }]} />
 
       <main id="contenu" className={styles.page}>
-        <section className={styles.cvHead}>
+        <section className={styles.cvHead} id="profil">
           <div>
             <div className={styles.cvEyebrow}>{t.cv.eyebrow}</div>
             <div className={styles.cvDownloads} data-print-hide="true">
@@ -266,7 +271,7 @@ export function CvClient() {
           </dl>
         </section>
 
-        <section className={styles.section}>
+        <section className={styles.section} id="approche">
           <div className={styles.sectionHead}>
             <span className="num">{t.cv.s1num}</span>
             {t.cv.s1a}
@@ -300,7 +305,7 @@ export function CvClient() {
           </div>
         </section>
 
-        <section className={styles.productCase} aria-labelledby="la-barre-cv">
+        <section className={styles.productCase} aria-labelledby="la-barre-cv" id="produit">
           <div>
             <p>{lang === 'fr' ? 'Réalisation produit / 2026' : 'Product work / 2026'}</p>
             <h2 id="la-barre-cv">{lang === 'fr' ? 'La Barre, au sein de Shinkiro.' : 'La Barre, within Shinkiro.'}</h2>
@@ -311,7 +316,7 @@ export function CvClient() {
           <Link href="/work/la-barre">{lang === 'fr' ? 'Voir le cas La Barre' : 'View the La Barre case study'} ↗</Link>
         </section>
 
-        <section className={styles.section}>
+        <section className={styles.section} id="parcours">
           <div className={styles.sectionHead}>
             <span className="num">{t.cv.s2num}</span>
             {t.cv.s2a}
@@ -344,7 +349,7 @@ export function CvClient() {
           </div>
         </section>
 
-        <section className={styles.section}>
+        <section className={styles.section} id="competences">
           <div className={styles.sectionHead}>
             <span className="num">{t.cv.s3num}</span>
             {t.cv.s3a}
@@ -369,7 +374,7 @@ export function CvClient() {
           </div>
         </section>
 
-        <section className={styles.section}>
+        <section className={styles.section} id="references">
           <div className={styles.sectionHead}>
             <span className="num">{t.cv.s4num}</span>
             {t.cv.s4a}
@@ -384,7 +389,7 @@ export function CvClient() {
           </div>
         </section>
 
-        <section className={styles.section}>
+        <section className={styles.section} id="langues">
           <div className={styles.sectionHead}>
             <span className="num">{t.cv.s5num}</span>
             {t.cv.s5a}
@@ -422,16 +427,7 @@ export function CvClient() {
           </div>
         </section>
 
-        <footer className={styles.cvFoot}>
-          <FlameMark size={28} white />
-          <div className="meta">XTINCELL · ALEXANDRE DJENGUE · © 2026</div>
-          <a className="cta" href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
-            WhatsApp {CONTACT.whatsappLabel} — {CONTACT.whatsappDisplay} →
-          </a>
-          <a className="cta" href={CONTACT.whatsappSecondaryLink} target="_blank" rel="noreferrer">
-            WhatsApp {CONTACT.whatsappSecondaryLabel} — {CONTACT.whatsappSecondaryDisplay} →
-          </a>
-        </footer>
+
 
         <div className={styles.socialRow}>
           <span className={styles.slLabel}>{t.social.everywhere}</span>
@@ -463,6 +459,7 @@ export function CvClient() {
           </a>
         </div>
       </main>
+      <StudioFooter />
     </div>
   );
 }
