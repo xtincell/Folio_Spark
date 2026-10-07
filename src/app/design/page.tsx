@@ -1,5 +1,6 @@
 import { PageIndex } from '@/components/studio/PageIndex';
 import { StudioFooter } from '@/components/studio/Studio';
+import { PROJECT_PRESENTATIONS } from '@/lib/project-presentations';
 import pageStudio from '@/styles/studioPages.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -147,7 +148,8 @@ export default function DesignFolioPage() {
             </p>
             <div className={styles.work}>
               {cases.map(p => <Link className={styles.designProject} href={`/work/${p.slug}`} key={p.slug}>
-                <div className={styles.designProjectImage}><Image src={p.hero} alt={p.name.en} fill sizes="(max-width:430px) 100vw, 50vw" /></div>
+                <div className={styles.designProjectImage}><Image src={PROJECT_PRESENTATIONS[p.slug] || p.hero} alt={p.name.en} fill sizes="(max-width:430px) 100vw, 50vw" /></div>
+                {PROJECT_PRESENTATIONS[p.slug] && <small className={pageStudio.presentationCaption}>Generated presentation · original artwork inside</small>}
                 <h3>{p.name.en}</h3><p>{p.tags.join(' · ')} / {p.year}</p>
                 {agencyForCase(p.slug) && <small>With {agencyForCase(p.slug)}</small>}
               </Link>)}

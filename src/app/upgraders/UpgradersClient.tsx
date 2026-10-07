@@ -137,9 +137,10 @@ type DirectionCard = {
   name: Bi | string;
   tag: Bi;
   desc: Bi;
-  /** Portrait 4:5 — photo réelle, ou placeholder monogramme à remplacer. */
+  /** A real portrait when available; otherwise an intentional typographic signature. */
   img?: string;
   imgAlt?: Bi;
+  initials?: string;
 };
 
 const DIRECTION: DirectionCard[] = [
@@ -169,11 +170,7 @@ const DIRECTION: DirectionCard[] = [
       fr: "Co-fondatrice (2017) et ancienne CEO — m'a passé le relais en 2023. Architecte des premières années : positionnement, structuration, premières grandes missions. Éminence stratégique.",
       en: 'Co-founder (2017) and former CEO — handed me the reins in 2023. Architect of the early years: positioning, structuring, first major missions. Strategic éminence grise.',
     },
-    img: '/upgraders/direction/ingrid-nya-ngatchou.svg',
-    imgAlt: {
-      fr: 'Ingrid Nya Ngatchou — portrait à venir',
-      en: 'Ingrid Nya Ngatchou — portrait coming soon',
-    },
+    initials: 'IN',
   },
   {
     role: { fr: 'Co-fondateur', en: 'Co-founder' },
@@ -183,11 +180,7 @@ const DIRECTION: DirectionCard[] = [
       fr: "Co-fondateur (2017) et ancien CEO. Pilier des opérations historiques. Reste une référence dans la gouvernance et la trajectoire long terme de l'agence.",
       en: 'Co-founder (2017) and former CEO. Pillar of the historic operations. Remains a reference in the governance and long-term trajectory of the firm.',
     },
-    img: '/upgraders/direction/jean-philippe-veigne.svg',
-    imgAlt: {
-      fr: 'Jean-Philippe Veigne — portrait à venir',
-      en: 'Jean-Philippe Veigne — portrait coming soon',
-    },
+    initials: 'JV',
   },
 ];
 
@@ -654,7 +647,7 @@ export function UpgradersClient({ latestPosts }: { latestPosts: BlogPost[] }) {
                     loading="lazy"
                     decoding="async"
                   />
-                ) : null}
+                ) : c.initials ? <div className={styles.reseauMonogram} aria-hidden="true"><span>{c.initials}</span><small>UPgraders</small></div> : null}
                 <div
                   className={styles.reseauRole}
                   style={c.roleColor === 'coral' ? { color: 'var(--coral)' } : undefined}

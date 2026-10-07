@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import styles from '@/styles/conditions.module.css';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
+import { StudioFooter } from '@/components/studio/Studio';
+import pageStudio from '@/styles/studioPages.module.css';
 import { FlameMark } from '@/components/folio/FlameMark';
 import { CONTACT } from '@/components/folio/data/contact';
 import { useLang, pick, type Bi } from '@/lib/i18n';
@@ -125,10 +127,10 @@ const CLAUSES: Clause[] = [
 const LEGAL: Bi = {
   fr: 'Mentions légales — Alexandre Djengue (« Xtincell »), prestataire indépendant. Coordonnées : ' +
     CONTACT.email +
-    '. Les informations d’enregistrement (raison sociale, RCCM / numéro d’identifiant, TVA le cas échéant, adresse) seront précisées sur le devis et complétées ici prochainement.',
+    '. Les informations d’enregistrement de l’entité de facturation figurent sur le devis de chaque mission.',
   en: 'Legal notice — Alexandre Djengue (“Xtincell”), independent contractor. Contact: ' +
     CONTACT.email +
-    '. Registration details (legal name, business ID, VAT where applicable, address) are specified on the quote and will be completed here shortly.',
+    '. Registration details of the billing entity are provided on each engagement’s quote.',
 };
 
 export function ConditionsClient() {
@@ -137,7 +139,7 @@ export function ConditionsClient() {
   const fr = lang === 'fr';
 
   return (
-    <div className={styles.folioRoot}>
+    <div className={`${styles.folioRoot} ${pageStudio.root}`}>
       <FolioTopbar active="tarifs" label={fr ? 'CONDITIONS' : 'TERMS'} />
 
       <main id="contenu" className={styles.page}>
@@ -149,7 +151,7 @@ export function ConditionsClient() {
           </h1>
           <p className={styles.intro}>{tr(INTRO)}</p>
           <p className={styles.updated}>
-            {fr ? 'Dernière mise à jour : juin 2026' : 'Last updated: June 2026'} ·{' '}
+            {fr ? 'Dernière mise à jour : octobre 2026' : 'Last updated: October 2026'} ·{' '}
             <Link href="/tarifs" className={styles.backLink}>
               {fr ? 'Retour aux tarifs' : 'Back to pricing'} →
             </Link>
@@ -177,6 +179,7 @@ export function ConditionsClient() {
           </a>
         </footer>
       </main>
+      <StudioFooter />
     </div>
   );
 }

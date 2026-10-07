@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { motion, useReducedMotion } from 'motion/react';
+import { PROJECT_PRESENTATIONS } from '@/lib/project-presentations';
 import { FlameMark } from '@/components/folio/FlameMark';
 import { useLang, pick } from '@/lib/i18n';
 import { CONTACT } from '@/components/folio/data/contact';
@@ -93,7 +93,7 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
     ['/tech', L('Produits & tech', 'Products & tech')],
     ['/tarifs', L('Services & tarifs', 'Services & pricing')],
     ['/recrutement', L('Recrutement', 'Hiring')],
-    ['/upgraders', 'UPgraders ↗'],
+    ['/upgraders', 'UPgraders'],
   ];
   return (
     <header className={`${s.header} ${overlay ? s.headerOverlay : ''}`} lang={lang}>
@@ -138,7 +138,7 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
           }
         >
           {lang.toUpperCase()}
-          <span aria-hidden="true">⌄</span>
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="m1 1 4 4 4-4" stroke="currentColor" /></svg>
         </button>
         <a
           className={s.headerContact}
@@ -255,22 +255,11 @@ export function StudioFooter() {
 }
 export function StudioReveal({
   children,
-  delay = 0,
 }: {
   children: ReactNode;
   delay?: number;
 }) {
-  const reduce = useReducedMotion();
-  return (
-    <motion.div
-      initial={false}
-      whileInView={reduce ? undefined : { y: [18, 0], opacity: [0.75, 1] }}
-      viewport={{ once: true, amount: 0.1 }}
-      transition={{ duration: 0.65, delay, ease: [0.2, 0.7, 0.2, 1] }}
-    >
-      {children}
-    </motion.div>
-  );
+  return <div>{children}</div>;
 }
 export function StudioShell({ children, cover }: { children: ReactNode; cover?: ReactNode }) {
   return (
@@ -293,6 +282,7 @@ export function ProjectCard({
 }) {
   const { lang } = useLang();
   const agency = agencyForCase(p.slug);
+  const presentation = PROJECT_PRESENTATIONS[p.slug];
   const name = pick(p.name, lang);
   const [title, ...rest] = name.split(' — ');
   return (
@@ -302,8 +292,8 @@ export function ProjectCard({
     >
       <div className={s.projectImage}>
         <Image
-          src={p.hero}
-          alt={name}
+          src={presentation || p.hero}
+          alt={presentation ? `${name} — ${lang === 'fr' ? 'mise en situation' : 'presentation concept'}` : name}
           fill
           sizes={
             featured
@@ -313,14 +303,12 @@ export function ProjectCard({
           quality={85}
           priority={index < 2}
         />
-        <span className={s.projectIndex}>
-          {String(index + 1).padStart(2, '0')}
-        </span>
         <span className={s.projectOpen}>
           <Arrow diagonal />
         </span>
         <span className={s.projectYear}>{p.year}</span>
       </div>
+      {presentation && <span className={s.brandCaption}>{lang === 'fr' ? 'Mise en situation générée · création originale dans le projet' : 'Generated presentation · original artwork inside'}</span>}
       <div className={s.projectInfo}>
         <div>
           <h3>{title}</h3>
@@ -337,18 +325,16 @@ export function ProjectCard({
   );
 }
 export function SectionHeading({
-  number,
   title,
   children,
 }: {
-  number: string;
+  number?: string;
   title: string;
   children?: ReactNode;
 }) {
   return (
     <div className={s.sectionHeading}>
       <div>
-        <span className={s.eyebrow}>{number} /</span>
         <h2>{title}</h2>
       </div>
       {children}

@@ -3,10 +3,16 @@
    live inside the per-page CSS modules under .folioRoot. */
 
 :root {
+  --xt-ink: #080808;
+  --xt-graphite: #191918;
+  --xt-paper: #f5f0e8;
+  --xt-flame: #ff682f;
+  --xt-secondary: #b6b0a6;
+  --xt-line: #393631;
   /* Dark native controls (scrollbars, form widgets, autofill) */
   color-scheme: dark;
   /* Global keyboard-focus ring — modules may override --folio-focus inside .folioRoot */
-  --folio-focus: oklch(0.82 0.15 70);
+  --folio-focus: #ff9b72;
   /* Fixed-header offset for in-page anchor jumps */
   --folio-anchor-offset: 88px;
 }

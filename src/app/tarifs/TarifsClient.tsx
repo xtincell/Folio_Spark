@@ -451,22 +451,8 @@ const FAQ: { q: Bi; a: Bi }[] = [
 ];
 
 /* ----------------------------------------------- grand public · IA ------- */
-/* One mass-market, AI-powered offer per univers. Price is EXTREMELY aggressive
-   because LaFusée (the in-house AI OS) does the heavy lifting — Alexandre keeps
-   the direction. Each carries ≥3 case-study slots: people buy a result.
-
-   ⚠ PRIX & ÉTUDES DE CAS = PLACEHOLDERS. Tune the numbers; replace each
-   `OfferCase` (set `placeholder:false`, add `img` + real `result`) once the
-   project dossiers arrive. See the chat brief for exactly what to provide. */
-type OfferCase = {
-  brand: string;
-  theme: Bi;
-  result: Bi;
-  img?: string; // /tarifs/cases/<slug>.webp — falls back to a placeholder tile
-  href?: string; // optional deep link (e.g. /work/<slug>)
-  dummy?: boolean; // illustrative example (AI offers — real AI cases don't exist yet)
-};
-
+/* Directed AI production offers. Prices are indicative starting points;
+   scope and final pricing are confirmed in the signed quote. */
 /* The AI offers are mass-produced via LaFusée: fast and cheap, but with clear
    trade-offs vs the human-crafted tiers — stated up front, no surprises. */
 const AI_NOTE: Bi = {
@@ -480,7 +466,6 @@ const HUMAN_NOTE: Bi = {
 
 type GPOffer = {
   section: 'conseil' | 'oneShot' | 'carte' | 'retainer';
-  glyph: string;
   name: string;
   tagline: Bi;
   eur: number;
@@ -489,17 +474,11 @@ type GPOffer = {
   includes: Bi[];
   conditions: Bi;
   img: string;
-  cases: OfferCase[];
 };
-
-/* Helper: an illustrative (fictional) example for an AI offer. Clearly tagged
-   « Exemple » in the UI — these are not real clients. */
-const ex = (brand: string, theme: Bi, result: Bi): OfferCase => ({ brand, theme, result, dummy: true });
 
 const GRAND_PUBLIC: GPOffer[] = [
   {
     section: 'conseil',
-    glyph: '⚡',
     name: 'Le Flash',
     tagline: { fr: 'Audit de marque express, propulsé par l’IA', en: 'Express brand audit, AI-powered' },
     eur: 49,
@@ -515,15 +494,9 @@ const GRAND_PUBLIC: GPOffer[] = [
     ],
     conditions: { fr: 'Livré sous 72 h · 100 % à la commande.', en: 'Delivered within 72 h · paid upfront.' },
     img: '/tarifs/conseil-diagnostic.webp',
-    cases: [
-      ex('Café Orbit', { fr: 'Coffee shop', en: 'Coffee shop' }, { fr: 'Audit livré en 72 h · 3 priorités claires.', en: 'Audit in 72 h · 3 clear priorities.' }),
-      ex('Lumi Skincare', { fr: 'Cosmétique DTC', en: 'DTC skincare' }, { fr: 'Positionnement reclarifié en une lecture.', en: 'Positioning reclarified in one read.' }),
-      ex('Bolt Run', { fr: 'App livraison', en: 'Delivery app' }, { fr: 'Angles morts repérés avant le lancement.', en: 'Blind spots caught before launch.' }),
-    ],
   },
   {
     section: 'carte',
-    glyph: '⚡',
     name: 'Le Kit',
     tagline: { fr: 'Un pack de contenu pro, propulsé par l’IA', en: 'A pro content pack, AI-powered' },
     eur: 99,
@@ -539,15 +512,9 @@ const GRAND_PUBLIC: GPOffer[] = [
     ],
     conditions: { fr: 'Livré sous 48 h · 1 aller-retour.', en: 'Delivered within 48 h · 1 revision.' },
     img: '/tarifs/studio-branding.webp',
-    cases: [
-      ex('Maison Kweli', { fr: 'Mode', en: 'Fashion' }, { fr: 'Logo + 10 posts livrés en 48 h.', en: 'Logo + 10 posts in 48 h.' }),
-      ex('Verda Juice', { fr: 'Boisson', en: 'Beverage' }, { fr: 'Série de visuels prête à publier.', en: 'Visual series ready to post.' }),
-      ex('Studio Lumen', { fr: 'Photo', en: 'Photo' }, { fr: 'Key visual express pour une promo.', en: 'Express key visual for a promo.' }),
-    ],
   },
   {
     section: 'oneShot',
-    glyph: '⚡',
     name: 'Décollage Express',
     tagline: { fr: 'Le pack lancement complet, propulsé par l’IA', en: 'The full launch pack, AI-powered' },
     eur: 199,
@@ -563,23 +530,9 @@ const GRAND_PUBLIC: GPOffer[] = [
     ],
     conditions: { fr: 'Livré sous 5 jours · payable en 2×.', en: 'Delivered within 5 days · payable in 2×.' },
     img: '/tarifs/etincelle.webp',
-    cases: [
-      // The one real AI project so far — links to the folio. The rest are
-      // illustrative until their dossiers are created.
-      {
-        brand: 'Cosmos Boba',
-        theme: { fr: 'Lancement F&B · IA', en: 'F&B launch · AI' },
-        result: { fr: 'Marque & présence en ligne, conçues via LaFusée.', en: 'Brand & online presence, built via LaFusée.' },
-        img: '/work/cases/cosmo-boba/hero.webp',
-        href: '/work/cosmo-boba',
-      },
-      ex('Nova Yoga', { fr: 'Bien-être', en: 'Wellness' }, { fr: 'Marque + landing en ligne en 5 j.', en: 'Brand + landing live in 5 days.' }),
-      ex('Pulse FM', { fr: 'Média', en: 'Media' }, { fr: 'Lancement complet, prêt le jour J.', en: 'Full launch, ready on day one.' }),
-    ],
   },
   {
     section: 'retainer',
-    glyph: '⚡',
     name: 'Pilote Auto',
     tagline: { fr: 'Votre contenu en pilote automatique, propulsé par l’IA', en: 'Your content on autopilot, AI-powered' },
     eur: 79,
@@ -595,11 +548,6 @@ const GRAND_PUBLIC: GPOffer[] = [
     ],
     conditions: { fr: 'Sans engagement · résiliable au mois.', en: 'No commitment · cancel monthly.' },
     img: '/tarifs/retainer-copilote.webp',
-    cases: [
-      ex('Green Cart', { fr: 'E-commerce', en: 'E-commerce' }, { fr: '12 visuels/mois · réseaux toujours vivants.', en: '12 visuals/mo · channels always alive.' }),
-      ex('Zen Spa', { fr: 'Bien-être', en: 'Wellness' }, { fr: 'Contenu mensuel cohérent, zéro charge.', en: 'Coherent monthly content, zero hassle.' }),
-      ex('Tilt Gaming', { fr: 'Gaming', en: 'Gaming' }, { fr: 'Flux régulier, supervisé.', en: 'Steady supervised flow.' }),
-    ],
   },
 ];
 
@@ -752,44 +700,6 @@ export function TarifsClient() {
     </article>
   );
 
-  /* Result tiles — proof, not pitch. Real dossiers replace the placeholders. */
-  const CaseTiles = ({ cases }: { cases: OfferCase[] }) => (
-    <div className={styles.gpCases}>
-      <span className={styles.gpCasesLabel}>{fr ? 'Résultats' : 'Results'}</span>
-      <div className={styles.gpCasesGrid}>
-        {cases.map((c, i) => {
-          const inner = (
-            <>
-              <span className={styles.gpCaseThumb} aria-hidden="true">
-                {c.img ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={c.img} alt="" loading="lazy" />
-                ) : (
-                  <span className={styles.gpCaseInitial}>{c.brand.charAt(0)}</span>
-                )}
-                {c.dummy && (
-                  <span className={styles.gpCaseTag}>{fr ? 'Exemple' : 'Example'}</span>
-                )}
-              </span>
-              <span className={styles.gpCaseBrand}>{c.brand}</span>
-              <span className={styles.gpCaseTheme}>{tr(c.theme)}</span>
-              <span className={styles.gpCaseResult}>{tr(c.result)}</span>
-            </>
-          );
-          return c.href ? (
-            <a key={`${c.brand}-${i}`} className={styles.gpCase} href={c.href}>
-              {inner}
-            </a>
-          ) : (
-            <div key={`${c.brand}-${i}`} className={styles.gpCase}>
-              {inner}
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-
   /* Mass-market, AI-powered offer band — the accessible door atop a univers. */
   const GPBand = ({ gp }: { gp: GPOffer | undefined }) => {
     if (!gp) return null;
@@ -802,7 +712,7 @@ export function TarifsClient() {
         <div className={styles.gpBody}>
           <span className={styles.gpFlag}>{fr ? 'Grand public · propulsé par l’IA' : 'Mass-market · AI-powered'}</span>
           <h3 className={styles.gpName}>
-            <span aria-hidden="true">{gp.glyph}</span> {gp.name}
+            <SparkMark size={24} animated={false} ariaHidden /> {gp.name}
           </h3>
           <p className={styles.gpTagline}>{tr(gp.tagline)}</p>
           <p className={styles.gpPitch}>{tr(gp.pitch)}</p>
@@ -812,7 +722,6 @@ export function TarifsClient() {
             ))}
           </ul>
           <p className={styles.gpNote}>{tr(AI_NOTE)}</p>
-          <CaseTiles cases={gp.cases} />
         </div>
         <div className={styles.gpSide}>
           <Price eur={gp.eur} from unit={gp.unit} />
@@ -826,7 +735,7 @@ export function TarifsClient() {
   };
 
   /* Human-crafted proof — real folio cases, re-linked to the univers they best
-     illustrate. The high-value counterweight to the AI examples above. */
+     illustrate. All linked cases are documented portfolio projects. */
   const CraftedStrip = ({ section }: { section: GPOffer['section'] }) => {
     const cases = HUMAN_CASES[section]
       .map((slug) => ({ slug, c: getCase(slug) }))

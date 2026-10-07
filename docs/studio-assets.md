@@ -6,6 +6,14 @@ Instrument Serif, Space Grotesk, JetBrains Mono, Fraunces et Inter sont héberg�
 
 ## Présentations générées
 
+Quatre présentations supplémentaires ont été produites le 7 octobre 2026 avec
+l’outil de génération d’images : Ecobank en vitrine, NSIA sur panneau urbain,
+Goodlocs en nature morte et Cap Esterias en magazine. Les fichiers WebP 1672px de large
+sont hébergés dans `public/studio` (166 à 311 Ko chacun). Le mapping commun
+`src/lib/project-presentations.ts` les raccorde aux cartes, études de cas et
+folio Design. Chaque légende signale la génération. Les prompts exacts et
+références sont dans `docs/mockups-2026-10.json`.
+
 `public/studio/peak-billboard.webp` et `robuste-packaging.webp` ont été générés avec l’outil de génération d’images à partir des créations existantes : `public/work/cases/friesland-campina/hero.webp` et `public/work/cases/robuste-packaging/hero.webp`. Ce sont des mises en situation de portfolio, pas des photographies de déploiements réels. Les originaux des campagnes restent disponibles dans les études de cas.
 
 ## Showreel
@@ -34,4 +42,10 @@ Les captures initialement référencées étaient absentes du dépôt. `public/s
 
 ## Aperçus photographiques retenus
 
-Huit photographies existantes dans `public/work/galerie-pixieset` sont associées à leurs collections correspondantes par `src/lib/gallery-assets.ts`. Elles sont utilisées en priorité dans la galerie et dans le folio Design, et intégrées au showreel. Les métadonnées Pixieset auto-générées restent intactes. Les autres aperçus externes conservent un repli textuel si leur chargement échoue.
+Les 18 collections disposent d’une couverture locale dans `src/lib/gallery-assets.ts`.
+Huit photographies existantes sont conservées dans `public/work/galerie-pixieset`
+et intégrées au film. Dix couvertures complémentaires ont été récupérées depuis
+les URL publiques `images.pixieset.com` déjà référencées par les métadonnées,
+puis optimisées en WebP dans `public/gallery/covers`. Leur provenance figure
+dans `docs/gallery-cover-sources.json`. Les métadonnées Pixieset auto-générées
+et les liens vers les collections complètes restent intacts.

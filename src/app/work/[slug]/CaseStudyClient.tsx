@@ -16,6 +16,7 @@ import {
   ProjectCard,
 } from '@/components/studio/Studio';
 import s from '@/styles/studio.module.css';
+import { PROJECT_PRESENTATIONS } from '@/lib/project-presentations';
 export type CaseLite = {
   slug: string;
   name: Bi;
@@ -23,10 +24,6 @@ export type CaseLite = {
   year: string;
   hero: string;
   hat: CaseHat;
-};
-const MOCKUPS: Record<string, string> = {
-  'friesland-campina': '/studio/peak-billboard.webp',
-  'robuste-packaging': '/studio/robuste-packaging.webp',
 };
 export function CaseStudyClient({
   caseStudy: c,
@@ -46,7 +43,7 @@ export function CaseStudyClient({
   const title = pick(c.name, lang);
   const gallery = c.gallery.filter((img) => img.src !== c.hero);
   const agency = agencyForCase(c.slug);
-  const mockup = MOCKUPS[c.slug];
+  const mockup = PROJECT_PRESENTATIONS[c.slug];
   const narrative = [
     { key: 'role', title: L('Le rôle', 'The role'), body: c.role },
     { key: 'process', title: L('La démarche', 'The process'), body: c.process },
@@ -65,7 +62,7 @@ export function CaseStudyClient({
         </nav>
         <div className={s.caseHeading}>
           <h1>{title}</h1>
-          <span>{c.year} ↗</span>
+          <span>{c.year}</span>
         </div>
       </header>
       <figure className={s.caseHero}>

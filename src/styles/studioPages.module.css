@@ -1,17 +1,17 @@
 /* Shared secondary-page rhythm, within the original Xtincell identity. */
 .root.root {
-  --bg: #0b0b0a;
-  --bg-2: #171716;
-  --paper: #0b0b0a;
-  --ink: #f4f0e7;
-  --ink-2: #c8c3b8;
-  --ink-3: #a7a297;
-  --muted: #aaa69b;
-  --line: #343430;
+  --bg: var(--xt-ink);
+  --bg-2: var(--xt-graphite);
+  --paper: var(--xt-ink);
+  --ink: var(--xt-paper);
+  --ink-2: #d1cabf;
+  --ink-3: var(--xt-secondary);
+  --muted: var(--xt-secondary);
+  --line: var(--xt-line);
   --line-2: #4c4942;
-  --accent: #f0784a;
-  --orange: #f0784a;
-  --accent-soft: #f0784a18;
+  --accent: var(--xt-flame);
+  --orange: var(--xt-flame);
+  --accent-soft: #ff682f18;
   --font: var(--folio-grotesk), system-ui, sans-serif;
   --serif: var(--folio-serif), Georgia, serif;
   --mono: var(--folio-mono), monospace;
@@ -35,9 +35,9 @@
   padding: 0 4vw;
   min-height: 56px;
   border-block: 1px solid var(--line);
-  background: #0b0b0af2;
+  background: #080808f2;
   backdrop-filter: blur(16px);
-  font: 10px var(--mono);
+  font: 12px var(--mono);
   color: var(--ink-3);
 }
 .index > span {
@@ -69,6 +69,12 @@
 .index a[aria-current] {
   color: var(--ink);
   border-bottom-color: var(--accent);
+}
+.presentationCaption {
+  display: block;
+  margin-block: 12px;
+  color: var(--ink-3);
+  font: 12px/1.5 var(--font);
 }
 @media (max-width: 760px) {
   .index {

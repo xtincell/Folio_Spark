@@ -9,7 +9,7 @@ import {
 } from '@/components/folio/data/cases';
 import { PRACTICES } from '@/components/folio/data/practices';
 import { useLang, pick } from '@/lib/i18n';
-import { StudioShell, ProjectCard } from '@/components/studio/Studio';
+import { StudioShell, ProjectCard, Arrow } from '@/components/studio/Studio';
 import s from '@/styles/studio.module.css';
 
 export function WorkClient() {
@@ -198,7 +198,7 @@ export function WorkClient() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          {pick(proof.label, lang)} ↗
+                          {pick(proof.label, lang)} <Arrow diagonal />
                         </a>
                       ))}
                     </div>

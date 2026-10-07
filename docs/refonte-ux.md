@@ -57,3 +57,37 @@ La cible de publication est `main` → application Coolify « Xtincell » → ht
 Pour confirmer une livraison en production, contrôler le HTML (source `showreel.mp4?v=motion-2026`), `/api/health`, puis `/studio/showreel-manifest.json` (version 2, 48 secondes, 1920 × 1080, 30 i/s). Comparer l’empreinte SHA-256 du MP4 servi avec celle du fichier versionné. Un healthcheck vert ou un push réussi ne suffisent pas : une ancienne version peut encore être servie pendant un build ou si le webhook n’a pas lancé de déploiement. Si aucun statut GitHub ne remonte, contrôler les logs de l’application dans Coolify.
 
 Les résultats de validation ci-dessus proviennent du serveur de production local. La publication d’un snapshot cloud et la restauration dans une nouvelle tâche ne sont pas revendiquées.
+
+
+## Évolution du système — 7 octobre 2026
+
+La demande de finalisation élargit la restauration du hero en un vrai système
+visuel, documenté dans `DESIGN.md`. Astra a réalisé la composition : couverture
+en triptyque avec titre interactif conservé, chapitre cinéma orange indépendant,
+planches de campagnes et diptyques, manifeste photographique, méthode ADVE/RTIS
+explorable et entrée photo pleine image. Les pages secondaires reprennent les
+couleurs, la typographie et les actions du système.
+
+Quatre nouveaux mockups rejoignent les deux existants : Ecobank, NSIA, Goodlocs
+et Cap Esterias. Originaux et crédits restent consultables. Les 18 collections
+photo possèdent une couverture locale réelle. Les exemples fictifs des offres
+ont été retirés ; les prix restent des points de départ existants, fixés au devis.
+Les cartes équipe sans photo utilisent une signature typographique.
+
+La première compilation génère les 67 pages. La passe navigateur initiale couvre
+15 routes à 1440 et 390px : aucune erreur JS, aucun débordement, aucun asset local
+manquant et aucune violation axe sérieuse/critique sur les règles WCAG A/AA
+contrôlées. Les interactions menu, filtre, recherche, lightbox, FR/EN, devise et
+lecture du film passent. Le titre réagit au pointeur, s’arrête avec la réduction
+des animations activée à chaud et reprend correctement. Les 58 URL du sitemap
+et 86 cibles supplémentaires de liens internes répondent en HTTP 200.
+
+Une revue Astra indépendante, sans historique de construction, valide les heroes
+1440×900, 1366×768, 768×1024 et 390×844 et les chapitres desktop/mobile. Elle a
+confirmé deux défauts de finition, corrigés avant publication : glyphes remplacés
+par des SVG et hauteur du portrait UPgraders. Les contrôles et captures sont
+réalisés directement : le lanceur et le détecteur Impeccable ne sont pas installés.
+
+Les informations légales détaillées de l’entité de facturation (nom légal, adresse,
+RCCM/NIU/TVA applicables) restent à fournir par Alexandre. Une question factuelle
+a été posée ; aucune de ces informations n’a été inventée.

@@ -120,7 +120,7 @@ export function GalerieClient() {
         <span role="status" aria-live="polite">
           {shown.length} {L('collections', 'collections')}
         </span>
-        <span>PIXIESET ↗</span>
+        <span>PIXIESET</span>
       </div>
       <section
         className={s.workContent}
@@ -143,10 +143,10 @@ export function GalerieClient() {
                   position={g.bgPosition}
                 />
                 {g.locked && (
-                  <span>{L('Collection privée', 'Private collection')} ◇</span>
+                  <span>{L('Collection privée', 'Private collection')}</span>
                 )}
               </div>
-              <h2>{g.title} ↗</h2>
+              <h2>{g.title} <Arrow diagonal /></h2>
               <p>
                 {lang === 'en'
                   ? CATEGORY_EN[g.category || ''] || g.category
@@ -179,9 +179,9 @@ export function GalerieClient() {
             >
               <div>
                 <RemoteImage src={v.thumb} alt={v.title} />
-                <span aria-hidden="true">▶</span>
+                <span aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m8 5 11 7-11 7V5Z" /></svg></span>
               </div>
-              <h3>{v.title} ↗</h3>
+              <h3>{v.title} <Arrow diagonal /></h3>
             </a>
           ))}
         </div>

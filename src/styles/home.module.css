@@ -2034,3 +2034,117 @@
   .heroSub { margin-bottom: 14px; }
   .heroCta .btn { padding-block: 14px; }
 }
+
+/* Xtincell 2026 — the spark becomes a composition.
+   One identity, three working perspectives: statement / person / practice. */
+.hero {
+  --bg: #080808;
+  --ink: #f5f0e8;
+  --ink-2: #b6b0a6;
+  --ink-3: #aaa298;
+  --accent: #ff682f;
+  --accent-2: #c83512;
+  padding-inline: clamp(22px, 4vw, 80px);
+}
+.heroBg { background: #080808; }
+.heroGlow {
+  inset: 28% 0 0;
+  background: radial-gradient(ellipse at 52% 75%, #98341b20, transparent 62%);
+}
+.heroMasthead { user-select: auto; }
+.mastRule { border-color: #393631; padding-block: 8px; font-size: 11px; letter-spacing: .12em; }
+.mastTitle { color: #f5f0e8; }
+.mastKicker { color: #b6b0a6; }
+.heroCopy { display: contents; }
+.heroTitle { margin: 0; }
+.heroTitle em { color: #b6b0a6; }
+.heroTitle :global(.accent) em { color: #ff682f; }
+.heroOverview { align-self: center; }
+.heroOverview .heroSub { margin-bottom: 28px; font-size: 16px; line-height: 1.7; }
+.heroCta { flex-direction: column; align-items: flex-start; gap: 14px; }
+.heroCta .btn { min-height: 48px; padding: 14px 20px; border-radius: 4px; font-size: 11px; letter-spacing: .07em; }
+.heroCta .btnPrimary { background: #ff682f; border-color: #ff682f; }
+.heroCta .btnGhost { border-width: 0 0 1px; border-radius: 0; padding: 10px 0; }
+.heroCta .btnGhost:hover { background: transparent; color: #ff682f; border-color: #ff682f; }
+.heroPortrait { isolation: isolate; }
+.portraitFrame { background: #191918; padding: 10px; border: 0; backdrop-filter: none; box-shadow: 0 25px 55px -25px #000b; }
+.portraitFrame::before { inset: -12px 15px 12px -12px; width: auto; height: auto; border: 0; z-index: -1; background: #ff682f; transform: rotate(-3deg); }
+.portraitFrame::after { display: none; }
+.portraitFrame img { filter: grayscale(1) contrast(1.04); }
+.portraitTag { font-size: 10px; letter-spacing: .05em; gap: 5px; margin: 12px 3px 3px; }
+.portraitCaption { margin-top: 12px; font-size: 10px; letter-spacing: .08em; color: #b6b0a6; }
+.portraitMacaron { box-shadow: 0 9px 22px -8px #0009; }
+.macaronPrimary { background: #ff682f; border: 0; }
+.macaronSecondary { background: #f5f0e8; border: 0; }
+.hero .heroScroll { margin: 12px 0 0; font-family: var(--grotesk); font-size: 13px; text-transform: none; letter-spacing: 0; }
+.heroMarquee { margin-top: 12px; padding-block: 10px; border-color: #393631; }
+.marqueeGroup { font-family: var(--grotesk); font-size: 12px; letter-spacing: .02em; text-transform: none; }
+@media (min-width: 1101px) {
+  .hero { min-height: 100svh; padding-top: 88px; padding-bottom: 16px; }
+  .heroGrid { grid-template-columns: 1.28fr .94fr .88fr; gap: clamp(20px, 2.7vh, 36px) clamp(28px, 3.2vw, 60px); align-items: center; }
+  .heroMasthead { grid-column: 1/-1; grid-row: 1; }
+  .mastTitle { font-size: clamp(100px, 15vh, 188px); }
+  .mastKicker { font-size: 18px; line-height: 1.1; margin: 8px 0 4px; }
+  .heroTitle { grid-column: 1; grid-row: 2; font-size: clamp(56px, min(6.5vw, 9vh), 104px); line-height: .96; letter-spacing: -.025em; align-self: center; }
+  .heroPortrait { grid-column: 2; grid-row: 2; width: min(100%, 30vh); margin: 0 auto; align-self: center; }
+  .heroOverview { grid-column: 3; grid-row: 2; align-self: center; padding-top: 18px; }
+  .portraitMacaron { width: clamp(80px, 10.5vh, 110px); padding: 10px; }
+  .portraitMacaron .macaronTitle { font-size: clamp(21px, 2.5vh, 29px); }
+  .macaronPrimary { top: -23px; right: -24px; }
+  .macaronSecondary { bottom: 84px; left: -25px; }
+}
+@media (min-width: 1101px) and (max-height: 800px) {
+  .hero { padding-top: 84px; padding-bottom: 12px; }
+  .heroGrid { gap: 18px 32px; }
+  .mastTitle { font-size: clamp(80px, 12.8vh, 110px); }
+  .mastRule { padding-block: 7px; }
+  .heroTitle { font-size: clamp(52px, 8.5vh, 70px); }
+  .heroPortrait { width: min(100%, 28vh); }
+  .heroOverview .heroSub { font-size: 15px; margin-bottom: 20px; }
+  .heroCta { gap: 7px; }
+  .heroCta .btn { min-height: 44px; padding-block: 12px; }
+  .heroMarquee { margin-top: 7px; padding-block: 8px; }
+}
+@media (min-width: 761px) and (max-width: 1100px) {
+  .hero { padding-top: 98px; }
+  .heroGrid { grid-template-columns: 1.2fr .8fr; gap: 32px; align-items: center; }
+  .heroMasthead { grid-column: 1/-1; }
+  .heroCopy { display: block; grid-column: 1; grid-row: 2; }
+  .heroTitle { font-size: clamp(54px, 7vw, 75px); margin-bottom: 24px; }
+  .heroOverview .heroSub { font-size: 15px; margin-bottom: 18px; }
+  .heroPortrait { grid-column: 2; grid-row: 2; width: 100%; max-width: 300px; }
+  .mastTitle { font-size: 13vw; }
+  .mastRule { grid-template-columns: 1fr auto 1fr; font-size: 9px; letter-spacing: .05em; }
+  .mastRule > span:first-child { justify-self: start !important; }
+  .mastRule > span:last-child { justify-self: end !important; }
+  .heroCta { gap: 8px; }
+}
+@media (max-width: 760px) {
+  .hero { padding: 94px 22px 24px; }
+  .heroGrid { grid-template-columns: 1fr; gap: 34px; }
+  .heroMasthead { margin: 0; }
+  .mastRule { font-size: 10px; letter-spacing: .1em; gap: 5px; padding-block: 10px; }
+  .mastRule:first-child { grid-template-columns: auto 1fr; align-items: center; }
+  .mastRule:first-child > span:first-child { justify-self: start !important; }
+  .mastRule:first-child > span:nth-child(2) { justify-self: end !important; font-size: 9px; gap: 6px; letter-spacing: .04em; }
+  .mastRule:first-child > span:last-child { display: none; }
+  .mastTitle { font-size: clamp(66px, 20vw, 145px); }
+  .mastKicker { font-size: 19px; margin: 15px 0 8px; }
+  .heroCopy { display: contents; }
+  .heroTitle { grid-row: 2; font-size: clamp(55px, 12.8vw, 86px); line-height: .94; padding-top: 5px; }
+  .heroPortrait { grid-row: 3; width: 84%; max-width: 360px; margin: 10px auto 0; }
+  .heroOverview { grid-row: 4; }
+  .heroOverview .heroSub { font-size: 15px; margin-bottom: 22px; max-width: 56ch; }
+  .heroCta { flex-direction: row; gap: 10px 22px; align-items: center; }
+  .heroCta .btn { font-size: 10px; }
+  .portraitMacaron { width: 88px; padding: 9px; }
+  .portraitMacaron .macaronEyebrow,.portraitMacaron .macaronOrg { font-size: 9px; letter-spacing: .05em; }
+  .portraitMacaron .macaronTitle { font-size: 22px; }
+  .macaronPrimary { top: -17px; right: -20px; }
+  .macaronSecondary { top: auto; bottom: 92px; right: auto; left: -22px; }
+  .hero .heroScroll { margin-top: 24px; flex-direction: row; gap: 14px; min-height: 44px; }
+  .heroScroll .scrollLine { display: none; }
+  .heroScroll .scrollArrow { display: block; }
+}
+.heroCta a.btnGhost:hover { color: #ff682f; background: transparent; }
+.heroCta a.btnPrimary:hover { background: #ff8c5e; border-color: #ff8c5e; color: #080808; }

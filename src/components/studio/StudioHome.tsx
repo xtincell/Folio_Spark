@@ -5,247 +5,100 @@ import { useLang, pick } from '@/lib/i18n';
 import { CASE_STUDIES } from '@/components/folio/data/cases';
 import { PRESS } from '@/components/folio/data/press';
 import { STEPS } from '@/components/folio/data/method';
-import {
-  StudioShell,
-  Arrow,
-  Spark,
-  ProjectCard,
-  SectionHeading,
-  StudioReveal,
-} from './Studio';
+import { StudioShell, Arrow, ProjectCard, SectionHeading } from './Studio';
 import { Showreel } from './Showreel';
 import { Hero } from '@/components/folio/Hero';
 import home from '@/styles/home.module.css';
 import s from '@/styles/studio.module.css';
 
-const selected = [
-  'friesland-campina',
-  'goodlocs',
-  'la-barre',
-  'hero-shot',
-  'cosmo-boba',
-  'robuste-packaging',
-]
-  .map((slug) => CASE_STUDIES.find((p) => p.slug === slug)!)
+const selected = ['friesland-campina', 'goodlocs', 'robuste-packaging', 'ecobank', 'cap-esterias', 'la-barre']
+  .map(slug => CASE_STUDIES.find(project => project.slug === slug)!)
   .filter(Boolean);
+
 export function StudioHome() {
   const { lang } = useLang();
-  const L = (fr: string, en: string) => (lang === 'fr' ? fr : en);
+  const L = (fr: string, en: string) => lang === 'fr' ? fr : en;
   return (
     <StudioShell cover={<div className={home.folioRoot}><Hero /></div>}>
       <section className={s.reelChapter} id="showreel" aria-labelledby="showreel-heading">
         <div className={s.reelChapterHeading}>
-          <div>
-            <span className={s.eyebrow}>PLAY / SHOWREEL 2026</span>
-            <h2 id="showreel-heading">{L('L’univers, en mouvement.', 'The world, in motion.')}</h2>
+          <h2 id="showreel-heading">{L('L’étincelle', 'The spark')}<br />{L('prend vie.', 'comes alive.')}</h2>
+          <div className={s.reelIntroduction}>
+            <p>{L('Des marques, des images, des systèmes. Traversez mon univers en 48 secondes.', 'Brands, images, systems. Step into my world in 48 seconds.')}</p>
+            <span>{L('Showreel 2026 · Film sans son', 'Showreel 2026 · Silent film')}</span>
           </div>
-          <p>{L(
-            '48 secondes pour traverser les marques, les images et les systèmes. Une autre façon d’entrer dans mon travail.',
-            '48 seconds through brands, images and systems. Another way into my work.'
-          )}</p>
         </div>
         <Showreel />
       </section>
-      <section className={s.section} id="selected">
-        <SectionHeading
-          number="01"
-          title={L('La preuve par l’image.', 'The work speaks.')}
-        >
-          <p>
-            {L(
-              'Des marques, des histoires, des systèmes. Une sélection de projets qui relient le fond et la forme.',
-              'Brands, stories, systems. Selected projects that connect meaning and form.'
-            )}
-          </p>
+
+      <section className={`${s.section} ${s.workSelection}`} id="selected">
+        <SectionHeading number="" title={L('Des idées qui prennent forme.', 'Ideas, taking shape.')}>
+          <p>{L('Campagnes, identités, produits. Chaque projet commence par une intention et se construit jusque dans les détails.', 'Campaigns, identities, products. Every project starts with an intention, carried through to the smallest details.')}</p>
         </SectionHeading>
-        <div className={s.selectedGrid}>
-          {selected.map((p, i) => (
-            <StudioReveal key={p.slug} delay={(i % 2) * 0.08}>
-              <ProjectCard project={p} index={i} />
-            </StudioReveal>
-          ))}
+        <div className={s.campaigns}>
+          {selected.map((project, i) => {
+            const lead = i === 0 || i === 3;
+            const detail = project.gallery.find(img => img.src !== project.hero);
+            return <article key={project.slug} className={lead ? s.campaignLead : s.campaignPair}>
+              <ProjectCard project={project} index={i} featured={lead} />
+              {lead && <div className={s.campaignNote}>
+                <p>{pick(project.context, lang)}</p>
+                {detail && <figure><Image src={detail.src} alt={detail.alt ? pick(detail.alt, lang) : `${pick(project.name, lang)} — ${L('détail de la campagne', 'campaign detail')}`} width={680} height={680} sizes="(max-width: 760px) 80vw, 26vw" loading="lazy" /><figcaption>{L('Une campagne, plusieurs expressions.', 'One campaign, many expressions.')}</figcaption></figure>}
+              </div>}
+            </article>;
+          })}
         </div>
         <div className={s.sectionEnd}>
-          <span>
-            {L(
-              'Une sélection. Bien d’autres histoires.',
-              'A selection. Many more stories.'
-            )}
-          </span>
-          <Link href="/work" className={s.pillLink}>
-            {L('Tous les projets', 'All projects')}
-            <Arrow diagonal />
-          </Link>
+          <p>{L('Le fil continue.', 'There’s more to the story.')}</p>
+          <Link href="/work" className={s.pillLink}>{L('Explorer tous les projets', 'Explore all projects')}<Arrow diagonal /></Link>
         </div>
       </section>
+
       <section className={s.about} id="manifeste">
         <div className={s.aboutPortrait}>
-          <Image
-            src="/portrait.jpg"
-            alt="Alexandre Djengue — Xtincell"
-            width={610}
-            height={762}
-            sizes="(max-width: 700px) 100vw, 40vw"
-          />
-          <span>FIG. 01 — ALEXANDRE « XTINCELL » DJENGUE</span>
-          <Spark />
+          <Image src="/portrait-p2.jpg" alt="Alexandre Djengue — Xtincell" width={610} height={762} sizes="(max-width: 760px) 100vw, 40vw" />
+          <span>Alexandre Djengue · Xtincell</span>
         </div>
         <div className={s.aboutCopy}>
-          <span className={s.eyebrow}>
-            02 /{' '}
-            {L('L’humain derrière le système', 'The human behind the system')}
-          </span>
-          <h2>
-            {L('Un regard créatif.', 'A creative eye.')}
-            <br />
-            <em>{L('Un esprit d’ingénieur.', 'An engineer’s mind.')}</em>
-          </h2>
-          <p>
-            {L(
-              'Formé en télécommunications, façonné par 15 ans de création. Je navigue entre stratégie, direction artistique et production pour construire des marques qui ont du sens — et qui le gardent.',
-              'Trained in telecommunications, shaped by 15 years of creative practice. I work across strategy, art direction and production to build brands with meaning — and staying power.'
-            )}
-          </p>
-          <p className={s.muted}>
-            {L(
-              'Basé entre Douala et Yaoundé. Fondateur d’UPgraders, directeur créatif & artistique chez MATANGA Agency. Un ancrage africain, un terrain de jeu sans frontières.',
-              'Based between Douala and Yaoundé. Founder of UPgraders, creative & art director at MATANGA Agency. African roots, a practice without borders.'
-            )}
-          </p>
-          <Link href="/cv" className={s.textLink}>
-            {L('Mon parcours, en détail', 'Explore my background')}
-            <Arrow diagonal />
-          </Link>
+          <h2>{L('Créer des images.', 'Create images.')}<br />{L('Construire des systèmes.', 'Build systems.')}</h2>
+          <p>{L('Formé en télécommunications, façonné par 15 ans de création. Je navigue entre stratégie, direction artistique et production pour construire des marques qui ont du sens — et qui le gardent.', 'Trained in telecommunications, shaped by 15 years of creative practice. I work across strategy, art direction and production to build brands with meaning — and staying power.')}</p>
+          <p className={s.muted}>{L('Basé entre Douala et Yaoundé. Fondateur d’UPgraders, directeur créatif & artistique chez MATANGA Agency. Un ancrage africain, un terrain de jeu sans frontières.', 'Based between Douala and Yaoundé. Founder of UPgraders, creative & art director at MATANGA Agency. African roots, a practice without borders.')}</p>
+          <Link href="/cv" className={s.textLink}>{L('Découvrir mon parcours', 'Explore my background')}<Arrow diagonal /></Link>
           <div className={s.aboutFacts}>
-            <div>
-              <strong>15</strong>
-              <span>{L('années de pratique', 'years of practice')}</span>
-            </div>
-            <div>
-              <strong>03</strong>
-              <span>
-                {L('disciplines, une vision', 'disciplines, one vision')}
-              </span>
-            </div>
-            <div>
-              <strong>∞</strong>
-              <span>{L('curiosité intacte', 'endless curiosity')}</span>
-            </div>
+            <div><strong>Brand Architect</strong><span>{L('Du positionnement à l’identité.', 'From positioning to identity.')}</span></div>
+            <div><strong>Storytelling Consultant</strong><span>{L('De l’intention au récit.', 'From intention to narrative.')}</span></div>
+            <div><strong>Toolsmith</strong><span>{L('De la méthode aux outils.', 'From method to tools.')}</span></div>
           </div>
         </div>
       </section>
-      <section className={s.section} id="methode">
-        <SectionHeading
-          number="03"
-          title={L('Du sens. Puis de l’impact.', 'Meaning. Then impact.')}
-        >
-          <p>
-            {L(
-              'ADVE / RTIS. Ma méthode pour relier l’identité d’une marque à sa trajectoire. Développée au sein d’UPgraders.',
-              'ADVE / RTIS. My framework for connecting a brand’s identity to its trajectory. Developed at UPgraders.'
-            )}
-          </p>
+
+      <section className={`${s.section} ${s.methodSection}`} id="methode">
+        <SectionHeading number="" title={L('L’intuition a une méthode.', 'Instinct has a method.')}>
+          <p>{L('ADVE / RTIS. Une méthode développée au sein d’UPgraders pour relier ce qu’une marque est à ce qu’elle fait.', 'ADVE / RTIS. A method developed at UPgraders to connect what a brand is with what it does.')}</p>
         </SectionHeading>
-        <div className={s.methodGrid}>
-          <div className={s.methodIntro}>
-            <span className={s.methodCode}>
-              ADVE<span>↗</span>RTIS
-            </span>
-            <p>
-              {L(
-                'Le socle définit qui vous êtes. Le propulseur décide où vous allez.',
-                'The foundation defines who you are. The engine decides where you go.'
-              )}
-            </p>
-            <Link href="/tarifs" className={s.textLink}>
-              {L(
-                'Trouver le bon accompagnement',
-                'Find the right collaboration'
-              )}
-              <Arrow />
-            </Link>
-          </div>
-          <div className={s.methodSteps}>
-            {STEPS.map((step, i) => (
-              <details
-                key={step.code}
-                name="studio-method"
-                className={s.methodStep}
-              >
-                <summary>
-                  <span>{String(i + 1).padStart(2, '0')}</span>
-                  <h3>{pick(step.name, lang)}</h3>
-                  <b aria-hidden="true">+</b>
-                </summary>
-                <p>{pick(step.body, lang)}</p>
-              </details>
-            ))}
-          </div>
+        <div className={s.methodPanels}>
+          {(['Socle', 'Propulseur'] as const).map((group, index) => <div className={s.methodPanel} key={group}>
+            <div className={s.methodPanelHead}><h3>{index === 0 ? 'ADVE' : 'RTIS'}</h3><p>{index === 0 ? L('Définir le socle.', 'Define the foundation.') : L('Construire la trajectoire.', 'Build the trajectory.')}</p><Arrow diagonal /></div>
+            <div>{STEPS.filter(step => step.group === group).map(step => <details key={step.code} name={`studio-method-${group}`} className={s.methodStep}><summary><span>{step.code}</span><h4>{pick(step.name, lang)}</h4><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10h14M10 3v14" stroke="currentColor" strokeWidth="1.2" /></svg></summary><p>{pick(step.body, lang)}</p></details>)}</div>
+          </div>)}
         </div>
+        <div className={s.sectionEnd}><p>{L('Un projet à cadrer, une marque à faire grandir.', 'A project to shape, a brand to grow.')}</p><Link href="/tarifs" className={s.pillLink}>{L('Voir les accompagnements', 'Explore services')}<Arrow diagonal /></Link></div>
       </section>
-      <section className={s.section} id="presse">
-        <SectionHeading
-          number="04"
-          title={L('Hors du cadre.', 'Beyond the frame.')}
-        >
-          <p>
-            {L(
-              'Portraits, conversations et regards extérieurs sur le travail.',
-              'Profiles, conversations and outside perspectives on the work.'
-            )}
-          </p>
-        </SectionHeading>
-        <div className={s.pressList}>
-          {PRESS.map((item) => (
-            <a key={item.url} href={item.url} target="_blank" rel="noreferrer">
-              <small>
-                {item.outlet} · {pick(item.date, lang)}
-              </small>
-              <h3>{pick(item.title, lang)}</h3>
-              <Arrow diagonal />
-            </a>
-          ))}
-        </div>
-      </section>
+
       <section className={s.exploreBand}>
-        <span className={s.eyebrow}>
-          {L('Un peu plus loin', 'Keep exploring')}
-        </span>
-        <div>
-          <Link href="/galerie">
-            <span>01</span>
-            <h2>{L('L’œil & l’instant', 'The eye & the moment')}</h2>
-            <p>
-              {L(
-                'Photographie, portraits, histoires vécues.',
-                'Photography, portraits, lived stories.'
-              )}
-            </p>
-            <Arrow diagonal />
-          </Link>
-          <Link href="/tech">
-            <span>02</span>
-            <h2>{L('L’idée & l’outil', 'The idea & the tool')}</h2>
-            <p>
-              {L(
-                'Produits numériques, IA et systèmes créatifs.',
-                'Digital products, AI and creative systems.'
-              )}
-            </p>
-            <Arrow diagonal />
-          </Link>
-          <Link href="/upgraders">
-            <span>03</span>
-            <h2>{L('La force du collectif', 'Creative, together')}</h2>
-            <p>
-              {L(
-                'UPgraders. La passion pour propulseur.',
-                'UPgraders. Powered by passion.'
-              )}
-            </p>
-            <Arrow diagonal />
-          </Link>
+        <Link href="/galerie" className={s.photoInvitation}>
+          <div><Image src="/work/galerie-pixieset/03-lydol-portrait.jpg" alt="Lydol, portrait photographique par Xtincell" width={1200} height={800} sizes="(max-width: 760px) 100vw, 65vw" loading="lazy" /></div>
+          <div className={s.photoInvitationTitle}><h2>{L('Saisir le vivant.', 'Capture the living.')}</h2><span>{L('Explorer les collections photo', 'Explore the photography')}<Arrow diagonal /></span></div>
+        </Link>
+        <div className={s.exploreLinks}>
+          <Link href="/tech"><h2>{L('L’idée devient outil.', 'Ideas become tools.')}</h2><p>{L('Produits numériques, IA et systèmes créatifs.', 'Digital products, AI and creative systems.')}</p><Arrow diagonal /></Link>
+          <Link href="/upgraders"><h2>{L('La force du collectif.', 'Creative, together.')}</h2><p>{L('UPgraders. La passion pour propulseur.', 'UPgraders. Powered by passion.')}</p><Arrow diagonal /></Link>
         </div>
+      </section>
+
+      <section className={`${s.section} ${s.pressSection}`} id="presse">
+        <SectionHeading number="" title={L('La conversation continue.', 'The conversation continues.')} />
+        <div className={s.pressList}>{PRESS.map(item => <a key={item.url} href={item.url} target="_blank" rel="noreferrer"><small>{item.outlet} · {pick(item.date, lang)}</small><h3>{pick(item.title, lang)}</h3><Arrow diagonal /></a>)}</div>
       </section>
     </StudioShell>
   );

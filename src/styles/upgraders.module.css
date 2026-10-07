@@ -416,12 +416,38 @@
 .reseauPortrait {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: 50% 18%;
   border-radius: 4px;
   border: 1px solid var(--line-2);
   margin-bottom: 18px;
+}
+.reseauMonogram {
+  aspect-ratio: 4 / 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  margin-bottom: 18px;
+  color: var(--ink);
+  background: var(--bg-2);
+  border: 1px solid var(--line-2);
+}
+.reseauMonogram span {
+  font: 400 clamp(60px, 10vw, 150px)/1 var(--display);
+  color: var(--coral);
+  align-self: center;
+  margin-block: auto;
+  letter-spacing: -.04em;
+}
+.reseauMonogram small {
+  border-top: 1px solid var(--line-2);
+  padding-top: 18px;
+  font: 12px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
 .reseauRole {
   font-family: var(--mono);

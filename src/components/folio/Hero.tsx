@@ -44,7 +44,7 @@ export function Hero() {
           </div>
         </header>
 
-        <div>
+        <div className={styles.heroCopy}>
           <h1 className={styles.heroTitle}>
             <span className="line">{t.hero.titleL1}</span>
             <span className="line">
@@ -64,6 +64,7 @@ export function Hero() {
             </span>
           </h1>
 
+          <div className={styles.heroOverview}>
           <p className={styles.heroSub}>{t.hero.sub}</p>
 
           <div className={styles.heroCta}>
@@ -76,6 +77,7 @@ export function Hero() {
             <Link href="/cv" className={`${styles.btn} ${styles.btnGhost}`}>
               <span>{t.hero.ctaCv}</span>
             </Link>
+          </div>
           </div>
         </div>
 

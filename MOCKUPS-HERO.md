@@ -1,7 +1,17 @@
-# Mockups hero — prompts Nano Banana
+# Présentations de projets — état et archive des prompts
 
-Hero **provisoire** par projet (image du dossier, compressée) + **mockup définitif** à générer.
-Pour chaque projet : joins l'image de référence indiquée à Nano Banana avec le prompt ci-dessous, génère à la dimension donnée, puis remplace `public/work/cases/<slug>/hero.webp`.
+Au 7 octobre 2026, six mises en situation sont intégrées : Peak / FrieslandCampina,
+Robuste Packaging, Ecobank, NSIA, Goodlocs et Cap Esterias. Le mapping de production
+est `src/lib/project-presentations.ts`; les nouveaux prompts et sources sont
+consignés dans `docs/mockups-2026-10.json`.
+
+Les créations originales restent dans leurs dossiers et les galeries des projets.
+Elles constituent des couvertures valables pour les autres cas. Ne pas les
+écraser avec des images générées. Toute mise en situation doit porter une légende
+claire et ne doit pas être présentée comme une installation réelle.
+
+Les propositions ci-dessous sont une archive d’intentions, pas une liste de
+blocages de publication ni un inventaire d’images déjà produites.
 
 ---
 

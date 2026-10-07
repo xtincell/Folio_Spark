@@ -102,7 +102,7 @@
 .pdfBtn {
   display: inline-flex; align-items: center; gap: 6px;
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
-  padding: 6px 12px; border: 1px solid var(--accent); border-radius: 99px;
+  padding: 6px 12px; border: 1px solid var(--accent); border-radius: 4px;
   color: var(--accent); text-decoration: none;
   transition: background 180ms ease, color 180ms ease;
 }
@@ -190,7 +190,7 @@
 .tl :global(.org) { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
 .tl :global(.desc) { color: var(--ink-2); font-size: 14px; line-height: 1.55; margin-top: 4px; max-width: 600px; }
 .tl :global(.tags) { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-.tl :global(.tags) span { font-family: var(--mono); font-size: 10px; letter-spacing: 0.10em; color: var(--ink-3); padding: 4px 8px; border: 1px solid var(--line-2); border-radius: 99px; }
+.tl :global(.tags) span { font-family: var(--mono); font-size: 10px; letter-spacing: 0.10em; color: var(--ink-3); padding: 4px 8px; border: 1px solid var(--line-2); border-radius: 4px; }
 
 .skills {
   display: grid; grid-template-columns: 1fr; gap: 24px;
