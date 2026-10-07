@@ -18,10 +18,7 @@
   background: #e7532d;
   color: #fff;
 }
-.root h1,
-.root h2,
-.root h3,
-.root p {
+:where(.root h1, .root h2, .root h3, .root p) {
   margin: 0;
 }
 .root button,
@@ -2610,4 +2607,50 @@
   .reelControls { gap: 8px; padding: 12px; }
   .reelCaption { flex-direction: column; letter-spacing: .03em; font-size: 10px; }
   .reelControls button { padding: 8px 12px; }
+}
+
+/* The original magazine cover owns the homepage opening. Its fixed 72px
+   navigation does not add an extra in-flow header above the cover. */
+.header.headerOverlay {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 72px;
+  max-width: 2000px;
+  margin-inline: auto;
+  padding-inline: 32px;
+  background: rgb(10 10 10 / 88%);
+  backdrop-filter: blur(18px);
+  border-bottom-color: rgb(245 240 232 / 12%);
+}
+.headerOverlay .menuPanel { top: 64px; }
+.reelChapter {
+  padding: 72px 4vw 56px;
+  border-bottom: 1px solid var(--line);
+}
+.reelChapterHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 36px;
+  margin-bottom: 32px;
+}
+.reelChapterHeading .eyebrow { color: var(--orange); }
+.reelChapterHeading h2 {
+  margin-top: 15px;
+  font: 400 clamp(38px, 4.3vw, 70px) / 1.08 var(--serif);
+  letter-spacing: -.04em;
+}
+.reelChapterHeading p {
+  max-width: 340px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+@media (max-width: 760px) {
+  .header.headerOverlay { padding-inline: 20px; }
+  .headerOverlay .menuPanel { top: 64px; }
+  .reelChapter { padding: 48px 5vw 40px; }
+  .reelChapterHeading { flex-direction: column; align-items: flex-start; gap: 20px; margin-bottom: 24px; }
+  .reelChapterHeading h2 { font-size: 38px; }
+  .reelChapterHeading p { max-width: 430px; }
 }

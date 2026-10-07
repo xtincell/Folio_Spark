@@ -6,13 +6,14 @@ import styles from '@/styles/home.module.css';
 import { StarField } from './StarField';
 import { Marquee } from './Marquee';
 import { MastTitle } from './MastTitle';
-import { useT } from '@/lib/i18n';
+import { useT, useLang } from '@/lib/i18n';
 
 export function Hero() {
   const t = useT();
+  const { lang } = useLang();
   return (
     <section id="top" className={styles.hero}>
-      <div className={styles.heroBg}>
+      <div className={styles.heroBg} aria-hidden="true">
         <StarField density={80} />
         <div className={styles.heroGlow} />
       </div>
@@ -86,6 +87,7 @@ export function Hero() {
               height={762}
               alt="Alexandre Djengue — portrait"
               priority
+              sizes="(min-width: 981px) 400px, (min-width: 541px) 75vw, 100vw"
             />
 
             <div className={`${styles.portraitMacaron} ${styles.macaronPrimary}`}>
@@ -113,9 +115,12 @@ export function Hero() {
         </div>
       </div>
 
-      <a href="#manifeste" className={styles.heroScroll}>
-        <span>{t.hero.scroll}</span>
+      <a href="#showreel" className={styles.heroScroll}>
+        <span>{lang === 'fr' ? 'Voir le showreel · 48 s' : 'Watch the showreel · 48 s'}</span>
         <span className={styles.scrollLine} />
+        <svg className={styles.scrollArrow} width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M9 3v12m-5-5 5 5 5-5" stroke="currentColor" strokeWidth="1.5" />
+        </svg>
       </a>
 
       <Marquee />

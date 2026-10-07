@@ -4,7 +4,7 @@ La refonte conserve la DA Xtincell : encre/noir, orange, symbole spark/flamme au
 
 ## Parcours
 
-- Accueil reconstruit autour du masthead Xtincell, du showreel, des projets, du parcours, de la méthode et de la presse.
+- Accueil ouvert par la couverture originale : titre Xtincell réactif au curseur, slogan « Je ne crée pas de l’art. Je systémise le succès. », portrait et macarons. Le showreel dispose d’un chapitre distinct juste après, puis viennent les projets, le parcours, la méthode et la presse.
 - Navigation principale courte ; menu secondaire donnant accès aux autres pages. WhatsApp reste le contact principal.
 - Index de projets : filtres par pratique, recherche par projet/client/tag, comptage, état vide et remise à zéro. Les références historiques restent dans une archive dépliable avec visuels et preuves.
 - Études de cas : périmètre et crédits, textes disponibles, images agrandissables au clavier, retour à l’index, projets précédent/suivant et recommandations. Les mockups sont identifiés comme présentations générées.
@@ -15,6 +15,18 @@ La refonte conserve la DA Xtincell : encre/noir, orange, symbole spark/flamme au
 ## Assets
 
 Le showreel est une composition motion H.264 silencieuse de 48 secondes, neuf séquences, 1920 × 1080, 30 i/s : typographie cinétique, masques, plans opposés, travelling photographique, liaisons vectorielles et convergence des 39 projets vers la flamme. Deux mockups ont été générés à partir des créations existantes. Le schéma vectoriel La Barre remplace des captures absentes et reste explicitement identifié comme illustration conceptuelle. Polices locales et licences conservées. Voir `studio-assets.md` et `public/studio/showreel-manifest.json`.
+
+## Direction et références UX/UI
+
+La DA Xtincell et la couverture existante sont les références de toute amélioration. Préserver leur typographie, palette, composition, contenus et interaction ; ajouter les nouveaux formats en complément. Une recommandation générique de skill ne justifie pas de remplacer cette identité.
+
+Références consultées pour la restauration de la couverture :
+
+- [frontend-design — Anthropic](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) : faire porter l’expression par la typographie et le premier écran ; donner la priorité au brief de marque.
+- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md) : recherches ciblées « focus not obscured minimum » et « motion sensitivity reduced animation ». Ancrage sous le header fixe, focus visible et adaptation immédiate aux préférences de mouvement.
+- [Impeccable](https://github.com/pbakaus/impeccable/blob/main/.agents/skills/impeccable/SKILL.md) et [craft-floor](https://github.com/pbakaus/impeccable/blob/main/skill/reference/craft-floor.md) : une amélioration préserve le monde visuel existant ; l’œuvre et la personnalité guident un portfolio. Vérifier ensemble la composition, les contrastes, le mouvement et les formats mobile/desktop.
+
+Le titre et le fond étoilé arrêtent leur mouvement lorsque la préférence système change pendant la visite. Le header de l’accueil reste fixe à 72 px ; les autres pages gardent leur navigation existante. Le lien vers le showreel apparaît dans la couverture et mène au film sous celle-ci, avec un décalage de défilement qui garde la section visible sous la navigation.
 
 ## Vérification
 
@@ -30,6 +42,7 @@ Les scripts `scripts/check-studio.mjs` et `scripts/check-studio-interactions.mjs
 
 - Showreel final : 1 440 images H.264, 1920 × 1080, 30 i/s, 48 secondes, 10 738 397 octets. Raccord de boucle contrôlé sur les premières et dernières images décodées (écart quadratique moyen 0,071/255). Raccords intermédiaires examinés image par image ; amorce des scènes sous les masques, sans redémarrage au changement de plan.
 - Lecteur final : ratio 16:9 et `contain` en desktop/mobile, commandes sous le cadre, ouverture grand format. Compilation, audit accueil desktop/mobile et interactions navigateur repassés après intégration.
+- Restauration de la couverture : build de production et TypeScript passés. Huit routes contrôlées en desktop/mobile ; accueil revérifié après les ajustements finaux, sans violation axe grave/critique sur les critères testés. Captures à 1920 × 1080, 1440 × 900, 1366 × 768, 390 × 844 et 320 × 812 : pas de débordement, couverture complète dans le premier écran desktop, film dans le chapitre suivant et ancrage visible sous le header. Parallaxe, recentrage, arrêt/réactivation du titre et du fond étoilé lors d’un changement de préférence de mouvement validés dans Chromium avec un pointeur desktop émulé ; interactions existantes repassées.
 
 ## Limites et environnement
 

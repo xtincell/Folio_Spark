@@ -14,6 +14,8 @@ import {
   StudioReveal,
 } from './Studio';
 import { Showreel } from './Showreel';
+import { Hero } from '@/components/folio/Hero';
+import home from '@/styles/home.module.css';
 import s from '@/styles/studio.module.css';
 
 const selected = [
@@ -30,60 +32,20 @@ export function StudioHome() {
   const { lang } = useLang();
   const L = (fr: string, en: string) => (lang === 'fr' ? fr : en);
   return (
-    <StudioShell>
-      <section className={s.hero}>
-        <div className={s.heroMeta}>
-          <span>
-            ALEXANDRE DJENGUE — {L('DIRECTEUR CRÉATIF', 'CREATIVE DIRECTOR')}
-          </span>
-          <span>
-            <span className={s.statusDot} />
-            {L(
-              'Cameroun · Au-delà des frontières',
-              'Cameroon · Beyond borders'
-            )}
-          </span>
-        </div>
-        <h1 className={s.masthead}>
-          XTINCELL<span>✦</span>
-        </h1>
-        <div className={s.heroTitleRow}>
-          <div className={s.heroStatement}>
-            <p>
-              {L('L’ingénieur derrière', 'The engineer behind')}
-              <br />
-              <em>{L('l’image.', 'the image.')}</em>
-            </p>
-            <span>BRAND ARCHITECT · STORYTELLING CONSULTANT · TOOLSMITH</span>
+    <StudioShell cover={<div className={home.folioRoot}><Hero /></div>}>
+      <section className={s.reelChapter} id="showreel" aria-labelledby="showreel-heading">
+        <div className={s.reelChapterHeading}>
+          <div>
+            <span className={s.eyebrow}>PLAY / SHOWREEL 2026</span>
+            <h2 id="showreel-heading">{L('L’univers, en mouvement.', 'The world, in motion.')}</h2>
           </div>
-          <div className={s.heroAside}>
-            <p>
-              {L(
-                'Je donne aux marques une direction. Aux idées, une forme. Et à chaque création, une raison d’exister.',
-                'I give brands a direction. Ideas, a form. And every creation, a reason to exist.'
-              )}
-            </p>
-            <a href="#selected" className={s.textLink}>
-              {L('Explorer les projets', 'Explore the work')}
-              <span>↓</span>
-            </a>
-          </div>
+          <p>{L(
+            '48 secondes pour traverser les marques, les images et les systèmes. Une autre façon d’entrer dans mon travail.',
+            '48 seconds through brands, images and systems. Another way into my work.'
+          )}</p>
         </div>
-      </section>
-      <div className={s.reelWrap}>
         <Showreel />
-      </div>
-      <div className={s.disciplines}>
-        <span>{L('STRATÉGIE', 'STRATEGY')}</span>
-        <Spark />
-        <span>ART DIRECTION</span>
-        <Spark />
-        <span>DESIGN</span>
-        <Spark />
-        <span>PHOTOGRAPHY</span>
-        <Spark />
-        <span>CREATIVE TECH</span>
-      </div>
+      </section>
       <section className={s.section} id="selected">
         <SectionHeading
           number="01"

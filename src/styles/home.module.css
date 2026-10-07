@@ -1998,3 +1998,39 @@
   .heroScroll { margin-top: clamp(14px, 1.8vh, 32px); }
   .heroMarquee { margin-top: clamp(10px, 1.4vh, 20px); }
 }
+
+/* Cover integration: preserve the original magazine proportions and isolate
+   its action contrast from inherited link styling in the surrounding site. */
+.heroCta a.btnPrimary { color: oklch(0.10 0.005 30); }
+.heroCta a.btnGhost:hover { color: var(--bg); }
+.hero .heroScroll { color: var(--ink-2); min-height: 44px; letter-spacing: .14em; font-size: 11px; }
+.scrollArrow { display: none; color: var(--accent); }
+.portraitFrame img { height: auto; }
+@media (max-width: 540px) {
+  .hero .heroScroll { margin-left: 0; }
+}
+
+/* Keep the cover and its actions together in the first desktop viewport.
+   The portrait scales as one composition; the headline keeps its four lines. */
+@media (min-width: 981px) {
+  .hero { min-height: 100svh; padding-top: 84px; padding-bottom: 16px; }
+  .heroGrid { gap: clamp(20px, 2.6vh, 32px); }
+  .mastTitle { font-size: clamp(90px, 12vh, 160px); }
+  .mastKicker { margin: 8px 0 4px; font-size: 18px; line-height: 1.1; }
+  .heroPortrait { width: min(100%, 28vh); }
+  .portraitMacaron { width: clamp(76px, 10vh, 112px); padding: 10px; }
+  .portraitMacaron .macaronTitle { font-size: clamp(18px, 2.3vh, 26px); }
+  .hero .heroScroll { flex-direction: row; margin: 12px 0 0; gap: 14px; }
+  .heroScroll .scrollLine { display: none; }
+  .heroScroll .scrollArrow { display: block; }
+  .heroMarquee { margin-top: 10px; padding-block: 10px; }
+}
+@media (min-width: 981px) and (max-height: 800px) {
+  .heroGrid { gap: 16px; }
+  .mastTitle { font-size: clamp(72px, 10.5vh, 90px); }
+  .mastRule { padding-block: 7px; }
+  .heroPortrait { width: min(100%, 25vh); }
+  .heroTitle { font-size: clamp(48px, 7vh, 58px); margin-bottom: 14px; }
+  .heroSub { margin-bottom: 14px; }
+  .heroCta .btn { padding-block: 14px; }
+}

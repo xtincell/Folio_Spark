@@ -22,9 +22,7 @@ export function StarField({ density = 80 }: { density?: number }) {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const prefersReduced =
-      typeof window.matchMedia === 'function' &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
     let raf = 0;
     let running = false;
@@ -52,7 +50,7 @@ export function StarField({ density = 80 }: { density?: number }) {
         drift: (Math.random() - 0.5) * 0.04,
       }));
       // When motion is suppressed we still paint one crisp static frame.
-      if (prefersReduced) drawStatic();
+      if (motion.matches) drawStatic();
     };
 
     const drawStatic = () => {
@@ -82,7 +80,7 @@ export function StarField({ density = 80 }: { density?: number }) {
     };
 
     const start = () => {
-      if (running || prefersReduced || document.hidden || !onScreen) return;
+      if (running || motion.matches || document.hidden || !onScreen) return;
       running = true;
       raf = requestAnimationFrame(loop);
     };
@@ -108,12 +106,20 @@ export function StarField({ density = 80 }: { density?: number }) {
       if (document.hidden) stop();
       else start();
     };
+    const onMotionChange = () => {
+      if (motion.matches) {
+        stop();
+        drawStatic();
+      } else start();
+    };
+    motion.addEventListener('change', onMotionChange);
     document.addEventListener('visibilitychange', onVisibility);
     window.addEventListener('resize', resize);
 
     return () => {
       stop();
       io.disconnect();
+      motion.removeEventListener('change', onMotionChange);
       document.removeEventListener('visibilitychange', onVisibility);
       window.removeEventListener('resize', resize);
     };

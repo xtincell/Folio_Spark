@@ -52,7 +52,7 @@ export function Spark({ className = '' }: { className?: string }) {
     </svg>
   );
 }
-export function StudioHeader() {
+export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
   const { lang, setLang } = useLang();
   const path = usePathname();
   const [open, setOpen] = useState(false);
@@ -96,7 +96,7 @@ export function StudioHeader() {
     ['/upgraders', 'UPgraders ↗'],
   ];
   return (
-    <header className={s.header} lang={lang}>
+    <header className={`${s.header} ${overlay ? s.headerOverlay : ''}`} lang={lang}>
       <Link
         href="/"
         className={s.brand}
@@ -272,11 +272,11 @@ export function StudioReveal({
     </motion.div>
   );
 }
-export function StudioShell({ children }: { children: ReactNode }) {
+export function StudioShell({ children, cover }: { children: ReactNode; cover?: ReactNode }) {
   return (
     <div className={s.root}>
-      <StudioHeader />
-      <main id="contenu">{children}</main>
+      <StudioHeader overlay={!!cover} />
+      <main id="contenu">{cover}{children}</main>
       <StudioFooter />
     </div>
   );
