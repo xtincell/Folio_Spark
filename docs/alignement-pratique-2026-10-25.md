@@ -2,7 +2,7 @@
 
 ## Évolution éditoriale
 
-La route visuelle du portfolio est conservée. L’ouverture « Il doit bien y avoir un moyen. » place la curiosité et la contribution au centre. Les images, la direction et les outils restent les trois façons d’en voir les effets. Cette passe est une évolution du parcours retenu, pas une nouvelle exploration de deux architectures.
+La route visuelle du portfolio est conservée. L’ouverture « Parce qu’il y a toujours un moyen. » place la curiosité et la contribution au centre. Les images, la direction et les outils restent les trois façons d’en voir les effets. Cette passe est une évolution du parcours retenu, pas une nouvelle exploration de deux architectures.
 
 Le carnet personnel introduit trois notes : le jeu à l’origine des apprentissages, le rôle de celui qui équipe les autres et les plaisirs qui restent hors commande. Les boutons conservent une place stable ; la note choisie, son état et son contenu sont accessibles au clavier. Le chapitre de projection précise le travail avec d’autres et le choix des engagements.
 

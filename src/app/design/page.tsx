@@ -82,7 +82,7 @@ export default function DesignFolioPage() {
               <span>Photography &amp; Tools</span>
             </div>
             <h1 className={styles.heroTitle}>
-              There has to be<br /><em>a way.</em>
+              Because there’s always<br /><em>a way.</em>
             </h1>
             <p className={styles.heroLede}>
               I’m Alexandre “Xtincell” Djengue, a creative director, photographer and toolmaker.
