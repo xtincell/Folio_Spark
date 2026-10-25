@@ -1,0 +1,101 @@
+{
+  "head": {
+    "file": "head.webp",
+    "width": 326,
+    "height": 437,
+    "sourceBox": [
+      84,
+      15,
+      410,
+      452
+    ]
+  },
+  "torso": {
+    "file": "torso.webp",
+    "width": 374,
+    "height": 424,
+    "sourceBox": [
+      487,
+      37,
+      861,
+      461
+    ]
+  },
+  "pelvis": {
+    "file": "pelvis.webp",
+    "width": 318,
+    "height": 291,
+    "sourceBox": [
+      879,
+      153,
+      1197,
+      444
+    ]
+  },
+  "leg-right": {
+    "file": "leg-right.webp",
+    "width": 301,
+    "height": 393,
+    "sourceBox": [
+      852,
+      449,
+      1153,
+      842
+    ]
+  },
+  "upper-arm-right": {
+    "file": "upper-arm-right.webp",
+    "width": 184,
+    "height": 372,
+    "sourceBox": [
+      156,
+      466,
+      340,
+      838
+    ]
+  },
+  "forearm-right": {
+    "file": "forearm-right.webp",
+    "width": 185,
+    "height": 376,
+    "sourceBox": [
+      567,
+      470,
+      752,
+      846
+    ]
+  },
+  "leg-left": {
+    "file": "leg-left.webp",
+    "width": 291,
+    "height": 382,
+    "sourceBox": [
+      918,
+      846,
+      1209,
+      1228
+    ]
+  },
+  "upper-arm-left": {
+    "file": "upper-arm-left.webp",
+    "width": 189,
+    "height": 368,
+    "sourceBox": [
+      174,
+      851,
+      363,
+      1219
+    ]
+  },
+  "forearm-left": {
+    "file": "forearm-left.webp",
+    "width": 177,
+    "height": 366,
+    "sourceBox": [
+      517,
+      851,
+      694,
+      1217
+    ]
+  }
+}

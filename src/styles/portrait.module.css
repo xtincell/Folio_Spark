@@ -915,8 +915,7 @@
     border-left: none;
     border-top: 1px solid #393631;
     padding: 20px 0 0;
-    display: grid;
-    grid-template-columns: 42% 1fr;
+    display: block;
     align-items: center;
     gap: 24px;
   }
@@ -925,9 +924,11 @@
     object-position: center 28%;
   }
   .portrait figcaption {
-    padding: 0;
+    padding: 14px 0 0;
     font-size: 14px;
     line-height: 1.5;
+    text-align: center;
+    align-items: center;
   }
   .portrait figcaption span + span {
     margin-top: 9px;
