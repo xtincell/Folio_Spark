@@ -1,10 +1,10 @@
-# Xtincell — Il doit bien y avoir un moyen.
+# Xtincell — Parce qu’il y a toujours un moyen.
 
 Direction mise à jour le 25 octobre 2026.
 
 ## Contrat de conception
 
-Le portfolio relie le regard, la direction créative et la fabrication d’Alexandre Djengue autour d’un moteur : comprendre ce qui bloque, équiper les autres et rendre une suite possible. L’ouverture retenue est **« Il doit bien y avoir un moyen. »** / **“There has to be a way.”** Le portrait réel et le nom XTINCELL donnent un visage à cette pratique.
+Le portfolio relie le regard, la direction créative et la fabrication d’Alexandre Djengue autour d’un moteur : comprendre ce qui bloque, équiper les autres et rendre une suite possible. L’ouverture retenue est **« Parce qu’il y a toujours un moyen. »** / **“Because there’s always a way.”** Le portrait réel et le nom XTINCELL donnent un visage à cette pratique.
 
 Cette évolution éditoriale prolonge la composition existante. Elle conserve le noir, l’orange, la flamme, les instruments typographiques et les œuvres. Le site reste un portfolio personnel.
 

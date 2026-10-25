@@ -6,7 +6,7 @@ Mise à jour du 25 octobre 2026.
 
 Relier les images, la direction créative et les outils d’Alexandre Djengue : comprendre, fabriquer, raconter, aider quelqu’un à voir ce qu’il peut faire.
 
-L’ouverture retenue est **« Il doit bien y avoir un moyen. »** / **“There has to be a way.”** Elle exprime une disposition à chercher, sans garantir de solution. L’introduction précise une pratique : comprendre ce qui bloque, trouver une direction et fabriquer avec d’autres de quoi avancer.
+L’ouverture retenue est **« Parce qu’il y a toujours un moyen. »** / **“Because there’s always a way.”** Elle exprime une conviction qui pousse à chercher et à fabriquer. L’introduction précise une pratique : comprendre ce qui bloque, trouver une direction et fabriquer avec d’autres de quoi avancer.
 
 La direction visuelle est conservée ; la personne et l’envie de transmettre prennent davantage de place.
 

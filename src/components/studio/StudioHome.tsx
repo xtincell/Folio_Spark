@@ -119,9 +119,9 @@ export function StudioHome() {
                 )}
               </p>
               <h1>
-                {L("Il doit bien", "There has to")}
+                {L("Parce qu’il", "Because")}
                 <br />
-                {L("y avoir", "be")}
+                {L("y a toujours", "there’s always")}
                 <br />
                 <em>{L("un moyen.", "a way.")}</em>
               </h1>
