@@ -3,9 +3,9 @@ import { TechClient } from './TechClient';
 
 export const metadata = pageMeta({
   path: '/tech',
-  title: 'Tech & Produit — Alexandre Djengue · Xtincell',
+  title: 'Outils & expériences — Alexandre Djengue · Xtincell',
   description:
-    "Produits et outils d’Alexandre « Xtincell » Djengue : sites et applications web, SPAWT, LaFusée et La Barre. Conception, développement assisté par IA et travaux en cours. Projets clé en main à partir de 1000 €. / Products and tools: websites, apps, AI-assisted development and work in progress — turnkey from €1,000.",
+    "Outils et expériences d’Alexandre « Xtincell » Djengue : conception produit, UX/UI et développement assisté par IA. Sites en ligne, prototypes et outils internes, avec leurs rôles et statuts. / Product design, UX/UI and AI-assisted development: online projects, prototypes and internal tools, with their roles and status.",
 });
 
 export default function FolioTechPage() {

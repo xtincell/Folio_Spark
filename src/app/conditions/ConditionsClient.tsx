@@ -42,8 +42,8 @@ const CLAUSES: Clause[] = [
     h: { fr: '2 · Prix & devises', en: '2 · Prices & currencies' },
     body: [
       {
-        fr: 'Les prix affichés sur la page Tarifs sont des points de départ hors taxes, en euro (€) et en FCFA (parité fixe 1 € = 655,957 FCFA). Le devis fixe le prix définitif et la devise de facturation.',
-        en: 'Prices shown on the Pricing page are starting points, before tax, in euro (€) and FCFA (fixed peg €1 = 655.957 FCFA). The quote sets the final price and billing currency.',
+        fr: 'La page Travailler ensemble présente les modes de collaboration. Le devis fixe le prix de la mission et la devise de facturation.',
+        en: 'The Working together page introduces ways to collaborate. The quote sets the engagement price and billing currency.',
       },
     ],
   },

@@ -8,14 +8,13 @@ import Link from 'next/link';
 import styles from '@/styles/tech.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
-import { FlameMark } from '@/components/folio/FlameMark';
 import { SparkMark } from '@/components/folio/icons/SparkMark';
 import { useLang, pick, type Bi } from '@/lib/i18n';
 
 /* ============================================================================
    Tech Folio — Alexandre « Xtincell » Djengue
    ----------------------------------------------------------------------------
-   A builder-facing companion to /cv: the engineering & product side of the
+   A companion to /cv: the product-design and tool-building side of the
    practice. Structured content lives bilingually here (Bi fields) and is
    resolved with pick(value, lang); shared chrome (topbar, lang toggle, social)
    reuses the folio components.
@@ -24,106 +23,115 @@ import { useLang, pick, type Bi } from '@/lib/i18n';
 type BiOrStr = Bi | string;
 
 const T = {
-  eyebrowA: { fr: 'Tech Folio', en: 'Tech Folio' },
-  eyebrowB: { fr: 'Builder & consultant technique', en: 'Builder & technical consultant' },
+  eyebrowA: { fr: 'Outils & expériences', en: 'Tools & experiments' },
+  eyebrowB: { fr: 'Alexandre Djengue · Xtincell', en: 'Alexandre Djengue · Xtincell' },
   tag: {
-    fr: "De l'idée à l'expérience — je conçois, je code, je livre.",
-    en: 'From idea to experience — I design it, I build it, I ship it.',
+    fr: "Quand le travail demande un outil, j’aime comprendre comment le construire.",
+    en: 'When the work calls for a tool, I like understanding how to build it.',
   },
-  role: { fr: 'Rôle', en: 'Role' },
+  role: { fr: 'Pratique', en: 'Practice' },
   roleV: {
-    fr: 'Concepteur produit · Webdesigner · Intégrateur',
-    en: 'Product designer · Web designer · Builder',
+    fr: 'Conception produit · UX/UI · Développement assisté par IA',
+    en: 'Product conception · UX/UI · AI-assisted development',
   },
-  base: { fr: 'Base', en: 'Base' },
-  baseV: { fr: 'Yaoundé · Douala · Abidjan — remote', en: 'Yaoundé · Douala · Abidjan — remote' },
-  rate: { fr: 'À partir de', en: 'From' },
-  rateV: { fr: '1 000 € · projet clé en main', en: '€1,000 · turnkey project' },
+  base: { fr: 'Base', en: 'Based in' },
+  baseV: { fr: 'Douala · à distance', en: 'Douala · remote' },
+  scope: { fr: 'Terrain', en: 'Scope' },
+  scopeV: { fr: 'Sites, produits & outils de travail', en: 'Websites, products & working tools' },
 } satisfies Record<string, Bi>;
 
 type Section = { num: string; a: Bi; b: Bi };
 const S = {
-  approach: { num: '§ 01', a: { fr: 'Approche', en: 'Approach' }, b: { fr: "l'ingénieur derrière l'écran", en: 'the engineer behind the screen' } },
-  process: { num: '§ 02', a: { fr: 'Process', en: 'Process' }, b: { fr: 'idée → expérience', en: 'idea → experience' } },
-  builds: { num: '§ 03', a: { fr: 'Réalisations', en: 'Builds' }, b: { fr: 'ce que j’ai livré', en: 'what I have shipped' } },
-  stack: { num: '§ 04', a: { fr: 'Stack', en: 'Stack' }, b: { fr: 'le coffre à outils', en: 'the toolbox' } },
-  pricing: { num: '§ 05', a: { fr: 'Engagement', en: 'Engagement' }, b: { fr: '& tarifs', en: '& pricing' } },
+  approach: { num: '§ 01', a: { fr: 'Approche', en: 'Approach' }, b: { fr: 'partir du travail réel', en: 'start with the work' } },
+  process: { num: '§ 02', a: { fr: 'Questions', en: 'Questions' }, b: { fr: 'avant de construire', en: 'before building' } },
+  builds: { num: '§ 03', a: { fr: 'Projets', en: 'Projects' }, b: { fr: 'des états différents', en: 'at different stages' } },
+  stack: { num: '§ 04', a: { fr: 'Moyens', en: 'Tools' }, b: { fr: 'ce que je mobilise', en: 'what I work with' } },
+  collaboration: { num: '§ 05', a: { fr: 'Collaboration', en: 'Collaboration' }, b: { fr: 'travailler ensemble', en: 'working together' } },
 } satisfies Record<string, Section>;
 
 const APPROACH_LEDE: Bi = {
-  fr: "Mes process de conception viennent d'un parcours en <em>télécommunications &amp; réseaux</em>, d'une formation en sécurité, d'une passion pour la maintenance, et d'un amour du design et du webdesign. Je ne vois pas un écran — je vois un système&nbsp;: des flux, des états, des points de défaillance. C'est ce qui me permet d'aller de l'idée jusqu'à l'expérience livrée.",
-  en: 'My design process comes from a background in <em>telecommunications &amp; networks</em>, training in security, a passion for maintenance, and a love of design and web design. I don’t see a screen — I see a system: flows, states, failure points. That’s what lets me go from the idea all the way to the shipped experience.',
+  fr: "Je viens des <em>télécommunications &amp; réseaux</em>. Ce réflexe est resté : comprendre les flux, les dépendances et ce qui bloque. La conception produit et le développement assisté par IA prolongent aujourd’hui mon travail de directeur créatif. Certains projets répondent à un besoin professionnel ; d’autres me servent à explorer une idée.",
+  en: 'My background is in <em>telecommunications &amp; networks</em>. That habit stayed with me: understanding flows, dependencies and what gets in the way. Product design and AI-assisted development now extend my creative practice. Some projects address a professional need; others let me explore an idea.',
 };
 
 type Pillar = { k: BiOrStr; t: Bi; d: Bi };
 const PILLARS: Pillar[] = [
   {
-    k: 'T-SHAPED',
-    t: { fr: 'Ingénieur × designer', en: 'Engineer × designer' },
+    k: { fr: 'LE BESOIN', en: 'THE NEED' },
+    t: { fr: 'Un problème que je peux nommer', en: 'A problem I can name' },
     d: {
-      fr: "La rigueur d'un réseau, l'œil d'un directeur artistique. Je modélise une marque comme un système d'information.",
-      en: 'The rigour of a network, the eye of an art director. I model a brand like an information system.',
+      fr: 'Briefs dispersés, versions à comparer, décisions à retrouver : La Barre part de situations rencontrées dans le travail créatif. Le besoin doit rester lisible derrière l’outil.',
+      en: 'Scattered briefs, versions to compare, decisions to find: La Barre starts from situations encountered in creative work. The need should remain visible behind the tool.',
     },
   },
   {
-    k: { fr: 'SÉCURITÉ', en: 'SECURITY' },
-    t: { fr: 'Robustesse par défaut', en: 'Robust by default' },
+    k: { fr: 'LE PÉRIMÈTRE', en: 'THE SCOPE' },
+    t: { fr: 'Comprendre la chaîne, partager le travail', en: 'Understand the chain, share the work' },
     d: {
-      fr: 'Formation sécurité & maintenance : je conçois pour la durée, pas pour la démo. Ce que je livre tient en production.',
-      en: 'Security & maintenance background: I build for the long run, not the demo. What I ship holds up in production.',
+      fr: 'Je peux relier conception, interface et réalisation. Selon le projet, mon rôle est de concevoir, d’intégrer ou de superviser ; les parties qui demandent une expertise complémentaire se construisent avec des spécialistes.',
+      en: 'I can connect conception, interface and implementation. Depending on the project, I design, integrate or supervise; parts that need complementary expertise are built with specialists.',
     },
   },
   {
-    k: 'END-TO-END',
-    t: { fr: 'De la stratégie au pixel', en: 'From strategy to pixel' },
+    k: { fr: 'LA SUITE', en: 'WHAT FOLLOWS' },
+    t: { fr: 'Compter aussi l’entretien', en: 'Account for maintenance too' },
     d: {
-      fr: 'Direction artistique, design system, écrans, intégration : une seule personne tient toute la chaîne, sans déperdition.',
-      en: 'Art direction, design system, screens, integration: one person holds the whole chain, with nothing lost in handoff.',
+      fr: 'Une interface qui fonctionne demande encore des vérifications, du suivi et parfois une reprise. Je distingue ce qui est en ligne, ce qui est interne et ce qui reste en construction.',
+      en: 'A functioning interface still needs checks, follow-up and sometimes rework. I distinguish what is online, what is internal and what remains under construction.',
     },
   },
 ];
 
-type FlowStep = { t: Bi; d: Bi };
-const FLOW: FlowStep[] = [
+type Decision = { k: Bi; t: Bi; d: Bi; href?: string; linkLabel?: Bi };
+const DECISIONS: Decision[] = [
   {
-    t: { fr: 'Idée & brainstorming', en: 'Idea & brainstorming' },
+    k: { fr: 'USAGE', en: 'USE' },
+    t: { fr: 'Quel geste doit devenir plus simple ?', en: 'What should become easier to do?' },
     d: {
-      fr: "On part du problème, pas de la solution. Le brainstorming cadre l'intention, les usages, les contraintes.",
-      en: 'We start from the problem, not the solution. Brainstorming frames the intent, the use cases, the constraints.',
+      fr: 'Dans La Barre, le point de départ est la revue d’une création avec son brief, sa version et ses retours. C’est ce geste que l’interface doit rendre plus lisible.',
+      en: 'For La Barre, the starting point is reviewing an asset with its brief, version and feedback. That is the action the interface needs to make clearer.',
+    },
+    href: '/work/la-barre',
+    linkLabel: { fr: 'Le cas La Barre', en: 'The La Barre case study' },
+  },
+  {
+    k: { fr: 'CHOIX', en: 'CHOICE' },
+    t: { fr: 'Faut-il vraiment créer un nouvel outil ?', en: 'Does this need a new tool?' },
+    d: {
+      fr: 'Un outil existant, une règle de travail ou une petite automatisation peuvent suffire. Un produit supplémentaire a un coût de fabrication et d’entretien ; il doit répondre à un besoin assez précis pour le justifier.',
+      en: 'An existing tool, a working rule or a small automation may be enough. Another product adds building and maintenance work; the need should be specific enough to justify it.',
     },
   },
   {
-    t: { fr: 'Cahier des charges', en: 'Specification' },
+    k: { fr: 'RÔLE', en: 'ROLE' },
+    t: { fr: 'Quelle partie du travail est la mienne ?', en: 'Which part of the work is mine?' },
     d: {
-      fr: "Le brainstorming se transforme en cahier des charges : périmètre, parcours, exigences techniques. Tout est écrit avant la première maquette.",
-      en: 'The brainstorm becomes a spec: scope, flows, technical requirements. Everything is written before the first mockup.',
+      fr: 'Superviser une plateforme, concevoir une interface et développer un produit sont des responsabilités différentes. Les fiches ci-dessous précisent mon intervention, notamment la supervision du e-commerce Motion19 et de Shakazz.',
+      en: 'Supervising a platform, designing an interface and developing a product are different responsibilities. The entries below state my contribution, including supervision of the Motion19 e-commerce platform and Shakazz.',
     },
+    href: '#projets',
+    linkLabel: { fr: 'Voir les périmètres', en: 'See the contributions' },
   },
   {
-    t: { fr: 'Design system', en: 'Design system' },
+    k: { fr: 'CONTINUITÉ', en: 'CONTINUITY' },
+    t: { fr: 'Que reste-t-il à faire fonctionner ensemble ?', en: 'What still needs to work together?' },
     d: {
-      fr: "Je conçois d'abord le système : couleurs, type, composants, règles. Les écrans en découlent, cohérents par construction.",
-      en: 'I design the system first: colour, type, components, rules. Screens follow from it, coherent by construction.',
+      fr: 'Shinkiro relie une méthode et plusieurs outils. Les échanges automatiques entre ses produits restent à construire. Une refonte ou une mise en ligne est une étape ; elle ne prouve pas encore un usage durable.',
+      en: 'Shinkiro connects a method and several tools. Automated exchanges between its products remain to be built. A redesign or a launch is a stage; it does not yet prove sustained use.',
     },
   },
-  {
-    t: { fr: 'Écrans', en: 'Screens' },
-    d: {
-      fr: 'Les écrans sont assemblés depuis le système : maquettes haute-fidélité, états, responsive, micro-interactions.',
-      en: 'Screens are assembled from the system: high-fidelity mockups, states, responsive, micro-interactions.',
-    },
-  },
-  {
-    t: { fr: 'Intégration & livraison', en: 'Integration & delivery' },
-    d: {
-      fr: 'Intégration, mise en ligne, et suivi. Je reste consultant technique sur les projets qui le demandent.',
-      en: 'Integration, deployment, and follow-up. I stay on as technical consultant for the projects that need it.',
-    },
-  },
+];
+
+type BuildGroup = 'online' | 'ongoing' | 'internal';
+const BUILD_GROUPS: { id: BuildGroup; title: Bi; description: Bi }[] = [
+  { id: 'online', title: { fr: 'Sites & outils en ligne', en: 'Websites & tools online' }, description: { fr: 'Des projets présentés en ligne, avec des rôles de conception, de réalisation ou de supervision distincts.', en: 'Projects presented online, with distinct design, implementation or supervision roles.' } },
+  { id: 'ongoing', title: { fr: 'Prototypes & travaux en cours', en: 'Prototypes & work in progress' }, description: { fr: 'Refonte, Android en cours, Preview ou Beta : le statut de chaque projet indique l’étape présentée.', en: 'Redesign, Android in progress, Preview or Beta: each project’s status identifies the stage shown.' } },
+  { id: 'internal', title: { fr: 'Outils internes & expériences', en: 'Internal tools & experiments' }, description: { fr: 'Outils de suivi, automatisations et petites applications conçus au fil de mes activités.', en: 'Tracking tools, automations and small applications that grew out of my work.' } },
 ];
 
 type Build = {
   name: BiOrStr;
+  group: BuildGroup;
   tone: 'live' | 'wip' | 'internal';
   status: Bi;
   role: Bi;
@@ -139,12 +147,13 @@ type Build = {
 const BUILDS: Build[] = [
   {
     name: 'La Barre / Shinkiro',
+    group: 'ongoing',
     tone: 'wip',
     status: { fr: 'Refonte UX/UI · 2026', en: 'UX/UI redesign · 2026' },
     role: { fr: 'Conception produit · UX/UI · Développement assisté par IA', en: 'Product conception · UX/UI · AI-assisted development' },
     desc: {
-      fr: 'Le poste de travail du directeur de la création. Revue par pièce, contexte du brief, versions et retours client. Une brique métier de Shinkiro, le programme qui articule ADVE, outils et exécution. Les échanges automatiques entre produits restent à construire.',
-      en: 'The creative director’s workspace. Asset review, brief context, versions and client feedback. A professional tool within Shinkiro, connecting ADVE, tools and execution. Automated exchanges between products remain to be built.',
+      fr: 'Un outil conçu à partir du suivi des briefs, des versions et des retours dans mon travail de directeur créatif. La refonte organise la revue par pièce. La Barre appartient à Shinkiro ; les échanges automatiques entre ses produits restent à construire. L’illustration présente un schéma conceptuel, pas une capture.',
+      en: 'A tool built around briefs, versions and feedback in my creative-direction work. The redesign organises asset-by-asset review. La Barre is part of Shinkiro; automated exchanges between its products remain to be built. The illustration is a conceptual diagram, not a screenshot.',
     },
     stack: ['Product design', 'UX/UI', 'JavaScript', 'CSS', 'Local-first'],
     href: '/work/la-barre',
@@ -153,12 +162,13 @@ const BUILDS: Build[] = [
   },
   {
     name: 'Galahad',
+    group: 'online',
     tone: 'live',
     status: { fr: 'En ligne · 2026', en: 'Live · 2026' },
     role: { fr: 'Framework multi-agent IA · Architecture & dev', en: 'Multi-agent AI framework · Architecture & build' },
     desc: {
-      fr: "Framework multi-agent IA self-hosted et agnostique, déployable sur n'importe quel VPS. Quatre agents — chef d'orchestre, gardien, voyageur et bras armé dev — partagent une mémoire commune et délèguent le code via un bridge Claude. Livré clé en main avec Docker-compose + install.sh, gateway Telegram pour l'interaction humaine.",
-      en: 'Self-hosted, provider-agnostic multi-agent AI framework, deployable on any VPS. Four agents — orchestrator, guardian, scout and dev enforcer — share a common memory and delegate code through a Claude bridge. Ships turnkey with Docker-compose + install.sh and a Telegram gateway for human interaction.',
+      fr: "Framework multi-agent IA auto-hébergé. Quatre rôles — orchestration, protection, recherche et développement — partagent une mémoire et délèguent du code via un bridge Claude. Le projet comprend une configuration Docker Compose, un script d’installation et une interface Telegram.",
+      en: 'A self-hosted multi-agent AI framework. Four roles — orchestration, protection, research and development — share memory and delegate code through a Claude bridge. The project includes a Docker Compose configuration, an installation script and a Telegram interface.',
     },
     stack: ['AI Agents', 'Multi-agent', 'Self-hosted', 'Docker', 'Framework'],
     href: 'https://galahad.powerupgraders.com',
@@ -167,6 +177,7 @@ const BUILDS: Build[] = [
   },
   {
     name: 'BanaHealth',
+    group: 'online',
     tone: 'live',
     status: { fr: 'En ligne', en: 'Live' },
     role: { fr: 'Site web · Direction artistique · Visuels', en: 'Website · Art direction · Visuals' },
@@ -181,6 +192,7 @@ const BUILDS: Build[] = [
   },
   {
     name: 'Motion19',
+    group: 'online',
     tone: 'live',
     status: { fr: 'En ligne · suivi', en: 'Live · ongoing' },
     role: { fr: 'E-commerce · Identité de marque · Consultant', en: 'E-commerce · Brand identity · Consultant' },
@@ -195,12 +207,13 @@ const BUILDS: Build[] = [
   },
   {
     name: 'Spawt',
+    group: 'ongoing',
     tone: 'wip',
     status: { fr: 'En cours · Android', en: 'WIP · Android' },
     role: { fr: 'Application mobile · Conception & dev', en: 'Mobile app · Design & build' },
     desc: {
-      fr: "Application mobile en cours de développement, bientôt disponible sur Android. Le lien ci-dessous est la landing du quiz de lancement (la « meute »).",
-      en: 'Mobile app in active development, coming soon on Android. The link below is the launch-quiz landing page (the “meute”).',
+      fr: "Application de découverte culinaire en cours de développement sur Android. Le lien ci-dessous mène à la page du quiz de lancement (la « meute »), distincte de l’application.",
+      en: 'A food-discovery app in development for Android. The link below leads to the launch-quiz page (the “meute”), separate from the app.',
     },
     stack: ['Mobile', 'Android', 'Product', 'Landing'],
     href: 'https://spawt-meute-quiz.pages.dev',
@@ -209,6 +222,7 @@ const BUILDS: Build[] = [
   },
   {
     name: 'Shakazz',
+    group: 'ongoing',
     tone: 'live',
     status: { fr: 'Preview', en: 'Preview' },
     role: { fr: 'Plateforme web · Supervision technique', en: 'Web platform · Technical supervision' },
@@ -223,12 +237,13 @@ const BUILDS: Build[] = [
   },
   {
     name: 'LaFusée',
+    group: 'ongoing',
     tone: 'wip',
     status: { fr: 'Beta', en: 'Beta' },
     role: { fr: 'SaaS · Agences & freelances', en: 'SaaS · Agencies & freelancers' },
     desc: {
-      fr: "Création d'un SaaS pensé pour les agences et les free-lances — l'OS interne d'UPgraders qui automatise la méthode ADVE/RTIS.",
-      en: 'A SaaS built for agencies and freelancers — UPgraders’ internal OS that automates the ADVE/RTIS method.',
+      fr: "Produit en Beta pensé pour les agences et les free-lances, issu des besoins d’UPgraders et de la méthode ADVE/RTIS.",
+      en: 'A product in Beta for agencies and freelancers, originating in UPgraders’ needs and the ADVE/RTIS method.',
     },
     stack: ['SaaS', 'Product', 'Automation'],
     href: 'https://lafusee-app.vercel.app',
@@ -237,6 +252,7 @@ const BUILDS: Build[] = [
   },
   {
     name: 'MATANGA',
+    group: 'internal',
     tone: 'internal',
     status: { fr: 'Interne', en: 'Internal' },
     role: { fr: 'Suivi de projet · Outil sur-mesure', en: 'Project tracking · Bespoke tool' },
@@ -250,6 +266,7 @@ const BUILDS: Build[] = [
   },
   {
     name: { fr: 'Outils digitaux', en: 'Digital tools' },
+    group: 'internal',
     tone: 'internal',
     status: { fr: 'Divers', en: 'Various' },
     role: { fr: 'Petits outils sur-mesure', en: 'Bespoke micro-tools' },
@@ -269,8 +286,8 @@ const STACK: SkillBlock[] = [
   {
     title: { fr: 'Conception', en: 'Design' },
     rows: [
-      { label: { fr: 'Cahier des charges', en: 'Specs & scoping' }, meta: { fr: 'systématique', en: 'systematic' } },
-      { label: { fr: 'Design systems', en: 'Design systems' }, meta: { fr: 'signature', en: 'signature' } },
+      { label: { fr: 'Cahier des charges', en: 'Specs & scoping' }, meta: { fr: 'périmètre', en: 'scope' } },
+      { label: { fr: 'Design systems', en: 'Design systems' }, meta: { fr: 'cohérence', en: 'consistency' } },
       { label: { fr: 'UI / UX & webdesign', en: 'UI / UX & web design' }, meta: { fr: 'quotidien', en: 'daily' } },
       { label: { fr: 'Figma · Suite Adobe', en: 'Figma · Adobe Suite' }, meta: { fr: 'quotidien', en: 'daily' } },
     ],
@@ -281,7 +298,7 @@ const STACK: SkillBlock[] = [
       { label: { fr: 'Sites & web apps', en: 'Sites & web apps' }, meta: { fr: 'livré', en: 'shipped' } },
       { label: { fr: 'E-commerce', en: 'E-commerce' }, meta: { fr: 'Motion19', en: 'Motion19' } },
       { label: { fr: 'Apps mobiles', en: 'Mobile apps' }, meta: { fr: 'Android', en: 'Android' } },
-      { label: { fr: 'Landing & micro-apps', en: 'Landing & micro-apps' }, meta: { fr: 'rapide', en: 'fast' } },
+      { label: { fr: 'Landing & micro-apps', en: 'Landing & micro-apps' }, meta: { fr: 'selon le besoin', en: 'as needed' } },
     ],
   },
   {
@@ -296,19 +313,12 @@ const STACK: SkillBlock[] = [
   {
     title: { fr: 'Méthode & IA', en: 'Method & AI' },
     rows: [
-      { label: { fr: 'ADVE/RTIS', en: 'ADVE/RTIS' }, meta: { fr: 'propriétaire', en: 'proprietary' } },
-      { label: { fr: 'Pipelines IA gouvernés', en: 'Governed AI pipelines' }, meta: { fr: 'UPgraders', en: 'UPgraders' } },
-      { label: { fr: 'Direction → exécution', en: 'Direction → execution' }, meta: { fr: 'end-to-end', en: 'end-to-end' } },
+      { label: { fr: 'ADVE/RTIS', en: 'ADVE/RTIS' }, meta: { fr: 'UPgraders', en: 'UPgraders' } },
+      { label: { fr: 'Développement assisté par IA', en: 'AI-assisted development' }, meta: { fr: 'UPgraders', en: 'UPgraders' } },
+      { label: { fr: 'Direction → exécution', en: 'Direction → execution' }, meta: { fr: 'continuité', en: 'continuity' } },
       { label: { fr: 'Consulting technique', en: 'Technical consulting' }, meta: { fr: 'continu', en: 'ongoing' } },
     ],
   },
-];
-
-const PRICE_INCLUDES: Bi[] = [
-  { fr: 'Cadrage : brainstorming → cahier des charges écrit.', en: 'Scoping: brainstorm → written specification.' },
-  { fr: 'Design system + écrans haute-fidélité.', en: 'Design system + high-fidelity screens.' },
-  { fr: 'Intégration, mise en ligne et recette.', en: 'Integration, deployment and QA.' },
-  { fr: 'Suivi technique post-livraison sur demande.', en: 'Post-delivery technical follow-up on request.' },
 ];
 
 export function TechClient() {
@@ -321,7 +331,7 @@ export function TechClient() {
         <SparkMark outline animated={false} ariaHidden />
       </div>
       <FolioTopbar active="tech" />
-      <PageIndex items={[{ id: 'projets', fr: 'Produits livrés', en: 'Products' }, { id: 'processus', fr: 'Processus', en: 'Process' }, { id: 'stack', fr: 'Stack', en: 'Stack' }, { id: 'offre', fr: 'Accompagnement', en: 'Collaboration' }]} />
+      <PageIndex items={[{ id: 'approche', fr: 'Approche', en: 'Approach' }, { id: 'processus', fr: 'Questions', en: 'Questions' }, { id: 'projets', fr: 'Projets & statuts', en: 'Projects & status' }, { id: 'stack', fr: 'Outils', en: 'Tools' }, { id: 'offre', fr: 'Travailler ensemble', en: 'Working together' }]} />
 
       <main id="contenu" className={styles.page}>
         <section className={styles.head} id="profil">
@@ -331,14 +341,14 @@ export function TechClient() {
             </div>
             <div className={styles.actions} data-print-hide="true">
               <a className={styles.pdfBtn} href="/tech.pdf" download="Alexandre-Djengue-Tech.pdf">
-                {lang === 'fr' ? 'Folio tech · PDF' : 'Tech folio · PDF'} ↓
+                {lang === 'fr' ? 'Archive tech · PDF' : 'Tech archive · PDF'} ↓
               </a>
               <Link className={styles.ghostBtn} href="/cv">
                 {lang === 'fr' ? 'Voir le CV éditorial' : 'See the editorial résumé'} →
               </Link>
             </div>
             <h1 className={styles.name}>
-              Alexandre <em>Djengue</em>
+              {lang === 'fr' ? 'Outils' : 'Tools'} <em>{lang === 'fr' ? '& expériences.' : '& experiments.'}</em>
             </h1>
             <p className={styles.tag}>{tr(T.tag)}</p>
           </div>
@@ -347,9 +357,9 @@ export function TechClient() {
             <dd>{tr(T.roleV)}</dd>
             <dt>{tr(T.base)}</dt>
             <dd>{tr(T.baseV)}</dd>
-            <dt>{tr(T.rate)}</dt>
+            <dt>{tr(T.scope)}</dt>
             <dd>
-              <b>{tr(T.rateV)}</b>
+              <b>{tr(T.scopeV)}</b>
             </dd>
             <dt>Email</dt>
             <dd>
@@ -368,11 +378,11 @@ export function TechClient() {
 
         {/* § 01 — Approach */}
         <section className={styles.section} id="approche">
-          <div className={styles.sectionHead}>
+          <h2 className={styles.sectionHead} style={{ margin: 0, fontWeight: 400 }}>
             <span className="num">{S.approach.num}</span>
             {tr(S.approach.a)}
             <span className="title">{tr(S.approach.b)}</span>
-          </div>
+          </h2>
           <div className={styles.sectionBody}>
             <p className={styles.lede} dangerouslySetInnerHTML={{ __html: tr(APPROACH_LEDE) }} />
             <ul className={styles.pillars}>
@@ -391,81 +401,93 @@ export function TechClient() {
 
         {/* § 02 — Process */}
         <section className={styles.section} id="processus">
-          <div className={styles.sectionHead}>
+          <h2 className={styles.sectionHead} style={{ margin: 0, fontWeight: 400 }}>
             <span className="num">{S.process.num}</span>
             {tr(S.process.a)}
             <span className="title">{tr(S.process.b)}</span>
-          </div>
+          </h2>
           <div className={styles.sectionBody}>
-            <ol className={styles.flow}>
-              {FLOW.map((step) => (
-                <li key={tr(step.t)}>
-                  <div>
-                    <span className="step-t">{tr(step.t)}</span>
-                    <span className="step-d">{tr(step.d)}</span>
-                  </div>
+            <ul className={styles.pillars}>
+              {DECISIONS.map((question) => (
+                <li key={tr(question.k)}>
+                  <span className="k">{tr(question.k)}</span>
+                  <span>
+                    <span className="t">{tr(question.t)}</span>
+                    <span className="d">{tr(question.d)}</span>
+                    {question.href && question.linkLabel && (
+                      <Link className={styles.projectLink} href={question.href}>
+                        {tr(question.linkLabel)} →
+                      </Link>
+                    )}
+                  </span>
                 </li>
               ))}
-            </ol>
+            </ul>
           </div>
         </section>
 
         {/* § 03 — Builds */}
         <section className={styles.section} id="projets">
-          <div className={styles.sectionHead}>
+          <h2 className={styles.sectionHead} style={{ margin: 0, fontWeight: 400 }}>
             <span className="num">{S.builds.num}</span>
             {tr(S.builds.a)}
             <span className="title">{tr(S.builds.b)}</span>
-          </div>
+          </h2>
           <div className={styles.sectionBody}>
-            <div className={styles.projects}>
-              {BUILDS.map((b) => (
-                <article className={styles.project} key={tr(b.name)}>
-                  <div className={styles.thumb} data-placeholder={b.thumb ? undefined : 'true'}>
-                    {b.thumb ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={b.thumb}
-                        alt={`${tr(b.name)} — ${lang === 'en' ? 'preview' : 'aperçu'}`}
-                        loading="lazy"
-                      />
-                    ) : (
-                      <span aria-hidden="true">{b.glyph ?? '◆'}</span>
-                    )}
-                    <span className={styles.badge} data-tone={b.tone}>
-                      {tr(b.status)}
-                    </span>
-                  </div>
-                  <div className={styles.projectTop}>
-                    <h3 className={styles.projectName}>{tr(b.name)}</h3>
-                  </div>
-                  <span className={styles.projectRole}>{tr(b.role)}</span>
-                  <p className={styles.projectDesc}>{tr(b.desc)}</p>
-                  <div className={styles.projectStack}>
-                    {b.stack.map((s) => (
-                      <span key={s}>{s}</span>
-                    ))}
-                  </div>
-                  {b.href ? (
-                    <a className={styles.projectLink} href={b.href} target="_blank" rel="noreferrer">
-                      {tr(b.linkLabel)} ↗
-                    </a>
-                  ) : (
-                    <span className={styles.projectLinkMuted}>{tr(b.linkLabel)}</span>
-                  )}
-                </article>
-              ))}
-            </div>
+            {BUILD_GROUPS.map((group) => (
+              <section key={group.id} aria-labelledby={`group-${group.id}`} style={{ marginBottom: 48 }}>
+                <h3 id={`group-${group.id}`} className={styles.projectName}>{tr(group.title)}</h3>
+                <p className={styles.projectDesc} style={{ margin: '14px 0 24px' }}>{tr(group.description)}</p>
+                <div className={styles.projects}>
+                  {BUILDS.filter((b) => b.group === group.id).map((b) => (
+                    <article className={styles.project} key={tr(b.name)}>
+                      <div className={styles.thumb} data-placeholder={b.thumb ? undefined : 'true'}>
+                        {b.thumb ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img
+                            src={b.thumb}
+                            alt={b.name === 'La Barre / Shinkiro' ? (lang === 'fr' ? 'La Barre — schéma conceptuel, pas une capture du logiciel' : 'La Barre — conceptual diagram, not a software screenshot') : `${tr(b.name)} — ${lang === 'en' ? 'preview' : 'aperçu'}`}
+                            loading="lazy"
+                          />
+                        ) : (
+                          <span aria-hidden="true">{b.glyph ?? '◆'}</span>
+                        )}
+                        <span className={styles.badge} data-tone={b.tone}>
+                          {tr(b.status)}
+                        </span>
+                      </div>
+                      <div className={styles.projectTop}>
+                        <h4 className={styles.projectName}>{tr(b.name)}</h4>
+                      </div>
+                      <span className={styles.projectRole}>{tr(b.role)}</span>
+                      <p className={styles.projectDesc}>{tr(b.desc)}</p>
+                      <div className={styles.projectStack}>
+                        {b.stack.map((s) => (
+                          <span key={s}>{s}</span>
+                        ))}
+                      </div>
+                      {b.href ? (
+                        <a className={styles.projectLink} href={b.href} target={b.href.startsWith('/') ? undefined : '_blank'} rel={b.href.startsWith('/') ? undefined : 'noreferrer'}>
+                          {tr(b.linkLabel)} ↗
+                        </a>
+                      ) : (
+                        <span className={styles.projectLinkMuted}>{tr(b.linkLabel)}</span>
+                      )}
+                    </article>
+                  ))}
+                </div>
+              </section>
+            ))}
           </div>
         </section>
 
         {/* § 04 — Stack */}
         <section className={styles.section} id="stack">
-          <div className={styles.sectionHead}>
+          <h2 className={styles.sectionHead} style={{ margin: 0, fontWeight: 400 }}>
             <span className="num">{S.stack.num}</span>
             {tr(S.stack.a)}
             <span className="title">{tr(S.stack.b)}</span>
-          </div>
+          </h2>
           <div className={styles.sectionBody}>
             <div className={styles.skills}>
               {STACK.map((block) => (
@@ -485,41 +507,29 @@ export function TechClient() {
           </div>
         </section>
 
-        {/* § 05 — Engagement / pricing */}
+        {/* § 05 — Collaboration */}
         <section className={styles.section} id="offre">
-          <div className={styles.sectionHead}>
-            <span className="num">{S.pricing.num}</span>
-            {tr(S.pricing.a)}
-            <span className="title">{tr(S.pricing.b)}</span>
-          </div>
+          <h2 className={styles.sectionHead} style={{ margin: 0, fontWeight: 400 }}>
+            <span className="num">{S.collaboration.num}</span>
+            {tr(S.collaboration.a)}
+            <span className="title">{tr(S.collaboration.b)}</span>
+          </h2>
           <div className={styles.sectionBody}>
-            <div className={styles.pricing}>
-              <div>
-                <div className={styles.priceFrom}>{tr(T.rate)}</div>
-                <div className={styles.priceBig}>
-                  1 000 <em>€</em>
-                </div>
-                <div className={styles.priceUnit}>
-                  {lang === 'fr' ? 'projet clé en main' : 'turnkey project'}
-                </div>
-              </div>
-              <div>
-                <ul className={styles.priceList}>
-                  {PRICE_INCLUDES.map((item) => (
-                    <li key={tr(item)}>{tr(item)}</li>
-                  ))}
-                </ul>
-                <p className={styles.priceNote}>
-                  {lang === 'fr'
-                    ? 'Devis ajusté selon le périmètre. Consulting technique au forfait ou en continu.'
-                    : 'Quote adjusted to scope. Technical consulting on a flat fee or ongoing basis.'}
-                </p>
-              </div>
-            </div>
+            <p className={styles.lede}>
+              {lang === 'fr'
+                ? 'Un besoin à éclaircir, une interface à reprendre ou un projet à faire avancer ? On commence par le travail attendu et les moyens disponibles.'
+                : 'A need to clarify, an interface to revisit or a project to move forward? We start with the work required and the resources available.'}
+            </p>
+            <p className={styles.projectDesc}>
+              {lang === 'fr'
+                ? 'Nous précisons mon rôle, les personnes à associer, le périmètre de réalisation et le suivi nécessaire. Le cadre de collaboration sert à rendre ces engagements explicites.'
+                : 'We clarify my role, who else needs to be involved, the implementation scope and the follow-up required. The collaboration framework makes those commitments explicit.'}
+            </p>
+            <Link className={styles.pdfBtn} href="/tarifs" style={{ marginTop: 24 }}>
+              {lang === 'fr' ? 'Travailler ensemble' : 'Working together'} →
+            </Link>
           </div>
         </section>
-
-
 
         <div className={styles.socialRow}>
           <span className={styles.slLabel}>

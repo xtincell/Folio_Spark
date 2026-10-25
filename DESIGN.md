@@ -1,57 +1,42 @@
-# Xtincell — L’image. Et tout ce qui la fait tenir.
+# Xtincell — Il doit bien y avoir un moyen.
 
 Direction mise à jour le 25 octobre 2026.
 
 ## Contrat de conception
 
-Le portfolio relie les photographies, la direction créative et les outils conçus par Alexandre Djengue. La couverture présente son vrai portrait, le titre XTINCELL sensible au curseur et la phrase **« L’image. Et tout ce qui la fait tenir. »** Une introduction courte précise son intervention ; deux actions ouvrent le parcours choisi et l’ensemble des projets.
+Le portfolio relie le regard, la direction créative et la fabrication d’Alexandre Djengue autour d’un moteur : comprendre ce qui bloque, équiper les autres et rendre une suite possible. L’ouverture retenue est **« Il doit bien y avoir un moyen. »** / **“There has to be a way.”** Le portrait réel et le nom XTINCELL donnent un visage à cette pratique.
 
-Conserver l’identité existante : noir, orange, flamme, typographies locales et photographies réelles. La refonte organise les œuvres et leurs relations. Elle n’installe pas une nouvelle marque d’agence autour de la personne.
+Cette évolution éditoriale prolonge la composition existante. Elle conserve le noir, l’orange, la flamme, les instruments typographiques et les œuvres. Le site reste un portfolio personnel.
 
-## Couleurs et typographie
+## Langage visuel
 
-| Rôle | Valeur | Usage |
-| --- | --- | --- |
-| Noir | `#080808` | Fond et ancrage de la marque |
-| Graphite | `#191918` | Surfaces secondaires |
-| Papier | `#f5f0e8` | Texte principal et contraste clair |
-| Flamme | `#ff682f` | Actions, accents, chapitre « Diriger sans perdre la main » |
-| Secondaire | `#b6b0a6` | Métadonnées et légendes |
-| Trait | `#393631` | Structure et séparateurs |
+| Rôle | Valeur |
+| --- | --- |
+| Noir | `#080808` |
+| Graphite | `#191918` |
+| Papier | `#f5f0e8` |
+| Flamme | `#ff682f` |
+| Secondaire | `#b6b0a6` |
+| Trait | `#393631` |
 
-Les tokens globaux `--xt-*` vivent dans `src/styles/globals.css`. La composition narrative de l’accueil utilise `portrait.module.css` ; le cadre partagé utilise `studio.module.css` et les pages secondaires `studioPages.module.css`. UPgraders conserve son identité d’agence distincte.
+**Instrument Serif** porte les signatures et titres ; **Space Grotesk**, la lecture et les contrôles ; **JetBrains Mono**, les dates et métadonnées. Conserver les polices locales, leurs licences et le logo existant. UPgraders garde son identité distincte.
 
-- **Instrument Serif** : signature et titres, avec variation d’échelle et d’italique.
-- **Space Grotesk** : lecture, explication, navigation et contrôles.
-- **JetBrains Mono** : dates, numérotation et métadonnées courtes.
-- Polices locales et licences conservées dans `public/fonts`.
-- Espacements fluides ; les changements de composition suivent le contenu et la largeur disponible.
-- Icônes fonctionnelles en SVG, accompagnées de libellés explicites.
+Les tokens `--xt-*` vivent dans `src/styles/globals.css`. `portrait.module.css` compose l’accueil ; `studio.module.css` porte son cadre partagé. Les espacements et les planches se recomposent selon la largeur disponible.
 
-## Composition et lecture
+## Parcours
 
-L’accueil suit trois actes : **le regard**, **la direction**, **la fabrique**. Un index indique le chapitre en cours et permet de passer directement à un autre.
+Trois actes organisent les preuves : **le regard**, **la direction**, **la fabrique**. Un index indique le chapitre parcouru. Les photographies, campagnes et outils disposent de compositions adaptées à leur matière, avec rôles et crédits à proximité.
 
-Le regard associe photographie et création de festival. La direction rapproche les campagnes et leurs déclinaisons, puis le parcours Motion19. La fabrique met en relation SPAWT et La Barre. Ces compositions diffèrent parce que les pièces ne racontent pas la même chose.
+Le carnet comporte trois notes : **le jeu**, origine des apprentissages ; **le joker**, plaisir d’équiper et de transmettre ; **hors commande**, curiosité et création sans livrable attendu. Ses commandes restent explicites et accessibles au clavier.
 
-Le chapitre orange « Diriger sans perdre la main » formule la direction souhaitée de la pratique. Le showreel reste un chapitre distinct, accessible dès la couverture. L’index complet, les publications et le contact prolongent la visite.
+Le chapitre orange **« Diriger sans perdre la main »** ouvre la suite : donner une direction avec d’autres, expliquer ses choix et laisser chacun exercer son métier. Le film, les archives et les publications prolongent la visite.
 
-Sur mobile, le texte d’entrée précède le portrait ; l’index latéral devient une barre de chapitres sous le header. Les planches et diptyques se recomposent sans modifier l’ordre de lecture. Les métadonnées restent auprès des pièces qu’elles expliquent. Le film conserve son cadre 16:9 et ses commandes visibles.
+`/tarifs`, désormais **« Travailler ensemble »**, précise les interventions et prépare une conversation autour du projet. `/tech`, **« Outils & expériences »**, distingue réalisations, travaux en cours et outils internes. Le contact partagé conduit vers ce cadre de collaboration.
 
-## Images et preuves
+## Preuves et accès
 
-Chaque photographie, création graphique, composition et schéma doit être désigné selon sa nature. Les mises en situation générées restent identifiées comme telles ; elles ne prouvent pas une installation physique. `src/lib/project-presentations.ts` choisit les présentations de projet, tandis que les études de cas conservent les créations originales et leurs crédits.
+Conserver les œuvres et portraits réels. Identifier les illustrations conceptuelles et les mises en situation générées. Préserver les sources des cas et leurs crédits ; aucun rôle ni résultat ne doit être inventé pour compléter la composition.
 
-Les couvertures des collections photo sont les photographies locales existantes. Ne pas substituer des images générées aux œuvres ou aux portraits. Ne pas inventer de biographie, de responsabilité, de résultat, de tarif ou de collaboration pour compléter une mise en page.
+Sur mobile, préserver l’ordre de lecture et les légendes. Les ancres restent visibles sous le header. Employer des liens natifs, des focus visibles et des commandes bilingues. Respecter `prefers-reduced-motion` ; aucun contenu essentiel ne dépend d’une animation. Le film garde des commandes manuelles.
 
-## Mouvement et accès
-
-Le mouvement est concentré sur le titre, les retours d’interaction et le film. Aucun contenu important ne dépend d’une animation d’entrée. Respecter `prefers-reduced-motion`, les préférences d’économie de données et la visibilité de la page.
-
-Conserver des liens natifs pour la navigation, les focus visibles, les libellés bilingues, la fermeture des menus et lightboxes avec Échap et le retour du focus. L’index de chapitre ne doit pas masquer le titre ciblé. Le film reste contrôlable manuellement.
-
-## Vérification et maintenance
-
-Inspecter la couverture, une planche de campagne, un projet long et l’index de chapitre en largeur ample et contrainte. Vérifier les ancres, la langue, les ouvertures de projet et les commandes du film. Les captures décrivent un état observé ; la compilation seule ne démontre pas la qualité de lecture ou d’interaction.
-
-Les évolutions éditoriales suivent `docs/folio-editorial-2026-10.md`. Préserver les routes existantes, les sources des cas et leurs crédits. Un ajout doit enrichir le parcours sans obliger l’accueil à devenir l’inventaire de tout le site.
+Vérifier couverture, chapitres, carnet, formulaire, changement de langue et film sur plusieurs largeurs. Les évolutions de contenu suivent `docs/folio-editorial-2026-10.md`.

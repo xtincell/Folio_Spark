@@ -89,9 +89,10 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
     ['/work', L('Projets', 'Work')],
     ['/galerie', L('Galerie', 'Gallery')],
     ['/cv', L('À propos / CV', 'About / Résumé')],
+    ['/#carnet', L('Carnet personnel', 'Personal notebook')],
     ['/design', 'Design folio · EN'],
-    ['/tech', L('Produits & tech', 'Products & tech')],
-    ['/tarifs', L('Services & tarifs', 'Services & pricing')],
+    ['/tech', L('Outils & expériences', 'Tools & experiments')],
+    ['/tarifs', L('Travailler ensemble', 'Working together')],
     ['/recrutement', L('Recrutement', 'Hiring')],
     ['/upgraders', 'UPgraders'],
   ];
@@ -108,7 +109,7 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
       <span className={s.headerDescriptor}>
         {L('Direction créative', 'Creative direction')}
         <br />
-        {L('& systèmes de marque', '& brand systems')}
+        {L('& curiosité appliquée', '& curiosity put to work')}
       </span>
       <nav
         className={s.desktopNav}
@@ -140,15 +141,10 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
           {lang.toUpperCase()}
           <svg width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="m1 1 4 4 4-4" stroke="currentColor" /></svg>
         </button>
-        <a
-          className={s.headerContact}
-          href={CONTACT.whatsappLink}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {L('Parlons projet', 'Let’s talk')}
+        <Link className={s.headerContact} href="/tarifs">
+          {L('Travailler ensemble', 'Working together')}
           <Arrow diagonal />
-        </a>
+        </Link>
         <button
           ref={toggleRef}
           type="button"
@@ -205,26 +201,21 @@ export function StudioFooter() {
         <span className={s.eyebrow}>
           <span className={s.statusDot} />
           {L(
-            'Ouvert aux belles collaborations',
-            'Open to meaningful collaborations'
+            'Une collaboration commence par une conversation',
+            'A collaboration begins with a conversation'
           )}
         </span>
         <span>{L('BASÉ À DOUALA', 'BASED IN DOUALA')}</span>
       </div>
-      <a
-        className={s.footerHeadline}
-        href={CONTACT.whatsappLink}
-        target="_blank"
-        rel="noreferrer"
-      >
-        {L('Et si on créait', 'Let’s create')}
+      <Link className={s.footerHeadline} href="/tarifs">
+        {L('Qu’est-ce qu’on', 'What could we')}
         <br />
         <span>
-          {L('la suite', 'what’s next')}
+          {L('pourrait faire', 'make possible')}
           <i>?</i>
         </span>
         <Arrow diagonal />
-      </a>
+      </Link>
       <div className={s.footerContact}>
         <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
         <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">
@@ -241,7 +232,7 @@ export function StudioFooter() {
         <span>© 2026 Alexandre Djengue — Xtincell</span>
         <div>
           <Link href="/tarifs">
-            {L('Services & tarifs', 'Services & pricing')}
+            {L('Travailler ensemble', 'Working together')}
           </Link>
           <Link href="/conditions">{L('Conditions', 'Terms')}</Link>
           <a href="#contenu">{L('Retour en haut', 'Back to top')} ↑</a>

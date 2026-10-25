@@ -110,6 +110,12 @@ export function CommandPalette() {
         run: go("/#fabrique"),
       },
       {
+        id: "carnet",
+        group: p.groupSections,
+        label: lang === "fr" ? "Carnet — Le jeu, le joker, hors commande" : "Notebook — Play, the wildcard, off the clock",
+        run: go("/#carnet"),
+      },
+      {
         id: "presse",
         group: p.groupSections,
         label:

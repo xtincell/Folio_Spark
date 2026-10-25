@@ -16,6 +16,55 @@ export function StudioHome() {
   const { lang } = useLang();
   const L = (fr: string, en: string) => (lang === "fr" ? fr : en);
   const [active, setActive] = useState("regard");
+  const [noteIndex, setNoteIndex] = useState(0);
+  const notes = [
+    {
+      label: L("Le jeu", "Play"),
+      title: L(
+        "Au départ, je voulais faire un jeu.",
+        "It started with a game.",
+      ),
+      body: L(
+        "Il y a presque vingt ans, je voulais créer un jeu avec un ami. Il fallait coder, dessiner, composer, écrire. Alors j’ai commencé à apprendre. Le jeu reste un fil dans ce que je fais : essayer, comprendre les règles, voir ce qu’on peut inventer avec.",
+        "Almost twenty years ago, I wanted to make a game with a friend. We needed code, drawings, music and writing. So I started learning. Play still runs through what I do: trying things, understanding the rules and seeing what we can invent with them.",
+      ),
+      aside: L(
+        "Une idée de jeu m’a donné beaucoup de choses à apprendre.",
+        "One game idea gave me a lot to learn.",
+      ),
+    },
+    {
+      label: L("Le joker", "Behind the scenes"),
+      title: L(
+        "J’aime trouver la pièce qui manque.",
+        "I like finding the missing piece.",
+      ),
+      body: L(
+        "Parfois, c’est une idée ; parfois, une image, une question ou un outil. Je me reconnais dans Q, MacGyver, Géo Trouvetou : ceux qui équipent les autres. Le travail devient intéressant quand quelqu’un peut s’en saisir et avancer à son tour. C’est ce que j’aime dans le rôle du joker.",
+        "Sometimes it’s an idea; sometimes an image, a question or a tool. I relate to Q, MacGyver and Gyro Gearloose: the people who equip others. The work becomes interesting when someone else can pick it up and move forward. That is the role I like to play.",
+      ),
+      aside: L(
+        "L’étincelle, je l’ai reçue aussi. J’aimerais en transmettre.",
+        "I received that spark from others, too. I’d like to pass it on.",
+      ),
+    },
+    {
+      label: L("Hors commande", "Off the clock"),
+      title: L(
+        "Tout ne finit pas en projet.",
+        "Some things stay just for the joy of it.",
+      ),
+      body: L(
+        "J’aime les jeux, les animés, la musique, les idées absurdes et cuisiner pour les autres. Je peux prendre une recette aussi au sérieux qu’une image. Il me faut cette place pour essayer quelque chose, rire, apprendre — sans qu’un livrable m’attende au bout.",
+        "I enjoy games, anime, music, absurd ideas and cooking for other people. I can take a recipe as seriously as an image. I need room to try something, laugh and learn, with no deliverable waiting at the end.",
+      ),
+      aside: L(
+        "Le porc au four ne figure pas dans les prestations.",
+        "The roast pork is not on the services list.",
+      ),
+    },
+  ] as const;
+  const currentNote = notes[noteIndex] ?? notes[0];
   useEffect(() => {
     const sections = chapterIds
       .map((id) => document.getElementById(id))
@@ -65,22 +114,22 @@ export function StudioHome() {
             <div className={s.coverText}>
               <p className={s.overline}>
                 {L(
-                  "Direction créative · Photographie · Outils",
-                  "Creative direction · Photography · Tools",
+                  "Directeur créatif · Photographe · Curieux",
+                  "Creative director · Photographer · Curious",
                 )}
               </p>
               <h1>
-                {L("L’image.", "The image.")}
+                {L("Il doit bien", "There has to")}
                 <br />
-                {L("Et tout ce qui", "And everything")}
+                {L("y avoir", "be")}
                 <br />
-                <em>{L("la fait tenir.", "behind it.")}</em>
+                <em>{L("un moyen.", "a way.")}</em>
               </h1>
               <div className={s.introduction}>
                 <p>
                   {L(
-                    "Je conçois des images, dirige leur fabrication et construis les outils dont j’ai besoin pour aller au bout.",
-                    "I make images, lead their production and build the tools I need to see the work through.",
+                    "J’aime comprendre ce qui bloque, trouver une direction et fabriquer, avec d’autres, de quoi avancer. Une image, une idée, ou parfois l’outil qui manque.",
+                    "I like understanding what stands in the way, finding a direction and working with others to make the next step possible. An image, an idea, or sometimes the missing tool.",
                   )}
                 </p>
                 <a href="#regard" className={s.primary}>
@@ -107,8 +156,8 @@ export function StudioHome() {
                 </span>
                 <span>
                   {L(
-                    "Créatif. Et curieux du reste.",
-                    "Creative. Curious about the rest.",
+                    "Un regard. Et l’envie d’être utile.",
+                    "An eye for things. A wish to be useful.",
                   )}
                 </span>
               </figcaption>
@@ -202,8 +251,8 @@ export function StudioHome() {
           </nav>
           <p>
             {L(
-              "Des métiers différents. Une même envie de comprendre et de faire.",
-              "Different crafts. The same desire to understand and make.",
+              "Comprendre ce qui se joue. Choisir une direction. Donner de quoi avancer.",
+              "Understand what matters. Find a direction. Make the next step possible.",
             )}
           </p>
         </aside>
@@ -459,16 +508,16 @@ export function StudioHome() {
                   )}
                 </p>
                 <h2>
-                  {L("L’idée appelle", "An idea calls for")}
+                  {L("Fabriquer ce", "Build what")}
                   <br />
-                  <em>{L("son outil.", "its own tools.")}</em>
+                  <em>{L("qui manque.", "is missing.")}</em>
                 </h2>
               </div>
             </div>
             <p className={s.chapterIntro}>
               {L(
-                "Je viens des télécoms et des réseaux. Ce réflexe est resté : quand il manque un moyen de faire, j’ai envie de le construire. Aujourd’hui, le produit et le code prolongent mon travail créatif.",
-                "My background is in telecommunications and networks. That instinct has stayed: when a way to do something is missing, I want to build it. Today, product design and code extend my creative practice.",
+                "Je viens des télécoms et des réseaux. Quand un problème revient dans le travail, j’ai envie de comprendre ce qui le crée. Parfois, la réponse est un outil. Sa place se vérifie ensuite dans l’usage.",
+                "My background is in telecommunications and networks. When a problem keeps coming up at work, I want to understand what causes it. Sometimes, a tool is the answer. Its place in the work still has to be tested through use.",
               )}
             </p>
             <div className={s.makingGrid}>
@@ -544,6 +593,18 @@ export function StudioHome() {
                     "Product design · UX/UI · AI-assisted development. Conceptual diagram.",
                   )}
                 </p>
+                <details className={s.scope}>
+                  <summary>
+                    {L("Un choix de conception", "One design decision")}
+                    <span aria-hidden="true">+</span>
+                  </summary>
+                  <p>
+                    {L(
+                      "Examiner une création et suivre les engagements sont deux activités différentes. La refonte les sépare. La revue rassemble la pièce, sa version, son responsable et le brief ; les retours client restent attachés aux livrables concernés.",
+                      "Reviewing creative work and tracking commitments are different activities. The redesign separates them. The review brings together the asset, its version, owner and brief; client feedback stays attached to the relevant deliverables.",
+                    )}
+                  </p>
+                </details>
                 <Link className={s.textLink} href="/work/la-barre">
                   {L("Entrer dans la fabrication", "Inside the making")}
                   <Arrow diagonal />
@@ -552,14 +613,66 @@ export function StudioHome() {
             </div>
             <Link href="/tech" className={s.allTools}>
               {L(
-                "Les autres produits et expérimentations",
-                "More products and experiments",
+                "Outils, prototypes et expériences",
+                "Tools, prototypes and experiments",
               )}
               <Arrow diagonal />
             </Link>
           </section>
         </div>
       </div>
+
+      <section
+        className={s.notebook}
+        id="carnet"
+        lang={lang}
+        aria-labelledby="carnet-title"
+      >
+        <div className={s.notebookIndex}>
+          <span className={s.overline}>
+            {L("Quelques notes personnelles", "A few personal notes")}
+          </span>
+          <h2 id="carnet-title">
+            {L("Ce qui me met", "What sets me")}
+            <br />
+            <em>{L("en mouvement.", "in motion.")}</em>
+          </h2>
+          <div
+            className={s.noteChoices}
+            aria-label={L("Choisir une note", "Choose a note")}
+          >
+            {notes.map((note, i) => (
+              <button
+                key={i}
+                type="button"
+                aria-pressed={noteIndex === i}
+                aria-controls="personal-note"
+                onClick={() => setNoteIndex(i)}
+              >
+                <span>0{i + 1}</span>
+                {note.label}
+                <Arrow />
+              </button>
+            ))}
+          </div>
+        </div>
+        <div
+          id="personal-note"
+          className={s.notePage}
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <span className={s.noteNumber} aria-hidden="true">
+            0{noteIndex + 1}
+          </span>
+          <h3>{currentNote.title}</h3>
+          <p>{currentNote.body}</p>
+          <p className={s.noteAside}>{currentNote.aside}</p>
+          <span className={s.noteSignature}>
+            Alexandre « Xtincell » Djengue
+          </span>
+        </div>
+      </section>
 
       <section className={s.nextChapter} id="la-suite" lang={lang}>
         <span className={s.overline}>
@@ -573,18 +686,18 @@ export function StudioHome() {
           </h2>
           <p>
             {L(
-              "Je veux rester assez proche de la fabrication pour comprendre ce que je demande aux autres. Donner une direction, construire avec les bonnes personnes, et rendre mes choix assez clairs pour que le travail avance.",
-              "I want to stay close enough to the making to understand what I ask of other people. Set a direction, work with the right people and make my choices clear enough for the work to move forward.",
+              "Je veux rester assez proche de la fabrication pour comprendre ce que je demande aux autres. Donner une direction, rendre mes choix compréhensibles et laisser à chacun la place de faire son métier. Ma polyvalence m’aide à relier les pièces ; le travail se construit à plusieurs.",
+              "I want to stay close enough to the making to understand what I ask of other people. Set a direction, make my choices clear and give people room to practise their craft. My range helps me connect the pieces; the work is built together.",
             )}
           </p>
           <p className={s.nextSignature}>
             {L(
-              "C’est vers cette façon d’exercer que je vais.",
-              "That is the kind of practice I am building.",
+              "Choisir les engagements que je peux tenir. Garder de la place pour créer, apprendre et vivre.",
+              "Choose commitments I can keep. Leave room to create, learn and live.",
             )}
           </p>
-          <Link href="/cv">
-            {L("Mon parcours complet", "My full background")}
+          <Link href="/tarifs">
+            {L("Travailler ensemble", "Working together")}
             <Arrow diagonal />
           </Link>
         </div>

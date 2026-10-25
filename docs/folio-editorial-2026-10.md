@@ -4,36 +4,38 @@ Mise à jour du 25 octobre 2026.
 
 ## Intention
 
-Transformer une collection de projets en un parcours lisible : ce qui a formé le regard d’Alexandre Djengue, ce qu’il dirige aujourd’hui et ce qu’il construit. Les images portent le récit ; les textes expliquent les liens entre les pratiques.
+Relier les images, la direction créative et les outils d’Alexandre Djengue : comprendre, fabriquer, raconter, aider quelqu’un à voir ce qu’il peut faire.
 
-L’entrée retenue est **« L’image. Et tout ce qui la fait tenir. »** Le portrait, le nom Xtincell et les créations viennent avant les titres de métier. L’introduction précise le travail : concevoir des images, diriger leur fabrication et construire des outils.
+L’ouverture retenue est **« Il doit bien y avoir un moyen. »** / **“There has to be a way.”** Elle exprime une disposition à chercher, sans garantir de solution. L’introduction précise une pratique : comprendre ce qui bloque, trouver une direction et fabriquer avec d’autres de quoi avancer.
 
-## Parcours de l’accueil
+La direction visuelle est conservée ; la personne et l’envie de transmettre prennent davantage de place.
 
-| Chapitre | Matière | Ce qu’il établit |
-| --- | --- | --- |
-| Le regard | Photographie de scène, Kamer Otaku Festival | La pratique photographique et le passage à la direction artistique du KOF. |
-| La direction | Campagnes Peak et Bonnet Rouge ; parcours Motion19 | Le travail de direction chez MATANGA, les déclinaisons de campagne et les responsabilités de Brand Manager. |
-| La fabrique | SPAWT et La Barre | La continuité entre création, conception produit et outils de travail. |
-| Le prochain chapitre | « Diriger sans perdre la main. » | Une direction de pratique formulée comme intention, sans la présenter comme un résultat acquis. |
-| Le film et les archives | Showreel, index des projets, photographie, publications | D’autres portes d’entrée dans le corpus, avec accès aux contextes et aux crédits. |
+## Progression de l’accueil
 
-Cet ordre est thématique. Il ne remplace pas les dates du CV et ne suggère pas que les pratiques précédentes ont été abandonnées.
+| Étape | Contenu et fonction |
+| --- | --- |
+| Le regard | Photographie et Kamer Otaku Festival : observer, puis contribuer à une direction artistique. |
+| La direction | Campagnes MATANGA et parcours Motion19 : faire des choix, développer des créations et tenir leur cohérence. |
+| La fabrique | SPAWT et La Barre : relier création, conception produit et outils de travail. |
+| Le carnet | Trois notes donnent une voix personnelle au parcours : le jeu comme origine, le joker qui équipe les autres, la curiosité hors commande. |
+| La suite | « Diriger sans perdre la main » : rester proche de la fabrication, travailler avec des spécialistes et rendre ses arbitrages compréhensibles. |
+| Les autres entrées | Film, archives, photographie et publications permettent de poursuivre selon son intérêt. |
 
-## Règles de contenu
+L’ordre est thématique. Dates et responsabilités détaillées restent dans le CV et les cas.
 
-- Chaque pièce précise ce qu’Alexandre a fait et avec qui. MATANGA, UPgraders et les autres collaborateurs restent crédités selon les données du projet.
-- Distinguer la mission de Brand Manager chez Motion19 des créations retail de 2025 présentées dans son étude de cas.
-- Distinguer l’histoire des premières éditions du KOF des créations « Miss & Master » présentées dans la sélection de 2025.
-- Les images de SPAWT documentent une étape de son univers de marque ; elles ne sont pas présentées comme des captures du produit final.
-- Le schéma de La Barre est identifié comme une illustration conceptuelle. Le cas précise le périmètre produit, UX/UI et développement assisté par IA.
-- Une mise en situation générée montre une création dans un contexte. Elle ne prouve pas sa diffusion, son installation physique ni ses résultats commerciaux.
-- Un résultat désigne un livrable ou un effet documenté. Aucun gain de productivité ou de conversion n’est déduit d’une image.
-- Écrire à la première personne, avec des verbes concrets. Éviter les titres accumulés, les comparaisons de supériorité et les promesses de succès.
-- Maintenir le même sens en français et en anglais, y compris dans les légendes, les rôles et les états des projets.
+## Pages secondaires
 
-## Sources du site et entretien
+`/tarifs` porte **« Travailler ensemble »** : éclaircir une direction, diriger une création ou accompagner une équipe. Le rôle, le périmètre, les moyens et le calendrier se précisent avant la production. Le formulaire prépare un brouillon que le visiteur choisit ensuite d’envoyer ; il ne réserve pas de disponibilité.
 
-Les textes de l’accueil sont dans `src/components/studio/StudioHome.tsx`. Le CV et ses traductions se trouvent dans `src/app/cv/CvClient.tsx` et `src/lib/i18n.tsx`. Les cas sont produits depuis `scripts/cases.spec.json` ; les crédits d’agence sont associés dans `src/components/folio/agencyCredit.ts`.
+`/tech` porte **« Outils & expériences »**. La page part des usages, distingue conception, réalisation et supervision, et explicite les états des projets. Construire un nouvel outil reste un choix à examiner. La continuité d’usage ne se déduit pas de sa mise en ligne.
 
-Lors d’un ajout, choisir sa place selon ce qu’il apporte au récit. Le corpus complet reste dans `/work` et `/galerie` : un nouveau projet n’a pas à rejoindre automatiquement la sélection d’accueil. Les intitulés, descriptions de page et données structurées doivent suivre la même présentation du métier.
+## Règles de rédaction
+
+- Employer la première personne, des verbes concrets et un humour discret. La curiosité n’a pas besoin de devenir une prestation.
+- Présenter l’ambition comme une direction souhaitée. La polyvalence facilite la collaboration ; elle ne remplace pas toutes les expertises.
+- Respecter les rôles, dates et crédits. Distinguer le parcours Motion19 des créations retail de 2025, et les premières éditions du KOF de la sélection « Miss & Master ».
+- Identifier les étapes de marque de SPAWT, le schéma conceptuel de La Barre et les mises en situation générées.
+- Ne déduire aucun résultat commercial ni gain de productivité des livrables.
+- Maintenir le même sens en français et en anglais.
+
+Sources du site : accueil, CV, `scripts/cases.spec.json` et crédits associés. Le corpus complet reste dans `/work` et `/galerie`.

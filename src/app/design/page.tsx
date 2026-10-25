@@ -16,35 +16,35 @@ import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
 
 export const metadata = pageMeta({
   path: '/design',
-  title: 'Design Folio — Art Direction & Visual Systems · Xtincell',
+  title: 'Design Folio — Creative Direction, Photography & Tools · Xtincell',
   description:
-    'The English design folio of Alexandre “Xtincell” Djengue — Brand Architect & Art Director. Brand identity, art direction, photography, motion and design systems for premium brands and artists.',
+    'Alexandre “Xtincell” Djengue: creative direction, photography and tool design. Selected work, personal experiments, project roles and collaborations.',
 });
 
 const DISCIPLINES = [
   {
     name: 'Brand Identity',
-    desc: 'Naming, logo systems, visual language and guidelines built to scale — identity as infrastructure, not decoration.',
+    desc: 'Naming, visual identity and guidelines, with a scope defined around the project and the people who will use them.',
   },
   {
     name: 'Art Direction',
-    desc: 'Concept, casting, styling and image direction for campaigns, artists and premium brands. Coherence across every frame.',
+    desc: 'Concepts and image direction for campaigns and artists. Choosing an approach, briefing collaborators and reviewing what we make.',
   },
   {
     name: 'Photography',
-    desc: 'Studio, product, portrait and event photography. Fifteen years behind the lens for FMCG, music and hospitality.',
+    desc: 'Studio, product, portrait and event photography. Looking, composing and working with the person or scene in front of the camera.',
   },
   {
     name: 'Motion & Video',
-    desc: 'Music videos, advertising films and social capsules — directing, image and edit, multi-format delivery.',
+    desc: 'Music videos, advertising films and short social formats. Direction, shooting or editing, with responsibilities defined for each production.',
   },
   {
     name: 'Design Systems',
-    desc: 'Componentised brand kits, templates and asset libraries so a brand stays consistent at production speed.',
+    desc: 'Brand kits, templates and asset libraries that give collaborators shared material and clear rules to work with.',
   },
   {
-    name: 'AI-Assisted Studio',
-    desc: 'LaFusée — a governed, AI-assisted pipeline that runs the ADVE/RTIS method without diluting direction.',
+    name: 'AI-Assisted Tools',
+    desc: 'Product and interface design, experiments and tools such as LaFusée. Built around recurring tasks in creative work.',
   },
 ];
 
@@ -77,27 +77,28 @@ export default function DesignFolioPage() {
             <div className={styles.eyebrow}>
               <span>Design Folio</span>
               <span className={styles.sep}>·</span>
-              <span>Art Direction</span>
+              <span>Creative Direction</span>
               <span className={styles.sep}>·</span>
-              <span>Visual Systems</span>
+              <span>Photography &amp; Tools</span>
             </div>
             <h1 className={styles.heroTitle}>
-              Design as <em>infrastructure</em>,<br />not decoration.
+              There has to be<br /><em>a way.</em>
             </h1>
             <p className={styles.heroLede}>
-              I’m Alexandre “Xtincell” Djengue — a Brand Architect and Art Director trained as
-              a telecom engineer. I design identities, campaigns and image systems for premium
-              brands and artists across West &amp; Central Africa, treating every brand like an
-              operating system: DNA, signals, flows, conversion.
+              I’m Alexandre “Xtincell” Djengue, a creative director, photographer and toolmaker.
+              My background is in telecommunications and networks. I like understanding what
+              stands in the way, finding a direction and working with others to make the next
+              step possible.
             </p>
             <div className={styles.heroMeta}>
-              <span><b>15+ yrs</b> in the craft</span>
-              <span><b>25+ brands</b> &amp; artists</span>
-              <span><b>3 practices</b> — strategy · direction · execution</span>
-              <span><b>Yaoundé · Douala · Abidjan</b></span>
+              <span><b>Since 2011</b> in creative practice</span>
+              <span><b>Creative direction</b> &amp; photography</span>
+              <span><b>Tools</b> for the work</span>
+              <span><b>Based in Douala</b></span>
             </div>
             <div className={styles.heroCta}>
-              <a href="#work" className={styles.btn}>Selected work</a>
+              <Link href="/tarifs" className={styles.btn}>Working together</Link>
+              <a href="#work" className={`${styles.btn} ${styles.btnGhost}`}>Selected work</a>
               <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer" className={`${styles.btn} ${styles.btnGhost}`}>
                 Start a project
               </a>
@@ -113,11 +114,11 @@ export default function DesignFolioPage() {
               <span>Disciplines</span>
             </div>
             <h2 className={styles.sectionTitle}>
-              One studio, the <em>full chain</em>.
+              Different crafts, <em>shared work</em>.
             </h2>
             <p className={styles.sectionLede}>
-              From the first positioning conversation to the delivered pixel — these are the
-              crafts I cover, each a complete discipline rather than an add-on.
+              Sometimes I make the image. Sometimes I help choose a direction or work with
+              specialists to produce it. The scope depends on what the project needs.
             </p>
             <div className={styles.disciplines}>
               {DISCIPLINES.map((d, i) => (
@@ -142,8 +143,8 @@ export default function DesignFolioPage() {
               Art direction &amp; <em>execution</em>.
             </h2>
             <p className={styles.sectionLede}>
-              A curated set of art-direction and production cases — music, FMCG, hospitality
-              and luxury. The full bilingual folio lives on the{' '}
+              Campaigns, identities and personal experiments. Each project gives its context,
+              the work produced and the relevant credits. The full bilingual folio lives on the{' '}
               <Link href="/work" style={{ color: 'var(--accent)' }}>work page</Link>.
             </p>
             <div className={styles.work}>
@@ -165,7 +166,7 @@ export default function DesignFolioPage() {
               <span>Visual index</span>
             </div>
             <h2 className={styles.sectionTitle}>
-              The hand holds <em>the tool</em>.
+              And I still <em>take photographs</em>.
             </h2>
             <p className={styles.sectionLede}>
               Selected photographic collections — weddings, festivals, artist portraits and
@@ -212,11 +213,12 @@ export default function DesignFolioPage() {
               <span>Approach — ADVE/RTIS</span>
             </div>
             <h2 className={styles.sectionTitle}>
-              A method, not a <em>mood board</em>.
+              Make the choices <em>clear</em>.
             </h2>
             <p className={styles.sectionLede}>
-              Every project runs on ADVE/RTIS — an ADVE foundation (the identity) and an RTIS
-              propellant (the action). It’s the proprietary method behind UPgraders and LaFusée.
+              ADVE/RTIS is a framework I use at UPgraders to connect identity and action.
+              It gives us questions to work through, choices to discuss and a basis for the
+              next step. Its use depends on the scope of the project.
             </p>
             <div className={styles.approach}>
               {STEPS.map((s) => (
@@ -236,14 +238,15 @@ export default function DesignFolioPage() {
         {/* CTA */}
         <section className={`${styles.wrap} ${styles.cta}`} id="project">
           <h2 className={styles.ctaTitle}>
-            Let’s build a <em>system</em>.
+            Let’s find <em>the next step</em>.
           </h2>
           <p className={styles.ctaLede}>
-            Brief, project or plain curiosity. If you have a brand or an image that needs to say
-            something, we should talk.
+            Tell me what you want to make and what is getting in the way. We can clarify the
+            work, the people it needs and where I can contribute.
           </p>
           <div className={styles.ctaRow}>
-            <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer" className={styles.btn}>
+            <Link href="/tarifs" className={styles.btn}>Working together</Link>
+            <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer" className={`${styles.btn} ${styles.btnGhost}`}>
               WhatsApp — {CONTACT.whatsappDisplay}
             </a>
             <a href={`mailto:${CONTACT.email}`} className={`${styles.btn} ${styles.btnGhost}`}>
@@ -256,7 +259,7 @@ export default function DesignFolioPage() {
           <div className={styles.footStrip}>
             <span>XTINCELL · Alexandre Djengue</span>
             <span>·</span>
-            <span>Brand Architect &amp; Art Director</span>
+            <span>Creative direction · Photography · Tools</span>
             <span>·</span>
             <span>© 2026</span>
           </div>
