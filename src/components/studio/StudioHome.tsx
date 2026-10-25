@@ -8,6 +8,7 @@ import { PRESS } from "@/components/folio/data/press";
 import { StudioShell, Arrow } from "./Studio";
 import { Showreel } from "./Showreel";
 import { MastTitle } from "@/components/folio/MastTitle";
+import { XtincellCharacter } from "./character/XtincellCharacter";
 import s from "@/styles/portrait.module.css";
 
 const chapterIds = ["regard", "direction", "fabrique"];
@@ -142,14 +143,7 @@ export function StudioHome() {
               </div>
             </div>
             <figure className={s.portrait}>
-              <Image
-                src="/portrait-p2.jpg"
-                alt="Alexandre Djengue — Xtincell"
-                width={1333}
-                height={2000}
-                priority
-                sizes="(max-width: 680px) 70vw, 30vw"
-              />
+              <XtincellCharacter />
               <figcaption>
                 <span>
                   Alexandre <em>« Xtincell »</em> Djengue

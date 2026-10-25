@@ -1,0 +1,85 @@
+.stage {
+  position: relative;
+  width: 100%;
+  height: clamp(420px, 35vw, 560px);
+  isolation: isolate;
+}
+.character {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.character > svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.character:disabled { cursor: default; }
+.character:focus-visible, .pause:focus-visible { outline: 2px solid #ff682f; outline-offset: 5px; }
+.pause {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  color: #b6b0a6;
+  border: 1px solid #393631;
+  border-radius: 50%;
+  background: #0b0b0bcc;
+  cursor: pointer;
+  transition: color 150ms, border-color 150ms;
+}
+.pause:hover { color: #ff682f; border-color: #ff682f; }
+.pause svg { width: 16px; height: 16px; }
+.breath, .head, .armRight, .armLeft, .forearmRight, .forearmLeft {
+  transform-box: view-box;
+  transform-origin: 0 0;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.breath { animation-name: breathe; animation-duration: 5.6s; }
+.head { animation-name: consider; animation-duration: 11.2s; }
+.armRight { animation-name: right-shoulder; animation-duration: 5.6s; }
+.armLeft { animation-name: left-shoulder; animation-duration: 5.6s; }
+.forearmRight { animation-name: right-elbow; animation-duration: 5.6s; }
+.forearmLeft { animation-name: left-elbow; animation-duration: 5.6s; }
+.eyelids { opacity: 0; animation: blink 8.6s steps(1, end) infinite; }
+[data-running="false"] .breath,
+[data-running="false"] .head,
+[data-running="false"] .armRight,
+[data-running="false"] .armLeft,
+[data-running="false"] .forearmRight,
+[data-running="false"] .forearmLeft,
+[data-running="false"] .eyelids { animation-play-state: paused; }
+[data-running="false"] .eyelids { visibility: hidden; }
+[data-reacting="true"] .armRight { animation: idea-shoulder 2.4s ease-in-out both; }
+[data-reacting="true"] .forearmRight { animation: idea-elbow 2.4s ease-in-out both; }
+[data-reacting="true"] .head { animation: idea-head 2.4s ease-in-out both; }
+@keyframes breathe { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes consider { 0%, 30%, 100% { transform: rotate(-1deg); } 48%, 68% { transform: rotate(1.8deg); } 82% { transform: rotate(.2deg); } }
+@keyframes right-shoulder { 0%, 100% { transform: rotate(2deg); } 50% { transform: rotate(4deg); } }
+@keyframes left-shoulder { 0%, 100% { transform: rotate(-2deg); } 50% { transform: rotate(-4deg); } }
+@keyframes right-elbow { 0%, 100% { transform: rotate(-6deg); } 50% { transform: rotate(-9deg); } }
+@keyframes left-elbow { 0%, 100% { transform: rotate(7deg); } 50% { transform: rotate(10deg); } }
+@keyframes idea-shoulder { 0%, 100% { transform: rotate(2deg); } 26%, 68% { transform: rotate(36deg); } }
+@keyframes idea-elbow { 0%, 100% { transform: rotate(-6deg); } 32%, 65% { transform: rotate(-172deg); } }
+@keyframes idea-head { 0%, 100% { transform: rotate(-1deg); } 35%, 65% { transform: rotate(-5deg); } }
+@keyframes blink { 0%, 33%, 36%, 76%, 79%, 100% { opacity: 0; } 34%, 77% { opacity: 1; } }
+@media (max-width: 1080px) { .stage { height: 450px; } }
+@media (max-width: 680px) {
+  /* Clip the painting without creating a focus-scrollable inner viewport. */
+  .stage { height: 350px; overflow: clip; }
+  .character { position: absolute; top: 0; width: 350px; height: 350px; left: 50%; transform: translateX(-50%); }
+  .character > svg { position: absolute; top: 0; left: 0; width: 350px; height: 565px; }
+  .pause { width: 44px; height: 44px; right: 8px; bottom: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .breath, .head, .armRight, .armLeft, .forearmRight, .forearmLeft, .eyelids { animation: none !important; }
+  .character { cursor: default; }
+  .pause { display: none; }
+}
