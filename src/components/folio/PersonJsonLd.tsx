@@ -23,7 +23,7 @@ export function PersonJsonLd() {
     image: `${SITE_URL}/portrait.jpg`,
     jobTitle: "Directeur créatif et artistique",
     description:
-      "Directeur créatif et artistique, photographe et concepteur d’outils, formé en télécommunications et réseaux.",
+      "Directeur créatif et artistique, photographe et concepteur d’outils, formé en télécommunications et réseaux. Relier les pratiques et construire avec d’autres de quoi avancer.",
     nationality: "Cameroonian",
     knowsLanguage: ["fr", "en"],
     worksFor: [

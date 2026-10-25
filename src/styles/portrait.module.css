@@ -619,7 +619,7 @@
   padding: 90px 4vw;
   background: #080808;
   align-items: center;
-  scroll-margin-top: 90px;
+  scroll-margin-top: 20px;
 }
 .filmHeading h2 {
   font:
@@ -1076,4 +1076,157 @@
 .photoPair img,
 .makingImage > img {
   height: auto;
+}
+
+/* Personal notebook: a quiet, warm surface between the work and the next chapter. */
+.notebook {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(32px, 7vw, 110px);
+  padding: clamp(52px, 7vw, 105px) 7vw;
+  background: #eee6da;
+  color: #29241e;
+  scroll-margin-top: 20px;
+}
+.notebook .overline {
+  color: #726556;
+}
+.notebookIndex h2 {
+  font:
+    400 clamp(43px, 4.5vw, 67px)/1.05 var(--folio-serif),
+    Georgia,
+    serif;
+  letter-spacing: -0.025em;
+  margin: 24px 0 35px;
+}
+.notebookIndex h2 em {
+  color: #9d3e1a;
+}
+.noteChoices {
+  max-width: 340px;
+}
+.noteChoices button {
+  display: grid;
+  grid-template-columns: 28px 1fr 20px;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #c8bdaa;
+  padding: 17px 0;
+  text-align: left;
+  background: transparent;
+  color: #625749;
+  font:
+    400 14px/1.4 var(--folio-grotesk),
+    sans-serif;
+  cursor: pointer;
+}
+.noteChoices button span {
+  font:
+    10px var(--folio-mono),
+    monospace;
+}
+.noteChoices button svg {
+  width: 18px;
+  opacity: 0;
+}
+.noteChoices button[aria-pressed="true"] {
+  color: #29241e;
+  border-color: #9d3e1a;
+}
+.noteChoices button[aria-pressed="true"] svg {
+  opacity: 1;
+  color: #9d3e1a;
+}
+.noteChoices button:focus-visible {
+  outline: 2px solid #9d3e1a;
+  outline-offset: 5px;
+}
+.notePage {
+  position: relative;
+  min-height: 420px;
+  border-left: 1px solid #c8bdaa;
+  padding: 45px 0 0 clamp(25px, 4vw, 65px);
+}
+.noteNumber {
+  position: absolute;
+  right: 0;
+  top: -17px;
+  font:
+    400 80px/1 var(--folio-serif),
+    Georgia,
+    serif;
+  color: #d5c9b8;
+}
+.notePage h3 {
+  position: relative;
+  max-width: 18ch;
+  font:
+    400 clamp(34px, 3vw, 46px)/1.1 var(--folio-serif),
+    Georgia,
+    serif;
+  letter-spacing: -0.015em;
+  margin: 0 0 22px;
+}
+.notePage p {
+  max-width: 47ch;
+  font-size: 15px;
+  line-height: 1.85;
+}
+.notePage .noteAside {
+  margin-top: 24px;
+  color: #6d4934;
+  font-size: 13px;
+}
+.noteSignature {
+  display: block;
+  margin-top: 32px;
+  font:
+    italic 22px/1.3 var(--folio-serif),
+    Georgia,
+    serif;
+}
+@media (max-width: 680px) {
+  .notebook {
+    grid-template-columns: 1fr;
+    padding: 54px 6vw;
+    gap: 30px;
+  }
+  .notebookIndex h2 {
+    margin-bottom: 24px;
+  }
+  .noteChoices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.25fr;
+    max-width: none;
+    gap: 12px;
+  }
+  .noteChoices button {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 12px;
+    padding: 12px 0;
+  }
+  .noteChoices button svg {
+    display: none;
+  }
+  .notePage {
+    min-height: 420px;
+    border-left: 0;
+    padding: 30px 0 0;
+  }
+  .noteNumber {
+    top: 0;
+    font-size: 70px;
+  }
+  .notePage h3 {
+    font-size: 37px;
+    padding-right: 30px;
+  }
+  .notePage p {
+    font-size: 14px;
+  }
 }

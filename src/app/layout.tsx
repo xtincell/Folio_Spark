@@ -69,7 +69,7 @@ const SITE_URL =
 const SITE_TITLE =
   "Xtincell — Alexandre Djengue · Direction créative, photographie & outils";
 const SITE_DESC =
-  "Le portfolio d’Alexandre « Xtincell » Djengue. Photographie, direction créative et conception d’outils : les œuvres, leurs contextes et ce qui les relie.";
+  "Alexandre « Xtincell » Djengue : direction créative, photographie et outils. Comprendre ce qui bloque, trouver une direction et construire avec d’autres de quoi avancer.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
