@@ -1,11 +1,14 @@
 import { pageMeta } from '@/lib/page-meta';
+import { CASE_STUDIES } from '@/components/folio/data/cases';
 import { WorkClient } from './WorkClient';
+
+const projectCount = CASE_STUDIES.filter((project) => !project.hidden).length;
 
 export const metadata = pageMeta({
   path: '/work',
-  title: 'Folio — Trois casquettes / Three hats · Xtincell',
+  title: 'Projets — Direction artistique, marques & produits · Xtincell',
   description:
-    "Le folio complet d'Alexandre « Xtincell » Djengue : Stratégie, Direction Créative & Artistique, Exécution. 20 projets, 15 ans, 25+ marques. / The full folio: Strategy, Creative & Art Direction, Execution.",
+    `Les ${projectCount} dossiers du portfolio d'Alexandre « Xtincell » Djengue : direction artistique, identités, photographie et produits numériques. / ${projectCount} portfolio projects across art direction, brand identity, photography and digital products.`,
 });
 
 export default function FolioWorkPage() {

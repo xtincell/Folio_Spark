@@ -58,6 +58,10 @@
     "year": "2025–2026", "hat": "art", "medium": ["KV-OOH", "branding", "social"],
     "context_fr": "Direction artistique des campagnes saisonnières (Ramadan, Noël, performance sportive, JML) pour les laits évaporés et en poudre Peak et Bonnet Rouge en Afrique centrale/ouest. Key visuals 4×3 et posters promo.",
     "context_en": "Art direction of seasonal campaigns (Ramadan, Christmas, sports performance, JML) for Peak and Bonnet Rouge evaporated and powdered milk across Central/West Africa. 4×3 key visuals and promo posters.",
+    "role_fr": "Direction artistique au sein de MATANGA Agency pour les marques Peak et Bonnet Rouge : visuels de campagne, déclinaisons d’affichage et supports promotionnels.",
+    "role_en": "Art direction at MATANGA Agency for Peak and Bonnet Rouge: campaign visuals, outdoor-advertising adaptations and promotional materials.",
+    "result_fr": "Des créations pour Ramadan, Noël, la performance sportive et la Journée mondiale du lait. Le dossier réunit les visuels principaux, les affiches promotionnelles et les déclinaisons pour les deux marques.",
+    "result_en": "Creative work for Ramadan, Christmas, sports performance and World Milk Day. The selection brings together key visuals, promotional posters and adaptations for both brands.",
     "heroFile": "RAMADAN EXPORT1 VALIDE KV26 PEAK GREEN EN CLEANED.png",
     "files": ["RAMADAN EXPORT1 VALIDE KV26 PEAK GREEN EN CLEANED.png", "Bonnet Rouge JML 2026 prop 2.png", "Artboard 2 gold perform.png", "Artboard 3 EVAP perform.png", "Artboard 4 a chacun bonnet rouge JML.png", "BR XMAS 25 v002.png", "CI BR Ramadan Kareem Poster Promo.png", "TETE DE GONDOLE BRC RK III.png"],
     "mockupIdea": "Billboard 4×3 en rue urbaine africaine pour montrer le KV Ramadan Peak Green à l'échelle OOH."
@@ -208,6 +212,10 @@
     "client_fr": "Spawt", "client_en": "Spawt", "year": "2026", "hat": "art", "medium": ["branding", "social", "photography"],
     "context_fr": "Branding et campagne social pour Spawt, app de découverte food (« où manger ») à mascotte chat calico tricolore : logo, key visuals « scoutisme culinaire » et grilles de contenu mêlant food photo et UI.",
     "context_en": "Branding and social campaign for Spawt, a food-discovery app ('where to eat') with a tricolor calico-cat mascot: logo, 'culinary scouting' key visuals and content grids mixing food photo and UI.",
+    "role_fr": "Direction créative et conception de l’univers visuel, en parallèle de la conception et du développement de l’application mobile. Cette sélection porte sur l’identité et les contenus de marque.",
+    "role_en": "Creative direction and visual-world design, alongside the design and development of the mobile app. This selection focuses on brand identity and content.",
+    "result_fr": "Logo, recherches de mascotte et visuels de communication autour de la découverte culinaire. Ces pièces documentent une étape du travail de marque ; l’application et son interface constituent un chantier distinct.",
+    "result_en": "A logo, mascot explorations and communication visuals around food discovery. These pieces document a stage of the brand work; the application and its interface are a separate workstream.",
     "heroFile": "Gemini_Generated_Image_2utw142utw142utw.png",
     "files": ["Gemini_Generated_Image_2utw142utw142utw.png", "Fichier 19@2x-spawt-png.png", "board-social-1.png", "board-social-2.png", "Gemini_Generated_Image_vszyyavszyyavszy (1).png", "Fichier 21@2x-spawt-png.png", "Fichier 22@2x-spawt-png.png"],
     "mockupIdea": "Mockup mobile de l'UI Spawt entouré du KV burger « LA TRAQUE », présenté comme un produit de découverte food."
@@ -285,9 +293,13 @@
   {
     "folder": "motion19", "source": "motion19", "slug": "motion19-store", "kind": "case",
     "name_fr": "MOTION19 — Boutique audiovisuelle", "name_en": "MOTION19 — Audiovisual Store",
-    "client_fr": "MOTION19 (venture)", "client_en": "MOTION19 (venture)", "year": "2025", "hat": "art", "medium": ["social", "photography", "branding"],
+    "client_fr": "MOTION19", "client_en": "MOTION19", "year": "2025", "hat": "art", "medium": ["social", "photography", "branding"],
     "context_fr": "Système de contenu retail pour MOTION19, boutique de matériel audiovisuel (caméras, drones, kits) au Cameroun : posts produit e-commerce, grilles Black Friday et key visuals de lancement (DJI Mini 5, Sony A7 IV).",
     "context_en": "Retail content system for MOTION19, an audiovisual-gear store (cameras, drones, kits) in Cameroon: e-commerce product posts, Black Friday grids and launch key visuals (DJI Mini 5, Sony A7 IV).",
+    "role_fr": "Direction artistique et création de contenus pour la boutique de matériel audiovisuel. Ce dossier rassemble les pièces retail de 2025, distinctes de mon précédent poste de Brand Manager chez MOTION19.",
+    "role_en": "Art direction and content creation for the audiovisual-equipment store. This case collects the 2025 retail work, separate from my earlier role as MOTION19’s Brand Manager.",
+    "result_fr": "Une série de visuels pour présenter caméras, objectifs, drones et kits : annonces produit, publications e-commerce et formats promotionnels. Les pièces montrent le travail de présentation de l’offre et de déclinaison graphique.",
+    "result_en": "A series of visuals presenting cameras, lenses, drones and kits: product announcements, e-commerce posts and promotional formats. The work shows how the offer was presented and adapted graphically.",
     "heroFile": "M19 product a 7 IV.png",
     "files": ["M19 product a 7 IV.png", "dji mini 5.png", "Canon 1.png", "Nikon.png", "kit de depart.png", "M19 50mm 1,8.png", "Banner.png"],
     "mockupIdea": "Packshot premium produit unique (Sony A7 IV sur dégradé sombre, reflet), + mockup mobile du feed e-commerce."
@@ -295,7 +307,7 @@
   {
     "folder": "Friends Studio", "source": "Friends Studio", "slug": "friends-studio", "kind": "case",
     "name_fr": "Friends Studio — Studio photo premium", "name_en": "Friends Studio — Premium Photo Studio",
-    "client_fr": "Friends Studio (venture)", "client_en": "Friends Studio (venture)", "year": "2026", "hat": "art", "medium": ["social", "photography", "branding"],
+    "client_fr": "Friends Studio", "client_en": "Friends Studio", "year": "2026", "hat": "art", "medium": ["social", "photography", "branding"],
     "context_fr": "Communication marketing pour Friends Studio, studio photo premium à louer à Bonamoussadi (Douala) : flyers copy-driven, concept « facture du stress », promos et stories de présentation de l'espace.",
     "context_en": "Marketing comms for Friends Studio, a premium rental photo studio in Bonamoussadi (Douala): copy-driven flyers, a 'cost-of-stress receipt' concept, promos and space-reveal stories.",
     "heroFile": "freepik_a-photorealistic-cinemati_2859281664.png",
@@ -305,7 +317,7 @@
   {
     "folder": "Matanga", "source": "Matanga", "slug": "matanga-agency", "kind": "case",
     "name_fr": "Matanga Agency — Casting & marque", "name_en": "Matanga Agency — Casting & Brand",
-    "client_fr": "Matanga Agency (venture)", "client_en": "Matanga Agency (venture)", "year": "2026", "hat": "art", "medium": ["social", "branding", "illustration"],
+    "client_fr": "Matanga Agency", "client_en": "Matanga Agency", "year": "2026", "hat": "art", "medium": ["social", "branding", "illustration"],
     "context_fr": "Campagne d'appel à casting et contenu de marque pour Matanga Agency (« We Love Brands ») : key visuals de casting (talents 30-50 ans), logo triple-pic et contenu mascotte 3D.",
     "context_en": "Casting-call campaign and brand content for Matanga Agency ('We Love Brands'): casting key visuals (talents 30-50), a triple-peak logo and 3D mascot content.",
     "heroFile": "casting matanga 3 group.png",
@@ -315,9 +327,13 @@
   {
     "folder": "KOF", "source": "KOF", "slug": "kof-festival", "kind": "case",
     "name_fr": "KOF — Kamer Otaku Festival", "name_en": "KOF — Kamer Otaku Festival",
-    "client_fr": "Kamer Otaku Festival (venture)", "client_en": "Kamer Otaku Festival (venture)", "year": "2025", "hat": "art", "medium": ["event", "branding", "KV-OOH", "photography"],
+    "client_fr": "Kamer Otaku Festival", "client_en": "Kamer Otaku Festival", "year": "2025", "hat": "art", "medium": ["event", "branding", "KV-OOH", "photography"],
     "context_fr": "Branding et campagne du Kamer Otaku Festival (KOF), convention pop-culture/anime camerounaise (5e anniversaire, Yaoundé) : logo torii, KV cinématographique « Miss & Master », rendus d'ambiance, tenues équipe et mockups de pass.",
     "context_en": "Branding and campaign for the Kamer Otaku Festival (KOF), a Cameroonian anime/pop-culture convention (5th anniversary, Yaoundé): torii logo, cinematic 'Miss & Master' KV, atmosphere renders, crew uniforms and ticket-pass mockups.",
+    "role_fr": "Photographe sur la première édition, puis directeur artistique à partir de la deuxième, avec UPgraders. Cette sélection présente le travail d’identité et de communication du festival en 2025.",
+    "role_en": "Photographer for the first edition, then art director from the second, with UPgraders. This selection presents the festival’s identity and communication work from 2025.",
+    "result_fr": "Un ensemble de supports autour du festival : identité au torii, visuel « Miss & Master », pass, tenues d’équipe et représentations de l’espace événementiel. Les images réunissent créations graphiques et mises en situation.",
+    "result_en": "A collection of festival materials: the torii identity, “Miss & Master” key visual, passes, crew clothing and representations of the event space. The images bring together graphic artwork and presentation mockups.",
     "heroFile": "Miss Master ODC.png",
     "files": ["Miss Master ODC.png", "KOF Spark.png", "magnific_photo-de-lespace-central-_2891955933.png", "magnific_all-wearing-red-and-black_2976035308.png", "magnific_mockup-3d-des-pass-sur-fo_2891922446.png", "KOF25 - Badges - Pass KOF.png", "Kof bleach.png"],
     "mockupIdea": "Affiche key-art du KV cinématographique « Miss & Master », + mockup 3D de pass pour les quatre tiers."

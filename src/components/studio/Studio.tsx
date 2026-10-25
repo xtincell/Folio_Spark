@@ -209,7 +209,7 @@ export function StudioFooter() {
             'Open to meaningful collaborations'
           )}
         </span>
-        <span>DOUALA · YAOUNDÉ · ABIDJAN</span>
+        <span>{L('BASÉ À DOUALA', 'BASED IN DOUALA')}</span>
       </div>
       <a
         className={s.footerHeadline}

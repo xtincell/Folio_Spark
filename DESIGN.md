@@ -1,89 +1,57 @@
-# Xtincell — L’étincelle prend forme
+# Xtincell — L’image. Et tout ce qui la fait tenir.
 
-Direction mise à jour le 7 octobre 2026 à la demande d’Alexandre Djengue.
+Direction mise à jour le 25 octobre 2026.
 
-## Engagements de marque
+## Contrat de conception
 
-Xtincell est le portfolio personnel d’un Brand Architect, directeur artistique,
-photographe et créateur d’outils. Garder sa signature noire et orange, sa flamme,
-son vrai portrait, son titre XTINCELL sensible au curseur et son manifeste
-« Je ne crée pas de l’art. Je systémise le succès. ».
+Le portfolio relie les photographies, la direction créative et les outils conçus par Alexandre Djengue. La couverture présente son vrai portrait, le titre XTINCELL sensible au curseur et la phrase **« L’image. Et tout ce qui la fait tenir. »** Une introduction courte précise son intervention ; deux actions ouvrent le parcours choisi et l’ensemble des projets.
 
-Le showreel prolonge le hero dans un chapitre indépendant. Il ne remplace ni
-le titre ni la présence d’Alexandre. L’ivoire sert à la lecture et aux contrastes,
-pas de nouveau positionnement « studio ivoire ».
+Conserver l’identité existante : noir, orange, flamme, typographies locales et photographies réelles. La refonte organise les œuvres et leurs relations. Elle n’installe pas une nouvelle marque d’agence autour de la personne.
 
-## Système
+## Couleurs et typographie
 
 | Rôle | Valeur | Usage |
 | --- | --- | --- |
-| Noir | `#080808` | Fond, ancrage de la marque |
-| Graphite | `#191918` | Surfaces et cadre du portrait |
-| Papier | `#f5f0e8` | Texte principal, contrepoint clair |
-| Flamme | `#ff682f` | Actions, titre accentué, chapitre cinéma |
+| Noir | `#080808` | Fond et ancrage de la marque |
+| Graphite | `#191918` | Surfaces secondaires |
+| Papier | `#f5f0e8` | Texte principal et contraste clair |
+| Flamme | `#ff682f` | Actions, accents, chapitre « Diriger sans perdre la main » |
 | Secondaire | `#b6b0a6` | Métadonnées et légendes |
 | Trait | `#393631` | Structure et séparateurs |
 
-Les tokens globaux `--xt-*` sont déclarés dans `src/styles/globals.css`.
-Les surfaces studio utilisent `studio.module.css`; les pages de service
-héritent des mêmes rôles via `studioPages.module.css`. UPgraders conserve
-son identité d’agence, distincte de la marque personnelle.
+Les tokens globaux `--xt-*` vivent dans `src/styles/globals.css`. La composition narrative de l’accueil utilise `portrait.module.css` ; le cadre partagé utilise `studio.module.css` et les pages secondaires `studioPages.module.css`. UPgraders conserve son identité d’agence distincte.
 
-- Instrument Serif : signature et grandes idées. Hiérarchie par l’échelle,
-  le rythme et l’italique, sans gras artificiel.
-- Space Grotesk : lecture, explication, navigation et contrôles.
-- JetBrains Mono : données réelles, dates et métadonnées courtes.
-- Polices locales, avec leurs licences dans `public/fonts`.
-- Gouttière fluide : `clamp(22px, 4vw, 80px)`. Espacement de chapitre :
-  `clamp(72px, 8vw, 140px)`. Coins discrets de 4px pour les actions.
-- SVG pour les icônes fonctionnelles. Texte explicite dans les boutons.
+- **Instrument Serif** : signature et titres, avec variation d’échelle et d’italique.
+- **Space Grotesk** : lecture, explication, navigation et contrôles.
+- **JetBrains Mono** : dates, numérotation et métadonnées courtes.
+- Polices locales et licences conservées dans `public/fonts`.
+- Espacements fluides ; les changements de composition suivent le contenu et la largeur disponible.
+- Icônes fonctionnelles en SVG, accompagnées de libellés explicites.
 
-## Composition
+## Composition et lecture
 
-L’accueil suit une progression : couverture typographique en triptyque,
-chapitre cinéma orange, projets en planches puis diptyques, manifeste et
-portrait, méthode ADVE/RTIS, photographie, presse, contact. La variation
-de densité accompagne le contenu ; les sections ne répètent pas une grille
-de cartes identiques.
+L’accueil suit trois actes : **le regard**, **la direction**, **la fabrique**. Un index indique le chapitre en cours et permet de passer directement à un autre.
 
-Sur mobile, la couverture déroule titre, manifeste, portrait puis actions.
-Le film conserve son cadre 16:9 et ses commandes visibles. Les filtres restent
-accessibles ; les projets passent en une colonne. Aucun texte important ne
-dépend d’une animation d’entrée.
+Le regard associe photographie et création de festival. La direction rapproche les campagnes et leurs déclinaisons, puis le parcours Motion19. La fabrique met en relation SPAWT et La Barre. Ces compositions diffèrent parce que les pièces ne racontent pas la même chose.
+
+Le chapitre orange « Diriger sans perdre la main » formule la direction souhaitée de la pratique. Le showreel reste un chapitre distinct, accessible dès la couverture. L’index complet, les publications et le contact prolongent la visite.
+
+Sur mobile, le texte d’entrée précède le portrait ; l’index latéral devient une barre de chapitres sous le header. Les planches et diptyques se recomposent sans modifier l’ordre de lecture. Les métadonnées restent auprès des pièces qu’elles expliquent. Le film conserve son cadre 16:9 et ses commandes visibles.
 
 ## Images et preuves
 
-Les mises en situation sont de vraies productions visuelles générées à partir
-des créations existantes, toujours légendées comme telles. Elles ne prouvent
-pas une installation physique. `src/lib/project-presentations.ts` choisit
-la couverture ; chaque étude de cas conserve ses visuels originaux et crédits.
-Ne pas remplacer les sources originales lors d’une future synchronisation.
+Chaque photographie, création graphique, composition et schéma doit être désigné selon sa nature. Les mises en situation générées restent identifiées comme telles ; elles ne prouvent pas une installation physique. `src/lib/project-presentations.ts` choisit les présentations de projet, tandis que les études de cas conservent les créations originales et leurs crédits.
 
-Les collections photographiques utilisent leurs véritables couvertures locales.
-Les biographies, clients, résultats, tarifs et informations juridiques ne
-s’inventent pas. Sans photo autorisée d’un membre d’équipe, utiliser une
-signature typographique volontaire, pas un faux portrait.
+Les couvertures des collections photo sont les photographies locales existantes. Ne pas substituer des images générées aux œuvres ou aux portraits. Ne pas inventer de biographie, de responsabilité, de résultat, de tarif ou de collaboration pour compléter une mise en page.
 
 ## Mouvement et accès
 
-Le mouvement signé est concentré sur le titre, le champ d’étoiles et le film
-composé hors ligne. Les actions ont des transitions brèves. Pas de fade-up
-automatique répété sur toute la page. Respecter `prefers-reduced-motion`,
-le mode économie de données et la visibilité de la page. Le film est manuel
-quand la réduction des animations est activée et se met en pause hors écran.
+Le mouvement est concentré sur le titre, les retours d’interaction et le film. Aucun contenu important ne dépend d’une animation d’entrée. Respecter `prefers-reduced-motion`, les préférences d’économie de données et la visibilité de la page.
 
-Conserver les focus visibles, libellés bilingues, retours de focus, fermeture
-des menus et lightboxes avec Échap. Les preuves de livraison sont la compilation,
-les contrôles navigateur et les captures desktop/mobile, pas la seule lecture
-du CSS.
+Conserver des liens natifs pour la navigation, les focus visibles, les libellés bilingues, la fermeture des menus et lightboxes avec Échap et le retour du focus. L’index de chapitre ne doit pas masquer le titre ciblé. Le film reste contrôlable manuellement.
 
-## Références de travail
+## Vérification et maintenance
 
-- [Frontend Design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)
-- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md)
-- [Impeccable](https://github.com/pbakaus/impeccable/blob/main/.agents/skills/impeccable/SKILL.md)
+Inspecter la couverture, une planche de campagne, un projet long et l’index de chapitre en largeur ample et contrainte. Vérifier les ancres, la langue, les ouvertures de projet et les commandes du film. Les captures décrivent un état observé ; la compilation seule ne démontre pas la qualité de lecture ou d’interaction.
 
-Leurs principes de composition, narration, accessibilité et vérification sont
-appliqués dans le respect des choix explicites d’Alexandre. Le lanceur Impeccable
-n’est pas installé dans cet environnement : revue et captures sont réalisées
-directement, sans prétendre avoir exécuté ses commandes.
+Les évolutions éditoriales suivent `docs/folio-editorial-2026-10.md`. Préserver les routes existantes, les sources des cas et leurs crédits. Un ajout doit enrichir le parcours sans obliger l’accueil à devenir l’inventaire de tout le site.

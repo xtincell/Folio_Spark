@@ -4,7 +4,7 @@ import { CvClient } from './CvClient';
 export const metadata = pageMeta({
   title: 'CV / Résumé — Alexandre Djengue · Xtincell',
   description:
-    "Curriculum Vitae éditorial d'Alexandre « Xtincell » Djengue : 15 ans en marketing & design, méthode ADVE/RTIS, co-fondateur & CEO d'UPgraders. / Editorial résumé: 15 years in marketing & design.",
+    "Le parcours d’Alexandre « Xtincell » Djengue : des télécommunications à la direction créative, la photographie et la conception d’outils. Expériences, responsabilités et collaborations. / Background in creative direction, photography and tool design.",
   path: '/cv',
 });
 

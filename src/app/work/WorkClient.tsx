@@ -105,7 +105,7 @@ export function WorkClient() {
       </div>
       <div className={s.results}>
         <span role="status" aria-live="polite">
-          {shown.length} {L('projets à explorer', 'projects to explore')}
+          {shown.length} {shown.length === 1 ? L('projet à explorer', 'project to explore') : L('projets à explorer', 'projects to explore')}
         </span>
         <span>2017 — 2026</span>
       </div>
