@@ -1,10 +1,16 @@
-'use client';
+"use client";
 
-import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react';
-import { useRouter } from 'next/navigation';
-import styles from '@/styles/commandPalette.module.css';
-import { CONTACT } from './data/contact';
-import { useT, useLang } from '@/lib/i18n';
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type KeyboardEvent,
+} from "react";
+import { useRouter } from "next/navigation";
+import styles from "@/styles/commandPalette.module.css";
+import { CONTACT } from "./data/contact";
+import { useT, useLang } from "@/lib/i18n";
 
 type Cmd = {
   id: string;
@@ -19,7 +25,7 @@ export function CommandPalette() {
   const t = useT();
   const { lang, toggle } = useLang();
   const [open, setOpen] = useState(false);
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   const [activeIdx, setActiveIdx] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const p = t.palette;
@@ -31,25 +37,109 @@ export function CommandPalette() {
     };
     const ext = (href: string) => () => {
       setOpen(false);
-      window.open(href, '_blank', 'noopener,noreferrer');
+      window.open(href, "_blank", "noopener,noreferrer");
     };
     return [
-      { id: 'home', group: p.groupNav, label: p.home, hint: '/', run: go('/') },
-      { id: 'work', group: p.groupNav, label: p.folio, hint: '/work', run: go('/work') },
-      { id: 'galerie', group: p.groupNav, label: p.gallery, hint: '/galerie', run: go('/galerie') },
-      { id: 'design', group: p.groupNav, label: p.design, hint: '/design', run: go('/design') },
-      { id: 'tech', group: p.groupNav, label: p.tech, hint: '/tech', run: go('/tech') },
-      { id: 'cv', group: p.groupNav, label: p.cv, hint: '/cv', run: go('/cv') },
-      { id: 'pricing', group: p.groupNav, label: p.pricing, hint: '/tarifs', run: go('/tarifs') },
-      { id: 'upg', group: p.groupNav, label: p.upgraders, hint: 'powerupgraders.com ↗', run: ext('https://powerupgraders.com') },
-      { id: 'manifeste', group: p.groupSections, label: p.manifesto, run: go('/#manifeste') },
-      { id: 'methode', group: p.groupSections, label: p.method, run: go('/#methode') },
-      { id: 'presse', group: p.groupSections, label: p.press, run: go('/#presse') },
-      { id: 'contact', group: p.groupSections, label: p.contact, run: go('/#contact') },
-      { id: 'wa', group: p.groupContact, label: p.whatsapp, hint: CONTACT.whatsappDisplay, run: ext(CONTACT.whatsappLink) },
-      { id: 'mail', group: p.groupContact, label: p.email, hint: CONTACT.email, run: ext(`mailto:${CONTACT.email}`) },
+      { id: "home", group: p.groupNav, label: p.home, hint: "/", run: go("/") },
       {
-        id: 'copy',
+        id: "work",
+        group: p.groupNav,
+        label: p.folio,
+        hint: "/work",
+        run: go("/work"),
+      },
+      {
+        id: "galerie",
+        group: p.groupNav,
+        label: p.gallery,
+        hint: "/galerie",
+        run: go("/galerie"),
+      },
+      {
+        id: "design",
+        group: p.groupNav,
+        label: p.design,
+        hint: "/design",
+        run: go("/design"),
+      },
+      {
+        id: "tech",
+        group: p.groupNav,
+        label: p.tech,
+        hint: "/tech",
+        run: go("/tech"),
+      },
+      { id: "cv", group: p.groupNav, label: p.cv, hint: "/cv", run: go("/cv") },
+      {
+        id: "pricing",
+        group: p.groupNav,
+        label: p.pricing,
+        hint: "/tarifs",
+        run: go("/tarifs"),
+      },
+      {
+        id: "upg",
+        group: p.groupNav,
+        label: p.upgraders,
+        hint: "powerupgraders.com ↗",
+        run: ext("https://powerupgraders.com"),
+      },
+      {
+        id: "regard",
+        group: p.groupSections,
+        label:
+          lang === "fr" ? "Le regard — Photographie" : "The eye — Photography",
+        run: go("/#regard"),
+      },
+      {
+        id: "direction",
+        group: p.groupSections,
+        label:
+          lang === "fr"
+            ? "La direction — Campagnes"
+            : "The direction — Campaigns",
+        run: go("/#direction"),
+      },
+      {
+        id: "fabrique",
+        group: p.groupSections,
+        label:
+          lang === "fr"
+            ? "La fabrique — Produits et outils"
+            : "The making — Products and tools",
+        run: go("/#fabrique"),
+      },
+      {
+        id: "presse",
+        group: p.groupSections,
+        label:
+          lang === "fr"
+            ? "Publications & conversations"
+            : "Publications & conversations",
+        run: go("/#presse"),
+      },
+      {
+        id: "contact",
+        group: p.groupSections,
+        label: p.contact,
+        run: go("/#contact"),
+      },
+      {
+        id: "wa",
+        group: p.groupContact,
+        label: p.whatsapp,
+        hint: CONTACT.whatsappDisplay,
+        run: ext(CONTACT.whatsappLink),
+      },
+      {
+        id: "mail",
+        group: p.groupContact,
+        label: p.email,
+        hint: CONTACT.email,
+        run: ext(`mailto:${CONTACT.email}`),
+      },
+      {
+        id: "copy",
         group: p.groupContact,
         label: p.copyEmail,
         run: () => {
@@ -57,12 +147,18 @@ export function CommandPalette() {
           setOpen(false);
         },
       },
-      { id: 'linkedin', group: p.groupContact, label: p.linkedin, hint: CONTACT.linkedinDisplay, run: ext(CONTACT.linkedinLink) },
       {
-        id: 'lang',
+        id: "linkedin",
+        group: p.groupContact,
+        label: p.linkedin,
+        hint: CONTACT.linkedinDisplay,
+        run: ext(CONTACT.linkedinLink),
+      },
+      {
+        id: "lang",
         group: p.groupLang,
         label: p.switchLang,
-        hint: lang === 'fr' ? 'FR → EN' : 'EN → FR',
+        hint: lang === "fr" ? "FR → EN" : "EN → FR",
         run: () => {
           toggle();
           setOpen(false);
@@ -75,22 +171,22 @@ export function CommandPalette() {
     const q = query.trim().toLowerCase();
     if (!q) return commands;
     return commands.filter((c) =>
-      `${c.label} ${c.hint ?? ''} ${c.group}`.toLowerCase().includes(q),
+      `${c.label} ${c.hint ?? ""} ${c.group}`.toLowerCase().includes(q),
     );
   }, [query, commands]);
 
   // Global ⌘K / Ctrl+K toggle + Escape
   useEffect(() => {
     const onKey = (e: globalThis.KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
         setOpen((o) => !o);
-      } else if (e.key === 'Escape') {
+      } else if (e.key === "Escape") {
         setOpen(false);
       }
     };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, []);
 
   // On open: reset, focus, lock body scroll — et restaurer le focus au trigger
@@ -98,11 +194,11 @@ export function CommandPalette() {
   useEffect(() => {
     if (!open) return;
     const previouslyFocused = document.activeElement as HTMLElement | null;
-    setQuery('');
+    setQuery("");
     setActiveIdx(0);
     const t = setTimeout(() => inputRef.current?.focus(), 20);
     const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
     return () => {
       clearTimeout(t);
       document.body.style.overflow = prevOverflow;
@@ -116,16 +212,16 @@ export function CommandPalette() {
   }, [query]);
 
   const onInputKey = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'ArrowDown') {
+    if (e.key === "ArrowDown") {
       e.preventDefault();
       setActiveIdx((i) => Math.min(i + 1, filtered.length - 1));
-    } else if (e.key === 'ArrowUp') {
+    } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setActiveIdx((i) => Math.max(i - 1, 0));
-    } else if (e.key === 'Enter') {
+    } else if (e.key === "Enter") {
       e.preventDefault();
       filtered[activeIdx]?.run();
-    } else if (e.key === 'Tab') {
+    } else if (e.key === "Tab") {
       // Dialog modal à champ unique : Tab reste dans la palette.
       e.preventDefault();
     }
@@ -145,7 +241,11 @@ export function CommandPalette() {
       </button>
 
       {open && (
-        <div className={styles.overlay} role="presentation" onClick={() => setOpen(false)}>
+        <div
+          className={styles.overlay}
+          role="presentation"
+          onClick={() => setOpen(false)}
+        >
           <div
             className={styles.palette}
             role="dialog"
@@ -168,21 +268,30 @@ export function CommandPalette() {
                 role="combobox"
                 aria-expanded="true"
                 aria-controls="cp-list"
-                aria-activedescendant={filtered.length > 0 ? `cp-opt-${activeIdx}` : undefined}
+                aria-activedescendant={
+                  filtered.length > 0 ? `cp-opt-${activeIdx}` : undefined
+                }
                 autoComplete="off"
               />
               <kbd className={styles.kbd}>ESC</kbd>
             </div>
 
-            <ul id="cp-list" className={styles.list} role="listbox" aria-label={p.ariaDialog}>
-              {filtered.length === 0 && <li className={styles.empty}>{p.empty}</li>}
+            <ul
+              id="cp-list"
+              className={styles.list}
+              role="listbox"
+              aria-label={p.ariaDialog}
+            >
+              {filtered.length === 0 && (
+                <li className={styles.empty}>{p.empty}</li>
+              )}
               {filtered.map((c, i) => (
                 <li
                   key={c.id}
                   id={`cp-opt-${i}`}
                   role="option"
                   aria-selected={i === activeIdx}
-                  className={`${styles.item} ${i === activeIdx ? styles.itemActive : ''}`}
+                  className={`${styles.item} ${i === activeIdx ? styles.itemActive : ""}`}
                   onMouseEnter={() => setActiveIdx(i)}
                   onClick={() => c.run()}
                 >
@@ -194,8 +303,14 @@ export function CommandPalette() {
             </ul>
 
             <div className={styles.footer}>
-              <span><kbd>↑↓</kbd>{p.navigate}</span>
-              <span><kbd>↵</kbd>{p.open}</span>
+              <span>
+                <kbd>↑↓</kbd>
+                {p.navigate}
+              </span>
+              <span>
+                <kbd>↵</kbd>
+                {p.open}
+              </span>
               <span className={styles.footerBrand}>BRAND OS · XTINCELL</span>
             </div>
           </div>

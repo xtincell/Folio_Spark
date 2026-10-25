@@ -1,10 +1,11 @@
 import type { Bi } from '@/lib/i18n';
 
 /* ============================================================================
-   PRESS — « Ce qu'ils disent de moi » / « What they say about me »
+   PRESS — Publications, conversations & regards extérieurs
    ----------------------------------------------------------------------------
-   Third-party coverage, features, interviews and media presence about
-   Alexandre « Xtincell » Djengue across the web. Each entry is rendered in the
+   External coverage and Alexandre « Xtincell » Djengue's own publications.
+   `type` distinguishes a feature, an authored podcast and a portfolio.
+   Each entry is rendered in the
    editorial press list on the home page and surfaced to search engines through
    the Person JSON-LD (`subjectOf` / `sameAs`) in the root layout.
 
@@ -59,16 +60,17 @@ export const PRESS: PressItem[] = [
   {
     outlet: 'Créapreneur',
     title: {
-      fr: 'Créapreneur — le podcast de l’entrepreneuriat créatif en Afrique francophone',
-      en: 'Creapreneur — the podcast on creative entrepreneurship in French-speaking Africa',
+      fr: 'Créapreneur — archives du podcast sur l’entrepreneuriat créatif',
+      en: 'Creapreneur — creative-entrepreneurship podcast archive',
     },
     url: 'https://podcasts.apple.com/us/podcast/creapreneur/id1440424290',
-    date: { fr: 'Depuis 2018', en: 'Since 2018' },
+    // Apple Podcasts lists 2018–2021 as the archived show's active years.
+    date: { fr: 'Archives 2018–2021', en: 'Archive 2018–2021' },
     iso: '2018',
     type: 'podcast',
     excerpt: {
-      fr: 'Le micro hebdomadaire où Xtincell déconstruit l’entrepreneuriat créatif en Afrique francophone — quotidien de créateur, gestion de clients, tarifs, droits d’auteur — et reçoit d’autres créatifs.',
-      en: 'The weekly mic where Xtincell unpacks creative entrepreneurship in French-speaking Africa — the maker’s daily life, client management, pricing, copyright — and hosts fellow creatives.',
+      fr: 'Le podcast présenté par Xtincell autour de l’entrepreneuriat créatif en Afrique francophone : quotidien de créateur, gestion de clients, tarifs, droits d’auteur et échanges avec d’autres créatifs. Épisodes archivés de 2018 à 2021.',
+      en: 'A podcast hosted by Xtincell about creative entrepreneurship in French-speaking Africa: creative work, client management, pricing, copyright and conversations with fellow creatives. Archived episodes from 2018 to 2021.',
     },
   },
   {

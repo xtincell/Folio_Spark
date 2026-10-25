@@ -5,7 +5,7 @@ export const metadata = pageMeta({
   path: '/tech',
   title: 'Tech & Produit — Alexandre Djengue · Xtincell',
   description:
-    "Folio tech d'Alexandre « Xtincell » Djengue : sites & web apps (BanaHealth, Motion19, Shakazz), app mobile Spawt, SaaS LaFusée, outils sur-mesure. De l'idée à l'expérience livrée. Projets clé en main à partir de 1000 €. / Tech folio: sites, web & mobile apps, SaaS and bespoke tools — turnkey from €1,000.",
+    "Produits et outils d’Alexandre « Xtincell » Djengue : sites et applications web, SPAWT, LaFusée et La Barre. Conception, développement assisté par IA et travaux en cours. Projets clé en main à partir de 1000 €. / Products and tools: websites, apps, AI-assisted development and work in progress — turnkey from €1,000.",
 });
 
 export default function FolioTechPage() {

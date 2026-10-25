@@ -1,6 +1,6 @@
-import { PRESS } from './data/press';
-import { CONTACT } from './data/contact';
-import { SOCIAL_PROFILES } from './data/social-feed';
+import { PRESS } from "./data/press";
+import { CONTACT } from "./data/contact";
+import { SOCIAL_PROFILES } from "./data/social-feed";
 
 /**
  * Person / ProfilePage structured data (JSON-LD).
@@ -10,26 +10,26 @@ import { SOCIAL_PROFILES } from './data/social-feed';
  * (`subjectOf`) and every owned profile (`sameAs`). Rendering from the same
  * data files that drive the UI keeps the schema in sync with the page.
  */
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.powerupgraders.com';
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://xtincell.powerupgraders.com";
 
 export function PersonJsonLd() {
   const person = {
-    '@type': 'Person',
-    '@id': `${SITE_URL}/#person`,
-    name: 'Alexandre Djengue',
-    alternateName: 'Xtincell',
+    "@type": "Person",
+    "@id": `${SITE_URL}/#person`,
+    name: "Alexandre Djengue",
+    alternateName: "Xtincell",
     url: SITE_URL,
     image: `${SITE_URL}/portrait.jpg`,
-    jobTitle: 'Brand Architect & Storytelling Consultant',
+    jobTitle: "Directeur créatif et artistique",
     description:
-      "Directeur artistique formé en télécommunications. Brand Architect, Storytelling Consultant et Toolsmith — méthode ADVE/RTIS, OS LaFusée, agence UPgraders.",
-    nationality: 'Cameroonian',
-    knowsLanguage: ['fr', 'en'],
-    worksFor: {
-      '@type': 'Organization',
-      name: 'UPgraders',
-      description: "Conciergerie de l'industrie créative — Afrique de l'Ouest & Centrale.",
-    },
+      "Directeur créatif et artistique, photographe et concepteur d’outils, formé en télécommunications et réseaux.",
+    nationality: "Cameroonian",
+    knowsLanguage: ["fr", "en"],
+    worksFor: [
+      { "@type": "Organization", name: "MATANGA Agency" },
+      { "@type": "Organization", name: "UPgraders" },
+    ],
     sameAs: [
       SOCIAL_PROFILES.instagram,
       SOCIAL_PROFILES.facebook,
@@ -38,25 +38,27 @@ export function PersonJsonLd() {
       CONTACT.behance,
       CONTACT.twitter,
     ],
-    subjectOf: PRESS.map((p) => ({
-      '@type': p.type === 'podcast' ? 'PodcastSeries' : 'Article',
+    subjectOf: PRESS.filter(
+      (p) => p.type === "feature" || p.type === "interview",
+    ).map((p) => ({
+      "@type": "Article",
       name: p.title.fr,
       url: p.url,
       ...(p.iso ? { datePublished: p.iso } : {}),
-      publisher: { '@type': 'Organization', name: p.outlet },
+      publisher: { "@type": "Organization", name: p.outlet },
     })),
   };
 
   const graph = {
-    '@context': 'https://schema.org',
-    '@graph': [
+    "@context": "https://schema.org",
+    "@graph": [
       {
-        '@type': 'ProfilePage',
-        '@id': `${SITE_URL}/#webpage`,
+        "@type": "ProfilePage",
+        "@id": `${SITE_URL}/#webpage`,
         url: SITE_URL,
-        name: 'Xtincell — Alexandre Djengue · Brand Architect',
-        inLanguage: 'fr',
-        mainEntity: { '@id': `${SITE_URL}/#person` },
+        name: "Xtincell — Alexandre Djengue · Direction créative, photographie & outils",
+        inLanguage: "fr",
+        mainEntity: { "@id": `${SITE_URL}/#person` },
       },
       person,
     ],
