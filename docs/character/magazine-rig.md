@@ -20,3 +20,7 @@ Navigation : boutons, flèches lorsque la zone a le focus, et balayage horizonta
 Les illustrations sont des images découpées dans une hiérarchie SVG ; elles ne sont pas vectorisées. Il ne s'agit pas d'un fichier After Effects. Les pièces et les pivots sont disponibles pour une reprise ultérieure.
 
 Les visuels de projets proviennent du portfolio existant : photographie de Lydol, campagne Bonnet Rouge avec MATANGA et schéma conceptuel de La Barre.
+
+## Vérifications
+
+TypeScript et build Next.js : 67 routes produites. Inspection des quatre poses au navigateur en desktop, mobile 390 px et tablette 768 px. Navigation clavier, pause et révélation du pseudo au focus vérifiées. Le déclencheur de sortie du hero est implémenté via IntersectionObserver.

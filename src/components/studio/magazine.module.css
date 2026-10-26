@@ -17,3 +17,5 @@
 .copy h1{white-space:pre-line}
 
 @media(min-width:1051px){.campaign{top:175px;width:29%}}
+@media(min-width:701px) and (max-width:1050px){.photoStory{left:47%;width:24%}.copy .body{max-width:270px}}
+@media(max-width:700px){.campaign{z-index:2}}

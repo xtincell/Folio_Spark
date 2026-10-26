@@ -7,5 +7,5 @@ export const poses = {
 export type Pose = keyof typeof poses;
 export const mobilePoses = {
  cover:{x:280,y:365,scale:1.3}, regard:{x:390,y:340,scale:1.05},
- direction:{x:250,y:370,scale:1.04}, fabrique:{x:480,y:300,scale:.95},
+ direction:{x:250,y:370,scale:1.04}, fabrique:{x:520,y:340,scale:.95},
 } as const;

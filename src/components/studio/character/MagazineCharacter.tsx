@@ -48,7 +48,7 @@ export function MagazineCharacter({pose,paused=false,board}:{pose:Pose;paused?:b
  };
  const root=(children:ReactNode)=> <motion.g initial={false} animate={{x:pos.x,y:pos.y,scale:pos.scale,rotate:p.lean}} transition={transition} style={{originX:'0px',originY:'0px'}}>{children}</motion.g>;
  if(mobile===null)return <svg className={s.rig} aria-hidden="true"/>;
- const boardBox=mobile?[0,85,465,450]:[475,65,510,390];
+ const boardBox=mobile?[140,105,325,430]:[475,65,510,390];
  return <svg className={s.rig} viewBox={mobile?'0 0 700 600':'0 0 1440 570'} preserveAspectRatio="xMidYMax meet" aria-hidden="true" data-rig="shared-skeleton" data-pose={pose} data-paused={still}>
   {root(<g className={still?undefined:s.breathe}>
    <Part name="torso" x={-165} y={-8} w={330} h={141}/>
