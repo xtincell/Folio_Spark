@@ -7,8 +7,7 @@ import { useLang, pick } from "@/lib/i18n";
 import { PRESS } from "@/components/folio/data/press";
 import { StudioShell, Arrow } from "./Studio";
 import { Showreel } from "./Showreel";
-import { MastTitle } from "@/components/folio/MastTitle";
-import { XtincellCharacter } from "./character/XtincellCharacter";
+import { MagazineHero } from "./MagazineHero";
 import s from "@/styles/portrait.module.css";
 
 const chapterIds = ["regard", "direction", "fabrique"];
@@ -99,133 +98,7 @@ export function StudioHome() {
   ];
   return (
     <StudioShell
-      cover={
-        <section className={s.cover} id="top" lang={lang}>
-          <div className={s.edition}>
-            <span>ALEXANDRE DJENGUE · DOUALA</span>
-            <span>{L("PRATIQUE DEPUIS 2011", "IN PRACTICE SINCE 2011")}</span>
-            <span>
-              {L("FOLIO PERSONNEL / 2026", "PERSONAL PORTFOLIO / 2026")}
-            </span>
-          </div>
-          <div className={s.wordmark}>
-            <MastTitle />
-          </div>
-          <div className={s.coverBody}>
-            <div className={s.coverText}>
-              <p className={s.overline}>
-                {L(
-                  "Directeur créatif · Photographe · Curieux",
-                  "Creative director · Photographer · Curious",
-                )}
-              </p>
-              <h1>
-                {L("Parce qu’il", "Because")}
-                <br />
-                {L("y a toujours", "there’s always")}
-                <br />
-                <em>{L("un moyen.", "a way.")}</em>
-              </h1>
-              <div className={s.introduction}>
-                <p>
-                  {L(
-                    "J’aime comprendre ce qui bloque, trouver une direction et fabriquer, avec d’autres, de quoi avancer. Une image, une idée, ou parfois l’outil qui manque.",
-                    "I like understanding what stands in the way, finding a direction and working with others to make the next step possible. An image, an idea, or sometimes the missing tool.",
-                  )}
-                </p>
-                <a href="#regard" className={s.primary}>
-                  {L("Suivre le fil", "Follow the story")}
-                  <Arrow />
-                </a>
-                <Link href="/work" className={s.secondary}>
-                  {L("Tous les projets", "All projects")} <Arrow diagonal />
-                </Link>
-              </div>
-            </div>
-            <figure className={s.portrait}>
-              <XtincellCharacter />
-              <figcaption>
-                <span>
-                  Alexandre <em>« Xtincell »</em> Djengue
-                </span>
-                <span>
-                  {L(
-                    "Un regard. Et l’envie d’être utile.",
-                    "An eye for things. A wish to be useful.",
-                  )}
-                </span>
-              </figcaption>
-              <span className={s.portraitRule} aria-hidden="true" />
-            </figure>
-            <div
-              className={s.contactStrip}
-              aria-label={L(
-                "Trois pratiques, un parcours",
-                "Three practices, one story",
-              )}
-            >
-              <a href="#regard">
-                <Image
-                  src="/work/galerie-pixieset/03-lydol-portrait.jpg"
-                  alt={L(
-                    "Lydol sur scène, photographie par Xtincell",
-                    "Lydol on stage, photographed by Xtincell",
-                  )}
-                  width={640}
-                  height={399}
-                  sizes="15vw"
-                  priority
-                />
-                <span>
-                  01 / {chapterLabels[0]} <Arrow />
-                </span>
-              </a>
-              <a href="#direction">
-                <Image
-                  src="/work/cases/friesland-campina/02.webp"
-                  alt={L(
-                    "Création Bonnet Rouge avec MATANGA",
-                    "Bonnet Rouge artwork with MATANGA",
-                  )}
-                  width={1600}
-                  height={1200}
-                  sizes="15vw"
-                />
-                <span>
-                  02 / {chapterLabels[1]} <Arrow />
-                </span>
-              </a>
-              <a href="#fabrique">
-                <Image
-                  src="/studio/la-barre.svg"
-                  alt={L(
-                    "La Barre, schéma conceptuel d’un outil de direction créative",
-                    "La Barre, conceptual diagram of a creative direction tool",
-                  )}
-                  width={1600}
-                  height={1000}
-                  sizes="15vw"
-                />
-                <span>
-                  03 / {chapterLabels[2]} <Arrow />
-                </span>
-              </a>
-            </div>
-          </div>
-          <div className={s.coverBottom}>
-            <span>
-              {L(
-                "Un parcours à travers les œuvres.",
-                "A story told through the work.",
-              )}
-            </span>
-            <a href="#showreel">
-              {L("Ou commencer par le film", "Or start with the film")}{" "}
-              <span>48 s ↗</span>
-            </a>
-          </div>
-        </section>
-      }
+      cover={<MagazineHero />}
     >
       <div className={s.story} lang={lang}>
         <aside className={s.storyRail}>

@@ -2992,3 +2992,6 @@
 @media (prefers-reduced-motion: reduce) {
   .projectImage img,.photoInvitation img,.methodStep summary>svg { transition: none; }
 }
+
+/* Magazine navigation */
+.header.headerOverlay { height:64px; background:#090909; }

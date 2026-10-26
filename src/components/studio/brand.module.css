@@ -1,0 +1,8 @@
+.brand{display:flex;align-items:center;gap:12px;position:relative;min-width:42px;min-height:44px;color:#f65d29}
+.brand>svg{width:32px;height:32px;flex-shrink:0;transition:transform .6s cubic-bezier(.2,.9,.2,1.4)}
+.brand>span{position:absolute;left:45px;color:#f5f1e7;background:#0a0a0a;padding:6px 12px;opacity:0;translate:-8px 0;pointer-events:none;transition:opacity .2s,translate .3s;font-size:18px}
+.brand:hover>span,.brand:focus-visible>span{opacity:1;translate:0 0}
+.brand:hover>svg,.brand:focus-visible>svg{transform:rotate(180deg)}
+.brand[data-pulse=true]>svg{animation:spark 1s ease-in-out}
+@keyframes spark{35%{transform:rotate(-20deg) scale(.85)}75%{transform:rotate(180deg) scale(1.15)}100%{transform:rotate(180deg)}}
+@media(prefers-reduced-motion:reduce){.brand>svg,.brand>span{animation:none!important;transition:none}}
