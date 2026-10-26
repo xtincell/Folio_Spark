@@ -2,9 +2,9 @@
   "name": "folio-spark",
   "version": "0.1.0",
   "private": true,
-  "description": "Xtincell Folio — Alexandre Djengue · Brand Architect & Storytelling Consultant",
+  "description": "Xtincell Folio \u2014 Alexandre Djengue \u00b7 Brand Architect & Storytelling Consultant",
   "scripts": {
-    "dev": "next dev -p 1009",
+    "dev": "node scripts/dev.mjs",
     "build": "next build",
     "start": "next start -p 1009",
     "lint": "next lint",
