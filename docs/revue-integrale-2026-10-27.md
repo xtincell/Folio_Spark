@@ -68,3 +68,5 @@ Catalogue → contrôles de contenu et compilation de production → dossiers et
 Validation finale avant publication : `npm run typecheck`, compilation standalone (67 routes), contrôle des 61 documents HTML générés (un titre principal et aucune cible interne manquante), contrôle du catalogue (221 médias et téléchargements), `git diff --check` : réussis. Les avertissements de console relevés dans le navigateur concernent les attributs de son extension, pas un écart de contenu de l’application.
 
 Comparaisons visuelles autonomes : [Tarifs](qa/tarifs-comparison.html), [Galerie](qa/galerie-comparison.html), [Blog](qa/blog-comparison.html). Les images des pages réellement rendues sont intégrées à chaque fichier.
+
+Publication vérifiée le 27 octobre 2026 à 15 h 33 (Douala). Déploiement Coolify `7bk8kw2sk5pymopao1ihuoru`, commit applicatif `96bbc470d3b7b3714fa2104703d84bfc1e6a5c68` : terminé, nouveau conteneur sain, bascule terminée. La page publique `/tarifs` affiche les six prestations et les montants ; `/cv` et `/api/health` répondent en HTTP 200. [Capture de la version publiée](qa/tarifs-live.jpg).
