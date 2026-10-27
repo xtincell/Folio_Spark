@@ -37,3 +37,10 @@ Rendus FR et EN examinés. À 390 et 320 px, les six tuiles, leurs 18 livrables,
 La portée fonctionnelle reste le choix d'une prestation et la préparation d'un échange. Aucun effet commercial ou test avec des clients n'est revendiqué.
 
 [Comparaison avant/après](qa/prestations-illustrees-comparison.html) · [Livrables et seconde rangée](qa/prestations-livrables.jpg).
+
+
+## Validation et publication
+
+`npm run typecheck`, compilation standalone des 67 routes, contrôle du catalogue (221 médias), contrôle du HTML de Tarifs (un H1, six figures, une vidéo, les deux schémas de prestations, aucun identifiant dupliqué ni cible interne manquante) et `git diff --check` : réussis.
+
+Publication Coolify terminée le 27 octobre 2026 à 16 h 33 (Douala). Commit applicatif `19ef93693e34447753d15768459de4069c1b8246`, déploiement `z3zcdg9l9tsatucfdwsqwspg` : nouveau conteneur sain et bascule terminée. La page publique et son état de santé répondent en HTTP 200. Inspection de la page publique : six prestations, six figures, 18 livrables, aucune image chargée cassée. [Capture de la page publiée](qa/prestations-live.jpg).
