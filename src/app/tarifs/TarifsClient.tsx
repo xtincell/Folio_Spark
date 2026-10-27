@@ -7,6 +7,7 @@ import { StudioShell, Arrow } from '@/components/studio/Studio';
 import { CONTACT } from '@/components/folio/data/contact';
 import { useLang } from '@/lib/i18n';
 import { SERVICES, servicePrice } from '@/components/folio/data/services';
+import { ServiceIllustration } from '@/components/folio/ServiceIllustration';
 import { PageIndex } from '@/components/studio/PageIndex';
 import s from '@/styles/collaborations.module.css';
 
@@ -136,12 +137,13 @@ export function TarifsClient() {
             </div>
           </div>
           <div className={s.serviceGrid}>
-            {SERVICES.map((service, index)=><article key={service.id} className={s.service}>
-              <span className={s.number}>{String(index+1).padStart(2,'0')}</span>
-              <h3>{service.name[lang]}</h3>
+            {SERVICES.map((service, index)=><article key={service.id} className={s.service} aria-labelledby={`service-${service.id}`}>
+              <ServiceIllustration id={service.id} lang={lang} />
+              <div className={s.serviceTitle}><span className={s.number}>{String(index+1).padStart(2,'0')}</span><h3 id={`service-${service.id}`}>{service.name[lang]}</h3></div>
               <p className={s.serviceScope}>{service.scope[lang]}</p>
               <p className={s.price}><span>{L('À partir de', 'From')}</span><strong>{servicePrice(service.eur,currency)}</strong><span>{service.unit[lang]}</span></p>
-              <p className={s.included}>{service.includes[lang]}</p>
+              <div className={s.deliverables}><h4>{L('Ce que vous recevez', 'What you receive')}</h4><ul>{service.deliverables.map((item,i)=><li key={i}>{item[lang]}</li>)}</ul></div>
+              <div className={s.serviceQuote}><h4>{L('À cadrer au devis', 'Agreed in the quote')}</h4><p>{service.quote[lang]}</p></div>
               <a className={s.caseLink} href="#point-de-depart" onClick={()=>update('service',service.id)} aria-label={`${L('Discuter :', 'Discuss:')} ${service.name[lang]}`}>{L('Discuter du projet', 'Discuss your project')}<Arrow /></a>
             </article>)}
           </div>
