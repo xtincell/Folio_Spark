@@ -66,3 +66,5 @@ Petite largeur → CV et méthode UPgraders initialement trop contraints → cor
 Catalogue → contrôles de contenu et compilation de production → dossiers et assets conservés → poursuivre vers publication.
 
 Validation finale avant publication : `npm run typecheck`, compilation standalone (67 routes), contrôle des 61 documents HTML générés (un titre principal et aucune cible interne manquante), contrôle du catalogue (221 médias et téléchargements), `git diff --check` : réussis. Les avertissements de console relevés dans le navigateur concernent les attributs de son extension, pas un écart de contenu de l’application.
+
+Comparaisons visuelles autonomes : [Tarifs](qa/tarifs-comparison.html), [Galerie](qa/galerie-comparison.html), [Blog](qa/blog-comparison.html). Les images des pages réellement rendues sont intégrées à chaque fichier.
