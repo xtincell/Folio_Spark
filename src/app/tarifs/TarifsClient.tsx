@@ -130,7 +130,7 @@ export function TarifsClient() {
         <PageIndex items={[{id:'prestations',fr:'Tarifs',en:'Pricing'},{id:'interventions',fr:'Interventions',en:'Ways to work'},{id:'cadre',fr:'Le cadre',en:'The scope'},{id:'point-de-depart',fr:'Votre projet',en:'Your project'}]} />
         <section className={s.pricing} id="prestations" aria-labelledby="pricing-heading">
           <div className={s.pricingTop}>
-            <div><h2 id="pricing-heading">{L('Un point de départ, par besoin.', 'A starting point for each need.')}</h2><p>{L('Tarifs indicatifs, à partir de. Le périmètre fait la différence.', 'Indicative starting prices. The scope makes the difference.')}</p></div>
+            <div><h2 id="pricing-heading">{L('Un point de départ, par besoin.', 'A starting point for each need.')}</h2><p>{L('Des formules essentielles pour commencer. Les projets plus complets se construisent sur devis.', 'Essential packages to get started. Larger projects receive a tailored quote.')}</p></div>
             <div className={s.currency} role="group" aria-label={L('Devise d’affichage', 'Display currency')}>
               <button type="button" aria-pressed={currency==='fcfa'} onClick={()=>setCurrency('fcfa')}>FCFA</button>
               <button type="button" aria-pressed={currency==='eur'} onClick={()=>setCurrency('eur')}>EUR €</button>
@@ -141,13 +141,13 @@ export function TarifsClient() {
               <ServiceIllustration id={service.id} lang={lang} />
               <div className={s.serviceTitle}><span className={s.number}>{String(index+1).padStart(2,'0')}</span><h3 id={`service-${service.id}`}>{service.name[lang]}</h3></div>
               <p className={s.serviceScope}>{service.scope[lang]}</p>
-              <p className={s.price}><span>{L('À partir de', 'From')}</span><strong>{servicePrice(service.eur,currency)}</strong><span>{service.unit[lang]}</span></p>
-              <div className={s.deliverables}><h4>{L('Ce que vous recevez', 'What you receive')}</h4><ul>{service.deliverables.map((item,i)=><li key={i}>{item[lang]}</li>)}</ul></div>
-              <div className={s.serviceQuote}><h4>{L('À cadrer au devis', 'Agreed in the quote')}</h4><p>{service.quote[lang]}</p></div>
+              <p className={s.price}><span>{L('À partir de', 'From')}</span><strong>{servicePrice(service.fcfa,currency)}</strong><span>{service.unit[lang]}</span></p>
+              <div className={s.deliverables}><h4>{L('Inclus dans la formule d’entrée', 'Included in the entry package')}</h4><ul>{service.deliverables.map((item,i)=><li key={i}>{item[lang]}</li>)}</ul></div>
+              <div className={s.serviceQuote}><h4>{L('Pour aller plus loin', 'For a larger scope')}</h4><p>{service.quote[lang]}</p></div>
               <a className={s.caseLink} href="#point-de-depart" onClick={()=>update('service',service.id)} aria-label={`${L('Discuter :', 'Discuss:')} ${service.name[lang]}`}>{L('Discuter du projet', 'Discuss your project')}<Arrow /></a>
             </article>)}
           </div>
-          <p className={s.currencyNote}>{L('Équivalents FCFA arrondis à 5 000 près. Le devis confirme le montant, la devise, les droits et les éventuels frais de production.', 'FCFA equivalents rounded to the nearest 5,000. The quote confirms the amount, currency, rights and any production costs.')}</p>
+          <p className={s.currencyNote}>{L('Prix de base en FCFA ; équivalents EUR arrondis à l’euro. Le devis confirme le périmètre, le montant, les droits et les frais éventuels avant de commencer.', 'Base prices in FCFA; EUR equivalents rounded to the nearest euro. The quote confirms scope, amount, rights and any additional costs before work begins.')}</p>
           <div className={s.recurring}><h3>{L('Un accompagnement régulier ?', 'Need ongoing support?')}</h3><p>{L('Conseil ou direction créative auprès d’une équipe. Nous définissons le rythme, le périmètre et le budget mensuel ensemble.', 'Consulting or creative direction alongside a team. We agree on the schedule, scope and monthly budget together.')}</p><a className={s.caseLink} href="#point-de-depart" onClick={()=>update('service','equipe')}>{L('Définir la mission', 'Define the engagement')}<Arrow /></a></div>
         </section>
         <section className={s.interventions} id="interventions" aria-labelledby="interventions-heading">

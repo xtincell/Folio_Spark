@@ -57,21 +57,25 @@
   .service:hover { --offer-ink: var(--paper); --offer-muted: var(--paper); --offer-line: color-mix(in srgb, var(--paper) 38%, var(--orange)); --offer-accent: var(--paper); background: var(--orange); }
 }
 .serviceFigure { margin: 0 0 24px; }
-.serviceVisual { display: block; position: relative; width: 100%; aspect-ratio: 8 / 5; overflow: hidden; background: #fff; border: 0; }
-.serviceVisual img { object-fit: contain; }
-.serviceFigure figcaption { color: var(--offer-muted); font-size: 11px; line-height: 1.6; margin-top: 10px; min-height: 36px; }
-.serviceFilm { position: relative; aspect-ratio: 8 / 5; }
-.serviceFilm summary { list-style: none; cursor: pointer; }
-.serviceFilm summary::-webkit-details-marker { display: none; }
-.filmPrompt { position: absolute; bottom: 10px; right: 10px; display: inline-flex; align-items: center; gap: 12px; padding: 9px 12px; background: var(--paper); color: var(--ink); font-size: 11px; }
-.filmOpenOnly { display: none; }
-.serviceFilm[open] summary { position: absolute; z-index: 2; top: 8px; right: 8px; width: auto; aspect-ratio: auto; background: none; overflow: visible; }
-.serviceFilm[open] summary > img { display: none; }
-.serviceFilm[open] .filmPrompt { position: static; min-height: 44px; }
-.serviceFilm[open] .filmClosedOnly { display: none; }
-.serviceFilm[open] .filmOpenOnly { display: inline; }
-.servicePlayer { background: var(--paper); aspect-ratio: 8 / 5; }
-.servicePlayer video { width: 100%; height: 100%; object-fit: contain; display: block; }
+/* A native scroll rail keeps touch navigation usable without hover or dragging JS. */
+.galleryRail { display: flex; position: relative; width: 100%; min-width: 0; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; background: #fff; }
+.galleryRail::-webkit-scrollbar { display: none; }
+.gallerySlide { position: relative; flex: 0 0 100%; min-width: 0; aspect-ratio: 8 / 5; scroll-snap-align: start; scroll-snap-stop: always; }
+.gallerySlide img { object-fit: contain; }
+.galleryControls { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.galleryControls button { flex: 0 0 44px; height: 44px; border: 1px solid var(--offer-line); background: transparent; color: var(--offer-ink); font-size: 20px; cursor: pointer; }
+.galleryControls button:disabled { opacity: .35; cursor: default; }
+.galleryControls > span { flex: 1; min-width: 0; text-align: center; color: var(--offer-muted); font-size: 10px; line-height: 1.5; overflow-wrap: anywhere; }
+.galleryThumbs { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 6px; margin-top: 6px; }
+.galleryThumbs button { display: block; position: relative; min-width: 0; min-height: 44px; aspect-ratio: 8 / 5; padding: 0; background: #fff; border: 2px solid transparent; cursor: pointer; }
+.galleryThumbs button[aria-pressed=true] { border-color: var(--offer-accent); }
+.galleryThumbs img { object-fit: contain; }
+.serviceFigure figcaption { color: var(--offer-muted); font-size: 11px; line-height: 1.6; margin-top: 10px; }
+.galleryAction { min-height: 44px; }
+.galleryAction > a { display: block; width: fit-content; padding-block: 10px; min-height: 44px; text-decoration: underline; text-underline-offset: 4px; }
+.galleryFilm { border-bottom: 1px solid var(--offer-line); }
+.galleryFilm summary { min-height: 44px; padding: 12px 0; font-size: 12px; cursor: pointer; }
+.galleryFilm video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #080808; }
 .serviceTitle { display: flex; align-items: baseline; gap: 12px; }
 .serviceTitle .number { flex-shrink: 0; color: var(--offer-accent); }
 .service h3 { font: 400 32px/1.1 var(--folio-serif), Georgia, serif; margin: 0; }
@@ -277,4 +281,46 @@
 @media (prefers-reduced-motion: reduce) {
   .caseImage img, .primary { transition: none; }
   .caseImage:hover img { transform: none; }
+}
+
+/* Content-driven breakpoints: enough room for prices, long names and gallery controls. */
+.page { min-width: 0; }
+.page :is(h1,h2,h3,p,dd,a,label) { overflow-wrap: anywhere; }
+.heroGrid > *, .agreement > *, .recurring > * { min-width: 0; }
+.heroGrid { grid-template-columns: minmax(0,1.5fr) minmax(0,1fr); }
+.service h3 { font-size: clamp(28px, 2.4vw, 34px); }
+.serviceTitle { align-items: start; }
+.serviceTitle h3 { min-width: 0; }
+.price strong { white-space: nowrap; font-size: clamp(25px,2.4vw,36px); }
+.page .service :where(button,[tabindex]):focus-visible { outline: 2px solid var(--offer-ink); outline-offset: 3px; }
+@media (min-width: 700px) and (max-width: 1199px) {
+  .serviceGrid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 850px) {
+  .heroGrid { grid-template-columns: minmax(0,1fr); gap: 26px; }
+  .heroIntro { max-width: 560px; }
+  .briefSection { grid-template-columns: minmax(0,1fr); gap: 32px; }
+  .briefIntro { position: static; }
+}
+@media (max-width: 699px) {
+  .hero, .interventions, .briefSection { padding-inline: 16px; }
+  .pricing { padding: 26px 16px 40px; }
+  .hero h1 { font-size: clamp(43px,11.5vw,72px); }
+  .serviceGrid { grid-template-columns: minmax(0,1fr); gap: 18px; }
+  .service { padding: 14px 14px 22px; }
+  .service h3 { font-size: clamp(29px,7.7vw,36px); }
+  .serviceFigure { margin-bottom: 20px; }
+  .serviceScope { min-height: 0; }
+  .price strong { font-size: clamp(29px,8.3vw,38px); }
+  .pricingTop { flex-direction: column; align-items: start; gap: 16px; }
+  .pricingTop p { line-height: 1.7; }
+  .agreement { padding-inline: 16px; }
+  .agreement dl > div { grid-template-columns: minmax(0,82px) minmax(0,1fr); gap: 12px; }
+  .field label { flex-wrap: wrap; gap: 4px 12px; }
+  .field :is(textarea,input,select) { font-size: 16px; }
+  .primary { max-width: 100%; white-space: normal; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .service :is(h3,p,span,a,li,h4,button,figcaption) { transition: color .22s ease, border-color .22s ease; }
 }
