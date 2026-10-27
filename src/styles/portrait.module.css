@@ -1230,3 +1230,21 @@
     font-size: 14px;
   }
 }
+
+/* The name signs the cover; the portrait and work carry the opening. */
+.wordmark {
+  width: min(100%, 720px);
+  padding: 12px 0 0;
+  border-bottom: 0;
+}
+.wordmark > div {
+  font-size: clamp(56px, 7vw, 100px);
+  line-height: .92;
+  padding: 6px 0;
+}
+.coverBody { padding-top: 24px; }
+@media (max-width: 680px) {
+  .wordmark { width: 100%; padding-top: 14px; }
+  .wordmark > div { font-size: clamp(48px, 13vw, 80px); }
+  .coverBody { padding-top: 24px; }
+}

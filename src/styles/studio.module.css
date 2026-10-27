@@ -2992,3 +2992,8 @@
 @media (prefers-reduced-motion: reduce) {
   .projectImage img,.photoInvitation img,.methodStep summary>svg { transition: none; }
 }
+
+/* The tools are a primary part of the practice, alongside images and work. */
+@media (min-width: 1101px) and (max-width: 1390px) {
+  .headerDescriptor { display: none; }
+}

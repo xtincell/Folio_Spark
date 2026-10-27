@@ -84,14 +84,21 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
       document.removeEventListener('mousedown', outside);
     };
   }, [open]);
+  const mainLinks = [
+    ['/work', L('Projets', 'Work')],
+    ['/galerie', L('Galerie', 'Gallery')],
+    ['/tech', L('Outils', 'Tools')],
+    ['/cv', L('À propos', 'About')],
+  ];
   const links = [
     ['/', L('Accueil', 'Home')],
     ['/work', L('Projets', 'Work')],
+    ['/tech', L('Outils & expériences', 'Tools & experiments')],
+
     ['/galerie', L('Galerie', 'Gallery')],
     ['/cv', L('À propos / CV', 'About / Résumé')],
     ['/#carnet', L('Carnet personnel', 'Personal notebook')],
     ['/design', 'Design folio · EN'],
-    ['/tech', L('Outils & expériences', 'Tools & experiments')],
     ['/tarifs', L('Travailler ensemble', 'Working together')],
     ['/recrutement', L('Recrutement', 'Hiring')],
     ['/upgraders', 'UPgraders'],
@@ -115,7 +122,7 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
         className={s.desktopNav}
         aria-label={L('Navigation principale', 'Main navigation')}
       >
-        {links.slice(1, 4).map(([href, label]) => (
+        {mainLinks.map(([href, label]) => (
           <Link
             key={href}
             href={href!}

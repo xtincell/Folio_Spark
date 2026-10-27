@@ -17,6 +17,8 @@ import {
 } from '@/components/studio/Studio';
 import s from '@/styles/studio.module.css';
 import { PROJECT_PRESENTATIONS } from '@/lib/project-presentations';
+import { readingForProject } from '@/components/folio/data/project-editorial';
+import e from '@/styles/project-editorial.module.css';
 export type CaseLite = {
   slug: string;
   name: Bi;
@@ -41,7 +43,9 @@ export function CaseStudyClient({
   const dialog = useRef<HTMLDialogElement>(null);
   const [zoom, setZoom] = useState<{ src: string; alt: string } | null>(null);
   const title = pick(c.name, lang);
-  const gallery = c.gallery.filter((img) => img.src !== c.hero);
+  const reading = readingForProject(c.slug);
+  const evidence = reading?.evidence ?? [];
+  const gallery = c.gallery.filter((img) => img.src !== c.hero && !evidence.some(item => item.src === img.src));
   const agency = agencyForCase(c.slug);
   const mockup = PROJECT_PRESENTATIONS[c.slug];
   const narrative = [
@@ -56,7 +60,7 @@ export function CaseStudyClient({
           className={s.breadcrumb}
           aria-label={L('Fil d’Ariane', 'Breadcrumb')}
         >
-          <Link href="/work">← {L('Tous les projets', 'All projects')}</Link>
+          <Link href="/work">← {L('Retour aux projets', 'Back to projects')}</Link>
           <span>/</span>
           <span>{pick(HAT_LABEL[c.hat], lang)}</span>
         </nav>
@@ -142,6 +146,41 @@ export function CaseStudyClient({
           </div>
         </dl>
       </section>
+      {reading?.title && (
+        <section className={e.decision} aria-labelledby="decision-title">
+          <header className={e.decisionHead}>
+            <span className={s.eyebrow}>{L('Un choix, dans les images', 'A decision, shown in the work')}</span>
+            <h2 id="decision-title">{pick(reading.title, lang)}</h2>
+          </header>
+          <div className={e.decisionText}>
+            <div>
+              <h3>{L('L’enjeu', 'The challenge')}</h3>
+              <p>{pick(reading.challenge!, lang)}</p>
+            </div>
+            <div>
+              <h3>{L('Le parti pris', 'The approach')}</h3>
+              <p>{pick(reading.choice!, lang)}</p>
+            </div>
+          </div>
+          <div className={`${e.evidence} ${evidence.length === 1 ? e.evidenceSingle : ''}`}>
+            {evidence.map(item => {
+              const caption = pick(item.caption, lang);
+              return (
+                <figure key={item.src}>
+                  <button type="button" aria-label={`${L('Agrandir', 'Enlarge')} : ${caption}`} onClick={() => {
+                    setZoom({src: item.src, alt: caption});
+                    dialog.current?.showModal();
+                  }}>
+                    <Image src={item.src} alt={caption} width={1600} height={1200} sizes={evidence.length === 1 ? '90vw' : '(max-width:560px) 90vw, 45vw'} loading="lazy" />
+                    <span aria-hidden="true">+</span>
+                  </button>
+                  <figcaption>{caption}</figcaption>
+                </figure>
+              );
+            })}
+          </div>
+        </section>
+      )}
       {!!narrative.length && (
         <section className={s.caseNarrative}>
           {narrative.map((block) => (
