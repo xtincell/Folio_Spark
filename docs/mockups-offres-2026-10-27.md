@@ -41,3 +41,10 @@ Les montants et descriptions de prestation n'ont pas été modifiés. Aucun gain
 
 
 Validation locale : compilation standalone des 67 routes réussie, contrôle du catalogue (221 médias), six exports WebP vérifiés, un H1 et six figures dans le HTML Tarifs, aucun identifiant dupliqué, `git diff --check` réussi. Lecture du film puis fermeture exercées : le lecteur est mis en pause. [Aperçu de l'état orange inspecté](qa/mockups-hover-preview.jpg).
+
+
+## Publication vérifiée
+
+Déploiement Coolify `yccj9xervewu2uburw4qzirv` terminé le 27 octobre 2026 à 17 h 44 (Douala). Commit applicatif `3539cd3e4467992200ed91271d9e3b0255475381`. Bascule terminée, ancienne version retirée. `/tarifs` et `/api/health` répondent en HTTP 200.
+
+Le navigateur public confirme six mockups chargés, aucune image cassée, le blanc du visuel conservé et la carte survolée orange `rgb(255,104,47)` avec texte sombre `rgb(8,8,8)`. Une déconnexion temporaire du navigateur pendant ce contrôle a été résolue ; la capture finale a ensuite été inspectée. [Capture de la version publiée](qa/mockups-offres-live.jpg).
