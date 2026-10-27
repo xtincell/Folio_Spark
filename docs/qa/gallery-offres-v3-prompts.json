@@ -3,108 +3,144 @@
     "id": "conseil",
     "slug": "diagnostic",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: A single elegant open white document showing a concise strategic diagnostic, with three large headings CONTEXTE, ENJEU, PRIORITÉ. A black pen alongside. No cover book, no collage. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-a62dca51-1938-4d1b-88b3-9f890ade8c4d.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-a62dca51-1938-4d1b-88b3-9f890ade8c4d.png",
+    "asset": "public/studio/services/conseil-diagnostic-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "conseil",
     "slug": "positionnement",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: Three substantial white editorial cards fanned gently on a white surface, headed CIBLE, MESSAGE, ACTION, each with a bold orange geometric diagram and sparse black type. Top-down close composition. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-9307ab1e-1d4e-4115-8964-dd972c51b36a.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-9307ab1e-1d4e-4115-8964-dd972c51b36a.png",
+    "asset": "public/studio/services/conseil-positionnement-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "conseil",
     "slug": "feuille-de-route",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: A single premium landscape white roadmap sheet on a thin black clipboard, three steps numbered 01 02 03 joined by an orange line, small heading FEUILLE DE ROUTE. Angled top-down composition. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-f6a3b8b7-2319-4d88-b8d0-d131766c85f7.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-f6a3b8b7-2319-4d88-b8d0-d131766c85f7.png",
+    "asset": "public/studio/services/conseil-feuille-de-route-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "identite",
     "slug": "logo",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: The Cosmos Boba logo from the reference faithfully presented as a large cream letterpress logo card, with two smaller cream and brown logo variation cards behind it. Tight product shot, no other props. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-9406f693-01ae-4e2d-8df2-f1453f5efca5.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-9406f693-01ae-4e2d-8df2-f1453f5efca5.png",
+    "asset": "public/studio/services/identite-logo-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "identite",
     "slug": "charte",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: An open Cosmos Boba brand guidelines booklet, focusing on a double-page spread showing the cream, caramel and dark brown palette and elegant typography. Preserve the exact logo from reference. No extra objects. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-b5702a05-8e09-400a-b735-d7b21975a182.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-b5702a05-8e09-400a-b735-d7b21975a182.png",
+    "asset": "public/studio/services/identite-charte-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "identite",
     "slug": "applications",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: Two takeaway bubble tea cups with lids and straws, bearing the exact Cosmos Boba logo from the reference, cream and warm caramel packaging with a matching small paper bag. Premium realistic packaging visualization. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-b8c6f750-6831-45fe-ad65-514d416b07a1.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-b8c6f750-6831-45fe-ad65-514d416b07a1.png",
+    "asset": "public/studio/services/identite-applications-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "direction",
     "slug": "concept",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: A premium white art-direction moodboard as one landscape board resting slightly angled, using the Bonnet Rouge campaign image from reference: warm family breakfast, red brand accent, swatches, light and composition references. Preserve source artwork, no new people. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-a9e7949b-9ca7-4b71-9ff0-ad3668893e93.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-a9e7949b-9ca7-4b71-9ff0-ad3668893e93.png",
+    "asset": "public/studio/services/direction-concept-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "direction",
     "slug": "affiche",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: One upright white-framed landscape campaign poster with the exact existing Bonnet Rouge family breakfast campaign from reference. Isolated product photo, no additional boards or sheets. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-3b32d973-f845-4ab1-8410-fe6ac22301d3.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-3b32d973-f845-4ab1-8410-fe6ac22301d3.png",
+    "asset": "public/studio/services/direction-affiche-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "direction",
     "slug": "formats",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: A black smartphone showing the Bonnet Rouge family campaign in portrait format and a white square social-media presentation card alongside. Faithful artwork from reference, red brand accent. No extra objects. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain the established cream/black/orange design of the reference or its brand palette. Never add pricing, packages, fake client testimonials, watermarks or a website border. This is an illustrative presentation, not a screenshot.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-8b97a84f-c0bf-4910-bcf0-4bd093ba5997.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-8b97a84f-c0bf-4910-bcf0-4bd093ba5997.png",
+    "asset": "public/studio/services/direction-formats-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "photo",
     "slug": "tirage",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: One large white-matted fine art landscape photographic print of the exact existing Lydol performance photograph from reference, standing on a white studio surface. Preserve the photographed woman's face, pose, outfit and background; never invent another portrait. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-1873d4b2-1982-454e-8809-3df3ddaa8855.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-1873d4b2-1982-454e-8809-3df3ddaa8855.png",
+    "asset": "public/studio/services/photo-tirage-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "photo",
     "slug": "selection",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: An elegant open white photographic contact-sheet portfolio book with a restrained black grid of several details of the existing Lydol performance photograph in reference. Preserve original photographed person; no new invented images or people. Orange small page number. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-a3582395-0f23-4083-ab44-e230a9ab2cc0.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-a3582395-0f23-4083-ab44-e230a9ab2cc0.png",
+    "asset": "public/studio/services/photo-selection-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "photo",
     "slug": "livraison",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: A slim dark tablet presenting the exact existing Lydol stage photograph from reference, and one white-matted photographic print lying beside it. Preserve face and photo. Photographic delivery mockup, no envelope. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-af12b04c-d6fd-4afc-bb2c-86e69e73caf3.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-af12b04c-d6fd-4afc-bb2c-86e69e73caf3.png",
+    "asset": "public/studio/services/photo-livraison-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "web",
     "slug": "desktop",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: One elegant black desktop monitor showing faithfully the actual Xtincell portfolio homepage from reference, black page, orange accents, serif heading and black and white portrait. Alone on white surface, front three-quarter view. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-7ce1134d-0bc2-4c2c-8b75-786a735e019b.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-7ce1134d-0bc2-4c2c-8b75-786a735e019b.png",
+    "asset": "public/studio/services/web-desktop-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "web",
     "slug": "mobile",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: Two black smartphones at different subtle angles, showing the actual Xtincell portfolio homepage from reference as a mobile layout, serif title Parce qu’il y a toujours un moyen, orange button and black and white portrait. Phones entirely in frame. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-fedc26c6-2e07-43fb-a236-5e49bff2332e.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-fedc26c6-2e07-43fb-a236-5e49bff2332e.png",
+    "asset": "public/studio/services/web-mobile-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "web",
     "slug": "structure",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: An open silver laptop showing the actual Xtincell black portfolio website from reference, with two white page-layout cards alongside representing the structure and handover of a simple website. Orange small accents. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-72b41864-fb38-4217-9d74-0e5a15732cd2.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-72b41864-fb38-4217-9d74-0e5a15732cd2.png",
+    "asset": "public/studio/services/web-structure-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "motion",
     "slug": "storyboard",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: A single white storyboard sheet with six cinematic frames based faithfully on the existing Peak film artwork from reference: pouring milk into cups and food on a warm table, green Peak milk cans, orange small frame numbers. No faces or new slogans. Premium printed storyboard mockup. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-255a3d92-3077-454d-8737-8a6737954dfb.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-255a3d92-3077-454d-8737-8a6737954dfb.png",
+    "asset": "public/studio/services/motion-storyboard-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "motion",
     "slug": "vertical",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: One upright black smartphone showing the Peak film vertical adaptation, using faithfully the existing milk pouring scene and Peak branding from reference. Front three-quarter view, elegant reflection. No extra devices. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-297d3c4e-63cd-46ea-a51b-e0e3dce6e040.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-297d3c4e-63cd-46ea-a51b-e0e3dce6e040.png",
+    "asset": "public/studio/services/motion-vertical-v3.webp",
+    "method": "built-in image_gen"
   },
   {
     "id": "motion",
     "slug": "montage",
     "prompt": "Use case: product-mockup. Asset type: individual service gallery image for Xtincell portfolio. Reference image is a style and existing-artwork reference. Create ONE new distinct landscape studio product mockup, 8:5 composition. Subject: A black widescreen monitor showing a professional editing workspace, with existing Peak milk pouring artwork in preview and an elegant orange-accent video timeline beneath. Faithful source artwork, no new actors, no app brand or invented claims. Background: completely clean pure white #ffffff seamless studio, soft believable contact shadows, no gray horizon. Style: premium tactile editorial presentation, sharply rendered materials, ample white margin all sides, objects fully inside frame. Retain original artwork faithfully. Never add pricing, packages, fake client testimonials, watermarks or website borders. This is an illustrative presentation.",
-    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-5d71cfaa-fab7-485b-8858-4ccf2b157479.png"
+    "path": "/workspace/scratch/7bb9c392eaf2/generated_images/exec-5d71cfaa-fab7-485b-8858-4ccf2b157479.png",
+    "asset": "public/studio/services/motion-montage-v3.webp",
+    "method": "built-in image_gen"
   }
 ]

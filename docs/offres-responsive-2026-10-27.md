@@ -34,3 +34,17 @@ Grille à une colonne sous 700 px, deux colonnes de 700 à 1199 px et trois au-d
 Inspection de la page entière dans des cadres CSS de 320, 390, 768 et 1024 px : aucun des titres, paragraphes, listes, liens, boutons, articles et champs ne dépasse le cadre horizontal. Les rails de galerie ont volontairement leur propre débordement interne. Inspection visuelle du haut de page et des offres, puis sélection d’offre vers le formulaire : valeur `conseil` bien sélectionnée. Il s’agit de cadres de navigateur, pas d’une validation physique iPhone/Android.
 
 Inspection desktop : la quatrième vue du Conseil s’affiche, compteur 04/04 et vignette active cohérents. Fond de carte `rgb(255,104,47)`, texte `rgb(8,8,8)`, galerie `rgb(255,255,255)`. Les cartes voisines conservent leur surface sombre. Les titres et prix de la rangée sont alignés après réservation d’une ligne pour l’accès au projet.
+
+Contrôles complémentaires : à 320, 390 et 430 px, aucun texte ni champ hors cadre et toutes les commandes des galeries mesurent au moins 44 × 44 px. Le clavier fait passer la galerie Conseil à la vue 02/04 sur le cadre de 390 px. Les six galeries ont chacune quatre vues et la page n’a pas d’identifiant dupliqué. Les 24 fichiers sont valides et distincts (2 219 524 octets au total).
+
+Le showreel a effectivement été lu (24 secondes écoulées, lecteur prêt), puis fermé : `paused: true`. Le changement de devise a été exercé dans les deux sens : 35 000 / 100 000 / 75 000 / 50 000 / 150 000 / 75 000 FCFA et 53 / 152 / 114 / 76 / 229 / 114 EUR.
+
+Validation technique : TypeScript et compilation standalone des 67 routes réussis. Le catalogue de 221 médias ne présente aucune erreur. `git diff --check` réussi.
+
+## Publication vérifiée
+
+Déploiement Coolify `brsdcixaz0p2rm6tdh5kknai` terminé le 27 octobre 2026 à 21:49:35 UTC (22:49:35 à Douala). Commit applicatif `bf74b5523506e9053d0f2bc9a42f45da81780a1d`, branche `codex/folio-tarifs-revue-integrale` maintenue et commit épinglé. Contrôle final d’administration : `running:healthy`. `/tarifs` et `/api/health` répondent HTTP 200.
+
+Le navigateur public confirme les six nouveaux prix, les six galeries et le passage à la quatrième vue du Conseil. Les dix-huit nouvelles images sont accessibles en HTTP 200 comme WebP. Aucun média cassé observé ; les images hors cadre sont chargées paresseusement. Les cadres de 320, 390 et 430 px affichent le site public sans texte ni champ hors largeur. Le bouton suivant à 390 px fait bien passer le compteur à 02/04.
+
+[Capture desktop de la quatrième vue et de l’offre orange](qa/offres-quatre-vues-live.jpg). [Capture publique aux trois largeurs mobiles](qa/offres-responsive-live.jpg).
