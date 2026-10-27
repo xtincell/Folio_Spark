@@ -260,7 +260,7 @@ const fr = {
       design: 'Design Folio (EN)',
       tech: 'Outils & expériences',
       cv: 'CV',
-      pricing: 'Travailler ensemble',
+      pricing: 'Tarifs & prestations',
       upgraders: 'UPgraders',
       blog: 'Blog UPgraders',
       manifesto: 'Manifeste',
@@ -327,7 +327,7 @@ const fr = {
 
     cv: {
       title: 'CV — Alexandre Djengue · Xtincell',
-      eyebrow: 'Curriculum Vitae · v15.0 · 2026 · 15 ans de pratique',
+      eyebrow: 'Curriculum Vitae · 2026 · 15 ans de pratique',
       tag: 'Direction créative · Photographie · Conception d’outils.',
       born: 'Né',
       bornV: '1991 · Cameroun',
@@ -540,7 +540,7 @@ const en: Dict = {
       design: 'Design Folio (EN)',
       tech: 'Tools & experiments',
       cv: 'Résumé',
-      pricing: 'Working together',
+      pricing: 'Pricing & services',
       upgraders: 'UPgraders',
       blog: 'UPgraders Blog',
       manifesto: 'Manifesto',
@@ -607,7 +607,7 @@ const en: Dict = {
 
     cv: {
       title: 'Résumé — Alexandre Djengue · Xtincell',
-      eyebrow: 'Résumé · v15.0 · 2026 · 15 years of practice',
+      eyebrow: 'Résumé · 2026 · 15 years of practice',
       tag: 'Creative direction · Photography · Tool design.',
       born: 'Born',
       bornV: '1991 · Cameroon',

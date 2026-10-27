@@ -67,7 +67,6 @@ export default function DesignFolioPage() {
     // le reste du site restant lang="fr".
     <div className={`${styles.designRoot} ${pageStudio.root}`} lang="en">
       <FolioTopbar active="design" />
-      <PageIndex english items={[{ id: 'disciplines', fr: 'Disciplines', en: 'Disciplines' }, { id: 'work', fr: 'Selected work', en: 'Selected work' }, { id: 'visuals', fr: 'Visual index', en: 'Visual index' }, { id: 'approach', fr: 'Approach', en: 'Approach' }]} />
 
       <main id="contenu">
         {/* HERO */}
@@ -97,14 +96,12 @@ export default function DesignFolioPage() {
               <span><b>Based in Douala</b></span>
             </div>
             <div className={styles.heroCta}>
-              <Link href="/tarifs" className={styles.btn}>Working together</Link>
-              <a href="#work" className={`${styles.btn} ${styles.btnGhost}`}>Selected work</a>
-              <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer" className={`${styles.btn} ${styles.btnGhost}`}>
-                Start a project
-              </a>
+              <a href="#work" className={styles.btn}>Selected work</a>
+              <Link href="/tarifs" className={`${styles.btn} ${styles.btnGhost}`}>Pricing & services</Link>
             </div>
           </div>
         </section>
+        <PageIndex english items={[{ id: 'disciplines', fr: 'Disciplines', en: 'Disciplines' }, { id: 'work', fr: 'Selected work', en: 'Selected work' }, { id: 'visuals', fr: 'Visual index', en: 'Visual index' }, { id: 'approach', fr: 'Approach', en: 'Approach' }]} />
 
         {/* DISCIPLINES */}
         <section className={styles.section} id="disciplines">

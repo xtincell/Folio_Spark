@@ -89,17 +89,18 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
     ['/galerie', L('Galerie', 'Gallery')],
     ['/tech', L('Outils', 'Tools')],
     ['/cv', L('À propos', 'About')],
+    ['/tarifs', L('Tarifs', 'Pricing')],
   ];
   const links = [
     ['/', L('Accueil', 'Home')],
     ['/work', L('Projets', 'Work')],
+    ['/tarifs', L('Tarifs & prestations', 'Pricing & services')],
     ['/tech', L('Outils & expériences', 'Tools & experiments')],
 
     ['/galerie', L('Galerie', 'Gallery')],
     ['/cv', L('À propos / CV', 'About / Résumé')],
     ['/#carnet', L('Carnet personnel', 'Personal notebook')],
     ['/design', 'Design folio · EN'],
-    ['/tarifs', L('Travailler ensemble', 'Working together')],
     ['/recrutement', L('Recrutement', 'Hiring')],
     ['/upgraders', 'UPgraders'],
   ];
@@ -137,6 +138,7 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
         ))}
       </nav>
       <div className={s.headerActions}>
+        <Link className={s.mobilePricing} href="/tarifs" aria-current={path === '/tarifs' ? 'page' : undefined}>{L('Tarifs', 'Pricing')}</Link>
         <button
           className={s.language}
           type="button"
@@ -148,8 +150,8 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
           {lang.toUpperCase()}
           <svg width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="m1 1 4 4 4-4" stroke="currentColor" /></svg>
         </button>
-        <Link className={s.headerContact} href="/tarifs">
-          {L('Travailler ensemble', 'Working together')}
+        <Link className={s.headerContact} href="/tarifs#point-de-depart">
+          {L('Parlons du projet', 'Let’s talk')}
           <Arrow diagonal />
         </Link>
         <button
@@ -214,7 +216,7 @@ export function StudioFooter() {
         </span>
         <span>{L('BASÉ À DOUALA', 'BASED IN DOUALA')}</span>
       </div>
-      <Link className={s.footerHeadline} href="/tarifs">
+      <Link className={s.footerHeadline} href="/tarifs#point-de-depart">
         {L('Qu’est-ce qu’on', 'What could we')}
         <br />
         <span>
@@ -239,7 +241,7 @@ export function StudioFooter() {
         <span>© 2026 Alexandre Djengue — Xtincell</span>
         <div>
           <Link href="/tarifs">
-            {L('Travailler ensemble', 'Working together')}
+            {L('Tarifs & prestations', 'Pricing & services')}
           </Link>
           <Link href="/conditions">{L('Conditions', 'Terms')}</Link>
           <a href="#contenu">{L('Retour en haut', 'Back to top')} ↑</a>

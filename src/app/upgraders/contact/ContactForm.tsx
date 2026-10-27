@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from '@/styles/upgraders.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { useLang, pick, type Bi } from '@/lib/i18n';
@@ -46,8 +46,8 @@ const T = {
     fr: 'Contexte, problème, échéance, contraintes — soyez concret.',
     en: 'Context, problem, deadline, constraints — be concrete.',
   },
-  sendMail: { fr: 'Envoyer par email', en: 'Send by email' },
-  sendWa: { fr: 'Envoyer sur WhatsApp', en: 'Send on WhatsApp' },
+  sendMail: { fr: 'Ouvrir un email', en: 'Open an email' },
+  sendWa: { fr: 'Ouvrir WhatsApp', en: 'Open WhatsApp' },
   missing: {
     fr: 'Indiquez au moins votre nom, votre email et un brief.',
     en: 'Please provide at least your name, email and a brief.',
@@ -70,10 +70,14 @@ export function ContactForm() {
     message: '',
   });
   const [error, setError] = useState(false);
+  const [prepared, setPrepared] = useState(false);
+  const preview = useRef<HTMLDivElement>(null);
+  useEffect(() => { if (prepared) preview.current?.focus(); }, [prepared]);
 
   function update<K extends keyof FormState>(k: K, v: FormState[K]) {
     setForm((s) => ({ ...s, [k]: v }));
     if (error) setError(false);
+    setPrepared(false);
   }
 
   function isComplete(): boolean {
@@ -124,22 +128,13 @@ export function ContactForm() {
       setError(true);
       return;
     }
-    const subject = `Brief UPgraders — ${form.name || 'nouveau projet'}`;
-    const href = `mailto:${CONTACT.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(buildMailtoBody())}`;
-    window.location.href = href;
+    setPrepared(true);
   }
-
-  function onWhatsApp() {
-    if (!isComplete()) {
-      setError(true);
-      return;
-    }
-    const url = `${CONTACT.whatsappLink}?text=${encodeURIComponent(buildWaText())}`;
-    window.open(url, '_blank', 'noopener,noreferrer');
-  }
+  const mailto = `mailto:${CONTACT.email}?subject=${encodeURIComponent(`Brief UPgraders — ${form.name}`)}&body=${encodeURIComponent(buildMailtoBody())}`;
+  const whatsapp = `${CONTACT.whatsappLink}?text=${encodeURIComponent(buildWaText())}`;
 
   return (
-    <form className={styles.contactForm} onSubmit={onSubmit} noValidate>
+    <form className={styles.contactForm} onSubmit={onSubmit}>
       <div className={styles.contactFormRow}>
         <label className={styles.contactField}>
           <span className={styles.contactLabel}>
@@ -149,6 +144,9 @@ export function ContactForm() {
             className={styles.contactInput}
             required
             type="text"
+            name="name"
+            autoComplete="name"
+            maxLength={120}
             value={form.name}
             onChange={(e) => update('name', e.target.value)}
             placeholder={t(T.namePh)}
@@ -159,6 +157,9 @@ export function ContactForm() {
           <input
             className={styles.contactInput}
             type="text"
+            name="organisation"
+            autoComplete="organization"
+            maxLength={160}
             value={form.org}
             onChange={(e) => update('org', e.target.value)}
             placeholder={t(T.orgPh)}
@@ -174,6 +175,9 @@ export function ContactForm() {
           className={styles.contactInput}
           required
           type="email"
+          name="email"
+          autoComplete="email"
+          maxLength={254}
           value={form.email}
           onChange={(e) => update('email', e.target.value)}
           placeholder={t(T.emailPh)}
@@ -220,6 +224,8 @@ export function ContactForm() {
         <textarea
           className={styles.contactTextarea}
           required
+          minLength={10}
+          maxLength={2500}
           value={form.message}
           onChange={(e) => update('message', e.target.value)}
           placeholder={t(T.briefPh)}
@@ -232,23 +238,14 @@ export function ContactForm() {
         </p>
       ) : null}
 
-      <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', alignItems: 'center' }}>
-        <button type="submit" className={styles.contactSubmit}>
-          <span>{t(T.sendMail)}</span>
-          <span aria-hidden>→</span>
-        </button>
-        <button
-          type="button"
-          onClick={onWhatsApp}
-          className={styles.contactSubmit}
-          style={{ background: 'transparent', color: 'var(--ink)', border: '1px solid var(--line-2)' }}
-        >
-          <span>{t(T.sendWa)}</span>
-          <span aria-hidden>→</span>
-        </button>
-      </div>
-
-      <p className={styles.contactConsent}>{t(T.consent)}</p>
+      <button type="submit" className={styles.contactSubmit}>{lang === 'fr' ? 'Préparer le message' : 'Prepare the message'} <span aria-hidden>→</span></button>
+      <p className={styles.contactConsent}>{lang === 'fr' ? 'Un brouillon à relire avant de l’ouvrir dans votre messagerie. Cette étape n’envoie rien.' : 'Review a draft before opening it in your messaging app. This step sends nothing.'}</p>
+      {prepared && <div ref={preview} tabIndex={-1} className={styles.draftPreview} aria-labelledby="upgraders-draft-title">
+        <h3 id="upgraders-draft-title">{lang === 'fr' ? 'Votre brouillon est prêt.' : 'Your draft is ready.'}</h3>
+        <pre>{buildMailtoBody()}</pre>
+        <div className={styles.draftActions}><a href={mailto} className={styles.contactSubmit}>{t(T.sendMail)} →</a><a href={whatsapp} className={styles.contactSubmit} target="_blank" rel="noreferrer">{t(T.sendWa)} ↗</a></div>
+        <p className={styles.contactConsent}>{t(T.consent)}</p>
+      </div>}
     </form>
   );
 }

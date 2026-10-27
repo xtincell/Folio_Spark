@@ -137,7 +137,7 @@ export function StudioHome() {
                   <Arrow />
                 </a>
                 <Link href="/work" className={s.secondary}>
-                  {L("Tous les projets", "All projects")} <Arrow diagonal />
+                  {L("Voir les projets", "View projects")} <Arrow diagonal />
                 </Link>
               </div>
             </div>

@@ -42,8 +42,8 @@ const CLAUSES: Clause[] = [
     h: { fr: '2 · Prix & devises', en: '2 · Prices & currencies' },
     body: [
       {
-        fr: 'La page Travailler ensemble présente les modes de collaboration. Le devis fixe le prix de la mission et la devise de facturation.',
-        en: 'The Working together page introduces ways to collaborate. The quote sets the engagement price and billing currency.',
+        fr: 'La page Tarifs & prestations présente des budgets de départ indicatifs. Le devis fixe le prix de la mission et la devise de facturation.',
+        en: 'The Pricing & services page presents indicative starting budgets. The quote sets the engagement price and billing currency.',
       },
     ],
   },

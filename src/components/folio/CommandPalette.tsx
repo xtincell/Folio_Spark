@@ -81,8 +81,8 @@ export function CommandPalette() {
         id: "upg",
         group: p.groupNav,
         label: p.upgraders,
-        hint: "powerupgraders.com ↗",
-        run: ext("https://powerupgraders.com"),
+        hint: "/upgraders",
+        run: go("/upgraders"),
       },
       {
         id: "regard",

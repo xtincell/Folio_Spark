@@ -1,5 +1,5 @@
 'use client';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { motion, useReducedMotion } from 'motion/react';
 import {
@@ -20,6 +20,34 @@ export function WorkClient() {
   const [view, setView] = useState<'selection' | 'all'>('selection');
   const [filter, setFilter] = useState<CaseHat | 'all'>('all');
   const [query, setQuery] = useState('');
+  const viewsRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const restore = () => {
+      const params = new URLSearchParams(window.location.search);
+      setView(params.get('vue') === 'index' ? 'all' : 'selection');
+      const hat = params.get('pratique');
+      setFilter(hat === 'strategy' || hat === 'art' || hat === 'execution' ? hat : 'all');
+      setQuery(params.get('q') || '');
+    };
+    restore();
+    window.addEventListener('popstate', restore);
+    return () => window.removeEventListener('popstate', restore);
+  }, []);
+  function remember(nextView: 'selection' | 'all', nextFilter = filter, nextQuery = query) {
+    const params = new URLSearchParams();
+    if (nextView === 'all') {
+      params.set('vue', 'index');
+      if (nextFilter !== 'all') params.set('pratique', nextFilter);
+      if (nextQuery) params.set('q', nextQuery);
+    }
+    const search = params.toString();
+    window.history.replaceState(window.history.state, '', `/work${search ? `?${search}` : ''}`);
+  }
+  function chooseView(next: 'selection' | 'all', scroll = false) {
+    setView(next);
+    remember(next);
+    if (scroll) viewsRef.current?.scrollIntoView({ block: 'start' });
+  }
   const reduce = useReducedMotion();
   const projects = CASE_STUDIES.filter((p) => !p.hidden);
   const shown = useMemo(
@@ -66,11 +94,11 @@ export function WorkClient() {
           </div>
         </div>
       </header>
-      <nav className={e.views} aria-label={L('Choisir le parcours des projets', 'Choose a way to explore')}>
-        <button type="button" aria-pressed={view === 'selection'} onClick={() => setView('selection')}>
+      <nav ref={viewsRef} className={e.views} aria-label={L('Choisir le parcours des projets', 'Choose a way to explore')}>
+        <button type="button" aria-pressed={view === 'selection'} onClick={() => chooseView('selection')}>
           {L('La sélection', 'Selected work')} <sup>{selected.length}</sup>
         </button>
-        <button type="button" aria-pressed={view === 'all'} onClick={() => setView('all')}>
+        <button type="button" aria-pressed={view === 'all'} onClick={() => chooseView('all')}>
           {L('Tous les projets', 'All projects')} <sup>{projects.length}</sup>
         </button>
       </nav>
@@ -85,7 +113,7 @@ export function WorkClient() {
               </article>
             ))}
           </div>
-          <button className={s.textLink} type="button" onClick={() => setView('all')}>
+          <button className={s.textLink} type="button" onClick={() => chooseView('all', true)}>
             {L('Ouvrir l’index complet', 'Open the full index')} <span>{projects.length}</span> <Arrow />
           </button>
         </section>
@@ -101,7 +129,7 @@ export function WorkClient() {
               type="button"
               key={key}
               aria-pressed={filter === key}
-              onClick={() => setFilter(key)}
+              onClick={() => { setFilter(key); remember('all', key); }}
             >
               {key === 'all'
                 ? L('Tout voir', 'All work')
@@ -128,7 +156,7 @@ export function WorkClient() {
           <input
             type="search"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => { setQuery(e.target.value); remember('all', filter, e.target.value); }}
             placeholder={L('Rechercher un projet', 'Search projects')}
             aria-label={L('Rechercher un projet', 'Search projects')}
           />
@@ -169,6 +197,7 @@ export function WorkClient() {
               onClick={() => {
                 setQuery('');
                 setFilter('all');
+                remember('all', 'all', '');
               }}
               type="button"
             >

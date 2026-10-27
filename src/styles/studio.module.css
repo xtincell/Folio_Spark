@@ -2997,3 +2997,35 @@
 @media (min-width: 1101px) and (max-width: 1390px) {
   .headerDescriptor { display: none; }
 }
+
+/* Site-wide review: keep the images ahead of oversized page furniture. */
+.mobilePricing { display: none; }
+.pageHead { padding-block: 40px 28px; }
+.pageHead h1 { font-size: clamp(54px, 6.3vw, 96px); }
+.pageIntro { margin-top: 24px; }
+.filterBar { padding-block: 14px; }
+.filters button { min-height: 44px; }
+.language, .menuToggle { min-width: 44px; min-height: 44px; justify-content: center; }
+.menuPanel { top: calc(100% - 1px); max-height: calc(100dvh - 105px); }
+.headerContact { white-space: nowrap; }
+.desktopNav { gap: 24px; }
+@media (max-width: 1500px) { .headerDescriptor { display: none; } }
+@media (max-width: 950px) {
+  .desktopNav { display: none; }
+  .headerActions { margin-left: auto; }
+  .headerContact { display: none; }
+  .mobilePricing { display: inline-flex; align-items: center; min-height: 44px; padding-inline: 4px; font-size: 12px; }
+  .mobilePricing[aria-current] { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 6px; }
+}
+@media (max-width: 760px) {
+  .pageHead { padding-block: 30px 24px; }
+  .pageHead h1 { font-size: clamp(47px, 10vw, 70px); }
+  .headerActions { gap: 6px; }
+  .menuPanel { top: calc(100% - 1px); max-height: calc(100dvh - 94px); }
+}
+@media (max-width: 360px) {
+  .brand { font-size: 29px; gap: 5px; }
+  .brand svg { width: 24px; height: 24px; }
+  .header, .header.headerOverlay { gap: 8px; padding-inline: 16px; }
+  .headerActions { gap: 0; }
+}

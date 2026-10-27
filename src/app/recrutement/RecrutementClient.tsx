@@ -154,8 +154,7 @@ export function RecrutementClient() {
   return (
     <div className={`${styles.folioRoot} ${pageStudio.root}`}>
       <FolioTopbar active="recrutement" label="RECRUTEMENT" />
-      <PageIndex items={[{ id: 'profil', fr: 'Profil', en: 'Profile' }, { id: 'campagnes', fr: 'Campagnes', en: 'Campaigns' }, { id: 'competences', fr: 'Compétences', en: 'Skills' }, { id: 'parcours', fr: 'Parcours', en: 'Experience' }, { id: 'coordonnees', fr: 'Coordonnées', en: 'Contact' }]} />
-      <main id="contenu">
+      <main id="contenu" lang="fr">
 
       {/* ══ HERO ══ */}
       <section className={styles.hero} id="profil">
@@ -205,6 +204,7 @@ export function RecrutementClient() {
           </div>
         </div>
       </section>
+      <PageIndex items={[{ id: 'profil', fr: 'Profil', en: 'Profile' }, { id: 'campagnes', fr: 'Campagnes', en: 'Campaigns' }, { id: 'competences', fr: 'Compétences', en: 'Skills' }, { id: 'parcours', fr: 'Parcours', en: 'Experience' }, { id: 'coordonnees', fr: 'Coordonnées', en: 'Contact' }]} />
 
       {/* ══ MARCHÉ IVOIRIEN ══ */}
       <section className={styles.section} id="cote-divoire">

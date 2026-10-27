@@ -273,3 +273,10 @@
 @media(min-width:900px) { .cvHead { grid-template-columns: 1.25fr 1fr; } .section { grid-template-columns: minmax(180px, .45fr) 1.55fr; } }
 @media(max-width:760px) { .page { padding: 40px 5vw 55px; } .cvMeta { padding: 20px; } .section { padding-top: 42px; } .cvName { font-size: 15vw; } .cvDownloads { margin-bottom: 24px; } .sectionHead :global(.title) { font-size: 32px; } }
 @media print { .page { padding: 0; } .cvMeta,.skillBlock { background: none; border-color: #aaa; } }
+
+@media (max-width: 760px) {
+  .cvMeta { grid-template-columns: 80px minmax(0, 1fr); gap: 11px 12px; letter-spacing: 0; font-size: 11px; }
+  .cvMeta dt { letter-spacing: .05em; font-size: 9px; }
+  .cvMeta dd { min-width: 0; overflow-wrap: anywhere; }
+  .cvMeta dd a { white-space: nowrap; }
+}

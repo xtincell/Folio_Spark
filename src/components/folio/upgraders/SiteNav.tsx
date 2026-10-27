@@ -18,15 +18,16 @@ const BACK: Bi = { fr: 'Folio Xtincell', en: 'Xtincell folio' };
 const BRAND_SUB: Bi = { fr: 'conseil & stratégie', en: 'consulting & strategy' };
 
 export function SiteNav({ active }: Props) {
-  const { lang } = useLang();
+  const { lang, toggle } = useLang();
   return (
-    <nav className={styles.topnav}>
+    <nav className={styles.topnav} aria-label={lang === 'fr' ? 'Navigation UPgraders' : 'UPgraders navigation'}>
       <div className={styles.container}>
         <div className={styles.topnavRow}>
           <Link className={styles.topnavBack} href="/">
             <span className="arrow">←</span>
             <span>{pick(BACK, lang)}</span>
           </Link>
+          <button className={styles.langToggle} type="button" onClick={toggle} aria-label={lang === 'fr' ? 'Switch to English' : 'Passer en français'}>{lang.toUpperCase()}</button>
           <div className={styles.topnavLinks}>
             {ITEMS.map((it) => (
               <Link
