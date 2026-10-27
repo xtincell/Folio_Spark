@@ -49,33 +49,47 @@
 .currency { display: flex; flex-shrink: 0; border: 1px solid var(--line); }
 .currency button { min-height: 46px; min-width: 74px; padding: 10px 15px; border: 0; background: none; color: var(--muted); font-size: 13px; cursor: pointer; }
 .currency button[aria-pressed=true] { background: var(--ink); color: var(--paper); }
-.serviceGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); }
-.service { display: flex; flex-direction: column; padding: 28px 24px 30px; border-bottom: 1px solid var(--line); min-width: 0; }
-.service:not(:nth-child(3n+1)) { border-left: 1px solid var(--line); }
+.serviceGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.service { --offer-ink: var(--ink); --offer-muted: var(--muted); --offer-line: var(--line); --offer-accent: var(--orange); display: flex; flex-direction: column; padding: 20px 20px 26px; border: 1px solid var(--offer-line); min-width: 0; color: var(--offer-ink); background: var(--paper); transition: background-color .22s ease, color .22s ease, border-color .22s ease; }
+.service:nth-child(even) { background: color-mix(in srgb, var(--ink) 4%, var(--paper)); }
+.service:focus-within { --offer-ink: var(--paper); --offer-muted: var(--paper); --offer-line: color-mix(in srgb, var(--paper) 38%, var(--orange)); --offer-accent: var(--paper); background: var(--orange); }
+@media (hover: hover) and (pointer: fine) {
+  .service:hover { --offer-ink: var(--paper); --offer-muted: var(--paper); --offer-line: color-mix(in srgb, var(--paper) 38%, var(--orange)); --offer-accent: var(--paper); background: var(--orange); }
+}
 .serviceFigure { margin: 0 0 24px; }
-.serviceVisual { display: block; position: relative; width: 100%; aspect-ratio: 8 / 5; overflow: hidden; background: var(--paper); border: 1px solid var(--line); }
-.serviceVisual img { object-fit: cover; }
-.serviceVisual.serviceContain img { object-fit: contain; }
-.serviceVisual video { width: 100%; height: 100%; object-fit: contain; display: block; }
-.serviceDiagram { color: var(--ink); }
-.serviceDiagram svg { width: 100%; height: 100%; font-family: var(--folio-grotesk), Arial, sans-serif; }
-.serviceFigure figcaption { color: var(--muted); font-size: 11px; line-height: 1.6; margin-top: 10px; min-height: 36px; }
+.serviceVisual { display: block; position: relative; width: 100%; aspect-ratio: 8 / 5; overflow: hidden; background: #fff; border: 0; }
+.serviceVisual img { object-fit: contain; }
+.serviceFigure figcaption { color: var(--offer-muted); font-size: 11px; line-height: 1.6; margin-top: 10px; min-height: 36px; }
+.serviceFilm { position: relative; aspect-ratio: 8 / 5; }
+.serviceFilm summary { list-style: none; cursor: pointer; }
+.serviceFilm summary::-webkit-details-marker { display: none; }
+.filmPrompt { position: absolute; bottom: 10px; right: 10px; display: inline-flex; align-items: center; gap: 12px; padding: 9px 12px; background: var(--paper); color: var(--ink); font-size: 11px; }
+.filmOpenOnly { display: none; }
+.serviceFilm[open] summary { position: absolute; z-index: 2; top: 8px; right: 8px; width: auto; aspect-ratio: auto; background: none; overflow: visible; }
+.serviceFilm[open] summary > img { display: none; }
+.serviceFilm[open] .filmPrompt { position: static; min-height: 44px; }
+.serviceFilm[open] .filmClosedOnly { display: none; }
+.serviceFilm[open] .filmOpenOnly { display: inline; }
+.servicePlayer { background: var(--paper); aspect-ratio: 8 / 5; }
+.servicePlayer video { width: 100%; height: 100%; object-fit: contain; display: block; }
 .serviceTitle { display: flex; align-items: baseline; gap: 12px; }
-.serviceTitle .number { flex-shrink: 0; }
+.serviceTitle .number { flex-shrink: 0; color: var(--offer-accent); }
 .service h3 { font: 400 32px/1.1 var(--folio-serif), Georgia, serif; margin: 0; }
-.serviceScope { color: var(--muted); font-size: 14px; line-height: 1.75; margin-block: 18px 24px; min-height: 7em; }
+.serviceScope { color: var(--offer-muted); font-size: 14px; line-height: 1.75; margin-block: 18px 24px; min-height: 7em; }
 .price { display: flex; flex-direction: column; gap: 6px; margin: 0; }
-.price > span { color: var(--muted); font-size: 12px; }
+.price > span { color: var(--offer-muted); font-size: 12px; }
 .price strong { font-weight: 400; font-size: clamp(24px, 2.6vw, 36px); line-height: 1.2; font-variant-numeric: tabular-nums; letter-spacing: -.03em; }
 .deliverables { margin-top: 26px; }
 .service :is(h4) { font-size: 13px; font-weight: 500; line-height: 1.6; margin: 0 0 12px; }
 .deliverables ul { margin: 0; padding-left: 17px; font-size: 13px; line-height: 1.75; }
 .deliverables li { padding-left: 3px; margin-bottom: 9px; }
-.deliverables li::marker { color: var(--orange); }
-.serviceQuote { border-top: 1px solid var(--line); padding-top: 18px; margin-block: 18px 24px; }
+.deliverables li::marker { color: var(--offer-accent); }
+.serviceQuote { border-top: 1px solid var(--offer-line); padding-top: 18px; margin-block: 18px 24px; }
 .serviceQuote h4 { margin-bottom: 8px; }
-.serviceQuote p { color: var(--muted); font-size: 12px; line-height: 1.75; margin: 0; }
-.service .caseLink { margin-top: auto; align-self: start; }
+.serviceQuote p { color: var(--offer-muted); font-size: 12px; line-height: 1.75; margin: 0; }
+.service .caseLink { margin-top: auto; align-self: start; color: var(--offer-ink); border-color: var(--offer-line); min-height: 44px; padding-block: 10px; }
+.page .service :where(a,summary):focus-visible { outline-color: var(--offer-ink); }
+@media (prefers-reduced-motion: reduce) { .service { transition: none; } }
 .currencyNote { font-size: 12px; line-height: 1.7; color: var(--muted); margin-top: 20px; max-width: 85ch; }
 .recurring { display: grid; grid-template-columns: 1fr 1.2fr auto; align-items: baseline; gap: 32px; border-block: 1px solid var(--line); margin-top: 40px; padding-block: 28px; }
 .recurring h3 { font: 400 28px/1.2 var(--folio-serif), Georgia, serif; }
@@ -87,8 +101,6 @@
 .field input::placeholder { color: var(--muted); }
 @media (max-width: 1000px) {
   .serviceGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .service:not(:nth-child(3n+1)) { border-left: 0; }
-  .service:nth-child(even) { border-left: 1px solid var(--line); }
   .recurring { grid-template-columns: 1fr 1fr; gap: 20px; }
   .recurring .caseLink { grid-column: 2; justify-self: start; }
 }
@@ -96,7 +108,8 @@
   .pricing { padding: 32px 22px 48px; }
   .pricingTop { align-items: start; flex-direction: column; gap: 18px; }
   .serviceGrid { grid-template-columns: 1fr; }
-  .service, .service:nth-child(even) { padding: 26px 0; border-left: 0; }
+  .serviceGrid { gap: 20px; }
+  .service { padding: 16px 16px 22px; }
   .service h3 { font-size: 31px; }
   .serviceScope { margin-block: 14px 20px; min-height: 0; }
   .price strong { font-size: 34px; }
