@@ -38,3 +38,6 @@ Premier essai du film : le lecteur s'ajoutait sous le mockup et décalait le tit
 Petits écrans : vrais cadres CSS de 390 et 320 px, six cartes et leurs éléments mesurés, aucun débordement ; premières cartes inspectées visuellement. Il ne s'agit pas d'un essai tactile sur appareil. Sur pointeur sans survol, la séparation des cartes et l'alternance neutre persistent ; l'information n'exige aucun survol. Les animations de couleur sont supprimées en préférence de mouvement réduit.
 
 Les montants et descriptions de prestation n'ont pas été modifiés. Aucun gain de conversion ou test avec des clients n'est revendiqué.
+
+
+Validation locale : compilation standalone des 67 routes réussie, contrôle du catalogue (221 médias), six exports WebP vérifiés, un H1 et six figures dans le HTML Tarifs, aucun identifiant dupliqué, `git diff --check` réussi. Lecture du film puis fermeture exercées : le lecteur est mis en pause. [Aperçu de l'état orange inspecté](qa/mockups-hover-preview.jpg).
