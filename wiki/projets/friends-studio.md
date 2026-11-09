@@ -15,6 +15,8 @@ etat: "ebauche"
 # Friends Studio — Studio photo premium
 
 <!-- wiki:infobox -->
+![Friends Studio — Studio photo premium](../../public/work/cases/friends-studio/hero.webp)
+
 | Friends Studio — Studio photo premium | |
 | --- | --- |
 | Client | [Friends Photography Studio](../organisations/friends-studio.md) |
@@ -31,6 +33,17 @@ etat: "ebauche"
 ## Contexte
 
 Communication marketing pour Friends Studio, studio photo premium à louer à Bonamoussadi (Douala) : flyers copy-driven, concept « facture du stress », promos et stories de présentation de l'espace.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/friends-studio/01.webp"><img src="../../public/work/cases/friends-studio/01.webp" alt="Friends Studio — Studio photo premium" width="240"></a>
+<a href="../../public/work/cases/friends-studio/02.webp"><img src="../../public/work/cases/friends-studio/02.webp" alt="Friends Studio — Studio photo premium" width="240"></a>
+<a href="../../public/work/cases/friends-studio/03.webp"><img src="../../public/work/cases/friends-studio/03.webp" alt="Friends Studio — Studio photo premium" width="240"></a>
+<a href="../../public/work/cases/friends-studio/04.webp"><img src="../../public/work/cases/friends-studio/04.webp" alt="Friends Studio — Studio photo premium" width="240"></a>
+<a href="../../public/work/cases/friends-studio/05.webp"><img src="../../public/work/cases/friends-studio/05.webp" alt="Friends Studio — Studio photo premium" width="240"></a>
+<a href="../../public/work/cases/friends-studio/06.webp"><img src="../../public/work/cases/friends-studio/06.webp" alt="Friends Studio — Studio photo premium" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

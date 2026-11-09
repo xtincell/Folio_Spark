@@ -15,6 +15,8 @@ etat: "standard"
 # Locko — showcase « Era » au BOJ
 
 <!-- wiki:infobox -->
+![Locko — showcase « Era » au BOJ](../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/01.webp)
+
 | Locko — showcase « Era » au BOJ | |
 | --- | --- |
 | Client | [LOCKO](../organisations/locko.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - Version livrée du showcase du 29/12/2021 : chant au micro devant le décor de paille, défilé des figurants, photos de groupe devant le sapin.
 - **Identification** : tee-shirts « ERA », enseigne néon du BOJ
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/02.webp" alt="Locko — showcase « Era » au BOJ" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/03.webp" alt="Locko — showcase « Era » au BOJ" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/04.webp" alt="Locko — showcase « Era » au BOJ" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/05.webp" alt="Locko — showcase « Era » au BOJ" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/06.webp" alt="Locko — showcase « Era » au BOJ" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

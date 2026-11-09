@@ -15,6 +15,8 @@ etat: "standard"
 # Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune
 
 <!-- wiki:infobox -->
+![Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune](../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/01.webp)
+
 | Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune | |
 | --- | --- |
 | Client | [Talk Paix (CFI)](../organisations/talk-paix-cfi.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 23-25/01/2024 : trajet de nuit en train, levers de soleil sur la savane, ville sous l'harmattan ; 26/01 : atelier en salle (porte-nom « Ousmaila Kitikil »), interventions devant la bâche de la Fondation Conseil Jeune et le roll-up Talk Paix ; 31/01 : retour de nuit.
 - **Identification** : roll-up « Talk Paix — Talk Peace » ; bâche « Fondation Conseil Jeune — Le Jeune au Cœur du Développement »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/02.webp" alt="Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/03.webp" alt="Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/04.webp" alt="Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/05.webp" alt="Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/06.webp" alt="Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

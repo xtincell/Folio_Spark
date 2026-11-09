@@ -16,6 +16,8 @@ etat: "standard"
 # Ecobank — 40 ans & ellever
 
 <!-- wiki:infobox -->
+![Ecobank — 40 ans & ellever](../../public/work/cases/ecobank/hero.webp)
+
 | Ecobank — 40 ans & ellever | |
 | --- | --- |
 | Client | [Ecobank](../organisations/ecobank.md) |
@@ -33,6 +35,14 @@ etat: "standard"
 ## Contexte
 
 Visuels de campagne pour la banque panafricaine Ecobank autour de son 40e anniversaire, de l'offre banque des particuliers et du programme femmes « ellever ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/ecobank/01.webp"><img src="../../public/work/cases/ecobank/01.webp" alt="Ecobank — 40 ans & ellever" width="240"></a>
+<a href="../../public/work/cases/ecobank/02.webp"><img src="../../public/work/cases/ecobank/02.webp" alt="Ecobank — 40 ans & ellever" width="240"></a>
+<a href="../../public/work/cases/ecobank/03.webp"><img src="../../public/work/cases/ecobank/03.webp" alt="Ecobank — 40 ans & ellever" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

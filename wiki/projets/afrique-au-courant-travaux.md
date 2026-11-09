@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Afrique Au Courant — travaux
 
 <!-- wiki:infobox -->
+![Afrique Au Courant — travaux](../../public/medias-wiki/projets/afrique-au-courant-travaux/01.webp)
+
 | Afrique Au Courant — travaux | |
 | --- | --- |
 | Client | [Afrique Au Courant](../organisations/afrique-au-courant.md) |

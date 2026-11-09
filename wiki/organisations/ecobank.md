@@ -8,6 +8,8 @@ etat: "ebauche"
 # Ecobank
 
 <!-- wiki:infobox -->
+![Ecobank](../../public/work/cases/ecobank/hero.webp)
+
 | Ecobank | |
 | --- | --- |
 | Nature | Banque panafricaine |

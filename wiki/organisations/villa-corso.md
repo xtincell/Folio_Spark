@@ -8,6 +8,8 @@ etat: "ebauche"
 # Villa Corso
 
 <!-- wiki:infobox -->
+![Villa Corso](../../public/work/cases/villa-corso/hero.webp)
+
 | Villa Corso | |
 | --- | --- |
 | Nature | À préciser |

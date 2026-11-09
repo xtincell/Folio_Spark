@@ -9,6 +9,8 @@ etat: "ebauche"
 # LION DEN
 
 <!-- wiki:infobox -->
+![LION DEN](../../public/medias-wiki/projets/lion-den-travaux/01.webp)
+
 | LION DEN | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,13 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023.md"><img src="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/01.webp" alt="Match Cameroun–Namibie (éliminatoires CAN 2023)" width="240"></a>
+<a href="../projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites.md"><img src="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/01.webp" alt="Voyage Lion Den à Garoua — Cameroun–Burundi et visites" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

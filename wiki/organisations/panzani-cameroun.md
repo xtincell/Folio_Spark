@@ -9,6 +9,8 @@ etat: "ebauche"
 # Panzani Cameroun
 
 <!-- wiki:infobox -->
+![Panzani Cameroun](../../public/work/cases/lapasta/hero.webp)
+
 | Panzani Cameroun | |
 | --- | --- |
 | Nature | Agroalimentaire |

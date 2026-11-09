@@ -15,6 +15,8 @@ etat: "standard"
 # Douala Art Fair
 
 <!-- wiki:infobox -->
+![Douala Art Fair](../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/01.webp)
+
 | Douala Art Fair | |
 | --- | --- |
 | Client | [Douala Art Fair](../organisations/douala-art-fair.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 03-06/11/2022 : photocall (logos OA, Institut français, ambassade de France), conférence devant les toiles, tables rondes.
 - **Identification** : photocall Douala Art Fair, OA, Institut français, Ambassade de France au Cameroun, Douala Grand Mall, Soundz ; aucune trace en ligne de l'édition 2022 trouvée
 - **Fiabilité** : confirmé / confirmé (photocall)
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/02.webp" alt="Douala Art Fair" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/03.webp" alt="Douala Art Fair" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/04.webp" alt="Douala Art Fair" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/05.webp" alt="Douala Art Fair" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/06.webp" alt="Douala Art Fair" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

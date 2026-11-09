@@ -15,6 +15,8 @@ etat: "standard"
 # Journée mondiale du blog — talk et soirée
 
 <!-- wiki:infobox -->
+![Journée mondiale du blog — talk et soirée](../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/01.webp)
+
 | Journée mondiale du blog — talk et soirée | |
 | --- | --- |
 | Client | [Voilà Moi](../organisations/voila-moi.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Talk sur fauteuils jaunes devant les roll-ups Voilà Moi et MTN, régie, puis soirée de remise de prix (Grant's) devant un photocall de sponsors.
 - **Identification** : écran « Journée mondiale du blog — 31 août » ; roll-ups Voilà Moi, MTN ; photocall Grant's, MTN, Douala Grand Mall ; le dossier Atome (exports retouchés, 381 JPG récupérés de found.000) porte les mêmes numéros de fichiers (_MG_0725-1743) : même prise de vue, laissée chez les deux
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/02.webp" alt="Journée mondiale du blog — talk et soirée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/03.webp" alt="Journée mondiale du blog — talk et soirée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/04.webp" alt="Journée mondiale du blog — talk et soirée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/05.webp" alt="Journée mondiale du blog — talk et soirée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/06.webp" alt="Journée mondiale du blog — talk et soirée" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

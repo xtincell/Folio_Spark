@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # FUL — travaux
 
 <!-- wiki:infobox -->
+![FUL — travaux](../../public/medias-wiki/projets/ful-travaux/01.webp)
+
 | FUL — travaux | |
 | --- | --- |
 | Client | [FUL](../organisations/ful.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [FUL](../organisations/ful.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/ful-travaux/02.webp"><img src="../../public/medias-wiki/projets/ful-travaux/02.webp" alt="FUL — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ful-travaux/03.webp"><img src="../../public/medias-wiki/projets/ful-travaux/03.webp" alt="FUL — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ful-travaux/04.webp"><img src="../../public/medias-wiki/projets/ful-travaux/04.webp" alt="FUL — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ful-travaux/05.webp"><img src="../../public/medias-wiki/projets/ful-travaux/05.webp" alt="FUL — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ful-travaux/06.webp"><img src="../../public/medias-wiki/projets/ful-travaux/06.webp" alt="FUL — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

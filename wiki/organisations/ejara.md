@@ -9,6 +9,8 @@ etat: "ebauche"
 # EJARA
 
 <!-- wiki:infobox -->
+![EJARA](../../public/medias-wiki/projets/ejara-travaux/01.webp)
+
 | EJARA | |
 | --- | --- |
 | Nature | À préciser |

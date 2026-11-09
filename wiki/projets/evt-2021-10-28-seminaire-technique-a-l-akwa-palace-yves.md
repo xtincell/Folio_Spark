@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : lieu confirmé, organisate
 # Séminaire technique à l'Akwa Palace (« Yves »)
 
 <!-- wiki:infobox -->
+![Séminaire technique à l'Akwa Palace (« Yves »)](../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/01.webp)
+
 | Séminaire technique à l'Akwa Palace (« Yves ») | |
 | --- | --- |
 | Période | 28 octobre 2021 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : lieu confirmé, organisate
 - **Ce que montrent les images** : 28/10/2021 vers midi : présentation au tableau de plans de type aéronautique, participants en table en U, pause-café.
 - **Identification** : chemise « Akwa Palace Douala — Feel of luxury » sur la table
 - **Fiabilité** : lieu confirmé, organisateur inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/02.webp" alt="Séminaire technique à l'Akwa Palace (« Yves »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/03.webp" alt="Séminaire technique à l'Akwa Palace (« Yves »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/04.webp" alt="Séminaire technique à l'Akwa Palace (« Yves »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/05.webp" alt="Séminaire technique à l'Akwa Palace (« Yves »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves/06.webp" alt="Séminaire technique à l'Akwa Palace (« Yves »)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

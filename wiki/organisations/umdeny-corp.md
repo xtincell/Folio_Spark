@@ -9,6 +9,8 @@ etat: "ebauche"
 # Umdeny Corp
 
 <!-- wiki:infobox -->
+![Umdeny Corp](../../public/medias-wiki/projets/umdeny-corp-travaux/01.webp)
+
 | Umdeny Corp | |
 | --- | --- |
 | Nature | À préciser |

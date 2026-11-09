@@ -15,6 +15,8 @@ etat: "ebauche"
 # Goodlocs — Soin des locs « ife »
 
 <!-- wiki:infobox -->
+![Goodlocs — Soin des locs « ife »](../../public/work/cases/goodlocs/hero.webp)
+
 | Goodlocs — Soin des locs « ife » | |
 | --- | --- |
 | Client | [Goodlocs](../organisations/goodlocs.md) |
@@ -31,6 +33,16 @@ etat: "ebauche"
 ## Contexte
 
 Branding et visuels produit pour la marque de soins capillaires (locs) Goodlocs et sa ligne « ife », du packshot de gamme aux promos social noir & or.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/goodlocs/01.webp"><img src="../../public/work/cases/goodlocs/01.webp" alt="Goodlocs — Soin des locs « ife »" width="240"></a>
+<a href="../../public/work/cases/goodlocs/02.webp"><img src="../../public/work/cases/goodlocs/02.webp" alt="Goodlocs — Soin des locs « ife »" width="240"></a>
+<a href="../../public/work/cases/goodlocs/03.webp"><img src="../../public/work/cases/goodlocs/03.webp" alt="Goodlocs — Soin des locs « ife »" width="240"></a>
+<a href="../../public/work/cases/goodlocs/04.webp"><img src="../../public/work/cases/goodlocs/04.webp" alt="Goodlocs — Soin des locs « ife »" width="240"></a>
+<a href="../../public/work/cases/goodlocs/05.webp"><img src="../../public/work/cases/goodlocs/05.webp" alt="Goodlocs — Soin des locs « ife »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

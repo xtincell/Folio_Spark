@@ -16,6 +16,8 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 # CanalOlympia — programmation de fin d'année 2021
 
 <!-- wiki:infobox -->
+![CanalOlympia — programmation de fin d'année 2021](../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/01.webp)
+
 | CanalOlympia — programmation de fin d'année 2021 | |
 | --- | --- |
 | Client | [CanalOlympia (Canal+)](../organisations/canalolympia-canal.md) |
@@ -38,6 +40,16 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 - **Ce que montrent les images** : 22/12/2021 : « Challenge vacances » et arbre de Noël ; 25/12 : concert gospel de Dena Mwana ; 27/12 : décor de paille ; 02/01/2022 : concert du Nouvel An avec danseuses.
 - **Identification** : écran « Challenge vacances » ; enseigne CanalOlympia ; même concert de Noël que le dossier Dena Mwana de C:
 - **Fiabilité** : déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/02.webp" alt="CanalOlympia — programmation de fin d'année 2021" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/03.webp" alt="CanalOlympia — programmation de fin d'année 2021" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/04.webp" alt="CanalOlympia — programmation de fin d'année 2021" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/05.webp" alt="CanalOlympia — programmation de fin d'année 2021" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/06.webp" alt="CanalOlympia — programmation de fin d'année 2021" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

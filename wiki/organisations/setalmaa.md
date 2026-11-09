@@ -9,6 +9,8 @@ etat: "ebauche"
 # Setalmaa
 
 <!-- wiki:infobox -->
+![Setalmaa](../../public/medias-wiki/projets/setalmaa-travaux/01.webp)
+
 | Setalmaa | |
 | --- | --- |
 | Nature | À préciser |

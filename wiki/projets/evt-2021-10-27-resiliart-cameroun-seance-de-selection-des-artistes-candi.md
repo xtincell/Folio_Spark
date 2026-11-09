@@ -15,6 +15,8 @@ etat: "standard"
 # ResiliArt Cameroun — séance de sélection des artistes candidats
 
 <!-- wiki:infobox -->
+![ResiliArt Cameroun — séance de sélection des artistes candidats](../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/01.webp)
+
 | ResiliArt Cameroun — séance de sélection des artistes candidats | |
 | --- | --- |
 | Client | [UNESCO](../organisations/unesco.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Prestations des candidats avec orchestre, jury et invités en salle, photo de groupe finale devant le roll-up ResiliArt.
 - **Identification** : bâche « Sélection des artistes candidats… restaurant bar lounge « Le BOJ », Douala » ; logos UNESCO et Sparkassenstiftung ; roll-up ResiliArt ; l'UNESCO date la sélection finale du 27/10/2021
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/02.webp" alt="ResiliArt Cameroun — séance de sélection des artistes candidats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/03.webp" alt="ResiliArt Cameroun — séance de sélection des artistes candidats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/04.webp" alt="ResiliArt Cameroun — séance de sélection des artistes candidats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/05.webp" alt="ResiliArt Cameroun — séance de sélection des artistes candidats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/06.webp" alt="ResiliArt Cameroun — séance de sélection des artistes candidats" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

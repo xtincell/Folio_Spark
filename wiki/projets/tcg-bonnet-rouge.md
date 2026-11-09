@@ -16,6 +16,8 @@ etat: "standard"
 # Bonnet Rouge — « Puissance Lactée » (TCG)
 
 <!-- wiki:infobox -->
+![Bonnet Rouge — « Puissance Lactée » (TCG)](../../public/work/cases/tcg-bonnet-rouge/hero.webp)
+
 | Bonnet Rouge — « Puissance Lactée » (TCG) | |
 | --- | --- |
 | Client | [FrieslandCampina](../organisations/frieslandcampina.md) |
@@ -33,6 +35,18 @@ etat: "standard"
 ## Contexte
 
 Jeu de cartes de marque « Puissance Lactée » comme merchandising pour le lait Bonnet Rouge : deck illustré à bordures pagne rouge mettant en scène des scènes de vie camerounaises et la boîte de lait, plus boîte produit et règles.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/tcg-bonnet-rouge/01.webp"><img src="../../public/work/cases/tcg-bonnet-rouge/01.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<a href="../../public/work/cases/tcg-bonnet-rouge/02.webp"><img src="../../public/work/cases/tcg-bonnet-rouge/02.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<a href="../../public/work/cases/tcg-bonnet-rouge/03.webp"><img src="../../public/work/cases/tcg-bonnet-rouge/03.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<a href="../../public/work/cases/tcg-bonnet-rouge/04.webp"><img src="../../public/work/cases/tcg-bonnet-rouge/04.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<a href="../../public/work/cases/tcg-bonnet-rouge/05.webp"><img src="../../public/work/cases/tcg-bonnet-rouge/05.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<a href="../../public/work/cases/tcg-bonnet-rouge/06.webp"><img src="../../public/work/cases/tcg-bonnet-rouge/06.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<a href="../../public/work/cases/tcg-bonnet-rouge/07.webp"><img src="../../public/work/cases/tcg-bonnet-rouge/07.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -16,6 +16,8 @@ etat: "standard"
 # Robuste — Packaging aliments
 
 <!-- wiki:infobox -->
+![Robuste — Packaging aliments](../../public/work/cases/robuste-packaging/hero.webp)
+
 | Robuste — Packaging aliments | |
 | --- | --- |
 | Client | [Groupe Cadyst](../organisations/groupe-cadyst.md) |
@@ -33,6 +35,17 @@ etat: "standard"
 ## Contexte
 
 Design de packaging pour les aliments pour bétail « Robuste » (Cadyst Farming) : sacs tissés 50 kg (lapin, volaille, bétail, porc) en jaune/noir à pictos animaux, étiquettes plates et mockups 3D photoréalistes en grange.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/robuste-packaging/01.webp"><img src="../../public/work/cases/robuste-packaging/01.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<a href="../../public/work/cases/robuste-packaging/02.webp"><img src="../../public/work/cases/robuste-packaging/02.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<a href="../../public/work/cases/robuste-packaging/03.webp"><img src="../../public/work/cases/robuste-packaging/03.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<a href="../../public/work/cases/robuste-packaging/04.webp"><img src="../../public/work/cases/robuste-packaging/04.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<a href="../../public/work/cases/robuste-packaging/05.webp"><img src="../../public/work/cases/robuste-packaging/05.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<a href="../../public/work/cases/robuste-packaging/06.webp"><img src="../../public/work/cases/robuste-packaging/06.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

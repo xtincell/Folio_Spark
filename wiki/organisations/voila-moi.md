@@ -9,6 +9,8 @@ etat: "ebauche"
 # Voilà Moi
 
 <!-- wiki:infobox -->
+![Voilà Moi](../../public/medias-wiki/projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree/01.webp)
+
 | Voilà Moi | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/voila-moi-travaux.md"><img src="../../public/medias-wiki/projets/voila-moi-travaux/01.webp" alt="Voilà Moi — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

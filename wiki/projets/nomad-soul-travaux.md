@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Nomad Soul — travaux
 
 <!-- wiki:infobox -->
+![Nomad Soul — travaux](../../public/medias-wiki/projets/nomad-soul-travaux/01.webp)
+
 | Nomad Soul — travaux | |
 | --- | --- |
 | Client | [Nomad Soul](../organisations/nomad-soul.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Nomad Soul](../organisations/nomad-soul.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/nomad-soul-travaux/02.webp"><img src="../../public/medias-wiki/projets/nomad-soul-travaux/02.webp" alt="Nomad Soul — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/nomad-soul-travaux/03.webp"><img src="../../public/medias-wiki/projets/nomad-soul-travaux/03.webp" alt="Nomad Soul — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/nomad-soul-travaux/04.webp"><img src="../../public/medias-wiki/projets/nomad-soul-travaux/04.webp" alt="Nomad Soul — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/nomad-soul-travaux/05.webp"><img src="../../public/medias-wiki/projets/nomad-soul-travaux/05.webp" alt="Nomad Soul — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/nomad-soul-travaux/06.webp"><img src="../../public/medias-wiki/projets/nomad-soul-travaux/06.webp" alt="Nomad Soul — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

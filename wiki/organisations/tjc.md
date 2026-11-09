@@ -9,6 +9,8 @@ etat: "ebauche"
 # TJC
 
 <!-- wiki:infobox -->
+![TJC](../../public/medias-wiki/projets/tjc-travaux/01.webp)
+
 | TJC | |
 | --- | --- |
 | Nature | À préciser |

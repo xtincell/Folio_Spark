@@ -9,6 +9,8 @@ etat: "ebauche"
 # FECIAC
 
 <!-- wiki:infobox -->
+![FECIAC](../../public/medias-wiki/projets/feciac-travaux/01.webp)
+
 | FECIAC | |
 | --- | --- |
 | Nature | À préciser |

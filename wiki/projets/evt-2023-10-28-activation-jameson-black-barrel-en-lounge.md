@@ -15,6 +15,8 @@ etat: "standard"
 # Activation Jameson Black Barrel en lounge
 
 <!-- wiki:infobox -->
+![Activation Jameson Black Barrel en lounge](../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/01.webp)
+
 | Activation Jameson Black Barrel en lounge | |
 | --- | --- |
 | Client | [Timing Agency](../organisations/timing-agency.md) |
@@ -39,6 +41,16 @@ etat: "standard"
   - 28-29/10/2023 : RAW de la soirée décrite aux n° 39-40.
 - **Identification** : bouteilles et présentoirs « Jameson Black Barrel », tee-shirt du DJ ; dossier client Timing Agency
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/02.webp" alt="Activation Jameson Black Barrel en lounge" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/03.webp" alt="Activation Jameson Black Barrel en lounge" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/04.webp" alt="Activation Jameson Black Barrel en lounge" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/05.webp" alt="Activation Jameson Black Barrel en lounge" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/06.webp" alt="Activation Jameson Black Barrel en lounge" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

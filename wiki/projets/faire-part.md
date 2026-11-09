@@ -15,6 +15,8 @@ etat: "ebauche"
 # Faire-part — Suite mémorielle
 
 <!-- wiki:infobox -->
+![Faire-part — Suite mémorielle](../../public/work/cases/faire-part/hero.webp)
+
 | Faire-part — Suite mémorielle | |
 | --- | --- |
 | Client | Commande privée |
@@ -31,6 +33,12 @@ etat: "ebauche"
 ## Contexte
 
 Suite d'imprimés mémoriels (« In Loving Memory of Dr Ikito M.A ») en mockup : livrets programme, cartes de remerciement, roll-up et portrait encadré, or/crème, signature « L'Éternel est merveilleux ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/faire-part/01.webp"><img src="../../public/work/cases/faire-part/01.webp" alt="Faire-part — Suite mémorielle" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

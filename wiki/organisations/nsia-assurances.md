@@ -8,6 +8,8 @@ etat: "ebauche"
 # NSIA Assurances
 
 <!-- wiki:infobox -->
+![NSIA Assurances](../../public/work/cases/nsia/hero.webp)
+
 | NSIA Assurances | |
 | --- | --- |
 | Nature | Assurance |

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Stoneshed Asset Management
 
 <!-- wiki:infobox -->
+![Stoneshed Asset Management](../../public/medias-wiki/projets/stoneshed-asset-management-travaux/01.webp)
+
 | Stoneshed Asset Management | |
 | --- | --- |
 | Nature | À préciser |

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Drikito
 
 <!-- wiki:infobox -->
+![Drikito](../../public/medias-wiki/projets/drikito-travaux/01.webp)
+
 | Drikito | |
 | --- | --- |
 | Nature | À préciser |

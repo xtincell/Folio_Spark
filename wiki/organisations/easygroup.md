@@ -9,6 +9,8 @@ etat: "ebauche"
 # EasyGroup
 
 <!-- wiki:infobox -->
+![EasyGroup](../../public/medias-wiki/projets/easygroup-travaux/01.webp)
+
 | EasyGroup | |
 | --- | --- |
 | Nature | À préciser |

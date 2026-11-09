@@ -6,7 +6,7 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 
 ## 2008
 
-- **Parcours** · [Iftic-Sup](organisations/iftic-sup.md) — Ingénieur des Travaux — télécommunications & réseaux (2008–2013)
+- **Parcours** · [Iftic-Sup](organisations/iftic-sup.md) — Études en télécommunications et réseaux (2008–2013)
 
 ## 2009
 
@@ -15,40 +15,41 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 ## 2013
 
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025 · DOMAF — Conseil Camerounais de la Musique · Exécution · _hors folio_
-- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md) — 2013–2018 · Orange Cameroun · Exécution
-
-## 2014
-
-- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2014–2020 · Chococam · Exécution
+- [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020 · perso · Stratégie · _hors folio_
+- [Japanimes (association otaku)](projets/japanimes.md) — 2013 · perso · Exécution · _hors folio_
 
 ## 2015
 
+- **Parcours** · [Intelcia](organisations/intelcia.md) — À préciser (2015–2016)
 - [BlackNote Web](projets/blacknote-web.md) — 2015 · perso · Exécution · _hors folio_
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023 · Timing Agency · Exécution · _hors folio_
 
 ## 2016
 
-- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2016–2022 · Universal Music Africa · Direction créative & artistique
+- **Parcours** · [Sellkako](organisations/sellkako.md) — Lead Designer (2016)
+- [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016 · perso · Stratégie · _hors folio_
 
 ## 2017
 
-- **Parcours** · [UPgraders](organisations/upgraders.md) — Co-fondateur (2017) · Creative Group Head · CEO depuis 2023 (2017–…)
-- **Parcours** · [Will & Brothers (Sellkako)](organisations/will-and-brothers.md) — Business Developer · Lead Designer (2017–2019)
+- **Parcours** · [UPgraders](organisations/upgraders.md) — Co-fondateur (2017) · Creative Group Head · Directeur général depuis 2022 ou 2023 (2017–…)
 
 ## 2018
 
-- **Parcours** · [Studio Graphique 44](organisations/studio44.md) — Creative Business Consultant (2018)
+- **Parcours** · [Studio Graphique 44](organisations/studio44.md) — Brand Strategist (2018)
+- **Parcours** · [Will & Brothers Consulting](organisations/will-and-brothers.md) — Business Developer (2018)
 - [Créapreneur (podcast)](projets/creapreneur-podcast.md) — 2018–2021 · perso · Stratégie · _hors folio_
 - [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018 · Groupe Cible (Cible RH) · Exécution · _hors folio_
+- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2018 · Studio Graphique 44 · Stratégie
 
 ## 2019
 
-- **Parcours** · [Bimstr Agency](organisations/bimstr.md) — Directeur artistique assistant & graphiste (2019–2021)
-- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2019–2022 · Motion19 · Stratégie
+- **Parcours** · [Bimstr Agency](organisations/bimstr.md) — Directeur artistique assistant · Lead Designer (2019–2021)
 
 ## 2020
 
+- **Parcours** · [Friends Photography Studio](organisations/friends-studio.md) — Responsable du développement d'activité (2020–…)
 - [Afritube (Ramounam) — travaux](projets/afritube-ramounam-travaux.md) — 2020 · Afritube (Ramounam) · Exécution · _hors folio_
+- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2020–2023 · Chococam · Exécution
 - [Concert de fin d'année en plein air (classé « TayC, décembre 2020 », déduit)](projets/evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md) — 2020 · Exécution · _hors folio_
 - [Cosmos Publishing — travaux](projets/cosmos-publishing-travaux.md) — 2020 · Cosmos Publishing · Direction créative & artistique · _hors folio_
 - [Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)](projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2.md) — 2020 · Kamer Otaku Festival (KOF) · Exécution · _hors folio_
@@ -106,6 +107,7 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 - [Mboa BD — travaux](projets/mboa-bd-travaux.md) — 2021 · Mboa BD · Exécution · _hors folio_
 - [Mimie — tournée promo du single « Faya »](projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya.md) — 2021 · Universal Music Africa · Exécution · _hors folio_
 - [Mimie x Nakuin — travaux](projets/mimie-x-nakuin-travaux.md) — 2021 · Mimie x Nakuin · Exécution · _hors folio_
+- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2021–2023 · Motion19 · Stratégie
 - [MTN Cameroon — travaux](projets/mtn-cameroon-travaux.md) — 2021–2025 · MTN Cameroon · Exécution · _hors folio_
 - [MTN HolidayZ / YoMo — soirée d'été en jardin](projets/evt-2021-08-19-mtn-holidayz-yomo-soiree-d-ete-en-jardin.md) — 2021 · MTN Cameroon · Exécution · _hors folio_
 - [ResiliArt Cameroun — séance de sélection des artistes candidats](projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi.md) — 2021 · UNESCO · Exécution · _hors folio_
@@ -124,6 +126,7 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 - [U'TAM Complexe — travaux](projets/u-tam-complexe-travaux.md) — 2021 · U'TAM Complexe · Exécution · _hors folio_
 - [Umdeny Corp — travaux](projets/umdeny-corp-travaux.md) — 2021 · Umdeny Corp · Exécution · _hors folio_
 - [UNESCO — travaux](projets/unesco-travaux.md) — 2021 · UNESCO · Exécution · _hors folio_
+- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2021–2022 · Universal Music Africa · Direction créative & artistique
 - [Vernissage d'une exposition de peinture (« Open is open »)](projets/evt-2021-12-10-vernissage-d-une-exposition-de-peinture-open-is-open.md) — 2021 · Exécution · _hors folio_
 - [Visite et reportage d'un complexe sportif neuf](projets/evt-2021-08-04-visite-et-reportage-d-un-complexe-sportif-neuf.md) — 2021 · Exécution · _hors folio_
 - [Visite guidée de Douala (Akwa) puis atelier](projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier.md) — 2021 · Exécution · _hors folio_
@@ -186,7 +189,6 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 
 ## 2023
 
-- **Parcours** · [Friends Photography Studio](organisations/friends-studio.md) — Responsable du développement d'activité (2023–…)
 - [« Ambitieuses » — conférence sur le leadership féminin](projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin.md) — 2023 · OmenKart · Exécution · _hors folio_
 - [Act of Worship (AOW) — travaux](projets/act-of-worship-aow-travaux.md) — 2023 · Act of Worship (AOW) · Exécution · _hors folio_
 - [Activation Jameson Black Barrel en lounge](projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge.md) — 2023 · Timing Agency · Exécution · _hors folio_
@@ -249,7 +251,6 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 - [Meloland Studio — travaux](projets/meloland-studio-travaux.md) — 2024 · Meloland Studio · Exécution · _hors folio_
 - [Oceanis Kribi · The Villa — production vidéo & image](projets/oceanis-kribi-the-villa.md) — 2024 · Oceanis Kribi · Exécution
 - [Primo Ice — travaux](projets/primo-ice-travaux.md) — 2024 · Primo Ice · Exécution · _hors folio_
-- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2024 · Studio Graphique 44 · Stratégie
 - [Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune](projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate.md) — 2024 · Talk Paix (CFI) · Exécution · _hors folio_
 - [Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)](projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou.md) — 2024 · Talk Paix (CFI) · Exécution · _hors folio_
 - [The Boyy — travaux](projets/the-boyy-travaux.md) — 2024 · The Boyy · Exécution · _hors folio_
@@ -402,6 +403,7 @@ _Projets à dater — voir [maintenance](maintenance.md)._
 - [Ngoin Kollektiv](projets/ngoin-kollektiv.md) — perso · Stratégie · _hors folio_
 - [Oasis Art — travaux](projets/oasis-art-travaux.md) — Oasis Art · Exécution · _hors folio_
 - [Omela](projets/omela.md) — Direction créative & artistique · _hors folio_
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md) — Orange Cameroun · Exécution
 - [Photographie de mariage](projets/photographie-de-mariage.md) — Exécution · _hors folio_
 - [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md) — Port Autonome de Kribi · Exécution
 - [Portfolio photo personnel](projets/portfolio-photo-personnel.md) — perso · Exécution · _hors folio_

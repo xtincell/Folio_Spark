@@ -9,6 +9,8 @@ etat: "ebauche"
 # Aquarin
 
 <!-- wiki:infobox -->
+![Aquarin](../../public/medias-wiki/projets/aquarin-travaux/01.webp)
+
 | Aquarin | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin.md"><img src="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/01.webp" alt="Inauguration de la ferme aquacole Aquarin" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

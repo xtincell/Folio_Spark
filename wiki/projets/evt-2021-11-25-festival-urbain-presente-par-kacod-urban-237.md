@@ -16,6 +16,8 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 # Festival urbain présenté par KACOD Urban 237
 
 <!-- wiki:infobox -->
+![Festival urbain présenté par KACOD Urban 237](../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/01.webp)
+
 | Festival urbain présenté par KACOD Urban 237 | |
 | --- | --- |
 | Client | [KACOD Urban 237](../organisations/kacod-urban-237.md) |
@@ -38,6 +40,16 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 - **Ce que montrent les images** : Après-midi et soirée en plein air : scène avec batteur et chanteurs, interviews sur un plateau en tissu wax, danseurs, public ; tee-shirts au logo boombox-tournesol (graffiti, rap, street wear, design).
 - **Identification** : roll-ups « kacod urban 237 présente » et « KACOD — association camerounaise de chanteurs… »
 - **Fiabilité** : déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/02.webp" alt="Festival urbain présenté par KACOD Urban 237" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/03.webp" alt="Festival urbain présenté par KACOD Urban 237" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/04.webp" alt="Festival urbain présenté par KACOD Urban 237" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/05.webp" alt="Festival urbain présenté par KACOD Urban 237" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/06.webp" alt="Festival urbain présenté par KACOD Urban 237" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

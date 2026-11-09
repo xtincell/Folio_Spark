@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Cabinet Chrome — travaux
 
 <!-- wiki:infobox -->
+![Cabinet Chrome — travaux](../../public/medias-wiki/projets/cabinet-chrome-travaux/01.webp)
+
 | Cabinet Chrome — travaux | |
 | --- | --- |
 | Client | [Cabinet Chrome](../organisations/cabinet-chrome.md) |
@@ -30,6 +32,13 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Cabinet Chrome](../organisations/cabinet-chrome.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/cabinet-chrome-travaux/02.webp"><img src="../../public/medias-wiki/projets/cabinet-chrome-travaux/02.webp" alt="Cabinet Chrome — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/cabinet-chrome-travaux/03.webp"><img src="../../public/medias-wiki/projets/cabinet-chrome-travaux/03.webp" alt="Cabinet Chrome — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

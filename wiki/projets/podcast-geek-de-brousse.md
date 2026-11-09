@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Geek de brousse (podcast, tests)
 
 <!-- wiki:infobox -->
+![Geek de brousse (podcast, tests)](../../public/medias-wiki/projets/podcast-geek-de-brousse/01.webp)
+
 | Geek de brousse (podcast, tests) | |
 | --- | --- |
 | Client | Projet personnel |
@@ -29,6 +31,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 
 _À documenter._
 
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/podcast-geek-de-brousse/02.webp"><img src="../../public/medias-wiki/projets/podcast-geek-de-brousse/02.webp" alt="Geek de brousse (podcast, tests)" width="240"></a>
+<a href="../../public/medias-wiki/projets/podcast-geek-de-brousse/03.webp"><img src="../../public/medias-wiki/projets/podcast-geek-de-brousse/03.webp" alt="Geek de brousse (podcast, tests)" width="240"></a>
+<a href="../../public/medias-wiki/projets/podcast-geek-de-brousse/04.webp"><img src="../../public/medias-wiki/projets/podcast-geek-de-brousse/04.webp" alt="Geek de brousse (podcast, tests)" width="240"></a>
+<!-- /wiki:galerie -->
+
 ## Archives
 
 - 21 fichiers dans les dossiers « Xtincell » des disques de travail (11 fichiers de création · 8 vidéos · 2 autres).
@@ -39,5 +49,5 @@ _À documenter._
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Geek de brousse (blog)](geek-de-brousse-blog.md)
 <!-- /wiki:liens-entrants -->

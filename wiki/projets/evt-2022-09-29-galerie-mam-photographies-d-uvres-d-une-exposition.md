@@ -15,6 +15,8 @@ etat: "standard"
 # Galerie MAM — photographies d'œuvres d'une exposition
 
 <!-- wiki:infobox -->
+![Galerie MAM — photographies d'œuvres d'une exposition](../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/01.webp)
+
 | Galerie MAM — photographies d'œuvres d'une exposition | |
 | --- | --- |
 | Client | [Galerie MAM](../organisations/galerie-mam.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Reproductions d'œuvres sur fond gris (07/10/2022) et vues d'accrochage dans la galerie (29/09/2022) : dessins, sculptures en bronze, panneaux percés, toiles abstraites.
 - **Identification** : dossier client « Galerie MAM » ; cartels visibles ; noms de fichiers « Product… »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/02.webp" alt="Galerie MAM — photographies d'œuvres d'une exposition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/03.webp" alt="Galerie MAM — photographies d'œuvres d'une exposition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/04.webp" alt="Galerie MAM — photographies d'œuvres d'une exposition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/05.webp" alt="Galerie MAM — photographies d'œuvres d'une exposition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/06.webp" alt="Galerie MAM — photographies d'œuvres d'une exposition" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

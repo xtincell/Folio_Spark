@@ -6,15 +6,18 @@ naissance: 1991
 nationalite: "Camerounaise"
 lieu: "Douala, Cameroun"
 formation: "Iftic-Sup, Yaoundé (Ingénieur des Travaux, 2013)"
-activite: "Directeur Créatif & Artistique de MATANGA Agency (depuis 2025) · CEO d’UPgraders (depuis 2023)"
+activite: "Directeur Créatif & Artistique de MATANGA Agency (depuis 2025) · Directeur général d’UPgraders (depuis 2022 ou 2023)"
 langues: ["Français","Anglais","Japonais (notions)"]
 organisations: ["upgraders","matanga-agency","friends-studio"]
 liens: [{"label":"Folio","url":"https://xtincell.powerupgraders.com"},{"label":"LinkedIn","url":"https://www.linkedin.com/in/dmalexandre"},{"label":"Behance","url":"https://www.behance.net/xtincell"},{"label":"Pixieset","url":"https://xtincell.pixieset.com"},{"label":"YouTube","url":"https://www.youtube.com/@x-tincell"},{"label":"GitHub","url":"https://github.com/xtincell"}]
+image: "public/portrait.jpg"
 etat: "standard"
 ---
 # Alexandre « Xtincell » Djengue
 
 <!-- wiki:infobox -->
+![Alexandre « Xtincell » Djengue](../../public/portrait.jpg)
+
 | Alexandre « Xtincell » Djengue | |
 | --- | --- |
 | Rôle | Directeur créatif et artistique, photographe, stratège de marque |
@@ -22,44 +25,56 @@ etat: "standard"
 | Nationalité | Camerounaise |
 | Lieu | Douala, Cameroun |
 | Formation | Iftic-Sup, Yaoundé (Ingénieur des Travaux, 2013) |
-| Activité | Directeur Créatif & Artistique de MATANGA Agency (depuis 2025) · CEO d’UPgraders (depuis 2023) |
+| Activité | Directeur Créatif & Artistique de MATANGA Agency (depuis 2025) · Directeur général d’UPgraders (depuis 2022 ou 2023) |
 | Langues | Français · Anglais · Japonais (notions) |
 | Organisations | [UPgraders](../organisations/upgraders.md) · [MATANGA Agency](../organisations/matanga-agency.md) · [Friends Photography Studio](../organisations/friends-studio.md) |
 | Liens | [Folio](https://xtincell.powerupgraders.com) · [LinkedIn](https://www.linkedin.com/in/dmalexandre) · [Behance](https://www.behance.net/xtincell) · [Pixieset](https://xtincell.pixieset.com) · [YouTube](https://www.youtube.com/@x-tincell) · [GitHub](https://github.com/xtincell) |
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
-**Alexandre Djengue**, dit **Xtincell**, né en 1991 au Cameroun, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il travaille d’abord comme graphiste indépendant, puis comme photographe de campagnes, d’artistes et d’événements. En 2017, il co-fonde le cabinet de conseil [UPgraders](../organisations/upgraders.md), qu’il dirige depuis 2023. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence [MATANGA](../organisations/matanga-agency.md), pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque [ADVE/RTIS](../projets/methode-adve-rtis.md) et la plateforme [La Fusée](../projets/la-fusee.md).
+**Alexandre Djengue**, dit **Xtincell**, né en 1991 au Cameroun, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil [UPgraders](../organisations/upgraders.md), qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence [MATANGA](../organisations/matanga-agency.md), pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque [ADVE/RTIS](../projets/methode-adve-rtis.md) et la plateforme [La Fusée](../projets/la-fusee.md).
 
 ## Biographie
 
 ### Formation
 
-Alexandre Djengue obtient un baccalauréat D (sciences) au Collège Saint-Michel en 2008. Il étudie ensuite les télécommunications et les réseaux à [Iftic-Sup](../organisations/iftic-sup.md), à Yaoundé. Il en sort en 2013 avec le titre d’Ingénieur des Travaux. Son CV présente cette formation comme celle qui « informe encore » sa manière de modéliser une marque comme un système d’information.
+Alexandre Djengue obtient un baccalauréat D (sciences) au Collège Saint-Michel en 2008. Il étudie ensuite les télécommunications et les réseaux à [Iftic-Sup](../organisations/iftic-sup.md), à Yaoundé, de 2008 à 2013. Ses CV de 2020 à 2024 parlent d’une licence ; son CV de 2026, d’un diplôme d’Ingénieur des Travaux. _Sources : [cv-2020](../sources.md#cv-2020), [cv-2024](../sources.md#cv-2024), [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018)._ Son CV présente cette formation comme celle qui « informe encore » sa manière de modéliser une marque comme un système d’information.
 
-### Graphisme et premières campagnes photo (2011–2016)
+### Blogs, graphisme et culture otaku (2011–2018)
 
-À partir de 2011, alors qu’il est encore étudiant, il travaille en indépendant comme graphiste et webdesigner : ce sera son activité principale pendant cinq ans. De 2013 à 2018, il photographie des campagnes locales et régionales pour [Orange Cameroun](../projets/orange-campagnes-photo.md), par l’intermédiaire de l’agence [McCann](../organisations/publicis-mccann.md). Il y travaille en binôme avec le photographe [Stéphane Nounamo](stephane-nounamo.md), sous le nom de Friends Photography. À partir de 2014, il travaille aussi pour l’industriel [Chococam](../projets/chococam.md) : photo produit, visuels de campagne et reportages pour les marques Benny, Big Gum, Tartina, Matinal et Mambo. Ses archives de travail montrent des tournages et des activations pour Chococam jusqu’en 2023.
+Dès 2011, encore étudiant, Alexandre Djengue se présente en ligne comme « graphiste freelance ». Il s’engage aussi dans la communauté otaku camerounaise : en juillet 2013, il relaie le compte rendu d’une soirée de l’association [Japanimes](../projets/japanimes.md), fondée en 2009. Vers 2013, il ouvre le blog [Geek de brousse](../projets/geek-de-brousse-blog.md), consacré à la technologie, aux mangas et à la vie de créatif en Afrique francophone ; on y lit des billets de 2015 à 2020. En 2016, il rejoint [Mondoblog](../projets/mondoblog.md), la communauté de blogueurs francophones de RFI. _Sources : [facebook](../sources.md#facebook), [geekdebrousse](../sources.md#geekdebrousse), [mondoblog-2016](../sources.md#mondoblog-2016), [mboabd-japanimes](../sources.md#mboabd-japanimes)._
 
-### Image d’artistes et photographie événementielle (2016–2024)
+Il travaille un temps dans un centre d’appels, chez [Intelcia](../organisations/intelcia.md), pour le compte de l’opérateur SFR, puis démissionne pour se lancer à son compte. À l’été 2016, il est graphiste consultant chez Organiz Agency et Lead Designer chez [Sellkako](../organisations/sellkako.md), un site marchand ; il n’y reste que deux mois. _Sources : [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018), [cv-2023-05](../sources.md#cv-2023-05), [facebook](../sources.md#facebook)._
 
-De 2016 à 2022, il signe la direction artistique et les photographies d’artistes du catalogue camerounais d’[Universal Music Africa](../projets/uma-artistes.md). Il y accède par l’agence de talents Imperial, dirigée par [Esther Naah](esther-naah.md). Il suit notamment Locko, Charlotte Dipanda, Mimie, Singuila et Cysoul. Parmi ces missions figurent [la séance d’écoute de l’album *Docteur Love* de Singuila](../projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love.md) (février 2021) et [la sortie de l’album de Charlotte Dipanda](../projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single.md) (mai 2021). S’y ajoutent sa tournée promotionnelle et [son concert au Palais des sports](../projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au.md) (août 2021), puis la promotion de l’album *Era* de Locko (novembre–décembre 2021).
+En février 2017, il rejoint [UPgraders](../organisations/upgraders.md), un cabinet de conseil dont il se présente comme co-fondateur ; il y prend en charge le graphisme et le web, avec des clients comme [BanaHealth](../organisations/banahealth.md). De février à l’été 2018, il est business developer chez [Will & Brothers](../organisations/will-and-brothers.md) Consulting. Il cite l’entrepreneur [William Elong](william-elong.md) parmi ceux dont il a observé les méthodes. De septembre à décembre 2018, il est brand strategist pour le lancement de [Studio 44](../organisations/studio44.md). La même année, il anime le meetup « Geek de brousse Talk ». En octobre 2018, il raconte ce parcours dans *Le blog du disrupteur*. De 2018 à 2021, il anime aussi le podcast [Créapreneur](../projets/creapreneur-podcast.md). _Sources : [facebook](../sources.md#facebook), [cv-2020](../sources.md#cv-2020), [cv-2023-05](../sources.md#cv-2023-05), [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018)._
+
+Cette présence en ligne lui vaut une première visibilité : en 2020, un classement des blogs camerounais le présente comme « un infographiste de talent ». Selon son témoignage, un journal local le cite aussi parmi les étoiles montantes de la photographie ; l’article reste à retrouver. _Sources : [nkowa-2020](../sources.md#nkowa-2020), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
+
+### Agence, photographie et image d’artistes (2019–2024)
+
+Du 15 mai 2019 au 30 novembre 2021, il est directeur artistique assistant, puis lead designer, chez [Bimstr Agency](../organisations/bimstr.md), une agence et un média musical de Douala. Il y est à la fois photographe, designer et motion designer. Il travaille pour l’IFC, Cible RH, la SABC (campagne [Top](../projets/top-sabc.md)) et, dès 2020, pour [Chococam](../projets/chococam.md). Il continue de travailler pour Chococam avec UPgraders jusqu’en 2023 : photo produit, contenus et tournages pour Benny, Big Gum, Tartina, Matinal, Mambo et Kola. _Sources : [facebook](../sources.md#facebook), [cv-2020](../sources.md#cv-2020), [cv-2024](../sources.md#cv-2024), [disques](../sources.md#disques), [twitter](../sources.md#twitter)._
+
+À partir de 2020, il développe une activité de photographe avec [Stéphane Nounamo](stephane-nounamo.md). Celui-ci tenait jusque-là le restaurant Friends Food, que fréquente Alexandre ; il se tourne alors vers la photographie et, selon Alexandre, l’encourage à se mettre à son compte. Leur collaboration donne [Friends Photography Studio](../organisations/friends-studio.md) ; les premières séances rangées dans ses archives datent de 2020. _Sources : [facebook](../sources.md#facebook), [twitter](../sources.md#twitter), [disques](../sources.md#disques), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
+
+En 2021 et 2022, il signe la direction artistique et les photographies d’artistes du catalogue camerounais d’[Universal Music Africa](../projets/uma-artistes.md), par l’intermédiaire de l’agence de talents Imperial, dirigée par [Esther Naah](esther-naah.md). On lui doit notamment :
+
+- [la séance d’écoute de l’album *Docteur Love* de Singuila](../projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love.md) (février 2021) ;
+- [la sortie de l’album de Charlotte Dipanda](../projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single.md) (mai 2021) et [son concert au Palais des sports](../projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au.md) (août 2021) ;
+- la promotion de l’album *Era* de Locko (novembre–décembre 2021).
+
+Son CV de 2026 fait remonter cette collaboration à 2016 ; aucune source antérieure ne l’étaye. _Sources : [disques](../sources.md#disques), [facebook](../sources.md#facebook), [cv-2023-02](../sources.md#cv-2023-02)._
 
 Ses archives recensent près d’une centaine d’événements couverts en photo et en vidéo entre 2020 et 2026, dont la majorité entre 2021 et 2023. On y trouve :
 
-- des festivals : le [Kamer Otaku Festival](../organisations/kamer-otaku-festival.md) à chaque édition de 2022 à 2025, le DOMAF (2021, 2022, 2024), la [Douala Art Fair](../projets/evt-2022-11-03-douala-art-fair.md) (2022) et le festival [Street Whale](../projets/street-whale.md) de l’ONG [AMMCO](../organisations/ammco.md) (2021–2023) ;
+- des festivals : le [Kamer Otaku Festival](../organisations/kamer-otaku-festival.md) à chaque édition depuis la première, en 2022, le DOMAF (2021, 2022, 2024), la [Douala Art Fair](../projets/evt-2022-11-03-douala-art-fair.md) (2022) et le festival [Street Whale](../projets/street-whale.md) de l’ONG [AMMCO](../organisations/ammco.md) (2021–2023) ;
 - des opérations de marque pour [MTN Cameroon](../organisations/mtn-cameroon.md), dont la finale du MTN Zik Festival (2022) et le Y’ello Forum (2023), ainsi que pour Hennessy Artistry (2021) ;
 - des événements institutionnels : la sélection des artistes de ResiliArt Cameroun pour l’[UNESCO](../organisations/unesco.md) (2021), les ateliers médias [Talk Paix](../organisations/talk-paix-cfi.md) de CFI (2023–2024) et le bal des Marines de l’[ambassade des États-Unis](../organisations/ambassade-des-etats-unis.md) (2023).
 
-Au Kamer Otaku Festival, il passe de la photographie à la direction artistique à partir de la deuxième édition.
+Il est directeur artistique et directeur de la communication du Kamer Otaku Festival en 2023. _Sources : [disques](../sources.md#disques), [cv-2023-05](../sources.md#cv-2023-05)._
 
-### UPgraders et les agences (2017–2024)
+### UPgraders, Motion19 et Friends Studio (2021–2024)
 
-En 2017, Alexandre Djengue co-fonde [UPgraders](../organisations/upgraders.md), un cabinet de conseil et de stratégie créative, avec [Ingrid Nya Ngatchou](ingrid-nya-ngatchou.md) et [Jean-Philippe Veigne](jean-philippe-veigne.md). En 2018, il est consultant pour [Studio Graphique 44](../organisations/studio44.md) et business developer pour [Will & Brothers](../organisations/will-and-brothers.md). De 2018 à 2021, il anime [Créapreneur](../projets/creapreneur-podcast.md), un podcast sur l’entrepreneuriat créatif en Afrique francophone, relancé en 2022 sous forme d’ateliers (« Créapreneur V2 »).
-
-De 2019 à 2021, il est directeur artistique assistant et graphiste chez [Bimstr Agency](../organisations/bimstr.md), où il travaille pour l’IFC, Cible RH, la SABC et Chococam. Avec UPgraders, il construit la marque [Motion19](../projets/motion19-lancement.md), un distributeur de matériel audiovisuel : système de vente, recrutement de l’équipe, programme communautaire « Aventurier ». Il en devient Brand Manager de 2021 à 2023. De 2020 à 2022, il assure la direction artistique et la production pour la boisson [Top](../projets/top-sabc.md) des Brasseries du Cameroun.
-
-En 2023, il succède à Ingrid Nya Ngatchou à la tête d’UPgraders. La même année, il prend en charge le développement commercial de [Friends Photography Studio](../organisations/friends-studio.md), la cellule de production qu’il anime avec Stéphane Nounamo. Le studio réalise des productions pour [Cimencam](../projets/cimencam-video-corporate.md) (via OmenKart), [Maison Gimane](../projets/maison-gimane.md), [Oceanis Kribi](../projets/oceanis-kribi-the-villa.md) et [Akwa Palace](../projets/akwa-palace.md). Pour l’agence Her Media, il réalise aussi des visuels pour [Moët & Chandon](../projets/moet-chandon.md) (2024). À partir de 2025, le studio couvre de nouveau [des événements d’Orange Cameroun](../projets/orange-evenements-2025-2026.md) via McCann.
+D’avril 2021 à février 2023, il est Brand Manager de [Motion19](../projets/motion19-lancement.md), une marque de matériel audiovisuel qu’UPgraders construit de A à Z : système de vente, recrutement de l’équipe, programme communautaire « Aventurier ». Il prend la direction d’UPgraders au début des années 2020 : ses CV indiquent tantôt janvier 2022, tantôt janvier 2023. Avec [Friends Photography Studio](../organisations/friends-studio.md), dont il assure le développement commercial, il réalise des productions pour [Cimencam](../projets/cimencam-video-corporate.md) (via OmenKart, 2023), [Maison Gimane](../projets/maison-gimane.md), [Oceanis Kribi](../projets/oceanis-kribi-the-villa.md) et [Akwa Palace](../projets/akwa-palace.md). Pour l’agence Her Media, il réalise aussi des visuels pour [Moët & Chandon](../projets/moet-chandon.md) (2024). À partir de 2025, le studio couvre [des événements d’Orange Cameroun](../projets/orange-evenements-2025-2026.md) via McCann. _Sources : [cv-2023-05](../sources.md#cv-2023-05), [cv-2023-02](../sources.md#cv-2023-02), [cv-2024](../sources.md#cv-2024), [disques](../sources.md#disques)._
 
 ### Direction de création chez MATANGA (depuis 2025)
 
@@ -87,7 +102,7 @@ Il développe aussi des projets personnels : le jeu narratif [NEO-KINARA](../pro
 | --- | --- | --- |
 | Stratégie | Positionnement, lancement de marque, méthode | [Motion19](../projets/motion19-lancement.md), [Kemcare](../projets/kemcare.md), [Shakazz](../projets/shakazz.md), [ADVE/RTIS](../projets/methode-adve-rtis.md) |
 | Direction créative et artistique | Campagnes, key visuals, identités, image d’artistes, festivals | [MATANGA](../organisations/matanga-agency.md), [Universal Music Africa](../projets/uma-artistes.md), [Kamer Otaku Festival](../projets/kof-festival.md) |
-| Exécution | Photographie, vidéo, production, logiciels | [Chococam](../projets/chococam.md), [Orange Cameroun](../projets/orange-campagnes-photo.md), [La Barre](../projets/la-barre.md) |
+| Exécution | Photographie, vidéo, production, logiciels | [Chococam](../projets/chococam.md), [Orange Cameroun](../projets/orange-evenements-2025-2026.md), [La Barre](../projets/la-barre.md) |
 
 L’ensemble des projets est classé par année dans la [chronologie](../chronologie.md) et par client dans l’[index](../index.md).
 
@@ -97,27 +112,26 @@ En marge de ses commandes, Alexandre Djengue mène des projets d’écriture, d�
 
 - le projet d’écriture [République de Mbengola](../projets/republique-de-mbengola.md), les projets [Forgemonde](../projets/forgemonde.md) et [Darkroom](../projets/darkroom.md), et l’histoire illustrée [Popcorn Man](../projets/popcorn-man.md) ;
 - l’agence de talents [Spark](../projets/spark-agence-de-talents.md) ;
-- les podcasts [Frontières de l’innovation](../projets/podcast-frontieres-de-l-innovation.md) (2021) et [Geek de brousse](../projets/podcast-geek-de-brousse.md) (essais, 2024) ;
+- le blog [Geek de brousse](../projets/geek-de-brousse-blog.md), décliné en 2024 en [essais de podcast](../projets/podcast-geek-de-brousse.md), et le podcast [Frontières de l’innovation](../projets/podcast-frontieres-de-l-innovation.md) (2021) ;
 - des séries de défis graphiques comme [AI Inktober](../projets/ai-inktober.md) (2023) et le [Charadesign Challenge](../projets/charadesign-challenge-2024.md) (2024).
 
 ## Réception et publications
 
+- Selon son témoignage, un journal local le cite parmi les étoiles montantes de la photographie (article à retrouver).
+- En octobre 2018, *Le blog du disrupteur* publie son témoignage « Mon expérience de designer graphique free-lance au Cameroun ». Il cite aussi une interview par [Anne-Marie C. Befoune](anne-marie-befoune.md), encore à retrouver.
+- En octobre 2020, le blog Nkowa&Co le classe parmi les blogs camerounais à suivre.
 - En avril 2022, le blog de la banque d’images Iwaria lui consacre un portrait dans sa série *Pixels Hunters*, sous le titre « Xtincell, une étoile qui brille dans la photographie ».
 - Le podcast *Créapreneur* (2018–2021) est archivé sur Apple Podcasts.
 - Son portfolio de direction artistique (design et photographie) est publié sur Behance.
 
 ## Notes
 
-- Plusieurs dates de parcours diffèrent selon les sources (CV et folio) : Bimstr, Motion19, Studio44, Will & Brothers. Elles sont listées dans la page [Maintenance](../maintenance.md#à-vérifier).
+- Les dates de ce parcours ont été confrontées le 9 novembre 2026 : CV successifs, profils et publications datés, archives de travail et témoignage. Le détail, élément par élément, est sur la page [Sources du parcours](../sources.md). Le CV de 2026 et le CV du site reprenaient plusieurs dates que les sources d’époque démentent : Orange via McCann 2013–2018, Chococam 2014–2020, Universal Music Africa 2016–2022, Bimstr 2018–2020, Sellkako 2017–2019, Studio44 2024.
 - La liste des événements vient des notes de rangement des disques de travail, établies à partir des images, des dates de prise de vue et des livrables. Chaque fiche d’événement indique sa fiabilité.
 
 ## Sources
 
-- CV éditorial (`src/app/cv/CvClient.tsx`), aligné sur le profil LinkedIn selon le `README.md` du site
-- Données du folio : `practices.ts`, `cases.spec.json`, `agencies.ts`, `press.ts`, `method.ts`
-- Archives de travail rangées sur les disques C:, E: et P: (dossiers clients, notes `PORTEUR.md`, journal « Événements couverts » du 28/10/2026)
-- Iwaria, « Xtincell, une étoile qui brille dans la photographie », série *Pixels Hunters*, avril 2022 : [lire](https://blog.iwaria.com/pixels-hunters-xtincell-une-etoile-qui-brille-dans-la-photographie/)
-- Dépôts GitHub de [xtincell](https://github.com/xtincell)
+Voir la page [Sources du parcours](../sources.md) : bibliographie complète, hiérarchie des sources et tableau de confrontation.
 
 ## Voir aussi
 

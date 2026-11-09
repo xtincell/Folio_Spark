@@ -15,6 +15,8 @@ etat: "standard"
 # Locko — promotion de l'album « Era »
 
 <!-- wiki:infobox -->
+![Locko — promotion de l'album « Era »](../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/01.webp)
+
 | Locko — promotion de l'album « Era » | |
 | --- | --- |
 | Client | [Universal Music Africa](../organisations/universal-music-africa.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 05/12 : showcase acoustique dans un centre commercial, fans et escalators ; 12/12 : soirée d'écoute, Locko en chemise argentée ; 13/12 : conférence de presse et ateliers.
 - **Identification** : roll-up « LOCKO — ERA — Nouvel album le 17 décembre » ; sweats « ERA » ; « Era » sorti le 17/12/2021 chez Universal Music Africa (presse, Qobuz)
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/02.webp" alt="Locko — promotion de l'album « Era »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/03.webp" alt="Locko — promotion de l'album « Era »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/04.webp" alt="Locko — promotion de l'album « Era »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/05.webp" alt="Locko — promotion de l'album « Era »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/06.webp" alt="Locko — promotion de l'album « Era »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

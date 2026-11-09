@@ -9,6 +9,8 @@ etat: "ebauche"
 # WMC
 
 <!-- wiki:infobox -->
+![WMC](../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/01.webp)
+
 | WMC | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/wmc-travaux.md"><img src="../../public/medias-wiki/projets/wmc-travaux/01.webp" alt="WMC — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

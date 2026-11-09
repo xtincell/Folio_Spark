@@ -16,6 +16,8 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 # Street Whale — premier jour (lancement en bord de mer)
 
 <!-- wiki:infobox -->
+![Street Whale — premier jour (lancement en bord de mer)](../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/01.webp)
+
 | Street Whale — premier jour (lancement en bord de mer) | |
 | --- | --- |
 | Client | [AMMCO](../organisations/ammco.md) |
@@ -38,6 +40,16 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 - **Ce que montrent les images** : Accueil des officiels sous tente, discours, table de matériel (drone, ROV sous-marin), body painting à l'argile blanche sur des danseurs, photo de groupe.
 - **Identification** : nom du dossier « 1er jour » ; tee-shirts AMMCO ; matériel de suivi marin
 - **Fiabilité** : déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/02.webp" alt="Street Whale — premier jour (lancement en bord de mer)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/03.webp" alt="Street Whale — premier jour (lancement en bord de mer)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/04.webp" alt="Street Whale — premier jour (lancement en bord de mer)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/05.webp" alt="Street Whale — premier jour (lancement en bord de mer)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/06.webp" alt="Street Whale — premier jour (lancement en bord de mer)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

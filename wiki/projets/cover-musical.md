@@ -15,6 +15,8 @@ etat: "ebauche"
 # AGIP — « Kwatta Vibes » (pochette)
 
 <!-- wiki:infobox -->
+![AGIP — « Kwatta Vibes » (pochette)](../../public/work/cases/cover-musical/hero.webp)
+
 | AGIP — « Kwatta Vibes » (pochette) | |
 | --- | --- |
 | Client | [AGIP](../organisations/agip.md) |
@@ -31,6 +33,12 @@ etat: "ebauche"
 ## Contexte
 
 Pochette de mixtape « Kwatta Vibes » pour l'artiste AGIP : portrait golden-hour en quartier populaire, titre au pinceau jaune et tracklist 9 titres, texture grunge.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/cover-musical/01.webp"><img src="../../public/work/cases/cover-musical/01.webp" alt="AGIP — « Kwatta Vibes » (pochette)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

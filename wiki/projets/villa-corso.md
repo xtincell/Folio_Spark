@@ -15,6 +15,8 @@ etat: "ebauche"
 # Villa Corso — Élevage Cane Corso
 
 <!-- wiki:infobox -->
+![Villa Corso — Élevage Cane Corso](../../public/work/cases/villa-corso/hero.webp)
+
 | Villa Corso — Élevage Cane Corso | |
 | --- | --- |
 | Client | [Villa Corso](../organisations/villa-corso.md) |
@@ -31,6 +33,18 @@ etat: "ebauche"
 ## Contexte
 
 Identité de marque pour « Villa Corso » (« Team Real Life »), élevage de chiens Cane Corso : logo blason (tête de Cane Corso, monogramme VC) décliné sur polo brodé, médaillon laiton et papeterie, palette or/noir/crème.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/villa-corso/01.webp"><img src="../../public/work/cases/villa-corso/01.webp" alt="Villa Corso — Élevage Cane Corso" width="240"></a>
+<a href="../../public/work/cases/villa-corso/02.webp"><img src="../../public/work/cases/villa-corso/02.webp" alt="Villa Corso — Élevage Cane Corso" width="240"></a>
+<a href="../../public/work/cases/villa-corso/03.webp"><img src="../../public/work/cases/villa-corso/03.webp" alt="Villa Corso — Élevage Cane Corso" width="240"></a>
+<a href="../../public/work/cases/villa-corso/04.webp"><img src="../../public/work/cases/villa-corso/04.webp" alt="Villa Corso — Élevage Cane Corso" width="240"></a>
+<a href="../../public/work/cases/villa-corso/05.webp"><img src="../../public/work/cases/villa-corso/05.webp" alt="Villa Corso — Élevage Cane Corso" width="240"></a>
+<a href="../../public/work/cases/villa-corso/06.webp"><img src="../../public/work/cases/villa-corso/06.webp" alt="Villa Corso — Élevage Cane Corso" width="240"></a>
+<a href="../../public/work/cases/villa-corso/07.webp"><img src="../../public/work/cases/villa-corso/07.webp" alt="Villa Corso — Élevage Cane Corso" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

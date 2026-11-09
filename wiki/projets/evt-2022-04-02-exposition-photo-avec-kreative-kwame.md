@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Exposition photo avec Kreative Kwame
 
 <!-- wiki:infobox -->
+![Exposition photo avec Kreative Kwame](../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/01.webp)
+
 | Exposition photo avec Kreative Kwame | |
 | --- | --- |
 | Période | 2 avril 2022 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : 02/04/2022 de 14 h à 15 h 40 : visiteurs devant les portraits, installation de rubans bleus, portraits devant une toile pop.
 - **Identification** : badge « Kreative Kwame — Founder, Photographer »
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/02.webp" alt="Exposition photo avec Kreative Kwame" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/03.webp" alt="Exposition photo avec Kreative Kwame" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/04.webp" alt="Exposition photo avec Kreative Kwame" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/05.webp" alt="Exposition photo avec Kreative Kwame" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame/06.webp" alt="Exposition photo avec Kreative Kwame" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

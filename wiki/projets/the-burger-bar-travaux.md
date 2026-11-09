@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # The Burger Bar — travaux
 
 <!-- wiki:infobox -->
+![The Burger Bar — travaux](../../public/medias-wiki/projets/the-burger-bar-travaux/01.webp)
+
 | The Burger Bar — travaux | |
 | --- | --- |
 | Client | [The Burger Bar](../organisations/the-burger-bar.md) |

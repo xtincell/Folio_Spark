@@ -9,6 +9,8 @@ etat: "ebauche"
 # BCSnU — Grand défilé
 
 <!-- wiki:infobox -->
+![BCSnU — Grand défilé](../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/01.webp)
+
 | BCSnU — Grand défilé | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos.md"><img src="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/01.webp" alt="BCSnU — tournage du grand défilé de rue (vidéos)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

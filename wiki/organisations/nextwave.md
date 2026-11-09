@@ -9,6 +9,8 @@ etat: "ebauche"
 # NextWave
 
 <!-- wiki:infobox -->
+![NextWave](../../public/medias-wiki/projets/nextwave-travaux/01.webp)
+
 | NextWave | |
 | --- | --- |
 | Nature | À préciser |

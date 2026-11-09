@@ -6,6 +6,7 @@ casquette: "execution"
 genre: "Portrait"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/mounpoubeyi/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/28625347/c9b793ef13a3e69046b40c010e8b5496-large.jpg"
 etat: "ebauche"
 client: "mounpoubeyi"
 verifier: ["Date de la séance absente de Pixieset."]
@@ -13,6 +14,8 @@ verifier: ["Date de la séance absente de Pixieset."]
 # Mounpoubeyi — galerie photo
 
 <!-- wiki:infobox -->
+![Mounpoubeyi — galerie photo](https://images.pixieset.com/28625347/c9b793ef13a3e69046b40c010e8b5496-large.jpg)
+
 | Mounpoubeyi — galerie photo | |
 | --- | --- |
 | Client | [Mounpoubeyi](../organisations/mounpoubeyi.md) |

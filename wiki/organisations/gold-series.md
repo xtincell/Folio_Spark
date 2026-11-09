@@ -9,6 +9,8 @@ etat: "ebauche"
 # Gold Series
 
 <!-- wiki:infobox -->
+![Gold Series](../../public/medias-wiki/projets/gold-series-travaux/01.webp)
+
 | Gold Series | |
 | --- | --- |
 | Nature | À préciser |

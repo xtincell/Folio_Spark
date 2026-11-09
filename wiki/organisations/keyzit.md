@@ -9,6 +9,8 @@ etat: "ebauche"
 # Keyzit
 
 <!-- wiki:infobox -->
+![Keyzit](../../public/medias-wiki/projets/keyzit-travaux/01.webp)
+
 | Keyzit | |
 | --- | --- |
 | Nature | À préciser |

@@ -15,6 +15,8 @@ etat: "standard"
 # Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)
 
 <!-- wiki:infobox -->
+![Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)](../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/01.webp)
+
 | Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball) | |
 | --- | --- |
 | Client | [Ambassade des États-Unis](../organisations/ambassade-des-etats-unis.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 11/11/2023 de 16 h 30 à 1 h : cocktail au jardin, photocall « U.S. Embassy Yaoundé », discours au pupitre officiel, dîner, soirée dansante.
 - **Identification** : photocall « U.S. Embassy Yaoundé | Cameroon » ; pupitre au sceau du Département d'État
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/02.webp" alt="Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/03.webp" alt="Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/04.webp" alt="Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/05.webp" alt="Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/06.webp" alt="Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

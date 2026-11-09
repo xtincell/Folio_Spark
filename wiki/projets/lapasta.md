@@ -17,6 +17,8 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 # La Pasta — Saisons & Mighty
 
 <!-- wiki:infobox -->
+![La Pasta — Saisons & Mighty](../../public/work/cases/lapasta/hero.webp)
+
 | La Pasta — Saisons & Mighty | |
 | --- | --- |
 | Client | [Panzani Cameroun](../organisations/panzani-cameroun.md) |
@@ -34,6 +36,21 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 ## Contexte
 
 Key visuals saisonniers (Noël, Ramadan) pour les pâtes La Pasta et création de la sous-marque de sauces « Mighty by La Pasta » (logo et gamme d'étiquettes).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/lapasta/01.webp"><img src="../../public/work/cases/lapasta/01.webp" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/cases/lapasta/02.webp"><img src="../../public/work/cases/lapasta/02.webp" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/cases/lapasta/03.webp"><img src="../../public/work/cases/lapasta/03.webp" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/cases/lapasta/04.webp"><img src="../../public/work/cases/lapasta/04.webp" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/cases/lapasta/05.webp"><img src="../../public/work/cases/lapasta/05.webp" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/panzani/panzani-01.png"><img src="../../public/work/panzani/panzani-01.png" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/panzani/panzani-02.jpg"><img src="../../public/work/panzani/panzani-02.jpg" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/panzani/panzani-03.jpg"><img src="../../public/work/panzani/panzani-03.jpg" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/panzani/panzani-04.jpg"><img src="../../public/work/panzani/panzani-04.jpg" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../../public/work/panzani/panzani-05.jpg"><img src="../../public/work/panzani/panzani-05.jpg" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

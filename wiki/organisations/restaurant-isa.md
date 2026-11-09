@@ -9,6 +9,8 @@ etat: "ebauche"
 # Restaurant Isa
 
 <!-- wiki:infobox -->
+![Restaurant Isa](../../public/medias-wiki/projets/restaurant-isa-travaux/01.webp)
+
 | Restaurant Isa | |
 | --- | --- |
 | Nature | À préciser |

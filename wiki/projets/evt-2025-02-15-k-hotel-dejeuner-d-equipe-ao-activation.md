@@ -15,6 +15,8 @@ etat: "standard"
 # K Hotel — déjeuner d'équipe « AO » (activation)
 
 <!-- wiki:infobox -->
+![K Hotel — déjeuner d'équipe « AO » (activation)](../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/01.webp)
+
 | K Hotel — déjeuner d'équipe « AO » (activation) | |
 | --- | --- |
 | Client | [K Hotel](../organisations/k-hotel.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 15/02/2025 vers 13 h : photos de groupe devant le mur gris, déjeuner au buffet.
 - **Identification** : dossier client « K Hotel » ; tee-shirts « AO »
 - **Fiabilité** : confirmé (lieu)
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/02.webp"><img src="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/02.webp" alt="K Hotel — déjeuner d'équipe « AO » (activation)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/03.webp"><img src="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/03.webp" alt="K Hotel — déjeuner d'équipe « AO » (activation)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/04.webp"><img src="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/04.webp" alt="K Hotel — déjeuner d'équipe « AO » (activation)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/05.webp"><img src="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/05.webp" alt="K Hotel — déjeuner d'équipe « AO » (activation)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/06.webp"><img src="../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/06.webp" alt="K Hotel — déjeuner d'équipe « AO » (activation)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

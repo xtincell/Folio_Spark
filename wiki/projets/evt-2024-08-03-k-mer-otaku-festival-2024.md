@@ -15,6 +15,8 @@ etat: "standard"
 # K-mer Otaku Festival 2024
 
 <!-- wiki:infobox -->
+![K-mer Otaku Festival 2024](../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/01.webp)
+
 | K-mer Otaku Festival 2024 | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 03-05/08/2024 : sélection retouchée du festival (voir le n° 99).
 - **Identification** : noms « spark_0308202… » à « 0508202… » ; signature Xtincell ; cubes « Yoba »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/02.webp" alt="K-mer Otaku Festival 2024" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/03.webp" alt="K-mer Otaku Festival 2024" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/04.webp" alt="K-mer Otaku Festival 2024" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/05.webp" alt="K-mer Otaku Festival 2024" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/06.webp" alt="K-mer Otaku Festival 2024" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

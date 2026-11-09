@@ -15,6 +15,8 @@ etat: "ebauche"
 # Xtincell — Marque personnelle
 
 <!-- wiki:infobox -->
+![Xtincell — Marque personnelle](../../public/work/cases/xtincell-brand/hero.webp)
+
 | Xtincell — Marque personnelle | |
 | --- | --- |
 | Client | Projet personnel |
@@ -31,6 +33,18 @@ etat: "ebauche"
 ## Contexte
 
 Identité personnelle d'Alexandre « Xtincell » Djengue, directeur de création / brand strategist : logo flamme « Spark » sur fond cosmique, bannière Behance et CV-portfolio une page.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/xtincell-brand/01.webp"><img src="../../public/work/cases/xtincell-brand/01.webp" alt="Xtincell — Marque personnelle" width="240"></a>
+<a href="../../public/work/cases/xtincell-brand/02.webp"><img src="../../public/work/cases/xtincell-brand/02.webp" alt="Xtincell — Marque personnelle" width="240"></a>
+<a href="../../public/work/cases/xtincell-brand/03.webp"><img src="../../public/work/cases/xtincell-brand/03.webp" alt="Xtincell — Marque personnelle" width="240"></a>
+<a href="../../public/work/cases/xtincell-brand/04.webp"><img src="../../public/work/cases/xtincell-brand/04.webp" alt="Xtincell — Marque personnelle" width="240"></a>
+<a href="../../public/work/cases/xtincell-brand/05.webp"><img src="../../public/work/cases/xtincell-brand/05.webp" alt="Xtincell — Marque personnelle" width="240"></a>
+<a href="../../public/work/historique/00-personal-branding-xtincell/00-personal-branding-xtincell-01.jpg"><img src="../../public/work/historique/00-personal-branding-xtincell/00-personal-branding-xtincell-01.jpg" alt="Xtincell — Marque personnelle" width="240"></a>
+<a href="../../public/work/historique/00-personal-branding-xtincell/00-personal-branding-xtincell-02.jpg"><img src="../../public/work/historique/00-personal-branding-xtincell/00-personal-branding-xtincell-02.jpg" alt="Xtincell — Marque personnelle" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

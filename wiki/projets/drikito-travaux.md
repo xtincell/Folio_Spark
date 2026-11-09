@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Drikito — travaux
 
 <!-- wiki:infobox -->
+![Drikito — travaux](../../public/medias-wiki/projets/drikito-travaux/01.webp)
+
 | Drikito — travaux | |
 | --- | --- |
 | Client | [Drikito](../organisations/drikito.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Drikito](../organisations/drikito.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/drikito-travaux/02.webp"><img src="../../public/medias-wiki/projets/drikito-travaux/02.webp" alt="Drikito — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/drikito-travaux/03.webp"><img src="../../public/medias-wiki/projets/drikito-travaux/03.webp" alt="Drikito — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/drikito-travaux/04.webp"><img src="../../public/medias-wiki/projets/drikito-travaux/04.webp" alt="Drikito — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/drikito-travaux/05.webp"><img src="../../public/medias-wiki/projets/drikito-travaux/05.webp" alt="Drikito — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/drikito-travaux/06.webp"><img src="../../public/medias-wiki/projets/drikito-travaux/06.webp" alt="Drikito — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

@@ -3,7 +3,7 @@ type: "projet"
 titre: "Universal Music Africa — image d’artistes"
 categorie: "mission"
 casquette: "direction-artistique"
-debut: 2016
+debut: 2021
 fin: 2022
 client: "universal-music-africa"
 chaine: ["imperial"]
@@ -13,18 +13,20 @@ vitrine: true
 liens: [{"label":"Galerie Pixieset — Locko","url":"https://xtincell.pixieset.com/locko/"}]
 medias: ["public/work/tier23/locko-uma","public/work/tier23/charlotte-dipanda-uma","public/work/historique/16-music-covers"]
 folio: "/work"
-sources: ["folio:practices.ts"]
+sources: ["folio:practices.ts", "disques", "facebook"]
 practice: "UNIVERSAL MUSIC AFRICA"
 etat: "standard"
 ---
 # Universal Music Africa — image d’artistes
 
 <!-- wiki:infobox -->
+![Universal Music Africa — image d’artistes](../../public/work/tier23/locko-uma/locko-uma-01.jpg)
+
 | Universal Music Africa — image d’artistes | |
 | --- | --- |
 | Client | [Universal Music Africa](../organisations/universal-music-africa.md) |
 | Via | [Imperial](../organisations/imperial.md) |
-| Période | 2016–2022 |
+| Période | 2021–2022 |
 | Casquette | Direction créative & artistique |
 | Catégorie | Mission |
 | Rôle | Photographe principal & DA |
@@ -35,7 +37,7 @@ etat: "standard"
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
-**Universal Music Africa — image d’artistes** est une mission réalisée pour [Universal Music Africa](../organisations/universal-music-africa.md), via [Imperial](../organisations/imperial.md) (2016–2022).
+**Universal Music Africa — image d’artistes** est une mission réalisée pour [Universal Music Africa](../organisations/universal-music-africa.md), via [Imperial](../organisations/imperial.md) (2021–2022).
 
 ## Description
 
@@ -43,7 +45,31 @@ Mission via Imperial — agence de talents dirigée par Esther Naah — pour le 
 
 ## Rôle
 
-Photographe principal & DA. Repère d’origine : « 2016 — 2022 ».
+Photographe principal & DA.
+
+## Dates
+
+Le CV de 2026 et les données du site font remonter cette mission à 2016. Aucune source antérieure ne l’étaye : le CV de novembre 2020 ne la mentionne pas, les missions retrouvées dans les archives datent de 2021 et 2022, et un crédit « pour Universal Music Africa via l’agence Imperial » est publié le 31 août 2021. Le wiki retient 2021–2022 ([confrontation des sources](../sources.md#confrontation-élément-par-élément)). [Le concert de fin d’année classé « TayC »](evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md) est daté de décembre 2020 par le classement des disques, mais son récapitulatif photo est publié le 3 janvier 2022 : son année reste à trancher. _Sources : [disques](../sources.md#disques), [facebook](../sources.md#facebook), [cv-2020](../sources.md#cv-2020), [cv-2026](../sources.md#cv-2026)._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/tier23/locko-uma/locko-uma-02.jpg"><img src="../../public/work/tier23/locko-uma/locko-uma-02.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/locko-uma/locko-uma-03.jpg"><img src="../../public/work/tier23/locko-uma/locko-uma-03.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/locko-uma/locko-uma-04.jpg"><img src="../../public/work/tier23/locko-uma/locko-uma-04.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/locko-uma/locko-uma-05.jpg"><img src="../../public/work/tier23/locko-uma/locko-uma-05.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-01.jpg"><img src="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-01.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-02.jpg"><img src="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-02.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-03.jpg"><img src="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-03.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-04.jpg"><img src="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-04.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-05.jpg"><img src="../../public/work/tier23/charlotte-dipanda-uma/charlotte-dipanda-uma-05.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/historique/16-music-covers/16-music-covers-01.jpg"><img src="../../public/work/historique/16-music-covers/16-music-covers-01.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/historique/16-music-covers/16-music-covers-02.jpg"><img src="../../public/work/historique/16-music-covers/16-music-covers-02.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/historique/16-music-covers/16-music-covers-03.jpg"><img src="../../public/work/historique/16-music-covers/16-music-covers-03.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/historique/16-music-covers/16-music-covers-04.jpg"><img src="../../public/work/historique/16-music-covers/16-music-covers-04.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/historique/16-music-covers/16-music-covers-05.jpg"><img src="../../public/work/historique/16-music-covers/16-music-covers-05.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../../public/work/historique/16-music-covers/16-music-covers-06.jpg"><img src="../../public/work/historique/16-music-covers/16-music-covers-06.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 
@@ -55,6 +81,9 @@ Photographe principal & DA. Repère d’origine : « 2016 — 2022 ».
 ## Sources
 
 - Folio — `src/components/folio/data/practices.ts`, entrée « UNIVERSAL MUSIC AFRICA »
+- Archives de travail rangées sur les disques — voir [disques](../sources.md#disques)
+- Export du compte Facebook (2023) — voir [facebook](../sources.md#facebook)
+- CV « Creative Consultant », 30 novembre 2020 — voir [cv-2020](../sources.md#cv-2020)
 
 <!-- wiki:liens-entrants -->
 ---

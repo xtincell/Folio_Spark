@@ -15,6 +15,8 @@ etat: "standard"
 # Voyage Lion Den à Garoua — Cameroun–Burundi et visites
 
 <!-- wiki:infobox -->
+![Voyage Lion Den à Garoua — Cameroun–Burundi et visites](../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/01.webp)
+
 | Voyage Lion Den à Garoua — Cameroun–Burundi et visites | |
 | --- | --- |
 | Client | [LION DEN](../organisations/lion-den.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 11-15/09/2023 : audience officielle et remise de maillot, match Cameroun–Burundi de nuit (panneaux Orange, 1xBet, 33 Export), paysages du lac et des rochers, auberge.
 - **Identification** : maillot « #Lions4Life » ; panneaux du stade ; match qualificatif CAN du 12/09/2023
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/02.webp" alt="Voyage Lion Den à Garoua — Cameroun–Burundi et visites" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/03.webp" alt="Voyage Lion Den à Garoua — Cameroun–Burundi et visites" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/04.webp" alt="Voyage Lion Den à Garoua — Cameroun–Burundi et visites" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/05.webp" alt="Voyage Lion Den à Garoua — Cameroun–Burundi et visites" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites/06.webp" alt="Voyage Lion Den à Garoua — Cameroun–Burundi et visites" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

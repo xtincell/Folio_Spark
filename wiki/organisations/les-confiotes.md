@@ -9,6 +9,8 @@ etat: "ebauche"
 # Les Confiotes
 
 <!-- wiki:infobox -->
+![Les Confiotes](../../public/medias-wiki/projets/les-confiotes-travaux/01.webp)
+
 | Les Confiotes | |
 | --- | --- |
 | Nature | À préciser |

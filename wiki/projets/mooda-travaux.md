@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Mooda — travaux
 
 <!-- wiki:infobox -->
+![Mooda — travaux](../../public/medias-wiki/projets/mooda-travaux/01.webp)
+
 | Mooda — travaux | |
 | --- | --- |
 | Client | [Mooda](../organisations/mooda.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Mooda](../organisations/mooda.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/mooda-travaux/02.webp"><img src="../../public/medias-wiki/projets/mooda-travaux/02.webp" alt="Mooda — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mooda-travaux/03.webp"><img src="../../public/medias-wiki/projets/mooda-travaux/03.webp" alt="Mooda — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mooda-travaux/04.webp"><img src="../../public/medias-wiki/projets/mooda-travaux/04.webp" alt="Mooda — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mooda-travaux/05.webp"><img src="../../public/medias-wiki/projets/mooda-travaux/05.webp" alt="Mooda — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mooda-travaux/06.webp"><img src="../../public/medias-wiki/projets/mooda-travaux/06.webp" alt="Mooda — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

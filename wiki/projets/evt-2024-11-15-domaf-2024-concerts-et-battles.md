@@ -15,6 +15,8 @@ etat: "standard"
 # DOMAF 2024 — concerts et battles
 
 <!-- wiki:infobox -->
+![DOMAF 2024 — concerts et battles](../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/01.webp)
+
 | DOMAF 2024 — concerts et battles | |
 | --- | --- |
 | Client | [DOMAF — Conseil Camerounais de la Musique](../organisations/domaf-conseil-camerounais-de-la-musique.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 15-17/11/2024 : premières soirées du festival, concerts, battle de rap et de danse, fumigènes.
 - **Identification** : matériel « Sonolive » ; décors peints du festival ; dossier client DOMAF
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/02.webp" alt="DOMAF 2024 — concerts et battles" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/03.webp" alt="DOMAF 2024 — concerts et battles" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/04.webp" alt="DOMAF 2024 — concerts et battles" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/05.webp" alt="DOMAF 2024 — concerts et battles" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/06.webp" alt="DOMAF 2024 — concerts et battles" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

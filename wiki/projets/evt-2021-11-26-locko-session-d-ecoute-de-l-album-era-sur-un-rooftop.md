@@ -15,6 +15,8 @@ etat: "standard"
 # Locko — session d'écoute de l'album « Era » sur un rooftop
 
 <!-- wiki:infobox -->
+![Locko — session d'écoute de l'album « Era » sur un rooftop](../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/01.webp)
+
 | Locko — session d'écoute de l'album « Era » sur un rooftop | |
 | --- | --- |
 | Client | [Universal Music Africa](../organisations/universal-music-africa.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : De 16 h 20 à 19 h 08 : Locko présente l'album au coucher du soleil, affiche « Era » encadrée, échanges avec les invités.
 - **Identification** : affiche de l'album « Era » ; découpé à l'heure EXIF du festival KACOD qui suit le même soir
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/02.webp" alt="Locko — session d'écoute de l'album « Era » sur un rooftop" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/03.webp" alt="Locko — session d'écoute de l'album « Era » sur un rooftop" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/04.webp" alt="Locko — session d'écoute de l'album « Era » sur un rooftop" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/05.webp" alt="Locko — session d'écoute de l'album « Era » sur un rooftop" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/06.webp" alt="Locko — session d'écoute de l'album « Era » sur un rooftop" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

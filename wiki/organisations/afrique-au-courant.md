@@ -9,6 +9,8 @@ etat: "ebauche"
 # Afrique Au Courant
 
 <!-- wiki:infobox -->
+![Afrique Au Courant](../../public/medias-wiki/projets/afrique-au-courant-travaux/01.webp)
+
 | Afrique Au Courant | |
 | --- | --- |
 | Nature | À préciser |

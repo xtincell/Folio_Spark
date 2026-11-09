@@ -16,6 +16,8 @@ etat: "standard"
 # Amigo — Boulangerie & beignets
 
 <!-- wiki:infobox -->
+![Amigo — Boulangerie & beignets](../../public/work/cases/amigo/hero.webp)
+
 | Amigo — Boulangerie & beignets | |
 | --- | --- |
 | Client | [Groupe Cadyst](../organisations/groupe-cadyst.md) |
@@ -33,6 +35,17 @@ etat: "standard"
 ## Contexte
 
 Campagne social et key visual mascotte pour Amigo, gamme de farines/boulangerie du Groupe Cadyst : posts d'engagement, post Assomption en farine, scène de mascottes devant la boutique de Noël.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/amigo/01.webp"><img src="../../public/work/cases/amigo/01.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<a href="../../public/work/cases/amigo/02.webp"><img src="../../public/work/cases/amigo/02.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<a href="../../public/work/cases/amigo/03.webp"><img src="../../public/work/cases/amigo/03.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<a href="../../public/work/cases/amigo/04.webp"><img src="../../public/work/cases/amigo/04.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<a href="../../public/work/cases/amigo/05.webp"><img src="../../public/work/cases/amigo/05.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<a href="../../public/work/cases/amigo/06.webp"><img src="../../public/work/cases/amigo/06.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

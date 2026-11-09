@@ -159,6 +159,69 @@ function relations(arts) {
 }
 const sortProj = (a, b) => (yr(b.data.debut) ?? 0) - (yr(a.data.debut) ?? 0) || titleOf(a).localeCompare(titleOf(b), 'fr');
 
+// ---------------------------------------------------------------- images
+// Sources, dans l'ordre : sélection extraite des disques (public/medias-wiki/<clé>/,
+// voir scripts/wiki-medias.py), champ « image », couverture Pixieset, dossiers
+// « medias » du repo, vignettes des vidéos YouTube citées dans « liens ».
+// Organisations et personnes : première image de chaque projet rattaché.
+const IMG_EXT = /\.(webp|jpe?g|png|svg|gif|avif)$/i;
+const listImages = (dirRel) => {
+  const abs = path.join(ROOT, dirRel);
+  if (!fs.existsSync(abs) || !fs.statSync(abs).isDirectory()) return [];
+  return fs.readdirSync(abs).filter((f) => IMG_EXT.test(f))
+    .sort((x, y) => Number(/^hero\./.test(y)) - Number(/^hero\./.test(x)) || x.localeCompare(y, 'en', { numeric: true }))
+    .map((f) => `${dirRel}/${f}`);
+};
+const ytId = (u) => (String(u).match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/) || [])[1];
+const fileImg = (file, alt, extra = {}) => ({ file, src: `/${file.replace(/^public\//, '')}`, alt, ...extra });
+const imageCache = new Map();
+function ownImages(a) {
+  if (imageCache.has(a.key)) return imageCache.get(a.key);
+  const d = a.data; const out = []; const seen = new Set();
+  const push = (img) => { if (img && !seen.has(img.src)) { seen.add(img.src); out.push(img); } };
+  for (const f of listImages(`public/medias-wiki/${a.key}`)) push(fileImg(f, titleOf(a)));
+  if (d.image) push(/^https?:/.test(d.image) ? { src: d.image, alt: titleOf(a) } : fileImg(d.image, titleOf(a)));
+  if (d.couverture) push({ src: d.couverture, alt: `${titleOf(a)} — couverture` });
+  for (const dir of asArr(d.medias)) for (const f of listImages(dir).slice(0, 12)) push(fileImg(f, titleOf(a)));
+  for (const l of asArr(d.liens)) { const id = ytId(l.url); if (id) push({ src: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, href: l.url, alt: l.label, video: true }); }
+  imageCache.set(a.key, out);
+  return out;
+}
+/** { image, galerie } : image d'infobox et images de la galerie d'une fiche. */
+function imagesOf(a, rel) {
+  const own = ownImages(a);
+  if (a.type === 'projet') {
+    const image = own.find((i) => !i.video) ?? null;
+    return { image, galerie: own.filter((i) => i !== image) };
+  }
+  const linked = (a.type === 'organisation' ? rel.byOrg : rel.byPers).get(a.key) || [];
+  const fromProjects = [...linked].sort((x, y) => sortProj(x.p, y.p))
+    .map(({ p }) => { const im = ownImages(p).find((i) => !i.video); return im && { ...im, alt: titleOf(p), lien: p.key }; })
+    .filter(Boolean).slice(0, 18);
+  if (own.length) return { image: own[0], galerie: [...own.slice(1), ...fromProjects] };
+  return { image: fromProjects[0] ?? null, galerie: fromProjects.slice(1) };
+}
+const mdSrc = (fromRel, img) => (img.file ? path.posix.relative(path.posix.dirname(`wiki/${fromRel}`), img.file) : img.src);
+function galerieBlock(a, rel) {
+  return imagesOf(a, rel).galerie.map((im) => {
+    const href = im.lien ? relLink(a.rel, im.lien) : im.href ?? mdSrc(a.rel, im);
+    return `<a href="${href}"><img src="${mdSrc(a.rel, im)}" alt="${String(im.alt).replace(/"/g, '&quot;')}" width="240"></a>`;
+  }).join('\n');
+}
+/** Ajoute, met à jour ou retire la section « Galerie » selon les images disponibles. */
+function withGalerie(s, a, rel) {
+  const content = galerieBlock(a, rel);
+  const re = /## Galerie\n\n<!-- wiki:galerie -->[\s\S]*?<!-- \/wiki:galerie -->\n\n/;
+  s = s.replace(re, ''); // toujours réinsérée au même endroit : avant les sections techniques
+  if (!content) return s;
+  const section = `## Galerie\n\n<!-- wiki:galerie -->\n${content}\n<!-- /wiki:galerie -->\n\n`;
+  const before = a.type === 'projet'
+    ? ['## Preuves et médias', '## Archives', '## Historique des versions', '## Dépôt', '## Liens', '## Sources', '<!-- wiki:liens-entrants -->']
+    : ['## Archives de travail', '## Sources', '<!-- wiki:liens-entrants -->'];
+  const at = before.map((b) => s.indexOf(b)).find((i) => i >= 0) ?? s.length;
+  return s.slice(0, at) + section + s.slice(at);
+}
+
 // ---------------------------------------------------------------- blocs
 function infobox(a, arts, rel) {
   const d = a.data; const rows = [];
@@ -198,7 +261,9 @@ function infobox(a, arts, rel) {
   }
   row('Liens', asArr(d.liens).map((l) => `[${esc(l.label)}](${l.url})`));
   row('État de la fiche', LABEL.etat[d.etat] ?? d.etat);
-  return `| ${titleOf(a).replace(/\|/g, '\\|')} | |\n| --- | --- |\n${rows.join('\n')}`;
+  const { image } = imagesOf(a, rel);
+  const img = image ? `![${titleOf(a).replace(/[[\]]/g, '')}](${mdSrc(a.rel, image)})\n\n` : '';
+  return `${img}| ${titleOf(a).replace(/\|/g, '\\|')} | |\n| --- | --- |\n${rows.join('\n')}`;
 }
 function projetsBlock(a, rel) {
   const list = (a.type === 'organisation' ? rel.byOrg : rel.byPers).get(a.key) || [];
@@ -289,12 +354,17 @@ function maintenance(arts, rel, warns) {
     ...(warns.length ? ['## Avertissements du build', '', ...warns.map((w) => `- ${w}`), ''] : []),
   ].join('\n');
 }
+const siteImg = (im) => im && { src: im.src, alt: im.alt, ...(im.lien ? { href: `/wiki/${im.lien}` } : im.href ? { href: im.href } : {}), ...(im.video ? { video: true } : {}) };
+function siteImages(a, rel) {
+  const { image, galerie } = imagesOf(a, rel);
+  return { image: siteImg(image) ?? null, galerie: galerie.map(siteImg) };
+}
 function dataJson(arts, rel) {
   const plain = (s) => s.replace(/<!--[\s\S]*?-->/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*_`]/g, '');
   const lead = (a) => plain(a.body.replace(/^#.*$/m, '').replace(/<!-- wiki:infobox -->[\s\S]*?<!-- \/wiki:infobox -->/, '')).split(/\n\s*\n/).map((x) => x.trim()).find((x) => x && !x.startsWith('#') && !x.startsWith('|')) ?? '';
   return JSON.stringify({
     site: SITE,
-    articles: [...arts.values()].map((a) => ({ key: a.key, type: a.type, slug: a.slug, path: `wiki/${a.rel}`, titre: titleOf(a), resume: lead(a), ...a.data, enfants: [...(rel.children.get(a.key) || [])].sort(sortProj).map((c) => c.slug) })),
+    articles: [...arts.values()].map((a) => ({ key: a.key, type: a.type, slug: a.slug, path: `wiki/${a.rel}`, titre: titleOf(a), resume: lead(a), ...a.data, enfants: [...(rel.children.get(a.key) || [])].sort(sortProj).map((c) => c.slug), ...siteImages(a, rel) })),
   }, null, 2) + '\n';
 }
 
@@ -334,6 +404,7 @@ function render(a) {
   s = replaceBlock(s, 'infobox', infobox(a, arts, rel));
   if (a.type !== 'projet') s = replaceBlock(s, 'projets', projetsBlock(a, rel));
   s = replaceBlock(s, 'liens-entrants', backlinksBlock(a, rel));
+  s = withGalerie(s, a, rel);
   return s;
 }
 

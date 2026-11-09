@@ -7,12 +7,15 @@ client: "ammco"
 genre: "Corporate"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/ammco/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/28983067/03b10d60d53f89dfd6637bb28b3f0559-large.jpg"
 etat: "ebauche"
 verifier: ["Date de la séance absente de Pixieset."]
 ---
 # AMMCO — galerie photo
 
 <!-- wiki:infobox -->
+![AMMCO — galerie photo](https://images.pixieset.com/28983067/03b10d60d53f89dfd6637bb28b3f0559-large.jpg)
+
 | AMMCO — galerie photo | |
 | --- | --- |
 | Client | [AMMCO](../organisations/ammco.md) |

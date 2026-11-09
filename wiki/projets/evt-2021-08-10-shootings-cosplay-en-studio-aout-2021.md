@@ -14,6 +14,8 @@ etat: "standard"
 # Shootings cosplay en studio (août 2021)
 
 <!-- wiki:infobox -->
+![Shootings cosplay en studio (août 2021)](../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/01.webp)
+
 | Shootings cosplay en studio (août 2021) | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -35,6 +37,16 @@ etat: "standard"
 - **Ce que montrent les images** : 10 et 14/08/2021 : portraits de cosplay en studio, packshot d'un gâteau décoré.
 - **Identification** : dossier KOF 2021
 - **Fiabilité** : confirmé (dossier)
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/02.webp" alt="Shootings cosplay en studio (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/03.webp" alt="Shootings cosplay en studio (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/04.webp" alt="Shootings cosplay en studio (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/05.webp" alt="Shootings cosplay en studio (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/06.webp" alt="Shootings cosplay en studio (août 2021)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

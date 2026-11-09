@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # The Battle of the Baddest
 
 <!-- wiki:infobox -->
+![The Battle of the Baddest](../../public/medias-wiki/projets/battle-of-the-baddest/01.webp)
+
 | The Battle of the Baddest | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/battle-of-the-baddest/02.webp"><img src="../../public/medias-wiki/projets/battle-of-the-baddest/02.webp" alt="The Battle of the Baddest" width="240"></a>
+<a href="../../public/medias-wiki/projets/battle-of-the-baddest/03.webp"><img src="../../public/medias-wiki/projets/battle-of-the-baddest/03.webp" alt="The Battle of the Baddest" width="240"></a>
+<a href="../../public/medias-wiki/projets/battle-of-the-baddest/04.webp"><img src="../../public/medias-wiki/projets/battle-of-the-baddest/04.webp" alt="The Battle of the Baddest" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

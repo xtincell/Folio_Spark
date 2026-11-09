@@ -15,6 +15,8 @@ etat: "standard"
 # Locko — photos livrées de l'année 2021 (JPG)
 
 <!-- wiki:infobox -->
+![Locko — photos livrées de l'année 2021 (JPG)](../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/01.webp)
+
 | Locko — photos livrées de l'année 2021 (JPG) | |
 | --- | --- |
 | Client | [LOCKO](../organisations/locko.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Sélection retouchée couvrant le shooting en combinaison orange (26/07), la session d'écoute « Era » (26/11), la promo « Era » (05 et 12/12), un concert (22/12), le plateau Canal+ avec le roll-up « Era » (27/12) et le showcase au BOJ (29/12).
 - **Identification** : noms de fichiers datés ; roll-up « Era » ; décor Canal+
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/02.webp" alt="Locko — photos livrées de l'année 2021 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/03.webp" alt="Locko — photos livrées de l'année 2021 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/04.webp" alt="Locko — photos livrées de l'année 2021 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/05.webp" alt="Locko — photos livrées de l'année 2021 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/06.webp" alt="Locko — photos livrées de l'année 2021 (JPG)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

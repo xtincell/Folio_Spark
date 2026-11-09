@@ -9,6 +9,8 @@ etat: "ebauche"
 # THC
 
 <!-- wiki:infobox -->
+![THC](../../public/medias-wiki/projets/thc-travaux/01.webp)
+
 | THC | |
 | --- | --- |
 | Nature | À préciser |

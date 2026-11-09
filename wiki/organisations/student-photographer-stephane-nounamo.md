@@ -9,6 +9,8 @@ etat: "ebauche"
 # Student Photographer (Stéphane Nounamo)
 
 <!-- wiki:infobox -->
+![Student Photographer (Stéphane Nounamo)](../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/01.webp)
+
 | Student Photographer (Stéphane Nounamo) | |
 | --- | --- |
 | Nature | Marque de formation photo de Stéphane Nounamo |
@@ -22,6 +24,14 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md"><img src="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/01.webp" alt="« Photography Masterclass » de Stéphane Nounamo (I)" width="240"></a>
+<a href="../projets/apero-masterclass.md"><img src="../../public/work/historique/14-apero-masterclass/14-apero-masterclass-01.jpg" alt="Apéro Masterclass" width="240"></a>
+<a href="../projets/student-photographer-stephane-nounamo-travaux.md"><img src="../../public/medias-wiki/projets/student-photographer-stephane-nounamo-travaux/01.webp" alt="Student Photographer (Stéphane Nounamo) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

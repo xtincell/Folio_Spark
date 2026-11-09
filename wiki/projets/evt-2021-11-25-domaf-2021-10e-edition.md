@@ -15,6 +15,8 @@ etat: "standard"
 # DOMAF 2021 — 10e édition
 
 <!-- wiki:infobox -->
+![DOMAF 2021 — 10e édition](../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/01.webp)
+
 | DOMAF 2021 — 10e édition | |
 | --- | --- |
 | Client | [DOMAF — Conseil Camerounais de la Musique](../organisations/domaf-conseil-camerounais-de-la-musique.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 28-29/11/2021 : concerts sous la structure de scène, chorale traditionnelle, soirée dansante en salle.
 - **Identification** : habillage de scène « Domaf — 10e édition » ; logo boombox-tournesol ; enseigne CanalOlympia
 - **Fiabilité** : confirmé / déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/02.webp" alt="DOMAF 2021 — 10e édition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/03.webp" alt="DOMAF 2021 — 10e édition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/04.webp" alt="DOMAF 2021 — 10e édition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/05.webp" alt="DOMAF 2021 — 10e édition" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/06.webp" alt="DOMAF 2021 — 10e édition" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

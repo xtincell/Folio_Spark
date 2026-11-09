@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Sons of the Lions
 
 <!-- wiki:infobox -->
+![Sons of the Lions](../../public/medias-wiki/projets/sons-of-the-lions/01.webp)
+
 | Sons of the Lions | |
 | --- | --- |
 | Client | Projet personnel |

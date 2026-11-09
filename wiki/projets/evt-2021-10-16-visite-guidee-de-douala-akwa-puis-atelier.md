@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : lieu confirmé, organisate
 # Visite guidée de Douala (Akwa) puis atelier
 
 <!-- wiki:infobox -->
+![Visite guidée de Douala (Akwa) puis atelier](../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/01.webp)
+
 | Visite guidée de Douala (Akwa) puis atelier | |
 | --- | --- |
 | Période | 16 octobre 2021 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : lieu confirmé, organisate
 - **Ce que montrent les images** : 16/10/2021 de 11 h 30 à 17 h : explications devant les monuments, tournage, lecture de textes sous une galerie, photo de groupe.
 - **Identification** : enseignes « Acropole boulangerie-pâtisserie », « PfC cosmetics », « La perle noire » (Akwa)
 - **Fiabilité** : lieu confirmé, organisateur inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/02.webp" alt="Visite guidée de Douala (Akwa) puis atelier" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/03.webp" alt="Visite guidée de Douala (Akwa) puis atelier" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/04.webp" alt="Visite guidée de Douala (Akwa) puis atelier" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/05.webp" alt="Visite guidée de Douala (Akwa) puis atelier" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier/06.webp" alt="Visite guidée de Douala (Akwa) puis atelier" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

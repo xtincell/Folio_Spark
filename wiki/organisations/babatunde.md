@@ -9,6 +9,8 @@ etat: "ebauche"
 # Babatunde
 
 <!-- wiki:infobox -->
+![Babatunde](../../public/medias-wiki/projets/babatunde-travaux/01.webp)
+
 | Babatunde | |
 | --- | --- |
 | Nature | Artiste musical |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023.md"><img src="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/01.webp" alt="Concert de Repdoul × Babatunde (13 janvier 2023)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

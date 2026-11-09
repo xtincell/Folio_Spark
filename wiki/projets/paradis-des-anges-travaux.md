@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Paradis des Anges — travaux
 
 <!-- wiki:infobox -->
+![Paradis des Anges — travaux](../../public/medias-wiki/projets/paradis-des-anges-travaux/01.webp)
+
 | Paradis des Anges — travaux | |
 | --- | --- |
 | Client | [Paradis des Anges](../organisations/paradis-des-anges.md) |
@@ -30,6 +32,13 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Paradis des Anges](../organisations/paradis-des-anges.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/paradis-des-anges-travaux/02.webp"><img src="../../public/medias-wiki/projets/paradis-des-anges-travaux/02.webp" alt="Paradis des Anges — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/paradis-des-anges-travaux/03.webp"><img src="../../public/medias-wiki/projets/paradis-des-anges-travaux/03.webp" alt="Paradis des Anges — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

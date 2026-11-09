@@ -358,3 +358,56 @@
     display: none;
   }
 }
+
+/* ------------------------------------------------------------ images */
+.infobox p {
+  margin: 0;
+}
+.infobox p img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  background: #0d0d0d;
+  border-bottom: 1px solid var(--line);
+}
+.prose :global(.wiki-galerie) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 0 0 24px;
+}
+.prose :global(.wiki-galerie) figure {
+  margin: 0;
+  min-width: 0;
+}
+.prose :global(.wiki-galerie) a {
+  display: block;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--surface);
+  text-decoration: none;
+}
+.prose :global(.wiki-galerie) img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.4s ease, opacity 0.2s;
+}
+.prose :global(.wiki-galerie) a:hover img {
+  transform: scale(1.04);
+  opacity: 0.9;
+}
+.prose :global(.wiki-galerie) figcaption {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .prose :global(.wiki-galerie) img {
+    transition: none;
+  }
+}

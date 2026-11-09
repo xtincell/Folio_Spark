@@ -9,6 +9,8 @@ etat: "ebauche"
 # Afrobit
 
 <!-- wiki:infobox -->
+![Afrobit](../../public/medias-wiki/projets/afrobit-travaux/01.webp)
+
 | Afrobit | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/photo-afrobit.md"><img src="https://images.pixieset.com/02359347/25ea342e00b9e27799759ac24f912ac4-large.jpg" alt="AfroBit — galerie photo" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

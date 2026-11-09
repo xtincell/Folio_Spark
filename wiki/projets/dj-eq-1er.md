@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # DJ EQ 1er — visuels
 
 <!-- wiki:infobox -->
+![DJ EQ 1er — visuels](../../public/medias-wiki/projets/dj-eq-1er/01.webp)
+
 | DJ EQ 1er — visuels | |
 | --- | --- |
 | Client | Projet personnel |

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Divine Ebene
 
 <!-- wiki:infobox -->
+![Divine Ebene](../../public/medias-wiki/projets/divine-ebene-travaux/01.webp)
+
 | Divine Ebene | |
 | --- | --- |
 | Nature | À préciser |

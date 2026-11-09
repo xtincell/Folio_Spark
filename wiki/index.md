@@ -2,13 +2,13 @@
 
 # Index
 
-357 projets · 177 organisations · 5 personnes.
+360 projets · 179 organisations · 7 personnes.
 
 - [Par casquette](#par-casquette) · [Par catégorie](#par-catégorie) · [Par client](#par-client) · [Organisations](#organisations)
 
 ## Par casquette
 
-### Stratégie (28)
+### Stratégie (30)
 
 - [Argos Studio](projets/argos-studio.md) — 2026–…
 - [DataCollector](projets/datacollector.md) — 2026–…
@@ -21,11 +21,13 @@
 - [La Fusée — Creative Industry OS](projets/la-fusee.md) — 2025–…
 - [UPgraders — Identité d'agence](projets/upgraders-case.md) — 2025
 - [Geek de brousse (podcast, tests)](projets/podcast-geek-de-brousse.md) — 2024
-- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2024
 - [Xtincell — Marque personnelle](projets/xtincell-brand.md) — 2024–2025
 - [Kemcare — stratégie de marque & lancement](projets/kemcare.md) — 2021–…
-- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2019–2022
+- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2021–2023
 - [Créapreneur (podcast)](projets/creapreneur-podcast.md) — 2018–2021
+- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2018
+- [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016
+- [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020
 - [Creative Next](projets/creative-next.md)
 - [Festival « Ultime » (concept, Riot Games × Japan Expo)](projets/festival-ultime.md)
 - [Festival du Masque (concept)](projets/festival-du-masque.md)
@@ -89,12 +91,12 @@
 - [Apéro Masterclass](projets/apero-masterclass.md) — 2022
 - [Kamer Otaku Festival — éditions 2022 à 2024](projets/kof-2022-2024.md) — 2022–2024
 - [Rue Joss et H3riQ — logos](projets/logos-rue-joss-h3riq.md) — 2022
+- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2021–2022
 - [Cosmos Publishing — travaux](projets/cosmos-publishing-travaux.md) — 2020
 - [Couvertures « Vogue » (exercice, 2020)](projets/couvertures-vogue-2020.md) — 2020
 - [Kanbe — branding](projets/branding-kanbe.md) — 2020
 - [Le Passionné — logo](projets/logo-le-passionne.md) — 2020
 - [Top (SABC) — direction artistique & production](projets/top-sabc.md) — 2020–2022
-- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2016–2022
 - [AI Inktober](projets/ai-inktober.md)
 - [Ambassade du Japon](projets/ambassade-du-japon.md)
 - [BFF Club](projets/bff-club.md)
@@ -118,7 +120,7 @@
 - [Sons of the Lions](projets/sons-of-the-lions.md)
 - [The Battle of the Baddest](projets/battle-of-the-baddest.md)
 
-### Exécution (253)
+### Exécution (254)
 
 - [Arc en Ciel — travaux](projets/arc-en-ciel-travaux.md) — 2026
 - [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md) — 2026
@@ -329,6 +331,7 @@
 - [Visite et reportage d'un complexe sportif neuf](projets/evt-2021-08-04-visite-et-reportage-d-un-complexe-sportif-neuf.md) — 2021
 - [Visite guidée de Douala (Akwa) puis atelier](projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier.md) — 2021
 - [Afritube (Ramounam) — travaux](projets/afritube-ramounam-travaux.md) — 2020
+- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2020–2023
 - [Concert de fin d'année en plein air (classé « TayC, décembre 2020 », déduit)](projets/evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md) — 2020
 - [Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)](projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2.md) — 2020
 - [Dena Mwana 2021 — travaux](projets/dena-mwana-2021-travaux.md) — 2020–2021
@@ -341,9 +344,8 @@
 - [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018
 - [BlackNote Web](projets/blacknote-web.md) — 2015
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
-- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2014–2020
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
-- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md) — 2013–2018
+- [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022
 - [AfroBit — galerie photo](projets/photo-afrobit.md)
 - [AMMCO — galerie photo](projets/photo-ammco.md)
@@ -365,6 +367,7 @@
 - [Lydol — galerie photo](projets/photo-lydol.md)
 - [Mounpoubeyi — galerie photo](projets/photo-mounpoubeyi.md)
 - [Oasis Art — travaux](projets/oasis-art-travaux.md)
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md)
 - [Photographie de mariage](projets/photographie-de-mariage.md)
 - [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md)
 - [Portfolio photo personnel](projets/portfolio-photo-personnel.md)
@@ -437,14 +440,16 @@
 - [Photographie de mariage](projets/photographie-de-mariage.md)
 - [Portfolio photo personnel](projets/portfolio-photo-personnel.md)
 
-### Édition (4)
+### Édition (6)
 
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
 - [La Fusée — Blueprint](projets/la-fusee-blueprint.md) — 2026–…
+- [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016
+- [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020
 - [Darkling Stories](projets/darkling-stories.md)
 - [République de Mbengola](projets/republique-de-mbengola.md)
 
-### Événement (102)
+### Événement (103)
 
 - [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md) — 2026
 - [Vernissage et résidence d'artistes (janvier 2026)](projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026.md) — 2026
@@ -541,6 +546,7 @@
 - [Visite guidée de Douala (Akwa) puis atelier](projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier.md) — 2021
 - [Concert de fin d'année en plein air (classé « TayC, décembre 2020 », déduit)](projets/evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md) — 2020
 - [Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)](projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2.md) — 2020
+- [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [Concert gospel « Acts of Worship » (AOW)](projets/evt-sans-date-concert-gospel-acts-of-worship-aow.md)
 - [Concerts à CanalOlympia (exports reçus) et portraits](projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits.md)
 - [Festival « Ultime » (concept, Riot Games × Japan Expo)](projets/festival-ultime.md)
@@ -568,12 +574,12 @@
 
 ### Mission (8)
 
-- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2024
 - [Kamer Otaku Festival — éditions 2022 à 2024](projets/kof-2022-2024.md) — 2022–2024
 - [Kemcare — stratégie de marque & lancement](projets/kemcare.md) — 2021–…
+- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2021–2023
+- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2021–2022
 - [Top (SABC) — direction artistique & production](projets/top-sabc.md) — 2020–2022
-- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2019–2022
-- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2016–2022
+- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2018
 - [Retlaw × HoHaaa Music — clip](projets/retlaw-clip.md)
 - [Shakazz — lancement de marque](projets/shakazz.md)
 
@@ -714,6 +720,7 @@
 - [Umdeny Corp — travaux](projets/umdeny-corp-travaux.md) — 2021
 - [UNESCO — travaux](projets/unesco-travaux.md) — 2021
 - [Afritube (Ramounam) — travaux](projets/afritube-ramounam-travaux.md) — 2020
+- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2020–2023
 - [Dena Mwana 2021 — travaux](projets/dena-mwana-2021-travaux.md) — 2020–2021
 - [Indira (artiste) — travaux](projets/indira-artiste-travaux.md) — 2020–2021
 - [Keyzit — travaux](projets/keyzit-travaux.md) — 2020
@@ -723,9 +730,7 @@
 - [THC — travaux](projets/thc-travaux.md) — 2020
 - [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
-- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2014–2020
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
-- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md) — 2013–2018
 - [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022
 - [AO (SpearHead) — travaux](projets/ao-spearhead-travaux.md)
 - [BuildSmart — travaux](projets/buildsmart-travaux.md)
@@ -737,6 +742,7 @@
 - [KMC — travaux](projets/kmc-travaux.md)
 - [My Crazy Life (sitcom)](projets/sitcom-my-crazy-life.md)
 - [Oasis Art — travaux](projets/oasis-art-travaux.md)
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md)
 - [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md)
 - [Restaurant Isa — travaux](projets/restaurant-isa-travaux.md)
 - [TJC — travaux](projets/tjc-travaux.md)
@@ -929,7 +935,7 @@
 
 ### Chococam (1)
 
-- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2014–2020
+- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2020–2023
 
 ### Cimencam (2)
 
@@ -1340,7 +1346,7 @@
 
 - [MOTION19 — Boutique audiovisuelle](projets/motion19-store.md) — 2025
 - [ToukyCon 2022 — conférence, panels et shooting de mode](projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode.md) — 2022
-- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2019–2022
+- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2021–2023
 
 ### Mounpoubeyi (4)
 
@@ -1404,7 +1410,7 @@
 ### Orange Cameroun (2)
 
 - [Orange Cameroun — événements 2025–2026](projets/orange-evenements-2025-2026.md) — 2025–2026
-- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md) — 2013–2018
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md)
 
 ### Panzani Cameroun (1)
 
@@ -1426,7 +1432,7 @@
 
 - [Primo Ice — travaux](projets/primo-ice-travaux.md) — 2024
 
-### Projets personnels (53)
+### Projets personnels (56)
 
 - [15B Stories](projets/15b-stories.md) — 2026–…
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
@@ -1455,7 +1461,10 @@
 - [Kanbe — branding](projets/branding-kanbe.md) — 2020
 - [Le Passionné — logo](projets/logo-le-passionne.md) — 2020
 - [Créapreneur (podcast)](projets/creapreneur-podcast.md) — 2018–2021
+- [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016
 - [BlackNote Web](projets/blacknote-web.md) — 2015
+- [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020
+- [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [AI Inktober](projets/ai-inktober.md)
 - [Call the Ambulance](projets/call-the-ambulance.md)
 - [Creative Next](projets/creative-next.md)
@@ -1544,7 +1553,7 @@
 
 ### Studio Graphique 44 (1)
 
-- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2024
+- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2018
 
 ### Talk Paix (CFI) (6)
 
@@ -1609,7 +1618,7 @@
 - [Locko — session d'écoute de l'album « Era » sur un rooftop](projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop.md) — 2021
 - [Mimie — tournée promo du single « Faya »](projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya.md) — 2021
 - [Singuila — séance d'écoute de l'album « Docteur Love »](projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love.md) — 2021
-- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2016–2022
+- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2021–2022
 - [Locko — galerie photo](projets/photo-locko.md)
 
 ### UPgraders (11)
@@ -1662,13 +1671,15 @@
 
 - [UPgraders](organisations/upgraders.md) — 2017–… · 220 projet(s)
 
-### Employeur (5)
+### Employeur (7)
 
 - [Bimstr Agency](organisations/bimstr.md) — 2019–2021 · 0 projet(s)
+- [Intelcia](organisations/intelcia.md) — 2015–2016 · 0 projet(s)
 - [MATANGA Agency](organisations/matanga-agency.md) — 2025–… · 18 projet(s)
 - [Motion19](organisations/motion19.md) — 2021–2023 · 3 projet(s)
+- [Sellkako](organisations/sellkako.md) — 2016 · 0 projet(s)
 - [Studio Graphique 44](organisations/studio44.md) — 2018 · 1 projet(s)
-- [Will & Brothers (Sellkako)](organisations/will-and-brothers.md) — 2017–2019 · 0 projet(s)
+- [Will & Brothers Consulting](organisations/will-and-brothers.md) — 2018 · 0 projet(s)
 
 ### Client (165)
 
@@ -1694,7 +1705,7 @@
 - [Audrey Obey](organisations/audrey-obey.md) · 1 projet(s)
 - [Babatunde](organisations/babatunde.md) · 2 projet(s)
 - [BAMS & BTP](organisations/bams-btp.md) · 1 projet(s)
-- [BanaHealth](organisations/banahealth.md) · 1 projet(s)
+- [BanaHealth](organisations/banahealth.md) — 2017 · 1 projet(s)
 - [BCSnU — Grand défilé](organisations/bcsnu-grand-defile.md) · 2 projet(s)
 - [BEFOUNE](organisations/befoune.md) · 1 projet(s)
 - [BuildSmart](organisations/buildsmart.md) · 1 projet(s)
@@ -1705,7 +1716,7 @@
 - [Cap Esterias](organisations/cap-esterias.md) · 1 projet(s)
 - [CAPI Cameroun](organisations/capi-cameroun.md) · 1 projet(s)
 - [CFAO Mobility Cameroon](organisations/cfao-mobility-cameroon.md) · 1 projet(s)
-- [Chococam](organisations/chococam.md) — 2014–2020 · 1 projet(s)
+- [Chococam](organisations/chococam.md) — 2020–2023 · 1 projet(s)
 - [Cimencam](organisations/cimencam.md) · 2 projet(s)
 - [CLR Sneakers](organisations/clr-sneakers.md) · 1 projet(s)
 - [CMR Discovery](organisations/cmr-discovery.md) · 1 projet(s)
@@ -1759,7 +1770,7 @@
 - [JPN Advisors](organisations/jpn-advisors.md) · 1 projet(s)
 - [K Hotel](organisations/k-hotel.md) · 2 projet(s)
 - [KACOD Urban 237](organisations/kacod-urban-237.md) · 2 projet(s)
-- [Kamer Otaku Festival (KOF)](organisations/kamer-otaku-festival.md) · 10 projet(s)
+- [Kamer Otaku Festival (KOF)](organisations/kamer-otaku-festival.md) — 2022 · 10 projet(s)
 - [KEAMS](organisations/keams.md) · 1 projet(s)
 - [Kemcare](organisations/kemcare.md) · 1 projet(s)
 - [Keyzit](organisations/keyzit.md) · 1 projet(s)
@@ -1796,7 +1807,7 @@
 - [NYAMA](organisations/nyama.md) · 1 projet(s)
 - [Oasis Art](organisations/oasis-art.md) · 1 projet(s)
 - [Oceanis Kribi](organisations/oceanis-kribi.md) · 1 projet(s)
-- [Orange Cameroun](organisations/orange-cameroun.md) — 2013–2018 · 2 projet(s)
+- [Orange Cameroun](organisations/orange-cameroun.md) — 2025–2026 · 2 projet(s)
 - [Panzani Cameroun](organisations/panzani-cameroun.md) · 1 projet(s)
 - [Paradis des Anges](organisations/paradis-des-anges.md) · 1 projet(s)
 - [Paulhan Wetbe](organisations/paulhan-wetbe.md) · 1 projet(s)
@@ -1829,7 +1840,7 @@
 - [U'TAM Complexe](organisations/u-tam-complexe.md) · 1 projet(s)
 - [Umdeny Corp](organisations/umdeny-corp.md) · 1 projet(s)
 - [UNESCO](organisations/unesco.md) · 2 projet(s)
-- [Universal Music Africa](organisations/universal-music-africa.md) — 2016–2022 · 8 projet(s)
+- [Universal Music Africa](organisations/universal-music-africa.md) — 2021–2022 · 8 projet(s)
 - [Vibe House](organisations/vibe-house.md) · 1 projet(s)
 - [Villa Corso](organisations/villa-corso.md) · 1 projet(s)
 - [Voilà Moi](organisations/voila-moi.md) · 2 projet(s)
@@ -1847,7 +1858,7 @@
 
 ### Partenaire (1)
 
-- [Friends Photography Studio](organisations/friends-studio.md) — 2023–… · 8 projet(s)
+- [Friends Photography Studio](organisations/friends-studio.md) — 2020–… · 8 projet(s)
 
 ### Formation (1)
 

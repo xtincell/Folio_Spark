@@ -16,6 +16,8 @@ etat: "ebauche"
 # Tradex 2T — « Moto no di fail »
 
 <!-- wiki:infobox -->
+![Tradex 2T — « Moto no di fail »](../../public/work/cases/tradex/hero.webp)
+
 | Tradex 2T — « Moto no di fail » | |
 | --- | --- |
 | Client | [Tradex](../organisations/tradex.md) |
@@ -33,6 +35,15 @@ etat: "ebauche"
 ## Contexte
 
 Key visual publicitaire pour l'huile moteur 2 temps Tradex « 2T JASO FC », ciblant les conducteurs de moto-taxi avec un motard souriant et la signature pidgin « Moto no di fail ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/tradex/01.webp"><img src="../../public/work/cases/tradex/01.webp" alt="Tradex 2T — « Moto no di fail »" width="240"></a>
+<a href="../../public/work/cases/tradex/02.webp"><img src="../../public/work/cases/tradex/02.webp" alt="Tradex 2T — « Moto no di fail »" width="240"></a>
+<a href="../../public/work/cases/tradex/03.webp"><img src="../../public/work/cases/tradex/03.webp" alt="Tradex 2T — « Moto no di fail »" width="240"></a>
+<a href="../../public/work/cases/tradex/04.webp"><img src="../../public/work/cases/tradex/04.webp" alt="Tradex 2T — « Moto no di fail »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

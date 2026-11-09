@@ -15,6 +15,8 @@ etat: "standard"
 # Festival et symposium Street Whale 2022
 
 <!-- wiki:infobox -->
+![Festival et symposium Street Whale 2022](../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/01.webp)
+
 | Festival et symposium Street Whale 2022 | |
 | --- | --- |
 | Client | [AMMCO](../organisations/ammco.md) |
@@ -42,6 +44,16 @@ etat: "standard"
   - 08-11/06/2022 : rushes vidéo des débats, du concert sous tente, du nettoyage de plage, de la sculpture de poisson et du beach-volley.
 - **Identification** : badges, roll-up « Stop IUU fishing in Cameroon », pupitre « Hôtel Sawa Douala »
 - **Fiabilité** : confirmé / confirmé (sélection) / déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/02.webp" alt="Festival et symposium Street Whale 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/03.webp" alt="Festival et symposium Street Whale 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/04.webp" alt="Festival et symposium Street Whale 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/05.webp" alt="Festival et symposium Street Whale 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/06.webp" alt="Festival et symposium Street Whale 2022" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Talk Paix (CFI)
 
 <!-- wiki:infobox -->
+![Talk Paix (CFI)](../../public/medias-wiki/projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate/01.webp)
+
 | Talk Paix (CFI) | |
 | --- | --- |
 | Nature | Programme médias de CFI (Talk Paix) |
@@ -22,6 +24,16 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou.md"><img src="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/01.webp" alt="Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)" width="240"></a>
+<a href="../projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023.md"><img src="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/01.webp" alt="Talk Paix (CFI) — atelier de Limbé (octobre 2023)" width="240"></a>
+<a href="../projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023.md"><img src="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/01.webp" alt="Talk Paix (CFI) — atelier des médias (22-23 mars 2023)" width="240"></a>
+<a href="../projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma.md"><img src="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/01.webp" alt="Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »" width="240"></a>
+<a href="../projets/talk-paix-cfi-travaux.md"><img src="../../public/medias-wiki/projets/talk-paix-cfi-travaux/01.webp" alt="Talk Paix (CFI) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

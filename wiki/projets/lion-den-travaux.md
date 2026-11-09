@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # LION DEN — travaux
 
 <!-- wiki:infobox -->
+![LION DEN — travaux](../../public/medias-wiki/projets/lion-den-travaux/01.webp)
+
 | LION DEN — travaux | |
 | --- | --- |
 | Client | [LION DEN](../organisations/lion-den.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [LION DEN](../organisations/lion-den.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/lion-den-travaux/02.webp"><img src="../../public/medias-wiki/projets/lion-den-travaux/02.webp" alt="LION DEN — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/lion-den-travaux/03.webp"><img src="../../public/medias-wiki/projets/lion-den-travaux/03.webp" alt="LION DEN — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/lion-den-travaux/04.webp"><img src="../../public/medias-wiki/projets/lion-den-travaux/04.webp" alt="LION DEN — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/lion-den-travaux/05.webp"><img src="../../public/medias-wiki/projets/lion-den-travaux/05.webp" alt="LION DEN — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/lion-den-travaux/06.webp"><img src="../../public/medias-wiki/projets/lion-den-travaux/06.webp" alt="LION DEN — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

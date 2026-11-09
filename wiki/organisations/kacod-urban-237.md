@@ -9,6 +9,8 @@ etat: "ebauche"
 # KACOD Urban 237
 
 <!-- wiki:infobox -->
+![KACOD Urban 237](../../public/medias-wiki/projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237/01.webp)
+
 | KACOD Urban 237 | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/kacod-urban-237-travaux.md"><img src="../../public/medias-wiki/projets/kacod-urban-237-travaux/01.webp" alt="KACOD Urban 237 — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

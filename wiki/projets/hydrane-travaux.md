@@ -12,6 +12,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Hydrane — travaux
 
 <!-- wiki:infobox -->
+![Hydrane — travaux](../../public/medias-wiki/projets/hydrane-travaux/01.webp)
+
 | Hydrane — travaux | |
 | --- | --- |
 | Client | [Hydrane](../organisations/hydrane.md) |
@@ -27,6 +29,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Hydrane](../organisations/hydrane.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/hydrane-travaux/02.webp"><img src="../../public/medias-wiki/projets/hydrane-travaux/02.webp" alt="Hydrane — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/hydrane-travaux/03.webp"><img src="../../public/medias-wiki/projets/hydrane-travaux/03.webp" alt="Hydrane — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/hydrane-travaux/04.webp"><img src="../../public/medias-wiki/projets/hydrane-travaux/04.webp" alt="Hydrane — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/hydrane-travaux/05.webp"><img src="../../public/medias-wiki/projets/hydrane-travaux/05.webp" alt="Hydrane — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/hydrane-travaux/06.webp"><img src="../../public/medias-wiki/projets/hydrane-travaux/06.webp" alt="Hydrane — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

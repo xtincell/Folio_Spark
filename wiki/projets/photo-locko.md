@@ -7,6 +7,7 @@ client: "universal-music-africa"
 genre: "Portrait · Musique"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/locko/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/00546347/2f91b10e3e9dfefef6f3efec084c67d5-large.jpg"
 etat: "ebauche"
 verifier: ["Date de la séance absente de Pixieset."]
 parent: "uma-artistes"
@@ -14,6 +15,8 @@ parent: "uma-artistes"
 # Locko — galerie photo
 
 <!-- wiki:infobox -->
+![Locko — galerie photo](https://images.pixieset.com/00546347/2f91b10e3e9dfefef6f3efec084c67d5-large.jpg)
+
 | Locko — galerie photo | |
 | --- | --- |
 | Client | [Universal Music Africa](../organisations/universal-music-africa.md) |

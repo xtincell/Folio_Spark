@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Keyzit — travaux
 
 <!-- wiki:infobox -->
+![Keyzit — travaux](../../public/medias-wiki/projets/keyzit-travaux/01.webp)
+
 | Keyzit — travaux | |
 | --- | --- |
 | Client | [Keyzit](../organisations/keyzit.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Keyzit](../organisations/keyzit.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/keyzit-travaux/02.webp"><img src="../../public/medias-wiki/projets/keyzit-travaux/02.webp" alt="Keyzit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/keyzit-travaux/03.webp"><img src="../../public/medias-wiki/projets/keyzit-travaux/03.webp" alt="Keyzit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/keyzit-travaux/04.webp"><img src="../../public/medias-wiki/projets/keyzit-travaux/04.webp" alt="Keyzit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/keyzit-travaux/05.webp"><img src="../../public/medias-wiki/projets/keyzit-travaux/05.webp" alt="Keyzit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/keyzit-travaux/06.webp"><img src="../../public/medias-wiki/projets/keyzit-travaux/06.webp" alt="Keyzit — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

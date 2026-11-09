@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Soirée DJ « Quartier Mozart » et ramen « Afro »
 
 <!-- wiki:infobox -->
+![Soirée DJ « Quartier Mozart » et ramen « Afro »](../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/01.webp)
+
 | Soirée DJ « Quartier Mozart » et ramen « Afro » | |
 | --- | --- |
 | Période | 8 octobre 2021 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : 08/10/2021 de 18 h 30 à 22 h : affiche du menu ramen, bols de ramen, set DJ devant le rideau « Quartier Mozart », puis séance photo d'une invitée.
 - **Identification** : rideau « Quartier Mozart » ; affiche « Afro » (ramen)
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/02.webp" alt="Soirée DJ « Quartier Mozart » et ramen « Afro »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/03.webp" alt="Soirée DJ « Quartier Mozart » et ramen « Afro »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/04.webp" alt="Soirée DJ « Quartier Mozart » et ramen « Afro »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/05.webp" alt="Soirée DJ « Quartier Mozart » et ramen « Afro »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro/06.webp" alt="Soirée DJ « Quartier Mozart » et ramen « Afro »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

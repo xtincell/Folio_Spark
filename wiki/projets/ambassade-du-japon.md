@@ -12,6 +12,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # Ambassade du Japon
 
 <!-- wiki:infobox -->
+![Ambassade du Japon](../../public/work/historique/02-japan-embassy/02-japan-embassy-01.jpg)
+
 | Ambassade du Japon | |
 | --- | --- |
 | Client | [Ambassade du Japon](../organisations/ambassade-du-japon.md) |
@@ -26,6 +28,12 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/historique/02-japan-embassy/02-japan-embassy-02.jpg"><img src="../../public/work/historique/02-japan-embassy/02-japan-embassy-02.jpg" alt="Ambassade du Japon" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

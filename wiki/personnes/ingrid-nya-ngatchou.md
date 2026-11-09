@@ -8,6 +8,8 @@ etat: "ebauche"
 # Ingrid Nya Ngatchou
 
 <!-- wiki:infobox -->
+![Ingrid Nya Ngatchou](../../public/work/historique/01-upgraders-agency/01-upgraders-agency-01.jpg)
+
 | Ingrid Nya Ngatchou | |
 | --- | --- |
 | Rôle | Co-fondatrice d'UPgraders, CEO jusqu'en 2023 |
@@ -26,5 +28,5 @@ etat: "ebauche"
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](alexandre-djengue.md) · [UPgraders](../organisations/upgraders.md)
+**Pages liées** : [UPgraders](../organisations/upgraders.md)
 <!-- /wiki:liens-entrants -->

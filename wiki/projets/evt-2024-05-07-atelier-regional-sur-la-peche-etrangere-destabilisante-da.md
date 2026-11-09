@@ -15,6 +15,8 @@ etat: "standard"
 # Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée
 
 <!-- wiki:infobox -->
+![Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée](../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/01.webp)
+
 | Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée | |
 | --- | --- |
 | Client | [AMMCO](../organisations/ammco.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 07/05/2024 : même atelier que le n° 7, version livrée (« spark_0705202… »).
 - **Identification** : roll-ups « Promouvoir les capacités locales pour remédier aux impacts déstabilisants de navires de pêche étrangers dans le golfe de Guinée et en Mauritanie », « Maritime Law & Security 10 » ; chevalets nominatifs
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/02.webp" alt="Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/03.webp" alt="Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/04.webp" alt="Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/05.webp" alt="Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/06.webp" alt="Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

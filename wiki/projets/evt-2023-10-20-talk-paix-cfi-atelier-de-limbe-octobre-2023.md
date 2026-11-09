@@ -15,6 +15,8 @@ etat: "standard"
 # Talk Paix (CFI) — atelier de Limbé (octobre 2023)
 
 <!-- wiki:infobox -->
+![Talk Paix (CFI) — atelier de Limbé (octobre 2023)](../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/01.webp)
+
 | Talk Paix (CFI) — atelier de Limbé (octobre 2023) | |
 | --- | --- |
 | Client | [Talk Paix (CFI)](../organisations/talk-paix-cfi.md) |
@@ -39,6 +41,16 @@ etat: "standard"
   - 20/10/2023 de 7 h à 15 h : RAW de la dernière journée (voir le n° 38).
 - **Identification** : roll-up « Talk Paix — Talk Peace » ; même date que les rushes « Limbe » sur P:
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/02.webp" alt="Talk Paix (CFI) — atelier de Limbé (octobre 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/03.webp" alt="Talk Paix (CFI) — atelier de Limbé (octobre 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/04.webp" alt="Talk Paix (CFI) — atelier de Limbé (octobre 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/05.webp" alt="Talk Paix (CFI) — atelier de Limbé (octobre 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023/06.webp" alt="Talk Paix (CFI) — atelier de Limbé (octobre 2023)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

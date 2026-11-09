@@ -8,6 +8,8 @@ etat: "ebauche"
 # Spawt
 
 <!-- wiki:infobox -->
+![Spawt](../../public/work/cases/spawt/hero.webp)
+
 | Spawt | |
 | --- | --- |
 | Nature | Start-up (application mobile) |

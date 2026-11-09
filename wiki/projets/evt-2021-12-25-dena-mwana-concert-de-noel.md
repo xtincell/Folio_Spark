@@ -15,6 +15,8 @@ etat: "standard"
 # Dena Mwana — concert de Noël
 
 <!-- wiki:infobox -->
+![Dena Mwana — concert de Noël](../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/01.webp)
+
 | Dena Mwana — concert de Noël | |
 | --- | --- |
 | Client | [Dena Mwana 2021](../organisations/dena-mwana-2021.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Concert gospel du 25/12/2021 au soir : Dena Mwana en tenue argentée, chorale en noir, répétition dans la salle, photo de groupe.
 - **Identification** : dossier client « Dena Mwana 2021 » ; date 25/12/2021, tombe dans la programmation de fin d'année de CanalOlympia
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/02.webp" alt="Dena Mwana — concert de Noël" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/03.webp" alt="Dena Mwana — concert de Noël" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/04.webp" alt="Dena Mwana — concert de Noël" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/05.webp" alt="Dena Mwana — concert de Noël" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/06.webp" alt="Dena Mwana — concert de Noël" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

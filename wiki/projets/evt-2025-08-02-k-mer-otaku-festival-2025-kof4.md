@@ -15,6 +15,8 @@ etat: "standard"
 # K-mer Otaku Festival 2025 (KOF4)
 
 <!-- wiki:infobox -->
+![K-mer Otaku Festival 2025 (KOF4)](../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/01.webp)
+
 | K-mer Otaku Festival 2025 (KOF4) | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -41,6 +43,16 @@ etat: "standard"
   - 02-04/08/2025 : vidéos du festival.
 - **Identification** : filigrane « KOF 25 » sur chaque photo ; mur des sponsors
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/02.webp"><img src="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/02.webp" alt="K-mer Otaku Festival 2025 (KOF4)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/03.webp"><img src="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/03.webp" alt="K-mer Otaku Festival 2025 (KOF4)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/04.webp"><img src="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/04.webp" alt="K-mer Otaku Festival 2025 (KOF4)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/05.webp"><img src="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/05.webp" alt="K-mer Otaku Festival 2025 (KOF4)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/06.webp"><img src="../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/06.webp" alt="K-mer Otaku Festival 2025 (KOF4)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

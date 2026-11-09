@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Charadesign Challenge (2024)
 
 <!-- wiki:infobox -->
+![Charadesign Challenge (2024)](../../public/medias-wiki/projets/charadesign-challenge-2024/01.webp)
+
 | Charadesign Challenge (2024) | |
 | --- | --- |
 | Client | Projet personnel |
@@ -28,6 +30,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/charadesign-challenge-2024/02.webp"><img src="../../public/medias-wiki/projets/charadesign-challenge-2024/02.webp" alt="Charadesign Challenge (2024)" width="240"></a>
+<a href="../../public/medias-wiki/projets/charadesign-challenge-2024/03.webp"><img src="../../public/medias-wiki/projets/charadesign-challenge-2024/03.webp" alt="Charadesign Challenge (2024)" width="240"></a>
+<a href="../../public/medias-wiki/projets/charadesign-challenge-2024/04.webp"><img src="../../public/medias-wiki/projets/charadesign-challenge-2024/04.webp" alt="Charadesign Challenge (2024)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

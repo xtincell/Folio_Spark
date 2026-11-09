@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # 916 Web Talk « Lust » — storyboard
 
 <!-- wiki:infobox -->
+![916 Web Talk « Lust » — storyboard](../../public/medias-wiki/projets/storyboard-916-web-talk/01.webp)
+
 | 916 Web Talk « Lust » — storyboard | |
 | --- | --- |
 | Client | Projet personnel |
@@ -28,6 +30,13 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/storyboard-916-web-talk/02.webp"><img src="../../public/medias-wiki/projets/storyboard-916-web-talk/02.webp" alt="916 Web Talk « Lust » — storyboard" width="240"></a>
+<a href="../../public/medias-wiki/projets/storyboard-916-web-talk/03.webp"><img src="../../public/medias-wiki/projets/storyboard-916-web-talk/03.webp" alt="916 Web Talk « Lust » — storyboard" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

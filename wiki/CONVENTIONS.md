@@ -63,6 +63,8 @@ Une clé par ligne. Les textes, listes et objets s’écrivent en JSON (`"texte"
 | `liens` | non | `[{"label":"Clip YouTube","url":"https://…"}]` |
 | `medias` | non | dossiers de visuels dans le repo : `["public/work/cases/ecobank"]` |
 | `sources` | non | origine des données : `["folio:cases.spec.json","cv"]` |
+| `image` | non | image principale : chemin du repo (`"public/portrait.jpg"`) ou URL |
+| `couverture` | non | URL d’une couverture externe (galerie Pixieset) |
 | `verifier` | non | points à trancher : `["Année absente des sources."]` |
 
 ### Organisation (`wiki/organisations/`)
@@ -85,6 +87,7 @@ Le script remplit ces blocs. Tout ce qui est en dehors n’est jamais touché.
 | `<!-- wiki:projets -->` | Sur une organisation ou une personne : les projets rattachés. |
 | `<!-- wiki:liens-entrants -->` | Les fiches qui pointent vers celle-ci. |
 | `<!-- wiki:stats -->` | Les chiffres du portail. |
+| `<!-- wiki:galerie -->` | La galerie de la fiche (section « Galerie », ajoutée ou retirée automatiquement). Sur une organisation : une image par projet rattaché. |
 | `<!-- wiki:archives -->` | Le relevé des dossiers de travail sur les disques (voir ci-dessous). Écrit par `scripts/wiki-disques.py`, pas par `npm run wiki`. |
 
 ## Modèle de fiche projet
@@ -150,3 +153,23 @@ Le script ne modifie jamais les disques. Côté wiki, il :
 - ne réécrit jamais une fiche existante : il met seulement à jour les blocs `wiki:archives`.
 
 Par discrétion, il ne publie ni factures, devis, contrats, pièces administratives ou listes de contacts, ni les noms des commandes privées (mariages, anniversaires, obsèques…), qui sont seulement comptées.
+
+## Images
+
+Chaque fiche affiche une image dans son infobox et une galerie. Le build les rassemble dans cet ordre :
+
+1. la sélection extraite des disques, dans `public/medias-wiki/<projets|organisations>/<slug>/` ;
+2. le champ `image`, puis `couverture` (Pixieset) ;
+3. les images des dossiers listés dans `medias` (visuels du folio dans `public/work/…`) ;
+4. les vignettes des vidéos YouTube citées dans `liens`.
+
+Pour ajouter des images à une fiche, il suffit de déposer des fichiers WebP ou JPEG dans `public/medias-wiki/projets/<slug>/`, puis de lancer `npm run wiki`.
+
+La sélection depuis les disques se fait avec :
+
+```bash
+python scripts/wiki-medias.py          # extrait ce qui manque (jusqu’à 6 images par fiche, 1 200 px, WebP)
+python scripts/wiki-medias.py --force  # refait toutes les sélections
+```
+
+Le script lit les disques sans les modifier. Il répartit son choix sur tout le dossier, en préférant les exports JPEG. Il lit les RAW Canon via leur aperçu intégré (exiftool) et tire une image clé des vidéos (ffmpeg). Les pièces administratives et les commandes privées sont exclues.

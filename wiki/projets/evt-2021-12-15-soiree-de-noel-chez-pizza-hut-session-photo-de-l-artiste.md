@@ -15,6 +15,8 @@ etat: "standard"
 # Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty
 
 <!-- wiki:infobox -->
+![Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty](../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/01.webp)
+
 | Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty | |
 | --- | --- |
 | Client | [FUL](../organisations/ful.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 15/12/2021 de 20 h 16 à 20 h 43 : décor de Noël rouge et blanc devant le logo « Original Pan Pizza », d'abord l'artiste FUL en veste de cuir et chemise orange (_MG_5718-5763), puis les portraits de Genty en haut argenté (_MG_5764-6299), avec ses amis.
 - **Identification** : logo « Original Pan Pizza » (Pizza Hut) ; JPG livrés _MG_5720-5760 dans FUL\2021 (clip « 1211 ») et _MG_5946-6262 dans « 2021 — Genty (archive Spark) » sur C:
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/02.webp" alt="Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/03.webp" alt="Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/04.webp" alt="Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/05.webp" alt="Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/06.webp" alt="Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

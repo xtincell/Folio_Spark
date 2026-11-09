@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Talk Paix (CFI) — travaux
 
 <!-- wiki:infobox -->
+![Talk Paix (CFI) — travaux](../../public/medias-wiki/projets/talk-paix-cfi-travaux/01.webp)
+
 | Talk Paix (CFI) — travaux | |
 | --- | --- |
 | Client | [Talk Paix (CFI)](../organisations/talk-paix-cfi.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Talk Paix (CFI)](../organisations/talk-paix-cfi.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/talk-paix-cfi-travaux/02.webp"><img src="../../public/medias-wiki/projets/talk-paix-cfi-travaux/02.webp" alt="Talk Paix (CFI) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/talk-paix-cfi-travaux/03.webp"><img src="../../public/medias-wiki/projets/talk-paix-cfi-travaux/03.webp" alt="Talk Paix (CFI) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/talk-paix-cfi-travaux/04.webp"><img src="../../public/medias-wiki/projets/talk-paix-cfi-travaux/04.webp" alt="Talk Paix (CFI) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/talk-paix-cfi-travaux/05.webp"><img src="../../public/medias-wiki/projets/talk-paix-cfi-travaux/05.webp" alt="Talk Paix (CFI) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/talk-paix-cfi-travaux/06.webp"><img src="../../public/medias-wiki/projets/talk-paix-cfi-travaux/06.webp" alt="Talk Paix (CFI) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

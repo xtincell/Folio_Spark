@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Lord Soda — travaux
 
 <!-- wiki:infobox -->
+![Lord Soda — travaux](../../public/medias-wiki/projets/lord-soda-travaux/01.webp)
+
 | Lord Soda — travaux | |
 | --- | --- |
 | Client | [Lord Soda](../organisations/lord-soda.md) |
@@ -30,6 +32,12 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Lord Soda](../organisations/lord-soda.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/lord-soda-travaux/02.webp"><img src="../../public/medias-wiki/projets/lord-soda-travaux/02.webp" alt="Lord Soda — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

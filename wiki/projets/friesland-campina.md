@@ -16,6 +16,8 @@ etat: "standard"
 # Peak & Bonnet Rouge — Campagnes saisonnières
 
 <!-- wiki:infobox -->
+![Peak & Bonnet Rouge — Campagnes saisonnières](../../public/work/cases/friesland-campina/hero.webp)
+
 | Peak & Bonnet Rouge — Campagnes saisonnières | |
 | --- | --- |
 | Client | [FrieslandCampina](../organisations/frieslandcampina.md) |
@@ -41,6 +43,31 @@ Direction artistique au sein de MATANGA Agency pour les marques Peak et Bonnet R
 ## Résultat
 
 Des créations pour Ramadan, Noël, la performance sportive et la Journée mondiale du lait. Le dossier réunit les visuels principaux, les affiches promotionnelles et les déclinaisons pour les deux marques.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/friesland-campina/01.webp"><img src="../../public/work/cases/friesland-campina/01.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/cases/friesland-campina/02.webp"><img src="../../public/work/cases/friesland-campina/02.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/cases/friesland-campina/03.webp"><img src="../../public/work/cases/friesland-campina/03.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/cases/friesland-campina/04.webp"><img src="../../public/work/cases/friesland-campina/04.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/cases/friesland-campina/05.webp"><img src="../../public/work/cases/friesland-campina/05.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/cases/friesland-campina/06.webp"><img src="../../public/work/cases/friesland-campina/06.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/cases/friesland-campina/07.webp"><img src="../../public/work/cases/friesland-campina/07.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/cases/friesland-campina/08.webp"><img src="../../public/work/cases/friesland-campina/08.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/peak/peak-01.webp"><img src="../../public/work/peak/peak-01.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/peak/peak-02.jpg"><img src="../../public/work/peak/peak-02.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/peak/peak-03.jpg"><img src="../../public/work/peak/peak-03.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/peak/peak-04.webp"><img src="../../public/work/peak/peak-04.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/peak/peak-05.jpg"><img src="../../public/work/peak/peak-05.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/peak/peak-06.jpg"><img src="../../public/work/peak/peak-06.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/bonnet-rouge/bonnet-rouge-01.jpg"><img src="../../public/work/bonnet-rouge/bonnet-rouge-01.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/bonnet-rouge/bonnet-rouge-02.jpg"><img src="../../public/work/bonnet-rouge/bonnet-rouge-02.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/bonnet-rouge/bonnet-rouge-03.jpg"><img src="../../public/work/bonnet-rouge/bonnet-rouge-03.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/bonnet-rouge/bonnet-rouge-04.jpg"><img src="../../public/work/bonnet-rouge/bonnet-rouge-04.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/bonnet-rouge/bonnet-rouge-05.jpg"><img src="../../public/work/bonnet-rouge/bonnet-rouge-05.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../../public/work/bonnet-rouge/bonnet-rouge-06.jpg"><img src="../../public/work/bonnet-rouge/bonnet-rouge-06.jpg" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

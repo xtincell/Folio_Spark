@@ -9,6 +9,8 @@ etat: "ebauche"
 # FUL
 
 <!-- wiki:infobox -->
+![FUL](../../public/medias-wiki/projets/ful-travaux/01.webp)
+
 | FUL | |
 | --- | --- |
 | Nature | Artiste musical |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste.md"><img src="../../public/medias-wiki/projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste/01.webp" alt="Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

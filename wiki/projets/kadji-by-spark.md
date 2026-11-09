@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Kadji by Spark
 
 <!-- wiki:infobox -->
+![Kadji by Spark](../../public/medias-wiki/projets/kadji-by-spark/01.webp)
+
 | Kadji by Spark | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,12 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/kadji-by-spark/02.webp"><img src="../../public/medias-wiki/projets/kadji-by-spark/02.webp" alt="Kadji by Spark" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

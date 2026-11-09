@@ -12,6 +12,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # Photographie de mariage
 
 <!-- wiki:infobox -->
+![Photographie de mariage](../../public/work/historique/10-wedding-couples/10-wedding-couples-01.jpg)
+
 | Photographie de mariage | |
 | --- | --- |
 | Casquette | Exécution |
@@ -26,6 +28,14 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/historique/10-wedding-couples/10-wedding-couples-02.jpg"><img src="../../public/work/historique/10-wedding-couples/10-wedding-couples-02.jpg" alt="Photographie de mariage" width="240"></a>
+<a href="../../public/work/historique/10-wedding-couples/10-wedding-couples-03.jpg"><img src="../../public/work/historique/10-wedding-couples/10-wedding-couples-03.jpg" alt="Photographie de mariage" width="240"></a>
+<a href="../../public/work/historique/10-wedding-couples/10-wedding-couples-04.jpg"><img src="../../public/work/historique/10-wedding-couples/10-wedding-couples-04.jpg" alt="Photographie de mariage" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

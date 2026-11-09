@@ -15,6 +15,8 @@ etat: "standard"
 # MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)
 
 <!-- wiki:infobox -->
+![MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)](../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/01.webp)
+
 | MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft) | |
 | --- | --- |
 | Client | [MTN Cameroon](../organisations/mtn-cameroon.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 09/11/2023 : tables rondes, prises de parole au micro, roll-ups « Pro NoLimit » et « Profitez des solutions Microsoft », présentation « Insights », photo de groupe.
 - **Identification** : roll-ups MTN et Microsoft ; écran « Y'ello… » ; diapositive « Insights by Mr. Blaise Ndongang, CIO – Boissons du Cameroun » ; logo K Hotel
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/02.webp" alt="MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/03.webp" alt="MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/04.webp" alt="MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/05.webp" alt="MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/06.webp" alt="MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

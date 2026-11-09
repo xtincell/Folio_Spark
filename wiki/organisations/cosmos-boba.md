@@ -8,6 +8,8 @@ etat: "ebauche"
 # Cosmos Boba
 
 <!-- wiki:infobox -->
+![Cosmos Boba](../../public/work/cases/cosmo-boba/hero.webp)
+
 | Cosmos Boba | |
 | --- | --- |
 | Nature | Restauration (bubble tea) |

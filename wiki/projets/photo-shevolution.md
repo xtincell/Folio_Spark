@@ -8,12 +8,15 @@ date: "2025-09-06"
 genre: "Événement"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/shevolution/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/30132099/5dba44cb1eee64b76de6a31f9ad66536-large.jpg"
 etat: "ebauche"
 verifier: ["Client et contexte à documenter."]
 ---
 # Shevolution — galerie photo
 
 <!-- wiki:infobox -->
+![Shevolution — galerie photo](https://images.pixieset.com/30132099/5dba44cb1eee64b76de6a31f9ad66536-large.jpg)
+
 | Shevolution — galerie photo | |
 | --- | --- |
 | Période | 2025-09-06 |

@@ -31,7 +31,10 @@ export type WikiArticle = {
   parent?: string;
   verifier?: string[];
   liens?: WikiLink[];
+  image?: WikiImage | null;
+  galerie?: WikiImage[];
 };
+export type WikiImage = { src: string; alt: string; href?: string; video?: boolean };
 
 /** Pages hors articles : slug d'URL → fichier Markdown. */
 const SPECIAL_PAGES: Record<string, { file: string; titre: string; index: boolean }> = {
@@ -40,6 +43,7 @@ const SPECIAL_PAGES: Record<string, { file: string; titre: string; index: boolea
   index: { file: 'index.md', titre: 'Index', index: true },
   maintenance: { file: 'maintenance.md', titre: 'Maintenance', index: false },
   conventions: { file: 'CONVENTIONS.md', titre: 'Conventions', index: false },
+  sources: { file: 'sources.md', titre: 'Sources du parcours', index: true },
 };
 const FILE_TO_ROUTE: Record<string, string> = Object.fromEntries(
   Object.entries(SPECIAL_PAGES).map(([route, p]) => [p.file, route]),
@@ -130,6 +134,26 @@ function resolveHref(href: string, fromFile: string): { url: string; external: b
   return { url: `/wiki${route ? `/${route}` : ''}${hash ? `#${hash}` : ''}`, external: false };
 }
 
+/** « ../../public/medias-wiki/x/01.webp » (relatif à la fiche) → « /medias-wiki/x/01.webp ». */
+function assetUrl(src: string, fromFile: string): string {
+  if (/^https?:/.test(src)) return src;
+  const rel = path.posix.normalize(path.posix.join('wiki', path.posix.dirname(fromFile), src));
+  return rel.startsWith('public/') ? rel.slice('public'.length) : `/${rel}`;
+}
+
+/** Galerie HTML d'une fiche (images issues de wiki/_data/wiki.json). */
+function galleryHtml(images: WikiImage[]): string {
+  if (!images.length) return '';
+  const items = images.map((im) => {
+    const external = /^https?:/.test(im.href ?? '') ;
+    const href = im.href ?? im.src;
+    const attrs = external || !im.href ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const caption = im.href && !external ? `<figcaption>${escapeHtml(im.alt)}</figcaption>` : im.video ? `<figcaption>▶ ${escapeHtml(im.alt)}</figcaption>` : '';
+    return `<figure><a href="${escapeHtml(href)}"${attrs}><img src="${escapeHtml(im.src)}" alt="${escapeHtml(im.alt)}" loading="lazy" decoding="async" /></a>${caption}</figure>`;
+  });
+  return `<div class="wiki-galerie">${items.join('')}</div>`;
+}
+
 function inline(src: string, fromFile: string): string {
   const codes: string[] = [];
   let s = src.replace(/`([^`]+)`/g, (_, c: string) => {
@@ -137,6 +161,11 @@ function inline(src: string, fromFile: string): string {
     return `\u0000${codes.length - 1}\u0000`;
   });
   const links: string[] = [];
+  // Images ![alt](chemin) : chemins relatifs au fichier → URL publique du site.
+  s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt: string, src: string) => {
+    links.push(`<img src="${escapeHtml(assetUrl(src, fromFile))}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" />`);
+    return `\u0001${links.length - 1}\u0001`;
+  });
   s = s.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, text: string, href: string) => {
     const { url, external } = resolveHref(href, fromFile);
     const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
@@ -258,9 +287,12 @@ export function renderPage(route: string): RenderedPage | undefined {
     if (box.trim()) infobox = renderMarkdown(box.trim(), page.file).html;
     return '';
   });
+  // La galerie Markdown (HTML pour GitHub) est remplacée par celle du site.
+  src = src.replace(/<!-- wiki:galerie -->[\s\S]*?<!-- \/wiki:galerie -->/, '\n\u0002GALERIE\u0002\n');
   src = src
     .replace(/<!--[\s\S]*?-->/g, '') // marqueurs de blocs et commentaires
     .replace(/^# .*\n/, ''); // le titre est rendu par la page
-  const { html, headings } = renderMarkdown(src, page.file);
-  return { ...page, html, infobox, headings };
+  const rendered = renderMarkdown(src, page.file);
+  const html = rendered.html.replace(/<p>\u0002GALERIE\u0002<\/p>/, galleryHtml(page.article?.galerie ?? []));
+  return { ...page, html, infobox, headings: rendered.headings };
 }

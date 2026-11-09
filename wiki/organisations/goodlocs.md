@@ -8,6 +8,8 @@ etat: "ebauche"
 # Goodlocs
 
 <!-- wiki:infobox -->
+![Goodlocs](../../public/work/cases/goodlocs/hero.webp)
+
 | Goodlocs | |
 | --- | --- |
 | Nature | À préciser |

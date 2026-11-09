@@ -15,6 +15,8 @@ etat: "standard"
 # Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)
 
 <!-- wiki:infobox -->
+![Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)](../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/01.webp)
+
 | Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021) | |
 | --- | --- |
 | Client | [Universal Music Africa](../organisations/universal-music-africa.md) |
@@ -43,6 +45,16 @@ etat: "standard"
   - Invités posant devant un mur Universal Music en palettes et devant un mur The Singleton ; prise de parole au micro.
 - **Identification** : logo « The Singleton — Perfectly Balanced » ; panneau « Universal Music Africa » ; néon « Charlotte Dipanda »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/02.webp" alt="Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/03.webp" alt="Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/04.webp" alt="Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/05.webp" alt="Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/06.webp" alt="Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Cabinet Chrome
 
 <!-- wiki:infobox -->
+![Cabinet Chrome](../../public/medias-wiki/projets/cabinet-chrome-travaux/01.webp)
+
 | Cabinet Chrome | |
 | --- | --- |
 | Nature | À préciser |

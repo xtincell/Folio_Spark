@@ -15,6 +15,8 @@ etat: "standard"
 # Locko — répétition live et interview télévisée (12 janvier 2022)
 
 <!-- wiki:infobox -->
+![Locko — répétition live et interview télévisée (12 janvier 2022)](../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/01.webp)
+
 | Locko — répétition live et interview télévisée (12 janvier 2022) | |
 | --- | --- |
 | Client | [LOCKO](../organisations/locko.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - Version livrée de la répétition live et de l'interview du 12/01/2022.
 - **Identification** : sweat « Era — Locko » ; les JPG livrés du 12/01/2022 sont dans LOCKO\2022 sur C:
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/02.webp" alt="Locko — répétition live et interview télévisée (12 janvier 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/03.webp" alt="Locko — répétition live et interview télévisée (12 janvier 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/04.webp" alt="Locko — répétition live et interview télévisée (12 janvier 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/05.webp" alt="Locko — répétition live et interview télévisée (12 janvier 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/06.webp" alt="Locko — répétition live et interview télévisée (12 janvier 2022)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

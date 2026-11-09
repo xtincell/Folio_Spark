@@ -6,6 +6,7 @@ casquette: "execution"
 genre: "Portrait · Musique"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/h3riq/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/92979347/6529184208ddd8898765f3829eb2ffa8-large.jpg"
 etat: "ebauche"
 client: "h3riq"
 verifier: ["Date de la séance absente de Pixieset."]
@@ -13,6 +14,8 @@ verifier: ["Date de la séance absente de Pixieset."]
 # H3riQ — galerie photo
 
 <!-- wiki:infobox -->
+![H3riQ — galerie photo](https://images.pixieset.com/92979347/6529184208ddd8898765f3829eb2ffa8-large.jpg)
+
 | H3riQ — galerie photo | |
 | --- | --- |
 | Client | [H3riQ](../organisations/h3riq.md) |

@@ -15,6 +15,8 @@ etat: "standard"
 # Concert « Africa United »
 
 <!-- wiki:infobox -->
+![Concert « Africa United »](../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/01.webp)
+
 | Concert « Africa United » | |
 | --- | --- |
 | Client | [Simo Alves Entertainment](../organisations/simo-alves-entertainment.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Concert de nuit sous structure : écran « Africa United », chanteuses et rappeurs, tête d'affiche tout en blanc, staff en jaune.
 - **Identification** : écran « Simo Alves Entertainment presents Africa United » ; annonce du concert (20 mai, Canal Olympia Bessengue)
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/02.webp" alt="Concert « Africa United »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/03.webp" alt="Concert « Africa United »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/04.webp" alt="Concert « Africa United »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/05.webp" alt="Concert « Africa United »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/06.webp" alt="Concert « Africa United »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

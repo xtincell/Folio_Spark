@@ -12,6 +12,8 @@ verifier: ["Fiabilité selon les notes de rangement : à confirmer. Organisateur
 # Concerts à CanalOlympia (exports reçus) et portraits
 
 <!-- wiki:infobox -->
+![Concerts à CanalOlympia (exports reçus) et portraits](../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/01.webp)
+
 | Concerts à CanalOlympia (exports reçus) et portraits | |
 | --- | --- |
 | Période | date inconnue |
@@ -31,6 +33,16 @@ verifier: ["Fiabilité selon les notes de rangement : à confirmer. Organisateur
 - **Ce que montrent les images** : Série d'exports retouchés : concerts sur la scène CanalOlympia, portraits d'artistes, une maquette de couverture « Vogue ».
 - **Identification** : inscription « CANALOLYMPIA » sur l'écran de scène ; exports en plusieurs versions (2), (3)
 - **Fiabilité** : à confirmer
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/02.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/02.webp" alt="Concerts à CanalOlympia (exports reçus) et portraits" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/03.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/03.webp" alt="Concerts à CanalOlympia (exports reçus) et portraits" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/04.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/04.webp" alt="Concerts à CanalOlympia (exports reçus) et portraits" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/05.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/05.webp" alt="Concerts à CanalOlympia (exports reçus) et portraits" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/06.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits/06.webp" alt="Concerts à CanalOlympia (exports reçus) et portraits" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

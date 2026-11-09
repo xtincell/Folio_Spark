@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : à confirmer. Organisateur
 # Concert « Nite » — interviews et spectacle
 
 <!-- wiki:infobox -->
+![Concert « Nite » — interviews et spectacle](../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/01.webp)
+
 | Concert « Nite » — interviews et spectacle | |
 | --- | --- |
 | Période | 18 mai 2024 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : à confirmer. Organisateur
 - **Ce que montrent les images** : Interviews au micro devant une bâche « Concert … Nite », public en salle, chorégraphies de groupe sur scène.
 - **Identification** : bâche « Concert Nite » ; Canon EOS R8
 - **Fiabilité** : à confirmer
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/02.webp" alt="Concert « Nite » — interviews et spectacle" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/03.webp" alt="Concert « Nite » — interviews et spectacle" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/04.webp" alt="Concert « Nite » — interviews et spectacle" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/05.webp" alt="Concert « Nite » — interviews et spectacle" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-05-18-concert-nite-interviews-et-spectacle/06.webp" alt="Concert « Nite » — interviews et spectacle" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

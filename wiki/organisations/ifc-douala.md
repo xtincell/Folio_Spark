@@ -9,6 +9,8 @@ etat: "ebauche"
 # IFC Douala
 
 <!-- wiki:infobox -->
+![IFC Douala](../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/01.webp)
+
 | IFC Douala | |
 | --- | --- |
 | Nature | Institut français du Cameroun (Douala) |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/ifc-douala-travaux.md"><img src="../../public/medias-wiki/projets/ifc-douala-travaux/01.webp" alt="IFC Douala — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

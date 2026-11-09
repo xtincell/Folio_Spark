@@ -16,6 +16,8 @@ etat: "standard"
 # KOF — Kamer Otaku Festival
 
 <!-- wiki:infobox -->
+![KOF — Kamer Otaku Festival](../../public/work/cases/kof-festival/hero.webp)
+
 | KOF — Kamer Otaku Festival | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -42,6 +44,18 @@ Photographe sur la première édition, puis directeur artistique à partir de la
 ## Résultat
 
 Un ensemble de supports autour du festival : identité au torii, visuel « Miss & Master », pass, tenues d’équipe et représentations de l’espace événementiel. Les images réunissent créations graphiques et mises en situation.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/kof-festival/01.webp"><img src="../../public/work/cases/kof-festival/01.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<a href="../../public/work/cases/kof-festival/02.webp"><img src="../../public/work/cases/kof-festival/02.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<a href="../../public/work/cases/kof-festival/03.webp"><img src="../../public/work/cases/kof-festival/03.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<a href="../../public/work/cases/kof-festival/04.webp"><img src="../../public/work/cases/kof-festival/04.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<a href="../../public/work/cases/kof-festival/05.webp"><img src="../../public/work/cases/kof-festival/05.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<a href="../../public/work/cases/kof-festival/06.webp"><img src="../../public/work/cases/kof-festival/06.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<a href="../../public/work/cases/kof-festival/07.webp"><img src="../../public/work/cases/kof-festival/07.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

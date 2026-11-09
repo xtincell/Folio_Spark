@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Massanda Awe Coffee — travaux
 
 <!-- wiki:infobox -->
+![Massanda Awe Coffee — travaux](../../public/medias-wiki/projets/massanda-awe-coffee-travaux/01.webp)
+
 | Massanda Awe Coffee — travaux | |
 | --- | --- |
 | Client | [Massanda Awe Coffee](../organisations/massanda-awe-coffee.md) |

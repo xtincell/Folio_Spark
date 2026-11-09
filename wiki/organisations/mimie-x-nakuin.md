@@ -9,6 +9,8 @@ etat: "ebauche"
 # Mimie x Nakuin
 
 <!-- wiki:infobox -->
+![Mimie x Nakuin](../../public/medias-wiki/projets/mimie-x-nakuin-travaux/01.webp)
+
 | Mimie x Nakuin | |
 | --- | --- |
 | Nature | Artistes musicaux |

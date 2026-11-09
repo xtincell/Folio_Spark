@@ -9,6 +9,8 @@ etat: "ebauche"
 # Skyvue Solutions
 
 <!-- wiki:infobox -->
+![Skyvue Solutions](../../public/medias-wiki/projets/skyvue-solutions-travaux/01.webp)
+
 | Skyvue Solutions | |
 | --- | --- |
 | Nature | À préciser |

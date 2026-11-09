@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # KossKoss Select — travaux
 
 <!-- wiki:infobox -->
+![KossKoss Select — travaux](../../public/medias-wiki/projets/kosskoss-select-travaux/01.webp)
+
 | KossKoss Select — travaux | |
 | --- | --- |
 | Client | [KossKoss Select](../organisations/kosskoss-select.md) |
@@ -30,6 +32,12 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [KossKoss Select](../organisations/kosskoss-select.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/kosskoss-select-travaux/02.webp"><img src="../../public/medias-wiki/projets/kosskoss-select-travaux/02.webp" alt="KossKoss Select — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

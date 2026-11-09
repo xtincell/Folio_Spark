@@ -9,6 +9,8 @@ etat: "ebauche"
 # Nomad Soul
 
 <!-- wiki:infobox -->
+![Nomad Soul](../../public/medias-wiki/projets/nomad-soul-travaux/01.webp)
+
 | Nomad Soul | |
 | --- | --- |
 | Nature | À préciser |

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Lana
 
 <!-- wiki:infobox -->
+![Lana](../../public/medias-wiki/projets/lana-travaux/01.webp)
+
 | Lana | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit.md"><img src="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/01.webp" alt="Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

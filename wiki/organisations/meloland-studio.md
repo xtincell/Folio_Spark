@@ -9,6 +9,8 @@ etat: "ebauche"
 # Meloland Studio
 
 <!-- wiki:infobox -->
+![Meloland Studio](../../public/medias-wiki/projets/meloland-studio-travaux/01.webp)
+
 | Meloland Studio | |
 | --- | --- |
 | Nature | À préciser |

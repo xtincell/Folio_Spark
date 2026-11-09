@@ -15,6 +15,8 @@ etat: "standard"
 # Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)
 
 <!-- wiki:infobox -->
+![Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)](../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/01.webp)
+
 | Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua) | |
 | --- | --- |
 | Client | [Talk Paix (CFI)](../organisations/talk-paix-cfi.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 30/01, 16/03 et 23-24/04/2024 : vidéos d'interventions au pupitre, débats, interviews, travaux de groupe.
 - **Identification** : roll-up et affiche « Talk Paix — Talk Peace » ; porte-nom « Mohamadou Aly Ibrahim — DRCOM Nord »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/02.webp" alt="Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/03.webp" alt="Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/04.webp" alt="Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/05.webp" alt="Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou/06.webp" alt="Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # ToukyCon
 
 <!-- wiki:infobox -->
+![ToukyCon](../../public/medias-wiki/projets/toukycon-travaux/01.webp)
+
 | ToukyCon | |
 | --- | --- |
 | Nature | À préciser |

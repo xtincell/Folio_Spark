@@ -15,6 +15,8 @@ etat: "standard"
 # Inauguration de la ferme aquacole Aquarin
 
 <!-- wiki:infobox -->
+![Inauguration de la ferme aquacole Aquarin](../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/01.webp)
+
 | Inauguration de la ferme aquacole Aquarin | |
 | --- | --- |
 | Client | [Aquarin](../organisations/aquarin.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - Survol des bassins numérotés (NW, Nord-Ouest), des serres d'ombrage vertes et du site dans le brouillard.
 - **Identification** : gilets et combinaisons « Aquarin » ; noms de fichiers 27122022-… (27/12/2022)
 - **Fiabilité** : confirmé / déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/02.webp" alt="Inauguration de la ferme aquacole Aquarin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/03.webp" alt="Inauguration de la ferme aquacole Aquarin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/04.webp" alt="Inauguration de la ferme aquacole Aquarin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/05.webp" alt="Inauguration de la ferme aquacole Aquarin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin/06.webp" alt="Inauguration de la ferme aquacole Aquarin" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

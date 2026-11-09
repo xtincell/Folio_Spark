@@ -16,6 +16,8 @@ etat: "ebauche"
 # La Vache qui rit — Merch « For Good »
 
 <!-- wiki:infobox -->
+![La Vache qui rit — Merch « For Good »](../../public/work/cases/la-vache-qui-rit/hero.webp)
+
 | La Vache qui rit — Merch « For Good » | |
 | --- | --- |
 | Client | [Groupe Bel](../organisations/groupe-bel.md) |
@@ -33,6 +35,13 @@ etat: "ebauche"
 ## Contexte
 
 Merchandising textile (t-shirts) pour la plateforme « For Good » de La Vache qui rit, mascotte vache stylisée et signature « Ensemble, partageons encore plus ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/la-vache-qui-rit/01.webp"><img src="../../public/work/cases/la-vache-qui-rit/01.webp" alt="La Vache qui rit — Merch « For Good »" width="240"></a>
+<a href="../../public/work/cases/la-vache-qui-rit/02.webp"><img src="../../public/work/cases/la-vache-qui-rit/02.webp" alt="La Vache qui rit — Merch « For Good »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Singleton (Diageo)
 
 <!-- wiki:infobox -->
+![Singleton (Diageo)](../../public/medias-wiki/projets/singleton-diageo-travaux/01.webp)
+
 | Singleton (Diageo) | |
 | --- | --- |
 | Nature | Spiritueux |

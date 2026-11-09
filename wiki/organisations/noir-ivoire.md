@@ -9,6 +9,8 @@ etat: "ebauche"
 # Noir Ivoire
 
 <!-- wiki:infobox -->
+![Noir Ivoire](../../public/medias-wiki/projets/noir-ivoire-travaux/01.webp)
+
 | Noir Ivoire | |
 | --- | --- |
 | Nature | À préciser |

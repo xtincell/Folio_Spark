@@ -9,6 +9,8 @@ etat: "ebauche"
 # The Boyy
 
 <!-- wiki:infobox -->
+![The Boyy](../../public/medias-wiki/projets/the-boyy-travaux/01.webp)
+
 | The Boyy | |
 | --- | --- |
 | Nature | À préciser |

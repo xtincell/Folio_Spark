@@ -15,6 +15,8 @@ etat: "standard"
 # Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte
 
 <!-- wiki:infobox -->
+![Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte](../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/01.webp)
+
 | Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte | |
 | --- | --- |
 | Client | [Lana](../organisations/lana.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Vidéos d'avril 2024 : remise de kits de soins aux mères dans les salles d'attente et les chambres, photo de groupe devant les cartons et les roll-ups Lana.
 - **Identification** : roll-ups et cartons « lana — Tout en beauté », « Tout doux » ; panneau « Hôpital de district de la Cité Verte » ; rien ne relie ce lot à Talk Paix ni à Garoua
 - **Fiabilité** : confirmé (marque) ; mal classé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/02.webp" alt="Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/03.webp" alt="Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/04.webp" alt="Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/05.webp" alt="Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit/06.webp" alt="Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

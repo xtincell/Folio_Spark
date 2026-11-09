@@ -9,6 +9,8 @@ etat: "ebauche"
 # Dogon
 
 <!-- wiki:infobox -->
+![Dogon](../../public/medias-wiki/projets/dogon-travaux/01.webp)
+
 | Dogon | |
 | --- | --- |
 | Nature | À préciser |

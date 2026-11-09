@@ -6,12 +6,15 @@ casquette: "execution"
 genre: "Reportage"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/roadtripnord-1/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/81559347/2747c9e75ec231d7125cc99ef3becf92-large.jpg"
 etat: "ebauche"
 verifier: ["Date de la séance absente de Pixieset."]
 ---
 # RoadTrip Nord — galerie photo
 
 <!-- wiki:infobox -->
+![RoadTrip Nord — galerie photo](https://images.pixieset.com/81559347/2747c9e75ec231d7125cc99ef3becf92-large.jpg)
+
 | RoadTrip Nord — galerie photo | |
 | --- | --- |
 | Casquette | Exécution |

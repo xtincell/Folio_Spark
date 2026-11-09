@@ -15,6 +15,8 @@ etat: "standard"
 # Soirée « The Mooda Times » (hip-hop)
 
 <!-- wiki:infobox -->
+![Soirée « The Mooda Times » (hip-hop)](../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/01.webp)
+
 | Soirée « The Mooda Times » (hip-hop) | |
 | --- | --- |
 | Client | [Mooda](../organisations/mooda.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 02-03/07/2022 : portraits de mode posés devant un mur ocre, invités, scène avec rideau au « m. », duo en noir et blanc.
 - **Identification** : dossier client « Mooda » ; affiches « The Mooda Times — Hip-hop GOATs » dans le lot P: du même week-end
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/02.webp" alt="Soirée « The Mooda Times » (hip-hop)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/03.webp" alt="Soirée « The Mooda Times » (hip-hop)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/04.webp" alt="Soirée « The Mooda Times » (hip-hop)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/05.webp" alt="Soirée « The Mooda Times » (hip-hop)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/06.webp" alt="Soirée « The Mooda Times » (hip-hop)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

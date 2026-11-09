@@ -15,6 +15,8 @@ etat: "ebauche"
 # Perso — Carnet d'art personnel
 
 <!-- wiki:infobox -->
+![Perso — Carnet d'art personnel](../../public/work/cases/perso-sketchbook/hero.webp)
+
 | Perso — Carnet d'art personnel | |
 | --- | --- |
 | Client | Projet personnel |
@@ -31,6 +33,21 @@ etat: "ebauche"
 ## Contexte
 
 Carnet d'art personnel mixte : portraits fantastiques « selfie au miroir » (personnage Medusa/locs « Sun & Moka » et son chat), affiche « Ad Astra Per Aspera » et natures mortes beauté (mains au henné, bagues or).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/perso-sketchbook/01.webp"><img src="../../public/work/cases/perso-sketchbook/01.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/02.webp"><img src="../../public/work/cases/perso-sketchbook/02.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/03.webp"><img src="../../public/work/cases/perso-sketchbook/03.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/04.webp"><img src="../../public/work/cases/perso-sketchbook/04.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/05.webp"><img src="../../public/work/cases/perso-sketchbook/05.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/06.webp"><img src="../../public/work/cases/perso-sketchbook/06.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/07.webp"><img src="../../public/work/cases/perso-sketchbook/07.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/08.webp"><img src="../../public/work/cases/perso-sketchbook/08.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/09.webp"><img src="../../public/work/cases/perso-sketchbook/09.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<a href="../../public/work/cases/perso-sketchbook/10.webp"><img src="../../public/work/cases/perso-sketchbook/10.webp" alt="Perso — Carnet d'art personnel" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

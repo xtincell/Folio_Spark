@@ -9,6 +9,8 @@ etat: "ebauche"
 # Primo Ice
 
 <!-- wiki:infobox -->
+![Primo Ice](../../public/medias-wiki/projets/primo-ice-travaux/01.webp)
+
 | Primo Ice | |
 | --- | --- |
 | Nature | À préciser |

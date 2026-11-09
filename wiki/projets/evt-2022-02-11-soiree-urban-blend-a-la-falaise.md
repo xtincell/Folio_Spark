@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : confirmé. Organisateur : 
 # Soirée « Urban Blend » à La Falaise
 
 <!-- wiki:infobox -->
+![Soirée « Urban Blend » à La Falaise](../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/01.webp)
+
 | Soirée « Urban Blend » à La Falaise | |
 | --- | --- |
 | Période | 11 février 2022 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : confirmé. Organisateur : 
 - **Ce que montrent les images** : 10-11/02/2022 : concert, DJ devant l'écran de l'affiche, table Grant's, coulisses.
 - **Identification** : écran « Urban Blend — 10 Feb 2022 — La Falaise » ; bouteilles et présentoir Grant's ; roll-up « Rayl Photography »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/02.webp" alt="Soirée « Urban Blend » à La Falaise" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/03.webp" alt="Soirée « Urban Blend » à La Falaise" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/04.webp" alt="Soirée « Urban Blend » à La Falaise" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/05.webp" alt="Soirée « Urban Blend » à La Falaise" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise/06.webp" alt="Soirée « Urban Blend » à La Falaise" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

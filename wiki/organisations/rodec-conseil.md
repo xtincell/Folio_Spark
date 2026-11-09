@@ -9,6 +9,8 @@ etat: "ebauche"
 # Rodec Conseil
 
 <!-- wiki:infobox -->
+![Rodec Conseil](../../public/medias-wiki/projets/rodec-conseil-travaux/01.webp)
+
 | Rodec Conseil | |
 | --- | --- |
 | Nature | À préciser |

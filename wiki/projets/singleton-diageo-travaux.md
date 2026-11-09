@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Singleton (Diageo) — travaux
 
 <!-- wiki:infobox -->
+![Singleton (Diageo) — travaux](../../public/medias-wiki/projets/singleton-diageo-travaux/01.webp)
+
 | Singleton (Diageo) — travaux | |
 | --- | --- |
 | Client | [Singleton (Diageo)](../organisations/singleton-diageo.md) |
@@ -30,6 +32,15 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Singleton (Diageo)](../organisations/singleton-diageo.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/singleton-diageo-travaux/02.webp"><img src="../../public/medias-wiki/projets/singleton-diageo-travaux/02.webp" alt="Singleton (Diageo) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/singleton-diageo-travaux/03.webp"><img src="../../public/medias-wiki/projets/singleton-diageo-travaux/03.webp" alt="Singleton (Diageo) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/singleton-diageo-travaux/04.webp"><img src="../../public/medias-wiki/projets/singleton-diageo-travaux/04.webp" alt="Singleton (Diageo) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/singleton-diageo-travaux/05.webp"><img src="../../public/medias-wiki/projets/singleton-diageo-travaux/05.webp" alt="Singleton (Diageo) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

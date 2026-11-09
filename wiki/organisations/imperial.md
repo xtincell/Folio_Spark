@@ -9,6 +9,8 @@ etat: "standard"
 # Imperial
 
 <!-- wiki:infobox -->
+![Imperial](../../public/work/tier23/locko-uma/locko-uma-01.jpg)
+
 | Imperial | |
 | --- | --- |
 | Nature | Agence de talents |
@@ -27,7 +29,7 @@ Agence de talents (artistes) dirigée par Esther Naah, qui missionnait Alexandre
 ## Projets
 
 <!-- wiki:projets -->
-- **2016–2022** — [Universal Music Africa — image d’artistes](../projets/uma-artistes.md) _(en tant qu’agence relais)_
+- **2021–2022** — [Universal Music Africa — image d’artistes](../projets/uma-artistes.md) _(en tant qu’agence relais)_
 <!-- /wiki:projets -->
 
 

@@ -2,16 +2,14 @@
 
 # Maintenance du wiki
 
-**Avancement** : 106/539 fiches au niveau « standard » ou « complet » (20 %).
+**Avancement** : 108/546 fiches au niveau « standard » ou « complet » (20 %).
 
-- [À vérifier](#à-vérifier) (48) · [Absents du folio](#absents-du-folio) (299) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (62) · [Ébauches](#ébauches) (385)
+- [À vérifier](#à-vérifier) (50) · [Absents du folio](#absents-du-folio) (302) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (63) · [Ébauches](#ébauches) (388)
 
 ## À vérifier
 
 Contradictions entre sources ou hypothèses de rattachement. Une fois tranché : corriger la fiche, vider `verifier` et passer `etat` à `standard`.
 
-- [Bimstr Agency](organisations/bimstr.md)
-  - Le CV indique 2019–2021 ; practices.ts indique 2018–2020 avec le titre « Directeur Créatif & Artistique ».
 - [BlackNote Web](projets/blacknote-web.md)
   - Premier dépôt GitHub (2015) : objet du projet et durée à documenter (dernière activité enregistrée en 2026).
 - [CanalOlympia — programmation de fin d'année 2021](projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021.md)
@@ -22,6 +20,7 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Fiabilité selon les notes de rangement : à confirmer. Organisateur : non lisible (bâche « Concert Nite »).
 - [Concert de fin d'année en plein air (classé « TayC, décembre 2020 », déduit)](projets/evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md)
   - Fiabilité selon les notes de rangement : déduit (artiste à vérifier). Organisateur : non lu (Universal Music Africa supposé).
+  - Année en conflit : les dates de prise de vue et le classement des disques donnent décembre 2020 ; le récapitulatif photo du concert de Tayc est publié sur Facebook le 3 janvier 2022, ce qui suggère décembre 2021.
 - [Concert dessiné (festival Mboa BD 2021)](projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021.md)
   - Fiabilité selon les notes de rangement : déduit.
 - [Concert rap de quartier (maillots « Dinos 93 »)](projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93.md)
@@ -44,8 +43,11 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Delys est rattaché au Groupe Cadyst par déduction (dossier médias « cadyst-delys-barka-biscuits ») : à confirmer.
 - [Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)](projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021.md)
   - Fiabilité selon les notes de rangement : déduit.
-- [Kamer Otaku Festival — éditions 2022 à 2024](projets/kof-2022-2024.md)
-  - Années 2022 et 2023 déduites des galeries Pixieset (1ʳᵉ et 2ᵉ éditions) : à confirmer.
+- [Iftic-Sup](organisations/iftic-sup.md)
+  - Intitulé du diplôme : licence en télécommunications et réseaux (CV de 2020 à 2024), « licence pro » (2018), diplôme d’Ingénieur des Travaux (CV de 2026).
+- [Intelcia](organisations/intelcia.md)
+  - Dates exactes du poste inconnues : « vers 2015–2016 ». Seul repère daté : Intelcia est ajouté au profil Facebook le 5 mai 2016.
+  - Intitulé du poste à préciser.
 - [Kamer Otaku Festival — photos reçues (édition à dater)](projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md)
   - Fiabilité selon les notes de rangement : probable.
 - [La Fusée — Creative Industry OS](projets/la-fusee.md)
@@ -61,10 +63,15 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (« basuke » = basket en japonais, communauté otaku probable).
 - [Mimie — tournée promo du single « Faya »](projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya.md)
   - Fiabilité selon les notes de rangement : déduit.
-- [Motion19](organisations/motion19.md)
-  - Le CV date le poste de Brand Manager 2021–2023 ; practices.ts date le projet UPgraders × Motion19 2019–2022 (« 30 mois »).
 - [Motion19 — construction de marque](projets/motion19-lancement.md)
-  - Dates à concilier avec le CV (Brand Manager Motion19 2021–2023).
+  - practices.ts date le projet de 2019 à 2022 et parle de « 30 mois » ; les sources d’époque donnent avril 2021 – février 2023, soit environ 22 mois. Début du travail d’UPgraders sur la marque à confirmer.
+- [OmenKart](organisations/omenkart.md)
+  - Début en conflit : « depuis 2021 » selon le CV de mai 2023 ; premiers événements retrouvés dans les archives en décembre 2022.
+- [OmenKart — direction artistique déléguée](projets/omenkart-marque-blanche.md)
+  - Début en conflit : « depuis 2021 » selon le CV de mai 2023 ; premiers événements retrouvés dans les archives en décembre 2022.
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md)
+  - Le CV de 2026 et practices.ts datent ces campagnes de 2013 à 2018, « en binôme avec Stéphane Nounamo » : aucune source d’époque ne l’étaye. Les seules couvertures Orange datées sont celles de 2025–2026.
+  - Dates des opérations citées (Orange Excellence, ANAFOOT, première Indomptable, concert Mimie) à établir.
 - [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md)
   - Année absente des sources.
 - [Retlaw × HoHaaa Music — clip](projets/retlaw-clip.md)
@@ -89,12 +96,10 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Fiabilité selon les notes de rangement : lieu inconnu ; portraits confirmés. Organisateur : non identifié.
 - [Street Whale — premier jour (lancement en bord de mer)](projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer.md)
   - Fiabilité selon les notes de rangement : déduit.
-- [Studio Graphique 44](organisations/studio44.md)
-  - Le CV date la mission Studio44 en 2018 ; practices.ts mentionne un lancement via UPgraders en 2024.
-- [Studio44 — lancement structuré](projets/studio44-lancement.md)
-  - practices.ts date ce lancement (via UPgraders) en 2024 ; le CV mentionne une mission Studio Graphique 44 en 2018. Deux engagements distincts ou une seule mission ?
 - [Tournoi de football militaire (vidéos « SD OFF »)](projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off.md)
   - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (forces de défense, pancarte « … nationale … Major »).
+- [UPgraders](organisations/upgraders.md)
+  - Date de prise de la direction : janvier 2022 selon les CV de février 2023 et de juillet 2024 ; janvier 2023 selon le CV de mai 2023.
 - [Vernissage d'une exposition de peinture (« Open is open »)](projets/evt-2021-12-10-vernissage-d-une-exposition-de-peinture-open-is-open.md)
   - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (galerie).
 - [Vernissage et résidence d'artistes (janvier 2026)](projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026.md)
@@ -105,14 +110,18 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Fiabilité selon les notes de rangement : lieu confirmé, organisateur inconnu. Organisateur : non identifié (visite patrimoine ou atelier photo).
 - [Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua](projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et.md)
   - Fiabilité selon les notes de rangement : lieu probable, organisateur inconnu. Organisateur : non identifié (délégation officielle avec badges).
-- [Will & Brothers (Sellkako)](organisations/will-and-brothers.md)
-  - Le CV indique 2018 ; practices.ts indique 2017–2019. Lien exact entre Sellkako et Will & Brothers à préciser.
+- [Will & Brothers Consulting](organisations/will-and-brothers.md)
+  - Fin du poste : juin 2018 selon le profil Facebook, juillet 2018 selon le CV de mai 2023.
+  - Le CV de 2026 et practices.ts (2017–2019) réunissent Sellkako et Will & Brothers ; les sources d’époque les distinguent (voir sources.md).
+- [William Elong](personnes/william-elong.md)
+  - Nature exacte du lien avec Alexandre à établir.
+  - Le rôle de fondateur de Will & Brothers ne repose que sur le témoignage du 9 novembre 2026.
 
 ## Absents du folio
 
 Projets historisés ici mais sans page sur le site. Le folio doit à terme montrer l’intégralité des travaux : chaque ligne est une page `/work/…` à créer (ou un `masque_folio: true` assumé).
 
-### Stratégie (20)
+### Stratégie (22)
 
 - [Argos Studio](projets/argos-studio.md) — 2026–…
 - [DataCollector](projets/datacollector.md) — 2026–…
@@ -124,6 +133,8 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [La Fusée — Creative Industry OS](projets/la-fusee.md) — 2025–…
 - [Geek de brousse (podcast, tests)](projets/podcast-geek-de-brousse.md) — 2024
 - [Créapreneur (podcast)](projets/creapreneur-podcast.md) — 2018–2021
+- [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016
+- [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020
 - [Creative Next](projets/creative-next.md)
 - [Festival « Ultime » (concept, Riot Games × Japan Expo)](projets/festival-ultime.md)
 - [Festival du Masque (concept)](projets/festival-du-masque.md)
@@ -179,7 +190,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [Sons of the Lions](projets/sons-of-the-lions.md)
 - [The Battle of the Baddest](projets/battle-of-the-baddest.md)
 
-### Exécution (238)
+### Exécution (239)
 
 - [Arc en Ciel — travaux](projets/arc-en-ciel-travaux.md) — 2026
 - [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md) — 2026
@@ -391,6 +402,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [BlackNote Web](projets/blacknote-web.md) — 2015
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
+- [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022
 - [AfroBit — galerie photo](projets/photo-afrobit.md)
 - [AMMCO — galerie photo](projets/photo-ammco.md)
@@ -428,16 +440,16 @@ Projets cités dans la liste des pratiques de `/work`, sans page `/work/<slug>` 
 - [Maison Gimane — production photo & vidéo](projets/maison-gimane.md) — 2024 · visuels disponibles
 - [Maison Moët & Chandon — assets visuels](projets/moet-chandon.md) — 2024
 - [Oceanis Kribi · The Villa — production vidéo & image](projets/oceanis-kribi-the-villa.md) — 2024
-- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2024
 - [Cimencam — vidéo corporate](projets/cimencam-video-corporate.md) — 2023–2024
 - [Kamer Otaku Festival — éditions 2022 à 2024](projets/kof-2022-2024.md) — 2022–2024 · visuels disponibles
 - [OmenKart — direction artistique déléguée](projets/omenkart-marque-blanche.md) — 2022–2024 · visuels disponibles
 - [Kemcare — stratégie de marque & lancement](projets/kemcare.md) — 2021–… · visuels disponibles
+- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2021–2023 · visuels disponibles
+- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2021–2022 · visuels disponibles
+- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2020–2023 · visuels disponibles
 - [Top (SABC) — direction artistique & production](projets/top-sabc.md) — 2020–2022 · visuels disponibles
-- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2019–2022 · visuels disponibles
-- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2016–2022 · visuels disponibles
-- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2014–2020 · visuels disponibles
-- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md) — 2013–2018
+- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2018
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md)
 - [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md) · visuels disponibles
 - [Retlaw × HoHaaa Music — clip](projets/retlaw-clip.md)
 - [Shakazz — lancement de marque](projets/shakazz.md)
@@ -479,6 +491,7 @@ Projets cités dans la liste des pratiques de `/work`, sans page `/work/<slug>` 
 - [Ngoin Kollektiv](projets/ngoin-kollektiv.md)
 - [Oasis Art — travaux](projets/oasis-art-travaux.md)
 - [Omela](projets/omela.md)
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md)
 - [AfroBit — galerie photo](projets/photo-afrobit.md)
 - [AMMCO — galerie photo](projets/photo-ammco.md)
 - [Cabinet Dentaire BeauSourire — galerie photo](projets/photo-cabinetdentaire.md)
@@ -543,6 +556,7 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [AMMCO](organisations/ammco.md)
 - [AMMCO — galerie photo](projets/photo-ammco.md)
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md)
+- [Anne-Marie C. Befoune](personnes/anne-marie-befoune.md)
 - [AO (SpearHead)](organisations/ao-spearhead.md)
 - [AO (SpearHead) — travaux](projets/ao-spearhead-travaux.md)
 - [Apéro Masterclass](projets/apero-masterclass.md)
@@ -562,7 +576,6 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [Babatunde — travaux](projets/babatunde-travaux.md)
 - [BAMS & BTP](organisations/bams-btp.md)
 - [BAMS & BTP — Identité corporate](projets/bams-btp.md)
-- [BanaHealth](organisations/banahealth.md)
 - [BanaHealth — Facilitation médicale](projets/banahealth.md)
 - [BCSnU — Grand défilé](organisations/bcsnu-grand-defile.md)
 - [BCSnU — Grand défilé — travaux](projets/bcsnu-grand-defile-travaux.md)
@@ -669,6 +682,7 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [Galerie MAM — travaux](projets/galerie-mam-travaux.md)
 - [Galion — Uthango](organisations/galion-uthango.md)
 - [Galion — Uthango — travaux](projets/galion-uthango-travaux.md)
+- [Geek de brousse (blog)](projets/geek-de-brousse-blog.md)
 - [Geek de brousse (podcast, tests)](projets/podcast-geek-de-brousse.md)
 - [Générateur d'approches publicitaires](projets/generateur-approches.md)
 - [Germinal](organisations/germinal.md)
@@ -708,6 +722,7 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [Ingrid Nya Ngatchou](personnes/ingrid-nya-ngatchou.md)
 - [Isabella (groupe de rock)](organisations/isabella-groupe-de-rock.md)
 - [Isabella (groupe de rock) — travaux](projets/isabella-groupe-de-rock-travaux.md)
+- [Japanimes (association otaku)](projets/japanimes.md)
 - [Jean-Philippe Veigne](personnes/jean-philippe-veigne.md)
 - [JPN Advisors](organisations/jpn-advisors.md)
 - [JPN Advisors — identité](projets/jpn-advisors-identite.md)
@@ -770,6 +785,7 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [Meloland Studio — travaux](projets/meloland-studio-travaux.md)
 - [Mimie x Nakuin](organisations/mimie-x-nakuin.md)
 - [Mimie x Nakuin — travaux](projets/mimie-x-nakuin-travaux.md)
+- [Mondoblog (blog moreblik)](projets/mondoblog.md)
 - [Mooda](organisations/mooda.md)
 - [Mooda — travaux](projets/mooda-travaux.md)
 - [Moteurs de character design (LSI-CD, Character Engine)](projets/moteur-charadesign.md)

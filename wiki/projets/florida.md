@@ -15,6 +15,8 @@ etat: "ebauche"
 # Florida — Vin pétillant
 
 <!-- wiki:infobox -->
+![Florida — Vin pétillant](../../public/work/cases/florida/hero.webp)
+
 | Florida — Vin pétillant | |
 | --- | --- |
 | Client | [SoFaVinC](../organisations/sofavinc.md) |
@@ -31,6 +33,14 @@ etat: "ebauche"
 ## Contexte
 
 Campagne / key visual pour le vin pétillant Florida (SoFaVinC) : une main brandissant la bouteille hors d'une fosse de ballons or/noir/jaune avec confettis, signatures « La fête accueille un nouvel invité » et « New Look ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/florida/01.webp"><img src="../../public/work/cases/florida/01.webp" alt="Florida — Vin pétillant" width="240"></a>
+<a href="../../public/work/cases/florida/02.webp"><img src="../../public/work/cases/florida/02.webp" alt="Florida — Vin pétillant" width="240"></a>
+<a href="../../public/work/cases/florida/03.webp"><img src="../../public/work/cases/florida/03.webp" alt="Florida — Vin pétillant" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

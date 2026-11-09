@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Session live d'un groupe dans un bar à vinyles (noir et blanc)
 
 <!-- wiki:infobox -->
+![Session live d'un groupe dans un bar à vinyles (noir et blanc)](../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/01.webp)
+
 | Session live d'un groupe dans un bar à vinyles (noir et blanc) | |
 | --- | --- |
 | Période | 30-31 juillet 2021 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : 30/07/2021 de 20 h 40 à minuit : concert intimiste, musiciens badgés, livré en noir et blanc.
 - **Identification** : badges des musiciens (festival ou programme de résidence probable) ; aucun nom lisible
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/02.webp" alt="Session live d'un groupe dans un bar à vinyles (noir et blanc)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/03.webp" alt="Session live d'un groupe dans un bar à vinyles (noir et blanc)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/04.webp" alt="Session live d'un groupe dans un bar à vinyles (noir et blanc)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/05.webp" alt="Session live d'un groupe dans un bar à vinyles (noir et blanc)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl/06.webp" alt="Session live d'un groupe dans un bar à vinyles (noir et blanc)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

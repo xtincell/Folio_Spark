@@ -9,6 +9,8 @@ etat: "ebauche"
 # Atome
 
 <!-- wiki:infobox -->
+![Atome](../../public/medias-wiki/projets/atome-travaux/01.webp)
+
 | Atome | |
 | --- | --- |
 | Nature | À préciser |

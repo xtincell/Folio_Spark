@@ -18,6 +18,8 @@ etat: "standard"
 # Akwa Palace — vidéo publicitaire
 
 <!-- wiki:infobox -->
+![Akwa Palace — vidéo publicitaire](../../public/work/tier23/akwa-palace-2025/akwa-palace-2025-01.jpg)
+
 | Akwa Palace — vidéo publicitaire | |
 | --- | --- |
 | Client | [Akwa Palace](../organisations/akwa-palace.md) |
@@ -40,6 +42,13 @@ Campagne vidéo publicitaire pour l'hôtel Akwa Palace (Douala). Direction d'ima
 ## Rôle
 
 Réalisation video advertising. Repère d’origine : « 2025 ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/tier23/akwa-palace-2025/akwa-palace-2025-02.jpg"><img src="../../public/work/tier23/akwa-palace-2025/akwa-palace-2025-02.jpg" alt="Akwa Palace — vidéo publicitaire" width="240"></a>
+<a href="../../public/work/tier23/akwa-palace-2025/akwa-palace-2025-03.jpg"><img src="../../public/work/tier23/akwa-palace-2025/akwa-palace-2025-03.jpg" alt="Akwa Palace — vidéo publicitaire" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

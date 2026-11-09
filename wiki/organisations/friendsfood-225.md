@@ -4,10 +4,13 @@ nom: "FriendsFood 225"
 nature: "Restauration"
 relation: "client"
 etat: "ebauche"
+verifier: ["Rapport avec le restaurant Friends Food de Stéphane Nounamo (@FriendsFood237, attesté de 2017 à 2020) non établi."]
 ---
 # FriendsFood 225
 
 <!-- wiki:infobox -->
+![FriendsFood 225](../../public/work/cases/friendsfood/hero.webp)
+
 | FriendsFood 225 | |
 | --- | --- |
 | Nature | Restauration |

@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Ambassade des États-Unis — travaux
 
 <!-- wiki:infobox -->
+![Ambassade des États-Unis — travaux](../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/01.webp)
+
 | Ambassade des États-Unis — travaux | |
 | --- | --- |
 | Client | [Ambassade des États-Unis](../organisations/ambassade-des-etats-unis.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Ambassade des États-Unis](../organisations/ambassade-des-etats-unis.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/02.webp"><img src="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/02.webp" alt="Ambassade des États-Unis — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/03.webp"><img src="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/03.webp" alt="Ambassade des États-Unis — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/04.webp"><img src="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/04.webp" alt="Ambassade des États-Unis — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/05.webp"><img src="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/05.webp" alt="Ambassade des États-Unis — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/06.webp"><img src="../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/06.webp" alt="Ambassade des États-Unis — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

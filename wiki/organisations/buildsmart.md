@@ -9,6 +9,8 @@ etat: "ebauche"
 # BuildSmart
 
 <!-- wiki:infobox -->
+![BuildSmart](../../public/medias-wiki/projets/buildsmart-travaux/01.webp)
+
 | BuildSmart | |
 | --- | --- |
 | Nature | À préciser |

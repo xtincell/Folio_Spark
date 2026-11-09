@@ -9,6 +9,8 @@ etat: "ebauche"
 # Galerie MAM
 
 <!-- wiki:infobox -->
+![Galerie MAM](../../public/medias-wiki/projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition/01.webp)
+
 | Galerie MAM | |
 | --- | --- |
 | Nature | Galerie d'art |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/galerie-mam-travaux.md"><img src="../../public/medias-wiki/projets/galerie-mam-travaux/01.webp" alt="Galerie MAM — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

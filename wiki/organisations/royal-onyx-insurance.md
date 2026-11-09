@@ -9,6 +9,8 @@ etat: "ebauche"
 # Royal Onyx Insurance
 
 <!-- wiki:infobox -->
+![Royal Onyx Insurance](../../public/medias-wiki/projets/royal-onyx-insurance-travaux/01.webp)
+
 | Royal Onyx Insurance | |
 | --- | --- |
 | Nature | À préciser |

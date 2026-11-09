@@ -9,6 +9,8 @@ etat: "ebauche"
 # Lord Soda
 
 <!-- wiki:infobox -->
+![Lord Soda](../../public/medias-wiki/projets/lord-soda-travaux/01.webp)
+
 | Lord Soda | |
 | --- | --- |
 | Nature | À préciser |

@@ -8,6 +8,8 @@ etat: "ebauche"
 # Cap Esterias
 
 <!-- wiki:infobox -->
+![Cap Esterias](../../public/work/cases/cap-esterias/hero.webp)
+
 | Cap Esterias | |
 | --- | --- |
 | Nature | Boisson (rosé pétillant) |

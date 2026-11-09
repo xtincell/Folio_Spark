@@ -9,6 +9,8 @@ etat: "ebauche"
 # Indira (artiste)
 
 <!-- wiki:infobox -->
+![Indira (artiste)](../../public/medias-wiki/projets/indira-artiste-travaux/01.webp)
+
 | Indira (artiste) | |
 | --- | --- |
 | Nature | Artiste musicale |

@@ -16,6 +16,8 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 # Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)
 
 <!-- wiki:infobox -->
+![Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)](../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/01.webp)
+
 | Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021) | |
 | --- | --- |
 | Client | [ARTISTRY HENNESSY](../organisations/artistry-hennessy.md) |
@@ -38,6 +40,16 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 - **Ce que montrent les images** : Petit lot de backstage du 02/06/2021, classé d'après le nom « Artistry BKS ».
 - **Identification** : nom du dossier ; date
 - **Fiabilité** : déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/02.webp" alt="Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/03.webp" alt="Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/04.webp" alt="Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/05.webp" alt="Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/06.webp" alt="Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

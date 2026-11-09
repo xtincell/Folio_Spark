@@ -16,6 +16,8 @@ etat: "standard"
 # Spawt — La carte du bon goût
 
 <!-- wiki:infobox -->
+![Spawt — La carte du bon goût](../../public/work/cases/spawt/hero.webp)
+
 | Spawt — La carte du bon goût | |
 | --- | --- |
 | Client | [Spawt](../organisations/spawt.md) |
@@ -41,6 +43,18 @@ Direction créative et conception de l’univers visuel, en parallèle de la con
 ## Résultat
 
 Logo, recherches de mascotte et visuels de communication autour de la découverte culinaire. Ces pièces documentent une étape du travail de marque ; l’application et son interface constituent un chantier distinct.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/spawt/01.webp"><img src="../../public/work/cases/spawt/01.webp" alt="Spawt — La carte du bon goût" width="240"></a>
+<a href="../../public/work/cases/spawt/02.webp"><img src="../../public/work/cases/spawt/02.webp" alt="Spawt — La carte du bon goût" width="240"></a>
+<a href="../../public/work/cases/spawt/03.webp"><img src="../../public/work/cases/spawt/03.webp" alt="Spawt — La carte du bon goût" width="240"></a>
+<a href="../../public/work/cases/spawt/04.webp"><img src="../../public/work/cases/spawt/04.webp" alt="Spawt — La carte du bon goût" width="240"></a>
+<a href="../../public/work/cases/spawt/05.webp"><img src="../../public/work/cases/spawt/05.webp" alt="Spawt — La carte du bon goût" width="240"></a>
+<a href="../../public/work/cases/spawt/06.webp"><img src="../../public/work/cases/spawt/06.webp" alt="Spawt — La carte du bon goût" width="240"></a>
+<a href="../../public/work/cases/spawt/07.webp"><img src="../../public/work/cases/spawt/07.webp" alt="Spawt — La carte du bon goût" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Hydrane
 
 <!-- wiki:infobox -->
+![Hydrane](../../public/medias-wiki/projets/hydrane-travaux/01.webp)
+
 | Hydrane | |
 | --- | --- |
 | Nature | À préciser |

@@ -9,6 +9,8 @@ etat: "ebauche"
 # ARTISTRY HENNESSY
 
 <!-- wiki:infobox -->
+![ARTISTRY HENNESSY](../../public/medias-wiki/projets/artistry-hennessy-travaux/01.webp)
+
 | ARTISTRY HENNESSY | |
 | --- | --- |
 | Nature | Programme culturel de la marque Hennessy |
@@ -22,6 +24,13 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021.md"><img src="../../public/medias-wiki/projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021/01.webp" alt="Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)" width="240"></a>
+<a href="../projets/evt-2021-12-03-hennessy-artistry-2021-concerts.md"><img src="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/01.webp" alt="Hennessy Artistry 2021 — concerts" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

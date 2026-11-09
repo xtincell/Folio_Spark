@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Mimie x Nakuin — travaux
 
 <!-- wiki:infobox -->
+![Mimie x Nakuin — travaux](../../public/medias-wiki/projets/mimie-x-nakuin-travaux/01.webp)
+
 | Mimie x Nakuin — travaux | |
 | --- | --- |
 | Client | [Mimie x Nakuin](../organisations/mimie-x-nakuin.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Mimie x Nakuin](../organisations/mimie-x-nakuin.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/02.webp"><img src="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/02.webp" alt="Mimie x Nakuin — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/03.webp"><img src="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/03.webp" alt="Mimie x Nakuin — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/04.webp"><img src="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/04.webp" alt="Mimie x Nakuin — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/05.webp"><img src="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/05.webp" alt="Mimie x Nakuin — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/06.webp"><img src="../../public/medias-wiki/projets/mimie-x-nakuin-travaux/06.webp" alt="Mimie x Nakuin — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

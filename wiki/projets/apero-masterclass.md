@@ -13,6 +13,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # Apéro Masterclass
 
 <!-- wiki:infobox -->
+![Apéro Masterclass](../../public/work/historique/14-apero-masterclass/14-apero-masterclass-01.jpg)
+
 | Apéro Masterclass | |
 | --- | --- |
 | Client | [Student Photographer (Stéphane Nounamo)](../organisations/student-photographer-stephane-nounamo.md) |
@@ -29,6 +31,13 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/historique/14-apero-masterclass/14-apero-masterclass-02.jpg"><img src="../../public/work/historique/14-apero-masterclass/14-apero-masterclass-02.jpg" alt="Apéro Masterclass" width="240"></a>
+<a href="../../public/work/historique/14-apero-masterclass/14-apero-masterclass-03.jpg"><img src="../../public/work/historique/14-apero-masterclass/14-apero-masterclass-03.jpg" alt="Apéro Masterclass" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

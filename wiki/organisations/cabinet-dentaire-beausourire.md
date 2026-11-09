@@ -8,6 +8,8 @@ etat: "ebauche"
 # Cabinet Dentaire BeauSourire
 
 <!-- wiki:infobox -->
+![Cabinet Dentaire BeauSourire](https://images.pixieset.com/87102637/6d4974e00fbed7b4a9705557d6452253-large.jpg)
+
 | Cabinet Dentaire BeauSourire | |
 | --- | --- |
 | Nature | Santé |

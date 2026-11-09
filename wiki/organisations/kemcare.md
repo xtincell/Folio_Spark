@@ -8,6 +8,8 @@ etat: "ebauche"
 # Kemcare
 
 <!-- wiki:infobox -->
+![Kemcare](../../public/work/tier23/kemcare-haircare/kemcare-haircare-01.jpg)
+
 | Kemcare | |
 | --- | --- |
 | Nature | Soins capillaires |

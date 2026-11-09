@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : lieu confirmé. Organisate
 # Soirée d'Halloween au gaming center « Insomnia » (Red Bull)
 
 <!-- wiki:infobox -->
+![Soirée d'Halloween au gaming center « Insomnia » (Red Bull)](../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/01.webp)
+
 | Soirée d'Halloween au gaming center « Insomnia » (Red Bull) | |
 | --- | --- |
 | Période | 30 octobre 2022 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : lieu confirmé. Organisate
 - **Ce que montrent les images** : 30/10/2022 : maquillage d'Halloween, tournoi de jeux vidéo ; renommé dans _À identifier.
 - **Identification** : enseigne « Insomnia », affiche de tournoi IGZ, Red Bull
 - **Fiabilité** : lieu confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/02.webp" alt="Soirée d'Halloween au gaming center « Insomnia » (Red Bull)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/03.webp" alt="Soirée d'Halloween au gaming center « Insomnia » (Red Bull)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/04.webp" alt="Soirée d'Halloween au gaming center « Insomnia » (Red Bull)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/05.webp" alt="Soirée d'Halloween au gaming center « Insomnia » (Red Bull)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull/06.webp" alt="Soirée d'Halloween au gaming center « Insomnia » (Red Bull)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

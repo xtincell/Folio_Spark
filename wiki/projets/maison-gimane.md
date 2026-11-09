@@ -19,6 +19,8 @@ etat: "standard"
 # Maison Gimane — production photo & vidéo
 
 <!-- wiki:infobox -->
+![Maison Gimane — production photo & vidéo](../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-01.jpg)
+
 | Maison Gimane — production photo & vidéo | |
 | --- | --- |
 | Client | [Maison Gimane](../organisations/maison-gimane.md) |
@@ -42,6 +44,16 @@ Joaillerie sur mesure — production de contenus visuels pour la marque. Directi
 ## Rôle
 
 Production photo & vidéo. Repère d’origine : « 2024 ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-02.jpg"><img src="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-02.jpg" alt="Maison Gimane — production photo & vidéo" width="240"></a>
+<a href="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-03.jpg"><img src="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-03.jpg" alt="Maison Gimane — production photo & vidéo" width="240"></a>
+<a href="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-04.jpg"><img src="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-04.jpg" alt="Maison Gimane — production photo & vidéo" width="240"></a>
+<a href="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-05.jpg"><img src="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-05.jpg" alt="Maison Gimane — production photo & vidéo" width="240"></a>
+<a href="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-06.jpg"><img src="../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-06.jpg" alt="Maison Gimane — production photo & vidéo" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

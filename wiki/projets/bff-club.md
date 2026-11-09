@@ -12,6 +12,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # BFF Club
 
 <!-- wiki:infobox -->
+![BFF Club](../../public/medias-wiki/projets/bff-club/01.webp)
+
 | BFF Club | |
 | --- | --- |
 | Client | [The BFF Club](../organisations/the-bff-club.md) |
@@ -26,6 +28,14 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/bff-club/02.webp"><img src="../../public/medias-wiki/projets/bff-club/02.webp" alt="BFF Club" width="240"></a>
+<a href="../../public/work/historique/18-bff-club/18-bff-club-01.jpg"><img src="../../public/work/historique/18-bff-club/18-bff-club-01.jpg" alt="BFF Club" width="240"></a>
+<a href="../../public/work/historique/18-bff-club/18-bff-club-02.jpg"><img src="../../public/work/historique/18-bff-club/18-bff-club-02.jpg" alt="BFF Club" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Mounpoubeyi
 
 <!-- wiki:infobox -->
+![Mounpoubeyi](../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/01.webp)
+
 | Mounpoubeyi | |
 | --- | --- |
 | Nature | Artiste musicale |
@@ -22,6 +24,14 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/mounpoubeyi-travaux.md"><img src="../../public/medias-wiki/projets/mounpoubeyi-travaux/01.webp" alt="Mounpoubeyi — travaux" width="240"></a>
+<a href="../projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc.md"><img src="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/01.webp" alt="Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng" width="240"></a>
+<a href="../projets/photo-mounpoubeyi.md"><img src="https://images.pixieset.com/28625347/c9b793ef13a3e69046b40c010e8b5496-large.jpg" alt="Mounpoubeyi — galerie photo" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

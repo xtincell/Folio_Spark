@@ -9,6 +9,8 @@ etat: "ebauche"
 # The Burger Bar
 
 <!-- wiki:infobox -->
+![The Burger Bar](../../public/medias-wiki/projets/the-burger-bar-travaux/01.webp)
+
 | The Burger Bar | |
 | --- | --- |
 | Nature | À préciser |

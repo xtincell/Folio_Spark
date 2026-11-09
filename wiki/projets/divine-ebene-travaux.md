@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Divine Ebene — travaux
 
 <!-- wiki:infobox -->
+![Divine Ebene — travaux](../../public/medias-wiki/projets/divine-ebene-travaux/01.webp)
+
 | Divine Ebene — travaux | |
 | --- | --- |
 | Client | [Divine Ebene](../organisations/divine-ebene.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Divine Ebene](../organisations/divine-ebene.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/divine-ebene-travaux/02.webp"><img src="../../public/medias-wiki/projets/divine-ebene-travaux/02.webp" alt="Divine Ebene — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/divine-ebene-travaux/03.webp"><img src="../../public/medias-wiki/projets/divine-ebene-travaux/03.webp" alt="Divine Ebene — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/divine-ebene-travaux/04.webp"><img src="../../public/medias-wiki/projets/divine-ebene-travaux/04.webp" alt="Divine Ebene — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/divine-ebene-travaux/05.webp"><img src="../../public/medias-wiki/projets/divine-ebene-travaux/05.webp" alt="Divine Ebene — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/divine-ebene-travaux/06.webp"><img src="../../public/medias-wiki/projets/divine-ebene-travaux/06.webp" alt="Divine Ebene — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

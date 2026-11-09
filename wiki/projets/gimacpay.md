@@ -12,6 +12,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # GimacPay
 
 <!-- wiki:infobox -->
+![GimacPay](../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-01.jpg)
+
 | GimacPay | |
 | --- | --- |
 | Client | [GimacPay](../organisations/gimacpay.md) |
@@ -26,6 +28,15 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-02.jpg"><img src="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-02.jpg" alt="GimacPay" width="240"></a>
+<a href="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-03.jpg"><img src="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-03.jpg" alt="GimacPay" width="240"></a>
+<a href="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-04.jpg"><img src="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-04.jpg" alt="GimacPay" width="240"></a>
+<a href="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-05.jpg"><img src="../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-05.jpg" alt="GimacPay" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

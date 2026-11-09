@@ -15,6 +15,8 @@ etat: "standard"
 # « Photography Masterclass » de Stéphane Nounamo (I)
 
 <!-- wiki:infobox -->
+![« Photography Masterclass » de Stéphane Nounamo (I)](../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/01.webp)
+
 | « Photography Masterclass » de Stéphane Nounamo (I) | |
 | --- | --- |
 | Client | [Student Photographer (Stéphane Nounamo)](../organisations/student-photographer-stephane-nounamo.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 27/08/2022 : démonstrations au boîtier, projection des images en direct, échanges avec les participants.
 - **Identification** : roll-ups « Photography Masterclass — A Student Photographer Concept 2022 » et « Motion19 »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/02.webp" alt="« Photography Masterclass » de Stéphane Nounamo (I)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/03.webp" alt="« Photography Masterclass » de Stéphane Nounamo (I)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/04.webp" alt="« Photography Masterclass » de Stéphane Nounamo (I)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/05.webp" alt="« Photography Masterclass » de Stéphane Nounamo (I)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/06.webp" alt="« Photography Masterclass » de Stéphane Nounamo (I)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

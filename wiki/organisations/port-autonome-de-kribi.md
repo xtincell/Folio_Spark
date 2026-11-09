@@ -8,6 +8,8 @@ etat: "ebauche"
 # Port Autonome de Kribi
 
 <!-- wiki:infobox -->
+![Port Autonome de Kribi](../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-01.jpg)
+
 | Port Autonome de Kribi | |
 | --- | --- |
 | Nature | Institution portuaire |

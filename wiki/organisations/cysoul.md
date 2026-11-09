@@ -9,6 +9,8 @@ etat: "ebauche"
 # Cysoul
 
 <!-- wiki:infobox -->
+![Cysoul](../../public/medias-wiki/projets/cysoul-travaux/01.webp)
+
 | Cysoul | |
 | --- | --- |
 | Nature | Artiste musical |

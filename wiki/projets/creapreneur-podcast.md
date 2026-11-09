@@ -13,6 +13,8 @@ etat: "standard"
 # Créapreneur (podcast)
 
 <!-- wiki:infobox -->
+![Créapreneur (podcast)](../../public/medias-wiki/projets/creapreneur-podcast/01.webp)
+
 | Créapreneur (podcast) | |
 | --- | --- |
 | Client | Projet personnel |
@@ -30,6 +32,14 @@ etat: "standard"
 ## Description
 
 Podcast présenté par Xtincell sur l'entrepreneuriat créatif en Afrique francophone : quotidien de créateur, gestion de clients, tarifs, droits d'auteur.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/creapreneur-podcast/02.webp"><img src="../../public/medias-wiki/projets/creapreneur-podcast/02.webp" alt="Créapreneur (podcast)" width="240"></a>
+<a href="../../public/medias-wiki/projets/creapreneur-podcast/03.webp"><img src="../../public/medias-wiki/projets/creapreneur-podcast/03.webp" alt="Créapreneur (podcast)" width="240"></a>
+<a href="../../public/medias-wiki/projets/creapreneur-podcast/04.webp"><img src="../../public/medias-wiki/projets/creapreneur-podcast/04.webp" alt="Créapreneur (podcast)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Liens
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # H3riQ
 
 <!-- wiki:infobox -->
+![H3riQ](../../public/medias-wiki/projets/h3riq-travaux/01.webp)
+
 | H3riQ | |
 | --- | --- |
 | Nature | Artiste musical |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/photo-h3riq.md"><img src="https://images.pixieset.com/92979347/6529184208ddd8898765f3829eb2ffa8-large.jpg" alt="H3riQ — galerie photo" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

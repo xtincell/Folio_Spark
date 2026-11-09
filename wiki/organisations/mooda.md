@@ -9,6 +9,8 @@ etat: "ebauche"
 # Mooda
 
 <!-- wiki:infobox -->
+![Mooda](../../public/medias-wiki/projets/mooda-travaux/01.webp)
+
 | Mooda | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop.md"><img src="../../public/medias-wiki/projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop/01.webp" alt="Soirée « The Mooda Times » (hip-hop)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

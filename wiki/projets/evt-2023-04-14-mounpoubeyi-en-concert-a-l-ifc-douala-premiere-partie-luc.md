@@ -15,6 +15,8 @@ etat: "standard"
 # Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng
 
 <!-- wiki:infobox -->
+![Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng](../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/01.webp)
+
 | Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng | |
 | --- | --- |
 | Client | [Mounpoubeyi](../organisations/mounpoubeyi.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - Scène rouge de l'IFC, chanteuse en robe dorée, musiciens ; photos au téléphone et retouches.
 - **Identification** : noms de fichiers 20230414_sony… et 20230419_sony… ; même concert que l'affiche « Mounpoubeyi, 14 avril 2023, IFC Douala »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/02.webp" alt="Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/03.webp" alt="Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/04.webp" alt="Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/05.webp" alt="Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc/06.webp" alt="Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

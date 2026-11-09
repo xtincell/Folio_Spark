@@ -7,12 +7,15 @@ client: "cabinet-dentaire-beausourire"
 genre: "Corporate"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/cabinetdentaire/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/87102637/6d4974e00fbed7b4a9705557d6452253-large.jpg"
 etat: "ebauche"
 verifier: ["Date de la séance absente de Pixieset."]
 ---
 # Cabinet Dentaire BeauSourire — galerie photo
 
 <!-- wiki:infobox -->
+![Cabinet Dentaire BeauSourire — galerie photo](https://images.pixieset.com/87102637/6d4974e00fbed7b4a9705557d6452253-large.jpg)
+
 | Cabinet Dentaire BeauSourire — galerie photo | |
 | --- | --- |
 | Client | [Cabinet Dentaire BeauSourire](../organisations/cabinet-dentaire-beausourire.md) |

@@ -9,6 +9,8 @@ etat: "ebauche"
 # The BFF Club
 
 <!-- wiki:infobox -->
+![The BFF Club](../../public/medias-wiki/projets/bff-club/01.webp)
+
 | The BFF Club | |
 | --- | --- |
 | Nature | À préciser |

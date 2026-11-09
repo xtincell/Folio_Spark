@@ -15,6 +15,8 @@ etat: "standard"
 # BCSnU — tournage du grand défilé de rue (vidéos)
 
 <!-- wiki:infobox -->
+![BCSnU — tournage du grand défilé de rue (vidéos)](../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/01.webp)
+
 | BCSnU — tournage du grand défilé de rue (vidéos) | |
 | --- | --- |
 | Client | [BCSnU — Grand défilé](../organisations/bcsnu-grand-defile.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 24/09/2023 vers 18 h 30 : rond-point, camion, écran géant au loin, ciel du soir.
 - **Identification** : dossier client BCSnU ; même jour que les photos « Grand défilé »
 - **Fiabilité** : confirmé / déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/02.webp" alt="BCSnU — tournage du grand défilé de rue (vidéos)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/03.webp" alt="BCSnU — tournage du grand défilé de rue (vidéos)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/04.webp" alt="BCSnU — tournage du grand défilé de rue (vidéos)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/05.webp" alt="BCSnU — tournage du grand défilé de rue (vidéos)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos/06.webp" alt="BCSnU — tournage du grand défilé de rue (vidéos)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

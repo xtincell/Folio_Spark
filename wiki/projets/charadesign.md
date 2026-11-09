@@ -15,6 +15,8 @@ etat: "ebauche"
 # Charadesign — Personnages afro-fantastiques
 
 <!-- wiki:infobox -->
+![Charadesign — Personnages afro-fantastiques](../../public/work/cases/charadesign/hero.webp)
+
 | Charadesign — Personnages afro-fantastiques | |
 | --- | --- |
 | Client | Projet personnel |
@@ -31,6 +33,21 @@ etat: "ebauche"
 ## Contexte
 
 Bibliothèque de character design afro-fantasy / afrofuturiste : héros et héroïnes à locs, tresses et cornes de bélier mêlant streetwear, regalia tribale et motifs cosmiques, en planches modèles et splash arts.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/charadesign/01.webp"><img src="../../public/work/cases/charadesign/01.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/02.webp"><img src="../../public/work/cases/charadesign/02.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/03.webp"><img src="../../public/work/cases/charadesign/03.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/04.webp"><img src="../../public/work/cases/charadesign/04.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/05.webp"><img src="../../public/work/cases/charadesign/05.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/06.webp"><img src="../../public/work/cases/charadesign/06.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/07.webp"><img src="../../public/work/cases/charadesign/07.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/08.webp"><img src="../../public/work/cases/charadesign/08.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/09.webp"><img src="../../public/work/cases/charadesign/09.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<a href="../../public/work/cases/charadesign/10.webp"><img src="../../public/work/cases/charadesign/10.webp" alt="Charadesign — Personnages afro-fantastiques" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

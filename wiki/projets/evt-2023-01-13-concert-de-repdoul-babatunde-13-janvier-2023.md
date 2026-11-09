@@ -15,6 +15,8 @@ etat: "standard"
 # Concert de Repdoul × Babatunde (13 janvier 2023)
 
 <!-- wiki:infobox -->
+![Concert de Repdoul × Babatunde (13 janvier 2023)](../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/01.webp)
+
 | Concert de Repdoul × Babatunde (13 janvier 2023) | |
 | --- | --- |
 | Client | [Babatunde](../organisations/babatunde.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 13/01/2023 : causerie et portraits des participants sur fond blanc, puis concert en salle (chanteuse, batterie, guitare, public jeune).
 - **Identification** : dossier client « Babatunde » ; même soirée que « Repdoul x Babatunde » sur P: (13/01/2023)
 - **Fiabilité** : confirmé (dossier client) / déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/02.webp" alt="Concert de Repdoul × Babatunde (13 janvier 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/03.webp" alt="Concert de Repdoul × Babatunde (13 janvier 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/04.webp" alt="Concert de Repdoul × Babatunde (13 janvier 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/05.webp" alt="Concert de Repdoul × Babatunde (13 janvier 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023/06.webp" alt="Concert de Repdoul × Babatunde (13 janvier 2023)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

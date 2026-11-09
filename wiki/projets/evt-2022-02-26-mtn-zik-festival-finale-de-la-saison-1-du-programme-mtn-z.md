@@ -15,6 +15,8 @@ etat: "standard"
 # MTN Zik Festival — finale de la saison 1 du programme MTN Zik
 
 <!-- wiki:infobox -->
+![MTN Zik Festival — finale de la saison 1 du programme MTN Zik](../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/01.webp)
+
 | MTN Zik Festival — finale de la saison 1 du programme MTN Zik | |
 | --- | --- |
 | Client | [MTN Cameroon](../organisations/mtn-cameroon.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - Sélection retouchée de la soirée du 26/02/2022 : loges, prestations sous les lumières jaunes MTN, remise des diplômes et des chèques, foule.
 - **Identification** : bâche « MTN ZIK Festival ! » ; diplôme « MTN Cameroon congratulates Mr/Ms Fleaby Nkoa for his brilliant participation in season 1 (2021-2022) of the MTN ZIK program… ex aequo winner » ; collection Lightroom « Locko MTN Concert » ; dossier client C:\MTN Zik\2022 aux mêmes dates
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/02.webp" alt="MTN Zik Festival — finale de la saison 1 du programme MTN Zik" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/03.webp" alt="MTN Zik Festival — finale de la saison 1 du programme MTN Zik" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/04.webp" alt="MTN Zik Festival — finale de la saison 1 du programme MTN Zik" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/05.webp" alt="MTN Zik Festival — finale de la saison 1 du programme MTN Zik" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/06.webp" alt="MTN Zik Festival — finale de la saison 1 du programme MTN Zik" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

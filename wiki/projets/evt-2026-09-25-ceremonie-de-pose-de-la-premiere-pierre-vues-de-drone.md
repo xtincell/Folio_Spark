@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Cérémonie de pose de la première pierre (vues de drone)
 
 <!-- wiki:infobox -->
+![Cérémonie de pose de la première pierre (vues de drone)](../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/01.webp)
+
 | Cérémonie de pose de la première pierre (vues de drone) | |
 | --- | --- |
 | Période | 25 septembre 2026 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : Vues aériennes de la tribune, des grandes tentes blanches, de la stèle sous dais rouge et du cercle des invités ; panorama sur le port et un immeuble en construction.
 - **Identification** : noms des fichiers DJI_20260925… (25/09/2026) ; aucun logo lisible d'aussi haut
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/02.webp"><img src="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/02.webp" alt="Cérémonie de pose de la première pierre (vues de drone)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/03.webp"><img src="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/03.webp" alt="Cérémonie de pose de la première pierre (vues de drone)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/04.webp"><img src="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/04.webp" alt="Cérémonie de pose de la première pierre (vues de drone)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/05.webp"><img src="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/05.webp" alt="Cérémonie de pose de la première pierre (vues de drone)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/06.webp"><img src="../../public/medias-wiki/projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone/06.webp" alt="Cérémonie de pose de la première pierre (vues de drone)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 
