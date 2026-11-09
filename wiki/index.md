@@ -1665,7 +1665,7 @@
 ### Employeur (5)
 
 - [Bimstr Agency](organisations/bimstr.md) — 2019–2021 · 0 projet(s)
-- [MATANGA Agency](organisations/matanga-agency.md) — 2025–… · 13 projet(s)
+- [MATANGA Agency](organisations/matanga-agency.md) — 2025–… · 18 projet(s)
 - [Motion19](organisations/motion19.md) — 2021–2023 · 3 projet(s)
 - [Studio Graphique 44](organisations/studio44.md) — 2018 · 1 projet(s)
 - [Will & Brothers (Sellkako)](organisations/will-and-brothers.md) — 2017–2019 · 0 projet(s)

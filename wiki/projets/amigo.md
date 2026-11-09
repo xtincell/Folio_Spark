@@ -10,9 +10,8 @@ chaine: ["matanga-agency"]
 disciplines: ["social","KV-OOH","illustration"]
 folio: "/work/amigo"
 medias: ["public/work/cases/amigo"]
-sources: ["folio:cases.spec.json"]
-etat: "a-verifier"
-verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."]
+sources: ["folio:cases.spec.json", "disques:matanga"]
+etat: "standard"
 ---
 # Amigo — Boulangerie & beignets
 
@@ -26,7 +25,7 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 | Catégorie | Campagne |
 | Disciplines | social · KV-OOH · illustration |
 | Folio | [Étude de cas ↗](https://xtincell.powerupgraders.com/work/amigo) |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Amigo — Boulangerie & beignets** est une campagne réalisée pour [Groupe Cadyst](../organisations/groupe-cadyst.md), via [MATANGA Agency](../organisations/matanga-agency.md) (2025).
@@ -41,7 +40,10 @@ Campagne social et key visual mascotte pour Amigo, gamme de farines/boulangerie 
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `amigo`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

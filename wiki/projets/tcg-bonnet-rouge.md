@@ -10,9 +10,8 @@ chaine: ["matanga-agency"]
 disciplines: ["packaging","illustration","branding"]
 folio: "/work/tcg-bonnet-rouge"
 medias: ["public/work/cases/tcg-bonnet-rouge"]
-sources: ["folio:cases.spec.json"]
-etat: "a-verifier"
-verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."]
+sources: ["folio:cases.spec.json", "disques:matanga"]
+etat: "standard"
 ---
 # Bonnet Rouge — « Puissance Lactée » (TCG)
 
@@ -26,7 +25,7 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 | Catégorie | Campagne |
 | Disciplines | packaging · illustration · branding |
 | Folio | [Étude de cas ↗](https://xtincell.powerupgraders.com/work/tcg-bonnet-rouge) |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Bonnet Rouge — « Puissance Lactée » (TCG)** est une campagne réalisée pour [FrieslandCampina](../organisations/frieslandcampina.md), via [MATANGA Agency](../organisations/matanga-agency.md) (2025).
@@ -41,6 +40,7 @@ Jeu de cartes de marque « Puissance Lactée » comme merchandising pour le lait
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `tcg-bonnet-rouge`
 
 <!-- wiki:liens-entrants -->

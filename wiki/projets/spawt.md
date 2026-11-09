@@ -51,6 +51,4 @@ Logo, recherches de mascotte et visuels de communication autour de la découvert
 - Folio — `scripts/cases.spec.json`, entrée `spawt`
 
 <!-- wiki:liens-entrants -->
----
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

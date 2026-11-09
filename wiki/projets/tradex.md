@@ -6,10 +6,11 @@ casquette: "direction-artistique"
 debut: 2025
 fin: 2025
 client: "tradex"
+chaine: ["matanga-agency"]
 disciplines: ["KV-OOH","photography"]
 folio: "/work/tradex"
 medias: ["public/work/cases/tradex"]
-sources: ["folio:cases.spec.json"]
+sources: ["folio:cases.spec.json", "disques:matanga"]
 etat: "ebauche"
 ---
 # Tradex 2T — « Moto no di fail »
@@ -18,6 +19,7 @@ etat: "ebauche"
 | Tradex 2T — « Moto no di fail » | |
 | --- | --- |
 | Client | [Tradex](../organisations/tradex.md) |
+| Via | [MATANGA Agency](../organisations/matanga-agency.md) |
 | Période | 2025 |
 | Casquette | Direction créative & artistique |
 | Catégorie | Campagne |
@@ -38,7 +40,10 @@ Key visual publicitaire pour l'huile moteur 2 temps Tradex « 2T JASO FC », cib
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `tradex`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

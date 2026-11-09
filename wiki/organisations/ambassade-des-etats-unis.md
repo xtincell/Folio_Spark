@@ -54,5 +54,5 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Ambassade des États-Unis — travaux](../projets/ambassade-des-etats-unis-travaux.md) · [Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)](../projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Ambassade des États-Unis — travaux](../projets/ambassade-des-etats-unis-travaux.md) · [Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)](../projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp.md)
 <!-- /wiki:liens-entrants -->

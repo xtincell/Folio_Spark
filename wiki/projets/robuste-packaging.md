@@ -10,9 +10,8 @@ chaine: ["matanga-agency"]
 disciplines: ["packaging","branding"]
 folio: "/work/robuste-packaging"
 medias: ["public/work/cases/robuste-packaging"]
-sources: ["folio:cases.spec.json"]
-etat: "a-verifier"
-verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."]
+sources: ["folio:cases.spec.json", "disques:matanga"]
+etat: "standard"
 ---
 # Robuste — Packaging aliments
 
@@ -26,7 +25,7 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 | Catégorie | Campagne |
 | Disciplines | packaging · branding |
 | Folio | [Étude de cas ↗](https://xtincell.powerupgraders.com/work/robuste-packaging) |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Robuste — Packaging aliments** est une campagne réalisée pour [Groupe Cadyst](../organisations/groupe-cadyst.md), via [MATANGA Agency](../organisations/matanga-agency.md) (2026).
@@ -41,6 +40,7 @@ Design de packaging pour les aliments pour bétail « Robuste » (Cadyst Farming
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `robuste-packaging`
 
 <!-- wiki:liens-entrants -->

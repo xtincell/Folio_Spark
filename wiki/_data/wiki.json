@@ -368,12 +368,10 @@
         "public/work/cases/amigo"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -648,6 +646,9 @@
       "debut": 2025,
       "fin": 2025,
       "client": "bams-btp",
+      "chaine": [
+        "matanga-agency"
+      ],
       "disciplines": [
         "branding",
         "packaging"
@@ -657,7 +658,8 @@
         "public/work/cases/bams-btp"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
       "etat": "ebauche",
       "enfants": []
@@ -949,12 +951,10 @@
         "public/work/tier23/cadyst-grain-flours"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -1014,6 +1014,9 @@
       "debut": 2026,
       "fin": 2026,
       "client": "cap-esterias",
+      "chaine": [
+        "matanga-agency"
+      ],
       "disciplines": [
         "photography",
         "social",
@@ -1024,7 +1027,8 @@
         "public/work/cases/cap-esterias"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
       "etat": "ebauche",
       "enfants": []
@@ -1693,12 +1697,10 @@
         "public/work/tier23/cadyst-delys-barka-biscuits"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -1967,12 +1969,10 @@
         "public/work/cases/ecobank"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -2047,12 +2047,10 @@
         "public/work/cases/enseigne"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -4575,7 +4573,8 @@
         "public/work/bonnet-rouge"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
       "etat": "standard",
       "enfants": []
@@ -5706,6 +5705,9 @@
       "debut": 2026,
       "fin": 2026,
       "client": "groupe-bel",
+      "chaine": [
+        "matanga-agency"
+      ],
       "disciplines": [
         "branding",
         "packaging"
@@ -5715,7 +5717,8 @@
         "public/work/cases/la-vache-qui-rit"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
       "etat": "ebauche",
       "enfants": []
@@ -6692,6 +6695,9 @@
       "debut": 2026,
       "fin": 2026,
       "client": "nsia-assurances",
+      "chaine": [
+        "matanga-agency"
+      ],
       "disciplines": [
         "KV-OOH",
         "photography"
@@ -6701,7 +6707,8 @@
         "public/work/cases/nsia"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
       "etat": "ebauche",
       "enfants": []
@@ -7600,12 +7607,10 @@
         "public/work/cases/robuste-packaging"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -7633,12 +7638,10 @@
         "public/work/cases/robuste"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -8192,12 +8195,10 @@
         "public/work/cases/tcg-bonnet-rouge"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
-      "etat": "a-verifier",
-      "verifier": [
-        "Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."
-      ],
+      "etat": "standard",
       "enfants": []
     },
     {
@@ -8400,6 +8401,9 @@
       "debut": 2025,
       "fin": 2025,
       "client": "tradex",
+      "chaine": [
+        "matanga-agency"
+      ],
       "disciplines": [
         "KV-OOH",
         "photography"
@@ -8409,7 +8413,8 @@
         "public/work/cases/tradex"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "disques:matanga"
       ],
       "etat": "ebauche",
       "enfants": []
@@ -11603,11 +11608,19 @@
       "slug": "alexandre-djengue",
       "path": "wiki/personnes/alexandre-djengue.md",
       "titre": "Alexandre « Xtincell » Djengue",
-      "resume": "Alexandre Djengue, dit Xtincell, né en 1991 au Cameroun, est un directeur créatif et artistique, stratège de marque et photographe basé à Douala. Co-fondateur en 2017 puis CEO depuis 2023 du cabinet UPgraders, il est depuis janvier 2025 Directeur Créatif & Artistique de MATANGA Agency. Il conçoit aussi ses propres outils de travail, de la plateforme La Fusée au programme Shinkiro.",
+      "resume": "Alexandre Djengue, dit Xtincell, né en 1991 au Cameroun, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il travaille d’abord comme graphiste indépendant, puis comme photographe de campagnes, d’artistes et d’événements. En 2017, il co-fonde le cabinet de conseil UPgraders, qu’il dirige depuis 2023. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence MATANGA, pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque ADVE/RTIS et la plateforme La Fusée.",
       "nom": "Alexandre « Xtincell » Djengue",
-      "role": "Brand architect · directeur créatif & artistique · toolsmith",
+      "role": "Directeur créatif et artistique, photographe, stratège de marque",
       "naissance": 1991,
+      "nationalite": "Camerounaise",
       "lieu": "Douala, Cameroun",
+      "formation": "Iftic-Sup, Yaoundé (Ingénieur des Travaux, 2013)",
+      "activite": "Directeur Créatif & Artistique de MATANGA Agency (depuis 2025) · CEO d’UPgraders (depuis 2023)",
+      "langues": [
+        "Français",
+        "Anglais",
+        "Japonais (notions)"
+      ],
       "organisations": [
         "upgraders",
         "matanga-agency",

@@ -43,4 +43,6 @@ Stratégie de marque · DA. Repère d’origine : « Lancement de marque · cryp
 - Folio — `src/components/folio/data/practices.ts`, entrée « SHAKAZZ »
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

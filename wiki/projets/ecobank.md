@@ -10,9 +10,8 @@ chaine: ["matanga-agency"]
 disciplines: ["social","KV-OOH","branding"]
 folio: "/work/ecobank"
 medias: ["public/work/cases/ecobank"]
-sources: ["folio:cases.spec.json"]
-etat: "a-verifier"
-verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."]
+sources: ["folio:cases.spec.json", "disques:matanga"]
+etat: "standard"
 ---
 # Ecobank — 40 ans & ellever
 
@@ -26,7 +25,7 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 | Catégorie | Campagne |
 | Disciplines | social · KV-OOH · branding |
 | Folio | [Étude de cas ↗](https://xtincell.powerupgraders.com/work/ecobank) |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Ecobank — 40 ans & ellever** est une campagne réalisée pour [Ecobank](../organisations/ecobank.md), via [MATANGA Agency](../organisations/matanga-agency.md) (2026).
@@ -41,7 +40,10 @@ Visuels de campagne pour la banque panafricaine Ecobank autour de son 40e annive
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `ecobank`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

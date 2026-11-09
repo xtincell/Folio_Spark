@@ -26,5 +26,5 @@ etat: "ebauche"
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Imperial](../organisations/imperial.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](alexandre-djengue.md) · [Imperial](../organisations/imperial.md)
 <!-- /wiki:liens-entrants -->

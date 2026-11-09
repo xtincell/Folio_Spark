@@ -41,4 +41,6 @@ Série conceptuelle « The Popcorn Man » : un homme en costume entièrement fai
 - Folio — `scripts/cases.spec.json`, entrée `popcorn-man`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

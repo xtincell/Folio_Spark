@@ -50,4 +50,6 @@ Réalisation video advertising. Repère d’origine : « 2025 ».
 - Folio — `src/components/folio/data/practices.ts`, entrée « AKWA PALACE »
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

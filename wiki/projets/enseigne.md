@@ -10,9 +10,8 @@ chaine: ["matanga-agency"]
 disciplines: ["branding","KV-OOH"]
 folio: "/work/enseigne"
 medias: ["public/work/cases/enseigne"]
-sources: ["folio:cases.spec.json"]
-etat: "a-verifier"
-verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."]
+sources: ["folio:cases.spec.json", "disques:matanga"]
+etat: "standard"
 ---
 # Cadyst Farming — Enseigne
 
@@ -26,7 +25,7 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 | Catégorie | Campagne |
 | Disciplines | branding · KV-OOH |
 | Folio | [Étude de cas ↗](https://xtincell.powerupgraders.com/work/enseigne) |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Cadyst Farming — Enseigne** est une campagne réalisée pour [Groupe Cadyst](../organisations/groupe-cadyst.md), via [MATANGA Agency](../organisations/matanga-agency.md) (2025).
@@ -41,6 +40,7 @@ Conception et mise en situation de l'enseigne pour Cadyst Farming (production/di
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `enseigne`
 
 <!-- wiki:liens-entrants -->

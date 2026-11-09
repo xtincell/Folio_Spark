@@ -10,7 +10,7 @@ chaine: ["matanga-agency"]
 disciplines: ["KV-OOH","branding","social"]
 folio: "/work/friesland-campina"
 medias: ["public/work/cases/friesland-campina","public/work/peak","public/work/bonnet-rouge"]
-sources: ["folio:cases.spec.json"]
+sources: ["folio:cases.spec.json", "disques:matanga"]
 etat: "standard"
 ---
 # Peak & Bonnet Rouge — Campagnes saisonnières
@@ -50,7 +50,10 @@ Des créations pour Ramadan, Noël, la performance sportive et la Journée mondi
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `friesland-campina`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

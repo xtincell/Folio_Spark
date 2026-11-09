@@ -36,4 +36,6 @@ _À documenter : contexte, demande, rôle, résultat._
 - Dossier de visuels du folio (`public/work/`)
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

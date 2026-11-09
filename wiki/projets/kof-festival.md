@@ -54,5 +54,5 @@ Un ensemble de supports autour du festival : identité au torii, visuel « Miss 
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [K-mer Otaku Festival 2025 (KOF4)](evt-2025-08-02-k-mer-otaku-festival-2025-kof4.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [K-mer Otaku Festival 2025 (KOF4)](evt-2025-08-02-k-mer-otaku-festival-2025-kof4.md)
 <!-- /wiki:liens-entrants -->

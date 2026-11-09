@@ -50,5 +50,5 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [ResiliArt Cameroun — séance de sélection des artistes candidats](../projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi.md) · [UNESCO — travaux](../projets/unesco-travaux.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [ResiliArt Cameroun — séance de sélection des artistes candidats](../projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi.md) · [UNESCO — travaux](../projets/unesco-travaux.md)
 <!-- /wiki:liens-entrants -->

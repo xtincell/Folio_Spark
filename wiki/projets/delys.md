@@ -10,9 +10,8 @@ chaine: ["matanga-agency"]
 disciplines: ["social","KV-OOH","photography"]
 folio: "/work/delys"
 medias: ["public/work/cases/delys","public/work/tier23/cadyst-delys-barka-biscuits"]
-sources: ["folio:cases.spec.json"]
-etat: "a-verifier"
-verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."]
+sources: ["folio:cases.spec.json", "disques:matanga"]
+etat: "standard"
 ---
 # Delys — Saint-Valentin
 
@@ -26,7 +25,7 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 | Catégorie | Campagne |
 | Disciplines | social · KV-OOH · photography |
 | Folio | [Étude de cas ↗](https://xtincell.powerupgraders.com/work/delys) |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Delys — Saint-Valentin** est une campagne réalisée pour [Groupe Cadyst](../organisations/groupe-cadyst.md), via [MATANGA Agency](../organisations/matanga-agency.md) (2026).
@@ -42,7 +41,10 @@ Visuel publicitaire Saint-Valentin pour la marque de snacks Delys : dîner roman
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `delys`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

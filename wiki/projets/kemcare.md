@@ -51,4 +51,6 @@ Stratégie de marque & lancement. Repère d’origine : « depuis 2021 · Douala
 - Folio — `src/components/folio/data/practices.ts`, entrée « KEMCARE »
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

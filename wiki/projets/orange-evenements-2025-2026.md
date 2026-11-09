@@ -56,4 +56,6 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 - Archives de travail rangées sur les disques
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

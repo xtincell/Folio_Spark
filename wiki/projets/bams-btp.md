@@ -6,10 +6,11 @@ casquette: "direction-artistique"
 debut: 2025
 fin: 2025
 client: "bams-btp"
+chaine: ["matanga-agency"]
 disciplines: ["branding","packaging"]
 folio: "/work/bams-btp"
 medias: ["public/work/cases/bams-btp"]
-sources: ["folio:cases.spec.json"]
+sources: ["folio:cases.spec.json", "disques:matanga"]
 etat: "ebauche"
 ---
 # BAMS & BTP — Identité corporate
@@ -18,6 +19,7 @@ etat: "ebauche"
 | BAMS & BTP — Identité corporate | |
 | --- | --- |
 | Client | [BAMS & BTP](../organisations/bams-btp.md) |
+| Via | [MATANGA Agency](../organisations/matanga-agency.md) |
 | Période | 2025 |
 | Casquette | Direction créative & artistique |
 | Catégorie | Campagne |
@@ -38,6 +40,7 @@ Identité de marque et déclinaisons (cartes de visite, pin's émaillé) pour BA
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `bams-btp`
 
 <!-- wiki:liens-entrants -->

@@ -35,4 +35,6 @@ _À documenter._
 - Archives personnelles rangées sur les disques (2026-11-09), dossier « Écriture/République de Mbengola »
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

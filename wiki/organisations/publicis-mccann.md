@@ -55,5 +55,5 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Orange Cameroun — événements 2025–2026](../projets/orange-evenements-2025-2026.md) · [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Orange Cameroun — événements 2025–2026](../projets/orange-evenements-2025-2026.md) · [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md)
 <!-- /wiki:liens-entrants -->

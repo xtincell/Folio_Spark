@@ -35,4 +35,6 @@ _À documenter._
 - Archives personnelles rangées sur les disques (2026-11-09), dossier « Podcast « Frontières de l'innovation » »
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

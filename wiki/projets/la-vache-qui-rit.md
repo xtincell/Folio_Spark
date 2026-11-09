@@ -6,10 +6,11 @@ casquette: "execution"
 debut: 2026
 fin: 2026
 client: "groupe-bel"
+chaine: ["matanga-agency"]
 disciplines: ["branding","packaging"]
 folio: "/work/la-vache-qui-rit"
 medias: ["public/work/cases/la-vache-qui-rit"]
-sources: ["folio:cases.spec.json"]
+sources: ["folio:cases.spec.json", "disques:matanga"]
 etat: "ebauche"
 ---
 # La Vache qui rit — Merch « For Good »
@@ -18,6 +19,7 @@ etat: "ebauche"
 | La Vache qui rit — Merch « For Good » | |
 | --- | --- |
 | Client | [Groupe Bel](../organisations/groupe-bel.md) |
+| Via | [MATANGA Agency](../organisations/matanga-agency.md) |
 | Période | 2026 |
 | Casquette | Exécution |
 | Catégorie | Campagne |
@@ -38,7 +40,10 @@ Merchandising textile (t-shirts) pour la plateforme « For Good » de La Vache q
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `la-vache-qui-rit`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

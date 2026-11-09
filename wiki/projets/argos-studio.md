@@ -45,4 +45,6 @@ _À développer : objectif, utilisateurs, état, enseignements._
 - Métadonnées GitHub (`gh repo list xtincell`), relevé du 2026-11-09
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

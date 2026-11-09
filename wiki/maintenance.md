@@ -2,26 +2,18 @@
 
 # Maintenance du wiki
 
-**Avancement** : 98/539 fiches au niveau « standard » ou « complet » (18 %).
+**Avancement** : 106/539 fiches au niveau « standard » ou « complet » (20 %).
 
-- [À vérifier](#à-vérifier) (56) · [Absents du folio](#absents-du-folio) (299) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (62) · [Ébauches](#ébauches) (385)
+- [À vérifier](#à-vérifier) (48) · [Absents du folio](#absents-du-folio) (299) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (62) · [Ébauches](#ébauches) (385)
 
 ## À vérifier
 
 Contradictions entre sources ou hypothèses de rattachement. Une fois tranché : corriger la fiche, vider `verifier` et passer `etat` à `standard`.
 
-- [Amigo — Boulangerie & beignets](projets/amigo.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
 - [Bimstr Agency](organisations/bimstr.md)
   - Le CV indique 2019–2021 ; practices.ts indique 2018–2020 avec le titre « Directeur Créatif & Artistique ».
 - [BlackNote Web](projets/blacknote-web.md)
   - Premier dépôt GitHub (2015) : objet du projet et durée à documenter (dernière activité enregistrée en 2026).
-- [Bonnet Rouge — « Puissance Lactée » (TCG)](projets/tcg-bonnet-rouge.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
-- [Cadyst Farming — Enseigne](projets/enseigne.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
-- [Cadyst Grain — Mascotte « Maître Tondo »](projets/cadyst-grain.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
 - [CanalOlympia — programmation de fin d'année 2021](projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021.md)
   - Fiabilité selon les notes de rangement : déduit.
 - [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md)
@@ -40,10 +32,6 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Fiabilité selon les notes de rangement : probable. Organisateur : Cosplay Land 237.
 - [Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner](projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine.md)
   - Fiabilité selon les notes de rangement : confirmé. Organisateur : Xtincell (programme « Créapreneur V2 », logo X à l'écran).
-- [Delys — Saint-Valentin](projets/delys.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
-- [Ecobank — 40 ans & ellever](projets/ecobank.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
 - [Exposition — portraits d'artistes et de visiteurs devant les œuvres](projets/evt-2021-11-19-exposition-portraits-d-artistes-et-de-visiteurs-devant-le.md)
   - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (participants avec cordons de badge).
 - [Exposition photo avec Kreative Kwame](projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame.md)
@@ -81,10 +69,6 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Année absente des sources.
 - [Retlaw × HoHaaa Music — clip](projets/retlaw-clip.md)
   - Année du clip absente des sources.
-- [Robuste — Aliments pour bétail](projets/robuste.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
-- [Robuste — Packaging aliments](projets/robuste-packaging.md)
-  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
 - [Séminaire technique à l'Akwa Palace (« Yves »)](projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves.md)
   - Fiabilité selon les notes de rangement : lieu confirmé, organisateur inconnu. Organisateur : non identifié (cartes d'approche aéronautiques projetées).
 - [Session live d'un groupe dans un bar à vinyles (noir et blanc)](projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl.md)

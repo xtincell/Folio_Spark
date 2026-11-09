@@ -45,4 +45,6 @@ Key visuals saisonniers (Noël, Ramadan) pour les pâtes La Pasta et création d
 - Folio — `scripts/cases.spec.json`, entrée `lapasta`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

@@ -44,6 +44,4 @@ Visuels social media pour BanaHealth, service de facilitation médicale (voyage 
 - Folio — `scripts/cases.spec.json`, entrée `banahealth`
 
 <!-- wiki:liens-entrants -->
----
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

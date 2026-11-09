@@ -189,7 +189,11 @@ function infobox(a, arts, rel) {
   } else {
     row('Rôle', d.role && esc(d.role));
     row('Naissance', d.naissance);
+    row('Nationalité', d.nationalite);
     row('Lieu', d.lieu);
+    row('Formation', d.formation);
+    row('Activité', d.activite && esc(d.activite));
+    row('Langues', asArr(d.langues));
     row('Organisations', asArr(d.organisations).map((x) => L(`organisations/${x}`) ?? x));
   }
   row('Liens', asArr(d.liens).map((l) => `[${esc(l.label)}](${l.url})`));

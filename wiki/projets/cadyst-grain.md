@@ -10,9 +10,8 @@ chaine: ["matanga-agency"]
 disciplines: ["illustration","branding"]
 folio: "/work/cadyst-grain"
 medias: ["public/work/cases/cadyst-grain","public/work/tier23/cadyst-grain-flours"]
-sources: ["folio:cases.spec.json"]
-etat: "a-verifier"
-verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer."]
+sources: ["folio:cases.spec.json", "disques:matanga"]
+etat: "standard"
 ---
 # Cadyst Grain — Mascotte « Maître Tondo »
 
@@ -26,7 +25,7 @@ verifier: ["Passage par MATANGA Agency déduit du portefeuille de l’agence : �
 | Catégorie | Campagne |
 | Disciplines | illustration · branding |
 | Folio | [Étude de cas ↗](https://xtincell.powerupgraders.com/work/cadyst-grain) |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Cadyst Grain — Mascotte « Maître Tondo »** est une campagne réalisée pour [Groupe Cadyst](../organisations/groupe-cadyst.md), via [MATANGA Agency](../organisations/matanga-agency.md) (2025).
@@ -42,7 +41,10 @@ Character design d'une mascotte de marque (artisan boulanger) pour la farine Cad
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `cadyst-grain`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->

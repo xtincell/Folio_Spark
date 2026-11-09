@@ -6,10 +6,11 @@ casquette: "direction-artistique"
 debut: 2026
 fin: 2026
 client: "nsia-assurances"
+chaine: ["matanga-agency"]
 disciplines: ["KV-OOH","photography"]
 folio: "/work/nsia"
 medias: ["public/work/cases/nsia"]
-sources: ["folio:cases.spec.json"]
+sources: ["folio:cases.spec.json", "disques:matanga"]
 etat: "ebauche"
 ---
 # NSIA Tontines — Campagne assurance
@@ -18,6 +19,7 @@ etat: "ebauche"
 | NSIA Tontines — Campagne assurance | |
 | --- | --- |
 | Client | [NSIA Assurances](../organisations/nsia-assurances.md) |
+| Via | [MATANGA Agency](../organisations/matanga-agency.md) |
 | Période | 2026 |
 | Casquette | Direction créative & artistique |
 | Catégorie | Campagne |
@@ -38,7 +40,10 @@ Campagne OOH 4×3 (version anglaise) pour le produit d'épargne-assurance « NSI
 
 ## Sources
 
+- Archives de travail rangées sous « MATANGA — EXPORT DU TRAVAIL » sur les disques (relevé du 2026-11-09)
 - Folio — `scripts/cases.spec.json`, entrée `nsia`
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
 <!-- /wiki:liens-entrants -->
