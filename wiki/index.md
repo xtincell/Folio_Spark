@@ -2,7 +2,7 @@
 
 # Index
 
-360 projets · 179 organisations · 7 personnes.
+361 projets · 179 organisations · 7 personnes.
 
 - [Par casquette](#par-casquette) · [Par catégorie](#par-catégorie) · [Par client](#par-client) · [Organisations](#organisations)
 
@@ -88,7 +88,7 @@
 - [LuckiaBet — travaux](projets/luckiabet-travaux.md) — 2024–2025
 - [Noir Ivoire — travaux](projets/noir-ivoire-travaux.md) — 2023
 - [Street Whale](projets/street-whale.md) — 2023
-- [Apéro Masterclass](projets/apero-masterclass.md) — 2022
+- [Apéro Masterclass (masterclasses photo)](projets/apero-masterclass.md) — 2022
 - [Kamer Otaku Festival — éditions 2022 à 2024](projets/kof-2022-2024.md) — 2022–2024
 - [Rue Joss et H3riQ — logos](projets/logos-rue-joss-h3riq.md) — 2022
 - [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2021–2022
@@ -120,7 +120,7 @@
 - [Sons of the Lions](projets/sons-of-the-lions.md)
 - [The Battle of the Baddest](projets/battle-of-the-baddest.md)
 
-### Exécution (254)
+### Exécution (255)
 
 - [Arc en Ciel — travaux](projets/arc-en-ciel-travaux.md) — 2026
 - [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md) — 2026
@@ -344,6 +344,7 @@
 - [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018
 - [BlackNote Web](projets/blacknote-web.md) — 2015
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
 - [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022
@@ -449,7 +450,7 @@
 - [Darkling Stories](projets/darkling-stories.md)
 - [République de Mbengola](projets/republique-de-mbengola.md)
 
-### Événement (103)
+### Événement (104)
 
 - [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md) — 2026
 - [Vernissage et résidence d'artistes (janvier 2026)](projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026.md) — 2026
@@ -486,6 +487,7 @@
 - [Voyage Lion Den à Garoua — Cameroun–Burundi et visites](projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites.md) — 2023
 - [« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)](projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo.md) — 2022
 - [« Photography Masterclass » de Stéphane Nounamo (I)](projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md) — 2022
+- [Apéro Masterclass (masterclasses photo)](projets/apero-masterclass.md) — 2022
 - [Atelier sur la pêche illicite, non déclarée et non réglementée (INN)](projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme.md) — 2022
 - [Concert « Africa United »](projets/evt-2022-05-21-concert-africa-united.md) — 2022
 - [Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner](projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine.md) — 2022
@@ -762,13 +764,12 @@
 
 - [Shinkiro](projets/shinkiro.md) — 2026–…
 
-### Projet (19)
+### Projet (18)
 
 - [Forgemonde](projets/forgemonde.md) — 2026
 - [Captain Lion](projets/captain-lion.md) — 2025
 - [Darkroom](projets/darkroom.md) — 2025
 - [Street Whale](projets/street-whale.md) — 2023
-- [Apéro Masterclass](projets/apero-masterclass.md) — 2022
 - [Ambassade du Japon](projets/ambassade-du-japon.md)
 - [BFF Club](projets/bff-club.md)
 - [Compagnon K9 — chenil](projets/compagnon-k9.md)
@@ -783,6 +784,10 @@
 - [Résidence mode (up-cycling)](projets/residence-mode-upcycling.md)
 - [Spark — agence de talents](projets/spark-agence-de-talents.md)
 - [Tu tires je tiens](projets/tu-tires-je-tiens.md)
+
+### Vidéo (1)
+
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
 
 ## Par client
 
@@ -1432,7 +1437,7 @@
 
 - [Primo Ice — travaux](projets/primo-ice-travaux.md) — 2024
 
-### Projets personnels (56)
+### Projets personnels (57)
 
 - [15B Stories](projets/15b-stories.md) — 2026–…
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
@@ -1463,6 +1468,7 @@
 - [Créapreneur (podcast)](projets/creapreneur-podcast.md) — 2018–2021
 - [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016
 - [BlackNote Web](projets/blacknote-web.md) — 2015
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
 - [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020
 - [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [AI Inktober](projets/ai-inktober.md)
@@ -1548,7 +1554,7 @@
 
 - [« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)](projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo.md) — 2022
 - [« Photography Masterclass » de Stéphane Nounamo (I)](projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md) — 2022
-- [Apéro Masterclass](projets/apero-masterclass.md) — 2022
+- [Apéro Masterclass (masterclasses photo)](projets/apero-masterclass.md) — 2022
 - [Student Photographer (Stéphane Nounamo) — travaux](projets/student-photographer-stephane-nounamo-travaux.md) — 2021–2024
 
 ### Studio Graphique 44 (1)
@@ -1669,7 +1675,7 @@
 
 ### Agence co-fondée (1)
 
-- [UPgraders](organisations/upgraders.md) — 2017–… · 220 projet(s)
+- [UPgraders](organisations/upgraders.md) — 2017–… · 221 projet(s)
 
 ### Employeur (7)
 

@@ -25,7 +25,7 @@ etat: "standard"
 | Casquette | Exécution |
 | Catégorie | Événement |
 | Rôle | Couverture photo et vidéo |
-| Fait partie de | [Apéro Masterclass](apero-masterclass.md) |
+| Fait partie de | [Apéro Masterclass (masterclasses photo)](apero-masterclass.md) |
 | Folio | _pas encore sur le site_ |
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
@@ -59,4 +59,6 @@ etat: "standard"
 - Notes « Événements couverts » établies lors du rangement des disques (28/10/2026), à partir des images, des dates de prise de vue et des livrables
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Apéro Masterclass (masterclasses photo)](apero-masterclass.md)
 <!-- /wiki:liens-entrants -->

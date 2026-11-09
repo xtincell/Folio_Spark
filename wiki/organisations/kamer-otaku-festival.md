@@ -5,7 +5,8 @@ nature: "Festival pop culture"
 relation: "client"
 role: "Photographe (2022), puis directeur artistique et de la communication (depuis 2023)"
 debut: 2022
-etat: "ebauche"
+etat: "a-verifier"
+verifier: ["En novembre 2026, Alexandre dit avoir assuré la direction artistique des cinq éditions ; les archives et le CV de mai 2023 placent la 1ʳᵉ édition (2022) en photographie et la direction artistique à partir de 2023."]
 ---
 # Kamer Otaku Festival (KOF)
 
@@ -19,7 +20,7 @@ etat: "ebauche"
 | Rôle d’Alexandre | Photographe (2022), puis directeur artistique et de la communication (depuis 2023) |
 | Période | 2022 |
 | Projets liés | 10 |
-| État de la fiche | Ébauche |
+| État de la fiche | À vérifier |
 <!-- /wiki:infobox -->
 
 **Kamer Otaku Festival (KOF)** (festival pop culture) est un client d’Alexandre « Xtincell » Djengue.

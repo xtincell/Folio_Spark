@@ -3,7 +3,7 @@
 Ce wiki est l’encyclopédie du travail d’**Alexandre « Xtincell » Djengue**. Chaque projet y a sa fiche datée et sourcée, avec ou sans visuels, montré ou non sur le site.
 
 <!-- wiki:stats -->
-**360 projets** · **179 organisations** · 2009–2026 · 40 avec une page sur le folio, 17 cités sur `/work` sans page, 302 encore absents ([maintenance](maintenance.md)).
+**361 projets** · **179 organisations** · 2009–2026 · 40 avec une page sur le folio, 17 cités sur `/work` sans page, 303 encore absents ([maintenance](maintenance.md)).
 <!-- /wiki:stats -->
 
 Les fiches viennent du folio (études de cas, pratiques, CV), des dépôts GitHub, des galeries Pixieset et des **archives de travail rangées sur les disques** (dossiers clients UPgraders et MATANGA, journal des événements couverts, projets personnels). Voir [Conventions](CONVENTIONS.md#import-des-disques-de-travail).

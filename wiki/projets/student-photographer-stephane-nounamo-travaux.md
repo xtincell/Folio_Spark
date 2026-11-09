@@ -23,7 +23,6 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 | Période | 2021–2024 |
 | Casquette | Exécution |
 | Catégorie | Production |
-| Sous-projets | [« Photography Masterclass » de Stéphane Nounamo (I)](evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md) |
 | Folio | _pas encore sur le site_ |
 | État de la fiche | Ébauche |
 <!-- /wiki:infobox -->
@@ -49,6 +48,4 @@ _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouv
 - Archives de travail rangées sur les disques (2026-11-09)
 
 <!-- wiki:liens-entrants -->
----
-**Pages liées** : [« Photography Masterclass » de Stéphane Nounamo (I)](evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md)
 <!-- /wiki:liens-entrants -->

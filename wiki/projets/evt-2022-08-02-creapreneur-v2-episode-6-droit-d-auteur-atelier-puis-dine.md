@@ -56,4 +56,6 @@ verifier: ["Fiabilité selon les notes de rangement : confirmé. Organisateur : 
 - Notes « Événements couverts » établies lors du rangement des disques (28/10/2026), à partir des images, des dates de prise de vue et des livrables
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Créapreneur (podcast)](creapreneur-podcast.md)
 <!-- /wiki:liens-entrants -->

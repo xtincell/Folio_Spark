@@ -2,9 +2,9 @@
 
 # Maintenance du wiki
 
-**Avancement** : 108/546 fiches au niveau « standard » ou « complet » (20 %).
+**Avancement** : 110/547 fiches au niveau « standard » ou « complet » (20 %).
 
-- [À vérifier](#à-vérifier) (50) · [Absents du folio](#absents-du-folio) (302) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (63) · [Ébauches](#ébauches) (388)
+- [À vérifier](#à-vérifier) (51) · [Absents du folio](#absents-du-folio) (303) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (63) · [Ébauches](#ébauches) (386)
 
 ## À vérifier
 
@@ -47,9 +47,10 @@ Contradictions entre sources ou hypothèses de rattachement. Une fois tranché :
   - Intitulé du diplôme : licence en télécommunications et réseaux (CV de 2020 à 2024), « licence pro » (2018), diplôme d’Ingénieur des Travaux (CV de 2026).
 - [Intelcia](organisations/intelcia.md)
   - Dates exactes du poste inconnues : « vers 2015–2016 ». Seul repère daté : Intelcia est ajouté au profil Facebook le 5 mai 2016.
-  - Intitulé du poste à préciser.
 - [Kamer Otaku Festival — photos reçues (édition à dater)](projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md)
   - Fiabilité selon les notes de rangement : probable.
+- [Kamer Otaku Festival (KOF)](organisations/kamer-otaku-festival.md)
+  - En novembre 2026, Alexandre dit avoir assuré la direction artistique des cinq éditions ; les archives et le CV de mai 2023 placent la 1ʳᵉ édition (2022) en photographie et la direction artistique à partir de 2023.
 - [La Fusée — Creative Industry OS](projets/la-fusee.md)
   - Rattachement de BrandForge (2025, privé, sans description) à la lignée La Fusée : hypothèse à confirmer.
   - Ordre et rôle exact de chaque version à confirmer.
@@ -162,7 +163,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [LuckiaBet — travaux](projets/luckiabet-travaux.md) — 2024–2025
 - [Noir Ivoire — travaux](projets/noir-ivoire-travaux.md) — 2023
 - [Street Whale](projets/street-whale.md) — 2023 · visuels disponibles
-- [Apéro Masterclass](projets/apero-masterclass.md) — 2022 · visuels disponibles
+- [Apéro Masterclass (masterclasses photo)](projets/apero-masterclass.md) — 2022 · visuels disponibles
 - [Rue Joss et H3riQ — logos](projets/logos-rue-joss-h3riq.md) — 2022
 - [Cosmos Publishing — travaux](projets/cosmos-publishing-travaux.md) — 2020
 - [Couvertures « Vogue » (exercice, 2020)](projets/couvertures-vogue-2020.md) — 2020
@@ -190,7 +191,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [Sons of the Lions](projets/sons-of-the-lions.md)
 - [The Battle of the Baddest](projets/battle-of-the-baddest.md)
 
-### Exécution (239)
+### Exécution (240)
 
 - [Arc en Ciel — travaux](projets/arc-en-ciel-travaux.md) — 2026
 - [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md) — 2026
@@ -401,6 +402,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018
 - [BlackNote Web](projets/blacknote-web.md) — 2015
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
 - [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022
@@ -556,10 +558,8 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [AMMCO](organisations/ammco.md)
 - [AMMCO — galerie photo](projets/photo-ammco.md)
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md)
-- [Anne-Marie C. Befoune](personnes/anne-marie-befoune.md)
 - [AO (SpearHead)](organisations/ao-spearhead.md)
 - [AO (SpearHead) — travaux](projets/ao-spearhead-travaux.md)
-- [Apéro Masterclass](projets/apero-masterclass.md)
 - [Application de comptabilité (Tauri)](projets/compta-tauri.md)
 - [Aquarin](organisations/aquarin.md)
 - [Aquarin — travaux](projets/aquarin-travaux.md)
@@ -601,6 +601,7 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [Captain Lion](projets/captain-lion.md)
 - [CFAO Mobility Cameroon](organisations/cfao-mobility-cameroon.md)
 - [CFAO Mobility Cameroon — travaux](projets/cfao-mobility-cameroon-travaux.md)
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md)
 - [Charadesign — Personnages afro-fantastiques](projets/charadesign.md)
 - [Charadesign Challenge (2024)](projets/charadesign-challenge-2024.md)
 - [Cimencam](organisations/cimencam.md)
@@ -731,7 +732,6 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [KACOD Urban 237](organisations/kacod-urban-237.md)
 - [KACOD Urban 237 — travaux](projets/kacod-urban-237-travaux.md)
 - [Kadji by Spark](projets/kadji-by-spark.md)
-- [Kamer Otaku Festival (KOF)](organisations/kamer-otaku-festival.md)
 - [Kanbe — branding](projets/branding-kanbe.md)
 - [KEAMS](organisations/keams.md)
 - [KEAMS — travaux](projets/keams-travaux.md)

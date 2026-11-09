@@ -32,7 +32,7 @@ etat: "standard"
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
-**Alexandre Djengue**, dit **Xtincell**, né en 1991 au Cameroun, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil [UPgraders](../organisations/upgraders.md), qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence [MATANGA](../organisations/matanga-agency.md), pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque [ADVE/RTIS](../projets/methode-adve-rtis.md) et la plateforme [La Fusée](../projets/la-fusee.md).
+**Alexandre Djengue**, dit **Xtincell**, né en 1991 à Douala, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil [UPgraders](../organisations/upgraders.md), qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence [MATANGA](../organisations/matanga-agency.md), pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque [ADVE/RTIS](../projets/methode-adve-rtis.md) et la plateforme [La Fusée](../projets/la-fusee.md).
 
 ## Biographie
 
@@ -42,13 +42,13 @@ Alexandre Djengue obtient un baccalauréat D (sciences) au Collège Saint-Michel
 
 ### Blogs, graphisme et culture otaku (2011–2018)
 
-Dès 2011, encore étudiant, Alexandre Djengue se présente en ligne comme « graphiste freelance ». Il s’engage aussi dans la communauté otaku camerounaise : en juillet 2013, il relaie le compte rendu d’une soirée de l’association [Japanimes](../projets/japanimes.md), fondée en 2009. Vers 2013, il ouvre le blog [Geek de brousse](../projets/geek-de-brousse-blog.md), consacré à la technologie, aux mangas et à la vie de créatif en Afrique francophone ; on y lit des billets de 2015 à 2020. En 2016, il rejoint [Mondoblog](../projets/mondoblog.md), la communauté de blogueurs francophones de RFI. _Sources : [facebook](../sources.md#facebook), [geekdebrousse](../sources.md#geekdebrousse), [mondoblog-2016](../sources.md#mondoblog-2016), [mboabd-japanimes](../sources.md#mboabd-japanimes)._
+Dès 2011, encore étudiant, Alexandre Djengue se présente en ligne comme « graphiste freelance ». Il s’engage aussi dans la communauté otaku camerounaise : en juillet 2013, il relaie le compte rendu d’une soirée de l’association [Japanimes](../projets/japanimes.md), fondée en 2009. Vers 2013, il ouvre le blog [Geek de brousse](../projets/geek-de-brousse-blog.md), consacré à la technologie, aux mangas et à la vie de créatif en Afrique francophone, et se met à [YouTube](../projets/youtube-xtincell.md) ; on lit des billets du blog jusqu’en 2020. En passant au graphisme, il change de pseudonyme pour « Xtincell ». En 2016, il rejoint [Mondoblog](../projets/mondoblog.md), la communauté de blogueurs francophones de RFI. _Sources : [facebook](../sources.md#facebook), [geekdebrousse](../sources.md#geekdebrousse), [mondoblog-2016](../sources.md#mondoblog-2016), [mboabd-japanimes](../sources.md#mboabd-japanimes)._
 
-Il travaille un temps dans un centre d’appels, chez [Intelcia](../organisations/intelcia.md), pour le compte de l’opérateur SFR, puis démissionne pour se lancer à son compte. À l’été 2016, il est graphiste consultant chez Organiz Agency et Lead Designer chez [Sellkako](../organisations/sellkako.md), un site marchand ; il n’y reste que deux mois. _Sources : [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018), [cv-2023-05](../sources.md#cv-2023-05), [facebook](../sources.md#facebook)._
+Il travaille un temps comme agent conseiller technique dans un centre d’appels, chez [Intelcia](../organisations/intelcia.md), pour le compte de l’opérateur SFR, puis démissionne pour se lancer à son compte. À l’été 2016, il est graphiste consultant chez Organiz Agency et Lead Designer chez [Sellkako](../organisations/sellkako.md), un site marchand ; il n’y reste que deux mois. _Sources : [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018), [cv-2023-05](../sources.md#cv-2023-05), [facebook](../sources.md#facebook)._
 
 En février 2017, il rejoint [UPgraders](../organisations/upgraders.md), un cabinet de conseil dont il se présente comme co-fondateur ; il y prend en charge le graphisme et le web, avec des clients comme [BanaHealth](../organisations/banahealth.md). De février à l’été 2018, il est business developer chez [Will & Brothers](../organisations/will-and-brothers.md) Consulting. Il cite l’entrepreneur [William Elong](william-elong.md) parmi ceux dont il a observé les méthodes. De septembre à décembre 2018, il est brand strategist pour le lancement de [Studio 44](../organisations/studio44.md). La même année, il anime le meetup « Geek de brousse Talk ». En octobre 2018, il raconte ce parcours dans *Le blog du disrupteur*. De 2018 à 2021, il anime aussi le podcast [Créapreneur](../projets/creapreneur-podcast.md). _Sources : [facebook](../sources.md#facebook), [cv-2020](../sources.md#cv-2020), [cv-2023-05](../sources.md#cv-2023-05), [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018)._
 
-Cette présence en ligne lui vaut une première visibilité : en 2020, un classement des blogs camerounais le présente comme « un infographiste de talent ». Selon son témoignage, un journal local le cite aussi parmi les étoiles montantes de la photographie ; l’article reste à retrouver. _Sources : [nkowa-2020](../sources.md#nkowa-2020), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
+Cette présence en ligne lui vaut une première visibilité : en 2020, un classement des blogs camerounais le présente comme « un infographiste de talent ». Selon son témoignage, le quotidien *Cameroon Tribune* le cite aussi, en 2020, parmi les étoiles montantes de la photographie ; l’article reste à retrouver. En 2021 et 2022, la podcasteuse [Anne-Marie C. Befoune](anne-marie-befoune.md) le reçoit dans plusieurs épisodes de *Digressions*. _Sources : [nkowa-2020](../sources.md#nkowa-2020), [digressions](../sources.md#digressions), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
 
 ### Agence, photographie et image d’artistes (2019–2024)
 
@@ -117,11 +117,14 @@ En marge de ses commandes, Alexandre Djengue mène des projets d’écriture, d�
 
 ## Réception et publications
 
-- Selon son témoignage, un journal local le cite parmi les étoiles montantes de la photographie (article à retrouver).
-- En octobre 2018, *Le blog du disrupteur* publie son témoignage « Mon expérience de designer graphique free-lance au Cameroun ». Il cite aussi une interview par [Anne-Marie C. Befoune](anne-marie-befoune.md), encore à retrouver.
+La liste complète, datée et sourcée, est sur la page [Presse et médias](../presse.md).
+
+- En octobre 2018, *Le blog du disrupteur*, édité par Ace, publie son témoignage « Mon expérience de designer graphique free-lance au Cameroun ».
 - En octobre 2020, le blog Nkowa&Co le classe parmi les blogs camerounais à suivre.
+- Selon son témoignage, *Cameroon Tribune* le cite en 2020 parmi les étoiles montantes de la photographie (article à retrouver).
+- En 2021 et 2022, [Anne-Marie C. Befoune](anne-marie-befoune.md) le reçoit dans son podcast *Digressions* : être créatif en Afrique, freelancing et conseil, prix des offres, réussite personnelle et réseaux sociaux. Il cite aussi une interview dans *Elle Citoyenne*, encore à retrouver.
 - En avril 2022, le blog de la banque d’images Iwaria lui consacre un portrait dans sa série *Pixels Hunters*, sous le titre « Xtincell, une étoile qui brille dans la photographie ».
-- Le podcast *Créapreneur* (2018–2021) est archivé sur Apple Podcasts.
+- Le podcast [Créapreneur](../projets/creapreneur-podcast.md) (2018–2021, 19 épisodes) est archivé sur Apple Podcasts, Spotify et Internet Archive.
 - Son portfolio de direction artistique (design et photographie) est publié sur Behance.
 
 ## Notes
@@ -136,6 +139,7 @@ Voir la page [Sources du parcours](../sources.md) : bibliographie complète, hi�
 ## Voir aussi
 
 - [Chronologie](../chronologie.md)
+- [Presse et médias](../presse.md) · [Sources du parcours](../sources.md)
 - [Index des projets](../index.md)
 - [UPgraders](../organisations/upgraders.md) · [MATANGA Agency](../organisations/matanga-agency.md) · [Friends Photography Studio](../organisations/friends-studio.md)
 

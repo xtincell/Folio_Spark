@@ -13,11 +13,11 @@ Cette page confronte les sources qui datent le parcours d’Alexandre « Xtincel
 
 ### blog-disrupteur-2018
 
-Alexandre Djengue, « [Mon expérience de designer graphique free-lance au Cameroun](https://leblogdudisrupteur.com/2018/10/08/mon-experience-de-designer-graphique-free-lance-au-cameroun-par-alexandre-djengue/) », *Le blog du disrupteur*, 8 octobre 2018. Ce témoignage à la première personne est écrit à 27 ans : licence en télécoms, centre d’appels « pour le compte de SFR », démission, Sellkako (« deux mois »), cabinet de conseil UPgraders, cliente BanaHealth, bref essai comme business developer.
+Alexandre Djengue, « [Mon expérience de designer graphique free-lance au Cameroun](https://leblogdudisrupteur.com/2018/10/08/mon-experience-de-designer-graphique-free-lance-au-cameroun-par-alexandre-djengue/) », *Le blog du disrupteur*, 8 octobre 2018, publié par l’éditeur du blog, Ace, avec une note d’introduction. Ce témoignage à la première personne est écrit à 27 ans : « licence pro en télécoms et réseau », débuts sur YouTube à 22 ans, blog Geek de brousse, puis changement de pseudonyme pour « Xtincell » à son passage au graphisme ; centre d’appels « pour le compte de SFR », démission, Sellkako (« deux mois »), cabinet de conseil UPgraders, cliente BanaHealth, bref essai comme business developer.
 
 ### geekdebrousse
 
-Blog *[Geek de brousse](https://geekdebrousse.wordpress.com/)* (WordPress). Selon l’auteur, il est créé « à 22 ans », soit vers 2013. Un billet sur une soirée Japanimes est relayé le 25 juillet 2013 ; le pseudonyme est ajouté au profil Facebook en septembre 2014. Les billets visibles vont de 2015 au 19 septembre 2020.
+Blog *[Geek de brousse](https://geekdebrousse.wordpress.com/)* (WordPress). Selon l’auteur, il est créé « à 22 ans », soit vers 2013. Un billet sur une soirée Japanimes est relayé le 25 juillet 2013 ; le pseudonyme est ajouté au profil Facebook en septembre 2014. Les billets visibles vont au moins du 21 décembre 2016 au 19 septembre 2020 (« Publiez quand même », dernier billet) ; parmi eux, un guide des tarifs (11 octobre 2017) et un billet sur le C.O.D.B. (1er mai 2019). L’en-tête du blog renvoie vers la chaîne YouTube `youtube.com/xtincell`. Le billet de 2020 est aussi publié sur Medium.
 
 ### mondoblog-2016
 
@@ -81,13 +81,29 @@ René Nkowa, « [Mon top 15 des blogs camerounais à suivre](https://nkowa.com/m
 
 Iwaria, série *Pixels Hunters*, « [Xtincell, une étoile qui brille dans la photographie](https://blog.iwaria.com/pixels-hunters-xtincell-une-etoile-qui-brille-dans-la-photographie/) », avril 2022.
 
+### digressions
+
+Podcast *Digressions* d’Anne-Marie C. Befoune (site `mesdigressions.com`, flux « Par C. Befoune », aussi diffusé sous le nom *Les papotages de C*). Épisodes avec Alexandre Djengue : « Être créatif en Afrique avec Alexandre Djengue » (2021), « Le grand désavantage du freelancing et de la consultance avec Alexandre Djengue » (minisode, 2021), « Comment établir sa réputation de créatif pour augmenter le prix de ses offres » (minisode, 2021), « Réussite personnelle à l’ère des réseaux sociaux avec Alexandre Djengue » (2022). Il y est présenté comme blogueur, youtubeur, podcasteur et photographe, vivant de son métier de Brand Identity Manager. Le site est en refonte depuis 2022 : titres et années relevés dans les index des moteurs de recherche le 9 novembre 2026, dates exactes à confirmer.
+
+### creapreneur-podcast
+
+Podcast *Créapreneur*, créé par Xtincell (fiches Apple Podcasts, Spotify, Internet Archive, Player FM). Apple Podcasts compte 19 épisodes, actifs de 2018 à 2021. Le premier épisode est le pilote « Creapreneur et CODB ». La saison V.2 compte un épisode court (E00, 12 août 2021), un hors-série « Afrotaku : Les Noirs dans les Manga » (5 septembre 2021) et les épisodes EP02 à EP07, tous datés du 21 octobre 2021 : statut et administratif, clients, coût et facturation, déroulement de projet, droit d’auteur, organisation personnelle. Dans l’épisode E00, Alexandre se présente comme « Brand Designer » et voix off de l’émission.
+
+### linkedin-apero-2023
+
+Publication LinkedIn d’Alexandre Djengue avec les mots-clés #aperomasterclass, #photographie et #editingphoto, publiée le 22 février 2023 (date déduite de l’identifiant de la publication).
+
+### lettre-banahealth-2020
+
+Lettre de recommandation de Marie Ngameni, fondatrice et CEO de BanaHealth, datée du 28 novembre 2020 (archives personnelles). Alexandre y est décrit comme consultant en design graphique de BanaHealth depuis trois ans : nouvelle identité de marque (logo, palette), refonte de la présence en ligne (site, supports de campagne) et modèles marketing (brochures, rapports).
+
 ### mboabd-japanimes
 
 Mboa BD, page « [Japanimes](https://www.mboabd.org/japanimes/) » : association créée en 2009, dont la soirée phare est la Nimes Party.
 
 ### temoignage-2026-11-09
 
-Témoignage d’Alexandre Djengue, 9 novembre 2026, au sujet des années 2010 : Sellkako, Intelcia et SFR, Geek de brousse, Mondoblog, William Elong et Will & Brothers, Créapreneur, Japanimes. Il y précise aussi le début de la collaboration avec Stéphane Nounamo après la pandémie de Covid-19, et cite des entretiens avec *Le blog du disrupteur* et Anne-Marie C. Befoune.
+Témoignage d’Alexandre Djengue, 9 novembre 2026, au sujet des années 2010 : Sellkako, Intelcia et SFR, Geek de brousse, Mondoblog, William Elong et Will & Brothers, Créapreneur, Japanimes. Il y précise aussi le début de la collaboration avec Stéphane Nounamo après la pandémie de Covid-19, et cite des entretiens avec *Le blog du disrupteur* et Anne-Marie C. Befoune. Il le complète le même jour : poste d’agent conseiller technique chez Intelcia pour SFR ; vidéos Créapreneur sur YouTube ; participation aux premières Apéro Masterclass ; citation par le quotidien *Cameroon Tribune* parmi les étoiles montantes de la photographie en 2020 ; interview par Anne-Marie C. Befoune, dans *Elle Citoyenne* ou dans *Digressions* ; une autre publication, non précisée.
 
 ### linkedin
 
@@ -101,7 +117,7 @@ Profil LinkedIn `/in/dmalexandre`. Il n’a pas encore été consulté : sa lect
 | Graphiste indépendant | 2011–2016 | « je suis graphiste freelance », 13 mai 2011 (facebook) ; « à son compte » au 1er janvier 2018 (facebook) | Dès 2011, de nouveau à son compte en 2018 |
 | Geek de brousse (blog) | — | Vers 2013 (blog-disrupteur-2018, geekdebrousse) ; billets 2015–2020 | 2013–2020 |
 | Japanimes | — | Soirée Japanimes relayée le 25 juillet 2013 ; photos de la Nimes Party 2018 (facebook) | Engagement attesté dès 2013 |
-| Intelcia (compte SFR) | — | Centre d’appels « pour le compte de SFR » (blog-disrupteur-2018) ; ajouté au profil le 5 mai 2016 (facebook) | Vers 2015–2016 ; dates exactes à préciser |
+| Intelcia (compte SFR) | — | Centre d’appels « pour le compte de SFR » (blog-disrupteur-2018) ; ajouté au profil le 5 mai 2016 (facebook) ; agent conseiller technique (temoignage-2026-11-09) | Vers 2015–2016 ; dates exactes à préciser |
 | Mondoblog | — | Avril–mai 2016 (mondoblog-2016) | 2016 |
 | Organiz Agency | — | Juillet – septembre 2016 (cv-2023-05) | Juillet – septembre 2016 |
 | Sellkako | 2017 (cv-2026) ; 2017–2019 (practices.ts) | Juillet – septembre 2016 (cv-2023-05) ; « deux mois » (blog-disrupteur-2018) ; ajouté le 2 septembre 2016 (facebook) | **Juillet – septembre 2016** |
@@ -117,7 +133,7 @@ Profil LinkedIn `/in/dmalexandre`. Il n’a pas encore été consulté : sa lect
 | Kamer Otaku Festival | Photographie depuis la 1ʳᵉ édition, direction artistique depuis la 2ᵉ | 1ʳᵉ édition en 2022 (disques) ; directeur artistique et de la communication en 2023 (cv-2023-05) | Direction artistique depuis 2023 |
 | OmenKart | 2022–2024 | « Depuis 2021 » (cv-2023-05) ; événements en décembre 2022 et en 2023 (disques) | 2021 ou 2022 – 2024 ; début **en conflit** |
 | CFI, conférence sur la désinformation | — | « 2022 » (cv-2023-05) ; séminaire d’avril 2023 (disques) | **Avril 2023** (dates de prise de vue) |
-| BanaHealth | Projet de 2025 | Ajouté au profil en juin 2017 (facebook) ; identité de marque (cv-2020) ; cliente en 2018 (blog-disrupteur-2018) ; contenus en 2022 (cv-2023-05) | Cliente depuis 2017 |
+| BanaHealth | Projet de 2025 | Ajouté au profil en juin 2017 (facebook) ; identité de marque (cv-2020) ; cliente en 2018 (blog-disrupteur-2018) ; consultant en design graphique depuis trois ans (lettre-banahealth-2020) ; contenus en 2022 (cv-2023-05) | Cliente depuis 2017 |
 | Concert de Tayc | « Décembre 2020 » (classement des disques) | Récapitulatif photo publié le 3 janvier 2022 (facebook) | **En conflit** : décembre 2020 ou décembre 2021 |
 
 ## Points encore ouverts
@@ -127,5 +143,6 @@ Profil LinkedIn `/in/dmalexandre`. Il n’a pas encore été consulté : sa lect
 - Année du concert de Tayc (2020 ou 2021).
 - Début de la collaboration avec OmenKart (2021 ou 2022).
 - Lien exact avec William Elong : ajouté au profil en août 2017 ; cité en 2018 comme un entrepreneur dont Alexandre a observé les méthodes ; fondateur de Will & Brothers selon le témoignage.
-- Le journal local qui le cite comme « étoile montante de la photographie », et les interviews (*Le blog du disrupteur*, Anne-Marie C. Befoune). Le texte de 2018 sur *Le blog du disrupteur* est un témoignage signé par Alexandre ; une interview distincte reste à retrouver.
+- L’article de *Cameroon Tribune* (2020) qui le cite comme « étoile montante de la photographie », l’interview dans *Elle Citoyenne* et une autre publication non précisée. Les entretiens avec Anne-Marie C. Befoune sont retrouvés : ce sont les épisodes du podcast *Digressions* (2021–2022). Le texte de 2018 sur *Le blog du disrupteur* est un témoignage signé par Alexandre. Voir la page [Presse et médias](presse.md).
+- Dates exactes des épisodes de *Digressions*, et date de la première édition des Apéro Masterclass.
 - Lecture du profil LinkedIn.

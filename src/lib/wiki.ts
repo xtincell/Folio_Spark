@@ -44,6 +44,7 @@ const SPECIAL_PAGES: Record<string, { file: string; titre: string; index: boolea
   maintenance: { file: 'maintenance.md', titre: 'Maintenance', index: false },
   conventions: { file: 'CONVENTIONS.md', titre: 'Conventions', index: false },
   sources: { file: 'sources.md', titre: 'Sources du parcours', index: true },
+  presse: { file: 'presse.md', titre: 'Presse et médias', index: true },
 };
 const FILE_TO_ROUTE: Record<string, string> = Object.fromEntries(
   Object.entries(SPECIAL_PAGES).map(([route, p]) => [p.file, route]),

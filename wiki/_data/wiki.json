@@ -692,37 +692,49 @@
       "type": "projet",
       "slug": "apero-masterclass",
       "path": "wiki/projets/apero-masterclass.md",
-      "titre": "Apéro Masterclass",
-      "resume": "Apéro Masterclass est un projet.",
-      "categorie": "projet",
+      "titre": "Apéro Masterclass (masterclasses photo)",
+      "resume": "Apéro Masterclass est une série de masterclasses de photographie animées par Stéphane Nounamo sous sa marque Student Photographer, à Douala, à partir de 2022. Alexandre « Xtincell » Djengue participe aux premières éditions.",
+      "categorie": "evenement",
       "casquette": "direction-artistique",
       "medias": [
         "public/work/historique/14-apero-masterclass"
       ],
       "sources": [
-        "folio:public/work"
+        "folio:public/work",
+        "disques",
+        "linkedin-apero-2023",
+        "temoignage-2026-11-09"
       ],
-      "etat": "ebauche",
+      "etat": "standard",
       "client": "student-photographer-stephane-nounamo",
+      "chaine": [
+        "upgraders"
+      ],
+      "role": "Couverture photo et vidéo, communication",
+      "personnes": [
+        "stephane-nounamo"
+      ],
       "debut": 2022,
       "verifier": [
-        "Visuels présents dans le repo mais aucun texte de projet : contexte, client, année et rôle à documenter."
+        "Rôle exact d’Alexandre dans l’organisation (co-organisateur, communication, couverture) à préciser.",
+        "Éditions après février 2023 à documenter."
       ],
       "enfants": [
-        "evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo"
+        "evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo",
+        "evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i"
       ],
       "image": {
         "src": "/work/historique/14-apero-masterclass/14-apero-masterclass-01.jpg",
-        "alt": "Apéro Masterclass"
+        "alt": "Apéro Masterclass (masterclasses photo)"
       },
       "galerie": [
         {
           "src": "/work/historique/14-apero-masterclass/14-apero-masterclass-02.jpg",
-          "alt": "Apéro Masterclass"
+          "alt": "Apéro Masterclass (masterclasses photo)"
         },
         {
           "src": "/work/historique/14-apero-masterclass/14-apero-masterclass-03.jpg",
-          "alt": "Apéro Masterclass"
+          "alt": "Apéro Masterclass (masterclasses photo)"
         }
       ]
     },
@@ -2484,12 +2496,31 @@
         {
           "label": "Archives (Apple Podcasts)",
           "url": "https://podcasts.apple.com/us/podcast/creapreneur/id1440424290"
+        },
+        {
+          "label": "Pilote « Creapreneur et CODB » (Spotify)",
+          "url": "https://open.spotify.com/episode/532RaByYUPr4hyNGwNlm33"
+        },
+        {
+          "label": "Internet Archive",
+          "url": "https://archive.org/details/podcast_crea-preneur_1440424290"
+        },
+        {
+          "label": "Player FM",
+          "url": "https://player.fm/series/creapreneur"
         }
       ],
       "sources": [
-        "folio:press.ts"
+        "folio:press.ts",
+        "creapreneur-podcast",
+        "digressions",
+        "temoignage-2026-11-09"
       ],
       "etat": "standard",
+      "verifier": [
+        "Le 6e épisode de la saison V.2 (« Droit d’auteur ») est daté du 21 octobre 2021 sur Apple Podcasts, alors que les archives datent du 2 août 2022 un atelier « Créapreneur V2, épisode 6 : droit d’auteur ». Dates de tournage et de publication à concilier.",
+        "Vidéos publiées sur YouTube : liste et dates à relever."
+      ],
       "enfants": [
         "evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine"
       ],
@@ -5860,7 +5891,7 @@
       "chaine": [
         "upgraders"
       ],
-      "parent": "student-photographer-stephane-nounamo-travaux",
+      "parent": "apero-masterclass",
       "role": "Couverture photo et vidéo",
       "sources": [
         "disques:evenements-couverts"
@@ -14590,9 +14621,7 @@
       "verifier": [
         "Fiche créée depuis les archives des disques : nature exacte de la mission, rôle et résultat à documenter."
       ],
-      "enfants": [
-        "evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i"
-      ],
+      "enfants": [],
       "image": {
         "src": "/medias-wiki/projets/student-photographer-stephane-nounamo-travaux/01.webp",
         "alt": "Student Photographer (Stéphane Nounamo) — travaux"
@@ -15812,7 +15841,10 @@
         "public/work/historique/00-personal-branding-xtincell"
       ],
       "sources": [
-        "folio:cases.spec.json"
+        "folio:cases.spec.json",
+        "blog-disrupteur-2018",
+        "geekdebrousse",
+        "facebook"
       ],
       "etat": "ebauche",
       "enfants": [],
@@ -15870,6 +15902,39 @@
       "etat": "ebauche",
       "verifier": [
         "Fiche créée depuis les archives des disques : nature exacte de la mission, rôle et résultat à documenter. Années absentes des dossiers."
+      ],
+      "enfants": [],
+      "image": null,
+      "galerie": []
+    },
+    {
+      "key": "projets/youtube-xtincell",
+      "type": "projet",
+      "slug": "youtube-xtincell",
+      "path": "wiki/projets/youtube-xtincell.md",
+      "titre": "Chaîne YouTube Xtincell",
+      "resume": "La chaîne YouTube Xtincell est la chaîne vidéo personnelle d’Alexandre « Xtincell » Djengue. Il dit s’être mis à tester YouTube à 22 ans, soit vers 2013, à l’époque de son blog Geek de brousse.",
+      "categorie": "video",
+      "casquette": "execution",
+      "debut": 2013,
+      "client": "perso",
+      "role": "Auteur, vidéaste",
+      "liens": [
+        {
+          "label": "Chaîne YouTube",
+          "url": "https://www.youtube.com/xtincell"
+        }
+      ],
+      "sources": [
+        "blog-disrupteur-2018",
+        "geekdebrousse",
+        "digressions",
+        "temoignage-2026-11-09"
+      ],
+      "etat": "ebauche",
+      "verifier": [
+        "Date d’ouverture déduite de l’âge donné par l’auteur (« J’avais 22 ans ») : vers 2013.",
+        "Liste des vidéos, dont celles de Créapreneur, et dates de publication à relever."
       ],
       "enfants": [],
       "image": null,
@@ -17978,13 +18043,12 @@
       "nom": "Intelcia",
       "nature": "Centre d’appels (compte SFR)",
       "relation": "employeur",
-      "role": "À préciser",
+      "role": "Agent conseiller technique (compte SFR)",
       "debut": 2015,
       "fin": 2016,
       "etat": "a-verifier",
       "verifier": [
-        "Dates exactes du poste inconnues : « vers 2015–2016 ». Seul repère daté : Intelcia est ajouté au profil Facebook le 5 mai 2016.",
-        "Intitulé du poste à préciser."
+        "Dates exactes du poste inconnues : « vers 2015–2016 ». Seul repère daté : Intelcia est ajouté au profil Facebook le 5 mai 2016."
       ],
       "enfants": [],
       "image": null,
@@ -18099,7 +18163,10 @@
       "relation": "client",
       "role": "Photographe (2022), puis directeur artistique et de la communication (depuis 2023)",
       "debut": 2022,
-      "etat": "ebauche",
+      "etat": "a-verifier",
+      "verifier": [
+        "En novembre 2026, Alexandre dit avoir assuré la direction artistique des cinq éditions ; les archives et le CV de mai 2023 placent la 1ʳᵉ édition (2022) en photographie et la direction artistique à partir de 2023."
+      ],
       "enfants": [],
       "image": {
         "src": "/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/01.webp",
@@ -19643,7 +19710,7 @@
         },
         {
           "src": "/work/historique/14-apero-masterclass/14-apero-masterclass-01.jpg",
-          "alt": "Apéro Masterclass",
+          "alt": "Apéro Masterclass (masterclasses photo)",
           "href": "/wiki/projets/apero-masterclass"
         },
         {
@@ -20356,7 +20423,7 @@
       "slug": "alexandre-djengue",
       "path": "wiki/personnes/alexandre-djengue.md",
       "titre": "Alexandre « Xtincell » Djengue",
-      "resume": "Alexandre Djengue, dit Xtincell, né en 1991 au Cameroun, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil UPgraders, qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence MATANGA, pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque ADVE/RTIS et la plateforme La Fusée.",
+      "resume": "Alexandre Djengue, dit Xtincell, né en 1991 à Douala, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil UPgraders, qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence MATANGA, pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque ADVE/RTIS et la plateforme La Fusée.",
       "nom": "Alexandre « Xtincell » Djengue",
       "role": "Directeur créatif et artistique, photographe, stratège de marque",
       "naissance": 1991,
@@ -20414,12 +20481,23 @@
       "slug": "anne-marie-befoune",
       "path": "wiki/personnes/anne-marie-befoune.md",
       "titre": "Anne-Marie C. Befoune",
-      "resume": "Anne-Marie C. Befoune a interviewé Alexandre « Xtincell » Djengue, selon le témoignage de celui-ci. L’interview n’a pas encore été retrouvée.",
+      "resume": "Anne-Marie C. Befoune, qui signe « C. Befoune », est l’autrice du podcast Digressions, aussi diffusé sous le nom Les papotages de C. Elle y reçoit Alexandre « Xtincell » Djengue dans au moins quatre épisodes, en 2021 et 2022.",
       "nom": "Anne-Marie C. Befoune",
-      "role": "Autrice d’une interview d’Alexandre (à retrouver)",
-      "etat": "ebauche",
+      "role": "Podcasteuse, autrice de Digressions (Les papotages de C)",
+      "liens": [
+        {
+          "label": "Digressions",
+          "url": "https://mesdigressions.com/"
+        },
+        {
+          "label": "Les papotages de C",
+          "url": "https://lespapotagesdec.com/"
+        }
+      ],
+      "etat": "standard",
       "verifier": [
-        "Interview citée par Alexandre, non retrouvée : support, date et contenu à établir.",
+        "Dates exactes des épisodes avec Alexandre (site Digressions en refonte).",
+        "Interview dans Elle Citoyenne citée par Alexandre, non retrouvée.",
         "Aucun lien établi avec l’organisation BEFOUNE, cliente d’UPgraders en 2022."
       ],
       "enfants": [],
@@ -20500,11 +20578,17 @@
       "etat": "ebauche",
       "enfants": [],
       "image": {
-        "src": "/work/historique/13-friends-photography/13-friends-photography-01.jpg",
-        "alt": "Friends Photography Studio",
-        "href": "/wiki/organisations/friends-studio"
+        "src": "/work/historique/14-apero-masterclass/14-apero-masterclass-01.jpg",
+        "alt": "Apéro Masterclass (masterclasses photo)",
+        "href": "/wiki/projets/apero-masterclass"
       },
-      "galerie": []
+      "galerie": [
+        {
+          "src": "/work/historique/13-friends-photography/13-friends-photography-01.jpg",
+          "alt": "Friends Photography Studio",
+          "href": "/wiki/organisations/friends-studio"
+        }
+      ]
     },
     {
       "key": "personnes/william-elong",

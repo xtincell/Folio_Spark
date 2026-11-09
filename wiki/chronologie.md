@@ -14,13 +14,14 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 
 ## 2013
 
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013 · perso · Exécution · _hors folio_
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025 · DOMAF — Conseil Camerounais de la Musique · Exécution · _hors folio_
 - [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020 · perso · Stratégie · _hors folio_
 - [Japanimes (association otaku)](projets/japanimes.md) — 2013 · perso · Exécution · _hors folio_
 
 ## 2015
 
-- **Parcours** · [Intelcia](organisations/intelcia.md) — À préciser (2015–2016)
+- **Parcours** · [Intelcia](organisations/intelcia.md) — Agent conseiller technique (compte SFR) (2015–2016)
 - [BlackNote Web](projets/blacknote-web.md) — 2015 · perso · Exécution · _hors folio_
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023 · Timing Agency · Exécution · _hors folio_
 
@@ -137,7 +138,7 @@ La ligne de temps du travail d’Alexandre « Xtincell » Djengue, de la formati
 - [« Photography Masterclass » de Stéphane Nounamo (I)](projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md) — 2022 · Student Photographer (Stéphane Nounamo) · Exécution · _hors folio_
 - [ADW — travaux](projets/adw-travaux.md) — 2022 · ADW · Exécution · _hors folio_
 - [Afrobit — travaux](projets/afrobit-travaux.md) — 2022–2023 · Afrobit · Exécution · _hors folio_
-- [Apéro Masterclass](projets/apero-masterclass.md) — 2022 · Student Photographer (Stéphane Nounamo) · Direction créative & artistique · _hors folio_
+- [Apéro Masterclass (masterclasses photo)](projets/apero-masterclass.md) — 2022 · Student Photographer (Stéphane Nounamo) · Direction créative & artistique · _hors folio_
 - [Aquarin — travaux](projets/aquarin-travaux.md) — 2022–2023 · Aquarin · Exécution · _hors folio_
 - [Atelier sur la pêche illicite, non déclarée et non réglementée (INN)](projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme.md) — 2022 · AMMCO · Exécution · _hors folio_
 - [Atome — travaux](projets/atome-travaux.md) — 2022–2023 · Atome · Exécution · _hors folio_

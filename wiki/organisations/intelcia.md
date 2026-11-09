@@ -3,11 +3,11 @@ type: "organisation"
 nom: "Intelcia"
 nature: "Centre d’appels (compte SFR)"
 relation: "employeur"
-role: "À préciser"
+role: "Agent conseiller technique (compte SFR)"
 debut: 2015
 fin: 2016
 etat: "a-verifier"
-verifier: ["Dates exactes du poste inconnues : « vers 2015–2016 ». Seul repère daté : Intelcia est ajouté au profil Facebook le 5 mai 2016.","Intitulé du poste à préciser."]
+verifier: ["Dates exactes du poste inconnues : « vers 2015–2016 ». Seul repère daté : Intelcia est ajouté au profil Facebook le 5 mai 2016."]
 ---
 # Intelcia
 
@@ -16,7 +16,7 @@ verifier: ["Dates exactes du poste inconnues : « vers 2015–2016 ». Seul rep�
 | --- | --- |
 | Nature | Centre d’appels (compte SFR) |
 | Relation | Employeur |
-| Rôle d’Alexandre | À préciser |
+| Rôle d’Alexandre | Agent conseiller technique (compte SFR) |
 | Période | 2015–2016 |
 | Projets liés | 0 |
 | État de la fiche | À vérifier |
@@ -26,7 +26,7 @@ verifier: ["Dates exactes du poste inconnues : « vers 2015–2016 ». Seul rep�
 
 ## Rôle d’Alexandre
 
-Dans un témoignage publié en 2018, Alexandre raconte avoir travaillé dans un centre d’appels « pour le compte de SFR », puis avoir démissionné pour se lancer comme graphiste indépendant. Intelcia est ajouté à son profil Facebook le 5 mai 2016. L’intitulé du poste et les dates exactes restent _à préciser_. _Sources : [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018), [facebook](../sources.md#facebook), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
+Dans un témoignage publié en 2018, Alexandre raconte avoir travaillé dans un centre d’appels « pour le compte de SFR », puis avoir démissionné pour se lancer comme graphiste indépendant. Intelcia est ajouté à son profil Facebook le 5 mai 2016. Selon son témoignage de 2026, il y est agent conseiller technique. Les dates exactes restent _à préciser_. _Sources : [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018), [facebook](../sources.md#facebook), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
 
 Quelques mois plus tard, à l’été 2016, il est Lead Designer chez [Sellkako](sellkako.md).
 

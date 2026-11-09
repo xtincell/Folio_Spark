@@ -8,7 +8,7 @@ etat: "ebauche"
 # Stéphane Nounamo
 
 <!-- wiki:infobox -->
-![Stéphane Nounamo](../../public/work/historique/13-friends-photography/13-friends-photography-01.jpg)
+![Stéphane Nounamo](../../public/work/historique/14-apero-masterclass/14-apero-masterclass-01.jpg)
 
 | Stéphane Nounamo | |
 | --- | --- |
@@ -28,10 +28,17 @@ Le CV de 2026 présente Alexandre et Stéphane Nounamo comme un binôme dès les
 ## Projets en commun
 
 <!-- wiki:projets -->
+- **2022** — [Apéro Masterclass (masterclasses photo)](../projets/apero-masterclass.md)
 - **2020–…** — [Friends Photography Studio](../organisations/friends-studio.md)
 - [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md)
 <!-- /wiki:projets -->
 
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../organisations/friends-studio.md"><img src="../../public/work/historique/13-friends-photography/13-friends-photography-01.jpg" alt="Friends Photography Studio" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 
@@ -42,5 +49,5 @@ Le CV de 2026 présente Alexandre et Stéphane Nounamo comme un binôme dès les
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](alexandre-djengue.md) · [Friends Photography Studio](../organisations/friends-studio.md) · [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](alexandre-djengue.md) · [Apéro Masterclass (masterclasses photo)](../projets/apero-masterclass.md) · [Friends Photography Studio](../organisations/friends-studio.md) · [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md)
 <!-- /wiki:liens-entrants -->
