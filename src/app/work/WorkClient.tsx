@@ -8,11 +8,20 @@ import {
   type CaseHat,
 } from '@/components/folio/data/cases';
 import { PRACTICES } from '@/components/folio/data/practices';
+import Link from 'next/link';
 import { useLang, pick } from '@/lib/i18n';
 import { StudioShell, ProjectCard, Arrow } from '@/components/studio/Studio';
 import s from '@/styles/studio.module.css';
 
-export function WorkClient() {
+export function WorkClient({
+  practiceWiki = {},
+  wikiCount,
+}: {
+  /** Nom d'entrée « pratique » → fiche wiki correspondante. */
+  practiceWiki?: Record<string, string>;
+  /** Nombre total de projets historisés dans le wiki. */
+  wikiCount?: number;
+}) {
   const { lang } = useLang();
   const L = (fr: string, en: string) => (lang === 'fr' ? fr : en);
   const [filter, setFilter] = useState<CaseHat | 'all'>('all');
@@ -108,6 +117,14 @@ export function WorkClient() {
           {shown.length} {shown.length === 1 ? L('projet à explorer', 'project to explore') : L('projets à explorer', 'projects to explore')}
         </span>
         <span>2017 — 2026</span>
+        {wikiCount ? (
+          <Link href="/wiki/chronologie" lang="fr">
+            {L(
+              `Archive complète : ${wikiCount} projets dans le wiki →`,
+              `Full archive: ${wikiCount} projects in the wiki (FR) →`
+            )}
+          </Link>
+        ) : null}
       </div>
       <section
         className={s.workContent}
@@ -159,7 +176,15 @@ export function WorkClient() {
                 {practice.projects.map((project) => (
                   <article className={s.archiveProject} key={project.name}>
                     <div>
-                      <h3>{project.name}</h3>
+                      <h3>
+                        {practiceWiki[project.name] ? (
+                          <Link href={practiceWiki[project.name]!} lang="fr">
+                            {project.name}
+                          </Link>
+                        ) : (
+                          project.name
+                        )}
+                      </h3>
                       <small>{pick(project.meta, lang)}</small>
                       <small>{project.chain.join(' → ')}</small>
                     </div>

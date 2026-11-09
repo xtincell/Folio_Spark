@@ -2995,3 +2995,10 @@
 
 /* Magazine navigation */
 .header.headerOverlay { height:64px; background:#090909; }
+
+/* Lien vers l'archive complète du wiki (barre de résultats de /work). */
+.results { flex-wrap: wrap; gap: 6px 24px; }
+.results a { color: var(--orange); text-decoration: none; }
+.results a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.archiveProject h3 a { color: inherit; text-decoration: underline; text-decoration-color: #ff682f80; text-underline-offset: 4px; }
+.archiveProject h3 a:hover { color: var(--orange); }

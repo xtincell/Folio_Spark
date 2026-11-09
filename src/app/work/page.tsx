@@ -1,6 +1,7 @@
 import { pageMeta } from '@/lib/page-meta';
 import { CASE_STUDIES } from '@/components/folio/data/cases';
 import { WorkClient } from './WorkClient';
+import { wikiForPractices, projectCount as wikiProjectCount } from '@/lib/wiki';
 
 const projectCount = CASE_STUDIES.filter((project) => !project.hidden).length;
 
@@ -12,5 +13,5 @@ export const metadata = pageMeta({
 });
 
 export default function FolioWorkPage() {
-  return <WorkClient />;
+  return <WorkClient practiceWiki={wikiForPractices()} wikiCount={wikiProjectCount()} />;
 }

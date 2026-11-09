@@ -1,0 +1,4 @@
+# Le wiki et ses scripts comparent le texte au caractère près : fins de ligne LF partout.
+wiki/** text eol=lf
+scripts/wiki-build.mjs text eol=lf
+scripts/wiki-disques.py text eol=lf

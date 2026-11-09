@@ -30,11 +30,14 @@ export function CaseStudyClient({
   prev,
   next,
   related = [],
+  wiki,
 }: {
   caseStudy: CaseStudy;
   prev?: CaseLite;
   next?: CaseLite;
   related?: CaseLite[];
+  /** Fiche du projet dans le wiki (historique complet, sources). */
+  wiki?: string;
 }) {
   const { lang } = useLang();
   const L = (fr: string, en: string) => (lang === 'fr' ? fr : en);
@@ -128,6 +131,16 @@ export function CaseStudyClient({
             <dt>{L('Périmètre', 'Scope')}</dt>
             <dd>{c.tags.join(' · ')}</dd>
           </div>
+          {wiki && (
+            <div>
+              <dt>Wiki</dt>
+              <dd>
+                <Link href={wiki} lang="fr">
+                  {L('Fiche complète du projet', 'Full project record (FR)')} →
+                </Link>
+              </dd>
+            </div>
+          )}
           <div>
             <dt>{L('Crédits', 'Credits')}</dt>
             <dd>

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { CASE_STUDIES } from '@/components/folio/data/cases';
 import { getBlogIndex } from '@/lib/wordpress';
+import { listPages } from '@/lib/wiki';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://xtincell.powerupgraders.com';
 
@@ -50,5 +51,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...staticEntries, ...caseEntries, ...blogEntries];
+  // Wiki : portail, chronologie, index et fiches rédigées (les ébauches restent hors index).
+  const wikiEntries: MetadataRoute.Sitemap = listPages()
+    .filter((p) => p.indexable)
+    .map((p) => ({
+      url: url(`/wiki${p.route ? `/${p.route}` : ''}`),
+      changeFrequency: 'monthly',
+      priority: p.route === '' ? 0.7 : 0.4,
+    }));
+
+  return [...staticEntries, ...caseEntries, ...blogEntries, ...wikiEntries];
 }
