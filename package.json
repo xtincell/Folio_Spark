@@ -14,7 +14,9 @@
     "export-pdf": "node scripts/export-pdf.mjs",
     "render:showreel": "node scripts/build-showreel.mjs",
     "check:studio": "node scripts/check-studio.mjs",
-    "check:interactions": "node scripts/check-studio-interactions.mjs"
+    "check:interactions": "node scripts/check-studio-interactions.mjs",
+    "wiki": "node scripts/wiki-build.mjs",
+    "wiki:check": "node scripts/wiki-build.mjs --check"
   },
   "dependencies": {
     "motion": "^14.0.0",

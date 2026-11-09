@@ -1,0 +1,949 @@
+<!-- Fichier généré par scripts/wiki-build.mjs (npm run wiki). Ne pas éditer à la main : modifier les articles. -->
+
+# Maintenance du wiki
+
+**Avancement** : 98/539 fiches au niveau « standard » ou « complet » (18 %).
+
+- [À vérifier](#à-vérifier) (56) · [Absents du folio](#absents-du-folio) (299) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (62) · [Ébauches](#ébauches) (385)
+
+## À vérifier
+
+Contradictions entre sources ou hypothèses de rattachement. Une fois tranché : corriger la fiche, vider `verifier` et passer `etat` à `standard`.
+
+- [Amigo — Boulangerie & beignets](projets/amigo.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Bimstr Agency](organisations/bimstr.md)
+  - Le CV indique 2019–2021 ; practices.ts indique 2018–2020 avec le titre « Directeur Créatif & Artistique ».
+- [BlackNote Web](projets/blacknote-web.md)
+  - Premier dépôt GitHub (2015) : objet du projet et durée à documenter (dernière activité enregistrée en 2026).
+- [Bonnet Rouge — « Puissance Lactée » (TCG)](projets/tcg-bonnet-rouge.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Cadyst Farming — Enseigne](projets/enseigne.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Cadyst Grain — Mascotte « Maître Tondo »](projets/cadyst-grain.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [CanalOlympia — programmation de fin d'année 2021](projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (maître d'ouvrage du futur bâtiment).
+- [Concert « Nite » — interviews et spectacle](projets/evt-2024-05-18-concert-nite-interviews-et-spectacle.md)
+  - Fiabilité selon les notes de rangement : à confirmer. Organisateur : non lisible (bâche « Concert Nite »).
+- [Concert de fin d'année en plein air (classé « TayC, décembre 2020 », déduit)](projets/evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md)
+  - Fiabilité selon les notes de rangement : déduit (artiste à vérifier). Organisateur : non lu (Universal Music Africa supposé).
+- [Concert dessiné (festival Mboa BD 2021)](projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [Concert rap de quartier (maillots « Dinos 93 »)](projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié.
+- [Concerts à CanalOlympia (exports reçus) et portraits](projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits.md)
+  - Fiabilité selon les notes de rangement : à confirmer. Organisateur : non lisible.
+- [Cosplay Land 237 — concours cosplay en extérieur](projets/evt-2023-11-25-cosplay-land-237-concours-cosplay-en-exterieur.md)
+  - Fiabilité selon les notes de rangement : probable. Organisateur : Cosplay Land 237.
+- [Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner](projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine.md)
+  - Fiabilité selon les notes de rangement : confirmé. Organisateur : Xtincell (programme « Créapreneur V2 », logo X à l'écran).
+- [Delys — Saint-Valentin](projets/delys.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Ecobank — 40 ans & ellever](projets/ecobank.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Exposition — portraits d'artistes et de visiteurs devant les œuvres](projets/evt-2021-11-19-exposition-portraits-d-artistes-et-de-visiteurs-devant-le.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (participants avec cordons de badge).
+- [Exposition photo avec Kreative Kwame](projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non lu (exposants badgés).
+- [Festival urbain présenté par KACOD Urban 237](projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [Galahad — équipe d'agents IA auto-hébergée](projets/galahad.md)
+  - Rattachement de matanga-hermes-mcp (privé, sans description) à Galahad : hypothèse à confirmer.
+- [Groupe Cadyst](organisations/groupe-cadyst.md)
+  - Delys est rattaché au Groupe Cadyst par déduction (dossier médias « cadyst-delys-barka-biscuits ») : à confirmer.
+- [Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)](projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [Kamer Otaku Festival — éditions 2022 à 2024](projets/kof-2022-2024.md)
+  - Années 2022 et 2023 déduites des galeries Pixieset (1ʳᵉ et 2ᵉ éditions) : à confirmer.
+- [Kamer Otaku Festival — photos reçues (édition à dater)](projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md)
+  - Fiabilité selon les notes de rangement : probable.
+- [La Fusée — Creative Industry OS](projets/la-fusee.md)
+  - Rattachement de BrandForge (2025, privé, sans description) à la lignée La Fusée : hypothèse à confirmer.
+  - Ordre et rôle exact de chaque version à confirmer.
+- [La Pasta — Saisons & Mighty](projets/lapasta.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Locko — shooting ou tournage en combinaison orange](projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [MATANGA — Creative Dashboard](projets/matanga-creative-dashboard.md)
+  - Repo privé sans description : objet exact à documenter.
+- [Match de basket amical (« Basuke »)](projets/evt-2021-06-18-match-de-basket-amical-basuke.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (« basuke » = basket en japonais, communauté otaku probable).
+- [Mimie — tournée promo du single « Faya »](projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [Motion19](organisations/motion19.md)
+  - Le CV date le poste de Brand Manager 2021–2023 ; practices.ts date le projet UPgraders × Motion19 2019–2022 (« 30 mois »).
+- [Motion19 — construction de marque](projets/motion19-lancement.md)
+  - Dates à concilier avec le CV (Brand Manager Motion19 2021–2023).
+- [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md)
+  - Année absente des sources.
+- [Retlaw × HoHaaa Music — clip](projets/retlaw-clip.md)
+  - Année du clip absente des sources.
+- [Robuste — Aliments pour bétail](projets/robuste.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Robuste — Packaging aliments](projets/robuste-packaging.md)
+  - Passage par MATANGA Agency déduit du portefeuille de l’agence : à confirmer.
+- [Séminaire technique à l'Akwa Palace (« Yves »)](projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves.md)
+  - Fiabilité selon les notes de rangement : lieu confirmé, organisateur inconnu. Organisateur : non identifié (cartes d'approche aéronautiques projetées).
+- [Session live d'un groupe dans un bar à vinyles (noir et blanc)](projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié.
+- [Shakazz — lancement de marque](projets/shakazz.md)
+  - Année du projet absente des sources.
+- [Soirée « Urban Blend » à La Falaise](projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise.md)
+  - Fiabilité selon les notes de rangement : confirmé. Organisateur : non lu (sponsor Grant's).
+- [Soirée au restaurant du Florencia Hotel](projets/evt-2021-11-21-soiree-au-restaurant-du-florencia-hotel.md)
+  - Fiabilité selon les notes de rangement : lieu confirmé, occasion inconnue. Organisateur : non identifié.
+- [Soirée d'Halloween au gaming center « Insomnia » (Red Bull)](projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull.md)
+  - Fiabilité selon les notes de rangement : lieu confirmé. Organisateur : gaming center Insomnia (sponsor Red Bull).
+- [Soirée d'Halloween dans un bar-studio](projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié.
+- [Soirée DJ « Quartier Mozart » et ramen « Afro »](projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : collectif « Quartier Mozart » (logo M), non identifié plus avant.
+- [Soirée DJ dans un bar à fresques graphiques](projets/evt-2022-07-30-soiree-dj-dans-un-bar-a-fresques-graphiques.md)
+  - Fiabilité selon les notes de rangement : lieu inconnu ; portraits confirmés. Organisateur : non identifié.
+- [Street Whale — premier jour (lancement en bord de mer)](projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [Studio Graphique 44](organisations/studio44.md)
+  - Le CV date la mission Studio44 en 2018 ; practices.ts mentionne un lancement via UPgraders en 2024.
+- [Studio44 — lancement structuré](projets/studio44-lancement.md)
+  - practices.ts date ce lancement (via UPgraders) en 2024 ; le CV mentionne une mission Studio Graphique 44 en 2018. Deux engagements distincts ou une seule mission ?
+- [Tournoi de football militaire (vidéos « SD OFF »)](projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (forces de défense, pancarte « … nationale … Major »).
+- [Vernissage d'une exposition de peinture (« Open is open »)](projets/evt-2021-12-10-vernissage-d-une-exposition-de-peinture-open-is-open.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (galerie).
+- [Vernissage et résidence d'artistes (janvier 2026)](projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026.md)
+  - Fiabilité selon les notes de rangement : déduit.
+- [Visite et reportage d'un complexe sportif neuf](projets/evt-2021-08-04-visite-et-reportage-d-un-complexe-sportif-neuf.md)
+  - Fiabilité selon les notes de rangement : client inconnu. Organisateur : non identifié (gestionnaire du complexe).
+- [Visite guidée de Douala (Akwa) puis atelier](projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier.md)
+  - Fiabilité selon les notes de rangement : lieu confirmé, organisateur inconnu. Organisateur : non identifié (visite patrimoine ou atelier photo).
+- [Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua](projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et.md)
+  - Fiabilité selon les notes de rangement : lieu probable, organisateur inconnu. Organisateur : non identifié (délégation officielle avec badges).
+- [Will & Brothers (Sellkako)](organisations/will-and-brothers.md)
+  - Le CV indique 2018 ; practices.ts indique 2017–2019. Lien exact entre Sellkako et Will & Brothers à préciser.
+
+## Absents du folio
+
+Projets historisés ici mais sans page sur le site. Le folio doit à terme montrer l’intégralité des travaux : chaque ligne est une page `/work/…` à créer (ou un `masque_folio: true` assumé).
+
+### Stratégie (20)
+
+- [Argos Studio](projets/argos-studio.md) — 2026–…
+- [DataCollector](projets/datacollector.md) — 2026–…
+- [Générateur d'approches publicitaires](projets/generateur-approches.md) — 2026–…
+- [Indice de maturité créative ADVE](projets/indice-maturite.md) — 2026–…
+- [La Fusée — Blueprint](projets/la-fusee-blueprint.md) — 2026–…
+- [Market Expansion System](projets/market-expansion-system.md) — 2026–…
+- [Shinkiro](projets/shinkiro.md) — 2026–…
+- [La Fusée — Creative Industry OS](projets/la-fusee.md) — 2025–…
+- [Geek de brousse (podcast, tests)](projets/podcast-geek-de-brousse.md) — 2024
+- [Créapreneur (podcast)](projets/creapreneur-podcast.md) — 2018–2021
+- [Creative Next](projets/creative-next.md)
+- [Festival « Ultime » (concept, Riot Games × Japan Expo)](projets/festival-ultime.md)
+- [Festival du Masque (concept)](projets/festival-du-masque.md)
+- [Frontières de l’innovation (podcast)](projets/podcast-frontieres-de-l-innovation.md)
+- [Human Mind OS](projets/human-mind-os.md)
+- [Ngoin Kollektiv](projets/ngoin-kollektiv.md)
+- [Résidence mode (up-cycling)](projets/residence-mode-upcycling.md)
+- [Spark — agence de talents](projets/spark-agence-de-talents.md)
+- [Tu tires je tiens](projets/tu-tires-je-tiens.md)
+- [Whatever Maid Café et lectures](projets/whatever-maid-cafe.md)
+
+### Direction créative & artistique (41)
+
+- [15B Stories](projets/15b-stories.md) — 2026–…
+- [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
+- [Cosmic Machine](projets/cosmic-machine.md) — 2026–…
+- [Forgemonde](projets/forgemonde.md) — 2026
+- [Moteurs de character design (LSI-CD, Character Engine)](projets/moteur-charadesign.md) — 2026–…
+- [NEO-KINARA : Le Tambour des Egun](projets/neo-kinara.md) — 2026–…
+- [Captain Lion](projets/captain-lion.md) — 2025
+- [Darkroom](projets/darkroom.md) — 2025
+- [The Burger Bar — travaux](projets/the-burger-bar-travaux.md) — 2025
+- [916 Web Talk « Lust » — storyboard](projets/storyboard-916-web-talk.md) — 2024
+- [Charadesign Challenge (2024)](projets/charadesign-challenge-2024.md) — 2024
+- [LuckiaBet — travaux](projets/luckiabet-travaux.md) — 2024–2025
+- [Noir Ivoire — travaux](projets/noir-ivoire-travaux.md) — 2023
+- [Street Whale](projets/street-whale.md) — 2023 · visuels disponibles
+- [Apéro Masterclass](projets/apero-masterclass.md) — 2022 · visuels disponibles
+- [Rue Joss et H3riQ — logos](projets/logos-rue-joss-h3riq.md) — 2022
+- [Cosmos Publishing — travaux](projets/cosmos-publishing-travaux.md) — 2020
+- [Couvertures « Vogue » (exercice, 2020)](projets/couvertures-vogue-2020.md) — 2020
+- [Kanbe — branding](projets/branding-kanbe.md) — 2020
+- [Le Passionné — logo](projets/logo-le-passionne.md) — 2020
+- [AI Inktober](projets/ai-inktober.md) · visuels disponibles
+- [Ambassade du Japon](projets/ambassade-du-japon.md) · visuels disponibles
+- [BFF Club](projets/bff-club.md) · visuels disponibles
+- [Call the Ambulance](projets/call-the-ambulance.md)
+- [Compagnon K9 — chenil](projets/compagnon-k9.md) · visuels disponibles
+- [Darkling Stories](projets/darkling-stories.md)
+- [Diehls — travaux](projets/diehls-travaux.md)
+- [DJ EQ 1er — visuels](projets/dj-eq-1er.md)
+- [Expérimentations en IA générative](projets/experimentations-ia-generative.md)
+- [GimacPay](projets/gimacpay.md) · visuels disponibles
+- [JPN Advisors — identité](projets/jpn-advisors-identite.md) · visuels disponibles
+- [Kadji by Spark](projets/kadji-by-spark.md)
+- [Logos et identités de marques](projets/logos-et-identites.md) · visuels disponibles
+- [My Crazy Life (sitcom)](projets/sitcom-my-crazy-life.md)
+- [Ngannou Sports](projets/ngannou-sports.md) · visuels disponibles
+- [Omela](projets/omela.md) · visuels disponibles
+- [Praline](projets/praline.md)
+- [République de Mbengola](projets/republique-de-mbengola.md)
+- [Salatiel — visuels](projets/salatiel.md)
+- [Sons of the Lions](projets/sons-of-the-lions.md)
+- [The Battle of the Baddest](projets/battle-of-the-baddest.md)
+
+### Exécution (238)
+
+- [Arc en Ciel — travaux](projets/arc-en-ciel-travaux.md) — 2026
+- [Cérémonie de pose de la première pierre (vues de drone)](projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md) — 2026
+- [Folio Spark — site portfolio](projets/folio-spark.md) — 2026–…
+- [Galahad — équipe d'agents IA auto-hébergée](projets/galahad.md) — 2026–…
+- [Germinal — travaux](projets/germinal-travaux.md) — 2026
+- [KossKoss Select — travaux](projets/kosskoss-select-travaux.md) — 2026
+- [Mammy Watta — travaux](projets/mammy-watta-travaux.md) — 2026
+- [MATANGA — Creative Dashboard](projets/matanga-creative-dashboard.md) — 2026–…
+- [Radar](projets/radar.md) — 2026–…
+- [Stoneshed Asset Management — travaux](projets/stoneshed-asset-management-travaux.md) — 2026
+- [Vernissage et résidence d'artistes (janvier 2026)](projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026.md) — 2026
+- [AG Partners Cameroun — travaux](projets/ag-partners-cameroun-travaux.md) — 2025
+- [Application de comptabilité (Tauri)](projets/compta-tauri.md) — 2025–…
+- [Audrey Obey — travaux](projets/audrey-obey-travaux.md) — 2025
+- [Business Event Solution — travaux](projets/business-event-solution-travaux.md) — 2025
+- [CFAO Mobility Cameroon — travaux](projets/cfao-mobility-cameroon-travaux.md) — 2025
+- [Drikito — travaux](projets/drikito-travaux.md) — 2025
+- [Ear Rings Store by Lyly — travaux](projets/ear-rings-store-by-lyly-travaux.md) — 2025
+- [Ennovative Gaming (BETMOMO) — travaux](projets/ennovative-gaming-betmomo-travaux.md) — 2025
+- [Fantribe — travaux](projets/fantribe-travaux.md) — 2025–2026
+- [FECIAC — travaux](projets/feciac-travaux.md) — 2025
+- [Glow Up Lawyer — travaux](projets/glow-up-lawyer-travaux.md) — 2025
+- [HK Group — travaux](projets/hk-group-travaux.md) — 2025
+- [K Hotel — déjeuner d'équipe « AO » (activation)](projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation.md) — 2025
+- [K Hotel — travaux](projets/k-hotel-travaux.md) — 2025
+- [K-mer Otaku Festival 2025 (KOF4)](projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4.md) — 2025
+- [KEAMS — travaux](projets/keams-travaux.md) — 2025
+- [Lord Soda — travaux](projets/lord-soda-travaux.md) — 2025
+- [Massanda Awe Coffee — travaux](projets/massanda-awe-coffee-travaux.md) — 2025
+- [NYAMA — travaux](projets/nyama-travaux.md) — 2025
+- [Orange Cameroun — événements 2025–2026](projets/orange-evenements-2025-2026.md) — 2025–2026
+- [Paradis des Anges — travaux](projets/paradis-des-anges-travaux.md) — 2025
+- [Paulhan Wetbe — travaux](projets/paulhan-wetbe-travaux.md) — 2025
+- [Shevolution — galerie photo](projets/photo-shevolution.md) — 2025
+- [Sky Motors — travaux](projets/sky-motors-travaux.md) — 2025
+- [Xcape Quest — travaux](projets/xcape-quest-travaux.md) — 2025
+- [Zalimba — travaux](projets/zalimba-travaux.md) — 2025
+- [Alte — travaux](projets/alte-travaux.md) — 2024
+- [Atelier régional sur la pêche étrangère déstabilisante dans le golfe de Guinée](projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da.md) — 2024
+- [CLR Sneakers — travaux](projets/clr-sneakers-travaux.md) — 2024
+- [Cocktailors — travaux (MATANGA)](projets/cocktailors-travaux.md) — 2024
+- [Concert « Nite » — interviews et spectacle](projets/evt-2024-05-18-concert-nite-interviews-et-spectacle.md) — 2024
+- [DOMAF 2024 — concerts et battles](projets/evt-2024-11-15-domaf-2024-concerts-et-battles.md) — 2024
+- [Feuille d'Or — travaux](projets/feuille-d-or-travaux.md) — 2024–2025
+- [Houtsa — travaux](projets/houtsa-travaux.md) — 2024
+- [K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)](projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu.md) — 2024
+- [K-mer Otaku Festival 2024](projets/evt-2024-08-03-k-mer-otaku-festival-2024.md) — 2024
+- [Lana — travaux](projets/lana-travaux.md) — 2024
+- [Lana « Tout en beauté » — dons de produits pour bébés à l'hôpital de district de la Cité-Verte](projets/evt-2024-04-09-lana-tout-en-beaute-dons-de-produits-pour-bebes-a-l-hopit.md) — 2024
+- [Meloland Studio — travaux](projets/meloland-studio-travaux.md) — 2024
+- [Primo Ice — travaux](projets/primo-ice-travaux.md) — 2024
+- [Talk Paix (CFI) — mission dans le Nord : trajet en train et atelier avec la Fondation Conseil Jeune](projets/evt-2024-01-23-talk-paix-cfi-mission-dans-le-nord-trajet-en-train-et-ate.md) — 2024
+- [Talk Paix (CFI) — rushes d'ateliers régionaux 2024 (dont Garoua)](projets/evt-2024-01-30-talk-paix-cfi-rushes-d-ateliers-regionaux-2024-dont-garou.md) — 2024
+- [The Boyy — travaux](projets/the-boyy-travaux.md) — 2024
+- [« Ambitieuses » — conférence sur le leadership féminin](projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin.md) — 2023
+- [Act of Worship (AOW) — travaux](projets/act-of-worship-aow-travaux.md) — 2023
+- [Activation Jameson Black Barrel en lounge](projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge.md) — 2023
+- [Afrique Au Courant — travaux](projets/afrique-au-courant-travaux.md) — 2023
+- [Akwa HIN (SOGEAC) — travaux](projets/akwa-hin-sogeac-travaux.md) — 2023–2025
+- [Ambassade des États-Unis — travaux](projets/ambassade-des-etats-unis-travaux.md) — 2023
+- [Babatunde — travaux](projets/babatunde-travaux.md) — 2023
+- [Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)](projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp.md) — 2023
+- [BCSnU — Grand défilé — travaux](projets/bcsnu-grand-defile-travaux.md) — 2023–2025
+- [BCSnU — tournage du grand défilé de rue (vidéos)](projets/evt-2023-09-24-bcsnu-tournage-du-grand-defile-de-rue-videos.md) — 2023
+- [CAPI Cameroun — travaux](projets/capi-cameroun-travaux.md) — 2023
+- [Cimencam — reportage photo d'entreprise (usine de Bonabéri)](projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi.md) — 2023
+- [Concert de Repdoul × Babatunde (13 janvier 2023)](projets/evt-2023-01-13-concert-de-repdoul-babatunde-13-janvier-2023.md) — 2023
+- [Concert MTN en plein air (26/03/2023)](projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023.md) — 2023
+- [Cosplay Land 237 — concours cosplay en extérieur](projets/evt-2023-11-25-cosplay-land-237-concours-cosplay-en-exterieur.md) — 2023
+- [Countrip 237 — travaux](projets/countrip-237-travaux.md) — 2023
+- [Festival Street Whale 2023](projets/evt-2023-06-07-festival-street-whale-2023.md) — 2023
+- [Impact Santé Afrique — travaux](projets/impact-sante-afrique-travaux.md) — 2023–2026
+- [K-mer Otaku Festival 2023](projets/evt-2023-08-05-k-mer-otaku-festival-2023.md) — 2023
+- [LION DEN — travaux](projets/lion-den-travaux.md) — 2023
+- [Match Cameroun–Namibie (éliminatoires CAN 2023)](projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023.md) — 2023
+- [Mounpoubeyi — séance photo en studio (« Moun 2009 »)](projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009.md) — 2023
+- [Mounpoubeyi — travaux](projets/mounpoubeyi-travaux.md) — 2023–2024
+- [Mounpoubeyi en concert à l'IFC Douala, première partie Lucille Meneng](projets/evt-2023-04-14-mounpoubeyi-en-concert-a-l-ifc-douala-premiere-partie-luc.md) — 2023
+- [MTN Business Academy — formation au marketing digital et remise de certificats](projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re.md) — 2023
+- [MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)](projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro.md) — 2023
+- [Nomad Soul — travaux](projets/nomad-soul-travaux.md) — 2023–2025
+- [Race Pure Kennel — travaux](projets/race-pure-kennel-travaux.md) — 2023–2025
+- [Talk Paix (CFI) — atelier de Limbé (octobre 2023)](projets/evt-2023-10-20-talk-paix-cfi-atelier-de-limbe-octobre-2023.md) — 2023
+- [Talk Paix (CFI) — atelier des médias (22-23 mars 2023)](projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023.md) — 2023
+- [Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »](projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma.md) — 2023
+- [Talk Paix (CFI) — travaux](projets/talk-paix-cfi-travaux.md) — 2023–2024
+- [Tournoi de football militaire (vidéos « SD OFF »)](projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off.md) — 2023
+- [Voyage Lion Den à Garoua — Cameroun–Burundi et visites](projets/evt-2023-09-11-voyage-lion-den-a-garoua-camerounburundi-et-visites.md) — 2023
+- [« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)](projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo.md) — 2022
+- [« Photography Masterclass » de Stéphane Nounamo (I)](projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md) — 2022
+- [ADW — travaux](projets/adw-travaux.md) — 2022
+- [Afrobit — travaux](projets/afrobit-travaux.md) — 2022–2023
+- [Aquarin — travaux](projets/aquarin-travaux.md) — 2022–2023
+- [Atelier sur la pêche illicite, non déclarée et non réglementée (INN)](projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme.md) — 2022
+- [Atome — travaux](projets/atome-travaux.md) — 2022–2023
+- [BEFOUNE — travaux](projets/befoune-travaux.md) — 2022
+- [CMR Discovery — travaux](projets/cmr-discovery-travaux.md) — 2022
+- [Concert « Africa United »](projets/evt-2022-05-21-concert-africa-united.md) — 2022
+- [Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner](projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine.md) — 2022
+- [DOMAF 2022 — concerts](projets/evt-2022-11-13-domaf-2022-concerts.md) — 2022
+- [Douala Art Fair](projets/evt-2022-11-03-douala-art-fair.md) — 2022
+- [Douala Art Fair — travaux](projets/douala-art-fair-travaux.md) — 2022
+- [Douala Digital Show — 3e édition (1er et 2 décembre 2022)](projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022.md) — 2022
+- [Exposition photo avec Kreative Kwame](projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame.md) — 2022
+- [Festival et symposium Street Whale 2022](projets/evt-2022-06-08-festival-et-symposium-street-whale-2022.md) — 2022
+- [Galerie MAM — photographies d'œuvres d'une exposition](projets/evt-2022-09-29-galerie-mam-photographies-d-uvres-d-une-exposition.md) — 2022
+- [Galerie MAM — travaux](projets/galerie-mam-travaux.md) — 2022
+- [H3riQ — travaux](projets/h3riq-travaux.md) — 2022–2024
+- [Inauguration de la ferme aquacole Aquarin](projets/evt-2022-12-27-inauguration-de-la-ferme-aquacole-aquarin.md) — 2022
+- [Journée mondiale du blog — talk et soirée](projets/evt-2022-08-31-journee-mondiale-du-blog-talk-et-soiree.md) — 2022
+- [K-mer Otaku Festival 2022](projets/evt-2022-08-06-k-mer-otaku-festival-2022.md) — 2022
+- [Krystal — travaux](projets/krystal-travaux.md) — 2022
+- [Locko — photos livrées de l'année 2022 (JPG)](projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg.md) — 2022
+- [Locko — répétition live et interview télévisée (12 janvier 2022)](projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2.md) — 2022
+- [Locko — session en studio d'appartement (backstage, août 2022)](projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022.md) — 2022
+- [Meetup Somewhere — rencontre de photographes en bord de fleuve](projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle.md) — 2022
+- [Meetup Somewhere — travaux](projets/meetup-somewhere-travaux.md) — 2022
+- [Mooda — travaux](projets/mooda-travaux.md) — 2022
+- [MTN Zik — travaux](projets/mtn-zik-travaux.md) — 2022
+- [MTN Zik Festival — finale de la saison 1 du programme MTN Zik](projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z.md) — 2022
+- [NextWave — travaux](projets/nextwave-travaux.md) — 2022
+- [Rodec Conseil — travaux](projets/rodec-conseil-travaux.md) — 2022
+- [Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)](projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co.md) — 2022
+- [Setalmaa — travaux](projets/setalmaa-travaux.md) — 2022
+- [Simo Alves Entertainment — travaux](projets/simo-alves-entertainment-travaux.md) — 2022
+- [Skyvue Solutions — travaux](projets/skyvue-solutions-travaux.md) — 2022
+- [Soirée « The Mooda Times » (hip-hop)](projets/evt-2022-07-02-soiree-the-mooda-times-hip-hop.md) — 2022
+- [Soirée « Urban Blend » à La Falaise](projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise.md) — 2022
+- [Soirée cosplay d'Halloween « Maid Café » (WMC)](projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc.md) — 2022
+- [Soirée d'Halloween au gaming center « Insomnia » (Red Bull)](projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull.md) — 2022
+- [Soirée DJ dans un bar à fresques graphiques](projets/evt-2022-07-30-soiree-dj-dans-un-bar-a-fresques-graphiques.md) — 2022
+- [ToukyCon — travaux](projets/toukycon-travaux.md) — 2022
+- [ToukyCon 2022 — conférence, panels et shooting de mode](projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode.md) — 2022
+- [Vibe House — travaux](projets/vibe-house-travaux.md) — 2022
+- [Voilà Moi — travaux](projets/voila-moi-travaux.md) — 2022
+- [Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua](projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et.md) — 2022
+- [WMC — travaux](projets/wmc-travaux.md) — 2022
+- [Adzal — travaux](projets/adzal-travaux.md) — 2021
+- [ARTISTRY HENNESSY — travaux](projets/artistry-hennessy-travaux.md) — 2021
+- [Cabinet Chrome — travaux](projets/cabinet-chrome-travaux.md) — 2021–2024
+- [CanalOlympia — programmation de fin d'année 2021](projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021.md) — 2021
+- [CanalOlympia (Canal+) — travaux](projets/canalolympia-canal-travaux.md) — 2021
+- [Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)](projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single.md) — 2021
+- [Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)](projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au.md) — 2021
+- [Concert dessiné (festival Mboa BD 2021)](projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021.md) — 2021
+- [Concert rap de quartier (maillots « Dinos 93 »)](projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93.md) — 2021
+- [Creatree — travaux](projets/creatree-travaux.md) — 2021–2023
+- [Cysoul — travaux](projets/cysoul-travaux.md) — 2021–2024
+- [Dclic Photography — travaux](projets/dclic-photography-travaux.md) — 2021
+- [Dena Mwana — concert de Noël](projets/evt-2021-12-25-dena-mwana-concert-de-noel.md) — 2021
+- [Divine Ebene — travaux](projets/divine-ebene-travaux.md) — 2021
+- [Dogon — travaux](projets/dogon-travaux.md) — 2021
+- [DOMAF 2021 — 10e édition](projets/evt-2021-11-25-domaf-2021-10e-edition.md) — 2021
+- [EasyGroup — travaux](projets/easygroup-travaux.md) — 2021
+- [Exposition — portraits d'artistes et de visiteurs devant les œuvres](projets/evt-2021-11-19-exposition-portraits-d-artistes-et-de-visiteurs-devant-le.md) — 2021
+- [Festival urbain présenté par KACOD Urban 237](projets/evt-2021-11-25-festival-urbain-presente-par-kacod-urban-237.md) — 2021
+- [FUL — travaux](projets/ful-travaux.md) — 2021–2022
+- [Galion — Uthango — travaux](projets/galion-uthango-travaux.md) — 2021
+- [Gold Series — travaux](projets/gold-series-travaux.md) — 2021
+- [Hennessy Artistry — « BKS Ultimate » (backstage, juin 2021)](projets/evt-2021-06-02-hennessy-artistry-bks-ultimate-backstage-juin-2021.md) — 2021
+- [Hennessy Artistry 2021 — concerts](projets/evt-2021-12-03-hennessy-artistry-2021-concerts.md) — 2021
+- [IFC Douala — travaux](projets/ifc-douala-travaux.md) — 2021–2026
+- [KACOD Urban 237 — travaux](projets/kacod-urban-237-travaux.md) — 2021
+- [Les Confiotes — travaux](projets/les-confiotes-travaux.md) — 2021–2025
+- [Locko — photos livrées de l'année 2021 (JPG)](projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg.md) — 2021
+- [Locko — promotion de l'album « Era »](projets/evt-2021-12-05-locko-promotion-de-l-album-era.md) — 2021
+- [Locko — session d'écoute de l'album « Era » sur un rooftop](projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop.md) — 2021
+- [Locko — shooting ou tournage en combinaison orange](projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange.md) — 2021
+- [Locko — showcase « Era » au BOJ](projets/evt-2021-12-29-locko-showcase-era-au-boj.md) — 2021
+- [LOCKO — travaux](projets/locko-travaux.md) — 2021–2025
+- [Madiba (eau minérale) — travaux](projets/madiba-eau-minerale-travaux.md) — 2021
+- [Match de basket amical (« Basuke »)](projets/evt-2021-06-18-match-de-basket-amical-basuke.md) — 2021
+- [Mboa BD — travaux](projets/mboa-bd-travaux.md) — 2021
+- [Mimie — tournée promo du single « Faya »](projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya.md) — 2021
+- [Mimie x Nakuin — travaux](projets/mimie-x-nakuin-travaux.md) — 2021
+- [MTN Cameroon — travaux](projets/mtn-cameroon-travaux.md) — 2021–2025
+- [MTN HolidayZ / YoMo — soirée d'été en jardin](projets/evt-2021-08-19-mtn-holidayz-yomo-soiree-d-ete-en-jardin.md) — 2021
+- [ResiliArt Cameroun — séance de sélection des artistes candidats](projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi.md) — 2021
+- [Séminaire technique à l'Akwa Palace (« Yves »)](projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves.md) — 2021
+- [Session live d'un groupe dans un bar à vinyles (noir et blanc)](projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl.md) — 2021
+- [Shooting cosplay en studio (septembre 2021)](projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021.md) — 2021
+- [Shootings cosplay en studio (août 2021)](projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021.md) — 2021
+- [Singleton (Diageo) — travaux](projets/singleton-diageo-travaux.md) — 2021
+- [Singuila — séance d'écoute de l'album « Docteur Love »](projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love.md) — 2021
+- [Soirée au restaurant du Florencia Hotel](projets/evt-2021-11-21-soiree-au-restaurant-du-florencia-hotel.md) — 2021
+- [Soirée d'Halloween dans un bar-studio](projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio.md) — 2021
+- [Soirée de Noël chez Pizza Hut — session photo de l'artiste FUL et portraits de Genty](projets/evt-2021-12-15-soiree-de-noel-chez-pizza-hut-session-photo-de-l-artiste.md) — 2021
+- [Soirée DJ « Quartier Mozart » et ramen « Afro »](projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro.md) — 2021
+- [Street Whale — premier jour (lancement en bord de mer)](projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer.md) — 2021
+- [Student Photographer (Stéphane Nounamo) — travaux](projets/student-photographer-stephane-nounamo-travaux.md) — 2021–2024
+- [U'TAM Complexe — travaux](projets/u-tam-complexe-travaux.md) — 2021
+- [Umdeny Corp — travaux](projets/umdeny-corp-travaux.md) — 2021
+- [UNESCO — travaux](projets/unesco-travaux.md) — 2021
+- [Vernissage d'une exposition de peinture (« Open is open »)](projets/evt-2021-12-10-vernissage-d-une-exposition-de-peinture-open-is-open.md) — 2021
+- [Visite et reportage d'un complexe sportif neuf](projets/evt-2021-08-04-visite-et-reportage-d-un-complexe-sportif-neuf.md) — 2021
+- [Visite guidée de Douala (Akwa) puis atelier](projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier.md) — 2021
+- [Afritube (Ramounam) — travaux](projets/afritube-ramounam-travaux.md) — 2020
+- [Concert de fin d'année en plein air (classé « TayC, décembre 2020 », déduit)](projets/evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md) — 2020
+- [Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)](projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2.md) — 2020
+- [Dena Mwana 2021 — travaux](projets/dena-mwana-2021-travaux.md) — 2020–2021
+- [Indira (artiste) — travaux](projets/indira-artiste-travaux.md) — 2020–2021
+- [Keyzit — travaux](projets/keyzit-travaux.md) — 2020
+- [L&J Décor — travaux](projets/l-j-decor-travaux.md) — 2020
+- [Nguiyan Avocat — travaux](projets/nguiyan-avocat-travaux.md) — 2020
+- [Royal Onyx Insurance — travaux](projets/royal-onyx-insurance-travaux.md) — 2020
+- [THC — travaux](projets/thc-travaux.md) — 2020
+- [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018
+- [BlackNote Web](projets/blacknote-web.md) — 2015
+- [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
+- [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
+- [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022
+- [AfroBit — galerie photo](projets/photo-afrobit.md)
+- [AMMCO — galerie photo](projets/photo-ammco.md)
+- [AO (SpearHead) — travaux](projets/ao-spearhead-travaux.md)
+- [BuildSmart — travaux](projets/buildsmart-travaux.md)
+- [Cabinet Dentaire BeauSourire — galerie photo](projets/photo-cabinetdentaire.md)
+- [Concert gospel « Acts of Worship » (AOW)](projets/evt-sans-date-concert-gospel-acts-of-worship-aow.md)
+- [Concerts à CanalOlympia (exports reçus) et portraits](projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits.md)
+- [Des routines, des rituels (audio reel)](projets/audio-reel-routines-rituels.md)
+- [Galerie d’art 3D (Blend4Web)](projets/galerie-3d-blend4web.md)
+- [H3riQ — galerie photo](projets/photo-h3riq.md)
+- [Hydrane — travaux](projets/hydrane-travaux.md)
+- [IMP (Band + AGA'A) — travaux](projets/imp-band-aga-a-travaux.md)
+- [Isabella (groupe de rock) — travaux](projets/isabella-groupe-de-rock-travaux.md)
+- [Kamer Otaku Festival — photos reçues (édition à dater)](projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md)
+- [Kikar — travaux](projets/kikar-travaux.md)
+- [KMC — travaux](projets/kmc-travaux.md)
+- [Locko — galerie photo](projets/photo-locko.md)
+- [Lydol — galerie photo](projets/photo-lydol.md)
+- [Mounpoubeyi — galerie photo](projets/photo-mounpoubeyi.md)
+- [Oasis Art — travaux](projets/oasis-art-travaux.md)
+- [Photographie de mariage](projets/photographie-de-mariage.md) · visuels disponibles
+- [Portfolio photo personnel](projets/portfolio-photo-personnel.md)
+- [Prenatal Shot : Marie Claire — galerie photo](projets/photo-prenatalshotmarieclaire.md)
+- [Restaurant Isa — travaux](projets/restaurant-isa-travaux.md)
+- [RoadTrip Nord — galerie photo](projets/photo-roadtripnord-1.md)
+- [TJC — travaux](projets/tjc-travaux.md)
+- [Xtorm Senza Limiti — travaux](projets/xtorm-senza-limiti-travaux.md)
+
+## Sans page dédiée
+
+Projets cités dans la liste des pratiques de `/work`, sans page `/work/<slug>` à eux.
+
+- [Akwa Palace — vidéo publicitaire](projets/akwa-palace.md) — 2025 · visuels disponibles
+- [Maison Gimane — production photo & vidéo](projets/maison-gimane.md) — 2024 · visuels disponibles
+- [Maison Moët & Chandon — assets visuels](projets/moet-chandon.md) — 2024
+- [Oceanis Kribi · The Villa — production vidéo & image](projets/oceanis-kribi-the-villa.md) — 2024
+- [Studio44 — lancement structuré](projets/studio44-lancement.md) — 2024
+- [Cimencam — vidéo corporate](projets/cimencam-video-corporate.md) — 2023–2024
+- [Kamer Otaku Festival — éditions 2022 à 2024](projets/kof-2022-2024.md) — 2022–2024 · visuels disponibles
+- [OmenKart — direction artistique déléguée](projets/omenkart-marque-blanche.md) — 2022–2024 · visuels disponibles
+- [Kemcare — stratégie de marque & lancement](projets/kemcare.md) — 2021–… · visuels disponibles
+- [Top (SABC) — direction artistique & production](projets/top-sabc.md) — 2020–2022 · visuels disponibles
+- [Motion19 — construction de marque](projets/motion19-lancement.md) — 2019–2022 · visuels disponibles
+- [Universal Music Africa — image d’artistes](projets/uma-artistes.md) — 2016–2022 · visuels disponibles
+- [Chococam — photo, vidéo et reportage](projets/chococam.md) — 2014–2020 · visuels disponibles
+- [Orange Cameroun — photographie de campagnes](projets/orange-campagnes-photo.md) — 2013–2018
+- [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md) · visuels disponibles
+- [Retlaw × HoHaaa Music — clip](projets/retlaw-clip.md)
+- [Shakazz — lancement de marque](projets/shakazz.md)
+
+## Sans date
+
+- [AI Inktober](projets/ai-inktober.md)
+- [Ambassade du Japon](projets/ambassade-du-japon.md)
+- [AO (SpearHead) — travaux](projets/ao-spearhead-travaux.md)
+- [Des routines, des rituels (audio reel)](projets/audio-reel-routines-rituels.md)
+- [The Battle of the Baddest](projets/battle-of-the-baddest.md)
+- [BFF Club](projets/bff-club.md)
+- [BuildSmart — travaux](projets/buildsmart-travaux.md)
+- [Call the Ambulance](projets/call-the-ambulance.md)
+- [Compagnon K9 — chenil](projets/compagnon-k9.md)
+- [Creative Next](projets/creative-next.md)
+- [Darkling Stories](projets/darkling-stories.md)
+- [Diehls — travaux](projets/diehls-travaux.md)
+- [DJ EQ 1er — visuels](projets/dj-eq-1er.md)
+- [Concert gospel « Acts of Worship » (AOW)](projets/evt-sans-date-concert-gospel-acts-of-worship-aow.md)
+- [Concerts à CanalOlympia (exports reçus) et portraits](projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits.md)
+- [Kamer Otaku Festival — photos reçues (édition à dater)](projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md)
+- [Expérimentations en IA générative](projets/experimentations-ia-generative.md)
+- [Festival du Masque (concept)](projets/festival-du-masque.md)
+- [Festival « Ultime » (concept, Riot Games × Japan Expo)](projets/festival-ultime.md)
+- [Galerie d’art 3D (Blend4Web)](projets/galerie-3d-blend4web.md)
+- [GimacPay](projets/gimacpay.md)
+- [Human Mind OS](projets/human-mind-os.md)
+- [Hydrane — travaux](projets/hydrane-travaux.md)
+- [IMP (Band + AGA'A) — travaux](projets/imp-band-aga-a-travaux.md)
+- [Isabella (groupe de rock) — travaux](projets/isabella-groupe-de-rock-travaux.md)
+- [JPN Advisors — identité](projets/jpn-advisors-identite.md)
+- [Kadji by Spark](projets/kadji-by-spark.md)
+- [Kikar — travaux](projets/kikar-travaux.md)
+- [KMC — travaux](projets/kmc-travaux.md)
+- [Logos et identités de marques](projets/logos-et-identites.md)
+- [Méthode ADVE/RTIS](projets/methode-adve-rtis.md)
+- [Ngannou Sports](projets/ngannou-sports.md)
+- [Ngoin Kollektiv](projets/ngoin-kollektiv.md)
+- [Oasis Art — travaux](projets/oasis-art-travaux.md)
+- [Omela](projets/omela.md)
+- [AfroBit — galerie photo](projets/photo-afrobit.md)
+- [AMMCO — galerie photo](projets/photo-ammco.md)
+- [Cabinet Dentaire BeauSourire — galerie photo](projets/photo-cabinetdentaire.md)
+- [H3riQ — galerie photo](projets/photo-h3riq.md)
+- [Locko — galerie photo](projets/photo-locko.md)
+- [Lydol — galerie photo](projets/photo-lydol.md)
+- [Mounpoubeyi — galerie photo](projets/photo-mounpoubeyi.md)
+- [Prenatal Shot : Marie Claire — galerie photo](projets/photo-prenatalshotmarieclaire.md)
+- [RoadTrip Nord — galerie photo](projets/photo-roadtripnord-1.md)
+- [Photographie de mariage](projets/photographie-de-mariage.md)
+- [Frontières de l’innovation (podcast)](projets/podcast-frontieres-de-l-innovation.md)
+- [Port Autonome de Kribi — Octobre Rose](projets/port-kribi-octobre-rose.md)
+- [Portfolio photo personnel](projets/portfolio-photo-personnel.md)
+- [Praline](projets/praline.md)
+- [République de Mbengola](projets/republique-de-mbengola.md)
+- [Résidence mode (up-cycling)](projets/residence-mode-upcycling.md)
+- [Restaurant Isa — travaux](projets/restaurant-isa-travaux.md)
+- [Retlaw × HoHaaa Music — clip](projets/retlaw-clip.md)
+- [Salatiel — visuels](projets/salatiel.md)
+- [Shakazz — lancement de marque](projets/shakazz.md)
+- [My Crazy Life (sitcom)](projets/sitcom-my-crazy-life.md)
+- [Sons of the Lions](projets/sons-of-the-lions.md)
+- [Spark — agence de talents](projets/spark-agence-de-talents.md)
+- [TJC — travaux](projets/tjc-travaux.md)
+- [Tu tires je tiens](projets/tu-tires-je-tiens.md)
+- [Whatever Maid Café et lectures](projets/whatever-maid-cafe.md)
+- [Xtorm Senza Limiti — travaux](projets/xtorm-senza-limiti-travaux.md)
+
+## Ébauches
+
+Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résultat).
+
+- [15B Stories](projets/15b-stories.md)
+- [916 Web Talk « Lust » — storyboard](projets/storyboard-916-web-talk.md)
+- [Act of Worship (AOW)](organisations/act-of-worship-aow.md)
+- [Act of Worship (AOW) — travaux](projets/act-of-worship-aow-travaux.md)
+- [ADW](organisations/adw.md)
+- [ADW — travaux](projets/adw-travaux.md)
+- [Adzal](organisations/adzal.md)
+- [Adzal — travaux](projets/adzal-travaux.md)
+- [Afrique Au Courant](organisations/afrique-au-courant.md)
+- [Afrique Au Courant — travaux](projets/afrique-au-courant-travaux.md)
+- [Afritube (Ramounam)](organisations/afritube-ramounam.md)
+- [Afritube (Ramounam) — travaux](projets/afritube-ramounam-travaux.md)
+- [Afrobit](organisations/afrobit.md)
+- [AfroBit — galerie photo](projets/photo-afrobit.md)
+- [Afrobit — travaux](projets/afrobit-travaux.md)
+- [AG Partners Cameroun](organisations/ag-partners-cameroun.md)
+- [AG Partners Cameroun — travaux](projets/ag-partners-cameroun-travaux.md)
+- [AGIP](organisations/agip.md)
+- [AGIP — « Kwatta Vibes » (pochette)](projets/cover-musical.md)
+- [AI Inktober](projets/ai-inktober.md)
+- [Akwa HIN (SOGEAC)](organisations/akwa-hin-sogeac.md)
+- [Akwa HIN (SOGEAC) — travaux](projets/akwa-hin-sogeac-travaux.md)
+- [Akwa Palace](organisations/akwa-palace.md)
+- [Alte](organisations/alte.md)
+- [Alte — travaux](projets/alte-travaux.md)
+- [Ambassade des États-Unis](organisations/ambassade-des-etats-unis.md)
+- [Ambassade des États-Unis — travaux](projets/ambassade-des-etats-unis-travaux.md)
+- [Ambassade du Japon](projets/ambassade-du-japon.md)
+- [Ambassade du Japon](organisations/ambassade-du-japon.md)
+- [AMMCO](organisations/ammco.md)
+- [AMMCO — galerie photo](projets/photo-ammco.md)
+- [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md)
+- [AO (SpearHead)](organisations/ao-spearhead.md)
+- [AO (SpearHead) — travaux](projets/ao-spearhead-travaux.md)
+- [Apéro Masterclass](projets/apero-masterclass.md)
+- [Application de comptabilité (Tauri)](projets/compta-tauri.md)
+- [Aquarin](organisations/aquarin.md)
+- [Aquarin — travaux](projets/aquarin-travaux.md)
+- [Arc en Ciel](organisations/arc-en-ciel.md)
+- [Arc en Ciel — travaux](projets/arc-en-ciel-travaux.md)
+- [Argos Studio](projets/argos-studio.md)
+- [ARTISTRY HENNESSY](organisations/artistry-hennessy.md)
+- [ARTISTRY HENNESSY — travaux](projets/artistry-hennessy-travaux.md)
+- [Atome](organisations/atome.md)
+- [Atome — travaux](projets/atome-travaux.md)
+- [Audrey Obey](organisations/audrey-obey.md)
+- [Audrey Obey — travaux](projets/audrey-obey-travaux.md)
+- [Babatunde](organisations/babatunde.md)
+- [Babatunde — travaux](projets/babatunde-travaux.md)
+- [BAMS & BTP](organisations/bams-btp.md)
+- [BAMS & BTP — Identité corporate](projets/bams-btp.md)
+- [BanaHealth](organisations/banahealth.md)
+- [BanaHealth — Facilitation médicale](projets/banahealth.md)
+- [BCSnU — Grand défilé](organisations/bcsnu-grand-defile.md)
+- [BCSnU — Grand défilé — travaux](projets/bcsnu-grand-defile-travaux.md)
+- [BEFOUNE](organisations/befoune.md)
+- [BEFOUNE — travaux](projets/befoune-travaux.md)
+- [BFF Club](projets/bff-club.md)
+- [Brasseries du Cameroun — XXL & Top](projets/brasseries-du-cameroun.md)
+- [BuildSmart](organisations/buildsmart.md)
+- [BuildSmart — travaux](projets/buildsmart-travaux.md)
+- [Business Event Solution](organisations/business-event-solution.md)
+- [Business Event Solution — travaux](projets/business-event-solution-travaux.md)
+- [Cabinet Chrome](organisations/cabinet-chrome.md)
+- [Cabinet Chrome — travaux](projets/cabinet-chrome-travaux.md)
+- [Cabinet Dentaire BeauSourire](organisations/cabinet-dentaire-beausourire.md)
+- [Cabinet Dentaire BeauSourire — galerie photo](projets/photo-cabinetdentaire.md)
+- [Call the Ambulance](projets/call-the-ambulance.md)
+- [CanalOlympia (Canal+)](organisations/canalolympia-canal.md)
+- [CanalOlympia (Canal+) — travaux](projets/canalolympia-canal-travaux.md)
+- [Cap Esterias](organisations/cap-esterias.md)
+- [Cap Esterias Rosé — Élégance de l'instant](projets/cap-esterias.md)
+- [CAPI Cameroun](organisations/capi-cameroun.md)
+- [CAPI Cameroun — travaux](projets/capi-cameroun-travaux.md)
+- [Captain Lion](projets/captain-lion.md)
+- [CFAO Mobility Cameroon](organisations/cfao-mobility-cameroon.md)
+- [CFAO Mobility Cameroon — travaux](projets/cfao-mobility-cameroon-travaux.md)
+- [Charadesign — Personnages afro-fantastiques](projets/charadesign.md)
+- [Charadesign Challenge (2024)](projets/charadesign-challenge-2024.md)
+- [Cimencam](organisations/cimencam.md)
+- [CLR Sneakers](organisations/clr-sneakers.md)
+- [CLR Sneakers — travaux](projets/clr-sneakers-travaux.md)
+- [CMR Discovery](organisations/cmr-discovery.md)
+- [CMR Discovery — travaux](projets/cmr-discovery-travaux.md)
+- [Cocktailors](organisations/cocktailors.md)
+- [Cocktailors — travaux (MATANGA)](projets/cocktailors-travaux.md)
+- [Compagnon K9 — chenil](projets/compagnon-k9.md)
+- [Cosmic Machine](projets/cosmic-machine.md)
+- [Cosmos Boba](organisations/cosmos-boba.md)
+- [Cosmos Boba — Bubble tea](projets/cosmo-boba.md)
+- [Cosmos Publishing](organisations/cosmos-publishing.md)
+- [Cosmos Publishing — travaux](projets/cosmos-publishing-travaux.md)
+- [Countrip 237](organisations/countrip-237.md)
+- [Countrip 237 — travaux](projets/countrip-237-travaux.md)
+- [Couvertures « Vogue » (exercice, 2020)](projets/couvertures-vogue-2020.md)
+- [Creative Next](projets/creative-next.md)
+- [Creatree](organisations/creatree.md)
+- [Creatree — travaux](projets/creatree-travaux.md)
+- [Cysoul](organisations/cysoul.md)
+- [Cysoul — travaux](projets/cysoul-travaux.md)
+- [Darkling Stories](projets/darkling-stories.md)
+- [Darkroom](projets/darkroom.md)
+- [DataCollector](projets/datacollector.md)
+- [Dclic Photography](organisations/dclic-photography.md)
+- [Dclic Photography — travaux](projets/dclic-photography-travaux.md)
+- [Dena Mwana 2021](organisations/dena-mwana-2021.md)
+- [Dena Mwana 2021 — travaux](projets/dena-mwana-2021-travaux.md)
+- [Des routines, des rituels (audio reel)](projets/audio-reel-routines-rituels.md)
+- [Diehls](organisations/diehls.md)
+- [Diehls — travaux](projets/diehls-travaux.md)
+- [Divine Ebene](organisations/divine-ebene.md)
+- [Divine Ebene — travaux](projets/divine-ebene-travaux.md)
+- [DJ EQ 1er — visuels](projets/dj-eq-1er.md)
+- [Dogon](organisations/dogon.md)
+- [Dogon — travaux](projets/dogon-travaux.md)
+- [DOMAF — Conseil Camerounais de la Musique](organisations/domaf-conseil-camerounais-de-la-musique.md)
+- [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md)
+- [Douala Art Fair](organisations/douala-art-fair.md)
+- [Douala Art Fair — travaux](projets/douala-art-fair-travaux.md)
+- [Drikito](organisations/drikito.md)
+- [Drikito — travaux](projets/drikito-travaux.md)
+- [Ear Rings Store by Lyly](organisations/ear-rings-store-by-lyly.md)
+- [Ear Rings Store by Lyly — travaux](projets/ear-rings-store-by-lyly-travaux.md)
+- [EasyGroup](organisations/easygroup.md)
+- [EasyGroup — travaux](projets/easygroup-travaux.md)
+- [Ecobank](organisations/ecobank.md)
+- [EJARA](organisations/ejara.md)
+- [EJARA — travaux](projets/ejara-travaux.md)
+- [Ennovative Gaming (BETMOMO)](organisations/ennovative-gaming-betmomo.md)
+- [Ennovative Gaming (BETMOMO) — travaux](projets/ennovative-gaming-betmomo-travaux.md)
+- [Esther Naah](personnes/esther-naah.md)
+- [Expérimentations en IA générative](projets/experimentations-ia-generative.md)
+- [Faire-part — Suite mémorielle](projets/faire-part.md)
+- [Fantribe](organisations/fantribe.md)
+- [Fantribe — travaux](projets/fantribe-travaux.md)
+- [FECIAC](organisations/feciac.md)
+- [FECIAC — travaux](projets/feciac-travaux.md)
+- [Festival « Ultime » (concept, Riot Games × Japan Expo)](projets/festival-ultime.md)
+- [Festival du Masque (concept)](projets/festival-du-masque.md)
+- [Festival Musina](organisations/festival-musina.md)
+- [Feuille d'Or](organisations/feuille-d-or.md)
+- [Feuille d'Or — travaux](projets/feuille-d-or-travaux.md)
+- [Florida — Vin pétillant](projets/florida.md)
+- [Forgemonde](projets/forgemonde.md)
+- [Friends Studio — Studio photo premium](projets/friends-studio.md)
+- [FriendsFood 225](organisations/friendsfood-225.md)
+- [FriendsFood 225 — Friends Afterwork](projets/friendsfood.md)
+- [FrieslandCampina](organisations/frieslandcampina.md)
+- [Frontières de l’innovation (podcast)](projets/podcast-frontieres-de-l-innovation.md)
+- [Frutas](organisations/frutas.md)
+- [Frutas — Jus de fruits](projets/frutas.md)
+- [FUL](organisations/ful.md)
+- [FUL — travaux](projets/ful-travaux.md)
+- [Galerie d’art 3D (Blend4Web)](projets/galerie-3d-blend4web.md)
+- [Galerie MAM](organisations/galerie-mam.md)
+- [Galerie MAM — travaux](projets/galerie-mam-travaux.md)
+- [Galion — Uthango](organisations/galion-uthango.md)
+- [Galion — Uthango — travaux](projets/galion-uthango-travaux.md)
+- [Geek de brousse (podcast, tests)](projets/podcast-geek-de-brousse.md)
+- [Générateur d'approches publicitaires](projets/generateur-approches.md)
+- [Germinal](organisations/germinal.md)
+- [Germinal — travaux](projets/germinal-travaux.md)
+- [GimacPay](projets/gimacpay.md)
+- [GimacPay](organisations/gimacpay.md)
+- [Glow Up Lawyer](organisations/glow-up-lawyer.md)
+- [Glow Up Lawyer — travaux](projets/glow-up-lawyer-travaux.md)
+- [Gold Series](organisations/gold-series.md)
+- [Gold Series — travaux](projets/gold-series-travaux.md)
+- [Goodlocs](organisations/goodlocs.md)
+- [Goodlocs — Soin des locs « ife »](projets/goodlocs.md)
+- [Groupe Bel](organisations/groupe-bel.md)
+- [Groupe Cible (Cible RH)](organisations/groupe-cible-cible-rh.md)
+- [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md)
+- [H3riQ](organisations/h3riq.md)
+- [H3riQ — galerie photo](projets/photo-h3riq.md)
+- [H3riQ — travaux](projets/h3riq-travaux.md)
+- [Hero Shot — Portraits éditoriaux cinématiques](projets/hero-shot.md)
+- [HK Group](organisations/hk-group.md)
+- [HK Group — travaux](projets/hk-group-travaux.md)
+- [Hogwarts — Récit court illustré](projets/hogwarts-short-story.md)
+- [Houtsa](organisations/houtsa.md)
+- [Houtsa — travaux](projets/houtsa-travaux.md)
+- [Human Mind OS](projets/human-mind-os.md)
+- [Hydrane](organisations/hydrane.md)
+- [Hydrane — travaux](projets/hydrane-travaux.md)
+- [IFC Douala](organisations/ifc-douala.md)
+- [IFC Douala — travaux](projets/ifc-douala-travaux.md)
+- [IMP (Band + AGA'A)](organisations/imp-band-aga-a.md)
+- [IMP (Band + AGA'A) — travaux](projets/imp-band-aga-a-travaux.md)
+- [Impact Santé Afrique](organisations/impact-sante-afrique.md)
+- [Impact Santé Afrique — travaux](projets/impact-sante-afrique-travaux.md)
+- [Indice de maturité créative ADVE](projets/indice-maturite.md)
+- [Indira (artiste)](organisations/indira-artiste.md)
+- [Indira (artiste) — travaux](projets/indira-artiste-travaux.md)
+- [Ingrid Nya Ngatchou](personnes/ingrid-nya-ngatchou.md)
+- [Isabella (groupe de rock)](organisations/isabella-groupe-de-rock.md)
+- [Isabella (groupe de rock) — travaux](projets/isabella-groupe-de-rock-travaux.md)
+- [Jean-Philippe Veigne](personnes/jean-philippe-veigne.md)
+- [JPN Advisors](organisations/jpn-advisors.md)
+- [JPN Advisors — identité](projets/jpn-advisors-identite.md)
+- [K Hotel](organisations/k-hotel.md)
+- [K Hotel — travaux](projets/k-hotel-travaux.md)
+- [KACOD Urban 237](organisations/kacod-urban-237.md)
+- [KACOD Urban 237 — travaux](projets/kacod-urban-237-travaux.md)
+- [Kadji by Spark](projets/kadji-by-spark.md)
+- [Kamer Otaku Festival (KOF)](organisations/kamer-otaku-festival.md)
+- [Kanbe — branding](projets/branding-kanbe.md)
+- [KEAMS](organisations/keams.md)
+- [KEAMS — travaux](projets/keams-travaux.md)
+- [Kemcare](organisations/kemcare.md)
+- [Keyzit](organisations/keyzit.md)
+- [Keyzit — travaux](projets/keyzit-travaux.md)
+- [Kikar](organisations/kikar.md)
+- [Kikar — travaux](projets/kikar-travaux.md)
+- [KMC](organisations/kmc.md)
+- [KMC — travaux](projets/kmc-travaux.md)
+- [KossKoss Select](organisations/kosskoss-select.md)
+- [KossKoss Select — travaux](projets/kosskoss-select-travaux.md)
+- [Krystal](organisations/krystal.md)
+- [Krystal — travaux](projets/krystal-travaux.md)
+- [L&J Décor](organisations/l-j-decor.md)
+- [L&J Décor — travaux](projets/l-j-decor-travaux.md)
+- [La Fusée — Blueprint](projets/la-fusee-blueprint.md)
+- [La Vache qui rit — Merch « For Good »](projets/la-vache-qui-rit.md)
+- [Lana](organisations/lana.md)
+- [Lana — travaux](projets/lana-travaux.md)
+- [Le Passionné — logo](projets/logo-le-passionne.md)
+- [Les Brasseries du Cameroun (SABC)](organisations/brasseries-du-cameroun.md)
+- [Les Confiotes](organisations/les-confiotes.md)
+- [Les Confiotes — travaux](projets/les-confiotes-travaux.md)
+- [LION DEN](organisations/lion-den.md)
+- [LION DEN — travaux](projets/lion-den-travaux.md)
+- [LOCKO](organisations/locko.md)
+- [Locko — galerie photo](projets/photo-locko.md)
+- [LOCKO — travaux](projets/locko-travaux.md)
+- [Logos et identités de marques](projets/logos-et-identites.md)
+- [Lord Soda](organisations/lord-soda.md)
+- [Lord Soda — travaux](projets/lord-soda-travaux.md)
+- [LuckiaBet](organisations/luckiabet.md)
+- [LuckiaBet — travaux](projets/luckiabet-travaux.md)
+- [Lydol — galerie photo](projets/photo-lydol.md)
+- [Madiba (eau minérale)](organisations/madiba-eau-minerale.md)
+- [Madiba (eau minérale) — travaux](projets/madiba-eau-minerale-travaux.md)
+- [Maison Gimane](organisations/maison-gimane.md)
+- [Maison Moët & Chandon](organisations/moet-et-chandon.md)
+- [Mammy Watta](organisations/mammy-watta.md)
+- [Mammy Watta — travaux](projets/mammy-watta-travaux.md)
+- [Market Expansion System](projets/market-expansion-system.md)
+- [Massanda Awe Coffee](organisations/massanda-awe-coffee.md)
+- [Massanda Awe Coffee — travaux](projets/massanda-awe-coffee-travaux.md)
+- [Matanga Agency — Casting & marque](projets/matanga-agency.md)
+- [Mboa BD](organisations/mboa-bd.md)
+- [Mboa BD — travaux](projets/mboa-bd-travaux.md)
+- [Meetup Somewhere](organisations/meetup-somewhere.md)
+- [Meetup Somewhere — travaux](projets/meetup-somewhere-travaux.md)
+- [Meloland Studio](organisations/meloland-studio.md)
+- [Meloland Studio — travaux](projets/meloland-studio-travaux.md)
+- [Mimie x Nakuin](organisations/mimie-x-nakuin.md)
+- [Mimie x Nakuin — travaux](projets/mimie-x-nakuin-travaux.md)
+- [Mooda](organisations/mooda.md)
+- [Mooda — travaux](projets/mooda-travaux.md)
+- [Moteurs de character design (LSI-CD, Character Engine)](projets/moteur-charadesign.md)
+- [Mounpoubeyi](organisations/mounpoubeyi.md)
+- [Mounpoubeyi — galerie photo](projets/photo-mounpoubeyi.md)
+- [Mounpoubeyi — travaux](projets/mounpoubeyi-travaux.md)
+- [MTN Cameroon](organisations/mtn-cameroon.md)
+- [MTN Cameroon — travaux](projets/mtn-cameroon-travaux.md)
+- [MTN Zik](organisations/mtn-zik.md)
+- [MTN Zik — travaux](projets/mtn-zik-travaux.md)
+- [Musina 9 — Festival](projets/musina-festival.md)
+- [My Crazy Life (sitcom)](projets/sitcom-my-crazy-life.md)
+- [NEO-KINARA : Le Tambour des Egun](projets/neo-kinara.md)
+- [NextWave](organisations/nextwave.md)
+- [NextWave — travaux](projets/nextwave-travaux.md)
+- [Ngannou Sports](projets/ngannou-sports.md)
+- [Ngoin Kollektiv](projets/ngoin-kollektiv.md)
+- [Nguiyan Avocat](organisations/nguiyan-avocat.md)
+- [Nguiyan Avocat — travaux](projets/nguiyan-avocat-travaux.md)
+- [Noir Ivoire](organisations/noir-ivoire.md)
+- [Noir Ivoire — travaux](projets/noir-ivoire-travaux.md)
+- [Nomad Soul](organisations/nomad-soul.md)
+- [Nomad Soul — travaux](projets/nomad-soul-travaux.md)
+- [NSIA Assurances](organisations/nsia-assurances.md)
+- [NSIA Tontines — Campagne assurance](projets/nsia.md)
+- [NYAMA](organisations/nyama.md)
+- [NYAMA — travaux](projets/nyama-travaux.md)
+- [Oasis Art](organisations/oasis-art.md)
+- [Oasis Art — travaux](projets/oasis-art-travaux.md)
+- [Oceanis Kribi](organisations/oceanis-kribi.md)
+- [Omela](projets/omela.md)
+- [Orange Cameroun — événements 2025–2026](projets/orange-evenements-2025-2026.md)
+- [Panzani Cameroun](organisations/panzani-cameroun.md)
+- [Paradis des Anges](organisations/paradis-des-anges.md)
+- [Paradis des Anges — travaux](projets/paradis-des-anges-travaux.md)
+- [Paulhan Wetbe](organisations/paulhan-wetbe.md)
+- [Paulhan Wetbe — travaux](projets/paulhan-wetbe-travaux.md)
+- [Perso — Carnet d'art personnel](projets/perso-sketchbook.md)
+- [Photographie de mariage](projets/photographie-de-mariage.md)
+- [Port Autonome de Kribi](organisations/port-autonome-de-kribi.md)
+- [Portfolio photo personnel](projets/portfolio-photo-personnel.md)
+- [Praline](projets/praline.md)
+- [Prenatal Shot : Marie Claire — galerie photo](projets/photo-prenatalshotmarieclaire.md)
+- [Primo Ice](organisations/primo-ice.md)
+- [Primo Ice — travaux](projets/primo-ice-travaux.md)
+- [Race Pure Kennel](organisations/race-pure-kennel.md)
+- [Race Pure Kennel — travaux](projets/race-pure-kennel-travaux.md)
+- [Radar](projets/radar.md)
+- [République de Mbengola](projets/republique-de-mbengola.md)
+- [Résidence mode (up-cycling)](projets/residence-mode-upcycling.md)
+- [Restaurant Isa](organisations/restaurant-isa.md)
+- [Restaurant Isa — travaux](projets/restaurant-isa-travaux.md)
+- [Retlaw](organisations/retlaw.md)
+- [RoadTrip Nord — galerie photo](projets/photo-roadtripnord-1.md)
+- [Rodec Conseil](organisations/rodec-conseil.md)
+- [Rodec Conseil — travaux](projets/rodec-conseil-travaux.md)
+- [Royal Onyx Insurance](organisations/royal-onyx-insurance.md)
+- [Royal Onyx Insurance — travaux](projets/royal-onyx-insurance-travaux.md)
+- [Rue Joss et H3riQ — logos](projets/logos-rue-joss-h3riq.md)
+- [Salatiel — visuels](projets/salatiel.md)
+- [Setalmaa](organisations/setalmaa.md)
+- [Setalmaa — travaux](projets/setalmaa-travaux.md)
+- [Shakazz](organisations/shakazz.md)
+- [Shevolution — galerie photo](projets/photo-shevolution.md)
+- [Simo Alves Entertainment](organisations/simo-alves-entertainment.md)
+- [Simo Alves Entertainment — travaux](projets/simo-alves-entertainment-travaux.md)
+- [Singleton (Diageo)](organisations/singleton-diageo.md)
+- [Singleton (Diageo) — travaux](projets/singleton-diageo-travaux.md)
+- [Sky Motors](organisations/sky-motors.md)
+- [Sky Motors — travaux](projets/sky-motors-travaux.md)
+- [Skyvue Solutions](organisations/skyvue-solutions.md)
+- [Skyvue Solutions — travaux](projets/skyvue-solutions-travaux.md)
+- [SoFaVinC](organisations/sofavinc.md)
+- [Sons of the Lions](projets/sons-of-the-lions.md)
+- [Spark — agence de talents](projets/spark-agence-de-talents.md)
+- [Spawt](organisations/spawt.md)
+- [Stéphane Nounamo](personnes/stephane-nounamo.md)
+- [Stoneshed Asset Management](organisations/stoneshed-asset-management.md)
+- [Stoneshed Asset Management — travaux](projets/stoneshed-asset-management-travaux.md)
+- [Street Whale](projets/street-whale.md)
+- [Student Photographer (Stéphane Nounamo)](organisations/student-photographer-stephane-nounamo.md)
+- [Student Photographer (Stéphane Nounamo) — travaux](projets/student-photographer-stephane-nounamo-travaux.md)
+- [Stylisme — Mode africaine](projets/stylisme.md)
+- [Talk Paix (CFI)](organisations/talk-paix-cfi.md)
+- [Talk Paix (CFI) — travaux](projets/talk-paix-cfi-travaux.md)
+- [THC](organisations/thc.md)
+- [THC — travaux](projets/thc-travaux.md)
+- [The Battle of the Baddest](projets/battle-of-the-baddest.md)
+- [The BFF Club](organisations/the-bff-club.md)
+- [The Boyy](organisations/the-boyy.md)
+- [The Boyy — travaux](projets/the-boyy-travaux.md)
+- [The Burger Bar](organisations/the-burger-bar.md)
+- [The Burger Bar — travaux](projets/the-burger-bar-travaux.md)
+- [The Popcorn Man — Série éditoriale](projets/popcorn-man.md)
+- [Timing Agency](organisations/timing-agency.md)
+- [Timing Agency — travaux](projets/timing-agency-travaux.md)
+- [TJC](organisations/tjc.md)
+- [TJC — travaux](projets/tjc-travaux.md)
+- [ToukyCon](organisations/toukycon.md)
+- [ToukyCon — travaux](projets/toukycon-travaux.md)
+- [Tradex](organisations/tradex.md)
+- [Tradex 2T — « Moto no di fail »](projets/tradex.md)
+- [Tu tires je tiens](projets/tu-tires-je-tiens.md)
+- [U'TAM Complexe](organisations/u-tam-complexe.md)
+- [U'TAM Complexe — travaux](projets/u-tam-complexe-travaux.md)
+- [Umdeny Corp](organisations/umdeny-corp.md)
+- [Umdeny Corp — travaux](projets/umdeny-corp-travaux.md)
+- [UNESCO](organisations/unesco.md)
+- [UNESCO — travaux](projets/unesco-travaux.md)
+- [UPgraders — Identité d'agence](projets/upgraders-case.md)
+- [Vibe House](organisations/vibe-house.md)
+- [Vibe House — travaux](projets/vibe-house-travaux.md)
+- [Villa Corso](organisations/villa-corso.md)
+- [Villa Corso — Élevage Cane Corso](projets/villa-corso.md)
+- [Voilà Moi](organisations/voila-moi.md)
+- [Voilà Moi — travaux](projets/voila-moi-travaux.md)
+- [Whatever Maid Café et lectures](projets/whatever-maid-cafe.md)
+- [WMC](organisations/wmc.md)
+- [WMC — travaux](projets/wmc-travaux.md)
+- [Xcape Quest](organisations/xcape-quest.md)
+- [Xcape Quest — travaux](projets/xcape-quest-travaux.md)
+- [Xtincell — Marque personnelle](projets/xtincell-brand.md)
+- [Xtorm Senza Limiti](organisations/xtorm-senza-limiti.md)
+- [Xtorm Senza Limiti — travaux](projets/xtorm-senza-limiti-travaux.md)
+- [Zalimba](organisations/zalimba.md)
+- [Zalimba — travaux](projets/zalimba-travaux.md)
+
+## Avertissements du build
+
+- projets/compagnon-k9.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2020-12-26-concert-de-fin-d-annee-en-plein-air-classe-tayc-decembre.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-06-18-match-de-basket-amical-basuke.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-07-30-session-live-d-un-groupe-dans-un-bar-a-vinyles-noir-et-bl.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-08-04-visite-et-reportage-d-un-complexe-sportif-neuf.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-10-08-soiree-dj-quartier-mozart-et-ramen-afro.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-10-16-visite-guidee-de-douala-akwa-puis-atelier.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-10-28-seminaire-technique-a-l-akwa-palace-yves.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-11-19-exposition-portraits-d-artistes-et-de-visiteurs-devant-le.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-11-21-soiree-au-restaurant-du-florencia-hotel.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2021-12-10-vernissage-d-une-exposition-de-peinture-open-is-open.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2022-02-11-soiree-urban-blend-a-la-falaise.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2022-04-02-exposition-photo-avec-kreative-kwame.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2022-07-30-soiree-dj-dans-un-bar-a-fresques-graphiques.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2022-10-30-soiree-d-halloween-au-gaming-center-insomnia-red-bull.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2023-11-25-cosplay-land-237-concours-cosplay-en-exterieur.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2024-05-18-concert-nite-interviews-et-spectacle.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-2026-09-25-ceremonie-de-pose-de-la-premiere-pierre-vues-de-drone.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/evt-sans-date-concerts-a-canalolympia-exports-recus-et-portraits.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/logos-et-identites.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/ngannou-sports.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/omela.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/photo-lydol.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/photo-prenatalshotmarieclaire.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/photo-roadtripnord-1.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/photo-shevolution.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)
+- projets/photographie-de-mariage.md : pas de client (mettre « perso », « prive » ou un slug d'organisation)

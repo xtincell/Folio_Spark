@@ -89,6 +89,7 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
     ['/work', L('Projets', 'Work')],
     ['/galerie', L('Galerie', 'Gallery')],
     ['/cv', L('À propos / CV', 'About / Résumé')],
+    ['/wiki', L('Wiki — tous les projets', 'Wiki — every project (FR)')],
     ['/#carnet', L('Carnet personnel', 'Personal notebook')],
     ['/design', 'Design folio · EN'],
     ['/tech', L('Outils & expériences', 'Tools & experiments')],

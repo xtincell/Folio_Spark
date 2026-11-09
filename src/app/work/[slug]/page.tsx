@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { CASE_STUDIES, getCase, type CaseStudy } from '@/components/folio/data/cases';
 import { CaseStudyClient, type CaseLite } from './CaseStudyClient';
+import { wikiForCase } from '@/lib/wiki';
 
 /** Projection légère d'une case pour la nav prev/next et les cas liés. */
 const lite = (c: CaseStudy): CaseLite => ({
@@ -80,7 +81,13 @@ export default async function CaseStudyPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
-      <CaseStudyClient caseStudy={c} prev={prev} next={next} related={related} />
+      <CaseStudyClient
+        caseStudy={c}
+        prev={prev}
+        next={next}
+        related={related}
+        wiki={wikiForCase(c.slug)}
+      />
     </>
   );
 }
