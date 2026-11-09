@@ -38,7 +38,7 @@ const PARCOURS: TLEntry[] = [
     when: '2017 — …',
     org: { fr: 'UPgraders · Co-fondateur', en: 'UPgraders · Co-founder' },
     rolePrefix: { fr: 'Creative Group Head — ', en: 'Creative Group Head — ' },
-    roleEm: { fr: 'CEO depuis 2023', en: 'CEO since 2023' },
+    roleEm: { fr: 'CEO', en: 'CEO' },
     desc: {
       fr: "Direction du programme Shinkiro, qui articule méthode ADVE, outils métier et exécution. Conception de La Barre : poste de travail du directeur de la création, revue par pièce, décisions versionnées et suivi des retours. Conseil et production pour les marques d’Afrique centrale.",
       en: 'Leading Shinkiro, connecting the ADVE method, professional tools and execution. Conceiving La Barre: a creative director’s workspace for asset review, versioned decisions and feedback tracking. Consulting and production for Central-African brands.',
@@ -46,15 +46,26 @@ const PARCOURS: TLEntry[] = [
     tags: ['Strategy', 'Product design', 'Shinkiro'],
   },
   {
-    when: '2023 — …',
+    when: '2020 — …',
     org: { fr: 'Friends Photography Studio · Douala', en: 'Friends Photography Studio · Douala' },
     rolePrefix: { fr: 'Responsable ', en: 'Head of ' },
     roleEm: { fr: "du développement d'activité", en: 'business development' },
     desc: {
-      fr: "Pilotage commercial et créatif du studio : direction artistique, partenariats, prises de vue corporate et événementielles.",
-      en: 'Commercial and creative steering of the studio: art direction, partnerships, corporate and event shoots.',
+      fr: "Studio co-animé avec le photographe Stéphane Nounamo depuis 2020. Pilotage commercial et créatif : direction artistique, partenariats, prises de vue corporate et événementielles.",
+      en: 'Studio co-run with photographer Stéphane Nounamo since 2020. Commercial and creative steering: art direction, partnerships, corporate and event shoots.',
     },
     tags: ['Photo', 'Studio', 'Business dev'],
+  },
+  {
+    when: '2025 — 2026',
+    org: { fr: 'Orange Cameroun — via McCann', en: 'Orange Cameroon — via McCann' },
+    rolePrefix: { fr: "Couverture d'événements — ", en: 'Event coverage — ' },
+    roleEm: { fr: 'Friends Photography Studio', en: 'Friends Photography Studio' },
+    desc: {
+      fr: "Avec Stéphane Nounamo. Couverture photo et vidéo d'événements de l'opérateur télécom.",
+      en: "With Stéphane Nounamo. Photo and video coverage of the telecom operator's events.",
+    },
+    tags: ['Photo', 'Telco', 'Agency'],
   },
   {
     when: '2021 — 2023',
@@ -79,7 +90,7 @@ const PARCOURS: TLEntry[] = [
     tags: ['DA', 'Photo', 'Motion'],
   },
   {
-    when: '2016 — 2022',
+    when: '2021 — 2022',
     org: { fr: 'Universal Music Africa · freelance', en: 'Universal Music Africa · freelance' },
     rolePrefix: { fr: 'Direction artistique & ', en: 'Art direction & ' },
     roleEm: { fr: "image d'artistes", en: 'artist imagery' },
@@ -90,8 +101,8 @@ const PARCOURS: TLEntry[] = [
     tags: ['Music DA', 'Photo', 'Campaign'],
   },
   {
-    when: '2014 — 2020',
-    org: { fr: 'Chococam (Tiger Brands) · freelance', en: 'Chococam (Tiger Brands) · freelance' },
+    when: '2020 — 2023',
+    org: { fr: 'Chococam (Tiger Brands) · via Bimstr puis UPgraders', en: 'Chococam (Tiger Brands) · via Bimstr then UPgraders' },
     rolePrefix: { fr: 'Production & ', en: 'Production & ' },
     roleEm: { fr: 'image de marque', en: 'brand imagery' },
     roleSuffix: { fr: ' — multi-références', en: ' — multi-reference' },
@@ -102,20 +113,9 @@ const PARCOURS: TLEntry[] = [
     tags: ['FMCG', 'Photo produit', 'Campaign'],
   },
   {
-    when: '2013 — 2018',
-    org: { fr: 'Orange — via McCann', en: 'Orange — via McCann' },
-    rolePrefix: { fr: 'Photographie campagnes — ', en: 'Campaign photography — ' },
-    roleEm: { fr: 'binôme Friends Photography', en: 'Friends Photography duo' },
-    desc: {
-      fr: "Avec Stéphane Nounamo. Direction photo de campagnes locales et régionales pour l'opérateur télécom.",
-      en: 'With Stéphane Nounamo. Photo direction for local and regional campaigns for the telecom operator.',
-    },
-    tags: ['Photo', 'Telco', 'Agency'],
-  },
-  {
     when: '2018',
     org: { fr: 'Studio Graphique 44 · Will & Brothers', en: 'Studio Graphique 44 · Will & Brothers' },
-    rolePrefix: { fr: 'Creative Business Consultant + ', en: 'Creative Business Consultant + ' },
+    rolePrefix: { fr: 'Brand Strategist + ', en: 'Brand Strategist + ' },
     roleEm: { fr: 'Business Developer', en: 'Business Developer' },
     desc: {
       fr: "Implémentation Studio44 (identité graphique, plan comptable, templates juridiques). Chez W&B : prospection, visuels de communication, contenus vidéo.",
@@ -126,18 +126,18 @@ const PARCOURS: TLEntry[] = [
   {
     when: '2011 — 2016',
     org: { fr: 'Freelance · Graphiste / Webdesigner', en: 'Freelance · Graphic / Web designer' },
-    rolePrefix: { fr: 'Activité ', en: 'Main ' },
-    roleEm: { fr: 'principale', en: 'activity' },
+    rolePrefix: { fr: 'Graphiste & ', en: 'Graphic & ' },
+    roleEm: { fr: 'webdesigner indépendant', en: 'freelance web designer' },
     desc: {
-      fr: "Approche associant culture, diversité et standards internationaux, dans des délais serrés. Cinq ans pour consolider les trois pratiques avant l'agence.",
-      en: 'An approach blending culture, diversity and international standards, on tight deadlines. Five years to consolidate the three practices before the agency.',
+      fr: "Graphisme et webdesign en indépendant, pendant les études puis à côté d'un poste d'agent conseiller technique en centre d'appels (Intelcia, compte SFR). Blog Geek de brousse, premières vidéos YouTube. À l'été 2016 : Lead Designer chez Sellkako.",
+      en: 'Freelance graphic and web design, during studies and then alongside a technical support agent role in a call centre (Intelcia, SFR account). Geek de brousse blog, first YouTube videos. Summer 2016: Lead Designer at Sellkako.',
     },
     tags: ['DA', 'Web', 'Freelance'],
   },
   {
     when: '2008 — 2013',
     org: { fr: 'Iftic-Sup · Yaoundé', en: 'Iftic-Sup · Yaoundé' },
-    rolePrefix: { fr: 'Ingénieur des Travaux — ', en: 'Works Engineer — ' },
+    rolePrefix: { fr: 'Études — ', en: 'Studies — ' },
     roleEm: { fr: 'télécommunications & réseaux', en: 'telecommunications & networks' },
     desc: {
       fr: "Formation initiale qui informe encore aujourd'hui ma manière de modéliser une marque comme un système d'information. Bac D — Sciences (Collège Saint-Michel, 2008).",
@@ -157,16 +157,16 @@ const SKILLS: SkillBlock[] = [
     rows: [
       { label: { fr: 'Brand systems', en: 'Brand systems' }, meta: yrs('15') },
       { label: { fr: 'Méthode ADVE/RTIS', en: 'ADVE/RTIS method' }, meta: { fr: 'propriétaire', en: 'proprietary' } },
-      { label: { fr: 'Go-to-market FMCG / DTC', en: 'Go-to-market FMCG / DTC' }, meta: yrs('12') },
+      { label: { fr: 'Go-to-market FMCG / DTC', en: 'Go-to-market FMCG / DTC' }, meta: yrs('6') },
       { label: { fr: 'Storytelling éditorial', en: 'Editorial storytelling' }, meta: yrs('8') },
     ],
   },
   {
     title: { fr: 'Direction artistique', en: 'Art direction' },
     rows: [
-      { label: { fr: 'Direction photo & vidéo', en: 'Photo & video direction' }, meta: yrs('15') },
+      { label: { fr: 'Direction photo & vidéo', en: 'Photo & video direction' }, meta: yrs('7') },
       { label: { fr: 'Identités visuelles', en: 'Visual identities' }, meta: yrs('15') },
-      { label: { fr: "Direction d'image (musique)", en: 'Image direction (music)' }, meta: yrs('9') },
+      { label: { fr: "Direction d'image (musique)", en: 'Image direction (music)' }, meta: yrs('7') },
       { label: { fr: 'Scenography & events', en: 'Scenography & events' }, meta: yrs('6') },
     ],
   },
