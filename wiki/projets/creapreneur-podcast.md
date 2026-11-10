@@ -7,9 +7,9 @@ debut: 2018
 fin: 2021
 client: "perso"
 liens: [{"label": "Archives (Apple Podcasts)", "url": "https://podcasts.apple.com/us/podcast/creapreneur/id1440424290"}, {"label": "Pilote « Creapreneur et CODB » (Spotify)", "url": "https://open.spotify.com/episode/532RaByYUPr4hyNGwNlm33"}, {"label": "Internet Archive", "url": "https://archive.org/details/podcast_crea-preneur_1440424290"}, {"label": "Player FM", "url": "https://player.fm/series/creapreneur"}]
-sources: ["folio:press.ts", "creapreneur-podcast", "digressions", "temoignage-2026-11-09"]
+sources: ["folio:press.ts", "creapreneur-podcast", "youtube-x-tincell", "digressions", "temoignage-2026-11-09"]
 etat: "standard"
-verifier: ["Le 6e épisode de la saison V.2 (« Droit d’auteur ») est daté du 21 octobre 2021 sur Apple Podcasts, alors que les archives datent du 2 août 2022 un atelier « Créapreneur V2, épisode 6 : droit d’auteur ». Dates de tournage et de publication à concilier.", "Vidéos publiées sur YouTube : liste et dates à relever."]
+verifier: ["L’épisode 6 de la saison V.2 (« Droit d’auteur ») paraît sur YouTube le 13 octobre 2021, alors que les archives datent du 2 août 2022 un atelier « Créapreneur V2, épisode 6 : droit d’auteur ». Dates de prise de vue à vérifier.", "L’EP09 de la saison V.2 n’est pas visible sur YouTube."]
 ---
 # Créapreneur (podcast)
 
@@ -36,9 +36,9 @@ Podcast présenté par Xtincell sur l'entrepreneuriat créatif en Afrique franco
 
 ## Historique
 
-Le podcast s’ouvre sur un épisode pilote, « Creapreneur et CODB », consacré au coût de fonctionnement d’une activité créative. Apple Podcasts compte 19 épisodes, de 2018 à 2021. La saison V.2 paraît en 2021 : un épisode court (12 août), un hors-série « Afrotaku : Les Noirs dans les Manga » (5 septembre), puis six épisodes datés du 21 octobre 2021 sur le statut et l’administratif, les clients, le coût et la facturation, le déroulement d’un projet, le droit d’auteur et l’organisation personnelle. Alexandre s’y présente comme « Brand Designer » et voix off de l’émission. _Source : [creapreneur-podcast](../sources.md#creapreneur-podcast)._
+Le podcast s’ouvre sur un épisode pilote, « Creapreneur et CODB », consacré au coût de fonctionnement d’une activité créative. Apple Podcasts compte 19 épisodes, de 2018 à 2021. La saison V.2 est diffusée en vidéo sur la [chaîne YouTube](youtube-xtincell.md) d’Alexandre, chaque semaine du 8 août au 21 novembre 2021, de l’épisode S02EP00 « Maestro Crush Test » à l’EP10 « Carrière & revenus alternatifs ». Elle traite du statut et de l’administratif, des clients, du coût et de la facturation, du déroulement d’un projet, du droit d’auteur et de l’organisation personnelle. Sur Apple Podcasts, la V.2 compte un épisode court (12 août), un hors-série « Afrotaku : Les Noirs dans les Manga » (5 septembre) et six épisodes mis en ligne d’un bloc le 21 octobre 2021. Alexandre s’y présente comme « Brand Designer » et voix off de l’émission. _Sources : [creapreneur-podcast](../sources.md#creapreneur-podcast), [youtube-x-tincell](../sources.md#youtube-x-tincell)._
 
-En 2022, la V.2 se prolonge par des ateliers en présentiel, comme l’[atelier sur le droit d’auteur](evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine.md) du 2 août 2022. Selon Alexandre, des épisodes sont aussi publiés en vidéo sur YouTube ; *Digressions* présente d’ailleurs Créapreneur comme sa chaîne YouTube. _Sources : [disques](../sources.md#disques), [digressions](../sources.md#digressions), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
+En 2022, la V.2 se prolonge par des ateliers en présentiel, comme l’[atelier sur le droit d’auteur](evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine.md) du 2 août 2022. *Digressions* présente d’ailleurs Créapreneur comme sa chaîne YouTube. _Sources : [disques](../sources.md#disques), [digressions](../sources.md#digressions), [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)._
 
 ## Galerie
 
@@ -56,6 +56,7 @@ En 2022, la V.2 se prolonge par des ateliers en présentiel, comme l’[atelier 
 
 - Folio — `src/components/folio/data/press.ts`
 - Podcast *Créapreneur* (Apple Podcasts, Spotify, Internet Archive) — voir [creapreneur-podcast](../sources.md#creapreneur-podcast)
+- Chaîne YouTube `@x-tincell`, relevée le 10 novembre 2026 — voir [youtube-x-tincell](../sources.md#youtube-x-tincell)
 - Podcast *Digressions* de C. Befoune (épisodes de 2021 et 2022) — voir [digressions](../sources.md#digressions)
 - Témoignage d’Alexandre Djengue, 9 novembre 2026 — voir [temoignage-2026-11-09](../sources.md#temoignage-2026-11-09)
 

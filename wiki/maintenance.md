@@ -335,6 +335,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [Cabinet Chrome — travaux](projets/cabinet-chrome-travaux.md) — 2021–2024
 - [CanalOlympia — programmation de fin d'année 2021](projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021.md) — 2021
 - [CanalOlympia (Canal+) — travaux](projets/canalolympia-canal-travaux.md) — 2021
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2021
 - [Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)](projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single.md) — 2021
 - [Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)](projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au.md) — 2021
 - [Concert dessiné (festival Mboa BD 2021)](projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021.md) — 2021
@@ -402,7 +403,6 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018
 - [BlackNote Web](projets/blacknote-web.md) — 2015
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
-- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
 - [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022

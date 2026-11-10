@@ -105,6 +105,14 @@ Mboa BD, page « [Japanimes](https://www.mboabd.org/japanimes/) » : association
 
 Témoignage d’Alexandre Djengue, 9 novembre 2026, au sujet des années 2010 : Sellkako, Intelcia et SFR, Geek de brousse, Mondoblog, William Elong et Will & Brothers, Créapreneur, Japanimes. Il y précise aussi le début de la collaboration avec Stéphane Nounamo après la pandémie de Covid-19, et cite des entretiens avec *Le blog du disrupteur* et Anne-Marie C. Befoune. Il le complète le même jour : poste d’agent conseiller technique chez Intelcia pour SFR ; vidéos Créapreneur sur YouTube ; participation aux premières Apéro Masterclass ; citation par le quotidien *Cameroon Tribune* parmi les étoiles montantes de la photographie en 2020 ; interview par Anne-Marie C. Befoune, dans *Elle Citoyenne* ou dans *Digressions* ; une autre publication, non précisée.
 
+### youtube-x-tincell
+
+Chaîne YouTube « Xtincell, Le Geek de Brousse » (`youtube.com/@x-tincell`), relevée le 10 novembre 2026 : active depuis le 2 mai 2021, 107 abonnés, 22 vidéos annoncées, dont 16 vidéos et 1 short visibles. La saison V.2 de Créapreneur y paraît chaque semaine, du S02EP00 « Maestro Crush Test » (8 août 2021) à l’EP10 « Carrière & revenus alternatifs » (21 novembre 2021), avec l’EP01 « Promesse et Plan » le 5 septembre 2021 et l’EP06 « Droit d’auteur » le 13 octobre 2021 ; l’EP09 n’est pas visible. Autres vidéos : « Vlog time : Eos Rp » (16 mai 2021), deux hors-séries micro (janvier et février 2022), « Charlotte Dipanda, Locko, Ful, Cysoul, Lydol, Mimie, Isabella, Skriim… 1 an de backstage exclusif » (24 juin 2022), « Hello dear… » (9 octobre 2022), « Aquannick — Opening 1 » (6 novembre 2024).
+
+### medium
+
+Blog Medium `xtincell.medium.com`, relevé le 10 novembre 2026 : dix billets visibles sans connexion, du 2 juillet 2020 au 13 mai 2025. Parmi eux : « Publiez quand même ! » (19 septembre 2020), « OneManAgency : Le Vidéaste » (18 novembre 2020), « Crise de la trentaine, Toxicité et dépendance. » (14 janvier 2021), « Milestone » (19 novembre 2021), « La longue nuit de l’âme » (22 février 2022), « L’Imposture de l’influence » (6 mars 2024), « Seul avec du monde autour » (13 avril 2025). Les trois autres titres et les billets antérieurs à 2020 restent à relever, avec un compte connecté.
+
 ### linkedin
 
 Profil LinkedIn `/in/dmalexandre`. Il n’a pas encore été consulté : sa lecture demande une connexion.

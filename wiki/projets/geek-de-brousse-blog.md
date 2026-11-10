@@ -48,5 +48,5 @@ En 2024, le nom est repris pour des [essais de podcast](podcast-geek-de-brousse.
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Chaîne YouTube Xtincell](youtube-xtincell.md) · [Mondoblog (blog moreblik)](mondoblog.md) · [Xtincell — Marque personnelle](xtincell-brand.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Mondoblog (blog moreblik)](mondoblog.md) · [Xtincell — Marque personnelle](xtincell-brand.md)
 <!-- /wiki:liens-entrants -->

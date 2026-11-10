@@ -22,15 +22,16 @@ Dans *Digressions*, [Anne-Marie C. Befoune](personnes/anne-marie-befoune.md) pr�
 
 | Période | Support | Titre |
 | --- | --- | --- |
-| Vers 2013 | YouTube | [Chaîne Xtincell](projets/youtube-xtincell.md), ouverte à 22 ans |
+| Vers 2013 | YouTube | Première chaîne, ouverte à 22 ans, non retrouvée |
 | Vers 2013 – 19 septembre 2020 | Blog WordPress | [Geek de brousse](projets/geek-de-brousse-blog.md) |
 | Mai 2016 | Mondoblog (RFI) | [Blog moreblik](projets/mondoblog.md) |
-| Depuis 2017 | Medium | Billets de blog (dont « Publiez quand même », 2020) |
+| 2 juillet 2020 – 13 mai 2025 | Medium | [Dix billets visibles](https://xtincell.medium.com) : « Publiez quand même ! » (19 septembre 2020), « OneManAgency : Le Vidéaste » (18 novembre 2020), « Crise de la trentaine, Toxicité et dépendance. » (14 janvier 2021), « Milestone » (19 novembre 2021), « La longue nuit de l’âme » (22 février 2022), « L’Imposture de l’influence » (6 mars 2024), « Seul avec du monde autour » (13 avril 2025)… |
+| Depuis le 2 mai 2021 | YouTube | [« Xtincell, Le Geek de Brousse »](projets/youtube-xtincell.md) : Créapreneur V.2, vlog, « 1 an de backstage exclusif » (2022) |
 | 2018 – 2021 | Podcast | [Créapreneur](projets/creapreneur-podcast.md), 19 épisodes, dont la saison V.2 (2021) |
 | 22 février 2023 | LinkedIn | Publication sur les [Apéro Masterclass](projets/apero-masterclass.md) (#aperomasterclass) |
 | En continu | Behance | Portfolio de direction artistique (design et photographie) |
 
-_Sources : [blog-disrupteur-2018](sources.md#blog-disrupteur-2018), [geekdebrousse](sources.md#geekdebrousse), [mondoblog-2016](sources.md#mondoblog-2016), [nkowa-2020](sources.md#nkowa-2020), [creapreneur-podcast](sources.md#creapreneur-podcast), [linkedin-apero-2023](sources.md#linkedin-apero-2023)._
+_Sources : [blog-disrupteur-2018](sources.md#blog-disrupteur-2018), [geekdebrousse](sources.md#geekdebrousse), [mondoblog-2016](sources.md#mondoblog-2016), [nkowa-2020](sources.md#nkowa-2020), [creapreneur-podcast](sources.md#creapreneur-podcast), [linkedin-apero-2023](sources.md#linkedin-apero-2023), [medium](sources.md#medium), [youtube-x-tincell](sources.md#youtube-x-tincell)._
 
 ## À retrouver
 

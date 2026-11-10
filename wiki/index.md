@@ -276,6 +276,7 @@
 - [Cabinet Chrome — travaux](projets/cabinet-chrome-travaux.md) — 2021–2024
 - [CanalOlympia — programmation de fin d'année 2021](projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021.md) — 2021
 - [CanalOlympia (Canal+) — travaux](projets/canalolympia-canal-travaux.md) — 2021
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2021
 - [Charlotte Dipanda — sortie de l'album et soirées The Singleton (mai-juin 2021)](projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single.md) — 2021
 - [Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)](projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au.md) — 2021
 - [Concert dessiné (festival Mboa BD 2021)](projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021.md) — 2021
@@ -344,7 +345,6 @@
 - [Groupe Cible (Cible RH) — travaux](projets/groupe-cible-cible-rh-travaux.md) — 2018
 - [BlackNote Web](projets/blacknote-web.md) — 2015
 - [Timing Agency — travaux](projets/timing-agency-travaux.md) — 2015–2023
-- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
 - [DOMAF — Conseil Camerounais de la Musique — travaux](projets/domaf-conseil-camerounais-de-la-musique-travaux.md) — 2013–2025
 - [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [EJARA — travaux](projets/ejara-travaux.md) — 2009–2022
@@ -787,7 +787,7 @@
 
 ### Vidéo (1)
 
-- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2021
 
 ## Par client
 
@@ -1462,13 +1462,13 @@
 - [Geek de brousse (podcast, tests)](projets/podcast-geek-de-brousse.md) — 2024
 - [Xtincell — Marque personnelle](projets/xtincell-brand.md) — 2024–2025
 - [Rue Joss et H3riQ — logos](projets/logos-rue-joss-h3riq.md) — 2022
+- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2021
 - [Couvertures « Vogue » (exercice, 2020)](projets/couvertures-vogue-2020.md) — 2020
 - [Kanbe — branding](projets/branding-kanbe.md) — 2020
 - [Le Passionné — logo](projets/logo-le-passionne.md) — 2020
 - [Créapreneur (podcast)](projets/creapreneur-podcast.md) — 2018–2021
 - [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016
 - [BlackNote Web](projets/blacknote-web.md) — 2015
-- [Chaîne YouTube Xtincell](projets/youtube-xtincell.md) — 2013
 - [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020
 - [Japanimes (association otaku)](projets/japanimes.md) — 2013
 - [AI Inktober](projets/ai-inktober.md)

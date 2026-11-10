@@ -2513,13 +2513,14 @@
       "sources": [
         "folio:press.ts",
         "creapreneur-podcast",
+        "youtube-x-tincell",
         "digressions",
         "temoignage-2026-11-09"
       ],
       "etat": "standard",
       "verifier": [
-        "Le 6e épisode de la saison V.2 (« Droit d’auteur ») est daté du 21 octobre 2021 sur Apple Podcasts, alors que les archives datent du 2 août 2022 un atelier « Créapreneur V2, épisode 6 : droit d’auteur ». Dates de tournage et de publication à concilier.",
-        "Vidéos publiées sur YouTube : liste et dates à relever."
+        "L’épisode 6 de la saison V.2 (« Droit d’auteur ») paraît sur YouTube le 13 octobre 2021, alors que les archives datent du 2 août 2022 un atelier « Créapreneur V2, épisode 6 : droit d’auteur ». Dates de prise de vue à vérifier.",
+        "L’EP09 de la saison V.2 n’est pas visible sur YouTube."
       ],
       "enfants": [
         "evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine"
@@ -15347,7 +15348,8 @@
       "sources": [
         "folio:practices.ts",
         "disques",
-        "facebook"
+        "facebook",
+        "youtube-x-tincell"
       ],
       "practice": "UNIVERSAL MUSIC AFRICA",
       "etat": "standard",
@@ -15913,19 +15915,20 @@
       "slug": "youtube-xtincell",
       "path": "wiki/projets/youtube-xtincell.md",
       "titre": "Chaîne YouTube Xtincell",
-      "resume": "La chaîne YouTube Xtincell est la chaîne vidéo personnelle d’Alexandre « Xtincell » Djengue. Il dit s’être mis à tester YouTube à 22 ans, soit vers 2013, à l’époque de son blog Geek de brousse.",
+      "resume": "La chaîne YouTube Xtincell, intitulée « Xtincell, Le Geek de Brousse » (@x-tincell), est la chaîne vidéo personnelle d’Alexandre « Xtincell » Djengue. Elle est active depuis le 2 mai 2021 et porte notamment la saison V.2 du podcast Créapreneur. Source : youtube-x-tincell.",
       "categorie": "video",
       "casquette": "execution",
-      "debut": 2013,
+      "debut": 2021,
       "client": "perso",
       "role": "Auteur, vidéaste",
       "liens": [
         {
           "label": "Chaîne YouTube",
-          "url": "https://www.youtube.com/xtincell"
+          "url": "https://www.youtube.com/@x-tincell"
         }
       ],
       "sources": [
+        "youtube-x-tincell",
         "blog-disrupteur-2018",
         "geekdebrousse",
         "digressions",
@@ -15933,8 +15936,8 @@
       ],
       "etat": "ebauche",
       "verifier": [
-        "Date d’ouverture déduite de l’âge donné par l’auteur (« J’avais 22 ans ») : vers 2013.",
-        "Liste des vidéos, dont celles de Créapreneur, et dates de publication à relever."
+        "Une chaîne antérieure, ouverte vers 2013 à l’époque de Geek de brousse (adresse `youtube.com/xtincell`), reste à identifier : existe-t-elle encore, sous quel nom ?",
+        "Cinq vidéos annoncées ne sont pas visibles, dont l’EP09 de Créapreneur V.2."
       ],
       "enfants": [],
       "image": null,
