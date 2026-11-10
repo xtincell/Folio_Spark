@@ -6,15 +6,19 @@ import Link from 'next/link';
 import { StudioShell, Arrow } from '@/components/studio/Studio';
 import { CONTACT } from '@/components/folio/data/contact';
 import { useLang } from '@/lib/i18n';
+import { SERVICES, servicePrice } from '@/components/folio/data/services';
+import { ServiceIllustration } from '@/components/folio/ServiceIllustration';
+import { PageIndex } from '@/components/studio/PageIndex';
 import s from '@/styles/collaborations.module.css';
 
-type Brief = { challenge: string; existing: string; team: string; timing: string };
-const emptyBrief: Brief = { challenge: '', existing: '', team: '', timing: '' };
+type Brief = { challenge: string; existing: string; team: string; timing: string; service: string; budget: string };
+const emptyBrief: Brief = { challenge: '', existing: '', team: '', timing: '', service: '', budget: '' };
 
 export function TarifsClient() {
   const { lang } = useLang();
   const L = (fr: string, en: string) => (lang === 'fr' ? fr : en);
   const [brief, setBrief] = useState<Brief>(emptyBrief);
+  const [currency, setCurrency] = useState<'fcfa' | 'eur'>('fcfa');
   const [prepared, setPrepared] = useState(false);
   const [invalidChallenge, setInvalidChallenge] = useState(false);
   const challengeRef = useRef<HTMLTextAreaElement>(null);
@@ -79,6 +83,8 @@ export function TarifsClient() {
   const draft = [
     L('Bonjour Alexandre,', 'Hello Alexandre,'),
     L('Je souhaite discuter d’une collaboration. Voici mon point de départ :', 'I would like to discuss a collaboration. Here is my starting point:'),
+    ...(brief.service ? [`${L('Prestation', 'Service')}\n${brief.service === 'equipe' ? L('Accompagnement d’équipe', 'Team support') : SERVICES.find(s => s.id === brief.service)?.name[lang] || brief.service}`] : []),
+    ...(brief.budget.trim() ? [`${L('Budget envisagé', 'Planned budget')}\n${brief.budget.trim()}`] : []),
     `${L('Enjeu', 'Challenge')}\n${brief.challenge.trim()}`,
     ...(brief.existing.trim() ? [`${L('Ce qui existe déjà', 'What already exists')}\n${brief.existing.trim()}`] : []),
     ...(brief.team.trim() ? [`${L('Équipe', 'Team')}\n${brief.team.trim()}`] : []),
@@ -109,20 +115,42 @@ export function TarifsClient() {
       <div className={s.page} lang={lang}>
         <header className={s.hero}>
           <div className={s.heroMeta}>
-            <span>{L('Collaborations', 'Collaborations')}</span>
+            <span>{L('Tarifs & prestations', 'Pricing & services')}</span>
             <span>Alexandre Djengue · Xtincell</span>
           </div>
           <div className={s.heroGrid}>
-            <h1>{L('Travailler', 'Working')}<br /><em>{L('ensemble.', 'together.')}</em></h1>
+            <h1>{L('Tarifs', 'Pricing')}<br /><em>{L('& prestations.', '& services.')}</em></h1>
             <div className={s.heroIntro}>
-              <p>{L('Vous avez un projet, une équipe ou une direction à éclaircir. Commençons par ce qui doit changer et ce qui existe déjà.', 'You have a project, a team or a direction to clarify. Let’s start with what needs to change and what already exists.')}</p>
-              <a href="#point-de-depart" className={s.primary}>{L('Poser le point de départ', 'Share a starting point')}<Arrow /></a>
-              <span className={s.smallNote}>{L('Le cadre se définit avant la production.', 'The scope comes before production.')}</span>
+              <p>{L('Conseil, direction artistique, images et outils. Des budgets de départ pour situer votre projet, avant un devis adapté.', 'Consulting, art direction, images and tools. Starting budgets to plan your project, followed by a tailored quote.')}</p>
+              <a href="#prestations" className={s.primary}>{L('Voir les tarifs', 'View pricing')}<Arrow /></a>
+              <span className={s.smallNote}>{L('Une mission précise. Un budget convenu avant de commencer.', 'A defined scope. An agreed budget before we begin.')}</span>
             </div>
           </div>
         </header>
-
-        <section className={s.interventions} aria-labelledby="interventions-heading">
+        <PageIndex items={[{id:'prestations',fr:'Tarifs',en:'Pricing'},{id:'interventions',fr:'Interventions',en:'Ways to work'},{id:'cadre',fr:'Le cadre',en:'The scope'},{id:'point-de-depart',fr:'Votre projet',en:'Your project'}]} />
+        <section className={s.pricing} id="prestations" aria-labelledby="pricing-heading">
+          <div className={s.pricingTop}>
+            <div><h2 id="pricing-heading">{L('Un point de départ, par besoin.', 'A starting point for each need.')}</h2><p>{L('Des formules essentielles pour commencer. Les projets plus complets se construisent sur devis.', 'Essential packages to get started. Larger projects receive a tailored quote.')}</p></div>
+            <div className={s.currency} role="group" aria-label={L('Devise d’affichage', 'Display currency')}>
+              <button type="button" aria-pressed={currency==='fcfa'} onClick={()=>setCurrency('fcfa')}>FCFA</button>
+              <button type="button" aria-pressed={currency==='eur'} onClick={()=>setCurrency('eur')}>EUR €</button>
+            </div>
+          </div>
+          <div className={s.serviceGrid}>
+            {SERVICES.map((service, index)=><article key={service.id} className={s.service} aria-labelledby={`service-${service.id}`}>
+              <ServiceIllustration id={service.id} lang={lang} />
+              <div className={s.serviceTitle}><span className={s.number}>{String(index+1).padStart(2,'0')}</span><h3 id={`service-${service.id}`}>{service.name[lang]}</h3></div>
+              <p className={s.serviceScope}>{service.scope[lang]}</p>
+              <p className={s.price}><span>{L('À partir de', 'From')}</span><strong>{servicePrice(service.fcfa,currency)}</strong><span>{service.unit[lang]}</span></p>
+              <div className={s.deliverables}><h4>{L('Inclus dans la formule d’entrée', 'Included in the entry package')}</h4><ul>{service.deliverables.map((item,i)=><li key={i}>{item[lang]}</li>)}</ul></div>
+              <div className={s.serviceQuote}><h4>{L('Pour aller plus loin', 'For a larger scope')}</h4><p>{service.quote[lang]}</p></div>
+              <a className={s.caseLink} href="#point-de-depart" onClick={()=>update('service',service.id)} aria-label={`${L('Discuter :', 'Discuss:')} ${service.name[lang]}`}>{L('Discuter du projet', 'Discuss your project')}<Arrow /></a>
+            </article>)}
+          </div>
+          <p className={s.currencyNote}>{L('Prix de base en FCFA ; équivalents EUR arrondis à l’euro. Le devis confirme le périmètre, le montant, les droits et les frais éventuels avant de commencer.', 'Base prices in FCFA; EUR equivalents rounded to the nearest euro. The quote confirms scope, amount, rights and any additional costs before work begins.')}</p>
+          <div className={s.recurring}><h3>{L('Un accompagnement régulier ?', 'Need ongoing support?')}</h3><p>{L('Conseil ou direction créative auprès d’une équipe. Nous définissons le rythme, le périmètre et le budget mensuel ensemble.', 'Consulting or creative direction alongside a team. We agree on the schedule, scope and monthly budget together.')}</p><a className={s.caseLink} href="#point-de-depart" onClick={()=>update('service','equipe')}>{L('Définir la mission', 'Define the engagement')}<Arrow /></a></div>
+        </section>
+        <section className={s.interventions} id="interventions" aria-labelledby="interventions-heading">
           <div className={s.sectionTop}>
             <h2 id="interventions-heading">{L('Là où je peux intervenir.', 'Where I can contribute.')}</h2>
             <p>{L('Trois points d’entrée, à adapter au projet.', 'Three starting points, shaped around the project.')}</p>
@@ -144,7 +172,7 @@ export function TarifsClient() {
           ))}
         </section>
 
-        <section className={s.agreement} aria-labelledby="agreement-heading">
+        <section className={s.agreement} id="cadre" aria-labelledby="agreement-heading">
           <div className={s.agreementLead}>
             <span className={s.eyebrow}>{L('Avant de commencer', 'Before we begin')}</span>
             <h2 id="agreement-heading">{L('Se mettre d’accord', 'Agree on')}<br /><em>{L('sur le travail.', 'the work.')}</em></h2>
@@ -169,6 +197,10 @@ export function TarifsClient() {
           </div>
           <div className={s.briefBody}>
             <form onSubmit={prepare}>
+              <div className={s.fieldPair}>
+                <div className={s.field}><label htmlFor="brief-service">{L('La prestation', 'The service')} <span>{L('facultatif', 'optional')}</span></label><select id="brief-service" name="service" value={brief.service} onChange={event=>update('service',event.target.value)}><option value="">{L('À préciser ensemble', 'Let’s define it together')}</option>{SERVICES.map(service=><option key={service.id} value={service.id}>{service.name[lang]}</option>)}<option value="equipe">{L('Accompagnement d’équipe', 'Team support')}</option></select></div>
+                <div className={s.field}><label htmlFor="brief-budget">{L('Le budget envisagé', 'Your planned budget')} <span>{L('facultatif', 'optional')}</span></label><input id="brief-budget" name="budget" value={brief.budget} onChange={event=>update('budget',event.target.value)} maxLength={100} placeholder={L('Montant et devise, ou à définir', 'Amount and currency, or to be defined')} /></div>
+              </div>
               <div className={s.field}>
                 <label htmlFor="brief-challenge">{L('01 / Quel est l’enjeu ?', '01 / What is the challenge?')} <span>{L('requis', 'required')}</span></label>
                 <p id="challenge-hint">{L('Le problème à résoudre, le public concerné ou la décision à prendre.', 'The problem to solve, the people concerned or the decision to make.')}</p>

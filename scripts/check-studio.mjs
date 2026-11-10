@@ -49,6 +49,9 @@ try {
       });
       const status = response?.status();
       if (path === '/work') {
+        // The default view is curated; also check the full index's assets.
+        await page.click('nav[aria-label="Choisir le parcours des projets"] button:nth-of-type(2)');
+        await page.waitForSelector('input[type="search"]');
         // Exercise the reference archive as an actual visitor would. Closed details
         // intentionally defer image loading and cannot validate their images.
         await page.evaluate(() => { const archive = document.querySelector('details'); if (archive) archive.open = true; });

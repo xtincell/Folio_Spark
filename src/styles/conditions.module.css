@@ -86,3 +86,7 @@
 .legalCta:hover { transform: translateY(-2px); filter: brightness(1.08); }
 
 .backLink { text-decoration: underline; text-underline-offset: 4px; }
+
+/* Conditions open with their content, using the same page rhythm. */
+.head { padding-top: 64px; }
+@media (max-width: 760px) { .head { padding-top: 40px; } }

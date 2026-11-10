@@ -2,6 +2,8 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // Keep the live preview independent of production verification.
+  ...(process.env.NODE_ENV === 'development' ? { distDir: '.next-dev' } : {}),
   // Opt-in (utilisé par le Dockerfile) : émet .next/standalone pour un runtime
   // conteneur minimal. Sans la variable, `next build` + `next start` restent
   // inchangés — les déploiements Nixpacks/npm existants ne sont pas affectés.

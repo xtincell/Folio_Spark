@@ -8,7 +8,6 @@ import Link from 'next/link';
 import styles from '@/styles/tech.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
-import { SparkMark } from '@/components/folio/icons/SparkMark';
 import { useLang, pick, type Bi } from '@/lib/i18n';
 
 /* ============================================================================
@@ -327,11 +326,7 @@ export function TechClient() {
 
   return (
     <div className={`${styles.folioRoot} ${pageStudio.root}`}>
-      <div className={styles.backdrop} aria-hidden="true">
-        <SparkMark outline animated={false} ariaHidden />
-      </div>
       <FolioTopbar active="tech" />
-      <PageIndex items={[{ id: 'approche', fr: 'Approche', en: 'Approach' }, { id: 'processus', fr: 'Questions', en: 'Questions' }, { id: 'projets', fr: 'Projets & statuts', en: 'Projects & status' }, { id: 'stack', fr: 'Outils', en: 'Tools' }, { id: 'offre', fr: 'Travailler ensemble', en: 'Working together' }]} />
 
       <main id="contenu" className={styles.page}>
         <section className={styles.head} id="profil">
@@ -375,6 +370,7 @@ export function TechClient() {
             <dd>{CONTACT.handle} · {lang === 'fr' ? 'partout' : 'everywhere'}</dd>
           </dl>
         </section>
+        <PageIndex items={[{ id: 'approche', fr: 'Approche', en: 'Approach' }, { id: 'processus', fr: 'Questions', en: 'Questions' }, { id: 'projets', fr: 'Projets & statuts', en: 'Projects & status' }, { id: 'stack', fr: 'Outils', en: 'Tools' }, { id: 'offre', fr: 'Travailler ensemble', en: 'Working together' }]} />
 
         {/* § 01 — Approach */}
         <section className={styles.section} id="approche">
