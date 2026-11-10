@@ -22,7 +22,9 @@ etat: "ebauche"
 
 ## Présentation
 
-_À documenter._
+SPAWT est une application de découverte culinaire (« où manger ») lancée à Abidjan en 2026. Sa mascotte est un chat calico tricolore. Avant le lancement, un quiz de personnalité culinaire, « La Meute », sert de jeu de lancement et de liste d’attente (`quiz.spawt.online`) ; le portail `spawt.online` est en ligne depuis septembre 2026. _Sources : [spawt-online](../sources.md#spawt-online), [disques](../sources.md#disques)._
+
+Alexandre en conçoit l’identité de marque et les contenus ([Spawt — La carte du bon goût](../projets/spawt.md)).
 
 ## Archives de travail
 

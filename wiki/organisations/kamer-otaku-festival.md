@@ -35,6 +35,10 @@ La première édition du festival, en 2022, est couverte en photographie. En 202
 
 Photographe de la 1ʳᵉ édition (2022), puis directeur artistique et de la communication à partir de 2023.
 
+## Clip-hymne (2026)
+
+Pour la direction artistique du clip-hymne du festival, Alexandre fixe en octobre 2026 un critère de validation : chaque élément (récit, costume, décor, adversaire) doit permettre à tous les otakus camerounais de s’y reconnaître et d’en être fiers ; le misérabilisme est exclu. _Source : [temoignage-2026-10-20](../sources.md#temoignage-2026-10-20)._
+
 ## Galerie
 
 <!-- wiki:galerie -->

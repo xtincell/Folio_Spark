@@ -8,7 +8,7 @@ fin: "en cours"
 client: "upgraders"
 repos: ["BrandForge","ADVERT-web","ADVERT_01","ADVERTIS_v01","AVERTIS_web_v01","ADVERTIS-Matanga","LaFusee_ADVE","ADVE-project","ADVE_v8"]
 liens: [{"label":"Application","url":"https://lafusee-app.vercel.app"}]
-sources: ["github:xtincell"]
+sources: ["github:xtincell", "imac-2026-11"]
 etat: "a-verifier"
 verifier: ["Rattachement de BrandForge (2025, privé, sans description) à la lignée La Fusée : hypothèse à confirmer.","Ordre et rôle exact de chaque version à confirmer."]
 ---
@@ -34,6 +34,12 @@ verifier: ["Rattachement de BrandForge (2025, privé, sans description) à la li
 
 Plateforme SaaS de stratégie de marque qui outille la méthode ADVE/RTIS : piliers de marque, Oracle, conseil de marque, campagnes et pilotage. Le produit a changé plusieurs fois de nom (ADVERT, ADVERTIS, La Fusée) au fil des versions.
 
+## Mission et fonctionnement
+
+Le dépôt présente La Fusée comme « l’Industry OS du marché créatif africain », construit par UPgraders. Sa mission : « transformer des marques en icônes culturelles, en industrialisant l’accumulation de superfans qui font basculer la fenêtre d’Overton dans leur secteur ». Le parcours visé : un brief client arrive en PDF, un diagnostic web tombe en quinze minutes, et la stratégie est écrite et les missions lancées sous 48 heures. _Source : [imac-2026-11](../sources.md#imac-2026-11)._
+
+Le logiciel suit les trois phases de la [méthode ADVE/RTIS](methode-adve-rtis.md) : un audit d’entrée (ADVE), un audit approfondi qui le recalibre (R et T), puis les recommandations (I et S). Son livrable principal, l’Oracle, est une présentation stratégique tenue à jour au fil de la relation avec la marque. _Source : [imac-2026-11](../sources.md#imac-2026-11)._
+
 ## Historique des versions
 
 | Dépôt | Créé | Dernière activité | Visibilité | Langage | Description |
@@ -55,6 +61,7 @@ Plateforme SaaS de stratégie de marque qui outille la méthode ADVE/RTIS : pili
 ## Sources
 
 - Métadonnées GitHub (`gh repo list xtincell`), relevé du 2026-11-09
+- Dépôts et dossiers de projets de l’iMac, relevé du 10 novembre 2026 — voir [imac-2026-11](../sources.md#imac-2026-11)
 
 <!-- wiki:liens-entrants -->
 ---

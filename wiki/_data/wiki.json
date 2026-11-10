@@ -833,7 +833,8 @@
         "Argos-studio"
       ],
       "sources": [
-        "github:xtincell"
+        "github:xtincell",
+        "imac-2026-11"
       ],
       "etat": "ebauche",
       "enfants": [],
@@ -2273,7 +2274,8 @@
         "CosmicMachine"
       ],
       "sources": [
-        "github:xtincell"
+        "github:xtincell",
+        "imac-2026-11"
       ],
       "etat": "ebauche",
       "enfants": [],
@@ -2761,6 +2763,28 @@
         "github:xtincell"
       ],
       "etat": "ebauche",
+      "enfants": [],
+      "image": null,
+      "galerie": []
+    },
+    {
+      "key": "projets/dawn-of-the-unchained",
+      "type": "projet",
+      "slug": "dawn-of-the-unchained",
+      "path": "wiki/projets/dawn-of-the-unchained.md",
+      "titre": "Dawn of the Unchained — nouvelle",
+      "resume": "Dawn of the Unchained est une nouvelle de fantasy en un seul volet (one-shot), écrite en français et signée « Alexandre \"Xtincell\" Djengue Mbangue ». Source : imac-2026-11.",
+      "categorie": "edition",
+      "casquette": "direction-artistique",
+      "client": "perso",
+      "role": "Auteur",
+      "sources": [
+        "imac-2026-11"
+      ],
+      "etat": "ebauche",
+      "verifier": [
+        "Date d’écriture absente du manuscrit."
+      ],
       "enfants": [],
       "image": null,
       "galerie": []
@@ -10536,7 +10560,8 @@
         }
       ],
       "sources": [
-        "github:xtincell"
+        "github:xtincell",
+        "imac-2026-11"
       ],
       "etat": "a-verifier",
       "verifier": [
@@ -12068,7 +12093,8 @@
         "neo-kinara"
       ],
       "sources": [
-        "github:xtincell"
+        "github:xtincell",
+        "imac-2026-11"
       ],
       "etat": "ebauche",
       "enfants": [],
@@ -15846,7 +15872,8 @@
         "folio:cases.spec.json",
         "blog-disrupteur-2018",
         "geekdebrousse",
-        "facebook"
+        "facebook",
+        "temoignage-logo"
       ],
       "etat": "ebauche",
       "enfants": [],
@@ -20426,7 +20453,7 @@
       "slug": "alexandre-djengue",
       "path": "wiki/personnes/alexandre-djengue.md",
       "titre": "Alexandre « Xtincell » Djengue",
-      "resume": "Alexandre Djengue, dit Xtincell, né en 1991 à Douala, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil UPgraders, qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence MATANGA, pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque ADVE/RTIS et la plateforme La Fusée.",
+      "resume": "Alexandre Djengue (de son nom complet Alexandre Djengue Mbangue), dit Xtincell, né en 1991 à Douala, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil UPgraders, qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence MATANGA, pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque ADVE/RTIS et la plateforme La Fusée.",
       "nom": "Alexandre « Xtincell » Djengue",
       "role": "Directeur créatif et artistique, photographe, stratège de marque",
       "naissance": 1991,

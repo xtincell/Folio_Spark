@@ -46,5 +46,5 @@ Méthode de stratégie de marque en huit piliers. ADVE (Authenticité, Distincti
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Indice de maturité créative ADVE](indice-maturite.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Indice de maturité créative ADVE](indice-maturite.md) · [La Fusée — Creative Industry OS](la-fusee.md)
 <!-- /wiki:liens-entrants -->
