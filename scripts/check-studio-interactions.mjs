@@ -25,6 +25,10 @@ try {
   await go('/work');
   await page.waitForFunction(() => document.documentElement.lang === 'en');
   assert.match(await page.$eval('h1', h => h.textContent), /The idea/);
+  await page.waitForSelector('section[aria-label="Selected work"]');
+  assert.equal(await page.$$eval('section[aria-label="Selected work"] a[href^="/work/"]', links => links.length), 5);
+  await page.click('nav[aria-label="Choose a way to explore"] button:nth-of-type(2)');
+  await page.waitForSelector('input[type="search"]');
   const total = await page.$eval('[role="status"]', el => Number.parseInt(el.textContent));
   await page.type('input[type="search"]', 'definitely-no-project-93489');
   await page.waitForFunction(() => document.querySelector('[role="status"]').textContent.startsWith('0 '));
@@ -34,7 +38,7 @@ try {
   await filters[1].click();
   await page.waitForFunction(total => Number.parseInt(document.querySelector('[role="status"]').textContent) < total, {}, total);
   assert.ok(await page.$eval('[role="status"]', el => Number.parseInt(el.textContent)) > 0);
-  console.log('PASS English persists, search empty state/reset and discipline filtering');
+  console.log('PASS English persists, selected work/full index, search reset and discipline filtering');
 
   await go('/work/friesland-campina');
   await page.waitForSelector('button[aria-label^="Enlarge"]');
@@ -61,10 +65,11 @@ try {
   console.log('PASS reduced-motion suppresses autoplay; manual video play/pause works');
 
   await go('/tarifs');
-  const fcfa = await page.evaluateHandle(() => [...document.querySelectorAll('button')].find(b => b.textContent.trim() === 'FCFA'));
-  await fcfa.asElement().click();
-  await page.waitForFunction(() => [...document.querySelectorAll('button')].some(b => b.textContent.trim() === 'FCFA' && b.getAttribute('aria-pressed') === 'true'));
-  console.log('PASS pricing currency selector');
+  await page.type('#brief-challenge', 'A campaign direction to clarify.');
+  await page.click('form button[type="submit"]');
+  await page.waitForSelector('#draft-heading');
+  assert.ok((await page.$eval('a[href^="https://wa.me/"][href*="text="]', link => link.href)).includes('A%20campaign%20direction%20to%20clarify.'));
+  console.log('PASS collaboration brief prepares a draft without sending it');
 
   await page.click('button[aria-label="Passer en français"]');
   await page.waitForFunction(() => document.documentElement.lang === 'fr');

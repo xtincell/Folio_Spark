@@ -50,7 +50,7 @@ export const FALLBACK_POSTS: BlogPost[] = [
     readingMinutes: 6,
     cover: {
       src: 'https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=1600&q=80',
-      alt: 'Étude stratégique sur table — méthodologie ADVE/RTIS',
+      alt: 'Photographie d’illustration pour l’article sur la méthode ADVE/RTIS',
     },
     author: ALEX,
     categories: [{ name: 'Méthode', slug: 'methode' }],
@@ -79,7 +79,7 @@ export const FALLBACK_POSTS: BlogPost[] = [
     readingMinutes: 5,
     cover: {
       src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80',
-      alt: 'Console software LaFusée — capture interface',
+      alt: 'Photographie d’illustration pour l’article sur LaFusée',
     },
     author: ALEX,
     categories: [{ name: 'Produit', slug: 'produit' }],
@@ -108,7 +108,7 @@ export const FALLBACK_POSTS: BlogPost[] = [
     readingMinutes: 7,
     cover: {
       src: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1600&q=80',
-      alt: 'Atelier de marque — workshop UPgraders',
+      alt: 'Photographie d’illustration pour l’article sur les marques',
     },
     author: ALEX,
     categories: [{ name: 'Stratégie', slug: 'strategie' }],
@@ -139,7 +139,7 @@ export const FALLBACK_POSTS: BlogPost[] = [
     readingMinutes: 4,
     cover: {
       src: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80',
-      alt: 'Réunion équipe créative — Guilde UPgraders',
+      alt: 'Photographie d’illustration pour l’article sur la Guilde',
     },
     author: ALEX,
     categories: [{ name: 'Coulisses', slug: 'coulisses' }],
@@ -166,7 +166,7 @@ export const FALLBACK_POSTS: BlogPost[] = [
     readingMinutes: 3,
     cover: {
       src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80',
-      alt: 'Notes d\'audit de marque sur carnet',
+      alt: 'Photographie d’illustration pour l’article sur l’audit de marque',
     },
     author: ALEX,
     categories: [{ name: 'Méthode', slug: 'methode' }],
@@ -193,7 +193,7 @@ export const FALLBACK_POSTS: BlogPost[] = [
     readingMinutes: 5,
     cover: {
       src: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80',
-      alt: 'Tableau de bord stratégique — roadmap dynamique',
+      alt: 'Photographie d’illustration pour l’article sur la roadmap',
     },
     author: ALEX,
     categories: [{ name: 'Stratégie', slug: 'strategie' }],

@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { LOCAL_GALLERY_COVERS } from '@/lib/gallery-assets';
 import { GALLERIES, galleryUrl } from '@/components/folio/data/galleries';
 import {
@@ -62,6 +62,17 @@ export function GalerieClient() {
   const categories = Array.from(
     new Set(GALLERIES.map((g) => g.category).filter(Boolean))
   ) as string[];
+  useEffect(() => {
+    const value = new URLSearchParams(window.location.search).get('categorie');
+    if (value && GALLERIES.some(g => g.category === value)) setCategory(value);
+  }, []);
+  function chooseCategory(value: string) {
+    setCategory(value);
+    const params = new URLSearchParams();
+    if (value !== 'all') params.set('categorie', value);
+    const search = params.toString();
+    window.history.replaceState(window.history.state, '', `/galerie${search ? `?${search}` : ''}`);
+  }
   const selectedCollections = [...GALLERIES].sort((a, b) => Number(!!LOCAL_GALLERY_COVERS[b.slug]) - Number(!!LOCAL_GALLERY_COVERS[a.slug]));
   const shown = category === 'all' ? selectedCollections : selectedCollections.filter(g => g.category === category);
   return (
@@ -105,7 +116,7 @@ export function GalerieClient() {
               type="button"
               key={cat}
               aria-pressed={category === cat}
-              onClick={() => setCategory(cat)}
+              onClick={() => chooseCategory(cat)}
             >
               {cat === 'all'
                 ? L('Tout voir', 'View all')

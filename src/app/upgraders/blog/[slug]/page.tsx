@@ -8,6 +8,7 @@ import { SiteFooter } from '@/components/folio/upgraders/SiteFooter';
 import { BlogCard } from '@/components/folio/upgraders/BlogCard';
 import { formatDate } from '@/components/folio/upgraders/format';
 import { getPost, getRelatedPosts, getAllPostSlugs } from '@/lib/wordpress';
+import { SITE_URL } from '@/lib/page-meta';
 
 type RouteParams = { slug: string };
 
@@ -74,7 +75,7 @@ export default async function BlogPostPage({
       />
       <SiteNav active="blog" />
 
-      <main id="contenu">
+      <main id="contenu" lang="fr">
       <article className={styles.pageHero}>
         <div className={styles.container}>
           <Link
@@ -122,7 +123,7 @@ export default async function BlogPostPage({
               </div>
             ) : null}
 
-            <ShareRow title={post.title} />
+            <ShareRow title={post.title} url={`${SITE_URL}/upgraders/blog/${post.slug}`} />
 
             <div className={styles.postNav}>
               <Link href="/upgraders/blog">← Tous les articles</Link>
@@ -157,8 +158,8 @@ export default async function BlogPostPage({
   );
 }
 
-function ShareRow({ title }: { title: string }) {
-  const text = encodeURIComponent(title);
+function ShareRow({ title, url }: { title: string; url: string }) {
+  const text = encodeURIComponent(`${title}\n${url}`);
   return (
     <div className={styles.postShare}>
       <span className={styles.postShareLabel}>Partager</span>
@@ -172,7 +173,7 @@ function ShareRow({ title }: { title: string }) {
       </a>
       <a
         className={styles.postShareLink}
-        href={`https://www.linkedin.com/sharing/share-offsite/?text=${text}`}
+        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`}
         target="_blank"
         rel="noreferrer"
       >

@@ -9,7 +9,6 @@ import styles from '@/styles/cv.module.css';
 import { CONTACT } from '@/components/folio/data/contact';
 import { FolioTopbar } from '@/components/folio/FolioTopbar';
 import { FlameMark } from '@/components/folio/FlameMark';
-import { SparkMark } from '@/components/folio/icons/SparkMark';
 import { useT, useLang, pick, type Bi } from '@/lib/i18n';
 
 type TLEntry = {
@@ -217,11 +216,7 @@ export function CvClient() {
 
   return (
     <div className={`${styles.folioRoot} ${pageStudio.root}`}>
-      <div className={styles.backdrop} aria-hidden="true">
-        <SparkMark outline animated={false} ariaHidden />
-      </div>
       <FolioTopbar active="cv" />
-      <PageIndex items={[{ id: 'profil', fr: 'Profil', en: 'Profile' }, { id: 'parcours', fr: 'Parcours', en: 'Experience' }, { id: 'competences', fr: 'Compétences', en: 'Skills' }, { id: 'references', fr: 'Références', en: 'References' }, { id: 'langues', fr: 'Langues', en: 'Languages' }]} />
 
       <main id="contenu" className={styles.page}>
         <section className={styles.cvHead} id="profil">
@@ -265,11 +260,12 @@ export function CvClient() {
               <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
             </dd>
             <dt>LinkedIn</dt>
-            <dd>{CONTACT.linkedinDisplay}</dd>
+            <dd><a href={CONTACT.linkedinLink} target="_blank" rel="noreferrer">{CONTACT.linkedinDisplay}</a></dd>
             <dt>{t.cv.igweb}</dt>
             <dd>{t.cv.igwebV}</dd>
           </dl>
         </section>
+        <PageIndex items={[{ id: 'profil', fr: 'Profil', en: 'Profile' }, { id: 'parcours', fr: 'Parcours', en: 'Experience' }, { id: 'competences', fr: 'Compétences', en: 'Skills' }, { id: 'references', fr: 'Références', en: 'References' }, { id: 'langues', fr: 'Langues', en: 'Languages' }]} />
 
         <section className={styles.section} id="approche">
           <div className={styles.sectionHead}>

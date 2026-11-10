@@ -200,3 +200,8 @@
 .step { background: var(--bg-2); border-color: var(--line); }
 .btn { min-height: 46px; letter-spacing: .08em; }
 @media(max-width:760px) { .shell { width: calc(100vw - 10vw); } .hero { padding-block: 40px; } .heroTitle { font-size: 13vw; } .section { padding-block: 40px; } }
+
+/* The position leads; its remit follows as a subtitle. */
+.heroTitle { font-size: clamp(44px, 5.4vw, 78px); }
+.heroTitle em { display: inline-block; font-size: .7em; max-width: 31ch; margin-top: 14px; line-height: 1.12; }
+@media (max-width: 760px) { .heroTitle { font-size: clamp(40px, 10.5vw, 64px); } .heroTitle em { font-size: .8em; } }
