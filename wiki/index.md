@@ -2,7 +2,7 @@
 
 # Index
 
-361 projets · 179 organisations · 7 personnes.
+362 projets · 179 organisations · 7 personnes.
 
 - [Par casquette](#par-casquette) · [Par catégorie](#par-catégorie) · [Par client](#par-client) · [Organisations](#organisations)
 
@@ -41,7 +41,7 @@
 - [Tu tires je tiens](projets/tu-tires-je-tiens.md)
 - [Whatever Maid Café et lectures](projets/whatever-maid-cafe.md)
 
-### Direction créative & artistique (76)
+### Direction créative & artistique (77)
 
 - [15B Stories](projets/15b-stories.md) — 2026–…
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
@@ -103,6 +103,7 @@
 - [Call the Ambulance](projets/call-the-ambulance.md)
 - [Compagnon K9 — chenil](projets/compagnon-k9.md)
 - [Darkling Stories](projets/darkling-stories.md)
+- [Dawn of the Unchained — nouvelle](projets/dawn-of-the-unchained.md)
 - [Diehls — travaux](projets/diehls-travaux.md)
 - [DJ EQ 1er — visuels](projets/dj-eq-1er.md)
 - [Expérimentations en IA générative](projets/experimentations-ia-generative.md)
@@ -441,13 +442,14 @@
 - [Photographie de mariage](projets/photographie-de-mariage.md)
 - [Portfolio photo personnel](projets/portfolio-photo-personnel.md)
 
-### Édition (6)
+### Édition (7)
 
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
 - [La Fusée — Blueprint](projets/la-fusee-blueprint.md) — 2026–…
 - [Mondoblog (blog moreblik)](projets/mondoblog.md) — 2016
 - [Geek de brousse (blog)](projets/geek-de-brousse-blog.md) — 2013–2020
 - [Darkling Stories](projets/darkling-stories.md)
+- [Dawn of the Unchained — nouvelle](projets/dawn-of-the-unchained.md)
 - [République de Mbengola](projets/republique-de-mbengola.md)
 
 ### Événement (104)
@@ -1437,7 +1439,7 @@
 
 - [Primo Ice — travaux](projets/primo-ice-travaux.md) — 2024
 
-### Projets personnels (57)
+### Projets personnels (58)
 
 - [15B Stories](projets/15b-stories.md) — 2026–…
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
@@ -1475,6 +1477,7 @@
 - [Call the Ambulance](projets/call-the-ambulance.md)
 - [Creative Next](projets/creative-next.md)
 - [Darkling Stories](projets/darkling-stories.md)
+- [Dawn of the Unchained — nouvelle](projets/dawn-of-the-unchained.md)
 - [Des routines, des rituels (audio reel)](projets/audio-reel-routines-rituels.md)
 - [DJ EQ 1er — visuels](projets/dj-eq-1er.md)
 - [Expérimentations en IA générative](projets/experimentations-ia-generative.md)

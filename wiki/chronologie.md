@@ -376,6 +376,7 @@ _Projets à dater — voir [maintenance](maintenance.md)._
 - [Creative Next](projets/creative-next.md) — perso · Stratégie · _hors folio_
 - [DJ EQ 1er — visuels](projets/dj-eq-1er.md) — perso · Direction créative & artistique · _hors folio_
 - [Darkling Stories](projets/darkling-stories.md) — perso · Direction créative & artistique · _hors folio_
+- [Dawn of the Unchained — nouvelle](projets/dawn-of-the-unchained.md) — perso · Direction créative & artistique · _hors folio_
 - [Des routines, des rituels (audio reel)](projets/audio-reel-routines-rituels.md) — perso · Exécution · _hors folio_
 - [Diehls — travaux](projets/diehls-travaux.md) — Diehls · Direction créative & artistique · _hors folio_
 - [Expérimentations en IA générative](projets/experimentations-ia-generative.md) — perso · Direction créative & artistique · _hors folio_

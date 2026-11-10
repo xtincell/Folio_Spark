@@ -26,6 +26,10 @@ etat: "standard"
 
 Service de facilitation médicale (voyage de soins). BanaHealth est ajoutée au profil Facebook d’Alexandre en juin 2017. Le CV de novembre 2020 la cite parmi les clients d’UPgraders, pour son identité de marque ; Alexandre la présente comme cliente dans son témoignage de 2018 ; il produit des contenus pour elle en 2022. Dans une lettre de recommandation datée du 28 novembre 2020, Marie Ngameni, fondatrice et CEO de BanaHealth, le décrit comme le consultant en design graphique de l’entreprise depuis trois ans : nouvelle identité de marque (logo, palette), refonte du site et des supports de campagne, modèles marketing (brochures, rapports). Les données du site ne la présentent qu’à travers un projet de 2025 ([confrontation des sources](../sources.md#confrontation-élément-par-élément)). _Sources : [facebook](../sources.md#facebook), [cv-2020](../sources.md#cv-2020), [blog-disrupteur-2018](../sources.md#blog-disrupteur-2018), [lettre-banahealth-2020](../sources.md#lettre-banahealth-2020), [cv-2023-05](../sources.md#cv-2023-05)._
 
+## Site internet (2026)
+
+En 2026, le site `banahealth.care`, jusque-là sous WordPress, est refondu en site statique (Astro) : les pages sont générées à la compilation, sans base de données ni code exécuté côté serveur, et les contenus sont rédigés en Markdown et versionnés. _Source : [imac-2026-11](../sources.md#imac-2026-11)._
+
 ## Archives de travail
 
 <!-- wiki:archives -->

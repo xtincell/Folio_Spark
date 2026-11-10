@@ -61,5 +61,5 @@ Une refonte implémentée, avec une revue par pièce et une navigation projet si
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Argos Studio](argos-studio.md)
 <!-- /wiki:liens-entrants -->

@@ -7,7 +7,7 @@ debut: 2026
 fin: "en cours"
 client: "perso"
 repos: ["CosmicMachine"]
-sources: ["github:xtincell"]
+sources: ["github:xtincell", "imac-2026-11"]
 etat: "ebauche"
 ---
 # Cosmic Machine
@@ -28,9 +28,12 @@ etat: "ebauche"
 
 ## Description
 
-Machine Creative Prototype
+Cosmic Machine est un studio de production publicitaire assisté par l’intelligence artificielle, qui couvre la chaîne brief → concept → texte → visuel → production. _Source : [imac-2026-11](../sources.md#imac-2026-11)._
 
-_À développer : objectif, utilisateurs, état, enseignements._
+- **Concept Engine** : à partir d’un brief (produit, cible, message, ton), il propose plusieurs angles créatifs complets — titre et accroche, insight, idée centrale, textes, direction artistique décrite, formats et variantes A/B.
+- **Modules de génération** : vidéo, shooting produit, visuels de marketplace et entraînement de personnage, via la plateforme Higgsfield. Ils consomment des crédits payants et ne se déclenchent que sur autorisation explicite d’Alexandre.
+
+_Source : [imac-2026-11](../sources.md#imac-2026-11)._
 
 ## Dépôt
 
@@ -41,6 +44,7 @@ _À développer : objectif, utilisateurs, état, enseignements._
 ## Sources
 
 - Métadonnées GitHub (`gh repo list xtincell`), relevé du 2026-11-09
+- Dépôts et dossiers de projets de l’iMac, relevé du 10 novembre 2026 — voir [imac-2026-11](../sources.md#imac-2026-11)
 
 <!-- wiki:liens-entrants -->
 <!-- /wiki:liens-entrants -->

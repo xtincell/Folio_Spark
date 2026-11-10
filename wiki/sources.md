@@ -113,6 +113,22 @@ Chaîne YouTube « Xtincell, Le Geek de Brousse » (`youtube.com/@x-tincell`), r
 
 Blog Medium `xtincell.medium.com`, relevé le 10 novembre 2026 : dix billets visibles sans connexion, du 2 juillet 2020 au 13 mai 2025. Parmi eux : « Publiez quand même ! » (19 septembre 2020), « OneManAgency : Le Vidéaste » (18 novembre 2020), « Crise de la trentaine, Toxicité et dépendance. » (14 janvier 2021), « Milestone » (19 novembre 2021), « La longue nuit de l’âme » (22 février 2022), « L’Imposture de l’influence » (6 mars 2024), « Seul avec du monde autour » (13 avril 2025). Les trois autres titres et les billets antérieurs à 2020 restent à relever, avec un compte connecté.
 
+### imac-2026-11
+
+Dépôts et dossiers de projets présents sur l’iMac d’Alexandre, lus le 10 novembre 2026 (ils ne figurent pas sur les disques de travail relevés le 9 novembre) : README du jeu *NEO-KINARA : Le Tambour des Égun* et notes de conception (juillet 2026) ; documentation `COSMICMACHINE.md` ; README du dépôt *Argos* (dossier `ARGOS-FINDER`, avec la passation « Argos Studio ») ; README du dépôt de La Fusée (`ADVE-project`) ; README du dépôt `banahealth.care` (refonte de 2026) ; manuscrit *Dawn of the Unchained — One-Shot*, signé « Alexandre "Xtincell" Djengue Mbangue ».
+
+### temoignage-logo
+
+Propos d’Alexandre Djengue sur la signification de son logo Spark, tenus en juillet 2023 et précisés en septembre 2026 (lecture « plan de Lorentz »), consignés dans les notes de travail du site.
+
+### temoignage-2026-10-20
+
+Consigne d’Alexandre Djengue du 20 octobre 2026 pour la direction artistique du clip-hymne du Kamer Otaku Festival : chaque élément doit permettre à tous les otakus camerounais de s’y reconnaître et d’en être fiers, sans misérabilisme.
+
+### spawt-online
+
+Sites publics de SPAWT, consultés le 10 novembre 2026 : `spawt.online` (portail) et `quiz.spawt.online` (quiz de lancement).
+
 ### linkedin
 
 Profil LinkedIn `/in/dmalexandre`. Il n’a pas encore été consulté : sa lecture demande une connexion.

@@ -7,7 +7,7 @@ debut: 2026
 fin: "en cours"
 client: "perso"
 repos: ["neo-kinara"]
-sources: ["github:xtincell"]
+sources: ["github:xtincell", "imac-2026-11"]
 etat: "ebauche"
 ---
 # NEO-KINARA : Le Tambour des Egun
@@ -30,9 +30,17 @@ etat: "ebauche"
 
 ## Description
 
-NEO-KINARA : Le Tambour des Egun — cRPG narratif rogue-lite
+*NEO-KINARA : Le Tambour des Égun* est un jeu de rôle narratif *rogue-lite* situé à Neo-Kinara, une mégalopole afrofuturiste où « la magie ancestrale d’Afrique centrale bat sous les néons de la haute technologie ». Chaque partie est contée en direct par un griot-maître du jeu, piloté par un modèle de langage, doté d’une mémoire persistante et d’un monde qui vit en coulisse. Devise du jeu : « Aucune bagarre obligatoire : la parole, la mémoire, la communauté et la justice sont tes vraies armes. » _Source : [imac-2026-11](../sources.md#imac-2026-11)._
 
-_À développer : objectif, utilisateurs, état, enseignements._
+## Système de jeu
+
+- **Structure** : chaque récit suit les quinze « battements » du modèle *Save the Cat*.
+- **Résolution** : le système « Ngoma », dérivé de *Daggerheart*, oppose deux dés à douze faces, les Ancêtres et le Tumulte.
+- **Valeurs** : quatre valeurs africaines (*ubuntu*, *sankofa*, *nommo*, *maat*) servent de voix intérieures, à la manière de *Disco Elysium*, et permettent d’éviter les affrontements ; la fin dépend de la valeur dominante.
+- **Texte libre** : le joueur tape ses actions, que le maître du jeu interprète.
+- **Mondes partagés** : un mode « Universe » réunit jusqu’à dix joueurs dans le même monde.
+
+Le jeu reprend un document d’univers antérieur (castes, classes, Plan astral, factions). Une version complète, jouable en terminal et dans un navigateur, est terminée le 3 juillet 2026. _Source : [imac-2026-11](../sources.md#imac-2026-11)._
 
 ## Dépôt
 
@@ -94,8 +102,9 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 ## Sources
 
 - Métadonnées GitHub (`gh repo list xtincell`), relevé du 2026-11-09
+- Dépôts et dossiers de projets de l’iMac, relevé du 10 novembre 2026 — voir [imac-2026-11](../sources.md#imac-2026-11)
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Dawn of the Unchained — nouvelle](dawn-of-the-unchained.md)
 <!-- /wiki:liens-entrants -->

@@ -2,9 +2,9 @@
 
 # Maintenance du wiki
 
-**Avancement** : 110/547 fiches au niveau « standard » ou « complet » (20 %).
+**Avancement** : 110/548 fiches au niveau « standard » ou « complet » (20 %).
 
-- [À vérifier](#à-vérifier) (51) · [Absents du folio](#absents-du-folio) (303) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (63) · [Ébauches](#ébauches) (386)
+- [À vérifier](#à-vérifier) (51) · [Absents du folio](#absents-du-folio) (304) · [Sans page dédiée](#sans-page-dédiée) (17) · [Sans date](#sans-date) (64) · [Ébauches](#ébauches) (387)
 
 ## À vérifier
 
@@ -147,7 +147,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [Tu tires je tiens](projets/tu-tires-je-tiens.md)
 - [Whatever Maid Café et lectures](projets/whatever-maid-cafe.md)
 
-### Direction créative & artistique (41)
+### Direction créative & artistique (42)
 
 - [15B Stories](projets/15b-stories.md) — 2026–…
 - [An Atlas of Recorded Sound](projets/atlas-of-recorded-sound.md) — 2026–…
@@ -175,6 +175,7 @@ Projets historisés ici mais sans page sur le site. Le folio doit à terme montr
 - [Call the Ambulance](projets/call-the-ambulance.md)
 - [Compagnon K9 — chenil](projets/compagnon-k9.md) · visuels disponibles
 - [Darkling Stories](projets/darkling-stories.md)
+- [Dawn of the Unchained — nouvelle](projets/dawn-of-the-unchained.md)
 - [Diehls — travaux](projets/diehls-travaux.md)
 - [DJ EQ 1er — visuels](projets/dj-eq-1er.md)
 - [Expérimentations en IA générative](projets/experimentations-ia-generative.md)
@@ -469,6 +470,7 @@ Projets cités dans la liste des pratiques de `/work`, sans page `/work/<slug>` 
 - [Compagnon K9 — chenil](projets/compagnon-k9.md)
 - [Creative Next](projets/creative-next.md)
 - [Darkling Stories](projets/darkling-stories.md)
+- [Dawn of the Unchained — nouvelle](projets/dawn-of-the-unchained.md)
 - [Diehls — travaux](projets/diehls-travaux.md)
 - [DJ EQ 1er — visuels](projets/dj-eq-1er.md)
 - [Concert gospel « Acts of Worship » (AOW)](projets/evt-sans-date-concert-gospel-acts-of-worship-aow.md)
@@ -628,6 +630,7 @@ Fiches créées automatiquement, à rédiger (contexte, rôle, démarche, résul
 - [Darkling Stories](projets/darkling-stories.md)
 - [Darkroom](projets/darkroom.md)
 - [DataCollector](projets/datacollector.md)
+- [Dawn of the Unchained — nouvelle](projets/dawn-of-the-unchained.md)
 - [Dclic Photography](organisations/dclic-photography.md)
 - [Dclic Photography — travaux](projets/dclic-photography-travaux.md)
 - [Dena Mwana 2021](organisations/dena-mwana-2021.md)

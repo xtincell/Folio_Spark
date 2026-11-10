@@ -32,7 +32,7 @@ etat: "standard"
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
-**Alexandre Djengue**, dit **Xtincell**, né en 1991 à Douala, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil [UPgraders](../organisations/upgraders.md), qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence [MATANGA](../organisations/matanga-agency.md), pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque [ADVE/RTIS](../projets/methode-adve-rtis.md) et la plateforme [La Fusée](../projets/la-fusee.md).
+**Alexandre Djengue** (de son nom complet Alexandre Djengue Mbangue), dit **Xtincell**, né en 1991 à Douala, est un directeur créatif et artistique, photographe et stratège de marque camerounais installé à Douala. Ingénieur en télécommunications de formation, il se fait d’abord connaître en ligne comme graphiste, blogueur et militant de la culture otaku. Il passe ensuite par l’agence Bimstr (2019–2021) et développe à partir de 2020 une activité de photographe avec Stéphane Nounamo. En 2017, il co-fonde le cabinet de conseil [UPgraders](../organisations/upgraders.md), qu’il dirige depuis 2022 ou 2023 selon ses CV. Depuis janvier 2025, il est Directeur Créatif & Artistique de l’agence [MATANGA](../organisations/matanga-agency.md), pour laquelle il conduit des campagnes de FrieslandCampina, d’Ecobank et du Groupe Cadyst. Il conçoit aussi ses propres outils, dont la méthode de stratégie de marque [ADVE/RTIS](../projets/methode-adve-rtis.md) et la plateforme [La Fusée](../projets/la-fusee.md).
 
 ## Biographie
 
@@ -110,6 +110,7 @@ L’ensemble des projets est classé par année dans la [chronologie](../chronol
 
 En marge de ses commandes, Alexandre Djengue mène des projets d’écriture, d’illustration et d’audio. On y compte :
 
+- la nouvelle de fantasy [Dawn of the Unchained](../projets/dawn-of-the-unchained.md), signée de son nom complet ;
 - le projet d’écriture [République de Mbengola](../projets/republique-de-mbengola.md), les projets [Forgemonde](../projets/forgemonde.md) et [Darkroom](../projets/darkroom.md), et l’histoire illustrée [Popcorn Man](../projets/popcorn-man.md) ;
 - l’agence de talents [Spark](../projets/spark-agence-de-talents.md) ;
 - le blog [Geek de brousse](../projets/geek-de-brousse-blog.md), décliné en 2024 en [essais de podcast](../projets/podcast-geek-de-brousse.md), et le podcast [Frontières de l’innovation](../projets/podcast-frontieres-de-l-innovation.md) (2021) ;
