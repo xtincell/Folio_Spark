@@ -16,6 +16,8 @@ etat: "standard"
 # Cadyst Grain — Mascotte « Maître Tondo »
 
 <!-- wiki:infobox -->
+![Cadyst Grain — Mascotte « Maître Tondo »](../../public/work/cases/cadyst-grain/hero.webp)
+
 | Cadyst Grain — Mascotte « Maître Tondo » | |
 | --- | --- |
 | Client | [Groupe Cadyst](../organisations/groupe-cadyst.md) |
@@ -33,6 +35,18 @@ etat: "standard"
 ## Contexte
 
 Character design d'une mascotte de marque (artisan boulanger) pour la farine Cadyst Grain : planche de turnaround avec études d'expressions, vues et poses de mains.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/cadyst-grain/01.webp"><img src="../../public/work/cases/cadyst-grain/01.webp" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-01.jpg"><img src="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-01.jpg" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-02.jpg"><img src="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-02.jpg" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-03.jpg"><img src="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-03.jpg" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-04.jpg"><img src="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-04.jpg" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-05.jpg"><img src="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-05.jpg" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-06.jpg"><img src="../../public/work/tier23/cadyst-grain-flours/cadyst-grain-flours-06.jpg" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

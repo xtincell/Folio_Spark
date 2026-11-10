@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Soirée d'Halloween dans un bar-studio
 
 <!-- wiki:infobox -->
+![Soirée d'Halloween dans un bar-studio](../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/01.webp)
+
 | Soirée d'Halloween dans un bar-studio | |
 | --- | --- |
 | Période | 30 octobre 2021 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : 30/10/2021 de 10 h à 21 h 30 : micro de studio, invités costumés, portraits sous lumières colorées, DJ devant les vinyles.
 - **Identification** : décor d'Halloween (citrouilles, toiles d'araignée) ; aucun nom lisible
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/02.webp" alt="Soirée d'Halloween dans un bar-studio" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/03.webp" alt="Soirée d'Halloween dans un bar-studio" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/04.webp" alt="Soirée d'Halloween dans un bar-studio" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/05.webp" alt="Soirée d'Halloween dans un bar-studio" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-10-30-soiree-d-halloween-dans-un-bar-studio/06.webp" alt="Soirée d'Halloween dans un bar-studio" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

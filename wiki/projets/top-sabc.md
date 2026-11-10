@@ -19,6 +19,8 @@ etat: "standard"
 # Top (SABC) — direction artistique & production
 
 <!-- wiki:infobox -->
+![Top (SABC) — direction artistique & production](../../public/work/top-brasseries/top-brasseries-01.jpg)
+
 | Top (SABC) — direction artistique & production | |
 | --- | --- |
 | Client | [Les Brasseries du Cameroun (SABC)](../organisations/brasseries-du-cameroun.md) |
@@ -42,6 +44,16 @@ Période de la « bataille des limonades » au Cameroun (Top vs Bubble Up vs Sp�
 ## Rôle
 
 Direction Artistique & Production. Repère d’origine : « 2020 — 2022 · Douala ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/top-brasseries/top-brasseries-02.jpg"><img src="../../public/work/top-brasseries/top-brasseries-02.jpg" alt="Top (SABC) — direction artistique & production" width="240"></a>
+<a href="../../public/work/top-brasseries/top-brasseries-03.jpg"><img src="../../public/work/top-brasseries/top-brasseries-03.jpg" alt="Top (SABC) — direction artistique & production" width="240"></a>
+<a href="../../public/work/top-brasseries/top-brasseries-04.webp"><img src="../../public/work/top-brasseries/top-brasseries-04.webp" alt="Top (SABC) — direction artistique & production" width="240"></a>
+<a href="../../public/work/top-brasseries/top-brasseries-05.jpg"><img src="../../public/work/top-brasseries/top-brasseries-05.jpg" alt="Top (SABC) — direction artistique & production" width="240"></a>
+<a href="../../public/work/top-brasseries/top-brasseries-06.jpg"><img src="../../public/work/top-brasseries/top-brasseries-06.jpg" alt="Top (SABC) — direction artistique & production" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

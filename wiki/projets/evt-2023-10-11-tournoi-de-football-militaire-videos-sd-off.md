@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Tournoi de football militaire (vidéos « SD OFF »)
 
 <!-- wiki:infobox -->
+![Tournoi de football militaire (vidéos « SD OFF »)](../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/01.webp)
+
 | Tournoi de football militaire (vidéos « SD OFF ») | |
 | --- | --- |
 | Période | 11 octobre 2023 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : 11/10/2023 : vidéos verticales de l'avant-match, défilé de la fanfare, présentation des équipes, match.
 - **Identification** : bâche « 33 Export » ; fanfare et pancartes militaires
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/02.webp" alt="Tournoi de football militaire (vidéos « SD OFF »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/03.webp" alt="Tournoi de football militaire (vidéos « SD OFF »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/04.webp" alt="Tournoi de football militaire (vidéos « SD OFF »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/05.webp" alt="Tournoi de football militaire (vidéos « SD OFF »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-10-11-tournoi-de-football-militaire-videos-sd-off/06.webp" alt="Tournoi de football militaire (vidéos « SD OFF »)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

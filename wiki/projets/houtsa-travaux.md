@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Houtsa — travaux
 
 <!-- wiki:infobox -->
+![Houtsa — travaux](../../public/medias-wiki/projets/houtsa-travaux/01.webp)
+
 | Houtsa — travaux | |
 | --- | --- |
 | Client | [Houtsa](../organisations/houtsa.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Houtsa](../organisations/houtsa.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/houtsa-travaux/02.webp"><img src="../../public/medias-wiki/projets/houtsa-travaux/02.webp" alt="Houtsa — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/houtsa-travaux/03.webp"><img src="../../public/medias-wiki/projets/houtsa-travaux/03.webp" alt="Houtsa — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/houtsa-travaux/04.webp"><img src="../../public/medias-wiki/projets/houtsa-travaux/04.webp" alt="Houtsa — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/houtsa-travaux/05.webp"><img src="../../public/medias-wiki/projets/houtsa-travaux/05.webp" alt="Houtsa — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/houtsa-travaux/06.webp"><img src="../../public/medias-wiki/projets/houtsa-travaux/06.webp" alt="Houtsa — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

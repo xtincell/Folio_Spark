@@ -9,6 +9,8 @@ etat: "ebauche"
 # Feuille d'Or
 
 <!-- wiki:infobox -->
+![Feuille d'Or](../../public/medias-wiki/projets/feuille-d-or-travaux/01.webp)
+
 | Feuille d'Or | |
 | --- | --- |
 | Nature | À préciser |

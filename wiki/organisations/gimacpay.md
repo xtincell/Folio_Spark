@@ -8,6 +8,8 @@ etat: "ebauche"
 # GimacPay
 
 <!-- wiki:infobox -->
+![GimacPay](../../public/work/historique/08-gimacpay-banking/08-gimacpay-banking-01.jpg)
+
 | GimacPay | |
 | --- | --- |
 | Nature | Paiement / banque |

@@ -16,6 +16,8 @@ etat: "standard"
 # Delys — Saint-Valentin
 
 <!-- wiki:infobox -->
+![Delys — Saint-Valentin](../../public/work/cases/delys/hero.webp)
+
 | Delys — Saint-Valentin | |
 | --- | --- |
 | Client | [Groupe Cadyst](../organisations/groupe-cadyst.md) |
@@ -33,6 +35,18 @@ etat: "standard"
 ## Contexte
 
 Visuel publicitaire Saint-Valentin pour la marque de snacks Delys : dîner romantique aux chandelles d'un couple, panier de produits Delys et doodles manuscrits « AMOUR / FOREVER ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/delys/01.webp"><img src="../../public/work/cases/delys/01.webp" alt="Delys — Saint-Valentin" width="240"></a>
+<a href="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-01.jpg"><img src="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-01.jpg" alt="Delys — Saint-Valentin" width="240"></a>
+<a href="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-02.jpg"><img src="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-02.jpg" alt="Delys — Saint-Valentin" width="240"></a>
+<a href="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-03.jpg"><img src="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-03.jpg" alt="Delys — Saint-Valentin" width="240"></a>
+<a href="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-04.jpg"><img src="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-04.jpg" alt="Delys — Saint-Valentin" width="240"></a>
+<a href="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-05.jpg"><img src="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-05.jpg" alt="Delys — Saint-Valentin" width="240"></a>
+<a href="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-06.jpg"><img src="../../public/work/tier23/cadyst-delys-barka-biscuits/cadyst-delys-barka-biscuits-06.jpg" alt="Delys — Saint-Valentin" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -8,6 +8,8 @@ etat: "standard"
 # Her Media
 
 <!-- wiki:infobox -->
+![Her Media](../../public/work/tier23/kemcare-haircare/kemcare-haircare-01.jpg)
+
 | Her Media | |
 | --- | --- |
 | Nature | Agence |
@@ -21,6 +23,12 @@ etat: "standard"
 ## Présentation
 
 Agence relais qui sous-traitait des prestations à Alexandre, souvent en marque blanche, pour ses clients (Moët & Chandon, Port Autonome de Kribi, Kemcare…).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/port-kribi-octobre-rose.md"><img src="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-01.jpg" alt="Port Autonome de Kribi — Octobre Rose" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

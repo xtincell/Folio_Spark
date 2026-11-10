@@ -15,6 +15,8 @@ etat: "ebauche"
 # UPgraders — Identité d'agence
 
 <!-- wiki:infobox -->
+![UPgraders — Identité d'agence](../../public/work/cases/upgraders-case/hero.webp)
+
 | UPgraders — Identité d'agence | |
 | --- | --- |
 | Client | [UPgraders](../organisations/upgraders.md) |
@@ -31,6 +33,18 @@ etat: "ebauche"
 ## Contexte
 
 Identité visuelle de l'agence UPgraders, métaphore de la propulsion (fusée), signature « La passion pour propulseur » : système de logo complet (icône, monogramme, lockups) et couverture projet.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/upgraders-case/01.webp"><img src="../../public/work/cases/upgraders-case/01.webp" alt="UPgraders — Identité d'agence" width="240"></a>
+<a href="../../public/work/cases/upgraders-case/02.webp"><img src="../../public/work/cases/upgraders-case/02.webp" alt="UPgraders — Identité d'agence" width="240"></a>
+<a href="../../public/work/cases/upgraders-case/03.webp"><img src="../../public/work/cases/upgraders-case/03.webp" alt="UPgraders — Identité d'agence" width="240"></a>
+<a href="../../public/work/cases/upgraders-case/04.webp"><img src="../../public/work/cases/upgraders-case/04.webp" alt="UPgraders — Identité d'agence" width="240"></a>
+<a href="../../public/work/cases/upgraders-case/05.webp"><img src="../../public/work/cases/upgraders-case/05.webp" alt="UPgraders — Identité d'agence" width="240"></a>
+<a href="../../public/work/cases/upgraders-case/06.webp"><img src="../../public/work/cases/upgraders-case/06.webp" alt="UPgraders — Identité d'agence" width="240"></a>
+<a href="../../public/work/cases/upgraders-case/07.webp"><img src="../../public/work/cases/upgraders-case/07.webp" alt="UPgraders — Identité d'agence" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

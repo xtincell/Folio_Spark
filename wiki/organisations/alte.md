@@ -9,6 +9,8 @@ etat: "ebauche"
 # Alte
 
 <!-- wiki:infobox -->
+![Alte](../../public/medias-wiki/projets/alte-travaux/01.webp)
+
 | Alte | |
 | --- | --- |
 | Nature | À préciser |

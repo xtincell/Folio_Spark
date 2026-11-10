@@ -9,6 +9,8 @@ etat: "ebauche"
 # UNESCO
 
 <!-- wiki:infobox -->
+![UNESCO](../../public/medias-wiki/projets/evt-2021-10-27-resiliart-cameroun-seance-de-selection-des-artistes-candi/01.webp)
+
 | UNESCO | |
 | --- | --- |
 | Nature | Organisation internationale |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/unesco-travaux.md"><img src="../../public/medias-wiki/projets/unesco-travaux/01.webp" alt="UNESCO — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

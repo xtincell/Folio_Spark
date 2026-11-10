@@ -9,6 +9,8 @@ etat: "ebauche"
 # Les Brasseries du Cameroun (SABC)
 
 <!-- wiki:infobox -->
+![Les Brasseries du Cameroun (SABC)](../../public/work/cases/brasseries-du-cameroun/hero.webp)
+
 | Les Brasseries du Cameroun (SABC) | |
 | --- | --- |
 | Nature | Brasseur / boissons |
@@ -27,6 +29,13 @@ _À documenter._
 ## Marques
 
 - Top
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/top-sabc.md"><img src="../../public/work/top-brasseries/top-brasseries-01.jpg" alt="Top (SABC) — direction artistique & production" width="240"></a>
+<a href="../projets/top-sabc.md"><img src="../../public/work/top-brasseries/top-brasseries-01.jpg" alt="Top (SABC) — direction artistique & production" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

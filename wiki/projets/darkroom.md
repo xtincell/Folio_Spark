@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Darkroom
 
 <!-- wiki:infobox -->
+![Darkroom](../../public/medias-wiki/projets/darkroom/01.webp)
+
 | Darkroom | |
 | --- | --- |
 | Client | Projet personnel |
@@ -28,6 +30,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/darkroom/02.webp"><img src="../../public/medias-wiki/projets/darkroom/02.webp" alt="Darkroom" width="240"></a>
+<a href="../../public/medias-wiki/projets/darkroom/03.webp"><img src="../../public/medias-wiki/projets/darkroom/03.webp" alt="Darkroom" width="240"></a>
+<a href="../../public/medias-wiki/projets/darkroom/04.webp"><img src="../../public/medias-wiki/projets/darkroom/04.webp" alt="Darkroom" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

@@ -15,6 +15,8 @@ etat: "standard"
 # Concert MTN en plein air (26/03/2023)
 
 <!-- wiki:infobox -->
+![Concert MTN en plein air (26/03/2023)](../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/01.webp)
+
 | Concert MTN en plein air (26/03/2023) | |
 | --- | --- |
 | Client | [MTN Cameroon](../organisations/mtn-cameroon.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Nuit du 25 au 26/03/2023 : têtes d'affiche sous lasers, danseuses, foule, puis vue de jour du site.
 - **Identification** : cubes et parasols MTN ; décor de scène jaune
 - **Fiabilité** : confirmé (marque)
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/02.webp" alt="Concert MTN en plein air (26/03/2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/03.webp" alt="Concert MTN en plein air (26/03/2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/04.webp" alt="Concert MTN en plein air (26/03/2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/05.webp" alt="Concert MTN en plein air (26/03/2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/06.webp" alt="Concert MTN en plein air (26/03/2023)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

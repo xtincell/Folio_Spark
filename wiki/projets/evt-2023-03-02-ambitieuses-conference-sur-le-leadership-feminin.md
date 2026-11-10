@@ -14,6 +14,8 @@ etat: "standard"
 # « Ambitieuses » — conférence sur le leadership féminin
 
 <!-- wiki:infobox -->
+![« Ambitieuses » — conférence sur le leadership féminin](../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/01.webp)
+
 | « Ambitieuses » — conférence sur le leadership féminin | |
 | --- | --- |
 | Client | [OmenKart](../organisations/omenkart.md) |
@@ -35,6 +37,16 @@ etat: "standard"
 - **Ce que montrent les images** : 02/03/2023 : keynote « My ambitions have led me to nice places », panels, atelier « Qu'est-ce qu'un bon leader ? », photos de groupe avec les certificats.
 - **Identification** : roll-ups « Omenkart » et « Ambitieuses — Comment … va changer demain »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/02.webp" alt="« Ambitieuses » — conférence sur le leadership féminin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/03.webp" alt="« Ambitieuses » — conférence sur le leadership féminin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/04.webp" alt="« Ambitieuses » — conférence sur le leadership féminin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/05.webp" alt="« Ambitieuses » — conférence sur le leadership féminin" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/06.webp" alt="« Ambitieuses » — conférence sur le leadership féminin" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

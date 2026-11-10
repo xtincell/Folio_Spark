@@ -9,6 +9,8 @@ etat: "ebauche"
 # Houtsa
 
 <!-- wiki:infobox -->
+![Houtsa](../../public/medias-wiki/projets/houtsa-travaux/01.webp)
+
 | Houtsa | |
 | --- | --- |
 | Nature | À préciser |

@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Babatunde — travaux
 
 <!-- wiki:infobox -->
+![Babatunde — travaux](../../public/medias-wiki/projets/babatunde-travaux/01.webp)
+
 | Babatunde — travaux | |
 | --- | --- |
 | Client | [Babatunde](../organisations/babatunde.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Babatunde](../organisations/babatunde.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/babatunde-travaux/02.webp"><img src="../../public/medias-wiki/projets/babatunde-travaux/02.webp" alt="Babatunde — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/babatunde-travaux/03.webp"><img src="../../public/medias-wiki/projets/babatunde-travaux/03.webp" alt="Babatunde — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/babatunde-travaux/04.webp"><img src="../../public/medias-wiki/projets/babatunde-travaux/04.webp" alt="Babatunde — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/babatunde-travaux/05.webp"><img src="../../public/medias-wiki/projets/babatunde-travaux/05.webp" alt="Babatunde — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/babatunde-travaux/06.webp"><img src="../../public/medias-wiki/projets/babatunde-travaux/06.webp" alt="Babatunde — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

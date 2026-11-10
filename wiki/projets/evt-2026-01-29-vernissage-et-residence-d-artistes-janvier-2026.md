@@ -16,6 +16,8 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 # Vernissage et résidence d'artistes (janvier 2026)
 
 <!-- wiki:infobox -->
+![Vernissage et résidence d'artistes (janvier 2026)](../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/01.webp)
+
 | Vernissage et résidence d'artistes (janvier 2026) | |
 | --- | --- |
 | Client | [IFC Douala](../organisations/ifc-douala.md) |
@@ -38,6 +40,16 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 - **Ce que montrent les images** : Vidéos des 29-30/01/2026 : dessin en direct au jardin, salles d'exposition (toiles, photos, roman « Ville cruelle » en vitrine, installation « Nassourou »), soirée de vernissage.
 - **Identification** : dates des fichiers ; dossier nommé « Vernissage janvier 2026 (déduit) »
 - **Fiabilité** : déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/02.webp"><img src="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/02.webp" alt="Vernissage et résidence d'artistes (janvier 2026)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/03.webp"><img src="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/03.webp" alt="Vernissage et résidence d'artistes (janvier 2026)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/04.webp"><img src="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/04.webp" alt="Vernissage et résidence d'artistes (janvier 2026)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/05.webp"><img src="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/05.webp" alt="Vernissage et résidence d'artistes (janvier 2026)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/06.webp"><img src="../../public/medias-wiki/projets/evt-2026-01-29-vernissage-et-residence-d-artistes-janvier-2026/06.webp" alt="Vernissage et résidence d'artistes (janvier 2026)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

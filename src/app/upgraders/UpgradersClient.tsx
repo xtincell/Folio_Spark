@@ -153,8 +153,8 @@ const DIRECTION: DirectionCard[] = [
       en: 'Strategist · Photographer · Filmmaker · Designer',
     },
     desc: {
-      fr: "Co-fondateur (2017), CEO depuis 2023. Direction générale et créative : pilote la méthode ADVE/RTIS, l'OS LaFusée, et la Guilde. Opère aussi en mission — l'image, le motion, la DA quand le brief le demande.",
-      en: 'Co-founder (2017), CEO since 2023. General and creative direction: steers the ADVE/RTIS method, the LaFusée OS, and the Guild. Also operates in the field — image, motion, art direction when the brief calls for it.',
+      fr: "Co-fondateur (2017), aujourd’hui CEO. Direction générale et créative : pilote la méthode ADVE/RTIS, l'OS LaFusée, et la Guilde. Opère aussi en mission — l'image, le motion, la DA quand le brief le demande.",
+      en: 'Co-founder (2017), now CEO. General and creative direction: steers the ADVE/RTIS method, the LaFusée OS, and the Guild. Also operates in the field — image, motion, art direction when the brief calls for it.',
     },
     img: '/portrait.jpg',
     imgAlt: {

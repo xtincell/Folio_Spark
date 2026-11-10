@@ -9,6 +9,8 @@ etat: "ebauche"
 # Groupe Bel
 
 <!-- wiki:infobox -->
+![Groupe Bel](../../public/work/cases/la-vache-qui-rit/hero.webp)
+
 | Groupe Bel | |
 | --- | --- |
 | Nature | Industrie fromagère |

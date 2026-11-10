@@ -15,6 +15,8 @@ etat: "standard"
 # K-mer Otaku Festival 2022
 
 <!-- wiki:infobox -->
+![K-mer Otaku Festival 2022](../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/01.webp)
+
 | K-mer Otaku Festival 2022 | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 06/08/2022 de 12 h 30 à 20 h : RAW de la journée du festival (même journée que le n° 19).
 - **Identification** : affiche « K-mer Otaku Festival — Gymnase Omnisport, Yaoundé — 6 août » (dossier KOF 2023) ; date des fichiers 06082022
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/02.webp" alt="K-mer Otaku Festival 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/03.webp" alt="K-mer Otaku Festival 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/04.webp" alt="K-mer Otaku Festival 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/05.webp" alt="K-mer Otaku Festival 2022" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/06.webp" alt="K-mer Otaku Festival 2022" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

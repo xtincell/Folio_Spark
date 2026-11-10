@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Captain Lion
 
 <!-- wiki:infobox -->
+![Captain Lion](../../public/medias-wiki/projets/captain-lion/01.webp)
+
 | Captain Lion | |
 | --- | --- |
 | Client | Projet personnel |
@@ -28,6 +30,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/captain-lion/02.webp"><img src="../../public/medias-wiki/projets/captain-lion/02.webp" alt="Captain Lion" width="240"></a>
+<a href="../../public/medias-wiki/projets/captain-lion/03.webp"><img src="../../public/medias-wiki/projets/captain-lion/03.webp" alt="Captain Lion" width="240"></a>
+<a href="../../public/medias-wiki/projets/captain-lion/04.webp"><img src="../../public/medias-wiki/projets/captain-lion/04.webp" alt="Captain Lion" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

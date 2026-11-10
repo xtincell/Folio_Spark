@@ -9,6 +9,8 @@ etat: "ebauche"
 # FrieslandCampina
 
 <!-- wiki:infobox -->
+![FrieslandCampina](../../public/work/cases/tcg-bonnet-rouge/hero.webp)
+
 | FrieslandCampina | |
 | --- | --- |
 | Nature | Industrie laitière |
@@ -28,6 +30,12 @@ _À documenter._
 
 - Peak
 - Bonnet Rouge
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/friesland-campina.md"><img src="../../public/work/cases/friesland-campina/hero.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

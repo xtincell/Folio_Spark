@@ -15,6 +15,8 @@ etat: "standard"
 # Meetup Somewhere — rencontre de photographes en bord de fleuve
 
 <!-- wiki:infobox -->
+![Meetup Somewhere — rencontre de photographes en bord de fleuve](../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/01.webp)
+
 | Meetup Somewhere — rencontre de photographes en bord de fleuve | |
 | --- | --- |
 | Client | [Meetup Somewhere](../organisations/meetup-somewhere.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 07/05/2022 après-midi : portraits croisés entre photographes, modèle en robe jaune, chapeaux, appareils et téléobjectifs.
 - **Identification** : dossier client « Meetup Somewhere » ; date du lot P: « Sortie au bord du fleuve » le même jour
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/02.webp" alt="Meetup Somewhere — rencontre de photographes en bord de fleuve" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/03.webp" alt="Meetup Somewhere — rencontre de photographes en bord de fleuve" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/04.webp" alt="Meetup Somewhere — rencontre de photographes en bord de fleuve" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/05.webp" alt="Meetup Somewhere — rencontre de photographes en bord de fleuve" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/06.webp" alt="Meetup Somewhere — rencontre de photographes en bord de fleuve" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

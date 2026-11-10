@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Des routines, des rituels (audio reel)
 
 <!-- wiki:infobox -->
+![Des routines, des rituels (audio reel)](../../public/medias-wiki/projets/audio-reel-routines-rituels/01.webp)
+
 | Des routines, des rituels (audio reel) | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/audio-reel-routines-rituels/02.webp"><img src="../../public/medias-wiki/projets/audio-reel-routines-rituels/02.webp" alt="Des routines, des rituels (audio reel)" width="240"></a>
+<a href="../../public/medias-wiki/projets/audio-reel-routines-rituels/03.webp"><img src="../../public/medias-wiki/projets/audio-reel-routines-rituels/03.webp" alt="Des routines, des rituels (audio reel)" width="240"></a>
+<a href="../../public/medias-wiki/projets/audio-reel-routines-rituels/04.webp"><img src="../../public/medias-wiki/projets/audio-reel-routines-rituels/04.webp" alt="Des routines, des rituels (audio reel)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

@@ -15,6 +15,8 @@ etat: "ebauche"
 # Frutas — Jus de fruits
 
 <!-- wiki:infobox -->
+![Frutas — Jus de fruits](../../public/work/cases/frutas/hero.webp)
+
 | Frutas — Jus de fruits | |
 | --- | --- |
 | Client | [Frutas](../organisations/frutas.md) |
@@ -31,6 +33,17 @@ etat: "ebauche"
 ## Contexte
 
 Campagne lifestyle pour le jus de fruits en brique Frutas (cocktail de fruits, orange) : jeunes Africains joyeux en rooftop au coucher du soleil et en bureau, palette vert vif et fruits.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/frutas/01.webp"><img src="../../public/work/cases/frutas/01.webp" alt="Frutas — Jus de fruits" width="240"></a>
+<a href="../../public/work/cases/frutas/02.webp"><img src="../../public/work/cases/frutas/02.webp" alt="Frutas — Jus de fruits" width="240"></a>
+<a href="../../public/work/cases/frutas/03.webp"><img src="../../public/work/cases/frutas/03.webp" alt="Frutas — Jus de fruits" width="240"></a>
+<a href="../../public/work/cases/frutas/04.webp"><img src="../../public/work/cases/frutas/04.webp" alt="Frutas — Jus de fruits" width="240"></a>
+<a href="../../public/work/cases/frutas/05.webp"><img src="../../public/work/cases/frutas/05.webp" alt="Frutas — Jus de fruits" width="240"></a>
+<a href="../../public/work/cases/frutas/06.webp"><img src="../../public/work/cases/frutas/06.webp" alt="Frutas — Jus de fruits" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

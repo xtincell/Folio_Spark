@@ -9,6 +9,8 @@ etat: "ebauche"
 # Mammy Watta
 
 <!-- wiki:infobox -->
+![Mammy Watta](../../public/medias-wiki/projets/mammy-watta-travaux/01.webp)
+
 | Mammy Watta | |
 | --- | --- |
 | Nature | À préciser |

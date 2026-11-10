@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Call the Ambulance
 
 <!-- wiki:infobox -->
+![Call the Ambulance](../../public/medias-wiki/projets/call-the-ambulance/01.webp)
+
 | Call the Ambulance | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,13 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/call-the-ambulance/02.webp"><img src="../../public/medias-wiki/projets/call-the-ambulance/02.webp" alt="Call the Ambulance" width="240"></a>
+<a href="../../public/medias-wiki/projets/call-the-ambulance/03.webp"><img src="../../public/medias-wiki/projets/call-the-ambulance/03.webp" alt="Call the Ambulance" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

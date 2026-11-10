@@ -16,6 +16,8 @@ etat: "ebauche"
 # NSIA Tontines — Campagne assurance
 
 <!-- wiki:infobox -->
+![NSIA Tontines — Campagne assurance](../../public/work/cases/nsia/hero.webp)
+
 | NSIA Tontines — Campagne assurance | |
 | --- | --- |
 | Client | [NSIA Assurances](../organisations/nsia-assurances.md) |
@@ -33,6 +35,15 @@ etat: "ebauche"
 ## Contexte
 
 Campagne OOH 4×3 (version anglaise) pour le produit d'épargne-assurance « NSIA Tontines », profils aspirationnels d'entrepreneurs avec CTA WhatsApp.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/nsia/01.webp"><img src="../../public/work/cases/nsia/01.webp" alt="NSIA Tontines — Campagne assurance" width="240"></a>
+<a href="../../public/work/cases/nsia/02.webp"><img src="../../public/work/cases/nsia/02.webp" alt="NSIA Tontines — Campagne assurance" width="240"></a>
+<a href="../../public/work/cases/nsia/03.webp"><img src="../../public/work/cases/nsia/03.webp" alt="NSIA Tontines — Campagne assurance" width="240"></a>
+<a href="../../public/work/cases/nsia/04.webp"><img src="../../public/work/cases/nsia/04.webp" alt="NSIA Tontines — Campagne assurance" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -15,6 +15,8 @@ etat: "standard"
 # K-mer Otaku Festival 2023
 
 <!-- wiki:infobox -->
+![K-mer Otaku Festival 2023](../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/01.webp)
+
 | K-mer Otaku Festival 2023 | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -40,6 +42,16 @@ etat: "standard"
   - 05/08/2023 : vidéos de la journée.
 - **Identification** : logo KOF en filigrane ; noms de fichiers « kof2023ad-… »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/02.webp" alt="K-mer Otaku Festival 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/03.webp" alt="K-mer Otaku Festival 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/04.webp" alt="K-mer Otaku Festival 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/05.webp" alt="K-mer Otaku Festival 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/06.webp" alt="K-mer Otaku Festival 2023" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

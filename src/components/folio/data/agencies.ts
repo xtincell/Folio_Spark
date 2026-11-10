@@ -9,8 +9,8 @@ export type AgencyEntry = {
 const upgradersEntry: AgencyEntry = {
   kind: { fr: 'Mon agence', en: 'My agency' },
   desc: {
-    fr: "Cabinet de conseil &amp; stratégie créative que j'ai co-fondé en 2017 avec Ingrid Nya Ngatchou et Jean-Philippe Veigne. CEO depuis 2023, au passage de relais d'Ingrid.",
-    en: 'Creative consulting &amp; strategy firm I co-founded in 2017 with Ingrid Nya Ngatchou and Jean-Philippe Veigne. CEO since 2023, when Ingrid handed over the reins.',
+    fr: "Cabinet de conseil &amp; stratégie créative que j'ai co-fondé en 2017 avec Ingrid Nya Ngatchou et Jean-Philippe Veigne. Aujourd’hui CEO, après le passage de relais d'Ingrid.",
+    en: 'Creative consulting &amp; strategy firm I co-founded in 2017 with Ingrid Nya Ngatchou and Jean-Philippe Veigne. Now CEO, after Ingrid handed over the reins.',
   },
   link: '/upgraders',
 };

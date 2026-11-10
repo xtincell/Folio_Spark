@@ -9,6 +9,8 @@ etat: "ebauche"
 # Meetup Somewhere
 
 <!-- wiki:infobox -->
+![Meetup Somewhere](../../public/medias-wiki/projets/evt-2022-05-07-meetup-somewhere-rencontre-de-photographes-en-bord-de-fle/01.webp)
+
 | Meetup Somewhere | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/meetup-somewhere-travaux.md"><img src="../../public/medias-wiki/projets/meetup-somewhere-travaux/01.webp" alt="Meetup Somewhere — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

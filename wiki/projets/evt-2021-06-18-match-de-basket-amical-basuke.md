@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Match de basket amical (« Basuke »)
 
 <!-- wiki:infobox -->
+![Match de basket amical (« Basuke »)](../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/01.webp)
+
 | Match de basket amical (« Basuke ») | |
 | --- | --- |
 | Période | 18-22 juin 2021 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : 19/06/2021 au matin : échauffement, match, public assis le long des murs, photo de groupe des deux équipes.
 - **Identification** : date EXIF 19/06/2021 (le lot est daté du 25/06 par erreur) ; aucun logo de club lisible
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/02.webp" alt="Match de basket amical (« Basuke »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/03.webp" alt="Match de basket amical (« Basuke »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/04.webp" alt="Match de basket amical (« Basuke »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/05.webp" alt="Match de basket amical (« Basuke »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-06-18-match-de-basket-amical-basuke/06.webp" alt="Match de basket amical (« Basuke »)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Couvertures « Vogue » (exercice, 2020)
 
 <!-- wiki:infobox -->
+![Couvertures « Vogue » (exercice, 2020)](../../public/medias-wiki/projets/couvertures-vogue-2020/01.webp)
+
 | Couvertures « Vogue » (exercice, 2020) | |
 | --- | --- |
 | Client | Projet personnel |
@@ -28,6 +30,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/couvertures-vogue-2020/02.webp"><img src="../../public/medias-wiki/projets/couvertures-vogue-2020/02.webp" alt="Couvertures « Vogue » (exercice, 2020)" width="240"></a>
+<a href="../../public/medias-wiki/projets/couvertures-vogue-2020/03.webp"><img src="../../public/medias-wiki/projets/couvertures-vogue-2020/03.webp" alt="Couvertures « Vogue » (exercice, 2020)" width="240"></a>
+<a href="../../public/medias-wiki/projets/couvertures-vogue-2020/04.webp"><img src="../../public/medias-wiki/projets/couvertures-vogue-2020/04.webp" alt="Couvertures « Vogue » (exercice, 2020)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

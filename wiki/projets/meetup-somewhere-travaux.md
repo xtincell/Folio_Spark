@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Meetup Somewhere — travaux
 
 <!-- wiki:infobox -->
+![Meetup Somewhere — travaux](../../public/medias-wiki/projets/meetup-somewhere-travaux/01.webp)
+
 | Meetup Somewhere — travaux | |
 | --- | --- |
 | Client | [Meetup Somewhere](../organisations/meetup-somewhere.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Meetup Somewhere](../organisations/meetup-somewhere.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/meetup-somewhere-travaux/02.webp"><img src="../../public/medias-wiki/projets/meetup-somewhere-travaux/02.webp" alt="Meetup Somewhere — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/meetup-somewhere-travaux/03.webp"><img src="../../public/medias-wiki/projets/meetup-somewhere-travaux/03.webp" alt="Meetup Somewhere — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/meetup-somewhere-travaux/04.webp"><img src="../../public/medias-wiki/projets/meetup-somewhere-travaux/04.webp" alt="Meetup Somewhere — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/meetup-somewhere-travaux/05.webp"><img src="../../public/medias-wiki/projets/meetup-somewhere-travaux/05.webp" alt="Meetup Somewhere — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/meetup-somewhere-travaux/06.webp"><img src="../../public/medias-wiki/projets/meetup-somewhere-travaux/06.webp" alt="Meetup Somewhere — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

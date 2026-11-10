@@ -15,6 +15,8 @@ etat: "standard"
 # Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)
 
 <!-- wiki:infobox -->
+![Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)](../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/01.webp)
+
 | Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02) | |
 | --- | --- |
 | Client | [LOCKO](../organisations/locko.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 13/02 : maquillage, invités en tenues de soirée, rooftop de nuit ; 14/02 : Locko en tenue blanche et noire chante entre les tables avec une chanteuse en robe drapée.
 - **Identification** : enseigne « Rooftop Yaoundé » (12-13/02) ; les JPG livrés du 14/02/2022 (Locko) sont dans LOCKO\2022 sur C: — le 14/02 est rangé chez Locko
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/02.webp" alt="Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/03.webp" alt="Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/04.webp" alt="Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/05.webp" alt="Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/06.webp" alt="Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

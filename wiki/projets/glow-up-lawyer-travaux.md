@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Glow Up Lawyer — travaux
 
 <!-- wiki:infobox -->
+![Glow Up Lawyer — travaux](../../public/medias-wiki/projets/glow-up-lawyer-travaux/01.webp)
+
 | Glow Up Lawyer — travaux | |
 | --- | --- |
 | Client | [Glow Up Lawyer](../organisations/glow-up-lawyer.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Glow Up Lawyer](../organisations/glow-up-lawyer.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/glow-up-lawyer-travaux/02.webp"><img src="../../public/medias-wiki/projets/glow-up-lawyer-travaux/02.webp" alt="Glow Up Lawyer — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/glow-up-lawyer-travaux/03.webp"><img src="../../public/medias-wiki/projets/glow-up-lawyer-travaux/03.webp" alt="Glow Up Lawyer — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/glow-up-lawyer-travaux/04.webp"><img src="../../public/medias-wiki/projets/glow-up-lawyer-travaux/04.webp" alt="Glow Up Lawyer — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/glow-up-lawyer-travaux/05.webp"><img src="../../public/medias-wiki/projets/glow-up-lawyer-travaux/05.webp" alt="Glow Up Lawyer — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/glow-up-lawyer-travaux/06.webp"><img src="../../public/medias-wiki/projets/glow-up-lawyer-travaux/06.webp" alt="Glow Up Lawyer — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

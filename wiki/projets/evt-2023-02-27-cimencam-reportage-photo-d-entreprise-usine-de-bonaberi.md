@@ -15,6 +15,8 @@ etat: "standard"
 # Cimencam — reportage photo d'entreprise (usine de Bonabéri)
 
 <!-- wiki:infobox -->
+![Cimencam — reportage photo d'entreprise (usine de Bonabéri)](../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/01.webp)
+
 | Cimencam — reportage photo d'entreprise (usine de Bonabéri) | |
 | --- | --- |
 | Client | [Cimencam](../organisations/cimencam.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - Version livrée du reportage du n° 123 : portraits, silos, ensacheuse, usine de mortier, affiches de la politique santé-sécurité.
 - **Identification** : logos Cimencam sur les silos et les combinaisons
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/02.webp" alt="Cimencam — reportage photo d'entreprise (usine de Bonabéri)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/03.webp" alt="Cimencam — reportage photo d'entreprise (usine de Bonabéri)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/04.webp" alt="Cimencam — reportage photo d'entreprise (usine de Bonabéri)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/05.webp" alt="Cimencam — reportage photo d'entreprise (usine de Bonabéri)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/06.webp" alt="Cimencam — reportage photo d'entreprise (usine de Bonabéri)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

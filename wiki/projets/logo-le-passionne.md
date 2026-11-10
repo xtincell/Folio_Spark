@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Le Passionné — logo
 
 <!-- wiki:infobox -->
+![Le Passionné — logo](../../public/medias-wiki/projets/logo-le-passionne/01.webp)
+
 | Le Passionné — logo | |
 | --- | --- |
 | Client | Projet personnel |

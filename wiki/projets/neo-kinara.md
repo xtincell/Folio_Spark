@@ -13,6 +13,8 @@ etat: "ebauche"
 # NEO-KINARA : Le Tambour des Egun
 
 <!-- wiki:infobox -->
+![NEO-KINARA : Le Tambour des Egun](../../public/medias-wiki/projets/neo-kinara/01.webp)
+
 | NEO-KINARA : Le Tambour des Egun | |
 | --- | --- |
 | Client | Projet personnel |
@@ -37,6 +39,16 @@ _À développer : objectif, utilisateurs, état, enseignements._
 | Dépôt | Créé | Dernière activité | Visibilité | Langage | Description |
 | --- | --- | --- | --- | --- | --- |
 | neo-kinara | 2026-07-03 | 2026-10-07 | privé | Python | NEO-KINARA : Le Tambour des Egun — cRPG narratif rogue-lite |
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/neo-kinara/02.webp"><img src="../../public/medias-wiki/projets/neo-kinara/02.webp" alt="NEO-KINARA : Le Tambour des Egun" width="240"></a>
+<a href="../../public/medias-wiki/projets/neo-kinara/03.webp"><img src="../../public/medias-wiki/projets/neo-kinara/03.webp" alt="NEO-KINARA : Le Tambour des Egun" width="240"></a>
+<a href="../../public/medias-wiki/projets/neo-kinara/04.webp"><img src="../../public/medias-wiki/projets/neo-kinara/04.webp" alt="NEO-KINARA : Le Tambour des Egun" width="240"></a>
+<a href="../../public/medias-wiki/projets/neo-kinara/05.webp"><img src="../../public/medias-wiki/projets/neo-kinara/05.webp" alt="NEO-KINARA : Le Tambour des Egun" width="240"></a>
+<a href="../../public/medias-wiki/projets/neo-kinara/06.webp"><img src="../../public/medias-wiki/projets/neo-kinara/06.webp" alt="NEO-KINARA : Le Tambour des Egun" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

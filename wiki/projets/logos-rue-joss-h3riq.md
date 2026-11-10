@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Rue Joss et H3riQ — logos
 
 <!-- wiki:infobox -->
+![Rue Joss et H3riQ — logos](../../public/medias-wiki/projets/logos-rue-joss-h3riq/01.webp)
+
 | Rue Joss et H3riQ — logos | |
 | --- | --- |
 | Client | Projet personnel |
@@ -28,6 +30,13 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/logos-rue-joss-h3riq/02.webp"><img src="../../public/medias-wiki/projets/logos-rue-joss-h3riq/02.webp" alt="Rue Joss et H3riQ — logos" width="240"></a>
+<a href="../../public/medias-wiki/projets/logos-rue-joss-h3riq/03.webp"><img src="../../public/medias-wiki/projets/logos-rue-joss-h3riq/03.webp" alt="Rue Joss et H3riQ — logos" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

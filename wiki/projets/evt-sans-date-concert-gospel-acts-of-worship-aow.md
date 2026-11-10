@@ -14,6 +14,8 @@ etat: "standard"
 # Concert gospel « Acts of Worship » (AOW)
 
 <!-- wiki:infobox -->
+![Concert gospel « Acts of Worship » (AOW)](../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/01.webp)
+
 | Concert gospel « Acts of Worship » (AOW) | |
 | --- | --- |
 | Client | [Act of Worship (AOW)](../organisations/act-of-worship-aow.md) |
@@ -37,6 +39,16 @@ etat: "standard"
   - Images tirées de la vidéo : louange sous projecteurs, écran « Gloire à l'… », public en prière, invités au premier rang.
 - **Identification** : logo « AOW — Acts of Worship » sur scène ; l'événement existe (saison 12 au Palais des congrès de Yaoundé selon Camer.be) mais la date exacte n'est pas confirmée
 - **Fiabilité** : confirmé (événement) ; date exacte non confirmée / déduit pour la date
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/02.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/02.webp" alt="Concert gospel « Acts of Worship » (AOW)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/03.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/03.webp" alt="Concert gospel « Acts of Worship » (AOW)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/04.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/04.webp" alt="Concert gospel « Acts of Worship » (AOW)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/05.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/05.webp" alt="Concert gospel « Acts of Worship » (AOW)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/06.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/06.webp" alt="Concert gospel « Acts of Worship » (AOW)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

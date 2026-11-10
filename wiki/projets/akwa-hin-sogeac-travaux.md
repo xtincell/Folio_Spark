@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Akwa HIN (SOGEAC) — travaux
 
 <!-- wiki:infobox -->
+![Akwa HIN (SOGEAC) — travaux](../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/01.webp)
+
 | Akwa HIN (SOGEAC) — travaux | |
 | --- | --- |
 | Client | [Akwa HIN (SOGEAC)](../organisations/akwa-hin-sogeac.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Akwa HIN (SOGEAC)](../organisations/akwa-hin-sogeac.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/02.webp"><img src="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/02.webp" alt="Akwa HIN (SOGEAC) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/03.webp"><img src="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/03.webp" alt="Akwa HIN (SOGEAC) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/04.webp"><img src="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/04.webp" alt="Akwa HIN (SOGEAC) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/05.webp"><img src="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/05.webp" alt="Akwa HIN (SOGEAC) — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/06.webp"><img src="../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/06.webp" alt="Akwa HIN (SOGEAC) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

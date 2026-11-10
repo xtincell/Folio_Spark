@@ -9,6 +9,8 @@ etat: "ebauche"
 # Simo Alves Entertainment
 
 <!-- wiki:infobox -->
+![Simo Alves Entertainment](../../public/medias-wiki/projets/evt-2022-05-21-concert-africa-united/01.webp)
+
 | Simo Alves Entertainment | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/simo-alves-entertainment-travaux.md"><img src="../../public/medias-wiki/projets/simo-alves-entertainment-travaux/01.webp" alt="Simo Alves Entertainment — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

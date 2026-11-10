@@ -15,6 +15,8 @@ etat: "standard"
 # « Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)
 
 <!-- wiki:infobox -->
+![« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)](../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/01.webp)
+
 | « Les Apéro Masterclass photographiques » de Stéphane Nounamo (II) | |
 | --- | --- |
 | Client | [Student Photographer (Stéphane Nounamo)](../organisations/student-photographer-stephane-nounamo.md) |
@@ -23,7 +25,7 @@ etat: "standard"
 | Casquette | Exécution |
 | Catégorie | Événement |
 | Rôle | Couverture photo et vidéo |
-| Fait partie de | [Apéro Masterclass](apero-masterclass.md) |
+| Fait partie de | [Apéro Masterclass (masterclasses photo)](apero-masterclass.md) |
 | Folio | _pas encore sur le site_ |
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
@@ -38,6 +40,16 @@ etat: "standard"
 - **Identification** : néon « Friends Photography Studio » ; date identique à l'affiche « jeudi 22 décembre » (n° 36)
 - **Fiabilité** : confirmé
 
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/02.webp" alt="« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/03.webp" alt="« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/04.webp" alt="« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/05.webp" alt="« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/06.webp" alt="« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)" width="240"></a>
+<!-- /wiki:galerie -->
+
 ## Archives
 
 - `Student Photographer (Stéphane Nounamo)\2022\Masterclass II` (717 fichiers, disque P:)
@@ -47,4 +59,6 @@ etat: "standard"
 - Notes « Événements couverts » établies lors du rangement des disques (28/10/2026), à partir des images, des dates de prise de vue et des livrables
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Apéro Masterclass (masterclasses photo)](apero-masterclass.md)
 <!-- /wiki:liens-entrants -->

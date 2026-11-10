@@ -14,6 +14,8 @@ etat: "standard"
 # Shooting cosplay en studio (septembre 2021)
 
 <!-- wiki:infobox -->
+![Shooting cosplay en studio (septembre 2021)](../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/01.webp)
+
 | Shooting cosplay en studio (septembre 2021) | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -35,6 +37,16 @@ etat: "standard"
 - **Ce que montrent les images** : 30/09/2021 : portraits de cosplay, maquillage.
 - **Identification** : dossier KOF 2021
 - **Fiabilité** : confirmé (dossier)
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/02.webp" alt="Shooting cosplay en studio (septembre 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/03.webp" alt="Shooting cosplay en studio (septembre 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/04.webp" alt="Shooting cosplay en studio (septembre 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/05.webp" alt="Shooting cosplay en studio (septembre 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/06.webp" alt="Shooting cosplay en studio (septembre 2021)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

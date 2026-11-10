@@ -19,6 +19,8 @@ etat: "standard"
 # Kemcare — stratégie de marque & lancement
 
 <!-- wiki:infobox -->
+![Kemcare — stratégie de marque & lancement](../../public/work/tier23/kemcare-haircare/kemcare-haircare-01.jpg)
+
 | Kemcare — stratégie de marque & lancement | |
 | --- | --- |
 | Client | [Kemcare](../organisations/kemcare.md) |
@@ -41,6 +43,15 @@ Marque haircare 100% Cameroun pour cheveux crépus — « Preserve our HAIRITAGE
 ## Rôle
 
 Stratégie de marque & lancement. Repère d’origine : « depuis 2021 · Douala ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/tier23/kemcare-haircare/kemcare-haircare-02.jpg"><img src="../../public/work/tier23/kemcare-haircare/kemcare-haircare-02.jpg" alt="Kemcare — stratégie de marque & lancement" width="240"></a>
+<a href="../../public/work/tier23/kemcare-haircare/kemcare-haircare-03.jpg"><img src="../../public/work/tier23/kemcare-haircare/kemcare-haircare-03.jpg" alt="Kemcare — stratégie de marque & lancement" width="240"></a>
+<a href="../../public/work/tier23/kemcare-haircare/kemcare-haircare-04.jpg"><img src="../../public/work/tier23/kemcare-haircare/kemcare-haircare-04.jpg" alt="Kemcare — stratégie de marque & lancement" width="240"></a>
+<a href="../../public/work/tier23/kemcare-haircare/kemcare-haircare-05.jpg"><img src="../../public/work/tier23/kemcare-haircare/kemcare-haircare-05.jpg" alt="Kemcare — stratégie de marque & lancement" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

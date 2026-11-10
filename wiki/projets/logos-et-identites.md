@@ -11,6 +11,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # Logos et identités de marques
 
 <!-- wiki:infobox -->
+![Logos et identités de marques](../../public/work/historique/12-logos-marques/12-logos-marques-01.jpg)
+
 | Logos et identités de marques | |
 | --- | --- |
 | Casquette | Direction créative & artistique |
@@ -24,6 +26,16 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/historique/12-logos-marques/12-logos-marques-02.jpg"><img src="../../public/work/historique/12-logos-marques/12-logos-marques-02.jpg" alt="Logos et identités de marques" width="240"></a>
+<a href="../../public/work/historique/12-logos-marques/12-logos-marques-03.jpg"><img src="../../public/work/historique/12-logos-marques/12-logos-marques-03.jpg" alt="Logos et identités de marques" width="240"></a>
+<a href="../../public/work/historique/12-logos-marques/12-logos-marques-04.jpg"><img src="../../public/work/historique/12-logos-marques/12-logos-marques-04.jpg" alt="Logos et identités de marques" width="240"></a>
+<a href="../../public/work/historique/12-logos-marques/12-logos-marques-05.jpg"><img src="../../public/work/historique/12-logos-marques/12-logos-marques-05.jpg" alt="Logos et identités de marques" width="240"></a>
+<a href="../../public/work/historique/12-logos-marques/12-logos-marques-06.jpg"><img src="../../public/work/historique/12-logos-marques/12-logos-marques-06.jpg" alt="Logos et identités de marques" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

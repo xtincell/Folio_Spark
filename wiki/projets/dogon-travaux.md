@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Dogon — travaux
 
 <!-- wiki:infobox -->
+![Dogon — travaux](../../public/medias-wiki/projets/dogon-travaux/01.webp)
+
 | Dogon — travaux | |
 | --- | --- |
 | Client | [Dogon](../organisations/dogon.md) |
@@ -30,6 +32,12 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Dogon](../organisations/dogon.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/dogon-travaux/02.webp"><img src="../../public/medias-wiki/projets/dogon-travaux/02.webp" alt="Dogon — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

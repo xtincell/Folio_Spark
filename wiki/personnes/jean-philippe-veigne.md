@@ -8,6 +8,8 @@ etat: "ebauche"
 # Jean-Philippe Veigne
 
 <!-- wiki:infobox -->
+![Jean-Philippe Veigne](../../public/work/historique/01-upgraders-agency/01-upgraders-agency-01.jpg)
+
 | Jean-Philippe Veigne | |
 | --- | --- |
 | Rôle | Co-fondateur d'UPgraders |
@@ -26,5 +28,5 @@ etat: "ebauche"
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](alexandre-djengue.md) · [UPgraders](../organisations/upgraders.md)
+**Pages liées** : [UPgraders](../organisations/upgraders.md)
 <!-- /wiki:liens-entrants -->

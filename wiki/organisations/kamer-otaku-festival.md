@@ -3,30 +3,51 @@ type: "organisation"
 nom: "Kamer Otaku Festival (KOF)"
 nature: "Festival pop culture"
 relation: "client"
-role: "Directeur artistique (depuis la 2ᵉ édition)"
-etat: "ebauche"
+role: "Photographe (2022), puis directeur artistique et de la communication (depuis 2023)"
+debut: 2022
+etat: "a-verifier"
+verifier: ["En novembre 2026, Alexandre dit avoir assuré la direction artistique des cinq éditions ; les archives et le CV de mai 2023 placent la 1ʳᵉ édition (2022) en photographie et la direction artistique à partir de 2023."]
 ---
 # Kamer Otaku Festival (KOF)
 
 <!-- wiki:infobox -->
+![Kamer Otaku Festival (KOF)](../../public/medias-wiki/projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4/01.webp)
+
 | Kamer Otaku Festival (KOF) | |
 | --- | --- |
 | Nature | Festival pop culture |
 | Relation | Client |
-| Rôle d’Alexandre | Directeur artistique (depuis la 2ᵉ édition) |
+| Rôle d’Alexandre | Photographe (2022), puis directeur artistique et de la communication (depuis 2023) |
+| Période | 2022 |
 | Projets liés | 10 |
-| État de la fiche | Ébauche |
+| État de la fiche | À vérifier |
 <!-- /wiki:infobox -->
 
 **Kamer Otaku Festival (KOF)** (festival pop culture) est un client d’Alexandre « Xtincell » Djengue.
 
 ## Présentation
 
-_À documenter._
+Festival de pop culture (manga, cosplay, jeu vidéo, bande dessinée) organisé à Yaoundé depuis 2022.
+
+La première édition du festival, en 2022, est couverte en photographie. En 2023, Alexandre est directeur artistique et directeur de la communication du festival. Le CV de 2026 parle de photographie « depuis la 1ʳᵉ édition » et de direction artistique « depuis la 2ᵉ » : les deux versions concordent. _Sources : [disques](../sources.md#disques), [cv-2023-05](../sources.md#cv-2023-05)._
 
 ## Rôle d’Alexandre
 
-Directeur artistique (depuis la 2ᵉ édition)
+Photographe de la 1ʳᵉ édition (2022), puis directeur artistique et de la communication à partir de 2023.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/kof-festival.md"><img src="../../public/work/cases/kof-festival/hero.webp" alt="KOF — Kamer Otaku Festival" width="240"></a>
+<a href="../projets/evt-2024-08-03-k-mer-otaku-festival-2024.md"><img src="../../public/medias-wiki/projets/evt-2024-08-03-k-mer-otaku-festival-2024/01.webp" alt="K-mer Otaku Festival 2024" width="240"></a>
+<a href="../projets/evt-2023-08-05-k-mer-otaku-festival-2023.md"><img src="../../public/medias-wiki/projets/evt-2023-08-05-k-mer-otaku-festival-2023/01.webp" alt="K-mer Otaku Festival 2023" width="240"></a>
+<a href="../projets/evt-2022-08-06-k-mer-otaku-festival-2022.md"><img src="../../public/medias-wiki/projets/evt-2022-08-06-k-mer-otaku-festival-2022/01.webp" alt="K-mer Otaku Festival 2022" width="240"></a>
+<a href="../projets/kof-2022-2024.md"><img src="../../public/work/historique/05-kof-da-historique/05-kof-da-historique-01.jpg" alt="Kamer Otaku Festival — éditions 2022 à 2024" width="240"></a>
+<a href="../projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021.md"><img src="../../public/medias-wiki/projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021/01.webp" alt="Shooting cosplay en studio (septembre 2021)" width="240"></a>
+<a href="../projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021.md"><img src="../../public/medias-wiki/projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021/01.webp" alt="Shootings cosplay en studio (août 2021)" width="240"></a>
+<a href="../projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2.md"><img src="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/01.webp" alt="Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)" width="240"></a>
+<a href="../projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md"><img src="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/01.webp" alt="Kamer Otaku Festival — photos reçues (édition à dater)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 
@@ -96,7 +117,13 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 <!-- /wiki:projets -->
 
 
+## Sources
+
+- Archives de travail rangées sur les disques — voir [disques](../sources.md#disques)
+- CV « Dircom », 16 mai 2023 — voir [cv-2023-05](../sources.md#cv-2023-05)
+- Folio — `src/components/folio/data/practices.ts`, entrée « KOF — Kamer Otaku Festival »
+
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)](../projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2.md) · [K-mer Otaku Festival 2022](../projets/evt-2022-08-06-k-mer-otaku-festival-2022.md) · [K-mer Otaku Festival 2023](../projets/evt-2023-08-05-k-mer-otaku-festival-2023.md) · [K-mer Otaku Festival 2024](../projets/evt-2024-08-03-k-mer-otaku-festival-2024.md) · [K-mer Otaku Festival 2025 (KOF4)](../projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4.md) · [Kamer Otaku Festival — éditions 2022 à 2024](../projets/kof-2022-2024.md) · [Kamer Otaku Festival — photos reçues (édition à dater)](../projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md) · [KOF — Kamer Otaku Festival](../projets/kof-festival.md) · [Shooting cosplay en studio (septembre 2021)](../projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021.md) · [Shootings cosplay en studio (août 2021)](../projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)](../projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2.md) · [Japanimes (association otaku)](../projets/japanimes.md) · [K-mer Otaku Festival 2022](../projets/evt-2022-08-06-k-mer-otaku-festival-2022.md) · [K-mer Otaku Festival 2023](../projets/evt-2023-08-05-k-mer-otaku-festival-2023.md) · [K-mer Otaku Festival 2024](../projets/evt-2024-08-03-k-mer-otaku-festival-2024.md) · [K-mer Otaku Festival 2025 (KOF4)](../projets/evt-2025-08-02-k-mer-otaku-festival-2025-kof4.md) · [Kamer Otaku Festival — éditions 2022 à 2024](../projets/kof-2022-2024.md) · [Kamer Otaku Festival — photos reçues (édition à dater)](../projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater.md) · [KOF — Kamer Otaku Festival](../projets/kof-festival.md) · [Shooting cosplay en studio (septembre 2021)](../projets/evt-2021-09-30-shooting-cosplay-en-studio-septembre-2021.md) · [Shootings cosplay en studio (août 2021)](../projets/evt-2021-08-10-shootings-cosplay-en-studio-aout-2021.md)
 <!-- /wiki:liens-entrants -->

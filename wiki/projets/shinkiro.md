@@ -13,6 +13,8 @@ etat: "standard"
 # Shinkiro
 
 <!-- wiki:infobox -->
+![Shinkiro](../../public/medias-wiki/projets/shinkiro/01.webp)
+
 | Shinkiro | |
 | --- | --- |
 | Client | [UPgraders](../organisations/upgraders.md) |
@@ -36,6 +38,16 @@ Programme porté par UPgraders qui unifie méthode (ADVE), entreprise, exécutio
 | Dépôt | Créé | Dernière activité | Visibilité | Langage | Description |
 | --- | --- | --- | --- | --- | --- |
 | [shinkiro](https://github.com/xtincell/shinkiro) | 2026-09-14 | 2026-10-20 | public | HTML | Shinkiro — le programme qui unifie méthode, entreprise, exécution et outils. Index et doctrine. |
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/shinkiro/02.webp"><img src="../../public/medias-wiki/projets/shinkiro/02.webp" alt="Shinkiro" width="240"></a>
+<a href="../../public/medias-wiki/projets/shinkiro/03.webp"><img src="../../public/medias-wiki/projets/shinkiro/03.webp" alt="Shinkiro" width="240"></a>
+<a href="../../public/medias-wiki/projets/shinkiro/04.webp"><img src="../../public/medias-wiki/projets/shinkiro/04.webp" alt="Shinkiro" width="240"></a>
+<a href="../../public/medias-wiki/projets/shinkiro/05.webp"><img src="../../public/medias-wiki/projets/shinkiro/05.webp" alt="Shinkiro" width="240"></a>
+<a href="../../public/medias-wiki/projets/shinkiro/06.webp"><img src="../../public/medias-wiki/projets/shinkiro/06.webp" alt="Shinkiro" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

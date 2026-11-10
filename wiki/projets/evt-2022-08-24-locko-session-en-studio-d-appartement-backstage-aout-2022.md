@@ -15,6 +15,8 @@ etat: "standard"
 # Locko — session en studio d'appartement (backstage, août 2022)
 
 <!-- wiki:infobox -->
+![Locko — session en studio d'appartement (backstage, août 2022)](../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/01.webp)
+
 | Locko — session en studio d'appartement (backstage, août 2022) | |
 | --- | --- |
 | Client | [LOCKO](../organisations/locko.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 24-25/08/2022 : écoute et production sur ordinateur, discussions, portraits de Locko.
 - **Identification** : dossier client Locko
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/02.webp" alt="Locko — session en studio d'appartement (backstage, août 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/03.webp" alt="Locko — session en studio d'appartement (backstage, août 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/04.webp" alt="Locko — session en studio d'appartement (backstage, août 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/05.webp" alt="Locko — session en studio d'appartement (backstage, août 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/06.webp" alt="Locko — session en studio d'appartement (backstage, août 2022)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

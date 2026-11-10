@@ -11,6 +11,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # Ngannou Sports
 
 <!-- wiki:infobox -->
+![Ngannou Sports](../../public/work/historique/17-ngannou-sports/17-ngannou-sports-01.jpg)
+
 | Ngannou Sports | |
 | --- | --- |
 | Casquette | Direction créative & artistique |
@@ -24,6 +26,13 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/historique/17-ngannou-sports/17-ngannou-sports-02.jpg"><img src="../../public/work/historique/17-ngannou-sports/17-ngannou-sports-02.jpg" alt="Ngannou Sports" width="240"></a>
+<a href="../../public/work/historique/17-ngannou-sports/17-ngannou-sports-03.jpg"><img src="../../public/work/historique/17-ngannou-sports/17-ngannou-sports-03.jpg" alt="Ngannou Sports" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

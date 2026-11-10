@@ -15,6 +15,8 @@ etat: "ebauche"
 # Hero Shot — Portraits éditoriaux cinématiques
 
 <!-- wiki:infobox -->
+![Hero Shot — Portraits éditoriaux cinématiques](../../public/work/cases/hero-shot/hero.webp)
+
 | Hero Shot — Portraits éditoriaux cinématiques | |
 | --- | --- |
 | Client | Projet personnel |
@@ -31,6 +33,21 @@ etat: "ebauche"
 ## Contexte
 
 Série de portraits « cover-star » cinématiques à thème royal afro : fausses couvertures Vanity Fair / GQ, trônes-serpents, penthouses brutalistes et couchers de soleil de savane, palette terre/or.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/hero-shot/01.webp"><img src="../../public/work/cases/hero-shot/01.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/02.webp"><img src="../../public/work/cases/hero-shot/02.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/03.webp"><img src="../../public/work/cases/hero-shot/03.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/04.webp"><img src="../../public/work/cases/hero-shot/04.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/05.webp"><img src="../../public/work/cases/hero-shot/05.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/06.webp"><img src="../../public/work/cases/hero-shot/06.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/07.webp"><img src="../../public/work/cases/hero-shot/07.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/08.webp"><img src="../../public/work/cases/hero-shot/08.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/09.webp"><img src="../../public/work/cases/hero-shot/09.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<a href="../../public/work/cases/hero-shot/10.webp"><img src="../../public/work/cases/hero-shot/10.webp" alt="Hero Shot — Portraits éditoriaux cinématiques" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

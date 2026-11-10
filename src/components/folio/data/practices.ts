@@ -48,7 +48,7 @@ export const PRACTICES: Practice[] = [
         name: 'MOTION19',
         featured: true,
         chain: ['MOTION19', 'UPgraders'],
-        meta: { fr: '2019 — 2022 · Douala', en: '2019 — 2022 · Douala' },
+        meta: { fr: '2021 — 2023 · Douala', en: '2021 — 2023 · Douala' },
         role: {
           fr: 'Chef de projet · Directeur marketing',
           en: 'Project lead · Marketing director',
@@ -81,7 +81,7 @@ export const PRACTICES: Practice[] = [
       {
         name: 'STUDIO44',
         chain: ['Studio44', 'UPgraders'],
-        meta: { fr: '2024', en: '2024' },
+        meta: { fr: '2018', en: '2018' },
         role: { fr: 'Lancement structuré', en: 'Structured launch' },
         body: {
           fr: "Lancement complet d'un nouveau studio en 3 mois — cadre, identité, opérations. Mandat express, livraison contrainte.",
@@ -186,7 +186,7 @@ export const PRACTICES: Practice[] = [
         name: 'UNIVERSAL MUSIC AFRICA',
         featured: true,
         chain: ['UMA', 'Imperial (agence de talents)', 'Esther Naah'],
-        meta: { fr: '2016 — 2022', en: '2016 — 2022' },
+        meta: { fr: '2021 — 2022', en: '2021 — 2022' },
         role: { fr: 'Photographe principal & DA', en: 'Lead photographer & art director' },
         body: {
           fr: "Mission via Imperial — agence de talents dirigée par Esther Naah — pour le catalogue UMA Cameroun : Locko, Mimie, Charlotte Dipanda, Singuila, Cysoul. Direction artistique et portrait : standardiser une iconographie exportable hors du Cameroun.",
@@ -224,8 +224,8 @@ export const PRACTICES: Practice[] = [
       {
         name: 'BIMSTR AGENCY',
         chain: ['Bimstr Agency'],
-        meta: { fr: '2018 — 2020', en: '2018 — 2020' },
-        role: { fr: 'Directeur Créatif & Artistique', en: 'Creative & Art Director' },
+        meta: { fr: '2019 — 2021', en: '2019 — 2021' },
+        role: { fr: 'Directeur artistique assistant · Lead Designer', en: 'Assistant art director · Lead designer' },
         body: {
           fr: "Direction de la production événementielle et photographique pour personnalités publiques. Premier contact avec Chococam.",
           en: 'Directing event and photographic production for public figures. First contact with Chococam.',
@@ -462,7 +462,7 @@ export const PRACTICES: Practice[] = [
       {
         name: 'SELLKAKO · WILL&BROTHERS',
         chain: ['Sellkako / Will&Brothers'],
-        meta: { fr: '2017 — 2019', en: '2017 — 2019' },
+        meta: { fr: '2016 — 2018', en: '2016 — 2018' },
         role: { fr: 'Lead Designer · Business Developer', en: 'Lead Designer · Business Developer' },
         body: {
           fr: "Premières années en agence : design lead, puis développement business. Fondations méthodiques, blog GeekDeBrousse en parallèle (guides photo, tests matériel).",

@@ -5,18 +5,21 @@ nature: "Agence"
 relation: "agence-relais"
 debut: 2022
 fin: 2024
-etat: "standard"
+etat: "a-verifier"
+verifier: ["Début en conflit : « depuis 2021 » selon le CV de mai 2023 ; premiers événements retrouvés dans les archives en décembre 2022."]
 ---
 # OmenKart
 
 <!-- wiki:infobox -->
+![OmenKart](../../public/medias-wiki/projets/evt-2023-03-02-ambitieuses-conference-sur-le-leadership-feminin/01.webp)
+
 | OmenKart | |
 | --- | --- |
 | Nature | Agence |
 | Relation | Agence relais |
 | Période | 2022–2024 |
 | Projets liés | 4 |
-| État de la fiche | Standard |
+| État de la fiche | À vérifier |
 <!-- /wiki:infobox -->
 
 **OmenKart** (agence) est une agence relais qui a confié des missions à Alexandre « Xtincell » Djengue, 2022–2024.
@@ -24,6 +27,15 @@ etat: "standard"
 ## Présentation
 
 Agence relais qui sous-traitait la production vidéo (Cimencam et autres comptes corporate) et une direction artistique déléguée en marque blanche.
+
+Le CV de mai 2023 date cette collaboration « depuis 2021 » ; les premiers événements retrouvés dans les archives datent de décembre 2022. Son début reste à trancher ([confrontation des sources](../sources.md#confrontation-élément-par-élément)). _Sources : [cv-2023-05](../sources.md#cv-2023-05), [disques](../sources.md#disques)._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022.md"><img src="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/01.webp" alt="Douala Digital Show — 3e édition (1er et 2 décembre 2022)" width="240"></a>
+<a href="../projets/omenkart-marque-blanche.md"><img src="../../public/work/tier23/omenkart-clients/omenkart-clients-01.jpg" alt="OmenKart — direction artistique déléguée" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 
@@ -70,6 +82,11 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 - **2022–2024** — [OmenKart — direction artistique déléguée](../projets/omenkart-marque-blanche.md)
 <!-- /wiki:projets -->
 
+
+## Sources
+
+- CV « Dircom », 16 mai 2023 — voir [cv-2023-05](../sources.md#cv-2023-05)
+- Archives de travail rangées sur les disques — voir [disques](../sources.md#disques)
 
 <!-- wiki:liens-entrants -->
 ---

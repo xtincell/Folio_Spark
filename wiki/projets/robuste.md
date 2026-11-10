@@ -16,6 +16,8 @@ etat: "standard"
 # Robuste — Aliments pour bétail
 
 <!-- wiki:infobox -->
+![Robuste — Aliments pour bétail](../../public/work/cases/robuste/hero.webp)
+
 | Robuste — Aliments pour bétail | |
 | --- | --- |
 | Client | [Groupe Cadyst](../organisations/groupe-cadyst.md) |
@@ -33,6 +35,12 @@ etat: "standard"
 ## Contexte
 
 Board de concept de campagne pour la marque d'aliments pour bétail Robuste « La Croissance Assurée » : billboard, photographie de ferme et sacs (porc, volaille, lapin).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/robuste/01.webp"><img src="../../public/work/cases/robuste/01.webp" alt="Robuste — Aliments pour bétail" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

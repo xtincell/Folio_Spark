@@ -15,6 +15,8 @@ etat: "standard"
 # K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)
 
 <!-- wiki:infobox -->
+![K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)](../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/01.webp)
+
 | K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN) | |
 | --- | --- |
 | Client | [MTN Cameroon](../organisations/mtn-cameroon.md) |
@@ -39,6 +41,16 @@ etat: "standard"
   - 24-25/09/2024 : stands de produits manga, portraits de visiteurs en kimono et cosplay, jeux, bâche « MTN YaMo! », cabine lumineuse « Y'ello Hub Exp. — 25 years Pioneer & Leader ».
 - **Identification** : dossier « KOF4 2025 DLA EDITION FR MTN » ; filigrane « KOF 25 » ; l'horloge de l'appareil indique 24-25/09/2024 mais elle est décalée (heures de nuit sur des photos de jour), l'édition de Douala date donc probablement de septembre 2025
 - **Fiabilité** : confirmé (événement) ; date à confirmer / confirmé (événement) ; date à vérifier / déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/02.webp"><img src="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/02.webp" alt="K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/03.webp"><img src="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/03.webp" alt="K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/04.webp"><img src="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/04.webp" alt="K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/05.webp"><img src="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/05.webp" alt="K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/06.webp"><img src="../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/06.webp" alt="K-mer Otaku Festival — édition de Douala avec MTN (Y'ello Hub, 25 ans de MTN)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

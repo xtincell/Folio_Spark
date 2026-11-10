@@ -9,6 +9,8 @@ etat: "ebauche"
 # LOCKO
 
 <!-- wiki:infobox -->
+![LOCKO](../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/01.webp)
+
 | LOCKO | |
 | --- | --- |
 | Nature | Artiste musical |
@@ -22,6 +24,18 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2.md"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-repetition-live-et-interview-televisee-12-janvier-2/01.webp" alt="Locko — répétition live et interview télévisée (12 janvier 2022)" width="240"></a>
+<a href="../projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022.md"><img src="../../public/medias-wiki/projets/evt-2022-08-24-locko-session-en-studio-d-appartement-backstage-aout-2022/01.webp" alt="Locko — session en studio d'appartement (backstage, août 2022)" width="240"></a>
+<a href="../projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co.md"><img src="../../public/medias-wiki/projets/evt-2022-02-12-saint-valentin-2022-soiree-au-rooftop-yaounde-13-02-et-co/01.webp" alt="Saint-Valentin 2022 : soirée au Rooftop Yaoundé (13/02) et concert de Locko (14/02)" width="240"></a>
+<a href="../projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg.md"><img src="../../public/medias-wiki/projets/evt-2021-07-25-locko-photos-livrees-de-l-annee-2021-jpg/01.webp" alt="Locko — photos livrées de l'année 2021 (JPG)" width="240"></a>
+<a href="../projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange.md"><img src="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/01.webp" alt="Locko — shooting ou tournage en combinaison orange" width="240"></a>
+<a href="../projets/evt-2021-12-29-locko-showcase-era-au-boj.md"><img src="../../public/medias-wiki/projets/evt-2021-12-29-locko-showcase-era-au-boj/01.webp" alt="Locko — showcase « Era » au BOJ" width="240"></a>
+<a href="../projets/locko-travaux.md"><img src="../../public/medias-wiki/projets/locko-travaux/01.webp" alt="LOCKO — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

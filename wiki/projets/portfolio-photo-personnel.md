@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Portfolio photo personnel
 
 <!-- wiki:infobox -->
+![Portfolio photo personnel](../../public/medias-wiki/projets/portfolio-photo-personnel/01.webp)
+
 | Portfolio photo personnel | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/portfolio-photo-personnel/02.webp"><img src="../../public/medias-wiki/projets/portfolio-photo-personnel/02.webp" alt="Portfolio photo personnel" width="240"></a>
+<a href="../../public/medias-wiki/projets/portfolio-photo-personnel/03.webp"><img src="../../public/medias-wiki/projets/portfolio-photo-personnel/03.webp" alt="Portfolio photo personnel" width="240"></a>
+<a href="../../public/medias-wiki/projets/portfolio-photo-personnel/04.webp"><img src="../../public/medias-wiki/projets/portfolio-photo-personnel/04.webp" alt="Portfolio photo personnel" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

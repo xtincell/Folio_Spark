@@ -12,6 +12,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # JPN Advisors — identité
 
 <!-- wiki:infobox -->
+![JPN Advisors — identité](../../public/work/historique/11-jpn-advisors-identite/11-jpn-advisors-identite-01.jpg)
+
 | JPN Advisors — identité | |
 | --- | --- |
 | Client | [JPN Advisors](../organisations/jpn-advisors.md) |
@@ -26,6 +28,13 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/historique/11-jpn-advisors-identite/11-jpn-advisors-identite-02.jpg"><img src="../../public/work/historique/11-jpn-advisors-identite/11-jpn-advisors-identite-02.jpg" alt="JPN Advisors — identité" width="240"></a>
+<a href="../../public/work/historique/11-jpn-advisors-identite/11-jpn-advisors-identite-03.jpg"><img src="../../public/work/historique/11-jpn-advisors-identite/11-jpn-advisors-identite-03.jpg" alt="JPN Advisors — identité" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

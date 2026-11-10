@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # ADW — travaux
 
 <!-- wiki:infobox -->
+![ADW — travaux](../../public/medias-wiki/projets/adw-travaux/01.webp)
+
 | ADW — travaux | |
 | --- | --- |
 | Client | [ADW](../organisations/adw.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [ADW](../organisations/adw.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/adw-travaux/02.webp"><img src="../../public/medias-wiki/projets/adw-travaux/02.webp" alt="ADW — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adw-travaux/03.webp"><img src="../../public/medias-wiki/projets/adw-travaux/03.webp" alt="ADW — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adw-travaux/04.webp"><img src="../../public/medias-wiki/projets/adw-travaux/04.webp" alt="ADW — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adw-travaux/05.webp"><img src="../../public/medias-wiki/projets/adw-travaux/05.webp" alt="ADW — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adw-travaux/06.webp"><img src="../../public/medias-wiki/projets/adw-travaux/06.webp" alt="ADW — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

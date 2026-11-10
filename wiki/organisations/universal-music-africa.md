@@ -4,32 +4,48 @@ nom: "Universal Music Africa"
 nature: "Major du disque"
 relation: "client"
 role: "Direction artistique & image d'artistes (freelance)"
-debut: 2016
+debut: 2021
 fin: 2022
 etat: "standard"
 ---
 # Universal Music Africa
 
 <!-- wiki:infobox -->
+![Universal Music Africa](../../public/medias-wiki/projets/evt-2021-05-14-charlotte-dipanda-sortie-de-l-album-et-soirees-the-single/01.webp)
+
 | Universal Music Africa | |
 | --- | --- |
 | Nature | Major du disque |
 | Relation | Client |
 | Rôle d’Alexandre | Direction artistique & image d'artistes (freelance) |
-| Période | 2016–2022 |
+| Période | 2021–2022 |
 | Projets liés | 8 |
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
-**Universal Music Africa** (major du disque) est un client d’Alexandre « Xtincell » Djengue, 2016–2022.
+**Universal Music Africa** (major du disque) est un client d’Alexandre « Xtincell » Djengue, 2021–2022.
 
 ## Présentation
 
 Missions de direction artistique et de photographie pour le catalogue camerounais, obtenues via l'agence de talents Imperial (Esther Naah).
 
+Le CV de 2026 et les données du site font remonter cette collaboration à 2016. Aucune source antérieure ne l’étaye : le CV de novembre 2020 ne la mentionne pas, les missions retrouvées dans les archives datent de 2021 et 2022, et un crédit « pour Universal Music Africa via l’agence Imperial » est publié le 31 août 2021. Le wiki retient 2021–2022 ([confrontation des sources](../sources.md#confrontation-élément-par-élément)). Seul un concert de fin d’année pourrait dater de décembre 2020 ; son année reste à trancher. _Sources : [disques](../sources.md#disques), [facebook](../sources.md#facebook), [cv-2020](../sources.md#cv-2020), [cv-2026](../sources.md#cv-2026)._
+
 ## Rôle d’Alexandre
 
 Direction artistique & image d'artistes (freelance)
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au.md"><img src="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/01.webp" alt="Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)" width="240"></a>
+<a href="../projets/evt-2021-12-05-locko-promotion-de-l-album-era.md"><img src="../../public/medias-wiki/projets/evt-2021-12-05-locko-promotion-de-l-album-era/01.webp" alt="Locko — promotion de l'album « Era »" width="240"></a>
+<a href="../projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop.md"><img src="../../public/medias-wiki/projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop/01.webp" alt="Locko — session d'écoute de l'album « Era » sur un rooftop" width="240"></a>
+<a href="../projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya.md"><img src="../../public/medias-wiki/projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya/01.webp" alt="Mimie — tournée promo du single « Faya »" width="240"></a>
+<a href="../projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love.md"><img src="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/01.webp" alt="Singuila — séance d'écoute de l'album « Docteur Love »" width="240"></a>
+<a href="../projets/uma-artistes.md"><img src="../../public/work/tier23/locko-uma/locko-uma-01.jpg" alt="Universal Music Africa — image d’artistes" width="240"></a>
+<a href="../projets/photo-locko.md"><img src="https://images.pixieset.com/00546347/2f91b10e3e9dfefef6f3efec084c67d5-large.jpg" alt="Locko — galerie photo" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 
@@ -70,10 +86,17 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 - **2021** — [Locko — session d'écoute de l'album « Era » sur un rooftop](../projets/evt-2021-11-26-locko-session-d-ecoute-de-l-album-era-sur-un-rooftop.md)
 - **2021** — [Mimie — tournée promo du single « Faya »](../projets/evt-2021-10-06-mimie-tournee-promo-du-single-faya.md)
 - **2021** — [Singuila — séance d'écoute de l'album « Docteur Love »](../projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love.md)
-- **2016–2022** — [Universal Music Africa — image d’artistes](../projets/uma-artistes.md)
+- **2021–2022** — [Universal Music Africa — image d’artistes](../projets/uma-artistes.md)
 - [Locko — galerie photo](../projets/photo-locko.md)
 <!-- /wiki:projets -->
 
+
+## Sources
+
+- Archives de travail rangées sur les disques — voir [disques](../sources.md#disques)
+- Export du compte Facebook (2023) — voir [facebook](../sources.md#facebook)
+- CV « Creative Consultant », 30 novembre 2020 — voir [cv-2020](../sources.md#cv-2020)
+- CV de 2026, repris par le CV du site et `practices.ts` — voir [cv-2026](../sources.md#cv-2026)
 
 <!-- wiki:liens-entrants -->
 ---

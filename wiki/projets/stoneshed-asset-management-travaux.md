@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Stoneshed Asset Management — travaux
 
 <!-- wiki:infobox -->
+![Stoneshed Asset Management — travaux](../../public/medias-wiki/projets/stoneshed-asset-management-travaux/01.webp)
+
 | Stoneshed Asset Management — travaux | |
 | --- | --- |
 | Client | [Stoneshed Asset Management](../organisations/stoneshed-asset-management.md) |
@@ -30,6 +32,13 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Stoneshed Asset Management](../organisations/stoneshed-asset-management.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/stoneshed-asset-management-travaux/02.webp"><img src="../../public/medias-wiki/projets/stoneshed-asset-management-travaux/02.webp" alt="Stoneshed Asset Management — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/stoneshed-asset-management-travaux/03.webp"><img src="../../public/medias-wiki/projets/stoneshed-asset-management-travaux/03.webp" alt="Stoneshed Asset Management — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

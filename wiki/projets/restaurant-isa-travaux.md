@@ -12,6 +12,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Restaurant Isa — travaux
 
 <!-- wiki:infobox -->
+![Restaurant Isa — travaux](../../public/medias-wiki/projets/restaurant-isa-travaux/01.webp)
+
 | Restaurant Isa — travaux | |
 | --- | --- |
 | Client | [Restaurant Isa](../organisations/restaurant-isa.md) |
@@ -27,6 +29,13 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Restaurant Isa](../organisations/restaurant-isa.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/restaurant-isa-travaux/02.webp"><img src="../../public/medias-wiki/projets/restaurant-isa-travaux/02.webp" alt="Restaurant Isa — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/restaurant-isa-travaux/03.webp"><img src="../../public/medias-wiki/projets/restaurant-isa-travaux/03.webp" alt="Restaurant Isa — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

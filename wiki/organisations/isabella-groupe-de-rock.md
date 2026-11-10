@@ -9,6 +9,8 @@ etat: "ebauche"
 # Isabella (groupe de rock)
 
 <!-- wiki:infobox -->
+![Isabella (groupe de rock)](../../public/medias-wiki/projets/isabella-groupe-de-rock-travaux/01.webp)
+
 | Isabella (groupe de rock) | |
 | --- | --- |
 | Nature | Groupe de rock |

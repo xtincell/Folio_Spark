@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Primo Ice — travaux
 
 <!-- wiki:infobox -->
+![Primo Ice — travaux](../../public/medias-wiki/projets/primo-ice-travaux/01.webp)
+
 | Primo Ice — travaux | |
 | --- | --- |
 | Client | [Primo Ice](../organisations/primo-ice.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Primo Ice](../organisations/primo-ice.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/primo-ice-travaux/02.webp"><img src="../../public/medias-wiki/projets/primo-ice-travaux/02.webp" alt="Primo Ice — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/primo-ice-travaux/03.webp"><img src="../../public/medias-wiki/projets/primo-ice-travaux/03.webp" alt="Primo Ice — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/primo-ice-travaux/04.webp"><img src="../../public/medias-wiki/projets/primo-ice-travaux/04.webp" alt="Primo Ice — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/primo-ice-travaux/05.webp"><img src="../../public/medias-wiki/projets/primo-ice-travaux/05.webp" alt="Primo Ice — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/primo-ice-travaux/06.webp"><img src="../../public/medias-wiki/projets/primo-ice-travaux/06.webp" alt="Primo Ice — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Vibe House
 
 <!-- wiki:infobox -->
+![Vibe House](../../public/medias-wiki/projets/vibe-house-travaux/01.webp)
+
 | Vibe House | |
 | --- | --- |
 | Nature | À préciser |

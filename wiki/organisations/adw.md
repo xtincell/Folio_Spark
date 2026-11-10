@@ -9,6 +9,8 @@ etat: "ebauche"
 # ADW
 
 <!-- wiki:infobox -->
+![ADW](../../public/medias-wiki/projets/adw-travaux/01.webp)
+
 | ADW | |
 | --- | --- |
 | Nature | À préciser |

@@ -4,30 +4,34 @@ nom: "Chococam"
 nature: "Industrie agroalimentaire (groupe Tiger Brands)"
 relation: "client"
 role: "Production & image de marque (freelance, multi-références)"
-debut: 2014
-fin: 2020
+debut: 2020
+fin: 2023
 marques: ["Benny","Big Gum","Tartina","Matinal","Mambo"]
 etat: "standard"
 ---
 # Chococam
 
 <!-- wiki:infobox -->
+![Chococam](../../public/work/chococam/chococam-01.webp)
+
 | Chococam | |
 | --- | --- |
 | Nature | Industrie agroalimentaire (groupe Tiger Brands) |
 | Relation | Client |
 | Rôle d’Alexandre | Production & image de marque (freelance, multi-références) |
-| Période | 2014–2020 |
+| Période | 2020–2023 |
 | Marques | Benny · Big Gum · Tartina · Matinal · Mambo |
 | Projets liés | 1 |
 | État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
-**Chococam** (industrie agroalimentaire (groupe Tiger Brands)) est un client d’Alexandre « Xtincell » Djengue, 2014–2020.
+**Chococam** (industrie agroalimentaire (groupe Tiger Brands)) est un client d’Alexandre « Xtincell » Djengue, 2020–2023.
 
 ## Présentation
 
 Photo produit, key visuals de campagne et gestion d'agence créative côté annonceur pour Benny, Big Gum, Tartina, Matinal et Mambo.
+
+Alexandre travaille pour Chococam à partir de 2020, d’abord avec l’agence [Bimstr](bimstr.md) (dossier « Chococam × Bimstr »), puis avec [UPgraders](upgraders.md) jusqu’en 2023. Le CV de 2026 et les données du site font remonter cette collaboration à 2014 ; aucune preuve antérieure à 2020 n’a été trouvée. Le wiki retient 2020–2023 ([confrontation des sources](../sources.md#confrontation-élément-par-élément)). _Sources : [disques](../sources.md#disques), [cv-2023-05](../sources.md#cv-2023-05), [cv-2026](../sources.md#cv-2026)._
 
 ## Rôle d’Alexandre
 
@@ -90,9 +94,15 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 ## Projets
 
 <!-- wiki:projets -->
-- **2014–2020** — [Chococam — photo, vidéo et reportage](../projets/chococam.md)
+- **2020–2023** — [Chococam — photo, vidéo et reportage](../projets/chococam.md)
 <!-- /wiki:projets -->
 
+
+## Sources
+
+- Archives de travail rangées sur les disques — voir [disques](../sources.md#disques)
+- CV « Dircom », 16 mai 2023 — voir [cv-2023-05](../sources.md#cv-2023-05)
+- CV de 2026, repris par le CV du site et `practices.ts` — voir [cv-2026](../sources.md#cv-2026)
 
 <!-- wiki:liens-entrants -->
 ---

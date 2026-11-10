@@ -8,6 +8,8 @@ etat: "ebauche"
 # Ambassade du Japon
 
 <!-- wiki:infobox -->
+![Ambassade du Japon](../../public/work/historique/02-japan-embassy/02-japan-embassy-01.jpg)
+
 | Ambassade du Japon | |
 | --- | --- |
 | Nature | Institution diplomatique |

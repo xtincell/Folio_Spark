@@ -9,6 +9,8 @@ etat: "ebauche"
 # Glow Up Lawyer
 
 <!-- wiki:infobox -->
+![Glow Up Lawyer](../../public/medias-wiki/projets/glow-up-lawyer-travaux/01.webp)
+
 | Glow Up Lawyer | |
 | --- | --- |
 | Nature | À préciser |

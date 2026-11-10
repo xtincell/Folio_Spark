@@ -14,6 +14,8 @@ etat: "standard"
 # Douala Digital Show — 3e édition (1er et 2 décembre 2022)
 
 <!-- wiki:infobox -->
+![Douala Digital Show — 3e édition (1er et 2 décembre 2022)](../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/01.webp)
+
 | Douala Digital Show — 3e édition (1er et 2 décembre 2022) | |
 | --- | --- |
 | Client | [OmenKart](../organisations/omenkart.md) |
@@ -35,6 +37,16 @@ etat: "standard"
 - **Ce que montrent les images** : Vidéos des 01/12/2022 et suivants : keynotes, panels sur fauteuils, interviews devant le photocall, public.
 - **Identification** : écran « Douala Digital Show — 1-2 décembre — 3e édition » ; photocall OA, Afriland First Bank, TV5 Monde ; roll-up Ejara
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/02.webp" alt="Douala Digital Show — 3e édition (1er et 2 décembre 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/03.webp" alt="Douala Digital Show — 3e édition (1er et 2 décembre 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/04.webp" alt="Douala Digital Show — 3e édition (1er et 2 décembre 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/05.webp" alt="Douala Digital Show — 3e édition (1er et 2 décembre 2022)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-12-01-douala-digital-show-3e-edition-1er-et-2-decembre-2022/06.webp" alt="Douala Digital Show — 3e édition (1er et 2 décembre 2022)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

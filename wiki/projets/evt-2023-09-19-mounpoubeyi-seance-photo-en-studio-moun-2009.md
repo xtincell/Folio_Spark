@@ -15,6 +15,8 @@ etat: "standard"
 # Mounpoubeyi — séance photo en studio (« Moun 2009 »)
 
 <!-- wiki:infobox -->
+![Mounpoubeyi — séance photo en studio (« Moun 2009 »)](../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/01.webp)
+
 | Mounpoubeyi — séance photo en studio (« Moun 2009 ») | |
 | --- | --- |
 | Client | [Mounpoubeyi](../organisations/mounpoubeyi.md) |
@@ -37,6 +39,15 @@ etat: "standard"
 - **Ce que montrent les images** : 20/09/2023 après-midi : portraits en lumière dure, poses au micro, fumée, tenue en chaînes colorées.
 - **Identification** : dossier client « Mounpoubeyi » ; nom « Moun 2009 »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/02.webp" alt="Mounpoubeyi — séance photo en studio (« Moun 2009 »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/03.webp" alt="Mounpoubeyi — séance photo en studio (« Moun 2009 »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/04.webp" alt="Mounpoubeyi — séance photo en studio (« Moun 2009 »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-09-19-mounpoubeyi-seance-photo-en-studio-moun-2009/05.webp" alt="Mounpoubeyi — séance photo en studio (« Moun 2009 »)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

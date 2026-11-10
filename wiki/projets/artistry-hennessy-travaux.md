@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # ARTISTRY HENNESSY — travaux
 
 <!-- wiki:infobox -->
+![ARTISTRY HENNESSY — travaux](../../public/medias-wiki/projets/artistry-hennessy-travaux/01.webp)
+
 | ARTISTRY HENNESSY — travaux | |
 | --- | --- |
 | Client | [ARTISTRY HENNESSY](../organisations/artistry-hennessy.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [ARTISTRY HENNESSY](../organisations/artistry-hennessy.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/artistry-hennessy-travaux/02.webp"><img src="../../public/medias-wiki/projets/artistry-hennessy-travaux/02.webp" alt="ARTISTRY HENNESSY — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/artistry-hennessy-travaux/03.webp"><img src="../../public/medias-wiki/projets/artistry-hennessy-travaux/03.webp" alt="ARTISTRY HENNESSY — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/artistry-hennessy-travaux/04.webp"><img src="../../public/medias-wiki/projets/artistry-hennessy-travaux/04.webp" alt="ARTISTRY HENNESSY — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/artistry-hennessy-travaux/05.webp"><img src="../../public/medias-wiki/projets/artistry-hennessy-travaux/05.webp" alt="ARTISTRY HENNESSY — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/artistry-hennessy-travaux/06.webp"><img src="../../public/medias-wiki/projets/artistry-hennessy-travaux/06.webp" alt="ARTISTRY HENNESSY — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

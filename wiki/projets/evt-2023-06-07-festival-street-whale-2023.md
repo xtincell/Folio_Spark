@@ -15,6 +15,8 @@ etat: "standard"
 # Festival Street Whale 2023
 
 <!-- wiki:infobox -->
+![Festival Street Whale 2023](../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/01.webp)
+
 | Festival Street Whale 2023 | |
 | --- | --- |
 | Client | [AMMCO](../organisations/ammco.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 07-10/06/2023 : photo officielle devant la scène « Bienvenue au Street Whale 2023 », panels scientifiques (pêche INN), danses, cadre photo « Street Whale 2023 », vue de drone sur la plage.
 - **Identification** : scène « Bienvenue au Street Whale 2023 » ; cadre photo « Street Whale 2023 — Join the wave to save the whales » ; logo AMMCO projeté
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/02.webp" alt="Festival Street Whale 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/03.webp" alt="Festival Street Whale 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/04.webp" alt="Festival Street Whale 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/05.webp" alt="Festival Street Whale 2023" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/06.webp" alt="Festival Street Whale 2023" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

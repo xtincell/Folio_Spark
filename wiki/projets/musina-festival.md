@@ -15,6 +15,8 @@ etat: "ebauche"
 # Musina 9 — Festival
 
 <!-- wiki:infobox -->
+![Musina 9 — Festival](../../public/work/cases/musina-festival/hero.webp)
+
 | Musina 9 — Festival | |
 | --- | --- |
 | Client | [Festival Musina](../organisations/festival-musina.md) |
@@ -31,6 +33,16 @@ etat: "ebauche"
 ## Contexte
 
 Identité et affiche du festival Musina 9 (février 2026, thème « L'ancestralité dans la modernité ») : illustration or-sur-bleu nuit d'un pirogueur traversant un banc de poissons en spirale.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/musina-festival/01.webp"><img src="../../public/work/cases/musina-festival/01.webp" alt="Musina 9 — Festival" width="240"></a>
+<a href="../../public/work/cases/musina-festival/02.webp"><img src="../../public/work/cases/musina-festival/02.webp" alt="Musina 9 — Festival" width="240"></a>
+<a href="../../public/work/cases/musina-festival/03.webp"><img src="../../public/work/cases/musina-festival/03.webp" alt="Musina 9 — Festival" width="240"></a>
+<a href="../../public/work/cases/musina-festival/04.webp"><img src="../../public/work/cases/musina-festival/04.webp" alt="Musina 9 — Festival" width="240"></a>
+<a href="../../public/work/cases/musina-festival/05.webp"><img src="../../public/work/cases/musina-festival/05.webp" alt="Musina 9 — Festival" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Galion — Uthango
 
 <!-- wiki:infobox -->
+![Galion — Uthango](../../public/medias-wiki/projets/galion-uthango-travaux/01.webp)
+
 | Galion — Uthango | |
 | --- | --- |
 | Nature | À préciser |

@@ -8,6 +8,8 @@ etat: "ebauche"
 # AMMCO
 
 <!-- wiki:infobox -->
+![AMMCO](../../public/medias-wiki/projets/evt-2024-05-07-atelier-regional-sur-la-peche-etrangere-destabilisante-da/01.webp)
+
 | AMMCO | |
 | --- | --- |
 | Nature | À préciser |
@@ -21,6 +23,17 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2023-06-07-festival-street-whale-2023.md"><img src="../../public/medias-wiki/projets/evt-2023-06-07-festival-street-whale-2023/01.webp" alt="Festival Street Whale 2023" width="240"></a>
+<a href="../projets/street-whale.md"><img src="../../public/medias-wiki/projets/street-whale/01.webp" alt="Street Whale" width="240"></a>
+<a href="../projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme.md"><img src="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/01.webp" alt="Atelier sur la pêche illicite, non déclarée et non réglementée (INN)" width="240"></a>
+<a href="../projets/evt-2022-06-08-festival-et-symposium-street-whale-2022.md"><img src="../../public/medias-wiki/projets/evt-2022-06-08-festival-et-symposium-street-whale-2022/01.webp" alt="Festival et symposium Street Whale 2022" width="240"></a>
+<a href="../projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer.md"><img src="../../public/medias-wiki/projets/evt-2021-11-10-street-whale-premier-jour-lancement-en-bord-de-mer/01.webp" alt="Street Whale — premier jour (lancement en bord de mer)" width="240"></a>
+<a href="../projets/photo-ammco.md"><img src="https://images.pixieset.com/28983067/03b10d60d53f89dfd6637bb28b3f0559-large.jpg" alt="AMMCO — galerie photo" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

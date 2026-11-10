@@ -9,6 +9,8 @@ etat: "ebauche"
 # Akwa HIN (SOGEAC)
 
 <!-- wiki:infobox -->
+![Akwa HIN (SOGEAC)](../../public/medias-wiki/projets/akwa-hin-sogeac-travaux/01.webp)
+
 | Akwa HIN (SOGEAC) | |
 | --- | --- |
 | Nature | À préciser |

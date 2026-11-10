@@ -12,6 +12,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # BuildSmart — travaux
 
 <!-- wiki:infobox -->
+![BuildSmart — travaux](../../public/medias-wiki/projets/buildsmart-travaux/01.webp)
+
 | BuildSmart — travaux | |
 | --- | --- |
 | Client | [BuildSmart](../organisations/buildsmart.md) |

@@ -16,6 +16,8 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 # Locko — shooting ou tournage en combinaison orange
 
 <!-- wiki:infobox -->
+![Locko — shooting ou tournage en combinaison orange](../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/01.webp)
+
 | Locko — shooting ou tournage en combinaison orange | |
 | --- | --- |
 | Client | [LOCKO](../organisations/locko.md) |
@@ -38,6 +40,16 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 - **Ce que montrent les images** : Séance dans un restaurant aux murs verts et portraits encadrés : combinaison orange, costume rose sur mur de fleurs, maquillage, plans dans la cave à vin.
 - **Identification** : mots-clés Lightroom « Locko » sur ce jour ; même artiste que la promo « Era »
 - **Fiabilité** : déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/02.webp" alt="Locko — shooting ou tournage en combinaison orange" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/03.webp" alt="Locko — shooting ou tournage en combinaison orange" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/04.webp" alt="Locko — shooting ou tournage en combinaison orange" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/05.webp" alt="Locko — shooting ou tournage en combinaison orange" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-07-26-locko-shooting-ou-tournage-en-combinaison-orange/06.webp" alt="Locko — shooting ou tournage en combinaison orange" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

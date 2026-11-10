@@ -9,6 +9,8 @@ etat: "ebauche"
 # SoFaVinC
 
 <!-- wiki:infobox -->
+![SoFaVinC](../../public/work/cases/florida/hero.webp)
+
 | SoFaVinC | |
 | --- | --- |
 | Nature | Vins et spiritueux |

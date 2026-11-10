@@ -9,6 +9,8 @@ etat: "ebauche"
 # KMC
 
 <!-- wiki:infobox -->
+![KMC](../../public/medias-wiki/projets/kmc-travaux/01.webp)
+
 | KMC | |
 | --- | --- |
 | Nature | À préciser |

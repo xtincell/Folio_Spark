@@ -15,6 +15,8 @@ etat: "standard"
 # Soirée cosplay d'Halloween « Maid Café » (WMC)
 
 <!-- wiki:infobox -->
+![Soirée cosplay d'Halloween « Maid Café » (WMC)](../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/01.webp)
+
 | Soirée cosplay d'Halloween « Maid Café » (WMC) | |
 | --- | --- |
 | Client | [WMC](../organisations/wmc.md) |
@@ -38,6 +40,16 @@ etat: "standard"
   - 29/10/2022 de 12 h 30 à 20 h : portraits sur fauteuil rose devant un mur de fleurs, stand de porte-clés manga.
 - **Identification** : noms de fichiers « WMC JPG-… » ; même décor que le lot « Maid Café » du 29/10/2022
 - **Fiabilité** : confirmé (même séance que WMC) / déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/02.webp" alt="Soirée cosplay d'Halloween « Maid Café » (WMC)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/03.webp" alt="Soirée cosplay d'Halloween « Maid Café » (WMC)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/04.webp" alt="Soirée cosplay d'Halloween « Maid Café » (WMC)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/05.webp" alt="Soirée cosplay d'Halloween « Maid Café » (WMC)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-10-29-soiree-cosplay-d-halloween-maid-cafe-wmc/06.webp" alt="Soirée cosplay d'Halloween « Maid Café » (WMC)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

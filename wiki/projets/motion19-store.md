@@ -15,6 +15,8 @@ etat: "standard"
 # MOTION19 — Boutique audiovisuelle
 
 <!-- wiki:infobox -->
+![MOTION19 — Boutique audiovisuelle](../../public/work/cases/motion19-store/hero.webp)
+
 | MOTION19 — Boutique audiovisuelle | |
 | --- | --- |
 | Client | [Motion19](../organisations/motion19.md) |
@@ -39,6 +41,18 @@ Direction artistique et création de contenus pour la boutique de matériel audi
 ## Résultat
 
 Une série de visuels pour présenter caméras, objectifs, drones et kits : annonces produit, publications e-commerce et formats promotionnels. Les pièces montrent le travail de présentation de l’offre et de déclinaison graphique.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/motion19-store/01.webp"><img src="../../public/work/cases/motion19-store/01.webp" alt="MOTION19 — Boutique audiovisuelle" width="240"></a>
+<a href="../../public/work/cases/motion19-store/02.webp"><img src="../../public/work/cases/motion19-store/02.webp" alt="MOTION19 — Boutique audiovisuelle" width="240"></a>
+<a href="../../public/work/cases/motion19-store/03.webp"><img src="../../public/work/cases/motion19-store/03.webp" alt="MOTION19 — Boutique audiovisuelle" width="240"></a>
+<a href="../../public/work/cases/motion19-store/04.webp"><img src="../../public/work/cases/motion19-store/04.webp" alt="MOTION19 — Boutique audiovisuelle" width="240"></a>
+<a href="../../public/work/cases/motion19-store/05.webp"><img src="../../public/work/cases/motion19-store/05.webp" alt="MOTION19 — Boutique audiovisuelle" width="240"></a>
+<a href="../../public/work/cases/motion19-store/06.webp"><img src="../../public/work/cases/motion19-store/06.webp" alt="MOTION19 — Boutique audiovisuelle" width="240"></a>
+<a href="../../public/work/cases/motion19-store/07.webp"><img src="../../public/work/cases/motion19-store/07.webp" alt="MOTION19 — Boutique audiovisuelle" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

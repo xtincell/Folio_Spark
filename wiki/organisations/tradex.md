@@ -8,6 +8,8 @@ etat: "ebauche"
 # Tradex
 
 <!-- wiki:infobox -->
+![Tradex](../../public/work/cases/tradex/hero.webp)
+
 | Tradex | |
 | --- | --- |
 | Nature | Distribution de produits pétroliers |

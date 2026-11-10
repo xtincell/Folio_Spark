@@ -9,6 +9,8 @@ etat: "ebauche"
 # Madiba (eau minérale)
 
 <!-- wiki:infobox -->
+![Madiba (eau minérale)](../../public/medias-wiki/projets/madiba-eau-minerale-travaux/01.webp)
+
 | Madiba (eau minérale) | |
 | --- | --- |
 | Nature | Eau minérale |

@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Frontières de l’innovation (podcast)
 
 <!-- wiki:infobox -->
+![Frontières de l’innovation (podcast)](../../public/medias-wiki/projets/podcast-frontieres-de-l-innovation/01.webp)
+
 | Frontières de l’innovation (podcast) | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/podcast-frontieres-de-l-innovation/02.webp"><img src="../../public/medias-wiki/projets/podcast-frontieres-de-l-innovation/02.webp" alt="Frontières de l’innovation (podcast)" width="240"></a>
+<a href="../../public/medias-wiki/projets/podcast-frontieres-de-l-innovation/03.webp"><img src="../../public/medias-wiki/projets/podcast-frontieres-de-l-innovation/03.webp" alt="Frontières de l’innovation (podcast)" width="240"></a>
+<a href="../../public/medias-wiki/projets/podcast-frontieres-de-l-innovation/04.webp"><img src="../../public/medias-wiki/projets/podcast-frontieres-de-l-innovation/04.webp" alt="Frontières de l’innovation (podcast)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

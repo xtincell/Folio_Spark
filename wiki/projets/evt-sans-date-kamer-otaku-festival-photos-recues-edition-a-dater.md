@@ -14,6 +14,8 @@ verifier: ["Fiabilité selon les notes de rangement : probable."]
 # Kamer Otaku Festival — photos reçues (édition à dater)
 
 <!-- wiki:infobox -->
+![Kamer Otaku Festival — photos reçues (édition à dater)](../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/01.webp)
+
 | Kamer Otaku Festival — photos reçues (édition à dater) | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -35,6 +37,16 @@ verifier: ["Fiabilité selon les notes de rangement : probable."]
 - **Ce que montrent les images** : Festival en plein air : arches et ballons roses, cosplays en kimono, stands sous tentes, foule.
 - **Identification** : logo K.O.F sur un visuel « Shalala » ; stand « Get Zebra » ; décor rose et noir
 - **Fiabilité** : probable
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/02.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/02.webp" alt="Kamer Otaku Festival — photos reçues (édition à dater)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/03.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/03.webp" alt="Kamer Otaku Festival — photos reçues (édition à dater)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/04.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/04.webp" alt="Kamer Otaku Festival — photos reçues (édition à dater)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/05.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/05.webp" alt="Kamer Otaku Festival — photos reçues (édition à dater)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/06.webp"><img src="../../public/medias-wiki/projets/evt-sans-date-kamer-otaku-festival-photos-recues-edition-a-dater/06.webp" alt="Kamer Otaku Festival — photos reçues (édition à dater)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

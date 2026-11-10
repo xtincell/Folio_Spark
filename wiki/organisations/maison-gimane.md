@@ -8,6 +8,8 @@ etat: "ebauche"
 # Maison Gimane
 
 <!-- wiki:infobox -->
+![Maison Gimane](../../public/work/tier23/maison-gimane-2024/maison-gimane-2024-01.jpg)
+
 | Maison Gimane | |
 | --- | --- |
 | Nature | À préciser |

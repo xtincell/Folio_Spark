@@ -9,6 +9,8 @@ etat: "ebauche"
 # Student Photographer (Stéphane Nounamo)
 
 <!-- wiki:infobox -->
+![Student Photographer (Stéphane Nounamo)](../../public/medias-wiki/projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo/01.webp)
+
 | Student Photographer (Stéphane Nounamo) | |
 | --- | --- |
 | Nature | Marque de formation photo de Stéphane Nounamo |
@@ -22,6 +24,14 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md"><img src="../../public/medias-wiki/projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i/01.webp" alt="« Photography Masterclass » de Stéphane Nounamo (I)" width="240"></a>
+<a href="../projets/apero-masterclass.md"><img src="../../public/work/historique/14-apero-masterclass/14-apero-masterclass-01.jpg" alt="Apéro Masterclass (masterclasses photo)" width="240"></a>
+<a href="../projets/student-photographer-stephane-nounamo-travaux.md"><img src="../../public/medias-wiki/projets/student-photographer-stephane-nounamo-travaux/01.webp" alt="Student Photographer (Stéphane Nounamo) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 
@@ -61,11 +71,11 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 <!-- wiki:projets -->
 - **2022** — [« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)](../projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo.md)
 - **2022** — [« Photography Masterclass » de Stéphane Nounamo (I)](../projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md)
-- **2022** — [Apéro Masterclass](../projets/apero-masterclass.md)
+- **2022** — [Apéro Masterclass (masterclasses photo)](../projets/apero-masterclass.md)
 - **2021–2024** — [Student Photographer (Stéphane Nounamo) — travaux](../projets/student-photographer-stephane-nounamo-travaux.md)
 <!-- /wiki:projets -->
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)](../projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo.md) · [« Photography Masterclass » de Stéphane Nounamo (I)](../projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md) · [Apéro Masterclass](../projets/apero-masterclass.md) · [Student Photographer (Stéphane Nounamo) — travaux](../projets/student-photographer-stephane-nounamo-travaux.md)
+**Pages liées** : [« Les Apéro Masterclass photographiques » de Stéphane Nounamo (II)](../projets/evt-2022-12-22-les-apero-masterclass-photographiques-de-stephane-nounamo.md) · [« Photography Masterclass » de Stéphane Nounamo (I)](../projets/evt-2022-08-27-photography-masterclass-de-stephane-nounamo-i.md) · [Apéro Masterclass (masterclasses photo)](../projets/apero-masterclass.md) · [Student Photographer (Stéphane Nounamo) — travaux](../projets/student-photographer-stephane-nounamo-travaux.md)
 <!-- /wiki:liens-entrants -->

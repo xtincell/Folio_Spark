@@ -8,6 +8,8 @@ etat: "ebauche"
 # Akwa Palace
 
 <!-- wiki:infobox -->
+![Akwa Palace](../../public/work/tier23/akwa-palace-2025/akwa-palace-2025-01.jpg)
+
 | Akwa Palace | |
 | --- | --- |
 | Nature | Hôtellerie |

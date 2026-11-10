@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Ear Rings Store by Lyly — travaux
 
 <!-- wiki:infobox -->
+![Ear Rings Store by Lyly — travaux](../../public/medias-wiki/projets/ear-rings-store-by-lyly-travaux/01.webp)
+
 | Ear Rings Store by Lyly — travaux | |
 | --- | --- |
 | Client | [Ear Rings Store by Lyly](../organisations/ear-rings-store-by-lyly.md) |
@@ -30,6 +32,12 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Ear Rings Store by Lyly](../organisations/ear-rings-store-by-lyly.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/ear-rings-store-by-lyly-travaux/02.webp"><img src="../../public/medias-wiki/projets/ear-rings-store-by-lyly-travaux/02.webp" alt="Ear Rings Store by Lyly — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

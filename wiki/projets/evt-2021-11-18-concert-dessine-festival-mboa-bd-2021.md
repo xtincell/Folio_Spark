@@ -16,6 +16,8 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 # Concert dessiné (festival Mboa BD 2021)
 
 <!-- wiki:infobox -->
+![Concert dessiné (festival Mboa BD 2021)](../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/01.webp)
+
 | Concert dessiné (festival Mboa BD 2021) | |
 | --- | --- |
 | Client | [Mboa BD](../organisations/mboa-bd.md) |
@@ -38,6 +40,16 @@ verifier: ["Fiabilité selon les notes de rangement : déduit."]
 - **Ce que montrent les images** : Table de dédicace Blacktrek, puis concert avec un dessin réalisé en direct et projeté derrière le groupe.
 - **Identification** : table « Blacktrek » ; dessin live projeté ; 18/11/2021 tombe dans les dates du festival Mboa BD 2021 (17-27/11, Yaoundé puis Douala)
 - **Fiabilité** : déduit
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/02.webp" alt="Concert dessiné (festival Mboa BD 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/03.webp" alt="Concert dessiné (festival Mboa BD 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/04.webp" alt="Concert dessiné (festival Mboa BD 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/05.webp" alt="Concert dessiné (festival Mboa BD 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/06.webp" alt="Concert dessiné (festival Mboa BD 2021)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

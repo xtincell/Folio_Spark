@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Spark — agence de talents
 
 <!-- wiki:infobox -->
+![Spark — agence de talents](../../public/medias-wiki/projets/spark-agence-de-talents/01.webp)
+
 | Spark — agence de talents | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/spark-agence-de-talents/02.webp"><img src="../../public/medias-wiki/projets/spark-agence-de-talents/02.webp" alt="Spark — agence de talents" width="240"></a>
+<a href="../../public/medias-wiki/projets/spark-agence-de-talents/03.webp"><img src="../../public/medias-wiki/projets/spark-agence-de-talents/03.webp" alt="Spark — agence de talents" width="240"></a>
+<a href="../../public/medias-wiki/projets/spark-agence-de-talents/04.webp"><img src="../../public/medias-wiki/projets/spark-agence-de-talents/04.webp" alt="Spark — agence de talents" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

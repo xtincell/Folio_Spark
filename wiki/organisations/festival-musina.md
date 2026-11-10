@@ -8,6 +8,8 @@ etat: "ebauche"
 # Festival Musina
 
 <!-- wiki:infobox -->
+![Festival Musina](../../public/work/cases/musina-festival/hero.webp)
+
 | Festival Musina | |
 | --- | --- |
 | Nature | Festival |

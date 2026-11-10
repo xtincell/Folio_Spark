@@ -6,12 +6,15 @@ casquette: "execution"
 genre: "Portrait · Musique"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/lydol/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/85473637/e8b3d225bc413fe41b844b82c45a751a-large.jpg"
 etat: "ebauche"
 verifier: ["Date de la séance absente de Pixieset."]
 ---
 # Lydol — galerie photo
 
 <!-- wiki:infobox -->
+![Lydol — galerie photo](https://images.pixieset.com/85473637/e8b3d225bc413fe41b844b82c45a751a-large.jpg)
+
 | Lydol — galerie photo | |
 | --- | --- |
 | Casquette | Exécution |

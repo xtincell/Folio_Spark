@@ -6,6 +6,7 @@ casquette: "execution"
 genre: "Événement"
 liens: [{"label":"Galerie Pixieset","url":"https://xtincell.pixieset.com/afrobit/"}]
 sources: ["pixieset:xtincell.pixieset.com"]
+couverture: "https://images.pixieset.com/02359347/25ea342e00b9e27799759ac24f912ac4-large.jpg"
 etat: "ebauche"
 client: "afrobit"
 verifier: ["Date de la séance absente de Pixieset."]
@@ -13,6 +14,8 @@ verifier: ["Date de la séance absente de Pixieset."]
 # AfroBit — galerie photo
 
 <!-- wiki:infobox -->
+![AfroBit — galerie photo](https://images.pixieset.com/02359347/25ea342e00b9e27799759ac24f912ac4-large.jpg)
+
 | AfroBit — galerie photo | |
 | --- | --- |
 | Client | [Afrobit](../organisations/afrobit.md) |

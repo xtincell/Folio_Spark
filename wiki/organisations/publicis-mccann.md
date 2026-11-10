@@ -8,6 +8,8 @@ etat: "standard"
 # Publicis / McCann
 
 <!-- wiki:infobox -->
+![Publicis / McCann](../../public/medias-wiki/projets/orange-evenements-2025-2026/01.webp)
+
 | Publicis / McCann | |
 | --- | --- |
 | Nature | Agence de publicité |
@@ -20,7 +22,7 @@ etat: "standard"
 
 ## Présentation
 
-Agence relais par laquelle passaient les missions photo pour Orange Cameroun.
+Agence relais par laquelle passent la plupart des couvertures d’événements d’Orange Cameroun en 2025 et 2026. Le CV de 2026 la cite aussi pour des campagnes Orange de 2013–2018, que les sources d’époque n’étayent pas (voir [Orange Cameroun](orange-cameroun.md)).
 
 ## Archives de travail
 
@@ -49,11 +51,11 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 
 <!-- wiki:projets -->
 - **2025–2026** — [Orange Cameroun — événements 2025–2026](../projets/orange-evenements-2025-2026.md) _(en tant qu’agence relais)_
-- **2013–2018** — [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md) _(en tant qu’agence relais)_
+- [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md) _(en tant qu’agence relais)_
 <!-- /wiki:projets -->
 
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Orange Cameroun — événements 2025–2026](../projets/orange-evenements-2025-2026.md) · [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md)
+**Pages liées** : [Orange Cameroun](orange-cameroun.md) · [Orange Cameroun — événements 2025–2026](../projets/orange-evenements-2025-2026.md) · [Orange Cameroun — photographie de campagnes](../projets/orange-campagnes-photo.md)
 <!-- /wiki:liens-entrants -->

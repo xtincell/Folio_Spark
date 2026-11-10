@@ -9,6 +9,8 @@ etat: "ebauche"
 # Adzal
 
 <!-- wiki:infobox -->
+![Adzal](../../public/medias-wiki/projets/adzal-travaux/01.webp)
+
 | Adzal | |
 | --- | --- |
 | Nature | À préciser |

@@ -15,6 +15,8 @@ etat: "ebauche"
 # Cosmos Boba — Bubble tea
 
 <!-- wiki:infobox -->
+![Cosmos Boba — Bubble tea](../../public/work/cases/cosmo-boba/hero.webp)
+
 | Cosmos Boba — Bubble tea | |
 | --- | --- |
 | Client | [Cosmos Boba](../organisations/cosmos-boba.md) |
@@ -31,6 +33,17 @@ etat: "ebauche"
 ## Contexte
 
 Identité et visuels produit pour la marque de bubble tea Cosmos Boba à univers cosmique : logo manuscrit, packaging et flyers social autour de la boisson en cup ronde.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/cosmo-boba/01.webp"><img src="../../public/work/cases/cosmo-boba/01.webp" alt="Cosmos Boba — Bubble tea" width="240"></a>
+<a href="../../public/work/cases/cosmo-boba/02.webp"><img src="../../public/work/cases/cosmo-boba/02.webp" alt="Cosmos Boba — Bubble tea" width="240"></a>
+<a href="../../public/work/cases/cosmo-boba/03.webp"><img src="../../public/work/cases/cosmo-boba/03.webp" alt="Cosmos Boba — Bubble tea" width="240"></a>
+<a href="../../public/work/cases/cosmo-boba/04.webp"><img src="../../public/work/cases/cosmo-boba/04.webp" alt="Cosmos Boba — Bubble tea" width="240"></a>
+<a href="../../public/work/cases/cosmo-boba/05.webp"><img src="../../public/work/cases/cosmo-boba/05.webp" alt="Cosmos Boba — Bubble tea" width="240"></a>
+<a href="../../public/work/cases/cosmo-boba/06.webp"><img src="../../public/work/cases/cosmo-boba/06.webp" alt="Cosmos Boba — Bubble tea" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

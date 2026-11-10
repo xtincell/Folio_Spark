@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # K Hotel — travaux
 
 <!-- wiki:infobox -->
+![K Hotel — travaux](../../public/medias-wiki/projets/k-hotel-travaux/01.webp)
+
 | K Hotel — travaux | |
 | --- | --- |
 | Client | [K Hotel](../organisations/k-hotel.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [K Hotel](../organisations/k-hotel.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/k-hotel-travaux/02.webp"><img src="../../public/medias-wiki/projets/k-hotel-travaux/02.webp" alt="K Hotel — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/k-hotel-travaux/03.webp"><img src="../../public/medias-wiki/projets/k-hotel-travaux/03.webp" alt="K Hotel — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/k-hotel-travaux/04.webp"><img src="../../public/medias-wiki/projets/k-hotel-travaux/04.webp" alt="K Hotel — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/k-hotel-travaux/05.webp"><img src="../../public/medias-wiki/projets/k-hotel-travaux/05.webp" alt="K Hotel — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/k-hotel-travaux/06.webp"><img src="../../public/medias-wiki/projets/k-hotel-travaux/06.webp" alt="K Hotel — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

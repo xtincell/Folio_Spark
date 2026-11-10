@@ -9,6 +9,8 @@ etat: "ebauche"
 # Groupe Cible (Cible RH)
 
 <!-- wiki:infobox -->
+![Groupe Cible (Cible RH)](../../public/medias-wiki/projets/groupe-cible-cible-rh-travaux/01.webp)
+
 | Groupe Cible (Cible RH) | |
 | --- | --- |
 | Nature | À préciser |

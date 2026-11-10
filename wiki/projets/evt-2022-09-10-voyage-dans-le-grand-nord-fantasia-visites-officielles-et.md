@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : lieu probable, organisateu
 # Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua
 
 <!-- wiki:infobox -->
+![Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua](../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/01.webp)
+
 | Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua | |
 | --- | --- |
 | Période | 10-13 septembre 2022 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : lieu probable, organisateu
 - **Ce que montrent les images** : 10-13/09/2022 : fantasia de cavaliers devant la mosquée, tribune officielle sous tentes, remise d'un maillot vert dans un bureau officiel, audience chez le lamido, match dans un stade plein, paysages de rochers.
 - **Identification** : stade aux panneaux 1xBet ; maillot vert (Coton Sport de Garoua probable) ; aucun nom d'organisateur lisible
 - **Fiabilité** : lieu probable, organisateur inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/02.webp" alt="Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/03.webp" alt="Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/04.webp" alt="Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/05.webp" alt="Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-09-10-voyage-dans-le-grand-nord-fantasia-visites-officielles-et/06.webp" alt="Voyage dans le Grand Nord : fantasia, visites officielles et match à Garoua" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

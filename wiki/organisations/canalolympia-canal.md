@@ -9,6 +9,8 @@ etat: "ebauche"
 # CanalOlympia (Canal+)
 
 <!-- wiki:infobox -->
+![CanalOlympia (Canal+)](../../public/medias-wiki/projets/evt-2021-12-22-canalolympia-programmation-de-fin-d-annee-2021/01.webp)
+
 | CanalOlympia (Canal+) | |
 | --- | --- |
 | Nature | Salles de cinéma et de spectacle |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/canalolympia-canal-travaux.md"><img src="../../public/medias-wiki/projets/canalolympia-canal-travaux/01.webp" alt="CanalOlympia (Canal+) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

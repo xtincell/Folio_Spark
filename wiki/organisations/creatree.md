@@ -9,6 +9,8 @@ etat: "ebauche"
 # Creatree
 
 <!-- wiki:infobox -->
+![Creatree](../../public/medias-wiki/projets/creatree-travaux/01.webp)
+
 | Creatree | |
 | --- | --- |
 | Nature | À préciser |

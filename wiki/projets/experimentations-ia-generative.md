@@ -11,6 +11,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Expérimentations en IA générative
 
 <!-- wiki:infobox -->
+![Expérimentations en IA générative](../../public/medias-wiki/projets/experimentations-ia-generative/01.webp)
+
 | Expérimentations en IA générative | |
 | --- | --- |
 | Client | Projet personnel |
@@ -25,6 +27,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/experimentations-ia-generative/02.webp"><img src="../../public/medias-wiki/projets/experimentations-ia-generative/02.webp" alt="Expérimentations en IA générative" width="240"></a>
+<a href="../../public/medias-wiki/projets/experimentations-ia-generative/03.webp"><img src="../../public/medias-wiki/projets/experimentations-ia-generative/03.webp" alt="Expérimentations en IA générative" width="240"></a>
+<a href="../../public/medias-wiki/projets/experimentations-ia-generative/04.webp"><img src="../../public/medias-wiki/projets/experimentations-ia-generative/04.webp" alt="Expérimentations en IA générative" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

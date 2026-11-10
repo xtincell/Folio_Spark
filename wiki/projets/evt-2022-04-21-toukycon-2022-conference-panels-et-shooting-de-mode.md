@@ -14,6 +14,8 @@ etat: "standard"
 # ToukyCon 2022 — conférence, panels et shooting de mode
 
 <!-- wiki:infobox -->
+![ToukyCon 2022 — conférence, panels et shooting de mode](../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/01.webp)
+
 | ToukyCon 2022 — conférence, panels et shooting de mode | |
 | --- | --- |
 | Client | [Motion19](../organisations/motion19.md) |
@@ -37,6 +39,16 @@ etat: "standard"
   - 21 et 23/04/2022 : vidéos de la conférence et du shooting (voir n° 41-42).
 - **Identification** : bandeau « #TOUKYCON2022 — Motion19 — Xtincell » sur les photos ; panneau « Touky-Con »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/02.webp" alt="ToukyCon 2022 — conférence, panels et shooting de mode" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/03.webp" alt="ToukyCon 2022 — conférence, panels et shooting de mode" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/04.webp" alt="ToukyCon 2022 — conférence, panels et shooting de mode" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/05.webp" alt="ToukyCon 2022 — conférence, panels et shooting de mode" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/06.webp" alt="ToukyCon 2022 — conférence, panels et shooting de mode" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

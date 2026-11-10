@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Afrobit — travaux
 
 <!-- wiki:infobox -->
+![Afrobit — travaux](../../public/medias-wiki/projets/afrobit-travaux/01.webp)
+
 | Afrobit — travaux | |
 | --- | --- |
 | Client | [Afrobit](../organisations/afrobit.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Afrobit](../organisations/afrobit.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/afrobit-travaux/02.webp"><img src="../../public/medias-wiki/projets/afrobit-travaux/02.webp" alt="Afrobit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/afrobit-travaux/03.webp"><img src="../../public/medias-wiki/projets/afrobit-travaux/03.webp" alt="Afrobit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/afrobit-travaux/04.webp"><img src="../../public/medias-wiki/projets/afrobit-travaux/04.webp" alt="Afrobit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/afrobit-travaux/05.webp"><img src="../../public/medias-wiki/projets/afrobit-travaux/05.webp" alt="Afrobit — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/afrobit-travaux/06.webp"><img src="../../public/medias-wiki/projets/afrobit-travaux/06.webp" alt="Afrobit — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

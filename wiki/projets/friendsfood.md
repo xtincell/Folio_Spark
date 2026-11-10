@@ -15,6 +15,8 @@ etat: "ebauche"
 # FriendsFood 225 — Friends Afterwork
 
 <!-- wiki:infobox -->
+![FriendsFood 225 — Friends Afterwork](../../public/work/cases/friendsfood/hero.webp)
+
 | FriendsFood 225 — Friends Afterwork | |
 | --- | --- |
 | Client | [FriendsFood 225](../organisations/friendsfood-225.md) |
@@ -31,6 +33,14 @@ etat: "ebauche"
 ## Contexte
 
 Flyer promo social pour l'événement « Friends Afterwork » (Cocody, Abidjan) : photographie de grillades et bière pression, offres promo et signature « FRIENDS AFTERWORK ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/friendsfood/01.webp"><img src="../../public/work/cases/friendsfood/01.webp" alt="FriendsFood 225 — Friends Afterwork" width="240"></a>
+<a href="../../public/work/historique/15-friendsfood-restau/15-friendsfood-restau-01.jpg"><img src="../../public/work/historique/15-friendsfood-restau/15-friendsfood-restau-01.jpg" alt="FriendsFood 225 — Friends Afterwork" width="240"></a>
+<a href="../../public/work/historique/15-friendsfood-restau/15-friendsfood-restau-02.jpg"><img src="../../public/work/historique/15-friendsfood-restau/15-friendsfood-restau-02.jpg" alt="FriendsFood 225 — Friends Afterwork" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

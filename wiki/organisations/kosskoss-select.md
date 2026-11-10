@@ -9,6 +9,8 @@ etat: "ebauche"
 # KossKoss Select
 
 <!-- wiki:infobox -->
+![KossKoss Select](../../public/medias-wiki/projets/kosskoss-select-travaux/01.webp)
+
 | KossKoss Select | |
 | --- | --- |
 | Nature | À préciser |

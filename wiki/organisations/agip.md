@@ -8,6 +8,8 @@ etat: "ebauche"
 # AGIP
 
 <!-- wiki:infobox -->
+![AGIP](../../public/work/cases/cover-musical/hero.webp)
+
 | AGIP | |
 | --- | --- |
 | Nature | Artiste musical |

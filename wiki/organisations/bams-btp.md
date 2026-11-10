@@ -8,6 +8,8 @@ etat: "ebauche"
 # BAMS & BTP
 
 <!-- wiki:infobox -->
+![BAMS & BTP](../../public/work/cases/bams-btp/hero.webp)
+
 | BAMS & BTP | |
 | --- | --- |
 | Nature | BTP |

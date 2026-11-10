@@ -8,6 +8,8 @@ etat: "ebauche"
 # Cimencam
 
 <!-- wiki:infobox -->
+![Cimencam](../../public/medias-wiki/projets/evt-2023-02-27-cimencam-reportage-photo-d-entreprise-usine-de-bonaberi/01.webp)
+
 | Cimencam | |
 | --- | --- |
 | Nature | Cimenterie |

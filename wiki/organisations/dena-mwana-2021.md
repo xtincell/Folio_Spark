@@ -9,6 +9,8 @@ etat: "ebauche"
 # Dena Mwana 2021
 
 <!-- wiki:infobox -->
+![Dena Mwana 2021](../../public/medias-wiki/projets/evt-2021-12-25-dena-mwana-concert-de-noel/01.webp)
+
 | Dena Mwana 2021 | |
 | --- | --- |
 | Nature | Artiste musicale |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/dena-mwana-2021-travaux.md"><img src="../../public/medias-wiki/projets/dena-mwana-2021-travaux/01.webp" alt="Dena Mwana 2021 — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

@@ -9,6 +9,8 @@ etat: "ebauche"
 # Countrip 237
 
 <!-- wiki:infobox -->
+![Countrip 237](../../public/medias-wiki/projets/countrip-237-travaux/01.webp)
+
 | Countrip 237 | |
 | --- | --- |
 | Nature | À préciser |

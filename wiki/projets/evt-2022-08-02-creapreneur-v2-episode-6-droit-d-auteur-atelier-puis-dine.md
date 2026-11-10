@@ -14,6 +14,8 @@ verifier: ["Fiabilité selon les notes de rangement : confirmé. Organisateur : 
 # Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner
 
 <!-- wiki:infobox -->
+![Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner](../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/01.webp)
+
 | Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner | |
 | --- | --- |
 | Période | 2 août 2022 |
@@ -35,6 +37,16 @@ verifier: ["Fiabilité selon les notes de rangement : confirmé. Organisateur : 
 - **Identification** : écran « Créapreneur V.2 — Épisode 6 — Droit d'auteur » avec le logo X
 - **Fiabilité** : confirmé
 
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/02.webp" alt="Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/03.webp" alt="Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/04.webp" alt="Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/05.webp" alt="Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-08-02-creapreneur-v2-episode-6-droit-d-auteur-atelier-puis-dine/06.webp" alt="Créapreneur V2 — épisode 6 « Droit d'auteur » (atelier) puis dîner" width="240"></a>
+<!-- /wiki:galerie -->
+
 ## Archives
 
 - `Xtincell\Projets\Créapreneur V2\Épisode 6 — Droit d'auteur (02-08-2022)` (58 fichiers, disque P:)
@@ -44,4 +56,6 @@ verifier: ["Fiabilité selon les notes de rangement : confirmé. Organisateur : 
 - Notes « Événements couverts » établies lors du rangement des disques (28/10/2026), à partir des images, des dates de prise de vue et des livrables
 
 <!-- wiki:liens-entrants -->
+---
+**Pages liées** : [Créapreneur (podcast)](creapreneur-podcast.md)
 <!-- /wiki:liens-entrants -->

@@ -40,6 +40,12 @@ Réalisation du clip de l'artiste Retlaw pour le label HoHaaa Music — producti
 
 Réalisation · Direction. Repère d’origine : « Clip artiste ».
 
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="https://www.youtube.com/watch?v=zzDH4OVrUMM"><img src="https://i.ytimg.com/vi/zzDH4OVrUMM/hqdefault.jpg" alt="Retlaw — clip officiel" width="240"></a>
+<!-- /wiki:galerie -->
+
 ## Preuves et médias
 
 - [Retlaw — clip officiel](https://www.youtube.com/watch?v=zzDH4OVrUMM)

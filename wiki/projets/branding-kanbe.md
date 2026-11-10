@@ -13,6 +13,8 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 # Kanbe — branding
 
 <!-- wiki:infobox -->
+![Kanbe — branding](../../public/medias-wiki/projets/branding-kanbe/01.webp)
+
 | Kanbe — branding | |
 | --- | --- |
 | Client | Projet personnel |
@@ -28,6 +30,14 @@ verifier: ["Projet repéré dans les archives personnelles : objet, dates et ét
 ## Description
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/branding-kanbe/02.webp"><img src="../../public/medias-wiki/projets/branding-kanbe/02.webp" alt="Kanbe — branding" width="240"></a>
+<a href="../../public/medias-wiki/projets/branding-kanbe/03.webp"><img src="../../public/medias-wiki/projets/branding-kanbe/03.webp" alt="Kanbe — branding" width="240"></a>
+<a href="../../public/medias-wiki/projets/branding-kanbe/04.webp"><img src="../../public/medias-wiki/projets/branding-kanbe/04.webp" alt="Kanbe — branding" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

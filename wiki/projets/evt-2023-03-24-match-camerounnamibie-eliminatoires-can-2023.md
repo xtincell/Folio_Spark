@@ -15,6 +15,8 @@ etat: "standard"
 # Match Cameroun–Namibie (éliminatoires CAN 2023)
 
 <!-- wiki:infobox -->
+![Match Cameroun–Namibie (éliminatoires CAN 2023)](../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/01.webp)
+
 | Match Cameroun–Namibie (éliminatoires CAN 2023) | |
 | --- | --- |
 | Client | [LION DEN](../organisations/lion-den.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 24/03/2023 : installation, supporters en tribune, entrée des équipes, match de nuit (panneaux Orange, Top, 33 Export, Betwinner, Tradex), fumigènes.
 - **Identification** : panneaux du stade ; logo CAN ; date du match qualificatif
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/02.webp" alt="Match Cameroun–Namibie (éliminatoires CAN 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/03.webp" alt="Match Cameroun–Namibie (éliminatoires CAN 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/04.webp" alt="Match Cameroun–Namibie (éliminatoires CAN 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/05.webp" alt="Match Cameroun–Namibie (éliminatoires CAN 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-24-match-camerounnamibie-eliminatoires-can-2023/06.webp" alt="Match Cameroun–Namibie (éliminatoires CAN 2023)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

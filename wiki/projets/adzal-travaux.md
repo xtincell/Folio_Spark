@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Adzal — travaux
 
 <!-- wiki:infobox -->
+![Adzal — travaux](../../public/medias-wiki/projets/adzal-travaux/01.webp)
+
 | Adzal — travaux | |
 | --- | --- |
 | Client | [Adzal](../organisations/adzal.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Adzal](../organisations/adzal.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/adzal-travaux/02.webp"><img src="../../public/medias-wiki/projets/adzal-travaux/02.webp" alt="Adzal — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adzal-travaux/03.webp"><img src="../../public/medias-wiki/projets/adzal-travaux/03.webp" alt="Adzal — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adzal-travaux/04.webp"><img src="../../public/medias-wiki/projets/adzal-travaux/04.webp" alt="Adzal — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adzal-travaux/05.webp"><img src="../../public/medias-wiki/projets/adzal-travaux/05.webp" alt="Adzal — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/adzal-travaux/06.webp"><img src="../../public/medias-wiki/projets/adzal-travaux/06.webp" alt="Adzal — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

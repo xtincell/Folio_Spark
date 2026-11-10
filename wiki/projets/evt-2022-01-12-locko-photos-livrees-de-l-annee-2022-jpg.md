@@ -15,6 +15,8 @@ etat: "standard"
 # Locko — photos livrées de l'année 2022 (JPG)
 
 <!-- wiki:infobox -->
+![Locko — photos livrées de l'année 2022 (JPG)](../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/01.webp)
+
 | Locko — photos livrées de l'année 2022 (JPG) | |
 | --- | --- |
 | Client | [LOCKO](../organisations/locko.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Sélection retouchée : tournage de clip (03/02), concert de Saint-Valentin (14/02), MTN Zik Festival (26/02), Africa United (21-22/05), studio d'enregistrement (18/07), shooting studio en costumes orange, vert et wax (10/08), studio (24/08), interview radio en tee-shirt « Era ».
 - **Identification** : noms de fichiers datés ; bâches MTN et « Africa United » visibles
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/02.webp" alt="Locko — photos livrées de l'année 2022 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/03.webp" alt="Locko — photos livrées de l'année 2022 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/04.webp" alt="Locko — photos livrées de l'année 2022 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/05.webp" alt="Locko — photos livrées de l'année 2022 (JPG)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-01-12-locko-photos-livrees-de-l-annee-2022-jpg/06.webp" alt="Locko — photos livrées de l'année 2022 (JPG)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

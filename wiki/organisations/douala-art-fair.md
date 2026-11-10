@@ -9,6 +9,8 @@ etat: "ebauche"
 # Douala Art Fair
 
 <!-- wiki:infobox -->
+![Douala Art Fair](../../public/medias-wiki/projets/evt-2022-11-03-douala-art-fair/01.webp)
+
 | Douala Art Fair | |
 | --- | --- |
 | Nature | Foire d'art |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/douala-art-fair-travaux.md"><img src="../../public/medias-wiki/projets/douala-art-fair-travaux/01.webp" alt="Douala Art Fair — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

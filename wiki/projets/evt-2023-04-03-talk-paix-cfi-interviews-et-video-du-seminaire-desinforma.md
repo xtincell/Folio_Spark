@@ -15,6 +15,8 @@ etat: "standard"
 # Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »
 
 <!-- wiki:infobox -->
+![Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »](../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/01.webp)
+
 | Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information » | |
 | --- | --- |
 | Client | [Talk Paix (CFI)](../organisations/talk-paix-cfi.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Neuf interviews face caméra devant le roll-up « Talk Paix — Talk Peace » et montage final sous-titré FR et EN.
 - **Identification** : roll-up « Talk Paix » ; titre « Séminaire désinformation & vérification de l'information »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/02.webp" alt="Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/03.webp" alt="Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/04.webp" alt="Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/05.webp" alt="Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-04-03-talk-paix-cfi-interviews-et-video-du-seminaire-desinforma/06.webp" alt="Talk Paix (CFI) — interviews et vidéo du séminaire « Désinformation et vérification de l'information »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

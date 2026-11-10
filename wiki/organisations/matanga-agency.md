@@ -13,6 +13,8 @@ etat: "standard"
 # MATANGA Agency
 
 <!-- wiki:infobox -->
+![MATANGA Agency](../../public/work/cases/cap-esterias/hero.webp)
+
 | MATANGA Agency | |
 | --- | --- |
 | Nature | Agence marketing |
@@ -33,6 +35,26 @@ Agence marketing où Alexandre est Directeur Créatif & Artistique depuis janvie
 ## Rôle d’Alexandre
 
 Directeur Créatif & Artistique
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/delys.md"><img src="../../public/work/cases/delys/hero.webp" alt="Delys — Saint-Valentin" width="240"></a>
+<a href="../projets/ecobank.md"><img src="../../public/work/cases/ecobank/hero.webp" alt="Ecobank — 40 ans & ellever" width="240"></a>
+<a href="../projets/la-vache-qui-rit.md"><img src="../../public/work/cases/la-vache-qui-rit/hero.webp" alt="La Vache qui rit — Merch « For Good »" width="240"></a>
+<a href="../projets/matanga-agency.md"><img src="../../public/work/cases/matanga-agency/hero.webp" alt="Matanga Agency — Casting & marque" width="240"></a>
+<a href="../projets/nsia.md"><img src="../../public/work/cases/nsia/hero.webp" alt="NSIA Tontines — Campagne assurance" width="240"></a>
+<a href="../projets/robuste-packaging.md"><img src="../../public/work/cases/robuste-packaging/hero.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<a href="../projets/amigo.md"><img src="../../public/work/cases/amigo/hero.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<a href="../projets/bams-btp.md"><img src="../../public/work/cases/bams-btp/hero.webp" alt="BAMS & BTP — Identité corporate" width="240"></a>
+<a href="../projets/tcg-bonnet-rouge.md"><img src="../../public/work/cases/tcg-bonnet-rouge/hero.webp" alt="Bonnet Rouge — « Puissance Lactée » (TCG)" width="240"></a>
+<a href="../projets/enseigne.md"><img src="../../public/work/cases/enseigne/hero.webp" alt="Cadyst Farming — Enseigne" width="240"></a>
+<a href="../projets/cadyst-grain.md"><img src="../../public/work/cases/cadyst-grain/hero.webp" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../projets/lapasta.md"><img src="../../public/work/cases/lapasta/hero.webp" alt="La Pasta — Saisons & Mighty" width="240"></a>
+<a href="../projets/friesland-campina.md"><img src="../../public/work/cases/friesland-campina/hero.webp" alt="Peak & Bonnet Rouge — Campagnes saisonnières" width="240"></a>
+<a href="../projets/robuste.md"><img src="../../public/work/cases/robuste/hero.webp" alt="Robuste — Aliments pour bétail" width="240"></a>
+<a href="../projets/tradex.md"><img src="../../public/work/cases/tradex/hero.webp" alt="Tradex 2T — « Moto no di fail »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

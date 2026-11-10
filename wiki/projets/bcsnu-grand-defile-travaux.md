@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # BCSnU — Grand défilé — travaux
 
 <!-- wiki:infobox -->
+![BCSnU — Grand défilé — travaux](../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/01.webp)
+
 | BCSnU — Grand défilé — travaux | |
 | --- | --- |
 | Client | [BCSnU — Grand défilé](../organisations/bcsnu-grand-defile.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [BCSnU — Grand défilé](../organisations/bcsnu-grand-defile.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/02.webp"><img src="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/02.webp" alt="BCSnU — Grand défilé — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/03.webp"><img src="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/03.webp" alt="BCSnU — Grand défilé — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/04.webp"><img src="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/04.webp" alt="BCSnU — Grand défilé — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/05.webp"><img src="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/05.webp" alt="BCSnU — Grand défilé — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/06.webp"><img src="../../public/medias-wiki/projets/bcsnu-grand-defile-travaux/06.webp" alt="BCSnU — Grand défilé — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

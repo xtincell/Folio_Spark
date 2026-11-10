@@ -12,6 +12,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Isabella (groupe de rock) — travaux
 
 <!-- wiki:infobox -->
+![Isabella (groupe de rock) — travaux](../../public/medias-wiki/projets/isabella-groupe-de-rock-travaux/01.webp)
+
 | Isabella (groupe de rock) — travaux | |
 | --- | --- |
 | Client | [Isabella (groupe de rock)](../organisations/isabella-groupe-de-rock.md) |
@@ -27,6 +29,12 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Isabella (groupe de rock)](../organisations/isabella-groupe-de-rock.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/isabella-groupe-de-rock-travaux/02.webp"><img src="../../public/medias-wiki/projets/isabella-groupe-de-rock-travaux/02.webp" alt="Isabella (groupe de rock) — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

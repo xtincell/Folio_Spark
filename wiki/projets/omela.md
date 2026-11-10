@@ -11,6 +11,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # Omela
 
 <!-- wiki:infobox -->
+![Omela](../../public/work/omela/omela-01.jpg)
+
 | Omela | |
 | --- | --- |
 | Casquette | Direction créative & artistique |
@@ -24,6 +26,16 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/omela/omela-02.jpg"><img src="../../public/work/omela/omela-02.jpg" alt="Omela" width="240"></a>
+<a href="../../public/work/omela/omela-03.jpg"><img src="../../public/work/omela/omela-03.jpg" alt="Omela" width="240"></a>
+<a href="../../public/work/omela/omela-04.jpg"><img src="../../public/work/omela/omela-04.jpg" alt="Omela" width="240"></a>
+<a href="../../public/work/omela/omela-05.jpg"><img src="../../public/work/omela/omela-05.jpg" alt="Omela" width="240"></a>
+<a href="../../public/work/omela/omela-06.jpg"><img src="../../public/work/omela/omela-06.jpg" alt="Omela" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

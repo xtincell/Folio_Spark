@@ -9,6 +9,8 @@ etat: "ebauche"
 # Ear Rings Store by Lyly
 
 <!-- wiki:infobox -->
+![Ear Rings Store by Lyly](../../public/medias-wiki/projets/ear-rings-store-by-lyly-travaux/01.webp)
+
 | Ear Rings Store by Lyly | |
 | --- | --- |
 | Nature | À préciser |

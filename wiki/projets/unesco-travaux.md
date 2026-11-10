@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # UNESCO — travaux
 
 <!-- wiki:infobox -->
+![UNESCO — travaux](../../public/medias-wiki/projets/unesco-travaux/01.webp)
+
 | UNESCO — travaux | |
 | --- | --- |
 | Client | [UNESCO](../organisations/unesco.md) |
@@ -31,6 +33,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [UNESCO](../organisations/unesco.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/unesco-travaux/02.webp"><img src="../../public/medias-wiki/projets/unesco-travaux/02.webp" alt="UNESCO — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/unesco-travaux/03.webp"><img src="../../public/medias-wiki/projets/unesco-travaux/03.webp" alt="UNESCO — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/unesco-travaux/04.webp"><img src="../../public/medias-wiki/projets/unesco-travaux/04.webp" alt="UNESCO — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/unesco-travaux/05.webp"><img src="../../public/medias-wiki/projets/unesco-travaux/05.webp" alt="UNESCO — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/unesco-travaux/06.webp"><img src="../../public/medias-wiki/projets/unesco-travaux/06.webp" alt="UNESCO — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

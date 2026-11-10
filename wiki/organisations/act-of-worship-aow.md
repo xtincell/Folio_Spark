@@ -9,6 +9,8 @@ etat: "ebauche"
 # Act of Worship (AOW)
 
 <!-- wiki:infobox -->
+![Act of Worship (AOW)](../../public/medias-wiki/projets/act-of-worship-aow-travaux/01.webp)
+
 | Act of Worship (AOW) | |
 | --- | --- |
 | Nature | À préciser |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-sans-date-concert-gospel-acts-of-worship-aow.md"><img src="../../public/medias-wiki/projets/evt-sans-date-concert-gospel-acts-of-worship-aow/01.webp" alt="Concert gospel « Acts of Worship » (AOW)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

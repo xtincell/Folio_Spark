@@ -8,6 +8,8 @@ etat: "ebauche"
 # Frutas
 
 <!-- wiki:infobox -->
+![Frutas](../../public/work/cases/frutas/hero.webp)
+
 | Frutas | |
 | --- | --- |
 | Nature | Boisson |

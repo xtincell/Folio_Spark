@@ -9,6 +9,8 @@ etat: "ebauche"
 # Ambassade des États-Unis
 
 <!-- wiki:infobox -->
+![Ambassade des États-Unis](../../public/medias-wiki/projets/ambassade-des-etats-unis-travaux/01.webp)
+
 | Ambassade des États-Unis | |
 | --- | --- |
 | Nature | Institution diplomatique |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp.md"><img src="../../public/medias-wiki/projets/evt-2023-11-11-bal-des-marines-de-l-ambassade-des-etats-unis-marine-corp/01.webp" alt="Bal des Marines de l'ambassade des États-Unis (Marine Corps Ball)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

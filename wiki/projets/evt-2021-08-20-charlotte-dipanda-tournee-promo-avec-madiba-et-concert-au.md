@@ -15,6 +15,8 @@ etat: "standard"
 # Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)
 
 <!-- wiki:infobox -->
+![Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)](../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/01.webp)
+
 | Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021) | |
 | --- | --- |
 | Client | [Universal Music Africa](../organisations/universal-music-africa.md) |
@@ -39,6 +41,16 @@ etat: "standard"
   - 27/08 : stand Canal+ ; 28-29/08 : premières parties, concert de Charlotte Dipanda en tenue noire à épaulettes, danseuses en jupes raphia, duo final.
 - **Identification** : roll-ups Madiba ; micros « Radio Siantou 90.5 FM » ; mêmes dates que le concert du 27-29/08/2021 sur P:
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/02.webp" alt="Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/03.webp" alt="Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/04.webp" alt="Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/05.webp" alt="Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-08-20-charlotte-dipanda-tournee-promo-avec-madiba-et-concert-au/06.webp" alt="Charlotte Dipanda — tournée promo avec Madiba et concert au Palais des sports (août 2021)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

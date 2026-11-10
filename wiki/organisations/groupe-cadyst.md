@@ -10,6 +10,8 @@ verifier: ["Delys est rattaché au Groupe Cadyst par déduction (dossier médias
 # Groupe Cadyst
 
 <!-- wiki:infobox -->
+![Groupe Cadyst](../../public/work/cases/delys/hero.webp)
+
 | Groupe Cadyst | |
 | --- | --- |
 | Nature | Groupe agro-industriel (Cadyst Grain, Cadyst Farming) |
@@ -31,6 +33,16 @@ _À documenter._
 - Robuste
 - Delys
 - Barka
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/robuste-packaging.md"><img src="../../public/work/cases/robuste-packaging/hero.webp" alt="Robuste — Packaging aliments" width="240"></a>
+<a href="../projets/amigo.md"><img src="../../public/work/cases/amigo/hero.webp" alt="Amigo — Boulangerie & beignets" width="240"></a>
+<a href="../projets/enseigne.md"><img src="../../public/work/cases/enseigne/hero.webp" alt="Cadyst Farming — Enseigne" width="240"></a>
+<a href="../projets/cadyst-grain.md"><img src="../../public/work/cases/cadyst-grain/hero.webp" alt="Cadyst Grain — Mascotte « Maître Tondo »" width="240"></a>
+<a href="../projets/robuste.md"><img src="../../public/work/cases/robuste/hero.webp" alt="Robuste — Aliments pour bétail" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

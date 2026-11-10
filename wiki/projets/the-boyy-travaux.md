@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # The Boyy — travaux
 
 <!-- wiki:infobox -->
+![The Boyy — travaux](../../public/medias-wiki/projets/the-boyy-travaux/01.webp)
+
 | The Boyy — travaux | |
 | --- | --- |
 | Client | [The Boyy](../organisations/the-boyy.md) |
@@ -30,6 +32,16 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [The Boyy](../organisations/the-boyy.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/the-boyy-travaux/02.webp"><img src="../../public/medias-wiki/projets/the-boyy-travaux/02.webp" alt="The Boyy — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/the-boyy-travaux/03.webp"><img src="../../public/medias-wiki/projets/the-boyy-travaux/03.webp" alt="The Boyy — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/the-boyy-travaux/04.webp"><img src="../../public/medias-wiki/projets/the-boyy-travaux/04.webp" alt="The Boyy — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/the-boyy-travaux/05.webp"><img src="../../public/medias-wiki/projets/the-boyy-travaux/05.webp" alt="The Boyy — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/the-boyy-travaux/06.webp"><img src="../../public/medias-wiki/projets/the-boyy-travaux/06.webp" alt="The Boyy — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

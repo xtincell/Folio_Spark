@@ -9,6 +9,8 @@ etat: "ebauche"
 # Timing Agency
 
 <!-- wiki:infobox -->
+![Timing Agency](../../public/medias-wiki/projets/evt-2023-10-28-activation-jameson-black-barrel-en-lounge/01.webp)
+
 | Timing Agency | |
 | --- | --- |
 | Nature | Agence événementielle |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/timing-agency-travaux.md"><img src="../../public/medias-wiki/projets/timing-agency-travaux/01.webp" alt="Timing Agency — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

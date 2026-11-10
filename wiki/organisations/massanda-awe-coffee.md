@@ -9,6 +9,8 @@ etat: "ebauche"
 # Massanda Awe Coffee
 
 <!-- wiki:infobox -->
+![Massanda Awe Coffee](../../public/medias-wiki/projets/massanda-awe-coffee-travaux/01.webp)
+
 | Massanda Awe Coffee | |
 | --- | --- |
 | Nature | À préciser |

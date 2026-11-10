@@ -17,6 +17,8 @@ verifier: ["Année absente des sources."]
 # Port Autonome de Kribi — Octobre Rose
 
 <!-- wiki:infobox -->
+![Port Autonome de Kribi — Octobre Rose](../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-01.jpg)
+
 | Port Autonome de Kribi — Octobre Rose | |
 | --- | --- |
 | Client | [Port Autonome de Kribi](../organisations/port-autonome-de-kribi.md) |
@@ -38,6 +40,17 @@ Direction artistique et exécution des contenus de la campagne Octobre Rose pour
 ## Rôle
 
 DA & Exécution. Repère d’origine : « Octobre Rose ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-02.jpg"><img src="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-02.jpg" alt="Port Autonome de Kribi — Octobre Rose" width="240"></a>
+<a href="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-03.jpg"><img src="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-03.jpg" alt="Port Autonome de Kribi — Octobre Rose" width="240"></a>
+<a href="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-04.jpg"><img src="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-04.jpg" alt="Port Autonome de Kribi — Octobre Rose" width="240"></a>
+<a href="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-05.jpg"><img src="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-05.jpg" alt="Port Autonome de Kribi — Octobre Rose" width="240"></a>
+<a href="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-06.jpg"><img src="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-06.jpg" alt="Port Autonome de Kribi — Octobre Rose" width="240"></a>
+<a href="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-07.jpg"><img src="../../public/work/tier23/port-autonome-kribi/port-autonome-kribi-07.jpg" alt="Port Autonome de Kribi — Octobre Rose" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

@@ -15,6 +15,8 @@ etat: "standard"
 # MTN Business Academy — formation au marketing digital et remise de certificats
 
 <!-- wiki:infobox -->
+![MTN Business Academy — formation au marketing digital et remise de certificats](../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/01.webp)
+
 | MTN Business Academy — formation au marketing digital et remise de certificats | |
 | --- | --- |
 | Client | [MTN Cameroon](../organisations/mtn-cameroon.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : 11-12/05/2023 : formation en salle, interventions, remise des certificats devant le roll-up « Grow your business ! », interview sur le photocall MTN Business Academy.
 - **Identification** : roll-ups « MTN — Grow your business ! Receive free training in Digital Marketing » et photocall « MTN Business Academy #LeBusinessEnMieux »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/02.webp" alt="MTN Business Academy — formation au marketing digital et remise de certificats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/03.webp" alt="MTN Business Academy — formation au marketing digital et remise de certificats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/04.webp" alt="MTN Business Academy — formation au marketing digital et remise de certificats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/05.webp" alt="MTN Business Academy — formation au marketing digital et remise de certificats" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/06.webp" alt="MTN Business Academy — formation au marketing digital et remise de certificats" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

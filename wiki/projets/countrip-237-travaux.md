@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Countrip 237 — travaux
 
 <!-- wiki:infobox -->
+![Countrip 237 — travaux](../../public/medias-wiki/projets/countrip-237-travaux/01.webp)
+
 | Countrip 237 — travaux | |
 | --- | --- |
 | Client | [Countrip 237](../organisations/countrip-237.md) |
@@ -30,6 +32,14 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 ## Description
 
 _À documenter : demande, rôle, livrables._ Les dossiers et opérations retrouvés sur les disques sont détaillés sur la fiche [Countrip 237](../organisations/countrip-237.md#archives-de-travail).
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/countrip-237-travaux/02.webp"><img src="../../public/medias-wiki/projets/countrip-237-travaux/02.webp" alt="Countrip 237 — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/countrip-237-travaux/03.webp"><img src="../../public/medias-wiki/projets/countrip-237-travaux/03.webp" alt="Countrip 237 — travaux" width="240"></a>
+<a href="../../public/medias-wiki/projets/countrip-237-travaux/04.webp"><img src="../../public/medias-wiki/projets/countrip-237-travaux/04.webp" alt="Countrip 237 — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Sources
 

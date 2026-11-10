@@ -14,6 +14,8 @@ verifier: ["Fiche créée depuis les archives des disques : nature exacte de la 
 # Umdeny Corp — travaux
 
 <!-- wiki:infobox -->
+![Umdeny Corp — travaux](../../public/medias-wiki/projets/umdeny-corp-travaux/01.webp)
+
 | Umdeny Corp — travaux | |
 | --- | --- |
 | Client | [Umdeny Corp](../organisations/umdeny-corp.md) |

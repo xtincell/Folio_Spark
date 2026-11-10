@@ -9,6 +9,8 @@ etat: "ebauche"
 # CLR Sneakers
 
 <!-- wiki:infobox -->
+![CLR Sneakers](../../public/medias-wiki/projets/clr-sneakers-travaux/01.webp)
+
 | CLR Sneakers | |
 | --- | --- |
 | Nature | À préciser |

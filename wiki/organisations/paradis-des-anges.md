@@ -9,6 +9,8 @@ etat: "ebauche"
 # Paradis des Anges
 
 <!-- wiki:infobox -->
+![Paradis des Anges](../../public/medias-wiki/projets/paradis-des-anges-travaux/01.webp)
+
 | Paradis des Anges | |
 | --- | --- |
 | Nature | À préciser |

@@ -7,12 +7,13 @@ lieu: "Douala"
 role: "Brand Manager — architecture branding"
 debut: 2021
 fin: 2023
-etat: "a-verifier"
-verifier: ["Le CV date le poste de Brand Manager 2021–2023 ; practices.ts date le projet UPgraders × Motion19 2019–2022 (« 30 mois »)."]
+etat: "standard"
 ---
 # Motion19
 
 <!-- wiki:infobox -->
+![Motion19](../../public/work/cases/motion19-store/hero.webp)
+
 | Motion19 | |
 | --- | --- |
 | Nature | Distributeur de matériel audiovisuel |
@@ -21,7 +22,7 @@ verifier: ["Le CV date le poste de Brand Manager 2021–2023 ; practices.ts date
 | Période | 2021–2023 |
 | Lieu | Douala |
 | Projets liés | 3 |
-| État de la fiche | À vérifier |
+| État de la fiche | Standard |
 <!-- /wiki:infobox -->
 
 **Motion19** (distributeur de matériel audiovisuel) est un employeur d’Alexandre « Xtincell » Djengue, 2021–2023.
@@ -30,9 +31,18 @@ verifier: ["Le CV date le poste de Brand Manager 2021–2023 ; practices.ts date
 
 Marque positionnée comme leader du matériel audiovisuel en Afrique centrale. Construite de A à Z par UPgraders ; Alexandre y a été Brand Manager (architecture branding, recrutement de l'équipe digitale, production de contenu, suivi de performance).
 
+Le CV de mai 2023 date le poste de Brand Manager d’avril 2021 à février 2023, et Motion19 est ajouté au profil Facebook d’Alexandre en mai 2021. `practices.ts` situe le projet de 2019 à 2022 et parle de « 30 mois ». Le wiki retient **avril 2021 – février 2023** ([confrontation des sources](../sources.md#confrontation-élément-par-élément)). _Sources : [cv-2023-05](../sources.md#cv-2023-05), [facebook](../sources.md#facebook)._
+
 ## Rôle d’Alexandre
 
 Brand Manager — architecture branding
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode.md"><img src="../../public/medias-wiki/projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode/01.webp" alt="ToukyCon 2022 — conférence, panels et shooting de mode" width="240"></a>
+<a href="../projets/motion19-lancement.md"><img src="../../public/work/historique/07-motion19-historique/07-motion19-historique-01.jpg" alt="Motion19 — construction de marque" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 
@@ -100,9 +110,15 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 <!-- wiki:projets -->
 - **2025** — [MOTION19 — Boutique audiovisuelle](../projets/motion19-store.md)
 - **2022** — [ToukyCon 2022 — conférence, panels et shooting de mode](../projets/evt-2022-04-21-toukycon-2022-conference-panels-et-shooting-de-mode.md)
-- **2019–2022** — [Motion19 — construction de marque](../projets/motion19-lancement.md)
+- **2021–2023** — [Motion19 — construction de marque](../projets/motion19-lancement.md)
 <!-- /wiki:projets -->
 
+
+## Sources
+
+- CV « Dircom », 16 mai 2023 — voir [cv-2023-05](../sources.md#cv-2023-05)
+- Export du compte Facebook (2023) — voir [facebook](../sources.md#facebook)
+- Folio — `src/components/folio/data/practices.ts`, entrée « MOTION19 »
 
 <!-- wiki:liens-entrants -->
 ---

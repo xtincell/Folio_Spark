@@ -15,6 +15,8 @@ verifier: ["Passage par McCann indiqué sur la plupart des dossiers, pas sur tou
 # Orange Cameroun — événements 2025–2026
 
 <!-- wiki:infobox -->
+![Orange Cameroun — événements 2025–2026](../../public/medias-wiki/projets/orange-evenements-2025-2026/01.webp)
+
 | Orange Cameroun — événements 2025–2026 | |
 | --- | --- |
 | Client | [Orange Cameroun](../organisations/orange-cameroun.md) |
@@ -32,6 +34,16 @@ verifier: ["Passage par McCann indiqué sur la plupart des dossiers, pas sur tou
 ## Description
 
 _À documenter._ Liste des opérations dans la section archives ci-dessous.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/orange-evenements-2025-2026/02.webp"><img src="../../public/medias-wiki/projets/orange-evenements-2025-2026/02.webp" alt="Orange Cameroun — événements 2025–2026" width="240"></a>
+<a href="../../public/medias-wiki/projets/orange-evenements-2025-2026/03.webp"><img src="../../public/medias-wiki/projets/orange-evenements-2025-2026/03.webp" alt="Orange Cameroun — événements 2025–2026" width="240"></a>
+<a href="../../public/medias-wiki/projets/orange-evenements-2025-2026/04.webp"><img src="../../public/medias-wiki/projets/orange-evenements-2025-2026/04.webp" alt="Orange Cameroun — événements 2025–2026" width="240"></a>
+<a href="../../public/medias-wiki/projets/orange-evenements-2025-2026/05.webp"><img src="../../public/medias-wiki/projets/orange-evenements-2025-2026/05.webp" alt="Orange Cameroun — événements 2025–2026" width="240"></a>
+<a href="../../public/medias-wiki/projets/orange-evenements-2025-2026/06.webp"><img src="../../public/medias-wiki/projets/orange-evenements-2025-2026/06.webp" alt="Orange Cameroun — événements 2025–2026" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 
@@ -57,5 +69,5 @@ _Relevé en lecture seule des disques de travail, 2026-11-09. Les pièces admini
 
 <!-- wiki:liens-entrants -->
 ---
-**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md)
+**Pages liées** : [Alexandre « Xtincell » Djengue](../personnes/alexandre-djengue.md) · [Orange Cameroun — photographie de campagnes](orange-campagnes-photo.md)
 <!-- /wiki:liens-entrants -->

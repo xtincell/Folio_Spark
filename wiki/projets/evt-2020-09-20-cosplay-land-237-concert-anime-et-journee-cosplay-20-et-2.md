@@ -14,6 +14,8 @@ etat: "standard"
 # Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)
 
 <!-- wiki:infobox -->
+![Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)](../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/01.webp)
+
 | Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020) | |
 | --- | --- |
 | Client | [Kamer Otaku Festival (KOF)](../organisations/kamer-otaku-festival.md) |
@@ -37,6 +39,16 @@ etat: "standard"
   - 20 et 26/09/2020 : concert de chansons d'anime devant un écran, puis cosplays dans le parc ; photos signées Cosplay Land 237 et Xtincell.
 - **Identification** : même salle (arches de verdure, écran) et même jour que les photos signées « Cosplay Land 237 » du dossier KOF 2020 « week21 » ; badge « Event staff »
 - **Fiabilité** : confirmé / confirmé (même événement que « week21 ») / confirmé (événement) ; lien KOF à vérifier
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/02.webp"><img src="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/02.webp" alt="Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/03.webp"><img src="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/03.webp" alt="Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/04.webp"><img src="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/04.webp" alt="Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/05.webp"><img src="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/05.webp" alt="Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/06.webp"><img src="../../public/medias-wiki/projets/evt-2020-09-20-cosplay-land-237-concert-anime-et-journee-cosplay-20-et-2/06.webp" alt="Cosplay Land 237 — concert anime et journée cosplay (20 et 26 septembre 2020)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

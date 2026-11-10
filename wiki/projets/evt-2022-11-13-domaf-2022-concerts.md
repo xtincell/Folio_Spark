@@ -15,6 +15,8 @@ etat: "standard"
 # DOMAF 2022 — concerts
 
 <!-- wiki:infobox -->
+![DOMAF 2022 — concerts](../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/01.webp)
+
 | DOMAF 2022 — concerts | |
 | --- | --- |
 | Client | [DOMAF — Conseil Camerounais de la Musique](../organisations/domaf-conseil-camerounais-de-la-musique.md) |
@@ -39,6 +41,16 @@ etat: "standard"
   - Version JPG de la soirée du 13/11/2022, mêmes numéros de fichiers que les RAW.
 - **Identification** : noms de fichiers « ATango », « Anofel », « Dashor », « Fendoung » ; dossier client DOMAF 2022 (festival des 13-14/11/2022)
 - **Fiabilité** : confirmé / confirmé (doublon JPG des RAW)
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/02.webp" alt="DOMAF 2022 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/03.webp" alt="DOMAF 2022 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/04.webp" alt="DOMAF 2022 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/05.webp" alt="DOMAF 2022 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/06.webp" alt="DOMAF 2022 — concerts" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

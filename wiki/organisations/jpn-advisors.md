@@ -8,6 +8,8 @@ etat: "ebauche"
 # JPN Advisors
 
 <!-- wiki:infobox -->
+![JPN Advisors](../../public/work/historique/11-jpn-advisors-identite/11-jpn-advisors-identite-01.jpg)
+
 | JPN Advisors | |
 | --- | --- |
 | Nature | Conseil |

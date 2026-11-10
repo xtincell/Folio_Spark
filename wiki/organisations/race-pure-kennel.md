@@ -9,6 +9,8 @@ etat: "ebauche"
 # Race Pure Kennel
 
 <!-- wiki:infobox -->
+![Race Pure Kennel](../../public/medias-wiki/projets/race-pure-kennel-travaux/01.webp)
+
 | Race Pure Kennel | |
 | --- | --- |
 | Nature | À préciser |

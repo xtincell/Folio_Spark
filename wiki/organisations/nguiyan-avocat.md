@@ -9,6 +9,8 @@ etat: "ebauche"
 # Nguiyan Avocat
 
 <!-- wiki:infobox -->
+![Nguiyan Avocat](../../public/medias-wiki/projets/nguiyan-avocat-travaux/01.webp)
+
 | Nguiyan Avocat | |
 | --- | --- |
 | Nature | À préciser |

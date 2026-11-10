@@ -9,6 +9,8 @@ etat: "ebauche"
 # DOMAF — Conseil Camerounais de la Musique
 
 <!-- wiki:infobox -->
+![DOMAF — Conseil Camerounais de la Musique](../../public/medias-wiki/projets/evt-2024-11-15-domaf-2024-concerts-et-battles/01.webp)
+
 | DOMAF — Conseil Camerounais de la Musique | |
 | --- | --- |
 | Nature | Institution culturelle |
@@ -22,6 +24,14 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2022-11-13-domaf-2022-concerts.md"><img src="../../public/medias-wiki/projets/evt-2022-11-13-domaf-2022-concerts/01.webp" alt="DOMAF 2022 — concerts" width="240"></a>
+<a href="../projets/evt-2021-11-25-domaf-2021-10e-edition.md"><img src="../../public/medias-wiki/projets/evt-2021-11-25-domaf-2021-10e-edition/01.webp" alt="DOMAF 2021 — 10e édition" width="240"></a>
+<a href="../projets/domaf-conseil-camerounais-de-la-musique-travaux.md"><img src="../../public/medias-wiki/projets/domaf-conseil-camerounais-de-la-musique-travaux/01.webp" alt="DOMAF — Conseil Camerounais de la Musique — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

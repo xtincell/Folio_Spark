@@ -13,6 +13,8 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 # Concert rap de quartier (maillots « Dinos 93 »)
 
 <!-- wiki:infobox -->
+![Concert rap de quartier (maillots « Dinos 93 »)](../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/01.webp)
+
 | Concert rap de quartier (maillots « Dinos 93 ») | |
 | --- | --- |
 | Période | 26 septembre 2021 |
@@ -32,6 +34,16 @@ verifier: ["Fiabilité selon les notes de rangement : client inconnu. Organisate
 - **Ce que montrent les images** : 26/09/2021 de 19 h à 21 h : concert de rap en plein air.
 - **Identification** : maillots « Dinos 93 » ; aucun passage de Dinos au Cameroun trouvé en ligne à cette date
 - **Fiabilité** : client inconnu
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/02.webp" alt="Concert rap de quartier (maillots « Dinos 93 »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/03.webp" alt="Concert rap de quartier (maillots « Dinos 93 »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/04.webp" alt="Concert rap de quartier (maillots « Dinos 93 »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/05.webp" alt="Concert rap de quartier (maillots « Dinos 93 »)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-09-26-concert-rap-de-quartier-maillots-dinos-93/06.webp" alt="Concert rap de quartier (maillots « Dinos 93 »)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

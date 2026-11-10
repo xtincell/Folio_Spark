@@ -15,6 +15,8 @@ etat: "ebauche"
 # Hogwarts — Récit court illustré
 
 <!-- wiki:infobox -->
+![Hogwarts — Récit court illustré](../../public/work/cases/hogwarts-short-story/hero.webp)
+
 | Hogwarts — Récit court illustré | |
 | --- | --- |
 | Client | Projet personnel |
@@ -31,6 +33,12 @@ etat: "ebauche"
 ## Contexte
 
 Composition narrative de réalisme magique : un homme nouant sa cravate à une fenêtre tandis que son reflet (médaillé, chouette livrant un parchemin) fusionne la magie avec un entretien d'embauche « Banque mondiale ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/hogwarts-short-story/01.webp"><img src="../../public/work/cases/hogwarts-short-story/01.webp" alt="Hogwarts — Récit court illustré" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

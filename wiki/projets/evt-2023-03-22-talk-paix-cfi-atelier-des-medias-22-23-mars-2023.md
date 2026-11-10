@@ -15,6 +15,8 @@ etat: "standard"
 # Talk Paix (CFI) — atelier des médias (22-23 mars 2023)
 
 <!-- wiki:infobox -->
+![Talk Paix (CFI) — atelier des médias (22-23 mars 2023)](../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/01.webp)
+
 | Talk Paix (CFI) — atelier des médias (22-23 mars 2023) | |
 | --- | --- |
 | Client | [Talk Paix (CFI)](../organisations/talk-paix-cfi.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Panel d'ouverture, interventions au pupitre, débats, travaux de groupe sur paperboard, roll-up « Talk Paix — 10 médias, 24 mois ».
 - **Identification** : roll-ups « Talk Paix — Talk Peace » ; porte-noms
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/02.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/02.webp" alt="Talk Paix (CFI) — atelier des médias (22-23 mars 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/03.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/03.webp" alt="Talk Paix (CFI) — atelier des médias (22-23 mars 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/04.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/04.webp" alt="Talk Paix (CFI) — atelier des médias (22-23 mars 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/05.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/05.webp" alt="Talk Paix (CFI) — atelier des médias (22-23 mars 2023)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/06.webp"><img src="../../public/medias-wiki/projets/evt-2023-03-22-talk-paix-cfi-atelier-des-medias-22-23-mars-2023/06.webp" alt="Talk Paix (CFI) — atelier des médias (22-23 mars 2023)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

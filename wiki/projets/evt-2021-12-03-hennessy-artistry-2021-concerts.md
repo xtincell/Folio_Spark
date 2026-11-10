@@ -15,6 +15,8 @@ etat: "standard"
 # Hennessy Artistry 2021 — concerts
 
 <!-- wiki:infobox -->
+![Hennessy Artistry 2021 — concerts](../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/01.webp)
+
 | Hennessy Artistry 2021 — concerts | |
 | --- | --- |
 | Client | [ARTISTRY HENNESSY](../organisations/artistry-hennessy.md) |
@@ -39,6 +41,16 @@ etat: "standard"
   - Version compressée de la sélection livrée des concerts des 03-04/12/2021.
 - **Identification** : bâche « Hennessy Artistry » ; « MIMIE » sur l'écran LED ; numéros de fichiers (_MG_1461 à _MG_2945) qui encadrent ceux des JPG déjà livrés dans « Artistry BKS »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/02.webp" alt="Hennessy Artistry 2021 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/03.webp" alt="Hennessy Artistry 2021 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/04.webp" alt="Hennessy Artistry 2021 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/05.webp" alt="Hennessy Artistry 2021 — concerts" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-12-03-hennessy-artistry-2021-concerts/06.webp" alt="Hennessy Artistry 2021 — concerts" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

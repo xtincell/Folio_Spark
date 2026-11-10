@@ -16,6 +16,8 @@ etat: "ebauche"
 # Cap Esterias Rosé — Élégance de l'instant
 
 <!-- wiki:infobox -->
+![Cap Esterias Rosé — Élégance de l'instant](../../public/work/cases/cap-esterias/hero.webp)
+
 | Cap Esterias Rosé — Élégance de l'instant | |
 | --- | --- |
 | Client | [Cap Esterias](../organisations/cap-esterias.md) |
@@ -33,6 +35,15 @@ etat: "ebauche"
 ## Contexte
 
 Campagne lifestyle premium pour le rosé pétillant Cap Esterias : trois femmes élégantes trinquant en bord de mer au coucher du soleil, signature « Vivez l'élégance de l'instant ».
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/cap-esterias/01.webp"><img src="../../public/work/cases/cap-esterias/01.webp" alt="Cap Esterias Rosé — Élégance de l'instant" width="240"></a>
+<a href="../../public/work/cases/cap-esterias/02.webp"><img src="../../public/work/cases/cap-esterias/02.webp" alt="Cap Esterias Rosé — Élégance de l'instant" width="240"></a>
+<a href="../../public/work/cases/cap-esterias/03.webp"><img src="../../public/work/cases/cap-esterias/03.webp" alt="Cap Esterias Rosé — Élégance de l'instant" width="240"></a>
+<a href="../../public/work/cases/cap-esterias/04.webp"><img src="../../public/work/cases/cap-esterias/04.webp" alt="Cap Esterias Rosé — Élégance de l'instant" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

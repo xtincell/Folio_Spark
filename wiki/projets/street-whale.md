@@ -14,6 +14,8 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 # Street Whale
 
 <!-- wiki:infobox -->
+![Street Whale](../../public/medias-wiki/projets/street-whale/01.webp)
+
 | Street Whale | |
 | --- | --- |
 | Client | [AMMCO](../organisations/ammco.md) |
@@ -30,6 +32,22 @@ verifier: ["Visuels présents dans le repo mais aucun texte de projet : contexte
 ## Description
 
 _À documenter : contexte, demande, rôle, résultat._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/street-whale/02.webp"><img src="../../public/medias-wiki/projets/street-whale/02.webp" alt="Street Whale" width="240"></a>
+<a href="../../public/medias-wiki/projets/street-whale/03.webp"><img src="../../public/medias-wiki/projets/street-whale/03.webp" alt="Street Whale" width="240"></a>
+<a href="../../public/medias-wiki/projets/street-whale/04.webp"><img src="../../public/medias-wiki/projets/street-whale/04.webp" alt="Street Whale" width="240"></a>
+<a href="../../public/medias-wiki/projets/street-whale/05.webp"><img src="../../public/medias-wiki/projets/street-whale/05.webp" alt="Street Whale" width="240"></a>
+<a href="../../public/medias-wiki/projets/street-whale/06.webp"><img src="../../public/medias-wiki/projets/street-whale/06.webp" alt="Street Whale" width="240"></a>
+<a href="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-01.jpg"><img src="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-01.jpg" alt="Street Whale" width="240"></a>
+<a href="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-02.jpg"><img src="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-02.jpg" alt="Street Whale" width="240"></a>
+<a href="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-03.jpg"><img src="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-03.jpg" alt="Street Whale" width="240"></a>
+<a href="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-04.jpg"><img src="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-04.jpg" alt="Street Whale" width="240"></a>
+<a href="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-05.jpg"><img src="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-05.jpg" alt="Street Whale" width="240"></a>
+<a href="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-06.jpg"><img src="../../public/work/historique/03-street-whale-2023/03-street-whale-2023-06.jpg" alt="Street Whale" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

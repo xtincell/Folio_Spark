@@ -15,6 +15,8 @@ etat: "standard"
 # Singuila — séance d'écoute de l'album « Docteur Love »
 
 <!-- wiki:infobox -->
+![Singuila — séance d'écoute de l'album « Docteur Love »](../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/01.webp)
+
 | Singuila — séance d'écoute de l'album « Docteur Love » | |
 | --- | --- |
 | Client | [Universal Music Africa](../organisations/universal-music-africa.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Soirée d'écoute sur un rooftop : Singuila chante au micro au milieu des invités, fresque africaine en fond.
 - **Identification** : noms de fichiers « Singuila-ecoute-… » ; « Docteur Love » sorti le 12/02/2021 chez Universal Music Africa, présenté à Douala et Yaoundé en février 2021
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/02.webp"><img src="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/02.webp" alt="Singuila — séance d'écoute de l'album « Docteur Love »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/03.webp"><img src="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/03.webp" alt="Singuila — séance d'écoute de l'album « Docteur Love »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/04.webp"><img src="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/04.webp" alt="Singuila — séance d'écoute de l'album « Docteur Love »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/05.webp"><img src="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/05.webp" alt="Singuila — séance d'écoute de l'album « Docteur Love »" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/06.webp"><img src="../../public/medias-wiki/projets/evt-2021-02-19-singuila-seance-d-ecoute-de-l-album-docteur-love/06.webp" alt="Singuila — séance d'écoute de l'album « Docteur Love »" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

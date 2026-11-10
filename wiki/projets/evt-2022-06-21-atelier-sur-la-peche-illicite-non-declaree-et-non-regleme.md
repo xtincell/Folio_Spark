@@ -15,6 +15,8 @@ etat: "standard"
 # Atelier sur la pêche illicite, non déclarée et non réglementée (INN)
 
 <!-- wiki:infobox -->
+![Atelier sur la pêche illicite, non déclarée et non réglementée (INN)](../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/01.webp)
+
 | Atelier sur la pêche illicite, non déclarée et non réglementée (INN) | |
 | --- | --- |
 | Client | [AMMCO](../organisations/ammco.md) |
@@ -37,6 +39,16 @@ etat: "standard"
 - **Ce que montrent les images** : Ouverture officielle, allocutions au pupitre de l'hôtel, présentation « Stop IUU fishing in Cameroon », travaux en salle, interviews presse, déjeuner autour de la piscine.
 - **Identification** : bâche « Government effort to improve fishery management and stopping illegal, unregulated, unreported (IUU) fishing — 21-22 juin 2022 — à l'Hôtel Sawa Douala » ; panneau « AMMCO Séminaire Sawa I »
 - **Fiabilité** : confirmé
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/02.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/02.webp" alt="Atelier sur la pêche illicite, non déclarée et non réglementée (INN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/03.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/03.webp" alt="Atelier sur la pêche illicite, non déclarée et non réglementée (INN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/04.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/04.webp" alt="Atelier sur la pêche illicite, non déclarée et non réglementée (INN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/05.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/05.webp" alt="Atelier sur la pêche illicite, non déclarée et non réglementée (INN)" width="240"></a>
+<a href="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/06.webp"><img src="../../public/medias-wiki/projets/evt-2022-06-21-atelier-sur-la-peche-illicite-non-declaree-et-non-regleme/06.webp" alt="Atelier sur la pêche illicite, non déclarée et non réglementée (INN)" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives
 

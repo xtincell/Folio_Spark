@@ -9,6 +9,8 @@ etat: "ebauche"
 # Mboa BD
 
 <!-- wiki:infobox -->
+![Mboa BD](../../public/medias-wiki/projets/evt-2021-11-18-concert-dessine-festival-mboa-bd-2021/01.webp)
+
 | Mboa BD | |
 | --- | --- |
 | Nature | Festival de bande dessinée |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/mboa-bd-travaux.md"><img src="../../public/medias-wiki/projets/mboa-bd-travaux/01.webp" alt="Mboa BD — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

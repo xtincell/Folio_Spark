@@ -9,6 +9,8 @@ etat: "ebauche"
 # K Hotel
 
 <!-- wiki:infobox -->
+![K Hotel](../../public/medias-wiki/projets/evt-2025-02-15-k-hotel-dejeuner-d-equipe-ao-activation/01.webp)
+
 | K Hotel | |
 | --- | --- |
 | Nature | Hôtellerie |
@@ -22,6 +24,12 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/k-hotel-travaux.md"><img src="../../public/medias-wiki/projets/k-hotel-travaux/01.webp" alt="K Hotel — travaux" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 

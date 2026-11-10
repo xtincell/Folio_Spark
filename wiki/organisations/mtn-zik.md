@@ -9,6 +9,8 @@ etat: "ebauche"
 # MTN Zik
 
 <!-- wiki:infobox -->
+![MTN Zik](../../public/medias-wiki/projets/mtn-zik-travaux/01.webp)
+
 | MTN Zik | |
 | --- | --- |
 | Nature | Programme musical de MTN Cameroon |

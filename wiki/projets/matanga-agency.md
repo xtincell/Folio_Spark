@@ -15,6 +15,8 @@ etat: "ebauche"
 # Matanga Agency — Casting & marque
 
 <!-- wiki:infobox -->
+![Matanga Agency — Casting & marque](../../public/work/cases/matanga-agency/hero.webp)
+
 | Matanga Agency — Casting & marque | |
 | --- | --- |
 | Client | [MATANGA Agency](../organisations/matanga-agency.md) |
@@ -31,6 +33,17 @@ etat: "ebauche"
 ## Contexte
 
 Campagne d'appel à casting et contenu de marque pour Matanga Agency (« We Love Brands ») : key visuals de casting (talents 30-50 ans), logo triple-pic et contenu mascotte 3D.
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../../public/work/cases/matanga-agency/01.webp"><img src="../../public/work/cases/matanga-agency/01.webp" alt="Matanga Agency — Casting & marque" width="240"></a>
+<a href="../../public/work/cases/matanga-agency/02.webp"><img src="../../public/work/cases/matanga-agency/02.webp" alt="Matanga Agency — Casting & marque" width="240"></a>
+<a href="../../public/work/cases/matanga-agency/03.webp"><img src="../../public/work/cases/matanga-agency/03.webp" alt="Matanga Agency — Casting & marque" width="240"></a>
+<a href="../../public/work/cases/matanga-agency/04.webp"><img src="../../public/work/cases/matanga-agency/04.webp" alt="Matanga Agency — Casting & marque" width="240"></a>
+<a href="../../public/work/cases/matanga-agency/05.webp"><img src="../../public/work/cases/matanga-agency/05.webp" alt="Matanga Agency — Casting & marque" width="240"></a>
+<a href="../../public/work/cases/matanga-agency/06.webp"><img src="../../public/work/cases/matanga-agency/06.webp" alt="Matanga Agency — Casting & marque" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Preuves et médias
 

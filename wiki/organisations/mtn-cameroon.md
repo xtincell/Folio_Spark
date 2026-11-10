@@ -9,6 +9,8 @@ etat: "ebauche"
 # MTN Cameroon
 
 <!-- wiki:infobox -->
+![MTN Cameroon](../../public/medias-wiki/projets/evt-2024-09-24-k-mer-otaku-festival-edition-de-douala-avec-mtn-y-ello-hu/01.webp)
+
 | MTN Cameroon | |
 | --- | --- |
 | Nature | Opérateur télécom |
@@ -22,6 +24,17 @@ etat: "ebauche"
 ## Présentation
 
 _À documenter._
+
+## Galerie
+
+<!-- wiki:galerie -->
+<a href="../projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023.md"><img src="../../public/medias-wiki/projets/evt-2023-03-26-concert-mtn-en-plein-air-26-03-2023/01.webp" alt="Concert MTN en plein air (26/03/2023)" width="240"></a>
+<a href="../projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re.md"><img src="../../public/medias-wiki/projets/evt-2023-05-11-mtn-business-academy-formation-au-marketing-digital-et-re/01.webp" alt="MTN Business Academy — formation au marketing digital et remise de certificats" width="240"></a>
+<a href="../projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro.md"><img src="../../public/medias-wiki/projets/evt-2023-11-09-mtn-y-ello-forum-rencontre-entreprises-mtn-business-micro/01.webp" alt="MTN Y'ello Forum — rencontre entreprises (MTN Business × Microsoft)" width="240"></a>
+<a href="../projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z.md"><img src="../../public/medias-wiki/projets/evt-2022-02-26-mtn-zik-festival-finale-de-la-saison-1-du-programme-mtn-z/01.webp" alt="MTN Zik Festival — finale de la saison 1 du programme MTN Zik" width="240"></a>
+<a href="../projets/mtn-cameroon-travaux.md"><img src="../../public/medias-wiki/projets/mtn-cameroon-travaux/01.webp" alt="MTN Cameroon — travaux" width="240"></a>
+<a href="../projets/evt-2021-08-19-mtn-holidayz-yomo-soiree-d-ete-en-jardin.md"><img src="../../public/medias-wiki/projets/evt-2021-08-19-mtn-holidayz-yomo-soiree-d-ete-en-jardin/01.webp" alt="MTN HolidayZ / YoMo — soirée d'été en jardin" width="240"></a>
+<!-- /wiki:galerie -->
 
 ## Archives de travail
 
