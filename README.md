@@ -46,9 +46,19 @@ npm run lint              # next lint
 ## Déploiement — Coolify (prod)
 
 **Prod : https://xtincell.powerupgraders.com** (alias : folio.powerupgraders.com) — app Coolify
-« Xtincell », branche `main`, auto-deploy au push. `NEXT_PUBLIC_SITE_URL` est définie côté Coolify
-(build-time). Le projet Vercel `folio-spark` est un reliquat : préversions de PR uniquement —
-à déconnecter dans le dashboard Vercel si inutile.
+« Xtincell », branche `main`, commit `HEAD` (jamais épinglé). `NEXT_PUBLIC_SITE_URL` est définie
+côté Coolify (build-time). Le projet Vercel `folio-spark` est un reliquat : préversions de PR
+uniquement — à déconnecter dans le dashboard Vercel si inutile.
+
+**Déploiement automatique** (rétabli le 10 novembre 2026) : un webhook GitHub `push` appelle
+`https://coolify.powerupgraders.com/webhooks/source/github/events/manual`, signé avec le secret
+« manual webhook » de l'app ; l'option *auto deploy* est active côté Coolify. Chaque push sur
+`main` (donc chaque PR fusionnée) déclenche un build.
+
+> Jusqu'au 10 novembre 2026, aucun webhook n'existait et l'app suivait une branche de travail avec
+> un commit épinglé : la prod ignorait `main`. Si un déploiement ne part pas, vérifier dans Coolify
+> la branche (`main`), le commit (`HEAD`) et l'option *auto deploy*, puis relancer à la main :
+> `POST /api/v1/deploy` avec `{"uuid": "<uuid de l'app>"}` (le `GET` est refusé).
 
 **Liens agence** : les CTA « UPgraders » du folio pointent vers le site officiel
 **https://powerupgraders.com**. Les pages internes `/upgraders/*` restent en ligne (archive,
