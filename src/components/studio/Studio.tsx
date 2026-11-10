@@ -94,7 +94,6 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
     ['/design', 'Design folio · EN'],
     ['/tech', L('Outils & expériences', 'Tools & experiments')],
     ['/tarifs', L('Travailler ensemble', 'Working together')],
-    ['/recrutement', L('Recrutement', 'Hiring')],
     ['/upgraders', 'UPgraders'],
   ];
   return (

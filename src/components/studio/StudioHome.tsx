@@ -543,7 +543,7 @@ export function StudioHome() {
 
       <section className={s.nextChapter} id="la-suite" lang={lang}>
         <span className={s.overline}>
-          {L("Le prochain chapitre", "The next chapter")}
+          {L("Le prochain chapitre · Vers des horizons plus grands", "The next chapter · Towards wider horizons")}
         </span>
         <div>
           <h2>

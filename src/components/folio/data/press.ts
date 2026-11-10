@@ -58,6 +58,51 @@ export const PRESS: PressItem[] = [
     },
   },
   {
+    outlet: 'Digressions',
+    title: {
+      fr: 'Être créatif en Afrique avec Alexandre Djengue',
+      en: 'Being a creative in Africa, with Alexandre Djengue',
+    },
+    url: 'https://mesdigressions.com/comment-gagnger-argent-creatif-afrique/',
+    date: { fr: '2021', en: '2021' },
+    iso: '2021',
+    type: 'interview',
+    excerpt: {
+      fr: 'Entretien dans le podcast d’Anne-Marie C. Befoune, qui le présente comme blogueur, youtubeur, podcasteur et photographe : le marché créatif en Afrique, la méfiance des clients envers les créatifs locaux, le manque d’infrastructures.',
+      en: 'Interview on Anne-Marie C. Befoune’s podcast, which introduces him as a blogger, YouTuber, podcaster and photographer: the creative market in Africa, clients’ distrust of local creatives, the lack of infrastructure.',
+    },
+  },
+  {
+    outlet: 'Nkowa&Co',
+    title: {
+      fr: 'Mon top 15 des blogs camerounais à suivre',
+      en: 'My top 15 Cameroonian blogs to follow',
+    },
+    url: 'https://nkowa.com/mon-top-15-des-blogueurs-camerounais-a-suivre/',
+    date: { fr: 'Oct. 2020', en: 'Oct. 2020' },
+    iso: '2020-10',
+    type: 'feature',
+    excerpt: {
+      fr: 'René Nkowa le classe parmi les blogueurs camerounais à suivre et le présente comme « un infographiste de talent ».',
+      en: 'René Nkowa lists him among the Cameroonian bloggers to follow and calls him “a talented graphic designer”.',
+    },
+  },
+  {
+    outlet: 'Le blog du disrupteur',
+    title: {
+      fr: 'Mon expérience de designer graphique free-lance au Cameroun',
+      en: 'My experience as a freelance graphic designer in Cameroon',
+    },
+    url: 'https://leblogdudisrupteur.com/2018/10/08/mon-experience-de-designer-graphique-free-lance-au-cameroun-par-alexandre-djengue/',
+    date: { fr: 'Oct. 2018', en: 'Oct. 2018' },
+    iso: '2018-10',
+    type: 'feature',
+    excerpt: {
+      fr: 'Témoignage signé, publié par Ace : des télécoms au centre d’appels, puis au graphisme indépendant, au blog Geek de brousse et au pseudonyme Xtincell.',
+      en: 'A first-person account, published by Ace: from telecoms to a call centre, then to freelance graphic design, the Geek de brousse blog and the Xtincell pseudonym.',
+    },
+  },
+  {
     outlet: 'Créapreneur',
     title: {
       fr: 'Créapreneur — archives du podcast sur l’entrepreneuriat créatif',
