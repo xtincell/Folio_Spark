@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { PROJECT_PRESENTATIONS } from '@/lib/project-presentations';
-import { AnimatedBrand } from './AnimatedBrand';
+import { FlameMark } from '@/components/folio/FlameMark';
 import { useLang, pick } from '@/lib/i18n';
 import { CONTACT } from '@/components/folio/data/contact';
 import { type CaseStudy, HAT_LABEL } from '@/components/folio/data/cases';
@@ -105,7 +105,14 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
   ];
   return (
     <header className={`${s.header} ${overlay ? s.headerOverlay : ''}`} lang={lang}>
-      <AnimatedBrand />
+      <Link
+        href="/"
+        className={s.brand}
+        aria-label={L('Xtincell — accueil', 'Xtincell — home')}
+      >
+        <FlameMark size={30} animated={false} />
+        xtincell
+      </Link>
       <span className={s.headerDescriptor}>
         {L('Direction créative', 'Creative direction')}
         <br />
