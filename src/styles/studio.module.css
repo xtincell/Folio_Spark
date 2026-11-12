@@ -2993,8 +2993,6 @@
   .projectImage img,.photoInvitation img,.methodStep summary>svg { transition: none; }
 }
 
-/* Magazine navigation */
-.header.headerOverlay { height:64px; background:#090909; }
 
 /* Lien vers l'archive complète du wiki (barre de résultats de /work). */
 .results { flex-wrap: wrap; gap: 6px 24px; }
