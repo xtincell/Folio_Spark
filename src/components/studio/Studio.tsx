@@ -98,6 +98,7 @@ export function StudioHeader({ overlay = false }: { overlay?: boolean }) {
     ['/tech', L('Outils & expériences', 'Tools & experiments')],
     ['/galerie', L('Galerie', 'Gallery')],
     ['/cv', L('À propos / CV', 'About / Résumé')],
+    ['/podcast', L('Créapreneur — le podcast', 'Créapreneur — podcast')],
     ['/wiki', L('Wiki — tous les projets', 'Wiki — every project (FR)')],
     ['/#carnet', L('Carnet personnel', 'Personal notebook')],
     ['/design', 'Design folio · EN'],
