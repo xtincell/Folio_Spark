@@ -116,7 +116,7 @@ async function renderPdf(browser, url, outFile, title) {
       <span>${title} — Xtincell · Alexandre Djengue</span>
     </div>`,
     footerTemplate: `<div style="font-family:'Helvetica',sans-serif;font-size:8px;color:#888;width:100%;padding:0 14mm;display:flex;justify-content:space-between;">
-      <span>xtincell.com</span>
+      <span>xtincell.powerupgraders.com</span>
       <span>p. <span class="pageNumber"></span> / <span class="totalPages"></span></span>
     </div>`,
   });

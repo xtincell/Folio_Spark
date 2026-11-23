@@ -82,8 +82,10 @@ export function TarifsClient() {
 
   const draft = [
     L('Bonjour Alexandre,', 'Hello Alexandre,'),
-    L('Je souhaite discuter d’une collaboration. Voici mon point de départ :', 'I would like to discuss a collaboration. Here is my starting point:'),
-    ...(brief.service ? [`${L('Prestation', 'Service')}\n${brief.service === 'equipe' ? L('Accompagnement d’équipe', 'Team support') : SERVICES.find(s => s.id === brief.service)?.name[lang] || brief.service}`] : []),
+    brief.service === 'passionne'
+      ? L('Je suis créatif et quelque chose me bloque. Voici où j’en suis :', 'I am a creative and something is holding me back. Here is where I am:')
+      : L('Je souhaite discuter d’une collaboration. Voici mon point de départ :', 'I would like to discuss a collaboration. Here is my starting point:'),
+    ...(brief.service && brief.service !== 'passionne' ? [`${L('Prestation', 'Service')}\n${brief.service === 'equipe' ? L('Accompagnement d’équipe', 'Team support') : SERVICES.find(s => s.id === brief.service)?.name[lang] || brief.service}`] : []),
     ...(brief.budget.trim() ? [`${L('Budget envisagé', 'Planned budget')}\n${brief.budget.trim()}`] : []),
     `${L('Enjeu', 'Challenge')}\n${brief.challenge.trim()}`,
     ...(brief.existing.trim() ? [`${L('Ce qui existe déjà', 'What already exists')}\n${brief.existing.trim()}`] : []),
@@ -91,7 +93,8 @@ export function TarifsClient() {
     ...(brief.timing.trim() ? [`${L('Échéance', 'Timing')}\n${brief.timing.trim()}`] : []),
   ].join('\n\n');
   const whatsappDraft = `${CONTACT.whatsappLink}?text=${encodeURIComponent(draft)}`;
-  const emailDraft = `mailto:${CONTACT.email}?subject=${encodeURIComponent(L('Discuter d’une collaboration', 'Discuss a collaboration'))}&body=${encodeURIComponent(draft)}`;
+  const emailSubject = brief.service === 'passionne' ? L('Je suis créatif et je bloque', 'I am a creative and I am stuck') : L('Discuter d’une collaboration', 'Discuss a collaboration');
+  const emailDraft = `mailto:${CONTACT.email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(draft)}`;
 
   function update(field: keyof Brief, value: string) {
     setBrief((current) => ({ ...current, [field]: value }));
@@ -194,11 +197,12 @@ export function TarifsClient() {
               <a href={CONTACT.whatsappLink} target="_blank" rel="noreferrer">WhatsApp <Arrow diagonal /></a>
               <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}<Arrow diagonal /></a>
             </div>
+            <p className={s.passionNote}>{L('Vous êtes créatif et quelque chose vous bloque ? Choisissez « Je suis créatif et je bloque » dans le formulaire. Chaque mois, je prends du temps pour des créatifs dans votre situation.', 'Are you a creative and something is holding you back? Choose “I am a creative and I am stuck” in the form. Every month, I set time aside for creatives in your situation.')}</p>
           </div>
           <div className={s.briefBody}>
             <form onSubmit={prepare}>
               <div className={s.fieldPair}>
-                <div className={s.field}><label htmlFor="brief-service">{L('La prestation', 'The service')} <span>{L('facultatif', 'optional')}</span></label><select id="brief-service" name="service" value={brief.service} onChange={event=>update('service',event.target.value)}><option value="">{L('À préciser ensemble', 'Let’s define it together')}</option>{SERVICES.map(service=><option key={service.id} value={service.id}>{service.name[lang]}</option>)}<option value="equipe">{L('Accompagnement d’équipe', 'Team support')}</option></select></div>
+                <div className={s.field}><label htmlFor="brief-service">{L('La prestation', 'The service')} <span>{L('facultatif', 'optional')}</span></label><select id="brief-service" name="service" value={brief.service} onChange={event=>update('service',event.target.value)}><option value="">{L('À préciser ensemble', 'Let’s define it together')}</option>{SERVICES.map(service=><option key={service.id} value={service.id}>{service.name[lang]}</option>)}<option value="equipe">{L('Accompagnement d’équipe', 'Team support')}</option><option value="passionne">{L('Je suis créatif et je bloque', 'I am a creative and I am stuck')}</option></select></div>
                 <div className={s.field}><label htmlFor="brief-budget">{L('Le budget envisagé', 'Your planned budget')} <span>{L('facultatif', 'optional')}</span></label><input id="brief-budget" name="budget" value={brief.budget} onChange={event=>update('budget',event.target.value)} maxLength={100} placeholder={L('Montant et devise, ou à définir', 'Amount and currency, or to be defined')} /></div>
               </div>
               <div className={s.field}>

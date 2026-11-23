@@ -324,3 +324,6 @@
 @media (prefers-reduced-motion: no-preference) {
   .service :is(h3,p,span,a,li,h4,button,figcaption) { transition: color .22s ease, border-color .22s ease; }
 }
+
+/* Porte « passionnés » (plan de vie 02 : nourrir et connecter) */
+.passionNote { margin-top: 20px; max-width: 360px; font-size: 13px; line-height: 1.55; color: var(--muted); border-left: 2px solid var(--orange, #ff682f); padding-left: 14px; }
