@@ -118,29 +118,6 @@ const fr = {
       ariaMain: 'Navigation principale',
     },
 
-    hero: {
-      vol: 'Vol. 15',
-      status: 'Disponible · Mandat 2026',
-      edition: 'Folio · Édition 2026',
-      titleL1: 'Je ne crée pas',
-      titleL2a: "de l'",
-      titleL2b: 'art',
-      titleL3: 'Je systémise',
-      titleL4a: 'le',
-      titleL4b: 'succès',
-      sub: "Directeur artistique formé en télécommunications. Je traite chaque marque comme un système d'exploitation : ADN, signaux, flux, conversion.",
-      ctaFolio: 'Voir le folio complet',
-      ctaCv: 'Lire le CV — 60 sec',
-      macaronRole: 'Rôle principal',
-      macaronMandate: 'Mandat actif',
-      tagName: 'NOM',
-      tagAlias: 'ALIAS',
-      tagBase: 'BASE',
-      tagVer: 'VER',
-      caption: 'Studio, 2026',
-      scroll: 'Scroll',
-    },
-
     manifesto: {
       label: 'Manifeste',
       title1: 'Le profil ',
@@ -212,18 +189,6 @@ const fr = {
         "L'humain garde la décision. La passion reste le propulseur.",
       ],
       cta: 'UPgraders — le site officiel',
-    },
-
-    contact: {
-      label: 'Disponibilité',
-      title1: 'En orbite,',
-      titleEm: 'disponible',
-      lede: "Basé entre Douala et Yaoundé, je me déplace à Abidjan et dans toute l'Afrique francophone pour des missions de conseil — IA, process, production. Sur site quand il faut, remote au-delà.",
-      whatsapp: 'WhatsApp — réponse rapide',
-      email: 'Email',
-      linkedin: 'LinkedIn',
-      status: 'Statut',
-      statusValue: 'Disponible pour missions de conseil',
     },
 
     press: {
@@ -398,29 +363,6 @@ const en: Dict = {
       ariaMain: 'Main navigation',
     },
 
-    hero: {
-      vol: 'Vol. 15',
-      status: 'Available · 2026 mandate',
-      edition: 'Folio · 2026 Edition',
-      titleL1: "I don't make",
-      titleL2a: '',
-      titleL2b: 'art',
-      titleL3: 'I systemise',
-      titleL4a: '',
-      titleL4b: 'success',
-      sub: 'Art director trained as a telecom engineer. I treat every brand like an operating system: DNA, signals, flows, conversion.',
-      ctaFolio: 'See the full folio',
-      ctaCv: 'Read the résumé — 60 sec',
-      macaronRole: 'Primary role',
-      macaronMandate: 'Active mandate',
-      tagName: 'NAME',
-      tagAlias: 'ALIAS',
-      tagBase: 'BASE',
-      tagVer: 'VER',
-      caption: 'Studio, 2026',
-      scroll: 'Scroll',
-    },
-
     manifesto: {
       label: 'Manifesto',
       title1: 'The ',
@@ -492,18 +434,6 @@ const en: Dict = {
         'The human keeps the decision. Passion stays the propellant.',
       ],
       cta: 'UPgraders — official site',
-    },
-
-    contact: {
-      label: 'Availability',
-      title1: 'In orbit,',
-      titleEm: 'available',
-      lede: "Based between Douala and Yaoundé, I travel to Abidjan and across French-speaking Africa for consulting engagements — AI, process, production. On-site when needed, remote beyond.",
-      whatsapp: 'WhatsApp — fast reply',
-      email: 'Email',
-      linkedin: 'LinkedIn',
-      status: 'Status',
-      statusValue: 'Available for consulting',
     },
 
     press: {

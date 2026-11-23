@@ -18,7 +18,7 @@ ENV NEXT_TELEMETRY_DISABLED=1 \
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 # NEXT_PUBLIC_SITE_URL est inliné au build (metadata, sitemap, JSON-LD).
-ARG NEXT_PUBLIC_SITE_URL=https://xtincell.com
+ARG NEXT_PUBLIC_SITE_URL=https://xtincell.powerupgraders.com
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 RUN npm run build
 
