@@ -1,0 +1,149 @@
+{
+  "headers": [
+    {
+      "file": "spark-apparition-16x9-nuit.mp4",
+      "dimensions": "1920x1080",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-16x9-alpha.webm",
+      "dimensions": "1920x1080",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-16x9-alpha.mov",
+      "dimensions": "1920x1080",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-1x1-nuit.mp4",
+      "dimensions": "1080x1080",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-1x1-alpha.webm",
+      "dimensions": "1080x1080",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-1x1-alpha.mov",
+      "dimensions": "1080x1080",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-9x16-nuit.mp4",
+      "dimensions": "1080x1920",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-9x16-alpha.webm",
+      "dimensions": "1080x1920",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-apparition-9x16-alpha.mov",
+      "dimensions": "1080x1920",
+      "fps": 60,
+      "duration": 3.2
+    },
+    {
+      "file": "spark-boucle-16x9-nuit.mp4",
+      "dimensions": "1920x1080",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-16x9-alpha.webm",
+      "dimensions": "1920x1080",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-16x9-alpha.mov",
+      "dimensions": "1920x1080",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-1x1-nuit.mp4",
+      "dimensions": "1080x1080",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-1x1-alpha.webm",
+      "dimensions": "1080x1080",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-1x1-alpha.mov",
+      "dimensions": "1080x1080",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-9x16-nuit.mp4",
+      "dimensions": "1080x1920",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-9x16-alpha.webm",
+      "dimensions": "1080x1920",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-boucle-9x16-alpha.mov",
+      "dimensions": "1080x1920",
+      "fps": 60,
+      "duration": 4.0
+    },
+    {
+      "file": "spark-film-16x9-nuit.mp4",
+      "dimensions": "1920x1080",
+      "fps": 60,
+      "duration": 7.2
+    },
+    {
+      "file": "spark-film-1x1-nuit.mp4",
+      "dimensions": "1080x1080",
+      "fps": 60,
+      "duration": 7.2
+    },
+    {
+      "file": "spark-film-9x16-nuit.mp4",
+      "dimensions": "1080x1920",
+      "fps": 60,
+      "duration": 7.2
+    }
+  ],
+  "transparency": [
+    {
+      "file": "spark-apparition-1x1-alpha.webm",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "cornerAlpha": 0
+    },
+    {
+      "file": "spark-apparition-1x1-alpha.mov",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "cornerAlpha": 0
+    }
+  ],
+  "fullFilmDecoded": true
+}

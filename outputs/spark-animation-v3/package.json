@@ -1,0 +1,1 @@
+{"name":"spark-hybrid-animation","version":"3.0.0","private":true,"scripts":{"extract":"node source/extract.mjs && python3 source/extract-cels.py","render":"node source/render.mjs","verify":"node source/verify.mjs","encode":"python3 source/encode.py && python3 source/finish-exports.py"},"devDependencies":{"puppeteer":"24.42.0"}}

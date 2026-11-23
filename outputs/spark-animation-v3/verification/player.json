@@ -1,0 +1,33 @@
+{
+  "modes": [
+    {
+      "mode": "film",
+      "duration": 7.2,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "mode": "apparition",
+      "duration": 3.2,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "mode": "boucle",
+      "duration": 4,
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "portrait": [
+    1080,
+    1920
+  ],
+  "mobile": [
+    1080,
+    1080
+  ],
+  "slowRate": 0.5,
+  "overflow": false,
+  "errors": []
+}

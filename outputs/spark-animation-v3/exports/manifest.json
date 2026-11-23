@@ -1,0 +1,212 @@
+[
+  {
+    "file": "spark-apparition-16x9-nuit.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": false,
+    "bytes": 183133
+  },
+  {
+    "file": "spark-apparition-16x9-alpha.webm",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": true,
+    "bytes": 1987981
+  },
+  {
+    "file": "spark-apparition-16x9-alpha.mov",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": true,
+    "bytes": 34006419
+  },
+  {
+    "file": "spark-apparition-1x1-nuit.mp4",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": false,
+    "bytes": 179008
+  },
+  {
+    "file": "spark-apparition-1x1-alpha.webm",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": true,
+    "bytes": 2006436
+  },
+  {
+    "file": "spark-apparition-1x1-alpha.mov",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": true,
+    "bytes": 31794318
+  },
+  {
+    "file": "spark-apparition-9x16-nuit.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": false,
+    "bytes": 185052
+  },
+  {
+    "file": "spark-apparition-9x16-alpha.webm",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": true,
+    "bytes": 1970691
+  },
+  {
+    "file": "spark-apparition-9x16-alpha.mov",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 3.2,
+    "frames": 192,
+    "alpha": true,
+    "bytes": 34283697
+  },
+  {
+    "file": "spark-boucle-16x9-nuit.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": false,
+    "bytes": 190968
+  },
+  {
+    "file": "spark-boucle-16x9-alpha.webm",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": true,
+    "bytes": 2148234
+  },
+  {
+    "file": "spark-boucle-16x9-alpha.mov",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": true,
+    "bytes": 43711847
+  },
+  {
+    "file": "spark-boucle-1x1-nuit.mp4",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": false,
+    "bytes": 185737
+  },
+  {
+    "file": "spark-boucle-1x1-alpha.webm",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": true,
+    "bytes": 2127307
+  },
+  {
+    "file": "spark-boucle-1x1-alpha.mov",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": true,
+    "bytes": 40818271
+  },
+  {
+    "file": "spark-boucle-9x16-nuit.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": false,
+    "bytes": 192276
+  },
+  {
+    "file": "spark-boucle-9x16-alpha.webm",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": true,
+    "bytes": 2126218
+  },
+  {
+    "file": "spark-boucle-9x16-alpha.mov",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 4.0,
+    "frames": 240,
+    "alpha": true,
+    "bytes": 44193928
+  },
+  {
+    "file": "spark-film-16x9-nuit.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 7.2,
+    "frames": 432,
+    "alpha": false,
+    "bytes": 373306
+  },
+  {
+    "file": "spark-film-1x1-nuit.mp4",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "seconds": 7.2,
+    "frames": 432,
+    "alpha": false,
+    "bytes": 363959
+  },
+  {
+    "file": "spark-film-9x16-nuit.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "seconds": 7.2,
+    "frames": 432,
+    "alpha": false,
+    "bytes": 376533
+  }
+]

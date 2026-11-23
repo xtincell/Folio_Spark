@@ -1,0 +1,125 @@
+{
+  "source": "02-etude-flammes-aplats.png",
+  "white": "original SVG, unmodified paths",
+  "background": "#0A0E1A",
+  "flames": "#F05A28",
+  "anchors": {
+    "0": [
+      300,
+      272
+    ],
+    "1": [
+      272,
+      356
+    ],
+    "5": [
+      178,
+      343
+    ]
+  },
+  "cels": [
+    {
+      "cel": 1,
+      "flame_translation_px": {
+        "5": [
+          2,
+          3
+        ],
+        "0": [
+          2,
+          1
+        ],
+        "1": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "cel": 2,
+      "flame_translation_px": {
+        "5": [
+          -1,
+          2
+        ],
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "cel": 3,
+      "flame_translation_px": {
+        "5": [
+          -2,
+          5
+        ],
+        "0": [
+          2,
+          1
+        ],
+        "1": [
+          1,
+          -2
+        ]
+      }
+    },
+    {
+      "cel": 4,
+      "flame_translation_px": {
+        "5": [
+          -4,
+          6
+        ],
+        "0": [
+          1,
+          5
+        ],
+        "1": [
+          1,
+          -2
+        ]
+      }
+    },
+    {
+      "cel": 5,
+      "flame_translation_px": {
+        "5": [
+          0,
+          4
+        ],
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "cel": 6,
+      "flame_translation_px": {
+        "5": [
+          2,
+          3
+        ],
+        "0": [
+          2,
+          1
+        ],
+        "1": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "status": "six-cel motion study; not a final seamless loop"
+}

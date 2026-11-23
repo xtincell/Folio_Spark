@@ -1,0 +1,12 @@
+{
+  "failures": [],
+  "samples": 866,
+  "minWidth": 0,
+  "rootError": 5.684341886080802e-14,
+  "sameLoop": true,
+  "firstMillisecondMaxDisplacement": 0.000047977293036183255,
+  "finalComparison": {
+    "differentChannels": 0,
+    "maxDifference": 0
+  }
+}

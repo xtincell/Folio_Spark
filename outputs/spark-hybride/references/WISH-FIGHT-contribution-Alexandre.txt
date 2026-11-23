@@ -1,0 +1,236 @@
+Oui. Le dernier storyboard a fait exactement l’erreur qu’il fallait éviter : il a **choisi une lecture**. D’abord « étoile filante », puis « lame ». Or le symbole fonctionne précisément parce qu’il ne tranche jamais entre les deux.
+
+Les bonnes idées qu’on avait trouvées étaient ailleurs : **le logo ne se construit pas, il se résout** ; la lame **dépasse** la géométrie plutôt que d’être ajoutée ; les flammes sont une **rémanence**, pas trois stickers orange ; et surtout, tout doit provenir d’un **seul événement physique**.
+
+Je fixerais donc l’intention comme ceci.
+
+# XTINCELL — « WISH / FIGHT »
+
+L’animation montre **un seul geste**, interprétable de deux manières simultanément.
+
+Vu comme un phénomène céleste : une étoile tombe, son éclat se contracte, sa trajectoire se tend et le feu danse dans son sillage.
+
+Vu comme une arme : une lame traverse l’obscurité, son noyau s’embrase et le feu se déploie autour d’une lame blanche brillante.
+
+À aucun moment l’animation ne dit :
+
+> « maintenant c’est une étoile »  
+> puis  
+> « maintenant c’est une épée ».
+
+Elle dit constamment les deux.
+
+**Just make a wish. / Be ready to fight.**
+
+C’est le même événement selon l’état d’esprit de celui qui le regarde.
+
+---
+
+## La loi physique de l’animation
+
+Il faut une hiérarchie extrêmement simple :
+
+**Blanc = direction, structure, lumière, lame.**  
+**Orange = énergie résiduelle, combustion, mouvement secondaire.**
+
+Le blanc mène toujours.
+
+L’orange suit toujours avec un léger retard.
+
+C’est crucial : si l’orange précède le blanc, on obtient un logo de feu. S’il suit le blanc, il peut être simultanément **la traîne d’une étoile** et **l’ignition d’une lame**.
+
+La structure entière se déplace selon **la diagonale naturelle du master**. Aucune rotation gratuite. Aucun cercle orbital. Aucun tourbillon cosmique.
+
+Les arcs ne viennent que des courbes déjà présentes dans le logo.
+
+---
+
+# Le mouvement
+
+L’animation commence par une **trajectoire**, pas par un logo.
+
+Une ligne blanche extrêmement fine traverse rapidement le champ selon l’axe définitif du symbole.
+
+Elle peut être lue comme :
+
+**une étoile distante qui chute**, ou  
+**le reflet d’une lame en mouvement**.
+
+Puis arrive le moment important : **l’arrêt**.
+
+Pas un arrêt brutal mécanique. Une compression.
+
+L’énergie qui avançait le long de la diagonale se concentre soudainement au futur centre du symbole.
+
+C’est là que le concept devient fort.
+
+Pour la lecture « étoile » : c’est le moment où l’astre devient suffisamment proche et lumineux pour être visible.
+
+Pour la lecture « lame » : c’est le point d’ignition, presque comme une étincelle produite par le dégainé ou l’impact.
+
+Un même phénomène.
+
+---
+
+## Puis le noyau éclot
+
+La petite concentration blanche s’ouvre suivant les axes du symbole.
+
+Les aiguilles apparaissent d’abord parce qu’elles sont les éléments les plus rapides et les plus légers.
+
+Le centre blanc gagne ensuite du volume.
+
+Mais il ne faut surtout pas faire « une étoile qui grossit ».
+
+Il faut plutôt avoir la sensation que **la vitesse se transforme en forme**.
+
+La ligne que nous suivions devient progressivement l’une des branches du symbole.
+
+Les autres directions en émergent comme des tensions secondaires.
+
+Et là apparaît la première vraie ambiguïté :
+
+on regarde maintenant soit **une étoile filante vue en plein mouvement**, soit **une garde lumineuse autour d’une lame**.
+
+---
+
+# La grande forme blanche est le pivot de toute l’ambiguïté
+
+C’est là que le précédent storyboard devait être beaucoup plus intelligent.
+
+Cette forme ne doit pas être introduite comme :
+
+> « maintenant la lame apparaît ».
+
+Elle doit naître **directement de la trajectoire précédente**.
+
+La traînée blanche gagne progressivement de l’épaisseur.
+
+Sa pointe reste vive.
+
+Sa base se connecte au noyau.
+
+Elle devient cette grande forme blanche caractéristique.
+
+Pour le spectateur qui voyait une étoile : c’est toujours **la longue trace lumineuse du corps céleste**.
+
+Pour celui qui voit une arme : il vient de réaliser qu’il regardait **une lame** depuis le début.
+
+C’est exactement le type de révélation que je chercherais.
+
+Pas un morphing.
+
+Un **changement de lecture sans changement d’objet**.
+
+---
+
+# Puis vient l’ignition
+
+À ce moment seulement apparaît l’orange.
+
+Mais pas sous forme de trois flammes immédiatement reconnaissables.
+
+L’énergie blanche vient de traverser la géométrie.
+
+Une petite quantité d’orange reste momentanément attachée à son passage.
+
+La première chose perceptible serait donc une **fine peau orange**, presque une afterimage, dans les zones correspondant aux futures flammes.
+
+Et cette énergie commence à se détacher du corps principal.
+
+Pour une étoile filante : le gaz chaud et le sillage sont pris dans la turbulence.
+
+Pour une lame : l’arme vient de s’embraser.
+
+Encore une fois : même mouvement.
+
+---
+
+# Les flammes doivent danser, pas apparaître
+
+Et ici on retrouve ton expression exacte : **« flame dancing around »**.
+
+Les flammes ne doivent donc jamais faire :
+
+F3 apparaît.  
+Puis F2 apparaît.  
+Puis F1 apparaît.
+
+C’était trop mécanique.
+
+Les trois naissent quasiment du même événement, mais avec des inerties différentes.
+
+La petite flamme réagit très vite.
+
+La moyenne se développe avec un léger retard.
+
+La grande flamme est la plus expressive : sa base trouve assez rapidement sa position finale, mais sa pointe poursuit un arc avant de revenir dans la silhouette du master.
+
+Donc le spectateur voit littéralement **le feu trouver sa position autour du signe**.
+
+Ce n’est plus de l’assemblage.
+
+C’est une combustion qui se stabilise.
+
+---
+
+# Les 16 keyframes deviennent alors ceci
+
+| KF | Mouvement réel | Lecture « Shooting Star » | Lecture « Ignition Blade » |
+|---|---|---|---|
+| **01** | Champ sombre, presque rien. | Ciel avant le passage. | Silence avant le mouvement. |
+| **02** | Un minuscule éclat apparaît loin sur la diagonale. | Étoile distante. | Premier reflet métallique. |
+| **03** | L’éclat commence une accélération. | L’étoile tombe. | Une lame entre dans le mouvement. |
+| **04** | Une ligne blanche très fine se forme derrière/devant le point. | Trajectoire lumineuse. | Slash / reflet du tranchant. |
+| **05** | La vitesse augmente ; léger motion stretch suivant l’axe. | Shooting star évidente. | Lame lancée à grande vitesse. |
+| **06** | L’énergie converge vers le futur centre du symbole. | L’astre approche. | Le point d’ignition se prépare. |
+| **07** | Compression très courte du noyau blanc. | Éclat extrêmement intense. | Étincelle d’impact / activation. |
+| **08** | Les aiguilles jaillissent selon les axes du master. | Starburst. | Flash métallique autour de la garde. |
+| **09** | Le noyau gagne son volume caractéristique. | Corps brillant de l’étoile. | Garde / cœur énergétique de l’arme. |
+| **10** | La longue trajectoire blanche gagne progressivement de la largeur. | Traîne lumineuse dense. | La lame devient soudain lisible. |
+| **11** | Toute la structure blanche approche du master. | Étoile filante stylisée. | Arme lumineuse entièrement révélée. |
+| **12** | Première rémanence orange extrêmement fine. | Plasma dans le sillage. | Début d’ignition. |
+| **13** | Les trois zones orange commencent simultanément à se séparer du flux. | Turbulences autour de l’astre. | Feu qui enveloppe la lame. |
+| **14** | Les flammes prennent leur masse ; leurs pointes continuent leurs arcs. | Sillage vivant. | Lame désormais embrasée. |
+| **15** | Le blanc est déjà parfaitement stable ; l’orange termine son follow-through. | Étoile suspendue dans une chute éternelle. | Posture de combat, feu encore vivant. |
+| **16** | Master exact. Flammes en micro-mouvement naturel uniquement. | **Shooting star. Make a wish.** | **Ignition blade. Be ready to fight.** |
+
+Le point le plus important est **KF10**.
+
+C’est le frame-charnière.
+
+Avant lui, on peut très facilement croire qu’on regarde uniquement une étoile filante.
+
+Après lui, on comprend soudain que **la longue traînée blanche était également une lame depuis le début**.
+
+Mais rien ne morph réellement en épée.
+
+C’est le cerveau du spectateur qui requalifie ce qu’il vient de voir.
+
+C’est beaucoup plus sophistiqué.
+
+---
+
+## Et la position finale prend enfin un sens
+
+Je ne toucherais quasiment pas au logo une fois arrivé.
+
+Parce que sa posture statique est précisément la synthèse.
+
+Il est toujours « en train de tomber » : les lignes et les flammes impliquent une vitesse qui existait avant l’image.
+
+Et il est simultanément « prêt à combattre » : la lame est arrêtée dans une posture stable, tandis que le feu continue à vivre autour.
+
+Donc le dernier frame ne signifie pas :
+
+**« l’animation est terminée ».**
+
+Il signifie :
+
+**« le mouvement visible est devenu potentiel ».**
+
+L’étoile continue mentalement sa chute.
+
+La lame pourrait repartir à tout instant.
+
+C’est cette tension que le storyboard doit maintenant visualiser.

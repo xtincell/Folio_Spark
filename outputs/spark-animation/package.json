@@ -1,0 +1,12 @@
+{
+  "name": "spark-impulsion",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Spark logo motion study, deterministic six-path SVG source",
+  "scripts": {
+    "render": "node source/render.mjs",
+    "check": "node source/check-ui.mjs",
+    "encode": "python3 source/encode.py"
+  },
+  "devDependencies": { "puppeteer": "24.42.0" }
+}

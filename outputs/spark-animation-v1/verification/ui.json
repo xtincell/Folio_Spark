@@ -1,0 +1,10 @@
+{
+  "reducedMotion": true,
+  "pause": true,
+  "threeFormats": true,
+  "transparent": true,
+  "slowMotion": true,
+  "scrubbing": true,
+  "mobileOverflow": false,
+  "runtimeErrors": []
+}
