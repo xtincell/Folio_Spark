@@ -144,5 +144,7 @@
     "camera",
     "board",
     "foregroundHand"
-  ]
+  ],
+  "status": "archived: rejected during visual review",
+  "replacement": "/character/graphic-rig/rig.json"
 }
